@@ -344,7 +344,7 @@ Core: sentences 1 and 3. Develop / Stretch: sentence 2 and explain the wrong opt
   ]),
   C.prepSlide({
     ...NEXT,
-    words: [['مُسْتَشْفًى', 'hospital', ''], ['بَنْكٌ', 'bank', ''], ['مَكْتَبَةٌ', 'library', ''], ['مَقْهًى', 'café', ''], ['مَحَطَّةُ القِطَارِ', 'train station', '']],
+    words: [['مُسْتَشْفًى', 'hospital', 'pl. مُسْتَشْفَيَاتٌ'], ['بَنْكٌ', 'bank', 'pl. بُنُوكٌ'], ['مَكْتَبَةٌ', 'library', 'pl. مَكْتَبَاتٌ'], ['مَقْهًى', 'café', 'pl. مَقَاهٍ'], ['مَحَطَّةُ القِطَارِ', 'train station', '']],
     questionEn: 'Write one Arabic sentence: which places are there in your town?',
     questionAr: 'مَاذَا يُوجَدُ فِي مَدِينَتِكَ؟',
     homework: {

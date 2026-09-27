@@ -199,10 +199,18 @@ function txt(s, text, x, y, w, h, o = {}) {
     });
   } else if (AR_RE.test(String(text))) {
     // English sentence containing Arabic words: Arabic segments in Amiri, a little larger so they stay legible
-    const runs = segs(stripMarkupRaw(String(text))).map((seg) => (AR_RE.test(seg)
-      ? { text: seg, options: { fontFace: 'Amiri', fontSize: Math.round(size * 1.3 * 2) / 2, bold: !!o.bold, color: o.arColor || o.color || C.ink, lang: 'ar-SA' } }
-      : { text: seg, options: { fontFace: o.font || 'Calibri', fontSize: size, bold: !!o.bold, italic: !!o.italic, color: o.color || C.ink } }));
-    s.addText(runs, { ...common, lineSpacingMultiple: o.lsm || undefined });
+    // one paragraph per line: pptxgenjs mis-breaks runs that contain their own newlines
+    const runs = [];
+    const lines = stripMarkupRaw(String(text)).split('\n');
+    lines.forEach((line, li) => {
+      const lineRuns = segs(line).map((seg) => (AR_RE.test(seg)
+        ? { text: seg, options: { fontFace: 'Amiri', fontSize: Math.round(size * 1.3 * 2) / 2, bold: !!o.bold, color: o.arColor || o.color || C.ink, lang: 'ar-SA' } }
+        : { text: seg, options: { fontFace: o.font || 'Calibri', fontSize: size, bold: !!o.bold, italic: !!o.italic, color: o.color || C.ink } }));
+      if (!lineRuns.length) lineRuns.push({ text: ' ', options: { fontFace: o.font || 'Calibri', fontSize: size } });
+      if (li < lines.length - 1) lineRuns[lineRuns.length - 1].options.breakLine = true;
+      runs.push(...lineRuns);
+    });
+    s.addText(runs, { ...common, lineSpacingMultiple: o.lsm || (lines.length > 1 ? 1.15 : undefined) });
   } else {
     s.addText(String(text), {
       ...common, fontFace: o.font || 'Calibri', bold: !!o.bold, italic: !!o.italic, color: o.color || C.ink,
