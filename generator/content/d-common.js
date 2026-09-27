@@ -58,7 +58,11 @@ ${(x.vocabNotes && x.vocabNotes[gi]) || ''}`,
 }
 
 function devLesson(code, x) {
-  const s = site(code); const G = s.grammar; const unit = code.slice(0, 2);
+  // x.patch: teacher replacements where a website section is a generic placeholder (D2-L02 onwards: listening / reading
+  // questions, pattern translations, sorter, some mistakes). Scripts and texts always stay the website's.
+  const raw = site(code); const pt = x.patch || {};
+  const s = { ...raw, ...pt, listening: { ...raw.listening, ...(pt.listening || {}) }, reading: { ...raw.reading, ...(pt.reading || {}) } };
+  const G = s.grammar; const unit = code.slice(0, 2);
   const game = games[code.toLowerCase()];
   const slides = [];
   slides.push(C.titleSlide({
@@ -66,7 +70,8 @@ function devLesson(code, x) {
     siteRef: `Pathways › Development › ${unit} ${UNITS[unit].title} › ${code}`,
     plan: x.plan,
     source: x.source || `The website lesson “${s.title}”: vocabulary, grammar rules and quiz, patterns, common mistakes, sorter, listening, reading, speaking prompts and model, writing task and model, differentiation, final check and the lesson mission.${game ? ` Picture match: website visual game “${game.title.replace('Visual game — ', '')}”.` : ''}`,
-    support: x.support,
+    support: x.patch ? `${x.support}
+• TEACHER-WRITTEN ITEMS: on the website this lesson’s ${Object.keys(x.patch).join(', ')} items are generic placeholders, so the deck uses teacher-written questions and translations built on the website’s own script and text (flagged for the website editor).` : x.support,
   }));
   slides.push(C.welcomeSlide());
   slides.push(C.journeySlide({ teach: x.teach, wedo: x.wedo, next: x.next.nextCode }));
