@@ -105,7 +105,7 @@ Website teaching note: “Do not confuse أُفَضِّلُ ‘I prefer’ with 
     title: 'Like, dislike, prefer: match the picture',
     pick: [0, 1, 4],
     en: ['I like apples.', 'I don’t like milk.', 'I prefer coffee to fizzy drinks.'],
-    icons: [[['fa6', 'FaHeart', 'C0392B'], ['fa6', 'FaAppleWhole', 'C0392B']], [['fa6', 'FaBan', '6B6B6B'], ['fa6', 'FaBottleWater', '1D5FBF']], [['fa6', 'FaMugHot', '8A5A2B'], ['fa6', 'FaGreaterThan', '1E7B4F'], ['fa6', 'FaWineBottle', '7A7A7A']]],
+    icons: [[['fa6', 'FaHeart', 'C0392B'], ['fa6', 'FaAppleWhole', 'C0392B']], [['fa6', 'FaBan', '6B6B6B'], ['fa6', 'FaBottleWater', '1D5FBF']], [['fa6', 'FaMugHot', '8A5A2B'], ['fa6', 'FaThumbsUp', '1E7B4F']]],
     labels: ['like', 'don’t like', 'prefer A > B'],
     order: [1, 2, 0],
     notes: 'Website visual game (3 of 6; the other items are about reading, football and cycling — useful later). The third item uses أُفَضِّلُ … عَلَى … — another way to compare, prepared at home.',
