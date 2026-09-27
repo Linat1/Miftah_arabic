@@ -104,12 +104,19 @@ function devLesson(code, x) {
       notes: `WE DO — website sorter (2 min). Website instruction: ${s.sorter.instructions}\n${x.sorterNotes || ''}`,
     });
   }
-  const rest = G.quiz.map((_, i) => i).filter((i) => !qc.includes(i)).slice(0, 4);
+  const rest = x.rest || G.quiz.map((_, i) => i).filter((i) => !qc.includes(i)).slice(0, 4);
   if (rest.length) slides.push(C.morePractice(rest.map((i, k) => splitPrompt(G.quiz[i], { n: k + 5 })), `website quiz questions ${rest.map((i) => i + 1).join(', ')}`));
   // website mistakes sometimes append an English listener label (“— to a boy”): keep the Arabic line pure (the hint names the listener)
   const pure = (t) => t.replace(/\s*—\s*to an? [a-z ]+\.?$/i, '');
   slides.push(C.repairSlide({ ...s, mistakes: s.mistakes.map((m) => ({ ...m, wrong: pure(m.wrong), right: pure(m.right) })) }, x.hints));
-  slides.push(C.listening(s, { coreTip: x.coreTip, routes: x.listenRoutes, gloss: x.gloss }));
+  if (x.listenParts) {
+    // listening-skills lessons: one short listen → script → answers cycle per text
+    x.listenParts.forEach((p, k) => {
+      const part = { ...s, listening: { ...s.listening, title: p.title, script: p.script, questions: [...p.q.map((i) => s.listening.questions[i]), ...(p.extra || [])] } };
+      const sl = C.listening(part, { coreTip: p.tip, routes: p.routes, gloss: p.gloss });
+      slides.push({ ...sl, min: p.min || 3, eyebrow: `We do · listening · text ${k + 1} of ${x.listenParts.length} · teacher reads aloud twice`, answerSlide: { ...sl.answerSlide, title: `Text ${k + 1}: answers` } });
+    });
+  } else slides.push(C.listening(s, { coreTip: x.coreTip, routes: x.listenRoutes, gloss: x.gloss }));
   if (x.readingCore) slides.push(...(x.preReading || []), ...C.readingSlides(s, x.glossary, x.readingCore));
   slides.push(C.speakingSlide(s, x.speak));
   slides.push(C.routesSlide(s, x.write));
