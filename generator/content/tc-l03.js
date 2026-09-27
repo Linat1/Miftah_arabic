@@ -37,7 +37,7 @@ const slides = [
       q('What does this mean?', ['Fish live in the sea.', 'Fish swim in the river.', 'Camels live in the desert.'], 'TC-L02 website game: تَعِيشُ = (they) live.', { ar: 'تَعِيشُ الأَسْمَاكُ فِي البَحْرِ.' }),
       q('Which continent is Egypt in?', ['أَفْرِيقِيَا', 'آسِيَا', 'أُورُوبَّا'], 'TC-L01: مِصْرُ فِي أَفْرِيقِيَا.'),
     ],
-    keyIdea: { text: 'The weather is the subject: the verb’s first letter agrees with it — يَـ for masculine, تَـ for feminine.', ar: '{w|يَ}{m|سْقُطُ} المَطَرُ  ·  {w|تَ}سْقُطُ الثُّلُوجُ' },
+    keyIdea: { text: 'The weather is the subject: the verb’s first letter agrees with it — يَـ for masculine, تَـ for feminine.', ar: '{w|يَ}{m|سْقُطُ} المَطَرُ  ·  {w|تَ}{m|سْقُطُ} الثُّلُوجُ' },
     retrieves: 'Questions 1–2 test two of the five words prepared at home (Flipped Learning follow-up). Questions 3–5 retrieve TC-L02 and TC-L01.',
   }),
   C.objectivesSlide(site.objectives, {
