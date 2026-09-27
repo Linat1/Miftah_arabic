@@ -180,12 +180,12 @@ Website full-mark model (show ONLY after students have finished — next slide).
   },
   {
     type: 'formsTable', stage: 'feedback', min: 3, eyebrow: 'Results · record your score and set one F3 target (website)', title: 'My F2 score profile', ar: 'سَجِّلْ دَرَجَتَكَ',
-    cols: [{ label: 'Skill', w: 3.4 }, { label: 'My score', w: 2.0 }, { label: 'Guide (total /60) · teacher guide, not an exam grade', w: 6.93 }],
+    cols: [{ label: 'Guide (total /60) · teacher guide, not an exam grade', w: 6.93 }, { label: 'My score', w: 2.0 }, { label: 'Skill', w: 3.4 }],
     rows: [
-      { core: true, cells: ['🎧 Listening', '/15', '54–60 Excellent — secure F2 foundation'] },
-      { core: true, cells: ['📖 Reading', '/15', '42–53 Good — ready for F3 with one practice target'] },
-      { core: true, cells: ['🎙️ Speaking', '/15', '30–41 Satisfactory — targeted F2 retrieval early in F3'] },
-      { core: true, cells: ['✍️ Writing', '/15', 'Below 30 — catch-up on the lowest skill before F3'] },
+      { core: true, cells: ['54–60 Excellent — secure F2 foundation', '/15', '🎧 Listening'] },
+      { core: true, cells: ['42–53 Good — ready for F3 with one practice target', '/15', '📖 Reading'] },
+      { core: true, cells: ['30–41 Satisfactory — targeted F2 retrieval early in F3', '/15', '🎙️ Speaking'] },
+      { core: true, cells: ['Below 30 — catch-up on the lowest skill before F3', '/15', '✍️ Writing'] },
     ],
     foot: 'Write in your book: My strength (نُقْطَةُ قُوَّتِي) … · My F3 target (هَدَفِي) …',
     notes: `SCORE PROFILE (website “Record your result and set one useful F3 target”): “A score shows where you are today. The target decides what you will improve next.” Use evidence from the four scores.

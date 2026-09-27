@@ -372,6 +372,8 @@ function trace(D, sp) {
 
 // ------------------------------------------------------------------ nationality / forms table
 function formsTable(D, sp) {
+  // ltr: an all-English table written left→right in the content file; flip it into the right→left layout order
+  if (sp.ltr) sp = { ...sp, ltr: false, cols: [...sp.cols].reverse(), rows: sp.rows.map((r) => ({ ...r, cells: [...r.cells].reverse() })) };
   const s = frame(D, sp);
   const cols = sp.cols; // [{label, w}] listed right→left in reading order; last is english column on the left
   let x = 12.83; const pos = [];

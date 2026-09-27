@@ -1,0 +1,775 @@
+{
+    "diagnostic": [
+        {
+            "prompt": "Choose the correct first-person sentence.",
+            "options": [
+                "أَنَا أَسْتَيْقِظُ فِي السَّادِسَةِ.",
+                "أَنَا يَسْتَيْقِظُ فِي السَّادِسَةِ.",
+                "أَنَا تَسْتَيْقِظُ فِي السَّادِسَةِ."
+            ],
+            "answer": 0,
+            "feedback": "أَنَا takes the first-person prefix أَـ: أَسْتَيْقِظُ."
+        },
+        {
+            "prompt": "What is 6:45?",
+            "options": [
+                "السَّادِسَةُ وَالرُّبْعُ",
+                "السَّابِعَةُ إِلَّا الرُّبْعَ",
+                "السَّادِسَةُ وَالنِّصْفُ"
+            ],
+            "answer": 1,
+            "feedback": "At 6:45, name the next hour: السَّابِعَةُ إِلَّا الرُّبْعَ."
+        },
+        {
+            "prompt": "Complete: أَتَنَاوَلُ الإِفْطَارَ ___ أَنْ أَخْرُجَ.",
+            "options": [
+                "قَبْلَ",
+                "بَعْدَ",
+                "أَحْيَانًا"
+            ],
+            "answer": 0,
+            "feedback": "قَبْلَ أَنْ means before doing something."
+        },
+        {
+            "prompt": "Which phrase means “three times a week”?",
+            "options": [
+                "ثَلَاثَ مَرَّاتٍ فِي الأُسْبُوعِ",
+                "ثَلَاثَ سَاعَاتٍ فِي اليَوْمِ",
+                "فِي السَّاعَةِ الثَّالِثَةِ"
+            ],
+            "answer": 0,
+            "feedback": "Frequency uses مَرَّاتٍ plus the time period."
+        },
+        {
+            "prompt": "Choose the correct sentence about Salma.",
+            "options": [
+                "سَلْمَى تَعُودُ إِلَى البَيْتِ مُبَكِّرًا.",
+                "سَلْمَى يَعُودُ إِلَى البَيْتِ مُبَكِّرًا.",
+                "سَلْمَى أَعُودُ إِلَى البَيْتِ مُبَكِّرًا."
+            ],
+            "answer": 0,
+            "feedback": "A feminine third-person subject takes تَـ: تَعُودُ."
+        },
+        {
+            "prompt": "Choose the correct question for a girl: “When do you wake up?”",
+            "options": [
+                "مَتَى تَسْتَيْقِظِينَ؟",
+                "مَتَى تَسْتَيْقِظُ؟",
+                "مَتَى يَسْتَيْقِظُ؟"
+            ],
+            "answer": 0,
+            "feedback": "Addressing one girl requires تَـ and the ending ـينَ."
+        },
+        {
+            "prompt": "Complete the contrast: أَدْرُسُ بَعْدَ المَدْرَسَةِ، ___ أَخِي فَيَلْعَبُ كُرَةَ القَدَمِ.",
+            "options": [
+                "أَمَّا",
+                "ثُمَّ",
+                "قَبْلَ"
+            ],
+            "answer": 0,
+            "feedback": "أَمَّا ... فَـ introduces a contrasting topic."
+        },
+        {
+            "prompt": "Choose the most logical sequence.",
+            "options": [
+                "أَوَّلًا أَسْتَيْقِظُ، ثُمَّ أَغْتَسِلُ، وَأَخِيرًا أَخْرُجُ.",
+                "أَخِيرًا أَسْتَيْقِظُ، أَوَّلًا أَخْرُجُ.",
+                "ثُمَّ أَخْرُجُ قَبْلَ أَنْ أَسْتَيْقِظَ."
+            ],
+            "answer": 0,
+            "feedback": "The sequence markers must match the real order of actions."
+        },
+        {
+            "prompt": "Which phrase means “from seven until three”?",
+            "options": [
+                "مِنَ السَّاعَةِ السَّابِعَةِ إِلَى الثَّالِثَةِ",
+                "فِي السَّاعَةِ السَّابِعَةِ وَالثَّالِثَةِ",
+                "بَعْدَ السَّابِعَةِ قَبْلَ الثَّالِثَةِ"
+            ],
+            "answer": 0,
+            "feedback": "Use مِنْ ... إِلَى ... for a time span."
+        },
+        {
+            "prompt": "Choose the answer that gives a frequency and a reason.",
+            "options": [
+                "أَتَمَرَّنُ مَرَّتَيْنِ فِي الأُسْبُوعِ لِأَنَّ الرِّيَاضَةَ مُفِيدَةٌ.",
+                "أَتَمَرَّنُ فِي الصَّالَةِ.",
+                "نَعَمْ، أَتَمَرَّنُ."
+            ],
+            "answer": 0,
+            "feedback": "The first answer develops the response with frequency and reason."
+        },
+        {
+            "prompt": "What does the pronoun هُوَ refer to? يَبْدَأُ الدَّرْسُ فِي التَّاسِعَةِ، وَهُوَ يَسْتَمِرُّ سَاعَةً.",
+            "options": [
+                "الدَّرْسُ",
+                "التَّاسِعَةُ",
+                "سَاعَةٌ"
+            ],
+            "answer": 0,
+            "feedback": "هُوَ refers back to the masculine noun الدَّرْسُ."
+        },
+        {
+            "prompt": "Choose the best ending for a comparison.",
+            "options": [
+                "فِي أَيَّامِ الدِّرَاسَةِ أَسْتَيْقِظُ مُبَكِّرًا، وَلٰكِنَّنِي فِي نِهَايَةِ الأُسْبُوعِ أَسْتَيْقِظُ مُتَأَخِّرًا.",
+                "أَسْتَيْقِظُ مُبَكِّرًا وَالسَّاعَةُ.",
+                "نِهَايَةُ الأُسْبُوعِ لِأَنَّ."
+            ],
+            "answer": 0,
+            "feedback": "وَلٰكِنَّنِي creates a clear, accurate contrast between two routines."
+        }
+    ],
+    "grammar": [
+        {
+            "prompt": "Choose “she has breakfast at half past seven”.",
+            "options": [
+                "هِيَ تَتَنَاوَلُ الإِفْطَارَ فِي السَّابِعَةِ وَالنِّصْفِ.",
+                "هِيَ يَتَنَاوَلُ الإِفْطَارَ فِي السَّابِعَةِ وَالنِّصْفِ.",
+                "هِيَ أَتَنَاوَلُ الإِفْطَارَ فِي السَّابِعَةِ وَالنِّصْفِ."
+            ],
+            "answer": 0,
+            "feedback": "هِيَ requires تَتَنَاوَلُ."
+        },
+        {
+            "prompt": "What is 8:55?",
+            "options": [
+                "الثَّامِنَةُ وَخَمْسُ دَقَائِقَ",
+                "التَّاسِعَةُ إِلَّا خَمْسَ دَقَائِقَ",
+                "الثَّامِنَةُ إِلَّا خَمْسَ دَقَائِقَ"
+            ],
+            "answer": 1,
+            "feedback": "It is five minutes to nine."
+        },
+        {
+            "prompt": "Complete: بَعْدَ أَنْ ___ وَاجِبِي، أَسْتَرِيحُ.",
+            "options": [
+                "أُكْمِلَ",
+                "أُكْمِلُ",
+                "أَكْمَلْتُ"
+            ],
+            "answer": 0,
+            "feedback": "After أَنْ, the present verb is subjunctive: أُكْمِلَ."
+        },
+        {
+            "prompt": "Choose the correct frequency position.",
+            "options": [
+                "أَذْهَبُ عَادَةً إِلَى المَكْتَبَةِ بَعْدَ المَدْرَسَةِ.",
+                "عَادَةً إِلَى أَذْهَبُ المَكْتَبَةِ.",
+                "أَذْهَبُ إِلَى عَادَةً المَكْتَبَةِ."
+            ],
+            "answer": 0,
+            "feedback": "The frequency adverb fits naturally after the verb or at the start of the sentence."
+        },
+        {
+            "prompt": "Choose the correct sentence about Ali and his sister.",
+            "options": [
+                "عَلِيٌّ يَدْرُسُ، وَأُخْتُهُ تَقْرَأُ.",
+                "عَلِيٌّ تَدْرُسُ، وَأُخْتُهُ يَقْرَأُ.",
+                "عَلِيٌّ أَدْرُسُ، وَأُخْتُهُ نَقْرَأُ."
+            ],
+            "answer": 0,
+            "feedback": "Masculine singular uses يَـ; feminine singular uses تَـ."
+        },
+        {
+            "prompt": "Which question asks about frequency?",
+            "options": [
+                "كَمْ مَرَّةً تَتَمَرَّنُ فِي الأُسْبُوعِ؟",
+                "مَتَى يَبْدَأُ الدَّرْسُ؟",
+                "مَاذَا تَفْعَلُ بَعْدَ المَدْرَسَةِ؟"
+            ],
+            "answer": 0,
+            "feedback": "كَمْ مَرَّةً asks how often."
+        },
+        {
+            "prompt": "Which question asks about a routine action?",
+            "options": [
+                "مَاذَا تَفْعَلِينَ فِي المَسَاءِ؟",
+                "كَمِ السَّاعَةُ؟",
+                "أَيْنَ المَدْرَسَةُ؟"
+            ],
+            "answer": 0,
+            "feedback": "مَاذَا تَفْعَلِينَ؟ asks what a female listener does."
+        },
+        {
+            "prompt": "Choose the correct time span.",
+            "options": [
+                "يَسْتَمِرُّ الدَّرْسُ مِنَ العَاشِرَةِ إِلَى الحَادِيَةَ عَشْرَةَ.",
+                "يَسْتَمِرُّ الدَّرْسُ فِي العَاشِرَةِ إِلَى.",
+                "يَسْتَمِرُّ الدَّرْسُ مِنْ حَادِيَةَ عَشْرَةَ."
+            ],
+            "answer": 0,
+            "feedback": "A start and finish time use مِنْ ... إِلَى ...."
+        },
+        {
+            "prompt": "Complete: أَنَا أَسْتَعِدُّ لِلْمَدْرَسَةِ، بَيْنَمَا أَخِي ___ مُتَأَخِّرًا.",
+            "options": [
+                "يَسْتَيْقِظُ",
+                "تَسْتَيْقِظُ",
+                "أَسْتَيْقِظُ"
+            ],
+            "answer": 0,
+            "feedback": "أَخِي is masculine singular, so use يَسْتَيْقِظُ."
+        },
+        {
+            "prompt": "Choose the accurate weekend comparison.",
+            "options": [
+                "فِي الأُسْبُوعِ أَدْرُسُ كُلَّ يَوْمٍ، أَمَّا يَوْمَ السَّبْتِ فَأَسْتَرِيحُ.",
+                "فِي الأُسْبُوعِ أَدْرُسُ، أَمَّا يَوْمَ السَّبْتِ أَسْتَرِيحُ فَـ.",
+                "أَمَّا أَدْرُسُ فِي السَّبْتِ كُلَّ يَوْمٍ."
+            ],
+            "answer": 0,
+            "feedback": "أَمَّا introduces the topic and فَـ introduces the comment."
+        },
+        {
+            "prompt": "Correct the error: أَنْتِ تَسْتَيْقِظُ فِي السَّابِعَةِ.",
+            "options": [
+                "أَنْتِ تَسْتَيْقِظِينَ فِي السَّابِعَةِ.",
+                "أَنْتِ يَسْتَيْقِظُ فِي السَّابِعَةِ.",
+                "أَنْتِ أَسْتَيْقِظُ فِي السَّابِعَةِ."
+            ],
+            "answer": 0,
+            "feedback": "One female listener takes تَـ...ـينَ."
+        },
+        {
+            "prompt": "Choose the sentence with accurate sequence and reference.",
+            "options": [
+                "تَعُودُ مَرْيَمُ إِلَى البَيْتِ، ثُمَّ تُكْمِلُ وَاجِبَهَا.",
+                "يَعُودُ مَرْيَمُ إِلَى البَيْتِ، ثُمَّ يُكْمِلُ وَاجِبَهُ.",
+                "تَعُودُ مَرْيَمُ، ثُمَّ أُكْمِلُ وَاجِبِي."
+            ],
+            "answer": 0,
+            "feedback": "The feminine subject and possessive suffix remain consistent."
+        }
+    ],
+    "listen1": [
+        {
+            "prompt": "When does Maryam wake on school days?",
+            "options": [
+                "6:10",
+                "6:30",
+                "7:00"
+            ],
+            "answer": 1,
+            "feedback": "She says فِي السَّادِسَةِ وَالنِّصْفِ."
+        },
+        {
+            "prompt": "What does she do immediately after waking?",
+            "options": [
+                "showers",
+                "checks messages",
+                "leaves home"
+            ],
+            "answer": 0,
+            "feedback": "She showers before getting dressed."
+        },
+        {
+            "prompt": "What time does she leave home?",
+            "options": [
+                "7:15",
+                "7:30",
+                "7:45"
+            ],
+            "answer": 2,
+            "feedback": "She leaves at a quarter to eight."
+        },
+        {
+            "prompt": "How does she usually travel?",
+            "options": [
+                "by bus",
+                "on foot",
+                "by train"
+            ],
+            "answer": 0,
+            "feedback": "She usually takes the bus."
+        },
+        {
+            "prompt": "What starts at 8:20?",
+            "options": [
+                "registration",
+                "the first lesson",
+                "breakfast"
+            ],
+            "answer": 1,
+            "feedback": "The first lesson starts at twenty past eight."
+        },
+        {
+            "prompt": "How often does she attend the school club?",
+            "options": [
+                "twice a week",
+                "every day",
+                "once a month"
+            ],
+            "answer": 0,
+            "feedback": "She attends on Tuesday and Thursday."
+        },
+        {
+            "prompt": "What does she do before using her phone in the evening?",
+            "options": [
+                "finishes homework",
+                "visits a friend",
+                "goes shopping"
+            ],
+            "answer": 0,
+            "feedback": "She completes homework first."
+        },
+        {
+            "prompt": "When does she usually sleep?",
+            "options": [
+                "9:30",
+                "10:30",
+                "11:30"
+            ],
+            "answer": 1,
+            "feedback": "She sleeps at half past ten."
+        }
+    ],
+    "listen2": [
+        {
+            "prompt": "Who returns home earlier?",
+            "options": [
+                "Yusuf",
+                "Huda",
+                "both at the same time"
+            ],
+            "answer": 0,
+            "feedback": "Yusuf returns at 3:20; Huda returns at 4:00."
+        },
+        {
+            "prompt": "Who studies before eating?",
+            "options": [
+                "Huda",
+                "Yusuf",
+                "both"
+            ],
+            "answer": 0,
+            "feedback": "Huda studies for an hour before dinner."
+        },
+        {
+            "prompt": "How often does Yusuf play football?",
+            "options": [
+                "three times a week",
+                "once a week",
+                "every evening"
+            ],
+            "answer": 0,
+            "feedback": "He plays on Monday, Wednesday and Friday."
+        },
+        {
+            "prompt": "What does Huda do on Thursday?",
+            "options": [
+                "attends an Arabic club",
+                "plays football",
+                "visits her grandmother"
+            ],
+            "answer": 0,
+            "feedback": "Thursday is her Arabic-club day."
+        },
+        {
+            "prompt": "Who gets ready for the next day before sleeping?",
+            "options": [
+                "both",
+                "Yusuf only",
+                "Huda only"
+            ],
+            "answer": 0,
+            "feedback": "Both prepare their bags and clothes."
+        },
+        {
+            "prompt": "What is the main difference between their weekends?",
+            "options": [
+                "Yusuf visits family; Huda meets friends",
+                "Huda studies; Yusuf works",
+                "both stay home all weekend"
+            ],
+            "answer": 0,
+            "feedback": "Their Saturday activities are different."
+        }
+    ],
+    "listen3": [
+        {
+            "prompt": "What does the interviewer ask first?",
+            "options": [
+                "wake-up time",
+                "favourite subject",
+                "home address"
+            ],
+            "answer": 0,
+            "feedback": "The interview begins with مَتَى تَسْتَيْقِظُ؟"
+        },
+        {
+            "prompt": "How often does Samir exercise?",
+            "options": [
+                "four times a week",
+                "twice a month",
+                "every morning"
+            ],
+            "answer": 0,
+            "feedback": "He says أَرْبَعَ مَرَّاتٍ فِي الأُسْبُوعِ."
+        },
+        {
+            "prompt": "Why is Tuesday different?",
+            "options": [
+                "he has a late science club",
+                "school is closed",
+                "he visits family"
+            ],
+            "answer": 0,
+            "feedback": "The science club finishes at 5:15."
+        },
+        {
+            "prompt": "What does he do after the club?",
+            "options": [
+                "eats, then completes homework",
+                "goes straight to sleep",
+                "plays football"
+            ],
+            "answer": 0,
+            "feedback": "He eats first and then completes his homework."
+        },
+        {
+            "prompt": "When does he wake at the weekend?",
+            "options": [
+                "about 8:30",
+                "6:00 exactly",
+                "after midday"
+            ],
+            "answer": 0,
+            "feedback": "He says حَوَالَيْ الثَّامِنَةِ وَالنِّصْفِ."
+        },
+        {
+            "prompt": "What contrast does he make?",
+            "options": [
+                "school days are organised; weekends are more flexible",
+                "weekends are busier than school days",
+                "his routine never changes"
+            ],
+            "answer": 0,
+            "feedback": "He contrasts an organised school routine with a more flexible weekend."
+        }
+    ],
+    "reading": [
+        {
+            "prompt": "What is the writer describing?",
+            "options": [
+                "her school-day and weekend routines",
+                "a holiday journey",
+                "a new town"
+            ],
+            "answer": 0,
+            "feedback": "The text compares two routine patterns."
+        },
+        {
+            "prompt": "What time does she wake on school days?",
+            "options": [
+                "6:25",
+                "6:45",
+                "7:15"
+            ],
+            "answer": 0,
+            "feedback": "السَّادِسَةِ وَخَمْسٍ وَعِشْرِينَ دَقِيقَةً = 6:25."
+        },
+        {
+            "prompt": "What does she do before breakfast?",
+            "options": [
+                "gets dressed and prepares her bag",
+                "does homework",
+                "meets friends"
+            ],
+            "answer": 0,
+            "feedback": "Both actions happen before breakfast."
+        },
+        {
+            "prompt": "How long does the journey to school take?",
+            "options": [
+                "about twenty minutes",
+                "one hour",
+                "five minutes"
+            ],
+            "answer": 0,
+            "feedback": "تَسْتَغْرِقُ الرِّحْلَةُ حَوَالَيْ عِشْرِينَ دَقِيقَةً."
+        },
+        {
+            "prompt": "Which after-school activity happens twice weekly?",
+            "options": [
+                "swimming",
+                "library study",
+                "family visit"
+            ],
+            "answer": 0,
+            "feedback": "She swims on Monday and Wednesday."
+        },
+        {
+            "prompt": "What does her brother do while she studies?",
+            "options": [
+                "plays computer games",
+                "sleeps",
+                "cooks dinner"
+            ],
+            "answer": 0,
+            "feedback": "The contrast is introduced by بَيْنَمَا."
+        },
+        {
+            "prompt": "Why is Thursday evening different?",
+            "options": [
+                "she attends an online Arabic lesson",
+                "she finishes school early",
+                "she works in a shop"
+            ],
+            "answer": 0,
+            "feedback": "The online lesson changes the usual evening sequence."
+        },
+        {
+            "prompt": "What happens first on Saturday?",
+            "options": [
+                "she helps at home",
+                "she meets friends",
+                "she goes to school"
+            ],
+            "answer": 0,
+            "feedback": "She helps at home before going out."
+        },
+        {
+            "prompt": "What does هٰذَا refer to in the final paragraph?",
+            "options": [
+                "having more flexible time at the weekend",
+                "waking early for school",
+                "the bus journey"
+            ],
+            "answer": 0,
+            "feedback": "The demonstrative refers to the more flexible weekend routine."
+        },
+        {
+            "prompt": "Which statement best summarises her opinion?",
+            "options": [
+                "She values organisation on school days and flexibility at weekends.",
+                "She dislikes every part of her routine.",
+                "She wants the same timetable every day."
+            ],
+            "answer": 0,
+            "feedback": "Her conclusion is balanced and compares the benefits of both routines."
+        }
+    ],
+    "listeningParts": [
+        {
+            "title": "Text 1 · Maryam describes a school day · 8 marks",
+            "questions": [
+                {
+                    "prompt": "When does Maryam wake on school days?",
+                    "options": [
+                        "6:10",
+                        "6:30",
+                        "7:00"
+                    ],
+                    "answer": 1,
+                    "feedback": "She says فِي السَّادِسَةِ وَالنِّصْفِ."
+                },
+                {
+                    "prompt": "What does she do immediately after waking?",
+                    "options": [
+                        "showers",
+                        "checks messages",
+                        "leaves home"
+                    ],
+                    "answer": 0,
+                    "feedback": "She showers before getting dressed."
+                },
+                {
+                    "prompt": "What time does she leave home?",
+                    "options": [
+                        "7:15",
+                        "7:30",
+                        "7:45"
+                    ],
+                    "answer": 2,
+                    "feedback": "She leaves at a quarter to eight."
+                },
+                {
+                    "prompt": "How does she usually travel?",
+                    "options": [
+                        "by bus",
+                        "on foot",
+                        "by train"
+                    ],
+                    "answer": 0,
+                    "feedback": "She usually takes the bus."
+                },
+                {
+                    "prompt": "What starts at 8:20?",
+                    "options": [
+                        "registration",
+                        "the first lesson",
+                        "breakfast"
+                    ],
+                    "answer": 1,
+                    "feedback": "The first lesson starts at twenty past eight."
+                },
+                {
+                    "prompt": "How often does she attend the school club?",
+                    "options": [
+                        "twice a week",
+                        "every day",
+                        "once a month"
+                    ],
+                    "answer": 0,
+                    "feedback": "She attends on Tuesday and Thursday."
+                },
+                {
+                    "prompt": "What does she do before using her phone in the evening?",
+                    "options": [
+                        "finishes homework",
+                        "visits a friend",
+                        "goes shopping"
+                    ],
+                    "answer": 0,
+                    "feedback": "She completes homework first."
+                },
+                {
+                    "prompt": "When does she usually sleep?",
+                    "options": [
+                        "9:30",
+                        "10:30",
+                        "11:30"
+                    ],
+                    "answer": 1,
+                    "feedback": "She sleeps at half past ten."
+                }
+            ],
+            "script": "فِي أَيَّامِ الدِّرَاسَةِ أَسْتَيْقِظُ فِي السَّادِسَةِ وَالنِّصْفِ. أَوَّلًا أَغْتَسِلُ، ثُمَّ أَرْتَدِي مَلَابِسِي وَأَتَنَاوَلُ الإِفْطَارَ. أُحَضِّرُ حَقِيبَتِي قَبْلَ أَنْ أَخْرُجَ مِنَ البَيْتِ فِي الثَّامِنَةِ إِلَّا الرُّبْعَ. عَادَةً أَسْتَقِلُّ الحَافِلَةَ، وَيَبْدَأُ الدَّرْسُ الأَوَّلُ فِي الثَّامِنَةِ وَالثُّلُثِ. أَذْهَبُ إِلَى نَادِي المَدْرَسَةِ مَرَّتَيْنِ فِي الأُسْبُوعِ، يَوْمَ الثُّلَاثَاءِ وَيَوْمَ الخَمِيسِ. فِي المَسَاءِ أُكْمِلُ وَاجِبِي قَبْلَ أَنْ أَسْتَعْمِلَ هَاتِفِي، وَأَنَامُ عَادَةً فِي العَاشِرَةِ وَالنِّصْفِ."
+        },
+        {
+            "title": "Text 2 · Yusuf and Huda compare their routines · 6 marks",
+            "questions": [
+                {
+                    "prompt": "Who returns home earlier?",
+                    "options": [
+                        "Yusuf",
+                        "Huda",
+                        "both at the same time"
+                    ],
+                    "answer": 0,
+                    "feedback": "Yusuf returns at 3:20; Huda returns at 4:00."
+                },
+                {
+                    "prompt": "Who studies before eating?",
+                    "options": [
+                        "Huda",
+                        "Yusuf",
+                        "both"
+                    ],
+                    "answer": 0,
+                    "feedback": "Huda studies for an hour before dinner."
+                },
+                {
+                    "prompt": "How often does Yusuf play football?",
+                    "options": [
+                        "three times a week",
+                        "once a week",
+                        "every evening"
+                    ],
+                    "answer": 0,
+                    "feedback": "He plays on Monday, Wednesday and Friday."
+                },
+                {
+                    "prompt": "What does Huda do on Thursday?",
+                    "options": [
+                        "attends an Arabic club",
+                        "plays football",
+                        "visits her grandmother"
+                    ],
+                    "answer": 0,
+                    "feedback": "Thursday is her Arabic-club day."
+                },
+                {
+                    "prompt": "Who gets ready for the next day before sleeping?",
+                    "options": [
+                        "both",
+                        "Yusuf only",
+                        "Huda only"
+                    ],
+                    "answer": 0,
+                    "feedback": "Both prepare their bags and clothes."
+                },
+                {
+                    "prompt": "What is the main difference between their weekends?",
+                    "options": [
+                        "Yusuf visits family; Huda meets friends",
+                        "Huda studies; Yusuf works",
+                        "both stay home all weekend"
+                    ],
+                    "answer": 0,
+                    "feedback": "Their Saturday activities are different."
+                }
+            ],
+            "script": "يَعُودُ يُوسُفُ إِلَى البَيْتِ فِي الثَّالِثَةِ وَالثُّلُثِ، أَمَّا هُدَى فَتَعُودُ فِي الرَّابِعَةِ. يَلْعَبُ يُوسُفُ كُرَةَ القَدَمِ ثَلَاثَ مَرَّاتٍ فِي الأُسْبُوعِ: يَوْمَ الاِثْنَيْنِ وَالأَرْبِعَاءِ وَالجُمُعَةِ. هُدَى تَدْرُسُ سَاعَةً قَبْلَ أَنْ تَتَنَاوَلَ العَشَاءَ، وَتَذْهَبُ إِلَى نَادِي اللُّغَةِ العَرَبِيَّةِ يَوْمَ الخَمِيسِ. قَبْلَ أَنْ يَنَامَا، يُحَضِّرُ كُلٌّ مِنْهُمَا حَقِيبَتَهُ وَمَلَابِسَهُ لِلْيَوْمِ التَّالِي. يَوْمَ السَّبْتِ يَزُورُ يُوسُفُ أَقَارِبَهُ، بَيْنَمَا تَلْتَقِي هُدَى بِصَدِيقَاتِهَا."
+        },
+        {
+            "title": "Text 3 · Interview about routine and time · 6 marks",
+            "questions": [
+                {
+                    "prompt": "What does the interviewer ask first?",
+                    "options": [
+                        "wake-up time",
+                        "favourite subject",
+                        "home address"
+                    ],
+                    "answer": 0,
+                    "feedback": "The interview begins with مَتَى تَسْتَيْقِظُ؟"
+                },
+                {
+                    "prompt": "How often does Samir exercise?",
+                    "options": [
+                        "four times a week",
+                        "twice a month",
+                        "every morning"
+                    ],
+                    "answer": 0,
+                    "feedback": "He says أَرْبَعَ مَرَّاتٍ فِي الأُسْبُوعِ."
+                },
+                {
+                    "prompt": "Why is Tuesday different?",
+                    "options": [
+                        "he has a late science club",
+                        "school is closed",
+                        "he visits family"
+                    ],
+                    "answer": 0,
+                    "feedback": "The science club finishes at 5:15."
+                },
+                {
+                    "prompt": "What does he do after the club?",
+                    "options": [
+                        "eats, then completes homework",
+                        "goes straight to sleep",
+                        "plays football"
+                    ],
+                    "answer": 0,
+                    "feedback": "He eats first and then completes his homework."
+                },
+                {
+                    "prompt": "When does he wake at the weekend?",
+                    "options": [
+                        "about 8:30",
+                        "6:00 exactly",
+                        "after midday"
+                    ],
+                    "answer": 0,
+                    "feedback": "He says حَوَالَيْ الثَّامِنَةِ وَالنِّصْفِ."
+                },
+                {
+                    "prompt": "What contrast does he make?",
+                    "options": [
+                        "school days are organised; weekends are more flexible",
+                        "weekends are busier than school days",
+                        "his routine never changes"
+                    ],
+                    "answer": 0,
+                    "feedback": "He contrasts an organised school routine with a more flexible weekend."
+                }
+            ],
+            "script": "المُحَاوِرُ: مَتَى تَسْتَيْقِظُ فِي أَيَّامِ الدِّرَاسَةِ يَا سَمِيرُ؟ سَمِيرٌ: أَسْتَيْقِظُ فِي السَّادِسَةِ وَالرُّبْعِ. المُحَاوِرُ: كَمْ مَرَّةً تَتَمَرَّنُ فِي الأُسْبُوعِ؟ سَمِيرٌ: أَتَمَرَّنُ أَرْبَعَ مَرَّاتٍ. يَوْمُ الثُّلَاثَاءِ مُخْتَلِفٌ لِأَنَّ نَادِي العُلُومِ يَنْتَهِي فِي الخَامِسَةِ وَالرُّبْعِ. بَعْدَ أَنْ أَعُودَ إِلَى البَيْتِ أَتَنَاوَلُ العَشَاءَ، ثُمَّ أُكْمِلُ وَاجِبِي. فِي نِهَايَةِ الأُسْبُوعِ أَسْتَيْقِظُ حَوَالَيْ الثَّامِنَةِ وَالنِّصْفِ. رُوتِينِي فِي أَيَّامِ الدِّرَاسَةِ مُنَظَّمٌ، أَمَّا فِي نِهَايَةِ الأُسْبُوعِ فَهُوَ أَكْثَرُ مَرُونَةً."
+        }
+    ],
+    "readingText": "أَكْتُبُ عَنْ رُوتِينِي فِي أَيَّامِ الدِّرَاسَةِ وَفِي نِهَايَةِ الأُسْبُوعِ. مِنَ الاِثْنَيْنِ إِلَى الجُمُعَةِ أَسْتَيْقِظُ فِي السَّادِسَةِ وَخَمْسٍ وَعِشْرِينَ دَقِيقَةً. أَرْتَدِي مَلَابِسِي وَأُحَضِّرُ حَقِيبَتِي قَبْلَ أَنْ أَتَنَاوَلَ الإِفْطَارَ. أَخْرُجُ فِي السَّابِعَةِ وَالنِّصْفِ، وَتَسْتَغْرِقُ رِحْلَتِي إِلَى المَدْرَسَةِ حَوَالَيْ عِشْرِينَ دَقِيقَةً. بَعْدَ المَدْرَسَةِ أَذْهَبُ إِلَى السِّبَاحَةِ مَرَّتَيْنِ فِي الأُسْبُوعِ، يَوْمَ الاِثْنَيْنِ وَالأَرْبِعَاءِ. فِي الأَيَّامِ الأُخْرَى أُكْمِلُ وَاجِبِي فِي المَكْتَبَةِ، بَيْنَمَا يَلْعَبُ أَخِي أَلْعَابَ الحَاسُوبِ فِي البَيْتِ. يَوْمُ الخَمِيسِ مُخْتَلِفٌ لِأَنَّ لَدَيَّ دَرْسًا عَبْرَ الإِنْتَرْنِتِ فِي اللُّغَةِ العَرَبِيَّةِ، وَهُوَ يَبْدَأُ فِي السَّادِسَةِ وَيَنْتَهِي فِي السَّابِعَةِ إِلَّا الرُّبْعَ. أَمَّا يَوْمَ السَّبْتِ فَأَسْتَيْقِظُ مُتَأَخِّرًا، وَأُسَاعِدُ أُسْرَتِي فِي البَيْتِ قَبْلَ أَنْ أَلْتَقِيَ بِصَدِيقَاتِي. فِي رَأْيِي، التَّنْظِيمُ فِي أَيَّامِ الدِّرَاسَةِ يُسَاعِدُنِي عَلَى إِنْجَازِ عَمَلِي، وَلٰكِنَّ الوَقْتَ الأَكْثَرَ مَرُونَةً فِي نِهَايَةِ الأُسْبُوعِ مُهِمٌّ أَيْضًا، لِأَنَّهُ يَسْمَحُ لِي بِالرَّاحَةِ وَقَضَاءِ الوَقْتِ مَعَ الآخَرِينَ."
+}

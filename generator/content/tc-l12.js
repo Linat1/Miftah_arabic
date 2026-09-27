@@ -117,13 +117,14 @@ Reassure students: “Every section starts with questions everyone can answer. D
   }, 3, 'The four objectives on the left summarise the website D4-L12 assessment aims for Topic C.'),
   {
     type: 'formsTable', stage: 'teach', min: 3, eyebrow: 'How the assessment works · 50 marks', title: 'Five sections, two levels', ar: 'أَقْسَامُ التَّقْيِيمِ',
+    ltr: true,
     cols: [{ label: 'Section', w: 2.2 }, { label: 'Skill', w: 2.1 }, { label: 'Core part (everyone)', w: 3.3 }, { label: 'Develop / Stretch part', w: 3.43 }, { label: 'Marks', w: 1.3 }],
     rows: [
-      { core: true, cells: ['A', 'Words and grammar', '5 questions from Topic C', '5 website grammar questions', '10'] },
-      { core: true, cells: ['B', 'Listening', 'Layla’s message (5 questions)', 'Website texts 2 and 3 (5 questions)', '10'] },
-      { core: true, cells: ['C', 'Reading', 'Yusuf’s email (5 questions)', 'Website article (5 questions)', '10'] },
-      { core: true, cells: ['D', 'Writing', '5 sentences with the word bank', '80–100 words · or the 130–140-word article', '10'] },
-      { core: true, cells: ['E', 'Speaking', 'Answer 3 questions about your town', 'Discuss a problem and a solution', '10'] },
+      { cells: ['A', 'Words and grammar', '5 questions from Topic C', '5 website grammar questions', '10'] },
+      { cells: ['B', 'Listening', 'Layla’s message (5 questions)', 'Website texts 2 and 3 (5 questions)', '10'] },
+      { cells: ['C', 'Reading', 'Yusuf’s email (5 questions)', 'Website article (5 questions)', '10'] },
+      { cells: ['D', 'Writing', '5 sentences with the word bank', '80–100 words · or the 130–140-word article', '10'] },
+      { cells: ['E', 'Speaking', 'Answer 3 questions about your town', 'Discuss a problem and a solution', '10'] },
     ],
     notes: `HOW THE ASSESSMENT WORKS (3 min). Tiered design so that weak and strong students are both assessed fairly on the same Topic C content.
 Scoring: 1 mark per question in A–C (10 each). Writing and speaking: marked out of 10 with the mark scheme slide (Task 4 · Range 3 · Accuracy 3), adapted from the website’s Task /5 · Range /5 · Accuracy /5.
@@ -271,11 +272,12 @@ Translation for the teacher: It is reported that climate change is increasing wa
   }),
   {
     type: 'formsTable', stage: 'youdo', min: 1, eyebrow: 'Section D · writing mark scheme · 10 marks', title: 'How your writing is marked', ar: 'مِعْيَارُ التَّصْحِيحِ',
+    ltr: true,
     cols: [{ label: 'Criterion', w: 2.2 }, { label: 'Marks', w: 1.2 }, { label: 'Core (5 sentences)', w: 3.0 }, { label: 'Develop (80–100 words)', w: 3.0 }, { label: 'Stretch (website article)', w: 2.93 }],
     rows: [
-      { core: true, cells: ['Task', '/4', '5 sentences on the topic', 'town + environment + technology', 'issue, causes, solution, evidence, limitation'] },
-      { core: true, cells: ['Range', '/3', 'Topic C words; one linking word', '3 tenses; 3 linking words; an opinion', 'passive, cause–effect, purpose, concession'] },
-      { core: true, cells: ['Accuracy', '/3', 'there is (m./f.); “the”; spelling', 'agreement (m./f.), partner words', 'subjunctive after “an” and “likay”; case endings'] },
+      { cells: ['Task', '/4', '5 sentences on the topic', 'town + environment + technology', 'issue, causes, solution, evidence, limitation'] },
+      { cells: ['Range', '/3', 'Topic C words; one linking word', '3 tenses; 3 linking words; an opinion', 'passive, cause–effect, purpose, concession'] },
+      { cells: ['Accuracy', '/3', 'there is (m./f.); “the”; spelling', 'agreement (m./f.), partner words', 'subjunctive after “an” and “likay”; case endings'] },
     ],
     notes: `WRITING MARK SCHEME (Section D, /10) — adapted from the website: Task /5 · Range /5 · Accuracy /5. Each route is marked against its OWN column, so a Core student can score full marks for 5 accurate sentences.
 Band guide: 9–10 all points, accurate; 6–8 most points, some errors; 3–5 some points, errors affect meaning; 1–2 very limited.
@@ -309,13 +311,14 @@ The stems are for the rehearsal minute only — remove them (next slide) for the
   }),
   {
     type: 'formsTable', stage: 'feedback', min: 3, eyebrow: 'Feedback · score profile · evidence and target', title: 'My Topic C score profile', ar: 'نَتَائِجِي',
+    ltr: true,
     cols: [{ label: 'Section', w: 2.6 }, { label: 'Core part', w: 1.9 }, { label: 'Develop / Stretch part', w: 2.4 }, { label: 'Total', w: 1.5 }, { label: 'My next step', w: 3.93 }],
     rows: [
-      { core: true, cells: ['A · words and grammar', '/5', '/5', '/10', 'Revise the Topic C map rows I got wrong'] },
-      { core: true, cells: ['B · listening', '/5', '/5', '/10', 'Listen for key words and numbers'] },
-      { core: true, cells: ['C · reading', '/5', '/5', '/10', 'Read the question first, then find ONE key word'] },
-      { core: true, cells: ['D · writing', '—', '—', '/10', 'Add one linking word and one reason'] },
-      { core: true, cells: ['E · speaking', '—', '—', '/10', 'Use a speaking phrase (مِنْ وَجْهَةِ نَظَرِي)'] },
+      { cells: ['A · words and grammar', '/5', '/5', '/10', 'Revise the Topic C map rows I got wrong'] },
+      { cells: ['B · listening', '/5', '/5', '/10', 'Listen for key words and numbers'] },
+      { cells: ['C · reading', '/5', '/5', '/10', 'Read the question first, then find ONE key word'] },
+      { cells: ['D · writing', '—', '—', '/10', 'Add one linking word and one reason'] },
+      { cells: ['E · speaking', '—', '—', '/10', 'Use a speaking phrase (مِنْ وَجْهَةِ نَظَرِي)'] },
     ],
     notes: `SCORE PROFILE (3 min) — website Section 07 “Evidence · target · transfer”. Students copy this table into their books and fill it in (/50 total).
 Reflection (website): “My strongest Topic C evidence was …” · “My precise next action is …” — each student writes ONE of each in English or Arabic.
