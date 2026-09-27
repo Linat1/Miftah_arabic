@@ -22,7 +22,7 @@ const slides = D.devLesson('F6-L10', {
 • Prep check: إِعْلَانٌ · تَقْرِيرٌ · مُقَابَلَةٌ · تَفَاصِيلُ · اِزْدِحَامٌ — the three texts are an announcement-style direction, a mini-report and a description.`,
   teach: 'Question words predict the answer; endings and “but” are evidence.',
   wedo: 'Sort the question words, fix the listening habits, then three short listening cycles.',
-  next: { nextCode: 'F6-L11', nextTitle: 'Speaking and Writing About My Town', nextAr: 'التَّحَدُّثُ وَالكِتَابَةُ عَنْ مَدِينَتِي' },
+  next: { nextCode: 'F6-L11', nextTitle: 'F6 Consolidation: Complete Town and Transport Review', nextAr: 'تَرْسِيخُ الوَحْدَةِ السَّادِسَةِ' },
   doNow: {
     questions: [
       q('What does إِعْلَانٌ mean?', ['an announcement', 'an interview', 'a report'], 'Prepared at home (F6-L09).'),
@@ -217,15 +217,15 @@ Quick-fire: say اِنْعَطِفْ / اِنْعَطِفِي / اِنْعَطِ
     ['اِفْهَمِ السِّيَاقَ', 'understand the context'], ['تَحَقَّقْ مِنَ التَّفْصِيلِ', 'check the detail'], ['اِسْتَبْعِدِ المُشَتِّتَاتِ', 'eliminate the distractors'], ['لَا تَخْتَرْ', 'do not choose'], ['كَلِمَةً وَاحِدَةً فَقَطْ', 'only one word'],
   ],
   prep: {
-    words: [['أُقَدِّمُ', 'I present / introduce', 'نُقَدِّمُ we'], ['أَصِفُ', 'I describe', 'تَصِفُ she'], ['أُقَارِنُ', 'I compare', 'نُقَارِنُ we'], ['أُبَرِّرُ', 'I justify', 'تُبَرِّرُ she'], ['طَلَاقَةٌ', 'fluency', '—']],
-    questionEn: 'Prepare a 30-second answer: “Describe your town.” Include one place, one way you travel and one reason.',
-    questionAr: 'صِفْ مَدِينَتَكَ.',
+    words: [['مُرَاجَعَةٌ شَامِلَةٌ', 'a complete review', 'pl. مُرَاجَعَاتٌ'], ['تَحْلِيلُ الأَخْطَاءِ', 'error analysis', 'sing. خَطَأٌ'], ['نُقْطَةُ قُوَّةٍ', 'a strength', 'pl. نِقَاطُ قُوَّةٍ'], ['أَوْلَوِيَّةٌ', 'a priority', 'pl. أَوْلَوِيَّاتٌ'], ['دَلِيلٌ', 'evidence', 'pl. أَدِلَّةٌ']],
+    questionEn: 'Look back at F6-L01 to F6-L10: which grammar point do you find hardest? Bring one example of a mistake you made.',
+    questionAr: 'أَصْعَبُ قَاعِدَةٍ لِي هِيَ …',
     homework: {
-      core: 'Website F6-L10: redo the listening mission and the sorter; learn the five words.',
+      core: 'Website F6-L10: redo the listening mission and the sorter; learn the five review words.',
       develop: 'Website writing task: a listening strategy record for three questions with the evidence for each.',
       stretch: 'A reusable listening strategy guide (80–100 words) with one distractor from each text.',
     },
-    wordsSource: 'The five words prepare F6-L11 (speaking and writing about my town: present, describe, compare, justify, fluency).',
+    wordsSource: 'The five words come from the website F6-L11 vocabulary (review and reflection before the unit assessment).',
   },
   remember: 'Remember: read the question first — the question word tells you what to catch, and the answer often comes after “but”.',
 });
