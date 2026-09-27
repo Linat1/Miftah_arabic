@@ -109,7 +109,7 @@ function devLesson(code, x) {
   (x.grammar || []).forEach((g) => slides.push(g));
   slides.push({
     type: 'ruleRows', stage: 'teach', flex: true, eyebrow: 'Grammar focus · the website rules with examples · FLEX', title: x.rulesTitle || (/[\u0600-\u06FF]/.test(G.title) ? 'The website grammar rules' : G.title), ar: G.arabic,
-    rows: G.rules.map((r) => ({ title: r.heading, formula: r.formula, examples: r.examples })),
+    rows: G.rules.map((r, i) => ({ title: r.heading, formula: r.formula, examples: (x.ruleEx && x.ruleEx[i]) || r.examples })),
     notes: `WEBSITE GRAMMAR RULES AND EXAMPLES (FLEX — revision or homework). Website overview: “${G.overview}”\n${G.rules.map((r) => `• ${r.heading}: ${r.explanation}`).join('\n')}\nWebsite common error: ${G.common_error || ''}`,
   });
   const qc = x.quick || [0, 1, 2, 3];
@@ -135,7 +135,7 @@ function devLesson(code, x) {
   if (rest.length) slides.push(C.morePractice(rest.map((i, k) => splitPrompt(G.quiz[i], { n: k + 5 })), `website quiz questions ${rest.map((i) => i + 1).join(', ')}`));
   // website mistakes sometimes append an English listener label (“— to a boy”): keep the Arabic line pure (the hint names the listener)
   const pure = (t) => t.replace(/\s*—\s*to an? [a-z ]+\.?$/i, '').replace(/\s*\([A-Za-z][^)]*\)\.?$/, '').replace(/\s+said to [a-z ]+\.?$/i, '').replace(/\s+referring to[\s\S]*$/i, '');
-  slides.push(C.repairSlide({ ...s, mistakes: s.mistakes.map((m) => ({ ...m, wrong: pure(m.wrong), right: pure(m.right) })) }, x.hints));
+  slides.push(C.repairSlide({ ...s, mistakes: (x.mistakes || s.mistakes).map((m) => ({ ...m, wrong: pure(m.wrong), right: pure(m.right) })) }, x.hints));
   if (x.listenParts) {
     // listening-skills lessons: one short listen → script → answers cycle per text
     x.listenParts.forEach((p, k) => {
