@@ -40,7 +40,7 @@ function w(item, extra = {}) {
     const colon = /^([^:\u0600-\u06FF]+):\s*(.*[\u0600-\u06FF].*)$/.exec(out.prompt);
     const runs = out.prompt.match(/[\u0600-\u06FF][\u0600-\u06FF\s…ـ.،؟!]*/g) || [];
     if (colon) { out.prompt = `${colon[1]}:`; out.ar = colon[2].trim(); out.arBig = true; }
-    else if (runs.length === 1) {
+    else if (runs.length === 1 && runs[0].replace(/[\s…ـ.،؟!\u064B-\u0652]/g, '').length > 1) {
       const endQ = /[؟?]$/.test(runs[0].trim()) && runs[0].trim().split(/\s+/).length > 1 && !/^(مَا|كَمْ|كَيْفَ|هَلْ|أَيْنَ|مِنْ أَيْنَ)/.test(runs[0].trim());
       out.ar = endQ ? runs[0].trim().replace(/[؟?]$/, '') : runs[0].trim(); out.arBig = true;
       out.prompt = out.prompt.replace(runs[0], /[؟?]$/.test(runs[0].trim()) ? 'this? ' : 'this ').replace(/\s+([.?!,])/g, '$1').trim();

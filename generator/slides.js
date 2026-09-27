@@ -386,7 +386,9 @@ function formsTable(D, sp) {
     box(s, 0.5, y, 12.33, rh, { fill: i % 2 ? C.cream : C.white, shadow: false, r: 0.05 });
     r.cells.forEach((cell, j) => {
       const c = cols[j];
-      if (cell && typeof cell === 'object') {
+      if (cell && typeof cell === 'object' && !cell.sub) {
+        txt(s, cell.ar, pos[j] + 0.1, y, c.w - 0.2, rh, { fit: true, size: c.size || 20, min: 12, bold: true, color: C.navy, align: 'center' });
+      } else if (cell && typeof cell === 'object') {
         txt(s, cell.ar, pos[j] + 0.1, y + 0.02, c.w - 0.2, rh * 0.62, { fit: true, size: c.size || 20, min: 12, bold: true, color: C.navy, align: 'center' });
         txt(s, cell.sub, pos[j] + 0.05, y + rh * 0.6, c.w - 0.1, rh * 0.38, { fit: true, size: 9.5, min: 7.5, italic: true, color: C.slate, align: 'center', arabic: false });
       } else if (isArabic(cell)) {
