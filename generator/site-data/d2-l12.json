@@ -1,0 +1,357 @@
+{
+    "grammar": [
+        {
+            "prompt": "Choose accurate feminine personality agreement.",
+            "options": [
+                "هِيَ وَدُودَةٌ وَصَادِقَةٌ.",
+                "هِيَ وَدُودٌ وَصَادِقٌ.",
+                "هُوَ وَدُودَةٌ."
+            ],
+            "answer": 0,
+            "feedback": "A feminine subject requires feminine adjectives."
+        },
+        {
+            "prompt": "Choose “I respect her”.",
+            "options": [
+                "أَحْتَرِمُهَا.",
+                "أَحْتَرِمُهُ.",
+                "تَحْتَرِمُنِي."
+            ],
+            "answer": 0,
+            "feedback": "ـها refers to her."
+        },
+        {
+            "prompt": "Choose “this jacket”.",
+            "options": [
+                "هٰذِهِ السُّتْرَةُ",
+                "هٰذَا السُّتْرَةُ",
+                "هٰذِهِ السُّتْرَةَ"
+            ],
+            "answer": 0,
+            "feedback": "سُتْرَةٌ is feminine."
+        },
+        {
+            "prompt": "Complete the comparison: هٰذَا أَرْخَصُ ___ ذٰلِكَ.",
+            "options": [
+                "مِنْ",
+                "مَعَ",
+                "عَلَى"
+            ],
+            "answer": 0,
+            "feedback": "Comparative takes مِنْ."
+        },
+        {
+            "prompt": "Choose “the girl who wears glasses”.",
+            "options": [
+                "الفَتَاةُ الَّتِي تَرْتَدِي نَظَّارَةً",
+                "الفَتَاةُ الَّذِي يَرْتَدِي",
+                "الوَلَدُ الَّتِي تَرْتَدِي"
+            ],
+            "answer": 0,
+            "feedback": "Feminine antecedent takes التي."
+        },
+        {
+            "prompt": "Which sentence gives evidence for helpfulness?",
+            "options": [
+                "هِيَ مُتَعَاوِنَةٌ لِأَنَّهَا تُسَاعِدُ زَمِيلَاتِهَا.",
+                "هِيَ مُتَعَاوِنَةٌ لِأَنَّ قَمِيصَهَا أَزْرَقُ.",
+                "هِيَ مُتَعَاوِنَةٌ."
+            ],
+            "answer": 0,
+            "feedback": "The behaviour proves the adjective."
+        },
+        {
+            "prompt": "Choose the balanced style opinion.",
+            "options": [
+                "أُحِبُّ المَوْضَةَ، وَلٰكِنَّنِي أَخْتَارُ مَا يُنَاسِبُنِي.",
+                "أُحِبُّ المَوْضَةَ لِأَنَّ.",
+                "المَوْضَةُ دَائِمًا صَحِيحَةٌ."
+            ],
+            "answer": 0,
+            "feedback": "It gives contrast and personal judgement."
+        },
+        {
+            "prompt": "Choose accurate dual-eye agreement.",
+            "options": [
+                "عَيْنَاهَا بُنِّيَّتَانِ.",
+                "عَيْنَاهَا بُنِّيَّةٌ.",
+                "عَيْنَاهَا بُنِّيٌّ."
+            ],
+            "answer": 0,
+            "feedback": "Dual feminine adjective is بُنِّيَّتَانِ."
+        },
+        {
+            "prompt": "Which is the superlative?",
+            "options": [
+                "هٰذَا الخِيَارُ الأَفْضَلُ.",
+                "هٰذَا أَفْضَلُ مِنْ ذٰلِكَ.",
+                "هٰذَا جَيِّدٌ."
+            ],
+            "answer": 0,
+            "feedback": "Definite الأَفْضَلُ means the best."
+        },
+        {
+            "prompt": "Complete: عَلَاقَتُنَا قَوِيَّةٌ ___ نَثِقُ بِبَعْضِنَا.",
+            "options": [
+                "لِأَنَّنَا",
+                "لِأَنَّهُ",
+                "وَلٰكِنَّهَا"
+            ],
+            "answer": 0,
+            "feedback": "The subject is we: لِأَنَّنَا."
+        },
+        {
+            "prompt": "Choose respectful physical description.",
+            "options": [
+                "هُوَ مُتَوَسِّطُ القَامَةِ وَلَهُ شَعْرٌ قَصِيرٌ.",
+                "هُوَ غَرِيبُ الشَّكْلِ.",
+                "شَكْلُهُ سَيِّئٌ."
+            ],
+            "answer": 0,
+            "feedback": "It uses observable, respectful detail."
+        },
+        {
+            "prompt": "Choose the strongest developed answer.",
+            "options": [
+                "أُفَضِّلُ هٰذَا المِعْطَفَ لِأَنَّهُ أَرْخَصُ وَأَكْثَرُ رَاحَةً.",
+                "هٰذَا المِعْطَفُ.",
+                "نَعَمْ."
+            ],
+            "answer": 0,
+            "feedback": "It includes preference, comparison and reason."
+        }
+    ],
+    "listen1": [
+        {
+            "prompt": "Who is described first?",
+            "options": [
+                "a female friend",
+                "a shop assistant",
+                "a teacher"
+            ],
+            "answer": 0,
+            "feedback": "The speaker begins with her friend."
+        },
+        {
+            "prompt": "What is she like?",
+            "options": [
+                "patient and helpful",
+                "selfish and nervous",
+                "quiet and dishonest"
+            ],
+            "answer": 0,
+            "feedback": "The speaker says صَبُورَةٌ وَمُتَعَاوِنَةٌ."
+        },
+        {
+            "prompt": "What does she usually wear?",
+            "options": [
+                "simple modest clothes",
+                "a school uniform",
+                "sports kit only"
+            ],
+            "answer": 0,
+            "feedback": "The text states simple, modest clothes."
+        },
+        {
+            "prompt": "What evidence supports helpfulness?",
+            "options": [
+                "She explains work to new students.",
+                "She buys expensive clothes.",
+                "She has long hair."
+            ],
+            "answer": 0,
+            "feedback": "The action supports the quality."
+        },
+        {
+            "prompt": "How does the speaker’s style differ?",
+            "options": [
+                "It is more colourful.",
+                "It is more formal.",
+                "It is identical."
+            ],
+            "answer": 0,
+            "feedback": "The speaker prefers more colourful clothes."
+        },
+        {
+            "prompt": "What conclusion is given?",
+            "options": [
+                "Different styles can suit different personalities.",
+                "Fashion is always bad.",
+                "Friends must dress alike."
+            ],
+            "answer": 0,
+            "feedback": "The conclusion values individual suitability."
+        }
+    ],
+    "listen2": [
+        {
+            "prompt": "What item is the customer looking for?",
+            "options": [
+                "a coat",
+                "a bag",
+                "shoes"
+            ],
+            "answer": 0,
+            "feedback": "The customer asks for a coat."
+        },
+        {
+            "prompt": "What problem is there with the first item?",
+            "options": [
+                "It is too tight.",
+                "It is too cheap.",
+                "It is the wrong colour only."
+            ],
+            "answer": 0,
+            "feedback": "The first coat is tight."
+        },
+        {
+            "prompt": "What does the assistant bring?",
+            "options": [
+                "a larger size",
+                "a smaller size",
+                "a different bag"
+            ],
+            "answer": 0,
+            "feedback": "A larger size is brought."
+        },
+        {
+            "prompt": "Which coat is cheaper?",
+            "options": [
+                "the blue coat",
+                "the black coat",
+                "they cost the same"
+            ],
+            "answer": 0,
+            "feedback": "The blue coat is cheaper."
+        },
+        {
+            "prompt": "Why does the customer choose black?",
+            "options": [
+                "It is more elegant and suitable.",
+                "It is the cheapest.",
+                "It is lighter."
+            ],
+            "answer": 0,
+            "feedback": "Elegance and suitability decide the choice."
+        },
+        {
+            "prompt": "What language function is used at the end?",
+            "options": [
+                "polite purchase decision",
+                "asking directions",
+                "describing family"
+            ],
+            "answer": 0,
+            "feedback": "The customer confirms the purchase politely."
+        }
+    ],
+    "reading": [
+        {
+            "prompt": "What is the writer’s relationship to Salma?",
+            "options": [
+                "close friend",
+                "sister",
+                "teacher"
+            ],
+            "answer": 0,
+            "feedback": "The text says صَدِيقَتِي المُقَرَّبَةُ."
+        },
+        {
+            "prompt": "Which quality is supported by helping new students?",
+            "options": [
+                "cooperative",
+                "shy",
+                "selfish"
+            ],
+            "answer": 0,
+            "feedback": "Helping supports cooperation."
+        },
+        {
+            "prompt": "How does Salma’s style compare with the writer’s?",
+            "options": [
+                "more formal",
+                "less colourful",
+                "exactly the same"
+            ],
+            "answer": 0,
+            "feedback": "The text states her style is more formal."
+        },
+        {
+            "prompt": "What does الَّتِي refer to?",
+            "options": [
+                "Salma",
+                "the coat",
+                "the school"
+            ],
+            "answer": 0,
+            "feedback": "The feminine relative pronoun refers to Salma."
+        },
+        {
+            "prompt": "Why does the writer trust her?",
+            "options": [
+                "She is honest and listens.",
+                "She buys gifts.",
+                "She is tall."
+            ],
+            "answer": 0,
+            "feedback": "The writer gives both behaviours as evidence."
+        },
+        {
+            "prompt": "What is the writer’s final judgement?",
+            "options": [
+                "Character matters more than clothes alone.",
+                "Fashion determines personality.",
+                "Friends should dress alike."
+            ],
+            "answer": 0,
+            "feedback": "The conclusion prioritises character."
+        },
+        {
+            "prompt": "Which phrase signals contrast?",
+            "options": [
+                "بَيْنَمَا",
+                "لِأَنَّ",
+                "ثُمَّ"
+            ],
+            "answer": 0,
+            "feedback": "بَيْنَمَا contrasts two styles."
+        },
+        {
+            "prompt": "Which comparative is used?",
+            "options": [
+                "أَكْثَرُ رَسْمِيَّةً",
+                "رَسْمِيَّةٌ جِدًّا",
+                "الأَكْثَرُ رَسْمِيَّةً مِنْهَا"
+            ],
+            "answer": 0,
+            "feedback": "The text uses أَكْثَرُ رَسْمِيَّةً."
+        },
+        {
+            "prompt": "Which evidence shows confidence?",
+            "options": [
+                "She speaks to groups without fear.",
+                "She has brown eyes.",
+                "She wears blue."
+            ],
+            "answer": 0,
+            "feedback": "The behaviour supports confidence."
+        },
+        {
+            "prompt": "Which summary is best?",
+            "options": [
+                "A balanced portrait combining appearance, style, relationship and evidence.",
+                "A price list.",
+                "A timetable."
+            ],
+            "answer": 0,
+            "feedback": "The text integrates the unit themes."
+        }
+    ],
+    "scripts": [
+        "تَصِفُ هُدَى صَدِيقَتَهَا سَلْمَى. تَقُولُ إِنَّهَا صَبُورَةٌ وَمُتَعَاوِنَةٌ، لِأَنَّهَا تَشْرَحُ العَمَلَ لِلطَّالِبَاتِ الجَدِيدَاتِ. تَرْتَدِي سَلْمَى عَادَةً مَلَابِسَ بَسِيطَةً وَمُحْتَشِمَةً، بَيْنَمَا تُفَضِّلُ هُدَى أَلْوَانًا أَكْثَرَ زَهَاءً. فِي رَأْيِ هُدَى، اخْتِلَافُ الأُسْلُوبِ لَا يَمْنَعُ الصَّدَاقَةَ، لِأَنَّ كُلَّ شَخْصٍ يَخْتَارُ مَا يُنَاسِبُهُ.",
+        "يَبْحَثُ عُمَرُ عَنْ مِعْطَفٍ جَدِيدٍ. يُجَرِّبُ مِعْطَفًا أَزْرَقَ، وَلٰكِنَّهُ ضَيِّقٌ. تُحْضِرُ البَائِعَةُ مَقَاسًا أَكْبَرَ وَتَقُولُ إِنَّ المِعْطَفَ الأَزْرَقَ أَرْخَصُ مِنَ الأَسْوَدِ. مَعَ ذٰلِكَ يَخْتَارُ عُمَرُ الأَسْوَدَ لِأَنَّهُ أَكْثَرُ أَنَاقَةً وَمُنَاسِبٌ لِلْمُنَاسَبَاتِ. يَقُولُ: سَآخُذُهُ، مِنْ فَضْلِكِ."
+    ],
+    "readingText": "سَلْمَى صَدِيقَتِي المُقَرَّبَةُ الَّتِي أَعْرِفُهَا مُنْذُ سِتِّ سَنَوَاتٍ. هِيَ مُتَوَسِّطَةُ القَامَةِ وَلَهَا شَعْرٌ قَصِيرٌ وَمُجَعَّدٌ. تَرْتَدِي عَادَةً مَلَابِسَ أَكْثَرَ رَسْمِيَّةً مِنْ مَلَابِسِي، بَيْنَمَا أُفَضِّلُ أَنَا الأُسْلُوبَ العَمَلِيَّ. سَلْمَى وَدُودَةٌ وَوَاثِقَةٌ؛ فَهِيَ تَتَحَدَّثُ أَمَامَ المَجْمُوعَاتِ دُونَ خَوْفٍ. وَهِيَ أَيْضًا مُتَعَاوِنَةٌ لِأَنَّهَا تُسَاعِدُ الطَّالِبَاتِ الجَدِيدَاتِ. أَثِقُ بِهَا لِأَنَّهَا صَادِقَةٌ وَتَسْتَمِعُ إِلَيَّ. فِي رَأْيِي، المَلَابِسُ قَدْ تُعَبِّرُ عَنِ الذَّوْقِ، وَلٰكِنَّ الشَّخْصِيَّةَ وَالسُّلُوكَ أَهَمُّ مِنَ المَظْهَرِ وَحْدَهُ.",
+    "writing": ">06Form + extended response · 20 marks Part C — WritingUse type, write or draw on screen, or write on paper. Question 1 · Person profile · 5 marks الاِسْمُ صِفَتَانِ شَخْصِيَّتَانِ دَلِيلٌ عَلَى صِفَةٍ وَصْفُ المَظْهَرِ الأُسْلُوبُ فِي المَلَابِسِ Form mark \/5 Save and mark form completeNot yet marked complete.Question 2 · Extended article or email · 15 marks Write 100–120 Arabic words about a person, your relationship, their appearance and style. Include comparison, evidence and a reasoned opinion. Task \/5All content points developed. Range \/5Varied grammar and vocabulary. Accuracy \/5Agreement, reference and spelling controlled. Task \/5 Range \/5 Accuracy \/5 Save and mark article completeNot yet marked complete.",
+    "speaking": ">07Portrait + topic conversation · 10 marks Part D — SpeakingPrepare concise cues Describe a person and your relationship. Give appearance and clothing detail. Give personality evidence. Compare your styles. Give and justify an opinion. Communication \/5 Accuracy and range \/5 Save and mark speaking completeNot yet marked complete."
+}
