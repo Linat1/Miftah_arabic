@@ -43,7 +43,7 @@ const site = {
   },
   mistakes: [
     { wrong: 'أُحِبُّ كَثِيرًا العُلُومَ.', right: 'أُحِبُّ العُلُومَ كَثِيرًا.', why: 'The degree word comes AFTER the subject.' },
-    { wrong: 'هَلْ تُحِبُّ الفَنَّ؟ (to a girl)', right: 'هَلْ تُحِبِّينَ الفَنَّ؟', why: 'The LISTENER’s gender controls the question ending.' },
+    { wrong: 'يَا مَرْيَمُ، هَلْ تُحِبُّ الفَنَّ؟', right: 'يَا مَرْيَمُ، هَلْ تُحِبِّينَ الفَنَّ؟', why: 'The LISTENER’s gender controls the question ending.' },
     { wrong: 'أُفَضِّلُ الفَنَّ مِنَ التَّارِيخِ.', right: 'أُفَضِّلُ الفَنَّ عَلَى التَّارِيخِ.', why: 'Prefer X to Y = ‘alā; like more than = akthara min.' },
   ],
   listening: {

@@ -43,7 +43,7 @@ const site = {
   },
   mistakes: [
     { wrong: 'هَذَا مِسْطَرَةٌ.', right: 'هَذِهِ مِسْطَرَةٌ.', why: 'Ruler is feminine (ـة): hādhihi.' },
-    { wrong: 'هَلْ عِنْدَكَ قَلَمٌ؟ (to a girl)', right: 'هَلْ عِنْدَكِ قَلَمٌ؟', why: 'One female listener: ‘indaki.' },
+    { wrong: 'يَا مَرْيَمُ، هَلْ عِنْدَكَ قَلَمٌ؟', right: 'يَا مَرْيَمُ، هَلْ عِنْدَكِ قَلَمٌ؟', why: 'One female listener: ‘indaki.' },
     { wrong: 'لَا عِنْدِي غِرَاءٌ.', right: 'لَيْسَ عِنْدِي غِرَاءٌ.', why: 'I don’t have = laysa ‘indī.' },
   ],
   listening: {
