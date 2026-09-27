@@ -74,7 +74,7 @@ function translitWord(word) {
 
 function translit(text) {
   return text.split(/(\s+|[،؟.!…/·()])/).map((t) => {
-    if (!/[؀-ۿ]/.test(t)) return t.replace('،', ',').replace('؟', '?');
+    if (!/[ء-ي]/.test(t)) return t.replace(/،/g, ',').replace(/؟/g, '?').replace(/؛/g, ';');
     return translitWord(t);
   }).join('').replace(/\s+/g, ' ').trim();
 }
