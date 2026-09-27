@@ -13,7 +13,14 @@ const games = require('../site-data/pathway-visual-games.json');
 const UNITS = {
   D1: { title: 'Daily Routine and Time' },
   D2: { title: 'People, Relationships and Style' },
+  D5: { title: 'Hobbies, Sport and Leisure' },
+  F3: { title: 'Family and Home' },
+  F5: { title: 'Food, Health and Body' },
+  F6: { title: 'Town and Transport' },
+  P1: { title: 'Healthy Lifestyles' },
+  P3: { title: 'Travel and Transport' },
 };
+const PATHWAY = { F: 'Foundation', D: 'Development', P: 'Progression' };
 const meta = (unit) => C.unitMeta({
   code: unit, kicker: `YEAR 8  ·  DEVELOPMENT ${unit}`, name: `Development ${unit} · ${UNITS[unit].title}`,
   level: 'Development · A2 → B1', site: `Pathways › Development › ${unit}`, footer: `Development ${unit} · ${UNITS[unit].title}`,
@@ -68,7 +75,7 @@ function devLesson(code, x) {
   const slides = [];
   slides.push(C.titleSlide({
     n: Number(code.slice(-2)),
-    siteRef: `Pathways › Development › ${unit} ${UNITS[unit].title} › ${code}`,
+    siteRef: x.siteRef || `Pathways › ${PATHWAY[unit[0]]} › ${unit} ${UNITS[unit].title} › ${code}`,
     plan: x.plan,
     source: x.source || `The website lesson “${s.title}”: vocabulary, grammar rules and quiz, patterns, common mistakes, sorter, listening, reading, speaking prompts and model, writing task and model, differentiation, final check and the lesson mission.${game ? ` Picture match: website visual game “${game.title.replace('Visual game — ', '')}”.` : ''}`,
     support: x.patch ? `${x.support}

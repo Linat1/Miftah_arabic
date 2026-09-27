@@ -765,6 +765,41 @@ function frames(D, sp) {
   txt(s, sp.bank.join('  ·  '), 0.7, 6.3, 11.93, 0.56, { fit: true, size: 16, min: 10, bold: true, color: C.navy });
 }
 
+// ------------------------------------------------------------------ topic application challenge (Advanced Topics)
+function challenge(D, sp) {
+  const s = frame(D, sp);
+  box(s, 0.5, 1.98, 6.25, 4.92, { fill: C.cream, line: 'E8D49A' });
+  pill(s, 0.7, 2.1, 3.4, 0.32, C.goldDark, sp.chip || 'APPLICATION CHALLENGE · WEBSITE', { size: 9 });
+  txt(s, `${sp.icon || ''}  ${sp.head}`, 0.7, 2.5, 5.85, 0.55, { fit: true, size: 22, min: 14, bold: true, color: C.navy, arabic: false });
+  txt(s, sp.text, 0.7, 3.08, 5.85, 1.3, { fit: true, size: 13.5, min: 10, color: C.ink, valign: 'top', arabic: false });
+  txt(s, 'HOW WE RUN IT ONLINE', 0.7, 4.42, 5.8, 0.28, { size: 9.5, bold: true, color: C.goldDark, cs: 2, arabic: false });
+  const n = sp.steps.length; const rh = Math.min(0.5, 2.05 / n);
+  sp.steps.forEach((st, i) => {
+    circle(s, 0.72, 4.76 + i * rh + 0.06, 0.3, C.navy, i + 1, { size: 10 });
+    mixedLine(s, st, 1.12, 4.74 + i * rh, 5.45, rh, { size: 11.5, color: C.ink });
+  });
+  const keys = ['core', 'develop', 'stretch'];
+  const bh = sp.phrases ? 0.98 : 1.55;
+  keys.forEach((k, i) => {
+    const R = ROUTES[k]; const y = 1.98 + i * (bh + 0.12);
+    box(s, 6.95, y, 5.88, bh, { fill: R.pale, line: R.line });
+    pill(s, 7.08, y + 0.1, 1.15, 0.28, R.color, R.label, { size: 8.5 });
+    mixedLine(s, sp.routes[k], 7.08, y + 0.4, 5.6, bh - 0.46, { size: 11.5, color: C.ink });
+  });
+  if (sp.phrases) {
+    const y0 = 1.98 + 3 * (bh + 0.12);
+    const h = 6.9 - y0;
+    box(s, 6.95, y0, 5.88, h, { fill: C.white });
+    txt(s, 'USEFUL LANGUAGE', 7.1, y0 + 0.06, 3, 0.26, { size: 9.5, bold: true, color: C.goldDark, cs: 2, arabic: false });
+    const m = sp.phrases.length; const ph = (h - 0.38) / m;
+    sp.phrases.forEach((p, i) => {
+      const y = y0 + 0.34 + i * ph;
+      txt(s, p[0], 9.55, y, 3.15, ph, { fit: true, size: 16, min: 9, bold: true, color: C.navy });
+      txt(s, p[1], 7.1, y, 2.4, ph, { fit: true, size: 10, min: 7.5, italic: true, color: C.slate, arabic: false });
+    });
+  }
+}
+
 // ------------------------------------------------------------------ stretch task + phrase bank
 function stretchTask(D, sp) {
   const s = frame(D, sp);
@@ -862,7 +897,7 @@ function close(D, sp) {
 module.exports = {
   frame, mcq, title, welcome, journey, objectives, keywords, vocab, formsTable, codeWord, peopleTable, ruleCards,
   trace, formula, ruleRows, ido, models, builder, sorter, repair, passage, glossed, speaking, routes, frames, stretchTask,
-  modelAnswer, selfCheck, prep, close,
+  modelAnswer, selfCheck, prep, close, challenge,
 };
 
 // ------------------------------------------------------------------ picture match (website lesson game, with icons)

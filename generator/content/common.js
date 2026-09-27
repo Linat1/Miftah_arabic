@@ -317,7 +317,7 @@ function closeSlide(o) {
 
 function gameSlide(game, o) {
   return {
-    type: 'picMatch', stage: 'wedo', min: o.min || 2, flex: !!o.flex, eyebrow: `We do · picture match · website game “${game.title}”`, title: o.title || 'Match the picture to the sentence', ar: game.arabic,
+    type: 'picMatch', stage: 'wedo', min: o.flex ? undefined : (o.min || 2), flex: !!o.flex, eyebrow: `We do · picture match · website game “${game.title}”`, title: o.title || 'Match the picture to the sentence', ar: game.arabic,
     items: game.items.map((it, i) => ({ ar: it.sentence, en: o.en[i], icons: o.icons[i], link: o.link, label: o.labels ? o.labels[i] : undefined })),
     order: o.order,
     answerSlide: { min: 0, eyebrow: 'We do · picture match answers', title: 'Picture match: answers' },
