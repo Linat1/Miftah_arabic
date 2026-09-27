@@ -111,10 +111,10 @@ function devLesson(code, x) {
   (x.wedoSlides || []).forEach((w) => slides.push(w));
   if (s.sorter) {
     slides.push({
-      type: 'sorter', stage: 'wedo', min: x.sorterFlex ? undefined : 2, flex: !!x.sorterFlex, eyebrow: 'We do · website sorter', title: s.sorter.title, ar: 'صَنِّفْ',
-      categories: x.sorterCats || s.sorter.categories, items: s.sorter.items.slice(0, 9).map((it) => ({ ar: it.label, cat: it.answer ?? it.category })),
+      type: 'sorter', stage: 'wedo', min: x.sorterFlex ? undefined : 2, flex: !!x.sorterFlex, eyebrow: 'We do · website sorter', title: x.sorterTitle || s.sorter.title || 'Sort it', ar: 'صَنِّفْ',
+      categories: x.sorterCats || s.sorter.categories, items: s.sorter.items.slice(0, 9).map((it) => { const c = it.answer ?? it.category; return { ar: it.label, cat: typeof c === 'string' ? s.sorter.categories.indexOf(c) : c }; }),
       answerSlide: { eyebrow: 'We do · sorter answers', title: 'Sorted', ar: 'الإِجَابَاتُ' },
-      notes: `WE DO — website sorter (2 min). Website instruction: ${s.sorter.instructions}\n${x.sorterNotes || ''}`,
+      notes: `WE DO — website sorter (2 min). Website instruction: ${s.sorter.instructions || 'sort each item into the right group.'}\n${x.sorterNotes || ''}`,
     });
   }
   const rest = x.rest || G.quiz.map((_, i) => i).filter((i) => !qc.includes(i)).slice(0, 4);
