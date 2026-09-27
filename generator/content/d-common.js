@@ -79,6 +79,11 @@ function devLesson(code, x) {
   // questions, pattern translations, sorter, some mistakes). Scripts and texts always stay the website's.
   const raw = site(code); const pt = x.patch || {};
   const s = { ...raw, ...pt, listening: { ...raw.listening, ...(pt.listening || {}) }, reading: { ...raw.reading, ...(pt.reading || {}) }, differentiation: { ...raw.differentiation, ...(x.diff || {}) } };
+  // clock times in Arabic-Indic digits (٨:٣٠) reverse in mixed runs: show them as 8:30
+  const clock = (t) => (typeof t === 'string' ? t.replace(/[٠-٩]+:[٠-٩]+/g, (m) => m.replace(/[٠-٩]/g, (d) => '٠١٢٣٤٥٦٧٨٩'.indexOf(d))) : t);
+  const fixQ = (qs) => (qs || []).map((x) => ({ ...x, prompt: clock(x.prompt), feedback: clock(x.feedback), options: (x.options || []).map(clock) }));
+  s.reading = { ...s.reading, text: clock(s.reading.text), questions: fixQ(s.reading.questions) };
+  s.listening = { ...s.listening, script: clock(s.listening.script), questions: fixQ(s.listening.questions) };
   const G = s.grammar; const unit = code.slice(0, 2);
   const game = games[code.toLowerCase()];
   const slides = [];
