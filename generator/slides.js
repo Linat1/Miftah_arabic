@@ -15,7 +15,8 @@ function frame(D, sp) {
   s.addText('Al Madina Online School', { x: 1.05, y: 0.24, w: 4, h: 0.28, isTextBox: true, margin: 0, valign: 'middle', fontFace: 'Cambria', fontSize: 12, bold: true, color: C.navy });
   s.addText('ARABIC DEPARTMENT · MIFTAH ARABIC · IGCSE 0544', { x: 1.05, y: 0.5, w: 5, h: 0.2, isTextBox: true, margin: 0, valign: 'middle', fontFace: 'Calibri', fontSize: 8, bold: true, color: C.goldDark, charSpacing: 2 });
   // lesson chip + stage chip (+ FLEX)
-  pill(s, 9.73, 0.3, 3.1, 0.36, C.navy, `${D.meta.code} · ${D.meta.chip}`, { size: 9.5 });
+  const chipTxt = `${D.meta.code} · ${D.meta.chip}`;
+  pill(s, 9.73, 0.3, 3.1, 0.36, C.navy, chipTxt, { size: Math.min(9.5, fit(chipTxt, 2.5, 0.36, 9.5, 7, false, 1.25)) });
   const label = st.label + (sp.min ? ` · ${sp.min} MIN` : '');
   const cw = chipWidth(label);
   const cx = 9.58 - cw;
@@ -113,7 +114,7 @@ function mcqSlide(D, sp, reveal) {
   const s = frame(D, reveal ? { ...sp, ...sp.answerSlide, notes: (sp.answerSlide || {}).notes || sp.answerNotes } : sp);
   const qs = sp.questions;
   const n = qs.length + (sp.side ? 1 : 0);
-  const cols = sp.cols || (n <= 2 ? 2 : n === 4 ? 2 : 3);
+  const cols = sp.cols || (n <= 2 ? 2 : n === 4 ? 2 : n >= 7 ? 4 : 3);
   const rows = Math.ceil(n / cols);
   const top = 1.98; const bottom = sp.bottom ? 5.85 : 6.9; const gap = 0.2;
   const cw = (12.33 - gap * (cols - 1)) / cols;
@@ -649,7 +650,7 @@ function speaking(D, sp) {
     const y = 3.12 + i * 0.61;
     const R = st.route === 'sum' ? { color: C.navy, label: '↺ SUM UP' } : ROUTES[st.route];
     pill(s, 0.7, y + 0.17, 1.15, 0.28, R.color, R.label, { size: 8 });
-    txt(s, st.ar, 1.95, y, 2.95, 0.61, { fit: true, size: 16, min: 10, color: st.route === 'core' ? CODE.w.color : C.ink });
+    txt(s, st.ar.replace(/_{4,}/g, '___'), 1.95, y, 2.95, 0.61, { fit: true, size: 16, min: 10, color: st.route === 'core' ? CODE.w.color : C.ink });
   });
   // model
   box(s, 0.5, 5.74, 12.33, 1.16, { fill: 'EAF3EF', line: 'A8CDB9' });
@@ -724,7 +725,7 @@ function modelAnswer(D, sp) {
   const s = frame(D, sp);
   const h = sp.en ? 3.55 : 4.3;
   box(s, 0.5, 1.98, 12.33, h);
-  txt(s, sp.text, 0.75, 2.12, 11.83, h - 0.28, { fit: true, size: 26, min: 13, bold: false, color: C.ink, valign: 'middle', arFactor: 0.85 });
+  txt(s, sp.text, 0.75, 2.12, 11.83, h - 0.28, { fit: true, size: 26, min: 13, bold: false, color: C.ink, valign: 'middle', arFactor: 0.92 });
   if (sp.en) {
     box(s, 0.5, 1.98 + h + 0.12, 12.33, 1.12, { fill: C.cream, line: C.cream, shadow: false });
     txt(s, sp.en, 0.7, 1.98 + h + 0.16, 11.93, 1.04, { fit: true, size: 11.5, min: 8, italic: true, color: C.slate, valign: 'top', arabic: false });
@@ -800,3 +801,43 @@ module.exports = {
   formula, ruleRows, ido, models, builder, sorter, repair, passage, glossed, speaking, routes, frames, stretchTask,
   modelAnswer, selfCheck, prep, close,
 };
+
+// ------------------------------------------------------------------ picture match (website lesson game, with icons)
+async function picMatch(D, sp) {
+  const n = sp.items.length; const gap = 0.2; const cw = (12.33 - gap * (n - 1)) / n;
+  const order = sp.order || sp.items.map((_, i) => (i + 1) % n); // sentence display order (letters)
+  const letterOf = (i) => 'ABC'[order.indexOf(i)];
+  const scene = async (s, it, i, x, y, h) => {
+    box(s, x, y, cw, h, { fill: C.white });
+    circle(s, x + 0.14, y + 0.14, 0.4, C.navy, i + 1, { size: 12 });
+    const k = it.icons.length; const iw = 0.95; const tot = k * iw + (k - 1) * 0.35;
+    for (let j = 0; j < k; j++) {
+      const [set, name, col] = it.icons[j];
+      const ix = x + (cw - tot) / 2 + j * (iw + 0.35);
+      s.addShape('ellipse', { x: ix - 0.08, y: y + 0.28, w: iw + 0.16, h: iw + 0.16, fill: { color: 'F4F1EA' }, line: { color: 'F4F1EA' } });
+      s.addImage({ data: await L.icon(set, name, col || C.navy), x: ix + 0.12, y: y + 0.48, w: iw - 0.24, h: iw - 0.24 });
+      if (j < k - 1 && it.link) txt(s, it.link, ix + iw + 0.02, y + 0.5, 0.31, 0.5, { size: 16, bold: true, color: C.slate, align: 'center', arabic: false });
+    }
+    if (it.label) txt(s, it.label, x + 0.15, y + 1.5, cw - 0.3, 0.32, { fit: true, size: 11, min: 8.5, italic: true, color: C.slate, align: 'center', arabic: false });
+  };
+  const s = frame(D, sp);
+  for (let i = 0; i < n; i++) await scene(s, sp.items[i], i, 0.5 + (n - 1 - i) * (cw + gap), 1.98, 1.9);
+  order.forEach((idx, j) => {
+    const y = 4.08 + j * 0.62;
+    box(s, 0.5, y, 12.33, 0.54, { fill: C.icePale, line: C.blueLine, shadow: false, r: 0.06 });
+    circle(s, 12.3, y + 0.11, 0.32, STAGES.wedo.color, 'ABC'[j], { size: 10 });
+    txt(s, sp.items[idx].ar, 0.8, y, 11.35, 0.54, { fit: true, size: 20, min: 12, bold: true, color: C.navy });
+  });
+  txt(s, sp.task || 'Match each picture to a sentence. Type in the chat: 1_  2_  3_', 0.5, 5.98, 12.33, 0.4, { size: 12.5, bold: true, color: STAGES.wedo.color, arabic: false });
+  txt(s, sp.hint || 'Core: find ONE key word you know in each sentence first.', 0.5, 6.4, 12.33, 0.4, { size: 11.5, italic: true, color: C.slate, arabic: false });
+  const a = frame(D, { ...sp, ...sp.answerSlide });
+  for (let i = 0; i < n; i++) {
+    const x = 0.5 + (n - 1 - i) * (cw + gap);
+    await scene(a, sp.items[i], i, x, 1.98, 1.9);
+    box(a, x, 4.02, cw, 2.88, { fill: C.correctPale, line: '9CCFB0' });
+    circle(a, x + cw - 0.52, 4.14, 0.36, C.correct, letterOf(i), { size: 11 });
+    txt(a, sp.items[i].ar, x + 0.15, 4.55, cw - 0.3, 1.25, { fit: true, size: 22, min: 12, bold: true, color: C.navy, align: 'center' });
+    txt(a, sp.items[i].en, x + 0.15, 5.85, cw - 0.3, 0.9, { fit: true, size: 12, min: 9, italic: true, color: C.slate, align: 'center', valign: 'top', arabic: false });
+  }
+}
+module.exports.picMatch = picMatch;
