@@ -240,7 +240,7 @@ Colour code (website): green = connection continues, coral = connection stops �
   ], 10),
   F.prepSlide({
     ...NEXT,
-    words: [['شَدَّةٌ  ـّ', 'shadda · a doubled letter', ''], ['تَنْوِينٌ  ـٌ', 'tanwīn · the -n ending', ''], ['آ', 'alif madda · long ā after a hamza', ''], ['ة', 'tāʾ marbūṭa · ends many feminine words', ''], ['كِتَابٌ', 'a book', 'pl. كُتُبٌ']],
+    words: [['شَدَّةٌ  ـّ', 'shadda · a doubled letter', ''], ['تَنْوِينٌ  ـٌ', 'tanwīn · an -n ending', ''], ['آ', 'alif madda · hamza + long ā', ''], ['مُحَمَّدٌ', 'Muḥammad (double m)', ''], ['كِتَابٌ', 'a book', 'pl. كُتُبٌ']],
     questionEn: 'Split كِتَابٌ into its letters and name each form.',
     questionAr: 'كِتَابٌ = كـ + ـتـ + ـا + ب',
     homework: {
