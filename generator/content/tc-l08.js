@@ -323,7 +323,7 @@ Core: sentences 1 and 2. Develop / Stretch: sentence 3 and explain the wrong opt
   }),
   C.routesSlide(site, {
     core: { amount: '5 sentences', task: 'Describe your town: what there is, what is missing, where one place is and one comparison.', how: 'Use the frames and word bank on the next slide: two things there are, one thing missing, one “where” and one comparison.' },
-    develop: { amount: '6–8 sentences', task: 'Judge the services in your area and describe one building (website: مَبْنِيٌّ مِنْ).', how: 'Judge the services (good / crowded / missing), add one building material with مِنْ and one opinion.' },
+    develop: { amount: '6–8 sentences', task: 'Judge the services in your area and describe one building with مَبْنِيٌّ مِنْ', how: 'Judge the services (good / crowded / missing), add one building material with مِنْ and one opinion.' },
     stretch: { amount: '100–110 words', how: 'Website writing task: analyse a city or project; checklist and phrase bank on the Stretch slide.' },
   }),
   C.framesSlide({
