@@ -1,0 +1,428 @@
+{
+ "grammar": [
+  {
+   "prompt": "Choose the accurate formal climate description.",
+   "options": [
+    "يَتَّسِمُ السَّاحِلُ بِمَنَاخٍ مُعْتَدِلٍ.",
+    "يَتَّسِمُ السَّاحِلُ إِلَى مَنَاخٍ مُعْتَدِلٍ.",
+    "تَتَّسِمُ السَّاحِلَ بِمَنَاخٍ مُعْتَدِلٍ."
+   ],
+   "answer": 0,
+   "feedback": "يتسم requires بـ and agrees with الساحل."
+  },
+  {
+   "prompt": "Choose the accurate weather agreement.",
+   "options": [
+    "تَهُبَّ الرِّيَاحَ وَتَسْقُطَ الثُّلُوجَ.",
+    "تَهُبُّ الرِّيَاحُ وَتَسْقُطُ الثُّلُوجُ.",
+    "يَهُبُّ الرِّيَاحُ وَيَسْقُطُ الثُّلُوجُ."
+   ],
+   "answer": 1,
+   "feedback": "Both subjects take feminine agreement."
+  },
+  {
+   "prompt": "Choose the true environmental passive.",
+   "options": [
+    "يَلَوِّثُ الهَوَاءُ عَوَادِمَ السَّيَّارَاتِ.",
+    "يَنْبَعِثُ الهَوَاءُ السَّيَّارَاتِ.",
+    "يُلَوَّثُ الهَوَاءُ بِعَوَادِمِ السَّيَّارَاتِ."
+   ],
+   "answer": 2,
+   "feedback": "The air is the affected grammatical subject."
+  },
+  {
+   "prompt": "Which connector must be followed by إِلَى?",
+   "options": [
+    "يُؤَدِّي",
+    "بِسَبَبِ",
+    "مِمَّا"
+   ],
+   "answer": 0,
+   "feedback": "The fixed result pattern is يؤدي إلى."
+  },
+  {
+   "prompt": "Choose the accurate subjunctive after أَنْ.",
+   "options": [
+    "يَنْبَغِي أَنْ نُقَلِّلْ النُّفَايَاتِ.",
+    "يَنْبَغِي أَنْ نُقَلِّلَ النُّفَايَاتِ.",
+    "يَنْبَغِي أَنْ نُقَلِّلُ النُّفَايَاتِ."
+   ],
+   "answer": 1,
+   "feedback": "نقلل is a sound-ending present verb and takes final fatḥa; it is not one of the five verbs."
+  },
+  {
+   "prompt": "Which five-verb form is accurate after أَنْ?",
+   "options": [
+    "يَجِبُ عَلَى النَّاسِ أَنْ يُعِيدُونَ التَّدْوِيرَ.",
+    "يَجِبُ عَلَى النَّاسِ أَنْ يُعِيدُ التَّدْوِيرَ.",
+    "يَجِبُ عَلَى النَّاسِ أَنْ يُعِيدُوا التَّدْوِيرَ."
+   ],
+   "answer": 2,
+   "feedback": "يعيدون is one of the five verbs, so its nūn is omitted."
+  },
+  {
+   "prompt": "Choose the accurate negative condition.",
+   "options": [
+    "إِذَا لَمْ نُرَشِّدْ المِيَاهَ، فَسَتَزْدَادُ الأَزْمَةُ.",
+    "إِذَا لَمْ نُرَشِّدُ المِيَاهَ، فَسَتَزْدَادُ الأَزْمَةُ.",
+    "إِذَا لَمْ نُرَشِّدَ المِيَاهَ، فَسَتَزْدَادُ الأَزْمَةُ."
+   ],
+   "answer": 0,
+   "feedback": "لم makes the sound-ending present jussive: نرشّدْ."
+  },
+  {
+   "prompt": "Choose the accurate resource sentence.",
+   "options": [
+    "يَشِحُّ النِّفْطُ وَتَنْضَبُ المِيَاهَ.",
+    "يَنْضَبُ النِّفْطُ وَتَشِحُّ المِيَاهُ.",
+    "تَنْضَبُ النِّفْطُ وَيَشِحُّ المِيَاهُ."
+   ],
+   "answer": 1,
+   "feedback": "Oil is masculine; water is treated as feminine."
+  },
+  {
+   "prompt": "Choose the accurate reporting frame.",
+   "options": [
+    "يُشَارُ إِلَى أَنْ المَنَاخُ يَتَغَيَّرُ.",
+    "يُشَارِكُ المَنَاخُ إِلَى التَّغَيُّرِ.",
+    "يُشَارُ إِلَى أَنَّ المَنَاخَ يَتَغَيَّرُ."
+   ],
+   "answer": 2,
+   "feedback": "Impersonal reporting uses أنَّ."
+  },
+  {
+   "prompt": "Choose the accurate prediction.",
+   "options": [
+    "يُتَوَقَّعُ أَنْ يَزْدَادَ الطَّلَبُ.",
+    "يُتَوَقَّعُ أَنْ يَزْدَادُ الطَّلَبُ.",
+    "يَتَوَقَّعُ أَنْ الطَّلَبَ زَادَ."
+   ],
+   "answer": 0,
+   "feedback": "After أن, يزداد takes final fatḥa."
+  },
+  {
+   "prompt": "Which sentence gives a genuine concession?",
+   "options": [
+    "عَلَى الرَّغْمِ المَشْرُوعُ مِنْ أَنَّ مُكَلِّفٌ.",
+    "عَلَى الرَّغْمِ مِنْ أَنَّ المَشْرُوعَ مُكَلِّفٌ، فَإِنَّهُ يُوَفِّرُ الطَّاقَةَ لَاحِقًا.",
+    "عَلَى الرَّغْمِ مِنْ أَنَّ المَشْرُوعَ مُكَلِّفٌ، فَهُوَ مُكَلِّفٌ."
+   ],
+   "answer": 1,
+   "feedback": "The second clause must genuinely contrast with the concession."
+  },
+  {
+   "prompt": "Which conclusion is balanced and conditional?",
+   "options": [
+    "التِّقْنِيَّةُ مُفِيدَةٌ دَائِمًا دُونَ شُرُوطٍ.",
+    "التِّقْنِيَّةُ غَيْرُ مُفِيدَةٍ لِأَنَّهَا تِقْنِيَّةٌ.",
+    "التِّقْنِيَّةُ مُفِيدَةٌ إِلَى حَدٍّ مَا، شَرِيطَةَ أَنْ تُطَبَّقَ بِمَسْؤُولِيَّةٍ."
+   ],
+   "answer": 2,
+   "feedback": "The first qualifies the judgement and states a condition."
+  }
+ ],
+ "listening": [
+  {
+   "prompt": "Text 1: Which region has the driest climate?",
+   "options": [
+    "The interior",
+    "The northern coast",
+    "The mountain summit"
+   ],
+   "answer": 0,
+   "feedback": "The scientist says the dry desert climate prevails in the interior."
+  },
+  {
+   "prompt": "Text 1: What has become longer?",
+   "options": [
+    "Live streams",
+    "Drought periods",
+    "School terms"
+   ],
+   "answer": 1,
+   "feedback": "فترات الجفاف أصبحت أطول."
+  },
+  {
+   "prompt": "Text 1: What consequence is named?",
+   "options": [
+    "More snowfall everywhere",
+    "Lower demand for water",
+    "Greater pressure on groundwater"
+   ],
+   "answer": 2,
+   "feedback": "Longer drought increases pressure on groundwater."
+  },
+  {
+   "prompt": "Text 1: Which solution is proposed?",
+   "options": [
+    "Water reuse and conservation",
+    "Greater waste",
+    "More fossil-fuel use"
+   ],
+   "answer": 0,
+   "feedback": "The scientist proposes reuse and conservation."
+  },
+  {
+   "prompt": "Text 1: Which formal phrase introduces reported information?",
+   "options": [
+    "لِكَيْ",
+    "يُشَارُ إِلَى أَنَّ",
+    "مِنْ نَاحِيَةٍ أُخْرَى"
+   ],
+   "answer": 1,
+   "feedback": "The speaker uses يشار إلى أنَّ."
+  },
+  {
+   "prompt": "Text 1: Which two responses are recommended?",
+   "options": [
+    "More groundwater extraction and more waste",
+    "Solar panels and password sharing",
+    "Water reuse and reduced consumption"
+   ],
+   "answer": 2,
+   "feedback": "Both reuse and conservation are named."
+  },
+  {
+   "prompt": "Text 1: What is the overall topic?",
+   "options": [
+    "Climate-related water pressure",
+    "Social-media fashion",
+    "A sports timetable"
+   ],
+   "answer": 0,
+   "feedback": "The text links dry climate, drought and groundwater."
+  },
+  {
+   "prompt": "Text 1: Which idea is NOT mentioned?",
+   "options": [
+    "Groundwater pressure",
+    "Increasing fossil-fuel use",
+    "Longer drought"
+   ],
+   "answer": 1,
+   "feedback": "The text does not recommend more fossil-fuel use."
+  },
+  {
+   "prompt": "Text 2: What does Salma support?",
+   "options": [
+    "Only fossil fuels",
+    "Removing public transport",
+    "Solar energy and smart grids"
+   ],
+   "answer": 2,
+   "feedback": "Salma supports solar power and smart grids."
+  },
+  {
+   "prompt": "Text 2: What is Omar’s main reservation?",
+   "options": [
+    "High cost and privacy risk",
+    "There is no technology",
+    "The weather is cold"
+   ],
+   "answer": 0,
+   "feedback": "Omar raises cost and personal-data concerns."
+  },
+  {
+   "prompt": "Text 2: What do both speakers support?",
+   "options": [
+    "Increasing consumption",
+    "Reducing waste",
+    "Sharing passwords"
+   ],
+   "answer": 1,
+   "feedback": "Both agree on reducing waste."
+  },
+  {
+   "prompt": "Text 2: Where do the speakers disagree?",
+   "options": [
+    "Whether waste should be reduced",
+    "Whether the environment exists",
+    "How the technology should be implemented"
+   ],
+   "answer": 2,
+   "feedback": "They share the goal but differ over implementation."
+  },
+  {
+   "prompt": "Text 2: Why does Salma support smart grids?",
+   "options": [
+    "They reduce waste",
+    "They increase private-data collection",
+    "They replace all human decisions"
+   ],
+   "answer": 0,
+   "feedback": "She says they reduce waste."
+  },
+  {
+   "prompt": "Text 2: Which sentence best summarises the exchange?",
+   "options": [
+    "They discuss weather only.",
+    "They agree on the goal but differ on method and safeguards.",
+    "They disagree about every point."
+   ],
+   "answer": 1,
+   "feedback": "The final sentence explicitly distinguishes goal from method."
+  },
+  {
+   "prompt": "Text 3: What percentage of electricity is renewable?",
+   "options": [
+    "53%",
+    "15%",
+    "35%"
+   ],
+   "answer": 2,
+   "feedback": "The expert states 35%."
+  },
+  {
+   "prompt": "Text 3: What changed from the original plan?",
+   "options": [
+    "The completion year moved from 2030 to 2032",
+    "The city changed country",
+    "The percentage became zero"
+   ],
+   "answer": 0,
+   "feedback": "The corrected completion year is 2032."
+  },
+  {
+   "prompt": "Text 3: What is the expert’s final judgement?",
+   "options": [
+    "No environmental action is useful",
+    "Technology must be combined with responsible behaviour",
+    "Technology alone solves everything"
+   ],
+   "answer": 1,
+   "feedback": "The final statement combines technology and behaviour."
+  },
+  {
+   "prompt": "Text 3: What does 35% measure?",
+   "options": [
+    "The fall in water demand",
+    "The number of buses",
+    "The renewable share of electricity production"
+   ],
+   "answer": 2,
+   "feedback": "It is the renewable share of electricity production."
+  },
+  {
+   "prompt": "Text 3: What was the original completion year?",
+   "options": [
+    "2030",
+    "2032",
+    "2025"
+   ],
+   "answer": 0,
+   "feedback": "The original plan was 2030."
+  },
+  {
+   "prompt": "Text 3: Which reporting verb introduces the expert’s conclusion?",
+   "options": [
+    "يَتَفَاعَلُ مَعَ",
+    "يُؤَكِّدُ",
+    "يُعَلِّقُ عَلَى"
+   ],
+   "answer": 1,
+   "feedback": "The text says يؤكد الخبير."
+  }
+ ],
+ "reading": [
+  {
+   "prompt": "What is the article’s central argument?",
+   "options": [
+    "Technology can support environmental action but cannot replace policy and behaviour.",
+    "Technology has no environmental use.",
+    "Weather vocabulary is the only important issue."
+   ],
+   "answer": 0,
+   "feedback": "The final judgement combines technology, policy and behaviour."
+  },
+  {
+   "prompt": "Which problem is linked to longer drought?",
+   "options": [
+    "Clothing prices",
+    "Water scarcity",
+    "Cyberbullying"
+   ],
+   "answer": 1,
+   "feedback": "Longer drought is linked to water scarcity."
+  },
+  {
+   "prompt": "Which passive foregrounds an environmental result?",
+   "options": [
+    "يَسْتَخْدِمُ النَّاسُ",
+    "تُسَاعِدُ الشَّبَكَةُ",
+    "يُلَوَّثُ الهَوَاءُ"
+   ],
+   "answer": 2,
+   "feedback": "يُلوّث الهواء means the air is polluted."
+  },
+  {
+   "prompt": "Which datum is used as evidence?",
+   "options": [
+    "Electricity use fell by 18% in public buildings.",
+    "The writer likes green buildings.",
+    "The city has a long name."
+   ],
+   "answer": 0,
+   "feedback": "The article gives an 18% measured reduction."
+  },
+  {
+   "prompt": "What does “ها” refer to in “تُرَكَّبُ الأَنْظِمَةُ فِي المَبَانِي لِأَنَّهَا تُقَلِّلُ الهَدْرَ”?",
+   "options": [
+    "الهَدْرُ",
+    "الأَنْظِمَةُ",
+    "المَبَانِي"
+   ],
+   "answer": 1,
+   "feedback": "The systems are what reduce waste."
+  },
+  {
+   "prompt": "Which phrase attributes information to a source?",
+   "options": [
+    "مِنْ نَاحِيَةٍ أُخْرَى",
+    "عَلَى السَّاحِلِ",
+    "وَفْقًا لِبَيَانَاتِ البَلَدِيَّةِ"
+   ],
+   "answer": 2,
+   "feedback": "وفقًا لـ attributes the information."
+  },
+  {
+   "prompt": "What limitation of smart systems is acknowledged?",
+   "options": [
+    "Cost and privacy concerns",
+    "They cannot measure anything",
+    "They always increase waste"
+   ],
+   "answer": 0,
+   "feedback": "Both cost and data privacy are named."
+  },
+  {
+   "prompt": "Which connector introduces the counterargument?",
+   "options": [
+    "نَتِيجَةً لِذٰلِكَ",
+    "مَعَ ذٰلِكَ",
+    "عَلَاوَةً عَلَى ذٰلِكَ"
+   ],
+   "answer": 1,
+   "feedback": "مع ذلك introduces the reservation."
+  },
+  {
+   "prompt": "Why does the writer mention public transport?",
+   "options": [
+    "As a cause of all water scarcity",
+    "As an example of social media",
+    "As a practical way to reduce emissions"
+   ],
+   "answer": 2,
+   "feedback": "It is presented as an emissions solution."
+  },
+  {
+   "prompt": "What tone best describes the article?",
+   "options": [
+    "Analytical and cautiously optimistic",
+    "Comic and unrelated",
+    "Entirely pessimistic without evidence"
+   ],
+   "answer": 0,
+   "feedback": "The text balances evidence, benefit and limitation."
+  }
+ ]
+}
