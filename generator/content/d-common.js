@@ -119,10 +119,11 @@ function devLesson(code, x) {
   } else slides.push(C.listening(s, { coreTip: x.coreTip, routes: x.listenRoutes, gloss: x.gloss }));
   if (x.readingCore) slides.push(...(x.preReading || []), ...C.readingSlides(s, x.glossary, x.readingCore));
   slides.push(C.speakingSlide(s, x.speak));
-  slides.push(C.routesSlide(s, x.write));
+  const sw = x.writing ? { ...s, writing: { ...s.writing, ...x.writing } } : s; // teacher override when the website prompt and model do not match
+  slides.push(C.routesSlide(sw, x.write));
   slides.push(C.framesSlide(x.frames));
-  slides.push(C.stretchSlide(s, x.stretch));
-  slides.push(C.modelSlide(s, x.modelEn, x.find, x.modelNotes));
+  slides.push(C.stretchSlide(sw, x.stretch));
+  slides.push(C.modelSlide(sw, x.modelEn, x.find, x.modelNotes));
   slides.push(C.selfCheckSlide(x.selfCheck));
   slides.push(C.exitTicket((x.exit || [0, 1, 3]).map((i) => fromSite(s.final[i])), s.final.length));
   if (!x.readingCore) slides.push(...C.readingSlides(s, x.glossary));
