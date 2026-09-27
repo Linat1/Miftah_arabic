@@ -122,7 +122,7 @@ function devLesson(code, x) {
   const rest = x.rest || G.quiz.map((_, i) => i).filter((i) => !qc.includes(i)).slice(0, 4);
   if (rest.length) slides.push(C.morePractice(rest.map((i, k) => splitPrompt(G.quiz[i], { n: k + 5 })), `website quiz questions ${rest.map((i) => i + 1).join(', ')}`));
   // website mistakes sometimes append an English listener label (“— to a boy”): keep the Arabic line pure (the hint names the listener)
-  const pure = (t) => t.replace(/\s*—\s*to an? [a-z ]+\.?$/i, '');
+  const pure = (t) => t.replace(/\s*—\s*to an? [a-z ]+\.?$/i, '').replace(/\s*\([A-Za-z][^)]*\)\.?$/, '');
   slides.push(C.repairSlide({ ...s, mistakes: s.mistakes.map((m) => ({ ...m, wrong: pure(m.wrong), right: pure(m.right) })) }, x.hints));
   if (x.listenParts) {
     // listening-skills lessons: one short listen → script → answers cycle per text
