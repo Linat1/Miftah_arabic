@@ -1,0 +1,6712 @@
+{
+ "l01": {
+  "relay": [
+   {
+    "show": "السَّلَامُ عَلَيْكُمْ",
+    "prompt": "Which reply completes the peace greeting?",
+    "options": [
+     "وَعَلَيْكُمُ السَّلَامُ",
+     "إِلَى اللِّقَاءِ",
+     "صَبَاحُ الخَيْرِ"
+    ],
+    "ok": 0,
+    "why": "The reply returns the wish of peace: وَعَلَيْكُمُ السَّلَامُ."
+   },
+   {
+    "show": "صَبَاحُ الخَيْرِ",
+    "prompt": "Choose the conventional morning response.",
+    "options": [
+     "مَسَاءُ النُّورِ",
+     "صَبَاحُ النُّورِ",
+     "مَعَ السَّلَامَةِ"
+    ],
+    "ok": 1,
+    "why": "صَبَاحُ النُّورِ is the paired morning response."
+   },
+   {
+    "show": "مَسَاءُ الخَيْرِ",
+    "prompt": "Choose the conventional evening response.",
+    "options": [
+     "مَسَاءُ النُّورِ",
+     "صَبَاحُ النُّورِ",
+     "مَرْحَبًا"
+    ],
+    "ok": 0,
+    "why": "مَسَاءُ النُّورِ keeps the evening pair."
+   },
+   {
+    "show": "كَيْفَ حَالُكَ؟",
+    "prompt": "Ahmad is asked how he is. Which answer fits?",
+    "options": [
+     "بِخَيْرٍ، الحَمْدُ لِلَّهِ",
+     "وَعَلَيْكُمُ السَّلَامُ",
+     "أَهْلًا وَسَهْلًا"
+    ],
+    "ok": 0,
+    "why": "بِخَيْرٍ gives a state and الحَمْدُ لِلَّهِ adds a conventional expression of thanks or praise."
+   },
+   {
+    "show": "مَرْحَبًا",
+    "prompt": "A classmate says “hello”. Choose a simple natural return.",
+    "options": [
+     "مَرْحَبًا",
+     "مَعَ السَّلَامَةِ",
+     "مَسَاءُ النُّورِ"
+    ],
+    "ok": 0,
+    "why": "مَرْحَبًا can be returned with the same flexible greeting."
+   },
+   {
+    "show": "You expect to meet again later.",
+    "prompt": "Which closing expresses that idea most directly?",
+    "options": [
+     "إِلَى اللِّقَاءِ",
+     "صَبَاحُ الخَيْرِ",
+     "بِخَيْرٍ"
+    ],
+    "ok": 0,
+    "why": "إِلَى اللِّقَاءِ means “until the meeting / see you later”."
+   },
+   {
+    "show": "The conversation is ending.",
+    "prompt": "Choose the general goodbye.",
+    "options": [
+     "كَيْفَ حَالُكِ؟",
+     "مَعَ السَّلَامَةِ",
+     "أَهْلًا وَسَهْلًا"
+    ],
+    "ok": 1,
+    "why": "مَعَ السَّلَامَةِ is a general, polite goodbye."
+   },
+   {
+    "show": "A guest arrives.",
+    "prompt": "Which phrase offers a welcome?",
+    "options": [
+     "شُكْرًا",
+     "إِلَى اللِّقَاءِ",
+     "أَهْلًا وَسَهْلًا"
+    ],
+    "ok": 2,
+    "why": "أَهْلًا وَسَهْلًا is an idiomatic welcome."
+   }
+  ],
+  "genderItems": [
+   {
+    "q": "You are speaking to Ahmad. Choose the fully vowelled ending.",
+    "options": [
+     "كَيْفَ حَالُكَ؟",
+     "كَيْفَ حَالُكِ؟",
+     "كَيْفَ الحَالُ؟"
+    ],
+    "ok": 0,
+    "why": "Ahmad is the male addressee, so careful MSA uses -ka: كَ."
+   },
+   {
+    "q": "You are speaking to Sara. Choose the fully vowelled ending.",
+    "options": [
+     "كَيْفَ حَالُكَ؟",
+     "كَيْفَ حَالُكِ؟",
+     "كَيْفَ حَالُكُمْ؟"
+    ],
+    "ok": 1,
+    "why": "Sara is the female addressee, so careful MSA uses -ki: كِ."
+   },
+   {
+    "show": "حَالُكَ",
+    "prompt": "What does the final short vowel signal?",
+    "options": [
+     "one male addressee",
+     "one female addressee",
+     "a plural addressee"
+    ],
+    "ok": 0,
+    "why": "The fatḥa in كَ gives the singular masculine address form."
+   },
+   {
+    "show": "حَالُكِ",
+    "prompt": "What does the final short vowel signal?",
+    "options": [
+     "one male addressee",
+     "one female addressee",
+     "no addressee"
+    ],
+    "ok": 1,
+    "why": "The kasra in كِ gives the singular feminine address form."
+   },
+   {
+    "q": "Why can the two forms look identical in everyday print?",
+    "options": [
+     "Short vowels are often omitted",
+     "Arabic has no gender",
+     "The letter ك disappears"
+    ],
+    "ok": 0,
+    "why": "Ordinary Arabic writing often omits short-vowel marks, leaving كيف حالك؟ for both readings."
+   },
+   {
+    "q": "You are unsure which singular ending to use. Choose the non-gendered workaround taught here.",
+    "options": [
+     "كَيْفَ الحَالُ؟",
+     "مَعَ السَّلَامَةِ",
+     "مَا اسْمُكَ؟"
+    ],
+    "ok": 0,
+    "why": "كَيْفَ الحَالُ؟ asks “how are things?” without a singular gender suffix."
+   }
+  ],
+  "dialogueItems": [
+   {
+    "q": "It is morning. Choose Ahmad’s opening.",
+    "options": [
+     "صَبَاحُ الخَيْرِ",
+     "مَسَاءُ الخَيْرِ",
+     "مَعَ السَّلَامَةِ"
+    ],
+    "ok": 0,
+    "why": "صَبَاحُ الخَيْرِ fits the morning context."
+   },
+   {
+    "q": "Choose Sara’s paired morning response.",
+    "options": [
+     "صَبَاحُ النُّورِ",
+     "مَسَاءُ النُّورِ",
+     "وَعَلَيْكُمُ السَّلَامُ"
+    ],
+    "ok": 0,
+    "why": "The conventional response to صَبَاحُ الخَيْرِ is صَبَاحُ النُّورِ."
+   },
+   {
+    "q": "Ahmad is speaking to Sara. Which question is accurate?",
+    "options": [
+     "كَيْفَ حَالُكَ؟",
+     "كَيْفَ حَالُكِ؟",
+     "كَيْفَ حَالُكُمْ؟"
+    ],
+    "ok": 1,
+    "why": "Sara is the female addressee, so Ahmad uses حَالُكِ."
+   },
+   {
+    "q": "Choose Sara’s direct answer.",
+    "options": [
+     "بِخَيْرٍ، الحَمْدُ لِلَّهِ",
+     "إِلَى اللِّقَاءِ",
+     "أَهْلًا وَسَهْلًا"
+    ],
+    "ok": 0,
+    "why": "بِخَيْرٍ answers the question about wellbeing."
+   },
+   {
+    "q": "Sara returns the question to Ahmad. Choose the correct form.",
+    "options": [
+     "وَأَنْتِ؟",
+     "وَأَنْتَ؟",
+     "وَأَنَا؟"
+    ],
+    "ok": 1,
+    "why": "Ahmad is male, so Sara asks وَأَنْتَ؟ “and you?”"
+   },
+   {
+    "q": "Choose a suitable closing pair.",
+    "options": [
+     "إِلَى اللِّقَاءِ / مَعَ السَّلَامَةِ",
+     "مَرْحَبًا / صَبَاحُ الخَيْرِ",
+     "بِخَيْرٍ / شُكْرًا"
+    ],
+    "ok": 0,
+    "why": "Both phrases clearly close the exchange."
+   }
+  ],
+  "finalItems": [
+   {
+    "show": "السَّلَامُ عَلَيْكُمْ",
+    "prompt": "Choose the established reply.",
+    "options": [
+     "وَعَلَيْكُمُ السَّلَامُ",
+     "مَرْحَبًا",
+     "مَعَ السَّلَامَةِ"
+    ],
+    "ok": 0,
+    "why": "Return the wish of peace with وَعَلَيْكُمُ السَّلَامُ."
+   },
+   {
+    "show": "صَبَاحُ النُّورِ",
+    "prompt": "Which opening most likely came immediately before?",
+    "options": [
+     "صَبَاحُ الخَيْرِ",
+     "مَسَاءُ الخَيْرِ",
+     "إِلَى اللِّقَاءِ"
+    ],
+    "ok": 0,
+    "why": "صَبَاحُ النُّورِ conventionally answers صَبَاحُ الخَيْرِ."
+   },
+   {
+    "show": "مَسَاءُ الخَيْرِ",
+    "prompt": "Choose its paired response.",
+    "options": [
+     "مَسَاءُ النُّورِ",
+     "صَبَاحُ النُّورِ",
+     "شُكْرًا"
+    ],
+    "ok": 0,
+    "why": "Keep the evening pair: مَسَاءُ الخَيْرِ → مَسَاءُ النُّورِ."
+   },
+   {
+    "q": "Which phrase is a flexible “hello”?",
+    "options": [
+     "مَرْحَبًا",
+     "بِخَيْرٍ",
+     "إِلَى اللِّقَاءِ"
+    ],
+    "ok": 0,
+    "why": "مَرْحَبًا is a flexible hello or welcome."
+   },
+   {
+    "q": "Which phrase is an idiomatic welcome?",
+    "options": [
+     "أَهْلًا وَسَهْلًا",
+     "مَعَ السَّلَامَةِ",
+     "كَيْفَ الحَالُ؟"
+    ],
+    "ok": 0,
+    "why": "أَهْلًا وَسَهْلًا functions as “welcome”."
+   },
+   {
+    "q": "Ask one female how she is in careful MSA.",
+    "options": [
+     "كَيْفَ حَالُكَ؟",
+     "كَيْفَ حَالُكِ؟",
+     "كَيْفَ حَالُكُمْ؟"
+    ],
+    "ok": 1,
+    "why": "The feminine singular suffix is كِ, pronounced -ki."
+   },
+   {
+    "q": "Ask one male how he is in careful MSA.",
+    "options": [
+     "كَيْفَ حَالُكَ؟",
+     "كَيْفَ حَالُكِ؟",
+     "كَيْفَ الحَالُ؟"
+    ],
+    "ok": 0,
+    "why": "The masculine singular suffix is كَ, pronounced -ka."
+   },
+   {
+    "q": "Which phrase directly answers “how are you?”",
+    "options": [
+     "بِخَيْرٍ، الحَمْدُ لِلَّهِ",
+     "وَعَلَيْكُمُ السَّلَامُ",
+     "صَبَاحُ الخَيْرِ"
+    ],
+    "ok": 0,
+    "why": "بِخَيْرٍ gives the speaker’s state."
+   },
+   {
+    "q": "Which closing most directly suggests meeting again?",
+    "options": [
+     "إِلَى اللِّقَاءِ",
+     "مَعَ السَّلَامَةِ",
+     "أَهْلًا وَسَهْلًا"
+    ],
+    "ok": 0,
+    "why": "إِلَى اللِّقَاءِ means “until the meeting / see you later”."
+   },
+   {
+    "q": "Which statement about Arabic greeting practice is most accurate?",
+    "options": [
+     "Practices vary by context and individual",
+     "Every country uses identical gestures",
+     "A handshake is always required"
+    ],
+    "ok": 0,
+    "why": "Language, gesture and custom vary; observe preferences and context."
+   }
+  ]
+ },
+ "l02": {
+  "retrieval": [
+   {
+    "q": "Which reply matches السَّلَامُ عَلَيْكُمْ؟",
+    "options": [
+     "وَعَلَيْكُمُ السَّلَامُ",
+     "صَبَاحُ الخَيْرِ",
+     "إِلَى اللِّقَاءِ"
+    ],
+    "ok": 0,
+    "why": "This greeting and reply form a fixed pair."
+   },
+   {
+    "q": "Which phrase means ‘good morning’ as an opening?",
+    "options": [
+     "صَبَاحُ النُّورِ",
+     "صَبَاحُ الخَيْرِ",
+     "مَسَاءُ الخَيْرِ"
+    ],
+    "ok": 1,
+    "why": "صَبَاحُ الخَيْرِ opens the morning exchange; صَبَاحُ النُّورِ is the reply."
+   },
+   {
+    "q": "Which phrase closes a conversation?",
+    "options": [
+     "مَرْحَبًا",
+     "مَعَ السَّلَامَةِ",
+     "أَهْلًا وَسَهْلًا"
+    ],
+    "ok": 1,
+    "why": "مَعَ السَّلَامَةِ is a natural farewell."
+   }
+  ],
+  "grammarCheck": [
+   {
+    "q": "You are asking Khalid. Choose the correct question.",
+    "options": [
+     "مَا اسْمُكَ؟",
+     "مَا اسْمُكِ؟"
+    ],
+    "ok": 0,
+    "why": "Use كَ with one male addressee."
+   },
+   {
+    "q": "You are asking Zaynab. Choose the correct question.",
+    "options": [
+     "مَا اسْمُكَ؟",
+     "مَا اسْمُكِ؟"
+    ],
+    "ok": 1,
+    "why": "Use كِ with one female addressee."
+   },
+   {
+    "q": "Which phrase means ‘my name’?",
+    "options": [
+     "اِسْمُكَ",
+     "اِسْمُكِ",
+     "اِسْمِي"
+    ],
+    "ok": 2,
+    "why": "The suffix ـِي means ‘my’ in اِسْمِي."
+   },
+   {
+    "q": "Complete: ______ خَالِد.",
+    "options": [
+     "اِسْمِي",
+     "مَا",
+     "هَذِهِ"
+    ],
+    "ok": 0,
+    "why": "اِسْمِي خَالِد means ‘My name is Khalid.’"
+   },
+   {
+    "q": "Which is the feminine friend phrase?",
+    "options": [
+     "هَذَا صَدِيقِي",
+     "هَذِهِ صَدِيقَتِي",
+     "هَذَا اِسْمِي"
+    ],
+    "ok": 1,
+    "why": "هَذِهِ and صَدِيقَتِي are the feminine forms."
+   }
+  ],
+  "listeningQuiz": [
+   {
+    "q": "Line 1: Was the question addressed to a boy or a girl?",
+    "options": [
+     "Boy",
+     "Girl"
+    ],
+    "ok": 0,
+    "why": "You heard مَا اسْمُكَ؟ with the ending -ka."
+   },
+   {
+    "q": "Line 1: Which name did you hear?",
+    "options": [
+     "خَالِد",
+     "زَيْنَب",
+     "يُوسُف"
+    ],
+    "ok": 0,
+    "why": "The answer was اِسْمِي خَالِد."
+   },
+   {
+    "q": "Line 2: Was the question addressed to a boy or a girl?",
+    "options": [
+     "Boy",
+     "Girl"
+    ],
+    "ok": 1,
+    "why": "You heard مَا اسْمُكِ؟ with the ending -ki."
+   },
+   {
+    "q": "Line 2: Which name did you hear?",
+    "options": [
+     "مَرْيَم",
+     "زَيْنَب",
+     "خَالِد"
+    ],
+    "ok": 1,
+    "why": "The answer was اِسْمِي زَيْنَب."
+   },
+   {
+    "q": "Line 3: Which name did the speaker give?",
+    "options": [
+     "يُوسُف",
+     "خَالِد",
+     "مَرْيَم"
+    ],
+    "ok": 0,
+    "why": "The speaker said اِسْمِي يُوسُف."
+   },
+   {
+    "q": "Line 4: Which phrase ended the introduction?",
+    "options": [
+     "تَشَرَّفْنَا",
+     "مَعَ السَّلَامَةِ",
+     "صَبَاحُ الخَيْرِ"
+    ],
+    "ok": 0,
+    "why": "The speaker finished with تَشَرَّفْنَا — pleased to meet you."
+   }
+  ],
+  "readingQuiz": [
+   {
+    "q": "Who speaks first in the dialogue?",
+    "options": [
+     "آدَم",
+     "مَرْيَم"
+    ],
+    "ok": 0,
+    "why": "Adam opens with the greeting and asks the first question."
+   },
+   {
+    "q": "Who is asked with the feminine ending -ki?",
+    "options": [
+     "آدَم",
+     "مَرْيَم"
+    ],
+    "ok": 1,
+    "why": "Adam asks Maryam مَا اسْمُكِ؟"
+   },
+   {
+    "q": "What is the boy’s name?",
+    "options": [
+     "خَالِد",
+     "آدَم",
+     "يُوسُف"
+    ],
+    "ok": 1,
+    "why": "He says اِسْمِي آدَم."
+   },
+   {
+    "q": "Which phrase means ‘And you?’ to a boy?",
+    "options": [
+     "وَأَنْتَ؟",
+     "وَأَنْتِ؟",
+     "تَشَرَّفْنَا"
+    ],
+    "ok": 0,
+    "why": "وَأَنْتَ؟ addresses one male person."
+   },
+   {
+    "q": "How does the exchange finish?",
+    "options": [
+     "With an age",
+     "With تَشَرَّفْنَا",
+     "With a city"
+    ],
+    "ok": 1,
+    "why": "Both speakers finish with the polite phrase تَشَرَّفْنَا."
+   }
+  ],
+  "finalQuiz": [
+   {
+    "q": "Ask one boy his name.",
+    "options": [
+     "مَا اسْمُكَ؟",
+     "مَا اسْمُكِ؟",
+     "اِسْمِي؟"
+    ],
+    "ok": 0,
+    "why": "كَ marks one male addressee."
+   },
+   {
+    "q": "Ask one girl her name.",
+    "options": [
+     "مَا اسْمُكَ؟",
+     "مَا اسْمُكِ؟",
+     "مَا اسْمِي؟"
+    ],
+    "ok": 1,
+    "why": "كِ marks one female addressee."
+   },
+   {
+    "q": "Say ‘My name is Maryam.’",
+    "options": [
+     "اِسْمُهَا مَرْيَم.",
+     "اِسْمِي مَرْيَم.",
+     "مَا اسْمُكِ مَرْيَم؟"
+    ],
+    "ok": 1,
+    "why": "اِسْمِي gives the meaning ‘my name’."
+   },
+   {
+    "q": "Choose the masculine friend phrase.",
+    "options": [
+     "هَذَا صَدِيقِي.",
+     "هَذِهِ صَدِيقَتِي.",
+     "هَذَا صَدِيقَتِي."
+    ],
+    "ok": 0,
+    "why": "هَذَا and صَدِيقِي are masculine."
+   },
+   {
+    "q": "Choose the feminine friend phrase.",
+    "options": [
+     "هَذَا صَدِيقِي.",
+     "هَذِهِ صَدِيقَتِي.",
+     "هَذِهِ صَدِيقِي."
+    ],
+    "ok": 1,
+    "why": "هَذِهِ and صَدِيقَتِي are feminine."
+   },
+   {
+    "q": "Which ending means ‘my’?",
+    "options": [
+     "ـكَ",
+     "ـكِ",
+     "ـِي"
+    ],
+    "ok": 2,
+    "why": "The suffix ـِي means ‘my’."
+   },
+   {
+    "q": "Which phrase is a polite ending after exchanging names?",
+    "options": [
+     "تَشَرَّفْنَا",
+     "مَسَاءُ الخَيْرِ",
+     "مَا اسْمُكَ؟"
+    ],
+    "ok": 0,
+    "why": "تَشَرَّفْنَا means ‘Pleased to meet you.’"
+   },
+   {
+    "q": "On a form, which phrase means ‘first name’?",
+    "options": [
+     "اسم العائلة",
+     "الاسم الأول",
+     "صَدِيقِي"
+    ],
+    "ok": 1,
+    "why": "الاسم الأول means first name."
+   },
+   {
+    "q": "Which phrase can mean surname or family name?",
+    "options": [
+     "اللقب / اسم العائلة",
+     "تَشَرَّفْنَا",
+     "وَأَنْتَ؟"
+    ],
+    "ok": 0,
+    "why": "Both اللقب and اسم العائلة can label the family name field."
+   },
+   {
+    "q": "Complete the natural exchange: مَا اسْمُكِ؟ — ______ زَيْنَب.",
+    "options": [
+     "هَذَا",
+     "اِسْمِي",
+     "وَأَنْتِ"
+    ],
+    "ok": 1,
+    "why": "The answer begins اِسْمِي…"
+   }
+  ]
+ },
+ "l03": {
+  "retrievalQuiz": [
+   {
+    "q": "Ask one girl her name.",
+    "options": [
+     "مَا اسْمُكَ؟",
+     "مَا اسْمُكِ؟",
+     "اِسْمِي؟"
+    ],
+    "ok": 1,
+    "why": "The final -ki addresses one girl."
+   },
+   {
+    "q": "Which digit is twelve?",
+    "options": [
+     "١٢",
+     "١٥",
+     "٢٠"
+    ],
+    "ok": 0,
+    "why": "١٢ is twelve."
+   },
+   {
+    "q": "Which phrase means ‘And you?’ to a boy?",
+    "options": [
+     "وَأَنْتِ؟",
+     "وَأَنْتَ؟",
+     "تَشَرَّفْنَا"
+    ],
+    "ok": 1,
+    "why": "وَأَنْتَ؟ addresses one male person."
+   }
+  ],
+  "patternQuiz": [
+   {
+    "q": "Ask one boy: ‘How old are you?’",
+    "options": [
+     "كَمْ عُمْرُكَ؟",
+     "كَمْ عُمْرُكِ؟",
+     "عُمْرِي؟"
+    ],
+    "ok": 0,
+    "why": "The ending -ka addresses one boy."
+   },
+   {
+    "q": "Ask one girl: ‘How old are you?’",
+    "options": [
+     "كَمْ عُمْرُكَ؟",
+     "كَمْ عُمْرُكِ؟",
+     "عُمْرُهَا؟"
+    ],
+    "ok": 1,
+    "why": "The ending -ki addresses one girl."
+   },
+   {
+    "q": "Complete: ______ ثَلَاثَ عَشْرَةَ سَنَةً.",
+    "options": [
+     "عُمْرِي",
+     "عُمْرُكَ",
+     "كَمْ"
+    ],
+    "ok": 0,
+    "why": "عُمْرِي means ‘my age’ and begins your answer."
+   },
+   {
+    "q": "Choose the correct line for age 14.",
+    "options": [
+     "عُمْرِي أَرْبَعَ عَشْرَةَ سَنَةً.",
+     "عُمْرِي أَرْبَعُ سَنَوَاتٍ.",
+     "كَمْ عُمْرِي؟"
+    ],
+    "ok": 0,
+    "why": "Ages 11–20 use the singular form سَنَةً in this pattern."
+   },
+   {
+    "q": "Choose the correct line for age 5.",
+    "options": [
+     "عُمْرِي خَمْسَ عَشْرَةَ سَنَةً.",
+     "عُمْرِي خَمْسُ سَنَوَاتٍ.",
+     "عُمْرِي خَمْسَ سَنَةً."
+    ],
+    "ok": 1,
+    "why": "Ages 3–10 use the plural سَنَوَاتٍ."
+   },
+   {
+    "q": "What does كَمْ mean here?",
+    "options": [
+     "where",
+     "how many / how much",
+     "who"
+    ],
+    "ok": 1,
+    "why": "كَمْ asks about quantity; with عُمْر it asks age."
+   }
+  ],
+  "listeningQuiz": [
+   {
+    "q": "Exchange 1: Was the question addressed to a boy or a girl?",
+    "options": [
+     "Boy",
+     "Girl"
+    ],
+    "ok": 0,
+    "why": "The speaker uses مَا اسْمُكَ؟ and كَمْ عُمْرُكَ؟"
+   },
+   {
+    "q": "Exchange 1: How old is Khalid?",
+    "options": [
+     "١٢",
+     "١٣",
+     "١٥"
+    ],
+    "ok": 0,
+    "why": "Khalid says اِثْنَتَا عَشْرَةَ — twelve."
+   },
+   {
+    "q": "Exchange 2: Was the question addressed to a boy or a girl?",
+    "options": [
+     "Boy",
+     "Girl"
+    ],
+    "ok": 1,
+    "why": "The speaker uses the feminine ending -ki."
+   },
+   {
+    "q": "Exchange 2: How old is Zaynab?",
+    "options": [
+     "١٢",
+     "١٣",
+     "١٤"
+    ],
+    "ok": 1,
+    "why": "Zaynab says ثَلَاثَ عَشْرَةَ — thirteen."
+   },
+   {
+    "q": "Exchange 3: Which name did you hear?",
+    "options": [
+     "خَالِد",
+     "يُوسُف",
+     "آدَم"
+    ],
+    "ok": 1,
+    "why": "The speaker says اِسْمِي يُوسُف."
+   },
+   {
+    "q": "Exchange 3: How old is Yusuf?",
+    "options": [
+     "١٤",
+     "١٥",
+     "٢٠"
+    ],
+    "ok": 1,
+    "why": "He says خَمْسَ عَشْرَةَ — fifteen."
+   }
+  ],
+  "readingQuiz": [
+   {
+    "q": "Who speaks first?",
+    "options": [
+     "آدَم",
+     "مَرْيَم"
+    ],
+    "ok": 0,
+    "why": "Adam opens with the greeting and first question."
+   },
+   {
+    "q": "Who is asked with the feminine ending -ki?",
+    "options": [
+     "آدَم",
+     "مَرْيَم"
+    ],
+    "ok": 1,
+    "why": "Adam asks Maryam مَا اسْمُكِ؟ and كَمْ عُمْرُكِ؟"
+   },
+   {
+    "q": "How old is Maryam?",
+    "options": [
+     "١٣",
+     "١٤",
+     "١٥"
+    ],
+    "ok": 1,
+    "why": "She says أَرْبَعَ عَشْرَةَ — fourteen."
+   },
+   {
+    "q": "How old is Adam?",
+    "options": [
+     "١٤",
+     "١٥",
+     "١٦"
+    ],
+    "ok": 1,
+    "why": "He says خَمْسَ عَشْرَةَ — fifteen."
+   },
+   {
+    "q": "Who is older?",
+    "options": [
+     "آدَم",
+     "مَرْيَم",
+     "They are the same age"
+    ],
+    "ok": 0,
+    "why": "Adam is 15 and Maryam is 14."
+   }
+  ],
+  "finalQuiz": [
+   {
+    "q": "Ask one boy his age.",
+    "options": [
+     "كَمْ عُمْرُكَ؟",
+     "كَمْ عُمْرُكِ؟",
+     "مَا اسْمُكَ؟"
+    ],
+    "ok": 0,
+    "why": "-ka addresses one boy."
+   },
+   {
+    "q": "Ask one girl her age.",
+    "options": [
+     "كَمْ عُمْرُكَ؟",
+     "كَمْ عُمْرُكِ؟",
+     "مَا اسْمُكِ؟"
+    ],
+    "ok": 1,
+    "why": "-ki addresses one girl."
+   },
+   {
+    "q": "Which phrase means ‘my age’?",
+    "options": [
+     "عُمْرُكَ",
+     "عُمْرُكِ",
+     "عُمْرِي"
+    ],
+    "ok": 2,
+    "why": "The ending -ī means ‘my’."
+   },
+   {
+    "q": "Choose the correct age line for 12.",
+    "options": [
+     "عُمْرِي اِثْنَتَا عَشْرَةَ سَنَةً.",
+     "عُمْرِي اِثْنَا عَشَرَ سَنَةً.",
+     "عُمْرِي اِثْنَتَا سَنَوَاتٍ."
+    ],
+    "ok": 0,
+    "why": "سَنَة is feminine, so the age phrase is اِثْنَتَا عَشْرَةَ."
+   },
+   {
+    "q": "Choose the correct age line for 13.",
+    "options": [
+     "عُمْرِي ثَلَاثَةَ عَشَرَ سَنَةً.",
+     "عُمْرِي ثَلَاثَ عَشْرَةَ سَنَةً.",
+     "عُمْرِي ثَلَاثُ سَنَوَاتٍ."
+    ],
+    "ok": 1,
+    "why": "With feminine سَنَة, thirteen is ثَلَاثَ عَشْرَةَ."
+   },
+   {
+    "q": "Which word follows ages 11–20 in this lesson?",
+    "options": [
+     "سَنَةً",
+     "سَنَوَاتٍ",
+     "عُمْرٌ"
+    ],
+    "ok": 0,
+    "why": "Use singular سَنَةً after ages 11–20."
+   },
+   {
+    "q": "Which form follows ages 3–10?",
+    "options": [
+     "سَنَةً",
+     "سَنَوَاتٍ",
+     "عُمْرِي"
+    ],
+    "ok": 1,
+    "why": "Ages 3–10 use the plural سَنَوَاتٍ."
+   },
+   {
+    "q": "Complete naturally: كَمْ عُمْرُكِ؟ — ______ أَرْبَعَ عَشْرَةَ سَنَةً.",
+    "options": [
+     "عُمْرِي",
+     "عُمْرُكَ",
+     "كَمْ"
+    ],
+    "ok": 0,
+    "why": "The answer begins عُمْرِي."
+   },
+   {
+    "q": "Which phrase asks back ‘And you?’ to a girl?",
+    "options": [
+     "وَأَنْتَ؟",
+     "وَأَنْتِ؟",
+     "مَا اسْمُكِ؟"
+    ],
+    "ok": 1,
+    "why": "وَأَنْتِ؟ addresses one female person."
+   },
+   {
+    "q": "Read: عُمْرِي خَمْسَ عَشْرَةَ سَنَةً. What is the age?",
+    "options": [
+     "١٤",
+     "١٥",
+     "١٦"
+    ],
+    "ok": 1,
+    "why": "خَمْسَ عَشْرَةَ means fifteen."
+   }
+  ]
+ },
+ "l04": {
+  "retrievalQuiz": [
+   {
+    "stem": "Which phrase means ‘My name is …’ ?",
+    "options": [
+     "اِسْمِي ...",
+     "عُمْرِي ...",
+     "أَنَا مِنْ ..."
+    ],
+    "ok": 0,
+    "why": "اِسْمِي introduces your name."
+   },
+   {
+    "stem": "Choose the question to ask a girl her age.",
+    "options": [
+     "كَمْ عُمْرُكَ؟",
+     "كَمْ عُمْرُكِ؟",
+     "مَا اسْمُكِ؟"
+    ],
+    "ok": 1,
+    "why": "The final -ki addresses one girl or woman."
+   },
+   {
+    "stem": "Which sentence means ‘I am from Egypt’ ?",
+    "options": [
+     "أَنَا مِصْرِيَّةٌ.",
+     "أَنَا مِنْ مِصْرَ.",
+     "أَتَكَلَّمُ مِصْرَ."
+    ],
+    "ok": 1,
+    "why": "مِنْ introduces the place you are from."
+   },
+   {
+    "stem": "Which word means ‘language’ ?",
+    "options": [
+     "لُغَةٌ",
+     "جِنْسِيَّةٌ",
+     "سَنَةٌ"
+    ],
+    "ok": 0,
+    "why": "لُغَةٌ means a language."
+   }
+  ],
+  "grammarQuiz": [
+   {
+    "stem": "A boy from Egypt says …",
+    "options": [
+     "أَنَا مِصْرِيٌّ.",
+     "أَنَا مِصْرِيَّةٌ.",
+     "أَنَا مِصْرَ."
+    ],
+    "ok": 0,
+    "why": "The masculine nisba adjective ends in ـِيٌّ."
+   },
+   {
+    "stem": "A girl from Syria says …",
+    "options": [
+     "أَنَا سُورِيٌّ.",
+     "أَنَا سُورِيَّةٌ.",
+     "أَنَا سُورِيَا."
+    ],
+    "ok": 1,
+    "why": "The feminine nationality ends in ـِيَّةٌ."
+   },
+   {
+    "stem": "Complete: أَنَا مِنَ العِرَاقِ. أَنَا …",
+    "options": [
+     "عِرَاقِيٌّ",
+     "عِرَاقِيَّةٌ",
+     "العِرَاق"
+    ],
+    "ok": 0,
+    "why": "The speaker is presented as male, so use عِرَاقِيٌّ."
+   },
+   {
+    "stem": "Which sentence means ‘I speak Arabic’ ?",
+    "options": [
+     "أَفْهَمُ العَرَبِيَّةَ.",
+     "أَتَكَلَّمُ العَرَبِيَّةَ.",
+     "أَكْتُبُ العَرَبِيَّةَ."
+    ],
+    "ok": 1,
+    "why": "أَتَكَلَّمُ means ‘I speak’."
+   },
+   {
+    "stem": "Which sentence is the natural way to say ‘I write in Arabic’ ?",
+    "options": [
+     "أَكْتُبُ بِالعَرَبِيَّةِ.",
+     "أَكْتُبُ العَرَبِيَّةَ مِنْ.",
+     "أَنَا عَرَبِيَّةٌ."
+    ],
+    "ok": 0,
+    "why": "Use بِـ with the language used for writing."
+   },
+   {
+    "stem": "Choose the question to ask a girl her nationality.",
+    "options": [
+     "مَا جِنْسِيَّتُكَ؟",
+     "مَا جِنْسِيَّتُكِ؟",
+     "كَمْ عُمْرُكِ؟"
+    ],
+    "ok": 1,
+    "why": "The final -ki addresses one girl or woman."
+   }
+  ],
+  "listeningQuiz": [
+   {
+    "stem": "Speaker 1: which country is Khalid from?",
+    "options": [
+     "العِرَاق",
+     "سُورِيَا",
+     "المَغْرِب"
+    ],
+    "ok": 0,
+    "why": "He says أَنَا مِنَ العِرَاقِ."
+   },
+   {
+    "stem": "Speaker 1: what is Khalid’s nationality?",
+    "options": [
+     "عِرَاقِيٌّ",
+     "عِرَاقِيَّةٌ",
+     "مَغْرِبِيٌّ"
+    ],
+    "ok": 0,
+    "why": "Khalid says أَنَا عِرَاقِيٌّ."
+   },
+   {
+    "stem": "Speaker 1: which languages does he speak?",
+    "options": [
+     "Arabic and English",
+     "Arabic and French",
+     "English only"
+    ],
+    "ok": 0,
+    "why": "He says العَرَبِيَّةَ وَالإِنْجِلِيزِيَّةَ."
+   },
+   {
+    "stem": "Speaker 2: which nationality does Zaynab state?",
+    "options": [
+     "سُورِيَّةٌ",
+     "سُورِيٌّ",
+     "لُبْنَانِيَّةٌ"
+    ],
+    "ok": 0,
+    "why": "Zaynab uses the feminine form سُورِيَّةٌ."
+   },
+   {
+    "stem": "Speaker 2: which language does Zaynab understand?",
+    "options": [
+     "العَرَبِيَّة",
+     "الفَرَنْسِيَّة",
+     "الأُرْدِيَّة"
+    ],
+    "ok": 0,
+    "why": "She says أَفْهَمُ العَرَبِيَّةَ."
+   },
+   {
+    "stem": "Speaker 3: which two languages does Maryam speak?",
+    "options": [
+     "English and French",
+     "Arabic and Urdu",
+     "French and Arabic"
+    ],
+    "ok": 0,
+    "why": "She says الإِنْجِلِيزِيَّةَ وَالفَرَنْسِيَّةَ."
+   }
+  ],
+  "readingQuiz": [
+   {
+    "stem": "Who is Moroccan?",
+    "options": [
+     "يُوسُف",
+     "زَيْنَب",
+     "مَرْيَم"
+    ],
+    "ok": 0,
+    "why": "Yusuf’s profile says أَنَا مَغْرِبِيٌّ."
+   },
+   {
+    "stem": "Who understands Arabic but speaks English?",
+    "options": [
+     "مَرْيَم",
+     "خَالِد",
+     "يُوسُف"
+    ],
+    "ok": 0,
+    "why": "Maryam’s profile uses أَفْهَمُ العَرَبِيَّةَ and أَتَكَلَّمُ الإِنْجِلِيزِيَّةَ."
+   },
+   {
+    "stem": "Which profile uses a feminine nationality ending?",
+    "options": [
+     "زَيْنَب",
+     "خَالِد",
+     "يُوسُف"
+    ],
+    "ok": 0,
+    "why": "سُورِيَّةٌ is feminine."
+   },
+   {
+    "stem": "Which language appears in Yusuf’s profile?",
+    "options": [
+     "الفَرَنْسِيَّة",
+     "الأُرْدِيَّة",
+     "الإِسْبَانِيَّة"
+    ],
+    "ok": 0,
+    "why": "Yusuf speaks Arabic and French."
+   },
+   {
+    "stem": "Which sentence states origin rather than nationality?",
+    "options": [
+     "أَنَا مِنْ سُورِيَا.",
+     "أَنَا سُورِيَّةٌ.",
+     "أَتَكَلَّمُ العَرَبِيَّةَ."
+    ],
+    "ok": 0,
+    "why": "مِنْ + place states where someone is from."
+   }
+  ],
+  "finalQuiz": [
+   {
+    "stem": "Choose the word for nationality.",
+    "options": [
+     "جِنْسِيَّةٌ",
+     "لُغَةٌ",
+     "عُمْرٌ"
+    ],
+    "ok": 0,
+    "why": "جِنْسِيَّةٌ means nationality."
+   },
+   {
+    "stem": "A female speaker from Morocco says …",
+    "options": [
+     "أَنَا مَغْرِبِيَّةٌ.",
+     "أَنَا مَغْرِبِيٌّ.",
+     "أَنَا مِنْ مَغْرِبِيَّةٍ."
+    ],
+    "ok": 0,
+    "why": "The feminine nisba form is مَغْرِبِيَّةٌ."
+   },
+   {
+    "stem": "A male speaker from Jordan says …",
+    "options": [
+     "أَنَا أُرْدُنِيٌّ.",
+     "أَنَا أُرْدُنِيَّةٌ.",
+     "أَنَا الأُرْدُنُّ."
+    ],
+    "ok": 0,
+    "why": "The masculine form is أُرْدُنِيٌّ."
+   },
+   {
+    "stem": "Which question asks a boy’s nationality?",
+    "options": [
+     "مَا جِنْسِيَّتُكَ؟",
+     "مَا جِنْسِيَّتُكِ؟",
+     "مَا اسْمُكَ؟"
+    ],
+    "ok": 0,
+    "why": "-ka addresses one boy or man."
+   },
+   {
+    "stem": "Which verb means ‘I understand’ ?",
+    "options": [
+     "أَفْهَمُ",
+     "أَقْرَأُ",
+     "أَكْتُبُ"
+    ],
+    "ok": 0,
+    "why": "أَفْهَمُ means ‘I understand’."
+   },
+   {
+    "stem": "Choose ‘I read Arabic’.",
+    "options": [
+     "أَقْرَأُ العَرَبِيَّةَ.",
+     "أَتَكَلَّمُ العَرَبِيَّةَ.",
+     "أَنَا عَرَبِيٌّ."
+    ],
+    "ok": 0,
+    "why": "أَقْرَأُ means ‘I read’."
+   },
+   {
+    "stem": "Choose ‘I write in English’.",
+    "options": [
+     "أَكْتُبُ بِالإِنْجِلِيزِيَّةِ.",
+     "أَفْهَمُ الإِنْجِلِيزِيَّةَ.",
+     "أَنَا إِنْجِلِيزِيَّةٌ."
+    ],
+    "ok": 0,
+    "why": "أَكْتُبُ بِـ means ‘I write in’."
+   },
+   {
+    "stem": "Which is a language, not a nationality?",
+    "options": [
+     "الفَرَنْسِيَّةُ",
+     "فَرَنْسِيٌّ",
+     "فَرَنْسِيَّةٌ"
+    ],
+    "ok": 0,
+    "why": "With the definite article, الفَرَنْسِيَّةُ names the French language here."
+   },
+   {
+    "stem": "Complete: أَنَا مِنْ لُبْنَانَ. أَنَا … (girl)",
+    "options": [
+     "لُبْنَانِيَّةٌ",
+     "لُبْنَانِيٌّ",
+     "لُبْنَانُ"
+    ],
+    "ok": 0,
+    "why": "Use the feminine nationality form لُبْنَانِيَّةٌ."
+   },
+   {
+    "stem": "Choose the complete identity line.",
+    "options": [
+     "أَنَا سُورِيَّةٌ وَأَتَكَلَّمُ العَرَبِيَّةَ.",
+     "أَنَا سُورِيَا أَتَكَلَّمُ.",
+     "جِنْسِيَّةٌ العَرَبِيَّةُ."
+    ],
+    "ok": 0,
+    "why": "The correct sentence combines an accurate nationality and language statement."
+   }
+  ]
+ },
+ "l05": {
+  "retrievalQuiz": [
+   {
+    "q": "Which question addresses one female?",
+    "a": [
+     "مَا اسْمُكِ؟",
+     "مَا اسْمُكَ؟",
+     "كَمْ عُمْرُكَ؟"
+    ],
+    "ok": 0,
+    "why": "The kasra in ـكِ addresses one female."
+   },
+   {
+    "q": "Choose the feminine nationality.",
+    "a": [
+     "سُورِيٌّ",
+     "سُورِيَّةٌ",
+     "سُورِيَا"
+    ],
+    "ok": 1,
+    "why": "سُورِيَّةٌ is the feminine nationality adjective."
+   },
+   {
+    "q": "Which sentence means ‘I speak Arabic’ ?",
+    "a": [
+     "أَنَا مِنَ العَرَبِيَّةِ.",
+     "أَتَكَلَّمُ العَرَبِيَّةَ.",
+     "عُمْرِي العَرَبِيَّةُ."
+    ],
+    "ok": 1,
+    "why": "أَتَكَلَّمُ introduces a language that you speak."
+   },
+   {
+    "q": "Which ending is a strong feminine clue on many nouns?",
+    "a": [
+     "ة",
+     "ي",
+     "و"
+    ],
+    "ok": 0,
+    "why": "Tāʾ marbūṭa ة is a common feminine marker."
+   }
+  ],
+  "grammarQuiz": [
+   {
+    "q": "Choose ‘a new male student’.",
+    "a": [
+     "طَالِبٌ جَدِيدٌ",
+     "طَالِبَةٌ جَدِيدَةٌ",
+     "جَدِيدٌ طَالِبٌ"
+    ],
+    "ok": 0,
+    "why": "The masculine noun comes first and the masculine adjective follows."
+   },
+   {
+    "q": "Choose ‘a kind female classmate’.",
+    "a": [
+     "زَمِيلَةٌ لَطِيفَةٌ",
+     "زَمِيلٌ لَطِيفَةٌ",
+     "لَطِيفَةٌ زَمِيلَةٌ"
+    ],
+    "ok": 0,
+    "why": "زَمِيلَةٌ and لَطِيفَةٌ are feminine, with the noun first."
+   },
+   {
+    "q": "Complete: هَذِهِ حَقِيبَةٌ ...",
+    "a": [
+     "جَمِيلٌ",
+     "جَمِيلَةٌ",
+     "جَمِيلًا"
+    ],
+    "ok": 1,
+    "why": "حَقِيبَةٌ is feminine, so the adjective is جَمِيلَةٌ."
+   },
+   {
+    "q": "Which word is feminine even though it does not end in ة?",
+    "a": [
+     "كِتَابٌ",
+     "أُخْتٌ",
+     "وَلَدٌ"
+    ],
+    "ok": 1,
+    "why": "أُخْتٌ is naturally feminine without tāʾ marbūṭa."
+   },
+   {
+    "q": "Choose ‘a young female child’.",
+    "a": [
+     "طِفْلَةٌ صَغِيرَةٌ",
+     "طِفْلٌ صَغِيرَةٌ",
+     "صَغِيرَةٌ طِفْلَةٌ"
+    ],
+    "ok": 0,
+    "why": "Both words are feminine and the noun comes first."
+   },
+   {
+    "q": "Choose the accurate sentence.",
+    "a": [
+     "هَذَا رَجُلٌ طَوِيلٌ.",
+     "هَذِهِ رَجُلٌ طَوِيلَةٌ.",
+     "هَذَا اِمْرَأَةٌ طَوِيلٌ."
+    ],
+    "ok": 0,
+    "why": "هَذَا, رَجُلٌ and طَوِيلٌ are all masculine."
+   },
+   {
+    "q": "Choose ‘a happy woman’.",
+    "a": [
+     "اِمْرَأَةٌ سَعِيدَةٌ",
+     "اِمْرَأَةٌ سَعِيدٌ",
+     "سَعِيدَةٌ اِمْرَأَةٌ"
+    ],
+    "ok": 0,
+    "why": "The feminine noun is followed by the feminine adjective."
+   },
+   {
+    "q": "Which phrase describes an old book?",
+    "a": [
+     "كِتَابٌ قَدِيمٌ",
+     "كِتَابٌ كَبِيرٌ",
+     "قَدِيمَةٌ كِتَابٌ"
+    ],
+    "ok": 0,
+    "why": "قَدِيمٌ is the useful choice for an old thing such as a book."
+   },
+   {
+    "q": "Which demonstrative matches شَمْسٌ?",
+    "a": [
+     "هَذِهِ",
+     "هَذَا",
+     "هُوَ"
+    ],
+    "ok": 0,
+    "why": "شَمْسٌ is conventionally feminine, so use هَذِهِ."
+   },
+   {
+    "q": "Where does the adjective normally appear?",
+    "a": [
+     "Before the noun",
+     "After the noun",
+     "Only at the start of a sentence"
+    ],
+    "ok": 1,
+    "why": "The standard pattern is noun first, then adjective."
+   }
+  ],
+  "listeningQuiz": [
+   {
+    "q": "Description 1 is about a…",
+    "a": [
+     "زَمِيلٌ",
+     "مُعَلِّمٌ",
+     "طِفْلٌ"
+    ],
+    "ok": 0,
+    "why": "The speaker says هَذَا زَمِيلٌ جَدِيدٌ."
+   },
+   {
+    "q": "Which two adjectives describe Yusuf?",
+    "a": [
+     "لَطِيفٌ وَطَوِيلٌ",
+     "ذَكِيٌّ وَقَصِيرٌ",
+     "سَعِيدٌ وَصَغِيرٌ"
+    ],
+    "ok": 0,
+    "why": "Yusuf is described as kind and tall."
+   },
+   {
+    "q": "Description 2 uses which feminine noun?",
+    "a": [
+     "زَمِيلَةٌ",
+     "صَدِيقَةٌ",
+     "مُعَلِّمَةٌ"
+    ],
+    "ok": 0,
+    "why": "The speaker introduces Zaynab as زَمِيلَةٌ."
+   },
+   {
+    "q": "Zaynab is…",
+    "a": [
+     "ذَكِيَّةٌ وَسَعِيدَةٌ",
+     "لَطِيفَةٌ وَطَوِيلَةٌ",
+     "قَدِيمَةٌ وَكَبِيرَةٌ"
+    ],
+    "ok": 0,
+    "why": "The exact adjectives are ذَكِيَّةٌ وَسَعِيدَةٌ."
+   },
+   {
+    "q": "Description 3 contrasts…",
+    "a": [
+     "طِفْلٌ / طِفْلَةٌ",
+     "أَخٌ / أُخْتٌ",
+     "رَجُلٌ / اِمْرَأَةٌ"
+    ],
+    "ok": 0,
+    "why": "It describes one male child and one female child."
+   },
+   {
+    "q": "Both children are described as…",
+    "a": [
+     "young / small",
+     "tall",
+     "happy"
+    ],
+    "ok": 0,
+    "why": "The words are صَغِيرٌ and صَغِيرَةٌ."
+   },
+   {
+    "q": "Description 4 includes the irregular feminine noun…",
+    "a": [
+     "أُخْتٌ",
+     "طِفْلَةٌ",
+     "زَمِيلَةٌ"
+    ],
+    "ok": 0,
+    "why": "أُخْتٌ is feminine without ة."
+   },
+   {
+    "q": "The sister is described as…",
+    "a": [
+     "قَصِيرَةٌ",
+     "طَوِيلَةٌ",
+     "لَطِيفَةٌ"
+    ],
+    "ok": 0,
+    "why": "The transcript says أُخْتٌ قَصِيرَةٌ."
+   }
+  ],
+  "readingQuiz": [
+   {
+    "q": "Who is the male student?",
+    "a": [
+     "خَالِدٌ",
+     "مَرْيَمُ",
+     "زَيْنَبُ"
+    ],
+    "ok": 0,
+    "why": "The first paragraph introduces Khalid."
+   },
+   {
+    "q": "Khalid is a kind…",
+    "a": [
+     "زَمِيلٌ",
+     "طِفْلٌ",
+     "مُعَلِّمٌ"
+    ],
+    "ok": 0,
+    "why": "The text says زَمِيلٌ لَطِيفٌ."
+   },
+   {
+    "q": "Which two adjectives describe Khalid?",
+    "a": [
+     "طَوِيلٌ وَذَكِيٌّ",
+     "قَصِيرٌ وَسَعِيدٌ",
+     "قَدِيمٌ وَجَمِيلٌ"
+    ],
+    "ok": 0,
+    "why": "Khalid is tall and clever."
+   },
+   {
+    "q": "Maryam is a…",
+    "a": [
+     "زَمِيلَةٌ لَطِيفَةٌ",
+     "زَمِيلٌ لَطِيفٌ",
+     "طِفْلَةٌ صَغِيرَةٌ"
+    ],
+    "ok": 0,
+    "why": "Both words in زَمِيلَةٌ لَطِيفَةٌ are feminine."
+   },
+   {
+    "q": "Maryam is also…",
+    "a": [
+     "قَصِيرَةٌ وَسَعِيدَةٌ",
+     "طَوِيلَةٌ وَذَكِيَّةٌ",
+     "قَدِيمَةٌ وَكَبِيرَةٌ"
+    ],
+    "ok": 0,
+    "why": "The text describes her as short and happy."
+   },
+   {
+    "q": "Which irregular feminine noun describes Zaynab?",
+    "a": [
+     "أُخْتٌ",
+     "بِنْتٌ",
+     "أُمٌّ"
+    ],
+    "ok": 0,
+    "why": "The text says هِيَ أُخْتٌ صَغِيرَةٌ."
+   },
+   {
+    "q": "The book is…",
+    "a": [
+     "قَدِيمٌ",
+     "قَدِيمَةٌ",
+     "جَدِيدَةٌ"
+    ],
+    "ok": 0,
+    "why": "كِتَابٌ is masculine, so the text uses قَدِيمٌ."
+   },
+   {
+    "q": "The bag is…",
+    "a": [
+     "جَمِيلَةٌ",
+     "جَمِيلٌ",
+     "قَصِيرَةٌ"
+    ],
+    "ok": 0,
+    "why": "حَقِيبَةٌ is feminine and takes جَمِيلَةٌ."
+   }
+  ],
+  "finalQuiz": [
+   {
+    "q": "Which pair means classmate / colleague?",
+    "a": [
+     "زَمِيلٌ / زَمِيلَةٌ",
+     "صَدِيقٌ / صَدِيقَةٌ",
+     "طِفْلٌ / طِفْلَةٌ"
+    ],
+    "ok": 0,
+    "why": "زَمِيلٌ / زَمِيلَةٌ is the classmate or colleague pair."
+   },
+   {
+    "q": "Which pair means child?",
+    "a": [
+     "طِفْلٌ / طِفْلَةٌ",
+     "وَلَدٌ / بِنْتٌ",
+     "أَخٌ / أُخْتٌ"
+    ],
+    "ok": 0,
+    "why": "طِفْلٌ / طِفْلَةٌ means male/female child."
+   },
+   {
+    "q": "Which noun is feminine without ة?",
+    "a": [
+     "عَيْنٌ",
+     "قَلَمٌ",
+     "كِتَابٌ"
+    ],
+    "ok": 0,
+    "why": "عَيْنٌ is treated as feminine."
+   },
+   {
+    "q": "Choose the correct feminine phrase.",
+    "a": [
+     "زَمِيلَةٌ لَطِيفَةٌ",
+     "زَمِيلٌ لَطِيفَةٌ",
+     "لَطِيفَةٌ زَمِيلَةٌ"
+    ],
+    "ok": 0,
+    "why": "The noun comes first and both forms are feminine."
+   },
+   {
+    "q": "Choose the correct masculine phrase.",
+    "a": [
+     "أَخٌ طَوِيلٌ",
+     "أُخْتٌ طَوِيلٌ",
+     "طَوِيلٌ أَخٌ"
+    ],
+    "ok": 0,
+    "why": "أَخٌ and طَوِيلٌ agree as masculine, with noun first."
+   },
+   {
+    "q": "Complete: هَذَا كِتَابٌ ...",
+    "a": [
+     "قَدِيمٌ",
+     "قَدِيمَةٌ",
+     "كَبِيرَةٌ"
+    ],
+    "ok": 0,
+    "why": "Use قَدِيمٌ for an old masculine thing."
+   },
+   {
+    "q": "Complete: هَذِهِ طِفْلَةٌ ...",
+    "a": [
+     "صَغِيرَةٌ",
+     "صَغِيرٌ",
+     "قَصِيرٌ"
+    ],
+    "ok": 0,
+    "why": "طِفْلَةٌ is feminine and takes صَغِيرَةٌ."
+   },
+   {
+    "q": "Which demonstrative matches شَمْسٌ?",
+    "a": [
+     "هَذِهِ",
+     "هَذَا",
+     "هُوَ"
+    ],
+    "ok": 0,
+    "why": "شَمْسٌ is conventionally feminine."
+   },
+   {
+    "q": "Which adjective pair means happy?",
+    "a": [
+     "سَعِيدٌ / سَعِيدَةٌ",
+     "لَطِيفٌ / لَطِيفَةٌ",
+     "جَمِيلٌ / جَمِيلَةٌ"
+    ],
+    "ok": 0,
+    "why": "سَعِيدٌ / سَعِيدَةٌ means happy."
+   },
+   {
+    "q": "Which adjective pair means short?",
+    "a": [
+     "قَصِيرٌ / قَصِيرَةٌ",
+     "صَغِيرٌ / صَغِيرَةٌ",
+     "طَوِيلٌ / طَوِيلَةٌ"
+    ],
+    "ok": 0,
+    "why": "قَصِيرٌ / قَصِيرَةٌ means short."
+   },
+   {
+    "q": "Which sentence keeps noun and adjective in the correct order?",
+    "a": [
+     "اِمْرَأَةٌ سَعِيدَةٌ",
+     "سَعِيدَةٌ اِمْرَأَةٌ",
+     "اِمْرَأَةٌ سَعِيدٌ"
+    ],
+    "ok": 0,
+    "why": "The noun comes first and the adjective follows in the feminine form."
+   },
+   {
+    "q": "Choose the completely accurate sentence.",
+    "a": [
+     "هَذِهِ أُخْتٌ قَصِيرَةٌ وَلَطِيفَةٌ.",
+     "هَذَا أُخْتٌ قَصِيرٌ وَلَطِيفٌ.",
+     "هَذِهِ أَخٌ قَصِيرَةٌ وَلَطِيفَةٌ."
+    ],
+    "ok": 0,
+    "why": "The demonstrative, noun and both adjectives are feminine."
+   }
+  ],
+  "rounds": [
+   {
+    "icon": "🎒",
+    "word": "حَقِيبَةٌ",
+    "meaning": "bag",
+    "clue": "The ة ending is a strong clue.",
+    "prompt": "Choose the gender.",
+    "options": [
+     "Masculine",
+     "Feminine"
+    ],
+    "ok": 1,
+    "why": "حَقِيبَةٌ is feminine."
+   },
+   {
+    "icon": "☀️",
+    "word": "شَمْسٌ",
+    "meaning": "sun",
+    "clue": "No ة — learn this conventional feminine.",
+    "prompt": "Choose the gender.",
+    "options": [
+     "Feminine",
+     "Masculine"
+    ],
+    "ok": 0,
+    "why": "شَمْسٌ is feminine without ة."
+   },
+   {
+    "icon": "👁️",
+    "word": "عَيْنٌ",
+    "meaning": "eye",
+    "clue": "A recognised feminine noun without ة.",
+    "prompt": "Choose the matching demonstrative.",
+    "options": [
+     "هَذِهِ",
+     "هَذَا",
+     "هُوَ"
+    ],
+    "ok": 0,
+    "why": "عَيْنٌ is feminine, so use هَذِهِ."
+   },
+   {
+    "icon": "👧",
+    "word": "بِنْتٌ",
+    "meaning": "girl",
+    "clue": "Naturally feminine without ة.",
+    "prompt": "Choose the gender.",
+    "options": [
+     "Feminine",
+     "Masculine"
+    ],
+    "ok": 0,
+    "why": "بِنْتٌ is feminine."
+   },
+   {
+    "icon": "👩",
+    "word": "أُمٌّ",
+    "meaning": "mother",
+    "clue": "Naturally feminine without ة.",
+    "prompt": "Choose the accurate phrase.",
+    "options": [
+     "أُمٌّ جَمِيلَةٌ",
+     "أُمٌّ جَمِيلٌ",
+     "جَمِيلَةٌ أُمٌّ"
+    ],
+    "ok": 0,
+    "why": "أُمٌّ is feminine, so it takes جَمِيلَةٌ."
+   },
+   {
+    "icon": "👥",
+    "word": "زَمِيلٌ",
+    "meaning": "male classmate",
+    "clue": "Match the adjective.",
+    "prompt": "Choose the accurate phrase.",
+    "options": [
+     "زَمِيلٌ لَطِيفٌ",
+     "زَمِيلٌ لَطِيفَةٌ",
+     "لَطِيفٌ زَمِيلٌ"
+    ],
+    "ok": 0,
+    "why": "The masculine noun is followed by the masculine adjective."
+   },
+   {
+    "icon": "👥",
+    "word": "زَمِيلَةٌ",
+    "meaning": "female classmate",
+    "clue": "Every element must be feminine.",
+    "prompt": "Choose the accurate sentence.",
+    "options": [
+     "هَذِهِ زَمِيلَةٌ سَعِيدَةٌ.",
+     "هَذَا زَمِيلَةٌ سَعِيدٌ.",
+     "هَذِهِ زَمِيلٌ سَعِيدَةٌ."
+    ],
+    "ok": 0,
+    "why": "هَذِهِ, زَمِيلَةٌ and سَعِيدَةٌ agree."
+   },
+   {
+    "icon": "🧒",
+    "word": "طِفْلٌ",
+    "meaning": "male child",
+    "clue": "Choose the masculine form.",
+    "prompt": "Choose the accurate phrase.",
+    "options": [
+     "طِفْلٌ صَغِيرٌ",
+     "طِفْلٌ صَغِيرَةٌ",
+     "صَغِيرٌ طِفْلٌ"
+    ],
+    "ok": 0,
+    "why": "طِفْلٌ صَغِيرٌ has masculine agreement."
+   },
+   {
+    "icon": "👧",
+    "word": "طِفْلَةٌ",
+    "meaning": "female child",
+    "clue": "The ة appears twice.",
+    "prompt": "Choose the accurate phrase.",
+    "options": [
+     "طِفْلَةٌ صَغِيرَةٌ",
+     "طِفْلَةٌ صَغِيرٌ",
+     "صَغِيرَةٌ طِفْلَةٌ"
+    ],
+    "ok": 0,
+    "why": "Both words are feminine and the noun comes first."
+   },
+   {
+    "icon": "👦",
+    "word": "أَخٌ",
+    "meaning": "brother",
+    "clue": "Masculine noun without ة.",
+    "prompt": "Choose the matching description.",
+    "options": [
+     "أَخٌ طَوِيلٌ",
+     "أَخٌ طَوِيلَةٌ",
+     "طَوِيلٌ أَخٌ"
+    ],
+    "ok": 0,
+    "why": "أَخٌ طَوِيلٌ uses masculine agreement."
+   },
+   {
+    "icon": "👧",
+    "word": "أُخْتٌ",
+    "meaning": "sister",
+    "clue": "Irregular feminine without ة.",
+    "prompt": "Choose the matching description.",
+    "options": [
+     "أُخْتٌ قَصِيرَةٌ",
+     "أُخْتٌ قَصِيرٌ",
+     "قَصِيرَةٌ أُخْتٌ"
+    ],
+    "ok": 0,
+    "why": "The noun is feminine, so the adjective is قَصِيرَةٌ."
+   },
+   {
+    "icon": "👨",
+    "word": "رَجُلٌ",
+    "meaning": "man",
+    "clue": "Build a complete masculine chain.",
+    "prompt": "Choose the accurate sentence.",
+    "options": [
+     "هَذَا رَجُلٌ سَعِيدٌ.",
+     "هَذِهِ رَجُلٌ سَعِيدَةٌ.",
+     "هَذَا اِمْرَأَةٌ سَعِيدٌ."
+    ],
+    "ok": 0,
+    "why": "All three elements are masculine."
+   },
+   {
+    "icon": "👩",
+    "word": "اِمْرَأَةٌ",
+    "meaning": "woman",
+    "clue": "Build a complete feminine chain.",
+    "prompt": "Choose the accurate sentence.",
+    "options": [
+     "هَذِهِ اِمْرَأَةٌ سَعِيدَةٌ.",
+     "هَذَا اِمْرَأَةٌ سَعِيدٌ.",
+     "هَذِهِ رَجُلٌ سَعِيدَةٌ."
+    ],
+    "ok": 0,
+    "why": "All three elements are feminine."
+   },
+   {
+    "icon": "📘",
+    "word": "كِتَابٌ",
+    "meaning": "book",
+    "clue": "Use the adjective for an old thing.",
+    "prompt": "Choose the accurate phrase.",
+    "options": [
+     "كِتَابٌ قَدِيمٌ",
+     "كِتَابٌ قَدِيمَةٌ",
+     "قَدِيمٌ كِتَابٌ"
+    ],
+    "ok": 0,
+    "why": "كِتَابٌ قَدِيمٌ is masculine and noun-first."
+   }
+  ]
+ },
+ "l06": {
+  "retrievalQuiz": [
+   {
+    "q": "Which phrase thanks someone?",
+    "a": [
+     "شُكْرًا",
+     "مَا اسْمُكَ؟",
+     "أَنَا مِنْ"
+    ],
+    "ok": 0,
+    "why": "شُكْرًا is the standard thank-you phrase."
+   },
+   {
+    "q": "Which ending addresses one female?",
+    "a": [
+     "ـكِ",
+     "ـكَ",
+     "ـهُ"
+    ],
+    "ok": 0,
+    "why": "The kasra in ـكِ addresses one female."
+   },
+   {
+    "q": "Which sentence means ‘I understand Arabic’?",
+    "a": [
+     "أَفْهَمُ العَرَبِيَّةَ.",
+     "أَنَا عَرَبِيَّةٌ.",
+     "أَنَا مِنَ العَرَبِيَّةِ."
+    ],
+    "ok": 0,
+    "why": "أَفْهَمُ means ‘I understand’."
+   },
+   {
+    "q": "Choose the feminine teacher noun.",
+    "a": [
+     "مُعَلِّمَةٌ",
+     "مُعَلِّمٌ",
+     "طَالِبَةٌ"
+    ],
+    "ok": 0,
+    "why": "مُعَلِّمَةٌ is a female teacher."
+   }
+  ],
+  "phraseQuiz": [
+   {
+    "q": "Please — speaking to one male",
+    "a": [
+     "مِنْ فَضْلِكَ",
+     "مِنْ فَضْلِكِ",
+     "تَفَضَّلِي"
+    ],
+    "ok": 0,
+    "why": "Use ـكَ for one male listener."
+   },
+   {
+    "q": "Please — speaking to one female",
+    "a": [
+     "مِنْ فَضْلِكِ",
+     "مِنْ فَضْلِكَ",
+     "تَفَضَّلْ"
+    ],
+    "ok": 0,
+    "why": "Use ـكِ for one female listener."
+   },
+   {
+    "q": "Thank you very much",
+    "a": [
+     "شُكْرًا جَزِيلًا",
+     "عَفْوًا",
+     "لَا بَأْسَ"
+    ],
+    "ok": 0,
+    "why": "جَزِيلًا strengthens شُكْرًا."
+   },
+   {
+    "q": "You’re welcome",
+    "a": [
+     "عَفْوًا",
+     "مَعْذِرَةً",
+     "نَعَمْ"
+    ],
+    "ok": 0,
+    "why": "عَفْوًا is the normal reply to thanks."
+   },
+   {
+    "q": "A male speaker says ‘I am sorry’.",
+    "a": [
+     "أَنَا آسِفٌ.",
+     "أَنَا آسِفَةٌ.",
+     "لَا بَأْسَ."
+    ],
+    "ok": 0,
+    "why": "A male speaker uses the masculine adjective آسِفٌ."
+   },
+   {
+    "q": "A female speaker says ‘I am sorry’.",
+    "a": [
+     "أَنَا آسِفَةٌ.",
+     "أَنَا آسِفٌ.",
+     "عَفْوًا."
+    ],
+    "ok": 0,
+    "why": "A female speaker uses آسِفَةٌ."
+   },
+   {
+    "q": "Here you are — to one male",
+    "a": [
+     "تَفَضَّلْ",
+     "تَفَضَّلِي",
+     "مِنْ فَضْلِكَ"
+    ],
+    "ok": 0,
+    "why": "تَفَضَّلْ addresses one male."
+   },
+   {
+    "q": "Here you are — to one female",
+    "a": [
+     "تَفَضَّلِي",
+     "تَفَضَّلْ",
+     "مِنْ فَضْلِكِ"
+    ],
+    "ok": 0,
+    "why": "The final ـي addresses one female."
+   },
+   {
+    "q": "A reassuring reply to an apology",
+    "a": [
+     "لَا بَأْسَ",
+     "لَا",
+     "شُكْرًا"
+    ],
+    "ok": 0,
+    "why": "لَا بَأْسَ means ‘no problem / it is all right’."
+   },
+   {
+    "q": "A polite attention-getter",
+    "a": [
+     "مَعْذِرَةً",
+     "نَعَمْ",
+     "قَلَمٌ"
+    ],
+    "ok": 0,
+    "why": "مَعْذِرَةً means ‘excuse me / pardon’."
+   }
+  ],
+  "listeningQuiz": [
+   {
+    "q": "What does the student ask for in exchange 1?",
+    "a": [
+     "قَلَمٌ",
+     "كِتَابٌ",
+     "مِسْطَرَةٌ"
+    ],
+    "ok": 0,
+    "why": "He asks for a pen: أُرِيدُ قَلَمًا."
+   },
+   {
+    "q": "Which handover phrase does the male teacher use?",
+    "a": [
+     "تَفَضَّلْ",
+     "تَفَضَّلِي",
+     "عَفْوًا"
+    ],
+    "ok": 0,
+    "why": "He addresses a male student, so he says تَفَضَّلْ."
+   },
+   {
+    "q": "What problem does the student in exchange 2 have?",
+    "a": [
+     "She does not understand.",
+     "She needs water.",
+     "She is late."
+    ],
+    "ok": 0,
+    "why": "She says لَا أَفْهَمُ."
+   },
+   {
+    "q": "Who is addressed in exchange 2?",
+    "a": [
+     "A female teacher",
+     "A male teacher",
+     "A male student"
+    ],
+    "ok": 0,
+    "why": "The request uses أَعِيدِي and مِنْ فَضْلِكِ."
+   },
+   {
+    "q": "What permission is requested in exchange 3?",
+    "a": [
+     "To drink water",
+     "To leave",
+     "To borrow a ruler"
+    ],
+    "ok": 0,
+    "why": "The student asks هَلْ يُمْكِنُ أَنْ أَشْرَبَ المَاءَ؟"
+   },
+   {
+    "q": "How does the teacher respond in exchange 3?",
+    "a": [
+     "نَعَمْ، تَفَضَّلْ.",
+     "لَا بَأْسَ.",
+     "مِنْ فَضْلِكَ."
+    ],
+    "ok": 0,
+    "why": "The teacher gives permission to a male student."
+   },
+   {
+    "q": "Why does the student apologise in exchange 4?",
+    "a": [
+     "She is late.",
+     "She lost a pen.",
+     "She does not understand."
+    ],
+    "ok": 0,
+    "why": "She says تَأَخَّرْتُ — I was late."
+   },
+   {
+    "q": "Which reassuring reply is heard?",
+    "a": [
+     "لَا بَأْسَ",
+     "لَا",
+     "عَفْوًا"
+    ],
+    "ok": 0,
+    "why": "The teacher says لَا بَأْسَ."
+   }
+  ],
+  "readingQuiz": [
+   {
+    "q": "Who enters the classroom?",
+    "a": [
+     "مَرْيَمُ",
+     "خَالِدٌ",
+     "المُعَلِّمُ"
+    ],
+    "ok": 0,
+    "why": "Maryam asks permission to enter."
+   },
+   {
+    "q": "Maryam addresses…",
+    "a": [
+     "a female teacher",
+     "a male teacher",
+     "a male classmate"
+    ],
+    "ok": 0,
+    "why": "She says يا أستاذة and uses feminine addressee forms."
+   },
+   {
+    "q": "Which phrase gives permission to Maryam?",
+    "a": [
+     "نَعَمْ، تَفَضَّلِي.",
+     "نَعَمْ، تَفَضَّلْ.",
+     "لَا بَأْسَ."
+    ],
+    "ok": 0,
+    "why": "Maryam is female, so the teacher says تَفَضَّلِي."
+   },
+   {
+    "q": "What does Maryam not understand?",
+    "a": [
+     "السُّؤَالَ",
+     "الكِتَابَ",
+     "البَابَ"
+    ],
+    "ok": 0,
+    "why": "She says لَا أَفْهَمُ السُّؤَالَ."
+   },
+   {
+    "q": "How will the teacher repeat it?",
+    "a": [
+     "slowly",
+     "loudly",
+     "tomorrow"
+    ],
+    "ok": 0,
+    "why": "She says بِبُطْءٍ — slowly."
+   },
+   {
+    "q": "What does Maryam borrow?",
+    "a": [
+     "مِسْطَرَةً",
+     "مِمْحَاةً",
+     "دَفْتَرًا"
+    ],
+    "ok": 0,
+    "why": "Maryam asks to borrow a ruler."
+   },
+   {
+    "q": "Why is مِنْ فَضْلِكِ correct?",
+    "a": [
+     "The listener is female.",
+     "The speaker is female.",
+     "The noun is feminine."
+    ],
+    "ok": 0,
+    "why": "The ending follows the listener, who is the female teacher."
+   },
+   {
+    "q": "Which pair closes the exchange?",
+    "a": [
+     "شُكْرًا / عَفْوًا",
+     "مَعْذِرَةً / لَا",
+     "نَعَمْ / لَا بَأْسَ"
+    ],
+    "ok": 0,
+    "why": "Maryam thanks the teacher and the teacher replies عَفْوًا."
+   }
+  ],
+  "finalQuiz": [
+   {
+    "q": "Which phrase means ‘please’ to one female?",
+    "a": [
+     "مِنْ فَضْلِكِ",
+     "مِنْ فَضْلِكَ",
+     "تَفَضَّلِي"
+    ],
+    "ok": 0,
+    "why": "The listener ending is ـكِ."
+   },
+   {
+    "q": "Which phrase means ‘here you are’ to one male?",
+    "a": [
+     "تَفَضَّلْ",
+     "تَفَضَّلِي",
+     "عَفْوًا"
+    ],
+    "ok": 0,
+    "why": "تَفَضَّلْ addresses one male."
+   },
+   {
+    "q": "Which phrase finishes with tanwīn fatḥ?",
+    "a": [
+     "شُكْرًا",
+     "نَعَمْ",
+     "لَا بَأْسَ"
+    ],
+    "ok": 0,
+    "why": "شُكْرًا ends with the -an sound written ـًا."
+   },
+   {
+    "q": "Choose the polite request for a pen to a male teacher.",
+    "a": [
+     "أُرِيدُ قَلَمًا، مِنْ فَضْلِكَ.",
+     "أُرِيدُ قَلَمًا، مِنْ فَضْلِكِ.",
+     "تَفَضَّلْ قَلَمٌ."
+    ],
+    "ok": 0,
+    "why": "The male listener takes مِنْ فَضْلِكَ."
+   },
+   {
+    "q": "Choose ‘I do not understand’.",
+    "a": [
+     "لَا أَفْهَمُ.",
+     "نَعَمْ، أَفْهَمُ.",
+     "أَنَا آسِفٌ."
+    ],
+    "ok": 0,
+    "why": "لَا negates أَفْهَمُ."
+   },
+   {
+    "q": "Ask a female teacher to repeat.",
+    "a": [
+     "أَعِيدِي، مِنْ فَضْلِكِ.",
+     "أَعِدْ، مِنْ فَضْلِكَ.",
+     "تَفَضَّلِي."
+    ],
+    "ok": 0,
+    "why": "Both forms address one female."
+   },
+   {
+    "q": "Which noun means eraser?",
+    "a": [
+     "مِمْحَاةٌ",
+     "مِسْطَرَةٌ",
+     "وَرَقَةٌ"
+    ],
+    "ok": 0,
+    "why": "مِمْحَاةٌ is an eraser."
+   },
+   {
+    "q": "Which noun means notebook?",
+    "a": [
+     "دَفْتَرٌ",
+     "كِتَابٌ",
+     "حَقِيبَةٌ"
+    ],
+    "ok": 0,
+    "why": "دَفْتَرٌ is a notebook."
+   },
+   {
+    "q": "A female student apologises. Choose her sentence.",
+    "a": [
+     "أَنَا آسِفَةٌ.",
+     "أَنَا آسِفٌ.",
+     "لَا بَأْسَ."
+    ],
+    "ok": 0,
+    "why": "The adjective agrees with the female speaker."
+   },
+   {
+    "q": "Choose the reassuring reply.",
+    "a": [
+     "لَا بَأْسَ.",
+     "لَا.",
+     "شُكْرًا."
+    ],
+    "ok": 0,
+    "why": "لَا بَأْسَ means no problem."
+   },
+   {
+    "q": "Ask permission to drink water.",
+    "a": [
+     "هَلْ يُمْكِنُ أَنْ أَشْرَبَ المَاءَ؟",
+     "أُرِيدُ مِسْطَرَةً.",
+     "لَا أَفْهَمُ."
+    ],
+    "ok": 0,
+    "why": "The question asks whether drinking water is possible/permitted."
+   },
+   {
+    "q": "Choose the complete polite exchange.",
+    "a": [
+     "مَعْذِرَةً، أُرِيدُ وَرَقَةً، مِنْ فَضْلِكِ. — تَفَضَّلِي. — شُكْرًا. — عَفْوًا.",
+     "وَرَقَةٌ. — لَا. — نَعَمْ.",
+     "مِنْ فَضْلِكَ. — شُكْرًا. — تَفَضَّلْ."
+    ],
+    "ok": 0,
+    "why": "The correct option has attention, request, handover, thanks and response in a logical order."
+   }
+  ],
+  "rounds": [
+   {
+    "icon": "✏️",
+    "title": "Borrow a pencil",
+    "text": "Address one male politely.",
+    "prompt": "Choose the complete request.",
+    "options": [
+     "أُرِيدُ قَلَمَ رَصَاصٍ، مِنْ فَضْلِكَ.",
+     "أُرِيدُ قَلَمَ رَصَاصٍ، مِنْ فَضْلِكِ.",
+     "تَفَضَّلْ قَلَمُ رَصَاصٍ."
+    ],
+    "ok": 0,
+    "why": "The request is complete and ـكَ addresses one male."
+   },
+   {
+    "icon": "📏",
+    "title": "Borrow a ruler",
+    "text": "Address one female politely.",
+    "prompt": "Choose the complete request.",
+    "options": [
+     "أُرِيدُ مِسْطَرَةً، مِنْ فَضْلِكِ.",
+     "أُرِيدُ مِسْطَرَةً، مِنْ فَضْلِكَ.",
+     "مِسْطَرَةٌ شُكْرًا."
+    ],
+    "ok": 0,
+    "why": "The listener is female, so use مِنْ فَضْلِكِ."
+   },
+   {
+    "icon": "🚪",
+    "title": "Enter the room",
+    "text": "Ask permission.",
+    "prompt": "Which sentence is correct?",
+    "options": [
+     "هَلْ يُمْكِنُ أَنْ أَدْخُلَ؟",
+     "هَلْ أَنْ قَلَمٌ؟",
+     "أَدْخُلُ شُكْرًا."
+    ],
+    "ok": 0,
+    "why": "هَلْ يُمْكِنُ أَنْ ...؟ is the permission frame."
+   },
+   {
+    "icon": "💧",
+    "title": "Drink water",
+    "text": "Ask permission politely.",
+    "prompt": "Choose the correct question.",
+    "options": [
+     "هَلْ يُمْكِنُ أَنْ أَشْرَبَ المَاءَ؟",
+     "أُرِيدُ أَشْرَبَ المَاءَ.",
+     "مَاءٌ تَفَضَّلْ؟"
+    ],
+    "ok": 0,
+    "why": "The correct option is a complete permission question."
+   },
+   {
+    "icon": "❓",
+    "title": "You do not understand",
+    "text": "Address one male.",
+    "prompt": "Ask him to repeat.",
+    "options": [
+     "لَا أَفْهَمُ. أَعِدْ، مِنْ فَضْلِكَ.",
+     "لَا أَفْهَمُ. أَعِيدِي، مِنْ فَضْلِكِ.",
+     "عَفْوًا، أَفْهَمُ."
+    ],
+    "ok": 0,
+    "why": "أَعِدْ and مِنْ فَضْلِكَ both address one male."
+   },
+   {
+    "icon": "❓",
+    "title": "You do not understand",
+    "text": "Address one female.",
+    "prompt": "Ask her to repeat.",
+    "options": [
+     "لَا أَفْهَمُ. أَعِيدِي، مِنْ فَضْلِكِ.",
+     "لَا أَفْهَمُ. أَعِدْ، مِنْ فَضْلِكَ.",
+     "نَعَمْ، أَفْهَمُ."
+    ],
+    "ok": 0,
+    "why": "The feminine forms are أَعِيدِي and مِنْ فَضْلِكِ."
+   },
+   {
+    "icon": "🐢",
+    "title": "Speak slowly",
+    "text": "Address one male.",
+    "prompt": "Choose the correct request.",
+    "options": [
+     "تَكَلَّمْ بِبُطْءٍ، مِنْ فَضْلِكَ.",
+     "تَكَلَّمِي بِبُطْءٍ، مِنْ فَضْلِكِ.",
+     "أَنَا بِبُطْءٍ."
+    ],
+    "ok": 0,
+    "why": "تَكَلَّمْ and ـكَ address one male."
+   },
+   {
+    "icon": "🐢",
+    "title": "Speak slowly",
+    "text": "Address one female.",
+    "prompt": "Choose the correct request.",
+    "options": [
+     "تَكَلَّمِي بِبُطْءٍ، مِنْ فَضْلِكِ.",
+     "تَكَلَّمْ بِبُطْءٍ، مِنْ فَضْلِكَ.",
+     "شُكْرًا بِبُطْءٍ."
+    ],
+    "ok": 0,
+    "why": "The feminine imperative ends in ـي and the please phrase uses ـكِ."
+   },
+   {
+    "icon": "🙇",
+    "title": "A boy apologises",
+    "text": "Choose the accurate sentence.",
+    "prompt": "What should he say?",
+    "options": [
+     "أَنَا آسِفٌ.",
+     "أَنَا آسِفَةٌ.",
+     "لَا بَأْسَ."
+    ],
+    "ok": 0,
+    "why": "A male speaker uses آسِفٌ."
+   },
+   {
+    "icon": "🙇‍♀️",
+    "title": "A girl apologises",
+    "text": "Choose the accurate sentence.",
+    "prompt": "What should she say?",
+    "options": [
+     "أَنَا آسِفَةٌ.",
+     "أَنَا آسِفٌ.",
+     "عَفْوًا."
+    ],
+    "ok": 0,
+    "why": "A female speaker uses آسِفَةٌ."
+   },
+   {
+    "icon": "🤝",
+    "title": "Respond to thanks",
+    "text": "Choose the conventional reply.",
+    "prompt": "What should you say?",
+    "options": [
+     "عَفْوًا.",
+     "مَعْذِرَةً.",
+     "لَا."
+    ],
+    "ok": 0,
+    "why": "عَفْوًا is the standard reply to thanks."
+   },
+   {
+    "icon": "🌿",
+    "title": "Respond to an apology",
+    "text": "Reassure the speaker.",
+    "prompt": "Choose the best reply.",
+    "options": [
+     "لَا بَأْسَ.",
+     "شُكْرًا جَزِيلًا.",
+     "مِنْ فَضْلِكَ."
+    ],
+    "ok": 0,
+    "why": "لَا بَأْسَ means no problem / it is all right."
+   }
+  ],
+  "roles": [
+   {
+    "icon": "📘",
+    "title": "Ask for a book",
+    "detail": "Address one female politely.",
+    "model": "مَعْذِرَةً، أُرِيدُ كِتَابًا، مِنْ فَضْلِكِ."
+   },
+   {
+    "icon": "✏️",
+    "title": "Ask for a pencil",
+    "detail": "Address one male politely.",
+    "model": "مَعْذِرَةً، أُرِيدُ قَلَمَ رَصَاصٍ، مِنْ فَضْلِكَ."
+   },
+   {
+    "icon": "📏",
+    "title": "Borrow a ruler",
+    "detail": "Address one female politely.",
+    "model": "هَلْ يُمْكِنُ أَنْ أَسْتَعِيرَ مِسْطَرَةً، مِنْ فَضْلِكِ؟"
+   },
+   {
+    "icon": "❓",
+    "title": "Ask for repetition",
+    "detail": "Address one male because you do not understand.",
+    "model": "لَا أَفْهَمُ. أَعِدْ، مِنْ فَضْلِكَ."
+   },
+   {
+    "icon": "🐢",
+    "title": "Ask for slower speech",
+    "detail": "Address one female.",
+    "model": "تَكَلَّمِي بِبُطْءٍ، مِنْ فَضْلِكِ."
+   },
+   {
+    "icon": "💧",
+    "title": "Ask to drink water",
+    "detail": "Ask permission, then respond to the answer.",
+    "model": "هَلْ يُمْكِنُ أَنْ أَشْرَبَ المَاءَ؟"
+   },
+   {
+    "icon": "🚪",
+    "title": "Ask to enter",
+    "detail": "Gain attention first.",
+    "model": "مَعْذِرَةً، هَلْ يُمْكِنُ أَنْ أَدْخُلَ؟"
+   },
+   {
+    "icon": "🙇‍♀️",
+    "title": "Apologise for being late",
+    "detail": "You are a female student.",
+    "model": "أَنَا آسِفَةٌ. تَأَخَّرْتُ."
+   }
+  ]
+ },
+ "l07": {
+  "retrievalQuiz": [
+   {
+    "q": "Choose ‘My name is …’",
+    "a": [
+     "اِسْمِي ...",
+     "عُمْرِي ...",
+     "أَنَا مِنْ ..."
+    ],
+    "ok": 0,
+    "why": "اِسْمِي carries the possessive ending ـِي: my name."
+   },
+   {
+    "q": "Choose the age question to one female.",
+    "a": [
+     "كَمْ عُمْرُكِ؟",
+     "كَمْ عُمْرُكَ؟",
+     "مَا اسْمُكِ؟"
+    ],
+    "ok": 0,
+    "why": "The final ـكِ addresses one female."
+   },
+   {
+    "q": "Which phrase gives origin?",
+    "a": [
+     "أَنَا مِنْ مِصْرَ.",
+     "أَسْكُنُ فِي مِصْرَ.",
+     "أَتَكَلَّمُ العَرَبِيَّةَ."
+    ],
+    "ok": 0,
+    "why": "مِنْ introduces where someone is from."
+   },
+   {
+    "q": "Which phrase gives residence?",
+    "a": [
+     "أَسْكُنُ فِي لَنْدَنَ.",
+     "أَنَا مِنْ لَنْدَنَ.",
+     "جِنْسِيَّتِي بَرِيطَانِيَّةٌ."
+    ],
+    "ok": 0,
+    "why": "أَسْكُنُ فِي means ‘I live in’."
+   },
+   {
+    "q": "Choose the feminine nationality sentence.",
+    "a": [
+     "أَنَا سُورِيَّةٌ.",
+     "أَنَا سُورِيٌّ.",
+     "أَنَا سُورِيَا."
+    ],
+    "ok": 0,
+    "why": "A female speaker uses the feminine nisba form سُورِيَّةٌ."
+   },
+   {
+    "q": "Which word means ‘and’ and joins facts?",
+    "a": [
+     "وَ",
+     "فِي",
+     "مِنْ"
+    ],
+    "ok": 0,
+    "why": "وَ is the coordinating conjunction ‘and’."
+   }
+  ],
+  "residenceQuiz": [
+   {
+    "q": "I am from Pakistan.",
+    "a": [
+     "أَنَا مِنْ بَاكِسْتَانَ.",
+     "أَسْكُنُ فِي بَاكِسْتَانَ.",
+     "أَنَا بَاكِسْتَانَ."
+    ],
+    "ok": 0,
+    "why": "Origin uses أَنَا مِنْ."
+   },
+   {
+    "q": "I live in Birmingham.",
+    "a": [
+     "أَسْكُنُ فِي بِرْمِنْغَامَ.",
+     "أَنَا مِنْ بِرْمِنْغَامَ.",
+     "عُمْرِي بِرْمِنْغَامُ."
+    ],
+    "ok": 0,
+    "why": "Residence uses أَسْكُنُ فِي."
+   },
+   {
+    "q": "Which question asks a boy where he lives?",
+    "a": [
+     "أَيْنَ تَسْكُنُ؟",
+     "مِنْ أَيْنَ أَنْتَ؟",
+     "أَيْنَ تَسْكُنِينَ؟"
+    ],
+    "ok": 0,
+    "why": "تَسْكُنُ is the masculine singular addressee form here."
+   },
+   {
+    "q": "Which question asks a girl where she lives?",
+    "a": [
+     "أَيْنَ تَسْكُنِينَ؟",
+     "أَيْنَ تَسْكُنُ؟",
+     "مِنْ أَيْنَ أَنْتِ؟"
+    ],
+    "ok": 0,
+    "why": "The feminine singular form ends in ـينَ: تَسْكُنِينَ."
+   },
+   {
+    "q": "A person is from Syria but lives in London.",
+    "a": [
+     "أَنَا مِنْ سُورِيَا، وَأَسْكُنُ فِي لَنْدَنَ.",
+     "أَسْكُنُ مِنْ سُورِيَا، وَأَنَا فِي لَنْدَنَ.",
+     "أَنَا فِي سُورِيَا، وَمِنْ لَنْدَنَ."
+    ],
+    "ok": 0,
+    "why": "Origin takes مِنْ; residence takes فِي."
+   },
+   {
+    "q": "Which word means ‘in’?",
+    "a": [
+     "فِي",
+     "مِنْ",
+     "وَ"
+    ],
+    "ok": 0,
+    "why": "فِي means in."
+   },
+   {
+    "q": "Which word means ‘from’?",
+    "a": [
+     "مِنْ",
+     "فِي",
+     "أَيْضًا"
+    ],
+    "ok": 0,
+    "why": "مِنْ means from."
+   },
+   {
+    "q": "Choose a city, not a country.",
+    "a": [
+     "القَاهِرَةُ",
+     "مِصْرُ",
+     "المَغْرِبُ"
+    ],
+    "ok": 0,
+    "why": "القَاهِرَةُ is Cairo, a city."
+   }
+  ],
+  "patternQuiz": [
+   {
+    "q": "Choose the clearest opening order.",
+    "a": [
+     "مَرْحَبًا! اِسْمِي مَرْيَمُ.",
+     "اِسْمِي مَرْيَمُ. مَرْحَبًا!",
+     "عُمْرِي مَرْيَمُ."
+    ],
+    "ok": 0,
+    "why": "A greeting followed by the name is a clear Foundation opening."
+   },
+   {
+    "q": "Attach وَ correctly.",
+    "a": [
+     "وَعُمْرِي",
+     "وَ عُمْرِي",
+     "عُمْرِي وَ"
+    ],
+    "ok": 0,
+    "why": "وَ is written attached to the following word."
+   },
+   {
+    "q": "Choose the connected name-and-age sentence.",
+    "a": [
+     "اِسْمِي سَارَةُ، وَعُمْرِي اِثْنَتَا عَشْرَةَ سَنَةً.",
+     "اِسْمِي سَارَةُ، فِي عُمْرِي اِثْنَتَا عَشْرَةَ.",
+     "عُمْرِي سَارَةُ وَاِسْمِي سَنَةً."
+    ],
+    "ok": 0,
+    "why": "The correct sentence uses the two correct chunks and joins them with وَ."
+   },
+   {
+    "q": "Choose the best way to add another language.",
+    "a": [
+     "أَتَكَلَّمُ العَرَبِيَّةَ وَالإِنْجِلِيزِيَّةَ أَيْضًا.",
+     "أَيْضًا أَنَا مِنْ الإِنْجِلِيزِيَّةِ.",
+     "أَسْكُنُ فِي العَرَبِيَّةِ."
+    ],
+    "ok": 0,
+    "why": "أَيْضًا adds another language detail."
+   },
+   {
+    "q": "Which detail normally comes before the polite close?",
+    "a": [
+     "language or nationality",
+     "a second greeting",
+     "an unrelated classroom object"
+    ],
+    "ok": 0,
+    "why": "Complete the personal facts, then close politely."
+   },
+   {
+    "q": "A female speaker says she is pleased to meet everyone.",
+    "a": [
+     "سَعِيدَةٌ بِلِقَائِكُمْ.",
+     "سَعِيدٌ بِلِقَائِكُمْ.",
+     "سَعِيدَةٌ مِنْ لِقَائِكُمْ."
+    ],
+    "ok": 0,
+    "why": "The feminine speaker uses سَعِيدَةٌ."
+   },
+   {
+    "q": "A male speaker says he is pleased to meet everyone.",
+    "a": [
+     "سَعِيدٌ بِلِقَائِكُمْ.",
+     "سَعِيدَةٌ بِلِقَائِكُمْ.",
+     "تَسْكُنُ بِلِقَائِكُمْ."
+    ],
+    "ok": 0,
+    "why": "The masculine speaker uses سَعِيدٌ."
+   },
+   {
+    "q": "Choose the complete final sequence.",
+    "a": [
+     "أَنَا مِنْ مِصْرَ، وَأَسْكُنُ فِي لَنْدَنَ. سَعِيدٌ بِلِقَائِكُمْ.",
+     "أَنَا فِي مِصْرَ، مِنْ لَنْدَنَ. سَعِيدَةٌ.",
+     "مِنْ فَضْلِكَ. قَلَمٌ. لَنْدَنُ."
+    ],
+    "ok": 0,
+    "why": "The correct option gives origin, residence and a logical close."
+   }
+  ],
+  "listeningQuiz": [
+   {
+    "q": "What is the speaker’s name?",
+    "a": [
+     "طَارِقٌ",
+     "يُوسُفُ",
+     "أَحْمَدُ"
+    ],
+    "ok": 0,
+    "why": "He says اِسْمِي طَارِقٌ."
+   },
+   {
+    "q": "How old is Tariq?",
+    "a": [
+     "14",
+     "13",
+     "15"
+    ],
+    "ok": 0,
+    "why": "أَرْبَعَ عَشْرَةَ = fourteen."
+   },
+   {
+    "q": "Where is he from?",
+    "a": [
+     "Pakistan",
+     "Britain",
+     "Morocco"
+    ],
+    "ok": 0,
+    "why": "He says أَنَا مِنْ بَاكِسْتَانَ."
+   },
+   {
+    "q": "Where does he live?",
+    "a": [
+     "Birmingham",
+     "London",
+     "Lahore"
+    ],
+    "ok": 0,
+    "why": "He says أَسْكُنُ فِي بِرْمِنْغَامَ."
+   },
+   {
+    "q": "Which two languages does he speak?",
+    "a": [
+     "Urdu and English",
+     "Arabic and French",
+     "Turkish and Arabic"
+    ],
+    "ok": 0,
+    "why": "He says الأُرْدِيَّةَ وَالإِنْجِلِيزِيَّةَ."
+   },
+   {
+    "q": "Which connector joins his age to the previous fact?",
+    "a": [
+     "وَ",
+     "مِنْ",
+     "فِي"
+    ],
+    "ok": 0,
+    "why": "The phrase is وَعُمْرِي."
+   },
+   {
+    "q": "Which word signals his origin?",
+    "a": [
+     "مِنْ",
+     "فِي",
+     "أَيْضًا"
+    ],
+    "ok": 0,
+    "why": "مِنْ introduces Pakistan as his origin."
+   },
+   {
+    "q": "How does he close?",
+    "a": [
+     "سَعِيدٌ بِلِقَائِكُمْ.",
+     "مَعَ السَّلَامَةِ.",
+     "مِنْ فَضْلِكَ."
+    ],
+    "ok": 0,
+    "why": "He says he is pleased to meet everyone."
+   }
+  ],
+  "readingQuiz": [
+   {
+    "q": "How old is Layla?",
+    "a": [
+     "13",
+     "12",
+     "15"
+    ],
+    "ok": 0,
+    "why": "Her profile says ثَلَاثَ عَشْرَةَ سَنَةً."
+   },
+   {
+    "q": "Where is Layla from?",
+    "a": [
+     "Syria",
+     "Britain",
+     "Morocco"
+    ],
+    "ok": 0,
+    "why": "She says أَنَا مِنْ سُورِيَا."
+   },
+   {
+    "q": "Where does Layla live?",
+    "a": [
+     "London",
+     "Paris",
+     "Birmingham"
+    ],
+    "ok": 0,
+    "why": "She says أَسْكُنُ فِي لَنْدَنَ."
+   },
+   {
+    "q": "Who lives in Paris?",
+    "a": [
+     "Yusuf",
+     "Layla",
+     "Aisha"
+    ],
+    "ok": 0,
+    "why": "Yusuf says وَأَسْكُنُ فِي بَارِيسَ."
+   },
+   {
+    "q": "Which languages does Yusuf speak?",
+    "a": [
+     "Arabic and French",
+     "Arabic and English",
+     "Urdu and English"
+    ],
+    "ok": 0,
+    "why": "He says العَرَبِيَّةَ وَالفَرَنْسِيَّةَ."
+   },
+   {
+    "q": "Who is British?",
+    "a": [
+     "Aisha",
+     "Yusuf",
+     "Layla"
+    ],
+    "ok": 0,
+    "why": "Aisha says جِنْسِيَّتِي بَرِيطَانِيَّةٌ."
+   },
+   {
+    "q": "Which profile uses أَيْضًا to add a language skill?",
+    "a": [
+     "Aisha’s",
+     "Layla’s",
+     "none of them"
+    ],
+    "ok": 0,
+    "why": "Aisha says وَأَفْهَمُ العَرَبِيَّةَ أَيْضًا."
+   },
+   {
+    "q": "Which speaker is from Morocco?",
+    "a": [
+     "Yusuf",
+     "Layla",
+     "Aisha"
+    ],
+    "ok": 0,
+    "why": "Yusuf says أَنَا مِنَ المَغْرِبِ."
+   },
+   {
+    "q": "Which word proves Birmingham is Aisha’s residence?",
+    "a": [
+     "فِي",
+     "مِنْ",
+     "وَ"
+    ],
+    "ok": 0,
+    "why": "The phrase is أَسْكُنُ فِي بِرْمِنْغَامَ."
+   },
+   {
+    "q": "Why does Layla say سَعِيدَةٌ?",
+    "a": [
+     "The speaker is female.",
+     "London is feminine.",
+     "The listeners are female."
+    ],
+    "ok": 0,
+    "why": "The adjective describes Layla, the female speaker."
+   }
+  ],
+  "finalQuiz": [
+   {
+    "q": "Choose the correct first-person name phrase.",
+    "a": [
+     "اِسْمِي ...",
+     "اِسْمُكَ ...",
+     "اِسْمُهُ ..."
+    ],
+    "ok": 0,
+    "why": "ـِي means my."
+   },
+   {
+    "q": "Choose the correct first-person age phrase.",
+    "a": [
+     "عُمْرِي ... سَنَةً.",
+     "عُمْرُكَ ... سَنَةً.",
+     "أَسْكُنُ ... سَنَةً."
+    ],
+    "ok": 0,
+    "why": "عُمْرِي means my age."
+   },
+   {
+    "q": "Where are you from? — to one female",
+    "a": [
+     "مِنْ أَيْنَ أَنْتِ؟",
+     "مِنْ أَيْنَ أَنْتَ؟",
+     "أَيْنَ تَسْكُنِينَ؟"
+    ],
+    "ok": 0,
+    "why": "أَنْتِ addresses one female."
+   },
+   {
+    "q": "Where do you live? — to one female",
+    "a": [
+     "أَيْنَ تَسْكُنِينَ؟",
+     "أَيْنَ تَسْكُنُ؟",
+     "مِنْ أَيْنَ أَنْتِ؟"
+    ],
+    "ok": 0,
+    "why": "The feminine present-tense form is تَسْكُنِينَ."
+   },
+   {
+    "q": "Choose the accurate origin/residence pair.",
+    "a": [
+     "أَنَا مِنْ تُرْكِيَا، وَأَسْكُنُ فِي لَنْدَنَ.",
+     "أَنَا فِي تُرْكِيَا، وَأَسْكُنُ مِنْ لَنْدَنَ.",
+     "أَنَا تُرْكِيَا وَفِي لَنْدَنَ."
+    ],
+    "ok": 0,
+    "why": "Origin takes مِنْ and residence takes فِي."
+   },
+   {
+    "q": "Which connector is written attached to the next word?",
+    "a": [
+     "وَ",
+     "أَيْضًا",
+     "فِي"
+    ],
+    "ok": 0,
+    "why": "Write وَعُمْرِي, وَأَسْكُنُ and وَأَتَكَلَّمُ."
+   },
+   {
+    "q": "Choose a correct language sentence.",
+    "a": [
+     "أَتَكَلَّمُ العَرَبِيَّةَ وَالإِنْجِلِيزِيَّةَ.",
+     "أَنَا مِنَ العَرَبِيَّةِ.",
+     "أَسْكُنُ فِي الإِنْجِلِيزِيَّةِ."
+    ],
+    "ok": 0,
+    "why": "أَتَكَلَّمُ introduces languages spoken."
+   },
+   {
+    "q": "A female speaker states Syrian nationality with أَنَا.",
+    "a": [
+     "أَنَا سُورِيَّةٌ.",
+     "أَنَا سُورِيٌّ.",
+     "أَنَا سُورِيَا."
+    ],
+    "ok": 0,
+    "why": "After أَنَا, the feminine nationality form is سُورِيَّةٌ."
+   },
+   {
+    "q": "Choose the best sentence order.",
+    "a": [
+     "Greeting → name → age → origin → residence → extra detail → close",
+     "Age → close → greeting → name",
+     "Residence → unrelated object → greeting"
+    ],
+    "ok": 0,
+    "why": "The first sequence guides the listener logically."
+   },
+   {
+    "q": "Which phrase can add another true detail?",
+    "a": [
+     "أَيْضًا",
+     "مِنْ",
+     "كَمْ"
+    ],
+    "ok": 0,
+    "why": "أَيْضًا means also / too."
+   },
+   {
+    "q": "A male speaker closes politely.",
+    "a": [
+     "سَعِيدٌ بِلِقَائِكُمْ.",
+     "سَعِيدَةٌ بِلِقَائِكُمْ.",
+     "سَعِيدٌ فِي لِقَائِكُمْ."
+    ],
+    "ok": 0,
+    "why": "The male speaker uses سَعِيدٌ."
+   },
+   {
+    "q": "Choose the complete coherent introduction.",
+    "a": [
+     "مَرْحَبًا! اِسْمِي نُورٌ، وَعُمْرِي ثَلَاثَ عَشْرَةَ سَنَةً. أَنَا مِنْ مِصْرَ، وَأَسْكُنُ فِي لَنْدَنَ. أَتَكَلَّمُ العَرَبِيَّةَ وَالإِنْجِلِيزِيَّةَ. سَعِيدَةٌ بِلِقَائِكُمْ.",
+     "عُمْرِي لَنْدَنُ. أَسْكُنُ مِنْ مِصْرَ. اِسْمِي فِي نُورٌ.",
+     "مِنْ فَضْلِكَ. قَلَمٌ. تَفَضَّلْ. جِنْسِيَّتِي."
+    ],
+    "ok": 0,
+    "why": "The correct option contains accurate, ordered personal facts and a polite close."
+   }
+  ],
+  "rounds": [
+   {
+    "icon": "👋",
+    "title": "Opening",
+    "detail": "Begin the exchange.",
+    "prompt": "Choose a suitable greeting.",
+    "options": [
+     "مَرْحَبًا!",
+     "عُمْرِي أَرْبَعَ عَشْرَةَ.",
+     "فِي لَنْدَنَ."
+    ],
+    "ok": 0,
+    "why": "A greeting opens the introduction."
+   },
+   {
+    "icon": "🪪",
+    "title": "Name",
+    "detail": "Give the first identity fact.",
+    "prompt": "Choose the correct first-person phrase.",
+    "options": [
+     "اِسْمِي مَرْيَمُ.",
+     "اِسْمُكِ مَرْيَمُ.",
+     "عُمْرِي مَرْيَمُ."
+    ],
+    "ok": 0,
+    "why": "اِسْمِي means my name."
+   },
+   {
+    "icon": "🎂",
+    "title": "Age",
+    "detail": "Join the next fact.",
+    "prompt": "Choose the accurate connected age sentence.",
+    "options": [
+     "وَعُمْرِي ثَلَاثَ عَشْرَةَ سَنَةً.",
+     "فِي عُمْرِي ثَلَاثَ عَشْرَةَ.",
+     "مِنْ عُمْرِي سَنَةً."
+    ],
+    "ok": 0,
+    "why": "وَعُمْرِي joins the age correctly."
+   },
+   {
+    "icon": "🌍",
+    "title": "Origin",
+    "detail": "Say where the person is from.",
+    "prompt": "Choose the origin frame.",
+    "options": [
+     "أَنَا مِنْ سُورِيَا.",
+     "أَسْكُنُ مِنْ سُورِيَا.",
+     "أَنَا فِي سُورِيَا مِنْ."
+    ],
+    "ok": 0,
+    "why": "Origin uses أَنَا مِنْ."
+   },
+   {
+    "icon": "🏠",
+    "title": "Residence",
+    "detail": "Add the current city.",
+    "prompt": "Choose the residence frame.",
+    "options": [
+     "وَأَسْكُنُ فِي لَنْدَنَ.",
+     "وَأَنَا مِنْ لَنْدَنَ فِي.",
+     "وَعُمْرِي لَنْدَنُ."
+    ],
+    "ok": 0,
+    "why": "Residence uses أَسْكُنُ فِي."
+   },
+   {
+    "icon": "🗣️",
+    "title": "Language",
+    "detail": "Add a communication skill.",
+    "prompt": "Choose the accurate sentence.",
+    "options": [
+     "وَأَتَكَلَّمُ العَرَبِيَّةَ وَالإِنْجِلِيزِيَّةَ.",
+     "وَأَسْكُنُ العَرَبِيَّةَ.",
+     "وَأَنَا مِنَ الإِنْجِلِيزِيَّةِ."
+    ],
+    "ok": 0,
+    "why": "أَتَكَلَّمُ introduces languages spoken."
+   },
+   {
+    "icon": "➕",
+    "title": "Also",
+    "detail": "Add one more detail.",
+    "prompt": "Place أَيْضًا naturally.",
+    "options": [
+     "أَفْهَمُ العَرَبِيَّةَ أَيْضًا.",
+     "أَيْضًا مِنْ أَنَا العَرَبِيَّةِ.",
+     "فِي أَيْضًا أَسْكُنُ."
+    ],
+    "ok": 0,
+    "why": "أَيْضًا normally follows the added idea here."
+   },
+   {
+    "icon": "🤝",
+    "title": "Close",
+    "detail": "Finish politely.",
+    "prompt": "A female speaker chooses…",
+    "options": [
+     "سَعِيدَةٌ بِلِقَائِكُمْ.",
+     "سَعِيدٌ بِلِقَائِكُمْ.",
+     "سَعِيدَةٌ فِي لِقَائِكُمْ."
+    ],
+    "ok": 0,
+    "why": "The adjective matches the female speaker."
+   },
+   {
+    "icon": "🔗",
+    "title": "Connector repair",
+    "detail": "Join written Arabic correctly.",
+    "prompt": "Which form is written correctly?",
+    "options": [
+     "وَأَسْكُنُ",
+     "وَ أَسْكُنُ",
+     "أَسْكُنُ وَ"
+    ],
+    "ok": 0,
+    "why": "وَ attaches to the following word."
+   },
+   {
+    "icon": "🧭",
+    "title": "Meaning repair",
+    "detail": "Keep place meanings separate.",
+    "prompt": "Which pair means ‘from Egypt, live in Paris’?",
+    "options": [
+     "مِنْ مِصْرَ، وَأَسْكُنُ فِي بَارِيسَ",
+     "فِي مِصْرَ، وَأَسْكُنُ مِنْ بَارِيسَ",
+     "مِنْ بَارِيسَ، وَفِي مِصْرَ"
+    ],
+    "ok": 0,
+    "why": "مِنْ marks origin; فِي marks residence."
+   },
+   {
+    "icon": "👧",
+    "title": "Agreement",
+    "detail": "Match the female speaker.",
+    "prompt": "Choose the feminine nationality with أَنَا.",
+    "options": [
+     "أَنَا مِصْرِيَّةٌ.",
+     "أَنَا مِصْرِيٌّ.",
+     "أَنَا مِصْرُ."
+    ],
+    "ok": 0,
+    "why": "After أَنَا, the nationality adjective matches the female speaker."
+   },
+   {
+    "icon": "🏁",
+    "title": "Whole paragraph",
+    "detail": "Check coherence.",
+    "prompt": "Choose the complete introduction.",
+    "options": [
+     "مَرْحَبًا! اِسْمِي عَلِيٌّ، وَعُمْرِي خَمْسَ عَشْرَةَ سَنَةً. أَنَا مِنْ بَاكِسْتَانَ، وَأَسْكُنُ فِي لَنْدَنَ. سَعِيدٌ بِلِقَائِكُمْ.",
+     "عُمْرِي عَلِيٌّ. فِي بَاكِسْتَانَ مِنْ. مَرْحَبًا لَنْدَنُ.",
+     "قَلَمٌ. مِنْ فَضْلِكَ. عُمْرِي فِي."
+    ],
+    "ok": 0,
+    "why": "The correct option is ordered, accurate and coherent."
+   }
+  ],
+  "roles": [
+   {
+    "icon": "👧",
+    "title": "Layla",
+    "detail": "Age 13 · Syria · London · Arabic and English",
+    "model": "مَرْحَبًا! اِسْمِي لَيْلَى، وَعُمْرِي ثَلَاثَ عَشْرَةَ سَنَةً. أَنَا مِنْ سُورِيَا، وَأَسْكُنُ فِي لَنْدَنَ. أَتَكَلَّمُ العَرَبِيَّةَ وَالإِنْجِلِيزِيَّةَ. سَعِيدَةٌ بِلِقَائِكُمْ."
+   },
+   {
+    "icon": "👦",
+    "title": "Tariq",
+    "detail": "Age 14 · Pakistan · Birmingham · Urdu and English",
+    "model": "السَّلَامُ عَلَيْكُمْ. اِسْمِي طَارِقٌ، وَعُمْرِي أَرْبَعَ عَشْرَةَ سَنَةً. أَنَا مِنْ بَاكِسْتَانَ، وَأَسْكُنُ فِي بِرْمِنْغَامَ. أَتَكَلَّمُ الأُرْدِيَّةَ وَالإِنْجِلِيزِيَّةَ. سَعِيدٌ بِلِقَائِكُمْ."
+   },
+   {
+    "icon": "👧🏽",
+    "title": "Aisha",
+    "detail": "Age 12 · Britain · Birmingham · English; understands Arabic",
+    "model": "أَهْلًا وَسَهْلًا. اِسْمِي عَائِشَةُ، وَعُمْرِي اِثْنَتَا عَشْرَةَ سَنَةً. أَنَا مِنْ بَرِيطَانِيَا، وَأَسْكُنُ فِي بِرْمِنْغَامَ. أَتَكَلَّمُ الإِنْجِلِيزِيَّةَ، وَأَفْهَمُ العَرَبِيَّةَ أَيْضًا. سَعِيدَةٌ بِلِقَائِكُمْ."
+   },
+   {
+    "icon": "👦🏽",
+    "title": "Yusuf",
+    "detail": "Age 15 · Morocco · Paris · Arabic and French",
+    "model": "مَرْحَبًا! اِسْمِي يُوسُفُ، وَعُمْرِي خَمْسَ عَشْرَةَ سَنَةً. أَنَا مِنَ المَغْرِبِ، وَأَسْكُنُ فِي بَارِيسَ. أَتَكَلَّمُ العَرَبِيَّةَ وَالفَرَنْسِيَّةَ. تَشَرَّفْنَا."
+   },
+   {
+    "icon": "👧🏻",
+    "title": "Maryam",
+    "detail": "Age 14 · Turkey · London · Turkish and English",
+    "model": "السَّلَامُ عَلَيْكُمْ. اِسْمِي مَرْيَمُ، وَعُمْرِي أَرْبَعَ عَشْرَةَ سَنَةً. أَنَا مِنْ تُرْكِيَا، وَأَسْكُنُ فِي لَنْدَنَ. أَتَكَلَّمُ التُّرْكِيَّةَ وَالإِنْجِلِيزِيَّةَ. سَعِيدَةٌ بِلِقَائِكُمْ."
+   },
+   {
+    "icon": "👦🏾",
+    "title": "Adam",
+    "detail": "Age 13 · Egypt · Riyadh · Arabic and English",
+    "model": "مَرْحَبًا! اِسْمِي آدَمُ، وَعُمْرِي ثَلَاثَ عَشْرَةَ سَنَةً. أَنَا مِنْ مِصْرَ، وَأَسْكُنُ فِي الرِّيَاضِ. أَتَكَلَّمُ العَرَبِيَّةَ وَالإِنْجِلِيزِيَّةَ. سَعِيدٌ بِلِقَائِكُمْ."
+   }
+  ]
+ },
+ "l08": {
+  "retrievalQuiz": [
+   {
+    "q": "Choose ‘My name is Sara.’",
+    "a": [
+     "اِسْمِي سَارَةُ.",
+     "اِسْمُهَا سَارَةُ.",
+     "عُمْرِي سَارَةُ."
+    ],
+    "ok": 0,
+    "why": "اِسْمِي is the first-person phrase: my name."
+   },
+   {
+    "q": "Choose ‘Her name is Sara.’",
+    "a": [
+     "اِسْمُهَا سَارَةُ.",
+     "اِسْمُهُ سَارَةُ.",
+     "اِسْمِي سَارَةُ."
+    ],
+    "ok": 0,
+    "why": "The ending ـهَا means her."
+   },
+   {
+    "q": "Choose ‘He lives in London.’",
+    "a": [
+     "هُوَ يَعِيشُ فِي لَنْدَنَ.",
+     "هِيَ تَعِيشُ فِي لَنْدَنَ.",
+     "أَنَا أَعِيشُ فِي لَنْدَنَ."
+    ],
+    "ok": 0,
+    "why": "هُوَ pairs with the masculine third-person verb يَعِيشُ."
+   },
+   {
+    "q": "Choose ‘She studies at school.’",
+    "a": [
+     "هِيَ تَدْرُسُ فِي المَدْرَسَةِ.",
+     "هُوَ يَدْرُسُ فِي المَدْرَسَةِ.",
+     "أَنَا أَدْرُسُ فِي المَدْرَسَةِ."
+    ],
+    "ok": 0,
+    "why": "هِيَ pairs with تَدْرُسُ."
+   },
+   {
+    "q": "Which connector means ‘also’?",
+    "a": [
+     "أَيْضًا",
+     "مِنْ",
+     "فِي"
+    ],
+    "ok": 0,
+    "why": "أَيْضًا adds another detail."
+   },
+   {
+    "q": "Which word means ‘personal profile’?",
+    "a": [
+     "بِطَاقَةٌ شَخْصِيَّةٌ",
+     "مَدْرَسَةٌ",
+     "هِوَايَةٌ"
+    ],
+    "ok": 0,
+    "why": "بِطَاقَةٌ شَخْصِيَّةٌ is a personal profile or personal-information card."
+   }
+  ],
+  "patternQuiz": [
+   {
+    "q": "His age is thirteen.",
+    "a": [
+     "عُمْرُهُ ثَلَاثَ عَشْرَةَ سَنَةً.",
+     "عُمْرُهَا ثَلَاثَ عَشْرَةَ سَنَةً.",
+     "عُمْرِي ثَلَاثَ عَشْرَةَ سَنَةً."
+    ],
+    "ok": 0,
+    "why": "ـهُ means his."
+   },
+   {
+    "q": "Her favourite hobby is reading.",
+    "a": [
+     "هِوَايَتُهَا المُفَضَّلَةُ القِرَاءَةُ.",
+     "هِوَايَتُهُ المُفَضَّلَةُ القِرَاءَةُ.",
+     "هِوَايَتِي المُفَضَّلَةُ القِرَاءَةُ."
+    ],
+    "ok": 0,
+    "why": "ـهَا means her."
+   },
+   {
+    "q": "He studies.",
+    "a": [
+     "يَدْرُسُ",
+     "تَدْرُسُ",
+     "أَدْرُسُ"
+    ],
+    "ok": 0,
+    "why": "The masculine third-person form begins with يـ."
+   },
+   {
+    "q": "She lives.",
+    "a": [
+     "تَعِيشُ",
+     "يَعِيشُ",
+     "أَعِيشُ"
+    ],
+    "ok": 0,
+    "why": "The feminine third-person form begins with تـ."
+   },
+   {
+    "q": "He likes football.",
+    "a": [
+     "يُحِبُّ كُرَةَ القَدَمِ.",
+     "تُحِبُّ كُرَةَ القَدَمِ.",
+     "أُحِبُّ كُرَةَ القَدَمِ."
+    ],
+    "ok": 0,
+    "why": "يُحِبُّ is the third-person masculine form."
+   },
+   {
+    "q": "She reads stories.",
+    "a": [
+     "تَقْرَأُ القِصَصَ.",
+     "يَقْرَأُ القِصَصَ.",
+     "أَقْرَأُ القِصَصَ."
+    ],
+    "ok": 0,
+    "why": "تَقْرَأُ means she reads in this context."
+   },
+   {
+    "q": "He writes messages.",
+    "a": [
+     "يَكْتُبُ رَسَائِلَ.",
+     "تَكْتُبُ رَسَائِلَ.",
+     "أَكْتُبُ رَسَائِلَ."
+    ],
+    "ok": 0,
+    "why": "يَكْتُبُ means he writes."
+   },
+   {
+    "q": "She speaks Arabic.",
+    "a": [
+     "تَتَكَلَّمُ العَرَبِيَّةَ.",
+     "يَتَكَلَّمُ العَرَبِيَّةَ.",
+     "أَتَكَلَّمُ العَرَبِيَّةَ."
+    ],
+    "ok": 0,
+    "why": "تَتَكَلَّمُ means she speaks."
+   },
+   {
+    "q": "Choose the correct feminine description.",
+    "a": [
+     "هِيَ طَالِبَةٌ ذَكِيَّةٌ.",
+     "هِيَ طَالِبٌ ذَكِيٌّ.",
+     "هُوَ طَالِبَةٌ ذَكِيَّةٌ."
+    ],
+    "ok": 0,
+    "why": "The noun and adjective both match the feminine subject."
+   },
+   {
+    "q": "Choose the best connected sentence.",
+    "a": [
+     "تَعِيشُ فِي لَنْدَنَ، وَتَدْرُسُ فِي مَدْرَسَةِ النُّورِ.",
+     "تَعِيشُ مِنْ لَنْدَنَ، تَدْرُسُ وَفِي.",
+     "لَنْدَنُ هِيَ مَدْرَسَةٌ تَعِيشُ."
+    ],
+    "ok": 0,
+    "why": "The correct sentence uses the correct verb forms, preposition and connector."
+   }
+  ],
+  "listeningQuiz": [
+   {
+    "q": "How old is Noor?",
+    "a": [
+     "14",
+     "13",
+     "12"
+    ],
+    "ok": 0,
+    "why": "أَرْبَعَ عَشْرَةَ means fourteen."
+   },
+   {
+    "q": "What is Noor’s nationality?",
+    "a": [
+     "Syrian",
+     "Egyptian",
+     "British"
+    ],
+    "ok": 0,
+    "why": "The profile says هِيَ سُورِيَّةٌ."
+   },
+   {
+    "q": "Where does she live?",
+    "a": [
+     "Birmingham",
+     "London",
+     "Manchester"
+    ],
+    "ok": 0,
+    "why": "She lives in بِرْمِنْغَامَ."
+   },
+   {
+    "q": "What is her school called?",
+    "a": [
+     "Al-Amal",
+     "Al-Rashid",
+     "Al-Noor"
+    ],
+    "ok": 0,
+    "why": "She studies at مَدْرَسَةِ الأَمَلِ."
+   },
+   {
+    "q": "Which languages does she speak?",
+    "a": [
+     "Arabic and English",
+     "Arabic and French",
+     "English and Urdu"
+    ],
+    "ok": 0,
+    "why": "She speaks العَرَبِيَّةَ وَالإِنْجِلِيزِيَّةَ."
+   },
+   {
+    "q": "Which two hobbies does she like?",
+    "a": [
+     "Swimming and reading",
+     "Drawing and football",
+     "Writing and cooking"
+    ],
+    "ok": 0,
+    "why": "She likes السِّبَاحَةَ وَالقِرَاءَةَ."
+   },
+   {
+    "q": "What is her favourite hobby?",
+    "a": [
+     "Swimming",
+     "Reading",
+     "Writing"
+    ],
+    "ok": 0,
+    "why": "Her favourite hobby is السِّبَاحَةُ."
+   },
+   {
+    "q": "What does she write?",
+    "a": [
+     "Letters to her friends",
+     "Short stories",
+     "A school newspaper"
+    ],
+    "ok": 0,
+    "why": "She writes رَسَائِلَ إِلَى صَدِيقَاتِهَا."
+   }
+  ],
+  "readingQuiz": [
+   {
+    "q": "How old is Ahmed?",
+    "a": [
+     "13",
+     "12",
+     "14"
+    ],
+    "ok": 0,
+    "why": "Ahmed is ثَلَاثَ عَشْرَةَ سَنَةً."
+   },
+   {
+    "q": "Where does Ahmed live?",
+    "a": [
+     "London",
+     "Manchester",
+     "Cairo"
+    ],
+    "ok": 0,
+    "why": "He lives in لَنْدَنَ."
+   },
+   {
+    "q": "Which school does Ahmed attend?",
+    "a": [
+     "Al-Rashid School",
+     "Al-Noor School",
+     "Al-Amal School"
+    ],
+    "ok": 0,
+    "why": "The text says مَدْرَسَةِ الرَّشِيدِ."
+   },
+   {
+    "q": "Which languages does Ahmed speak?",
+    "a": [
+     "Arabic and English",
+     "English and French",
+     "Arabic and Urdu"
+    ],
+    "ok": 0,
+    "why": "He speaks Arabic and English."
+   },
+   {
+    "q": "What is Ahmed’s favourite hobby?",
+    "a": [
+     "Reading",
+     "Football",
+     "Writing"
+    ],
+    "ok": 0,
+    "why": "The text states that reading is his favourite hobby."
+   },
+   {
+    "q": "What does Ahmed write?",
+    "a": [
+     "Stories",
+     "Letters",
+     "Diary entries"
+    ],
+    "ok": 0,
+    "why": "He writes قِصَصًا."
+   },
+   {
+    "q": "How old is Sarah?",
+    "a": [
+     "12",
+     "13",
+     "14"
+    ],
+    "ok": 0,
+    "why": "The unvowelled text says اثنتا عشرة سنة."
+   },
+   {
+    "q": "Where does Sarah live?",
+    "a": [
+     "Manchester",
+     "London",
+     "Birmingham"
+    ],
+    "ok": 0,
+    "why": "She lives in مانشستر."
+   },
+   {
+    "q": "What does Sarah understand as well as speaking English?",
+    "a": [
+     "Arabic",
+     "French",
+     "Urdu"
+    ],
+    "ok": 0,
+    "why": "She understands Arabic too."
+   },
+   {
+    "q": "What is Sarah’s favourite hobby?",
+    "a": [
+     "Drawing",
+     "Swimming",
+     "Reading"
+    ],
+    "ok": 0,
+    "why": "Her favourite hobby is الرسم."
+   },
+   {
+    "q": "What does Sarah write?",
+    "a": [
+     "Her diary",
+     "Stories",
+     "Letters"
+    ],
+    "ok": 0,
+    "why": "She writes يومياتها."
+   },
+   {
+    "q": "Which adjective describes both profiles accurately?",
+    "a": [
+     "Both are students.",
+     "Both are Egyptian.",
+     "Both live in London."
+    ],
+    "ok": 0,
+    "why": "Ahmed and Sarah are both described as students; the other details differ."
+   }
+  ],
+  "finalQuiz": [
+   {
+    "q": "What does بِطَاقَةٌ شَخْصِيَّةٌ mean?",
+    "a": [
+     "personal profile",
+     "school subject",
+     "favourite hobby"
+    ],
+    "ok": 0,
+    "why": "It means personal profile or personal-information card."
+   },
+   {
+    "q": "Choose ‘his name’.",
+    "a": [
+     "اِسْمُهُ",
+     "اِسْمُهَا",
+     "اِسْمِي"
+    ],
+    "ok": 0,
+    "why": "ـهُ means his."
+   },
+   {
+    "q": "Choose ‘her age’.",
+    "a": [
+     "عُمْرُهَا",
+     "عُمْرُهُ",
+     "عُمْرِي"
+    ],
+    "ok": 0,
+    "why": "ـهَا means her."
+   },
+   {
+    "q": "Choose ‘he lives’.",
+    "a": [
+     "يَعِيشُ",
+     "تَعِيشُ",
+     "أَعِيشُ"
+    ],
+    "ok": 0,
+    "why": "The masculine third-person form is يَعِيشُ."
+   },
+   {
+    "q": "Choose ‘she studies’.",
+    "a": [
+     "تَدْرُسُ",
+     "يَدْرُسُ",
+     "أَدْرُسُ"
+    ],
+    "ok": 0,
+    "why": "The feminine third-person form is تَدْرُسُ."
+   },
+   {
+    "q": "Choose ‘he reads and writes’.",
+    "a": [
+     "يَقْرَأُ وَيَكْتُبُ",
+     "تَقْرَأُ وَتَكْتُبُ",
+     "أَقْرَأُ وَأَكْتُبُ"
+    ],
+    "ok": 0,
+    "why": "Both masculine third-person verbs begin with يـ."
+   },
+   {
+    "q": "Choose the correct favourite-hobby phrase for a girl.",
+    "a": [
+     "هِوَايَتُهَا المُفَضَّلَةُ",
+     "هِوَايَتُهُ المُفَضَّلَةُ",
+     "هِوَايَتِي المُفَضَّلَةُ"
+    ],
+    "ok": 0,
+    "why": "ـهَا marks her hobby."
+   },
+   {
+    "q": "Which connector gives a contrast?",
+    "a": [
+     "وَلَكِنْ",
+     "أَيْضًا",
+     "وَ"
+    ],
+    "ok": 0,
+    "why": "وَلَكِنْ means but."
+   },
+   {
+    "q": "Which reading strategy is strongest?",
+    "a": [
+     "Read the question, scan for its category, and prove the answer.",
+     "Translate every word before reading the question.",
+     "Guess from the person’s name."
+    ],
+    "ok": 0,
+    "why": "Scanning by category is faster and produces evidence-based answers."
+   },
+   {
+    "q": "Choose the correct feminine profile sentence.",
+    "a": [
+     "هِيَ تَعِيشُ فِي لَنْدَنَ وَتُحِبُّ القِرَاءَةَ.",
+     "هِيَ يَعِيشُ فِي لَنْدَنَ وَيُحِبُّ القِرَاءَةَ.",
+     "هُوَ تَعِيشُ فِي لَنْدَنَ."
+    ],
+    "ok": 0,
+    "why": "هِيَ pairs with تَعِيشُ and تُحِبُّ."
+   },
+   {
+    "q": "Choose the correct masculine profile sentence.",
+    "a": [
+     "هُوَ يَدْرُسُ فِي مَدْرَسَةِ النُّورِ وَيَكْتُبُ قِصَصًا.",
+     "هُوَ تَدْرُسُ فِي مَدْرَسَةِ النُّورِ وَتَكْتُبُ قِصَصًا.",
+     "هِيَ يَدْرُسُ فِي مَدْرَسَةِ النُّورِ."
+    ],
+    "ok": 0,
+    "why": "هُوَ pairs with يَدْرُسُ and يَكْتُبُ."
+   },
+   {
+    "q": "Choose the best profile order.",
+    "a": [
+     "identity → residence → school/languages → hobbies → final description",
+     "hobby → unrelated object → age → greeting",
+     "final description → name only → stop"
+    ],
+    "ok": 0,
+    "why": "The first order groups related information and helps the reader follow the profile."
+   }
+  ],
+  "rounds": [
+   {
+    "icon": "🪪",
+    "title": "Name",
+    "detail": "Choose the possessive ending.",
+    "prompt": "Her name is Maryam.",
+    "options": [
+     "اِسْمُهَا مَرْيَمُ.",
+     "اِسْمُهُ مَرْيَمُ.",
+     "اِسْمِي مَرْيَمُ."
+    ],
+    "ok": 0,
+    "why": "The ending ـهَا means her."
+   },
+   {
+    "icon": "🎂",
+    "title": "Age",
+    "detail": "Match the male profile.",
+    "prompt": "His age is fourteen.",
+    "options": [
+     "عُمْرُهُ أَرْبَعَ عَشْرَةَ سَنَةً.",
+     "عُمْرُهَا أَرْبَعَ عَشْرَةَ سَنَةً.",
+     "عُمْرِي أَرْبَعَ عَشْرَةَ سَنَةً."
+    ],
+    "ok": 0,
+    "why": "The male profile uses ـهُ."
+   },
+   {
+    "icon": "🏠",
+    "title": "Residence",
+    "detail": "Choose the verb prefix.",
+    "prompt": "She lives in Manchester.",
+    "options": [
+     "تَعِيشُ فِي مَانْشِسْتَرَ.",
+     "يَعِيشُ فِي مَانْشِسْتَرَ.",
+     "أَعِيشُ فِي مَانْشِسْتَرَ."
+    ],
+    "ok": 0,
+    "why": "The female subject takes تَعِيشُ."
+   },
+   {
+    "icon": "🏫",
+    "title": "School",
+    "detail": "Match the male subject.",
+    "prompt": "He studies at Al-Noor School.",
+    "options": [
+     "يَدْرُسُ فِي مَدْرَسَةِ النُّورِ.",
+     "تَدْرُسُ فِي مَدْرَسَةِ النُّورِ.",
+     "أَدْرُسُ فِي مَدْرَسَةِ النُّورِ."
+    ],
+    "ok": 0,
+    "why": "The male subject takes يَدْرُسُ."
+   },
+   {
+    "icon": "🗣️",
+    "title": "Language",
+    "detail": "Choose the feminine form.",
+    "prompt": "She speaks Arabic and English.",
+    "options": [
+     "تَتَكَلَّمُ العَرَبِيَّةَ وَالإِنْجِلِيزِيَّةَ.",
+     "يَتَكَلَّمُ العَرَبِيَّةَ وَالإِنْجِلِيزِيَّةَ.",
+     "أَتَكَلَّمُ العَرَبِيَّةَ وَالإِنْجِلِيزِيَّةَ."
+    ],
+    "ok": 0,
+    "why": "The female subject takes تَتَكَلَّمُ."
+   },
+   {
+    "icon": "⚽",
+    "title": "Interest",
+    "detail": "Choose the masculine form.",
+    "prompt": "He likes football.",
+    "options": [
+     "يُحِبُّ كُرَةَ القَدَمِ.",
+     "تُحِبُّ كُرَةَ القَدَمِ.",
+     "أُحِبُّ كُرَةَ القَدَمِ."
+    ],
+    "ok": 0,
+    "why": "The male subject takes يُحِبُّ."
+   },
+   {
+    "icon": "📚",
+    "title": "Reading",
+    "detail": "Match the female subject.",
+    "prompt": "She reads stories.",
+    "options": [
+     "تَقْرَأُ القِصَصَ.",
+     "يَقْرَأُ القِصَصَ.",
+     "أَقْرَأُ القِصَصَ."
+    ],
+    "ok": 0,
+    "why": "The female subject takes تَقْرَأُ."
+   },
+   {
+    "icon": "✍️",
+    "title": "Writing",
+    "detail": "Match the male subject.",
+    "prompt": "He writes messages.",
+    "options": [
+     "يَكْتُبُ رَسَائِلَ.",
+     "تَكْتُبُ رَسَائِلَ.",
+     "أَكْتُبُ رَسَائِلَ."
+    ],
+    "ok": 0,
+    "why": "The male subject takes يَكْتُبُ."
+   },
+   {
+    "icon": "⭐",
+    "title": "Favourite",
+    "detail": "Choose the correct possessive.",
+    "prompt": "Her favourite hobby is drawing.",
+    "options": [
+     "هِوَايَتُهَا المُفَضَّلَةُ الرَّسْمُ.",
+     "هِوَايَتُهُ المُفَضَّلَةُ الرَّسْمُ.",
+     "هِوَايَتِي المُفَضَّلَةُ الرَّسْمُ."
+    ],
+    "ok": 0,
+    "why": "Her hobby takes ـهَا."
+   },
+   {
+    "icon": "🔗",
+    "title": "Connector",
+    "detail": "Add a contrast.",
+    "prompt": "He likes football, but his favourite hobby is reading.",
+    "options": [
+     "يُحِبُّ كُرَةَ القَدَمِ، وَلَكِنْ هِوَايَتُهُ المُفَضَّلَةُ القِرَاءَةُ.",
+     "يُحِبُّ كُرَةَ القَدَمِ، فِي هِوَايَتُهُ القِرَاءَةُ.",
+     "يُحِبُّ وَلَكِنْ مِنْ القِرَاءَةِ."
+    ],
+    "ok": 0,
+    "why": "وَلَكِنْ introduces the contrast clearly."
+   },
+   {
+    "icon": "🧩",
+    "title": "Agreement",
+    "detail": "Repair the full sentence.",
+    "prompt": "Choose the accurate female description.",
+    "options": [
+     "هِيَ طَالِبَةٌ سَعِيدَةٌ وَمُجْتَهِدَةٌ.",
+     "هِيَ طَالِبٌ سَعِيدٌ وَمُجْتَهِدٌ.",
+     "هُوَ طَالِبَةٌ سَعِيدَةٌ."
+    ],
+    "ok": 0,
+    "why": "The pronoun, noun and adjectives all match the female subject."
+   },
+   {
+    "icon": "🏁",
+    "title": "Whole profile",
+    "detail": "Check coherence.",
+    "prompt": "Choose the complete accurate profile opening.",
+    "options": [
+     "اِسْمُهُ يُوسُفُ، وَعُمْرُهُ خَمْسَ عَشْرَةَ سَنَةً. هُوَ مَغْرِبِيٌّ، وَيَعِيشُ فِي بَارِيسَ.",
+     "اِسْمُهَا يُوسُفُ، وَعُمْرِي خَمْسَ عَشْرَةَ. هِيَ يَعِيشُ مِنْ بَارِيسَ.",
+     "يُوسُفُ فِي عُمْرُهُ. مَغْرِبٌ يَعِيشُ هُوَ."
+    ],
+    "ok": 0,
+    "why": "The correct option keeps all third-person forms and information order accurate."
+   }
+  ],
+  "roles": [
+   {
+    "icon": "👦",
+    "title": "Ahmed",
+    "detail": "Age 13 · Egyptian · London · Al-Rashid School · reading and football",
+    "model": "اِسْمُهُ أَحْمَدُ، وَعُمْرُهُ ثَلَاثَ عَشْرَةَ سَنَةً. هُوَ مِصْرِيٌّ، وَيَعِيشُ فِي لَنْدَنَ. يَدْرُسُ فِي مَدْرَسَةِ الرَّشِيدِ. يُحِبُّ القِرَاءَةَ وَكُرَةَ القَدَمِ."
+   },
+   {
+    "icon": "👧",
+    "title": "Sarah",
+    "detail": "Age 12 · British · Manchester · Al-Noor School · drawing and swimming",
+    "model": "اِسْمُهَا سَارَةُ، وَعُمْرُهَا اِثْنَتَا عَشْرَةَ سَنَةً. هِيَ بَرِيطَانِيَّةٌ، وَتَعِيشُ فِي مَانْشِسْتَرَ. تَدْرُسُ فِي مَدْرَسَةِ النُّورِ. تُحِبُّ الرَّسْمَ وَالسِّبَاحَةَ."
+   },
+   {
+    "icon": "👦🏽",
+    "title": "Bilal",
+    "detail": "Age 15 · Pakistani · Birmingham · Al-Amal School · gaming and basketball",
+    "model": "اِسْمُهُ بِلَالٌ، وَعُمْرُهُ خَمْسَ عَشْرَةَ سَنَةً. هُوَ بَاكِسْتَانِيٌّ، وَيَعِيشُ فِي بِرْمِنْغَامَ. يَدْرُسُ فِي مَدْرَسَةِ الأَمَلِ. يُحِبُّ الأَلْعَابَ الإِلِكْتُرُونِيَّةَ وَكُرَةَ السَّلَّةِ."
+   },
+   {
+    "icon": "👧🏽",
+    "title": "Noor",
+    "detail": "Age 14 · Syrian · Birmingham · Al-Amal School · swimming and reading",
+    "model": "اِسْمُهَا نُورٌ، وَعُمْرُهَا أَرْبَعَ عَشْرَةَ سَنَةً. هِيَ سُورِيَّةٌ، وَتَعِيشُ فِي بِرْمِنْغَامَ. تَدْرُسُ فِي مَدْرَسَةِ الأَمَلِ. تُحِبُّ السِّبَاحَةَ وَالقِرَاءَةَ."
+   },
+   {
+    "icon": "👦🏻",
+    "title": "Yusuf",
+    "detail": "Age 15 · Moroccan · Paris · Al-Hikmah School · football and writing",
+    "model": "اِسْمُهُ يُوسُفُ، وَعُمْرُهُ خَمْسَ عَشْرَةَ سَنَةً. هُوَ مَغْرِبِيٌّ، وَيَعِيشُ فِي بَارِيسَ. يَدْرُسُ فِي مَدْرَسَةِ الحِكْمَةِ. يُحِبُّ كُرَةَ القَدَمِ وَالكِتَابَةَ."
+   },
+   {
+    "icon": "👧🏻",
+    "title": "Maryam",
+    "detail": "Age 13 · Turkish · London · Al-Najah School · cooking and photography",
+    "model": "اِسْمُهَا مَرْيَمُ، وَعُمْرُهَا ثَلَاثَ عَشْرَةَ سَنَةً. هِيَ تُرْكِيَّةٌ، وَتَعِيشُ فِي لَنْدَنَ. تَدْرُسُ فِي مَدْرَسَةِ النَّجَاحِ. تُحِبُّ الطَّبْخَ وَالتَّصْوِيرَ."
+   }
+  ]
+ },
+ "l09": {
+  "retrievalQuiz": [
+   {
+    "q": "Which fact normally follows اِسْمِي؟",
+    "a": [
+     "Name",
+     "Age",
+     "City"
+    ],
+    "ok": 0,
+    "why": "اِسْمِي introduces the speaker’s name."
+   },
+   {
+    "q": "Which fact normally follows عُمْرِي؟",
+    "a": [
+     "Age",
+     "Nationality",
+     "Language"
+    ],
+    "ok": 0,
+    "why": "عُمْرِي introduces age, normally followed by a number and سَنَةً."
+   },
+   {
+    "q": "Which fact normally follows أَنَا مِنْ؟",
+    "a": [
+     "Country of origin",
+     "City of residence",
+     "Favourite hobby"
+    ],
+    "ok": 0,
+    "why": "مِنْ introduces origin: where someone is from."
+   },
+   {
+    "q": "Which fact normally follows أَسْكُنُ فِي؟",
+    "a": [
+     "City or place of residence",
+     "Country of origin",
+     "Age"
+    ],
+    "ok": 0,
+    "why": "فِي introduces the place where someone lives."
+   },
+   {
+    "q": "Which fact normally follows أَتَكَلَّمُ؟",
+    "a": [
+     "Language",
+     "Name",
+     "School year"
+    ],
+    "ok": 0,
+    "why": "أَتَكَلَّمُ means I speak and signals a language."
+   },
+   {
+    "q": "Which fact normally follows أُحِبُّ؟",
+    "a": [
+     "Interest or hobby",
+     "Age",
+     "Country"
+    ],
+    "ok": 0,
+    "why": "أُحِبُّ means I like and introduces an interest."
+   },
+   {
+    "q": "Which phrase signals information about a boy or man?",
+    "a": [
+     "اِسْمُهُ",
+     "اِسْمُهَا",
+     "اِسْمِي"
+    ],
+    "ok": 0,
+    "why": "ـهُ means his."
+   },
+   {
+    "q": "Which phrase signals information about a girl or woman?",
+    "a": [
+     "عُمْرُهَا",
+     "عُمْرُهُ",
+     "عُمْرِي"
+    ],
+    "ok": 0,
+    "why": "ـهَا means her."
+   }
+  ],
+  "rubricQuiz": [
+   {
+    "q": "What does اِسْتَمِعْ tell you to do?",
+    "a": [
+     "Listen",
+     "Choose",
+     "Write"
+    ],
+    "ok": 0,
+    "why": "اِسْتَمِعْ means listen."
+   },
+   {
+    "q": "What does اِخْتَرْ tell you to do?",
+    "a": [
+     "Choose",
+     "Repeat",
+     "Match"
+    ],
+    "ok": 0,
+    "why": "اِخْتَرْ means choose."
+   },
+   {
+    "q": "What does اِمْلَأِ الفَرَاغَ tell you to do?",
+    "a": [
+     "Fill the gap",
+     "Read aloud",
+     "Circle the word"
+    ],
+    "ok": 0,
+    "why": "اِمْلَأِ الفَرَاغَ means fill the gap."
+   },
+   {
+    "q": "Which word means true or correct?",
+    "a": [
+     "صَحِيحٌ",
+     "خَطَأٌ",
+     "أُخْرَى"
+    ],
+    "ok": 0,
+    "why": "صَحِيحٌ means true or correct."
+   },
+   {
+    "q": "Which word means false or wrong?",
+    "a": [
+     "خَطَأٌ",
+     "صَحِيحٌ",
+     "فَرَاغٌ"
+    ],
+    "ok": 0,
+    "why": "خَطَأٌ means false or wrong."
+   },
+   {
+    "q": "What does مَرَّةً أُخْرَى mean?",
+    "a": [
+     "Once more",
+     "For the first time",
+     "Very quickly"
+    ],
+    "ok": 0,
+    "why": "مَرَّةً أُخْرَى means once more or again."
+   }
+  ],
+  "clueQuiz": [
+   {
+    "q": "You hear: أَنَا مِنْ مِصْرَ. Which detail is Egypt?",
+    "a": [
+     "Country of origin",
+     "City of residence",
+     "Language"
+    ],
+    "ok": 0,
+    "why": "مِنْ signals origin."
+   },
+   {
+    "q": "You hear: أَسْكُنُ فِي لَنْدَنَ. Which detail is London?",
+    "a": [
+     "City of residence",
+     "Country of origin",
+     "Nationality"
+    ],
+    "ok": 0,
+    "why": "فِي signals location or residence."
+   },
+   {
+    "q": "You hear: عُمْرِي أَرْبَعَ عَشْرَةَ سَنَةً. What is the answer?",
+    "a": [
+     "14",
+     "13",
+     "15"
+    ],
+    "ok": 0,
+    "why": "أَرْبَعَ عَشْرَةَ means fourteen."
+   },
+   {
+    "q": "You hear: عُمْرِي خَمْسَ عَشْرَةَ سَنَةً. What is the answer?",
+    "a": [
+     "15",
+     "14",
+     "16"
+    ],
+    "ok": 0,
+    "why": "خَمْسَ عَشْرَةَ means fifteen."
+   },
+   {
+    "q": "You hear: أَتَكَلَّمُ الإِنْجِلِيزِيَّةَ وَأَفْهَمُ العَرَبِيَّةَ. Which language does the speaker speak?",
+    "a": [
+     "English",
+     "Arabic",
+     "French"
+    ],
+    "ok": 0,
+    "why": "أَتَكَلَّمُ introduces English; أَفْهَمُ introduces Arabic as understood."
+   },
+   {
+    "q": "You hear: أَنَا مَغْرِبِيٌّ، وَأَسْكُنُ فِي بَارِيسَ. Which answer gives nationality?",
+    "a": [
+     "Moroccan",
+     "French",
+     "Parisian"
+    ],
+    "ok": 0,
+    "why": "مَغْرِبِيٌّ is the nationality; Paris is the residence."
+   },
+   {
+    "q": "You hear: اِسْمُهَا مَرْيَمُ. Who is being described?",
+    "a": [
+     "A female person",
+     "A male person",
+     "The speaker themself"
+    ],
+    "ok": 0,
+    "why": "ـهَا means her name."
+   },
+   {
+    "q": "You hear: هُوَ يَعِيشُ فِي بِرْمِنْغَامَ. Which form tells you the person is male?",
+    "a": [
+     "هُوَ وَيَعِيشُ",
+     "فِي",
+     "بِرْمِنْغَامَ"
+    ],
+    "ok": 0,
+    "why": "هُوَ and the masculine verb form يَعِيشُ identify a male subject."
+   },
+   {
+    "q": "A question asks for city. Which phrase should make you listen closely?",
+    "a": [
+     "أَسْكُنُ فِي",
+     "أَنَا مِنْ",
+     "عُمْرِي"
+    ],
+    "ok": 0,
+    "why": "A city of residence usually follows أَسْكُنُ فِي."
+   },
+   {
+    "q": "You miss one word in the first sentence. What is the strongest strategy?",
+    "a": [
+     "Keep listening for the next signal phrase",
+     "Stop and abandon the task",
+     "Open the transcript immediately"
+    ],
+    "ok": 0,
+    "why": "Continue listening. The required fact may appear later or be repeated."
+   }
+  ],
+  "taskAQuiz": [
+   {
+    "q": "What is the speaker’s name?",
+    "a": [
+     "Karim",
+     "Yusuf",
+     "Bilal"
+    ],
+    "ok": 0,
+    "why": "He says اِسْمِي كَرِيمٌ."
+   },
+   {
+    "q": "How old is Karim?",
+    "a": [
+     "13",
+     "12",
+     "14"
+    ],
+    "ok": 0,
+    "why": "ثَلَاثَ عَشْرَةَ means thirteen."
+   },
+   {
+    "q": "What is his nationality?",
+    "a": [
+     "Moroccan",
+     "Egyptian",
+     "Lebanese"
+    ],
+    "ok": 0,
+    "why": "He says أَنَا مَغْرِبِيٌّ."
+   },
+   {
+    "q": "Where does he live?",
+    "a": [
+     "London",
+     "Rabat",
+     "Paris"
+    ],
+    "ok": 0,
+    "why": "He says أَسْكُنُ فِي لَنْدَنَ."
+   },
+   {
+    "q": "Which languages does he speak?",
+    "a": [
+     "Arabic and French",
+     "Arabic and English",
+     "French and English"
+    ],
+    "ok": 0,
+    "why": "He says العَرَبِيَّةَ وَالفَرَنْسِيَّةَ."
+   },
+   {
+    "q": "Which hobby does he like?",
+    "a": [
+     "Football",
+     "Swimming",
+     "Drawing"
+    ],
+    "ok": 0,
+    "why": "He says أُحِبُّ كُرَةَ القَدَمِ."
+   }
+  ],
+  "taskBQuiz": [
+   {
+    "q": "How old is Leila?",
+    "a": [
+     "11",
+     "12",
+     "13"
+    ],
+    "ok": 0,
+    "why": "إِحْدَى عَشْرَةَ means eleven."
+   },
+   {
+    "q": "How is her nationality described?",
+    "a": [
+     "British-Lebanese",
+     "British-Syrian",
+     "Lebanese-French"
+    ],
+    "ok": 0,
+    "why": "She says بَرِيطَانِيَّةٌ لُبْنَانِيَّةٌ."
+   },
+   {
+    "q": "Which country does she say she is from?",
+    "a": [
+     "Britain",
+     "Lebanon",
+     "Syria"
+    ],
+    "ok": 0,
+    "why": "She says أَنَا مِنْ بَرِيطَانِيَا."
+   },
+   {
+    "q": "Where does she live?",
+    "a": [
+     "Manchester",
+     "London",
+     "Birmingham"
+    ],
+    "ok": 0,
+    "why": "She says أَسْكُنُ فِي مَانْشِسْتَرَ."
+   },
+   {
+    "q": "Which language does she speak?",
+    "a": [
+     "English",
+     "Arabic",
+     "French"
+    ],
+    "ok": 0,
+    "why": "She says أَتَكَلَّمُ الإِنْجِلِيزِيَّةَ."
+   },
+   {
+    "q": "Which language does she understand too?",
+    "a": [
+     "Arabic",
+     "Urdu",
+     "Turkish"
+    ],
+    "ok": 0,
+    "why": "She says أَفْهَمُ العَرَبِيَّةَ أَيْضًا."
+   },
+   {
+    "q": "What is her favourite hobby?",
+    "a": [
+     "Drawing",
+     "Reading",
+     "Swimming"
+    ],
+    "ok": 0,
+    "why": "Her favourite hobby is الرَّسْمُ."
+   }
+  ],
+  "taskCQuiz": [
+   {
+    "q": "Who is twelve years old?",
+    "a": [
+     "Yusuf",
+     "Maryam",
+     "Bilal"
+    ],
+    "ok": 0,
+    "why": "Yusuf says اِثْنَتَا عَشْرَةَ سَنَةً."
+   },
+   {
+    "q": "Who lives in Paris?",
+    "a": [
+     "Maryam",
+     "Yusuf",
+     "Bilal"
+    ],
+    "ok": 0,
+    "why": "Maryam says أَسْكُنُ فِي بَارِيسَ."
+   },
+   {
+    "q": "Who is from Pakistan?",
+    "a": [
+     "Bilal",
+     "Yusuf",
+     "Maryam"
+    ],
+    "ok": 0,
+    "why": "Bilal says أَنَا مِنْ بَاكِسْتَانَ."
+   },
+   {
+    "q": "Who speaks Arabic and French?",
+    "a": [
+     "Maryam",
+     "Yusuf",
+     "Bilal"
+    ],
+    "ok": 0,
+    "why": "Maryam gives العَرَبِيَّةَ وَالفَرَنْسِيَّةَ."
+   },
+   {
+    "q": "Who lives in Birmingham?",
+    "a": [
+     "Yusuf",
+     "Bilal",
+     "Maryam"
+    ],
+    "ok": 0,
+    "why": "Yusuf says أَسْكُنُ فِي بِرْمِنْغَامَ."
+   },
+   {
+    "q": "Who speaks English and Urdu?",
+    "a": [
+     "Bilal",
+     "Maryam",
+     "Yusuf"
+    ],
+    "ok": 0,
+    "why": "Bilal gives الإِنْجِلِيزِيَّةَ وَالأُرْدِيَّةَ."
+   }
+  ],
+  "finalQuiz": [
+   {
+    "q": "Which phrase signals a name?",
+    "a": [
+     "اِسْمِي",
+     "عُمْرِي",
+     "أَسْكُنُ فِي"
+    ],
+    "ok": 0,
+    "why": "اِسْمِي means my name."
+   },
+   {
+    "q": "Which phrase signals age?",
+    "a": [
+     "عُمْرِي",
+     "أَنَا مِنْ",
+     "أَتَكَلَّمُ"
+    ],
+    "ok": 0,
+    "why": "عُمْرِي introduces the speaker’s age."
+   },
+   {
+    "q": "Which phrase distinguishes origin from residence?",
+    "a": [
+     "مِنْ لِلْأَصْلِ، وَفِي لِلسَّكَنِ",
+     "فِي لِلْأَصْلِ، وَمِنْ لِلسَّكَنِ",
+     "كِلْتَاهُمَا لِلْعُمْرِ"
+    ],
+    "ok": 0,
+    "why": "مِنْ signals from; فِي signals in."
+   },
+   {
+    "q": "What number is أَرْبَعَ عَشْرَةَ?",
+    "a": [
+     "14",
+     "13",
+     "15"
+    ],
+    "ok": 0,
+    "why": "أَرْبَعَ عَشْرَةَ is fourteen."
+   },
+   {
+    "q": "What number is اِثْنَتَا عَشْرَةَ?",
+    "a": [
+     "12",
+     "11",
+     "20"
+    ],
+    "ok": 0,
+    "why": "اِثْنَتَا عَشْرَةَ is twelve in the age phrase used here."
+   },
+   {
+    "q": "Which word means ‘I understand’?",
+    "a": [
+     "أَفْهَمُ",
+     "أَتَكَلَّمُ",
+     "أَسْكُنُ"
+    ],
+    "ok": 0,
+    "why": "أَفْهَمُ means I understand."
+   },
+   {
+    "q": "Which word means ‘I live’?",
+    "a": [
+     "أَسْكُنُ",
+     "أُحِبُّ",
+     "أَتَكَلَّمُ"
+    ],
+    "ok": 0,
+    "why": "أَسْكُنُ means I live or reside."
+   },
+   {
+    "q": "Which form means ‘her name’?",
+    "a": [
+     "اِسْمُهَا",
+     "اِسْمُهُ",
+     "اِسْمِي"
+    ],
+    "ok": 0,
+    "why": "ـهَا means her."
+   },
+   {
+    "q": "Which form means ‘he lives’?",
+    "a": [
+     "يَعِيشُ",
+     "تَعِيشُ",
+     "أَعِيشُ"
+    ],
+    "ok": 0,
+    "why": "يَعِيشُ is the third-person masculine form."
+   },
+   {
+    "q": "What should the first listen focus on?",
+    "a": [
+     "Gist and main categories",
+     "Perfect spelling of every word",
+     "Reading the transcript"
+    ],
+    "ok": 0,
+    "why": "The first listen establishes the overall profile and categories."
+   },
+   {
+    "q": "What should the second listen focus on?",
+    "a": [
+     "Exact details and signal phrases",
+     "Ignoring all numbers",
+     "Only the greeting"
+    ],
+    "ok": 0,
+    "why": "The second listen is for precise details."
+   },
+   {
+    "q": "When should you use the transcript?",
+    "a": [
+     "After attempting the listening task, to verify and repair",
+     "Before listening, to copy answers",
+     "Instead of listening"
+    ],
+    "ok": 0,
+    "why": "The transcript is a review tool after a genuine attempt."
+   }
+  ],
+  "people": [
+   {
+    "id": "yusuf",
+    "name": "يُوسُفُ",
+    "detail": "12 · Egypt · Birmingham · Arabic and English"
+   },
+   {
+    "id": "maryam",
+    "name": "مَرْيَمُ",
+    "detail": "14 · Syria · Paris · Arabic and French"
+   },
+   {
+    "id": "bilal",
+    "name": "بِلَالٌ",
+    "detail": "15 · Pakistan · London · English and Urdu"
+   }
+  ],
+  "profiles": [
+   {
+    "icon": "👦🏽",
+    "name": "Karim",
+    "facts": "Age 13 · Moroccan · London · Arabic and French · football",
+    "model": "اِسْمُهُ كَرِيمٌ، وَعُمْرُهُ ثَلَاثَ عَشْرَةَ سَنَةً. هُوَ مَغْرِبِيٌّ، وَيَعِيشُ فِي لَنْدَنَ. يَتَكَلَّمُ العَرَبِيَّةَ وَالفَرَنْسِيَّةَ، وَيُحِبُّ كُرَةَ القَدَمِ."
+   },
+   {
+    "icon": "👧🏻",
+    "name": "Leila",
+    "facts": "Age 11 · British-Lebanese · Manchester · English and Arabic · drawing",
+    "model": "اِسْمُهَا لَيْلَى، وَعُمْرُهَا إِحْدَى عَشْرَةَ سَنَةً. هِيَ بَرِيطَانِيَّةٌ لُبْنَانِيَّةٌ، وَتَعِيشُ فِي مَانْشِسْتَرَ. تَتَكَلَّمُ الإِنْجِلِيزِيَّةَ، وَتَفْهَمُ العَرَبِيَّةَ أَيْضًا. هِوَايَتُهَا المُفَضَّلَةُ الرَّسْمُ."
+   },
+   {
+    "icon": "👦",
+    "name": "Yusuf",
+    "facts": "Age 12 · Egyptian · Birmingham · Arabic and English",
+    "model": "اِسْمُهُ يُوسُفُ، وَعُمْرُهُ اِثْنَتَا عَشْرَةَ سَنَةً. هُوَ مِصْرِيٌّ، وَيَعِيشُ فِي بِرْمِنْغَامَ. يَتَكَلَّمُ العَرَبِيَّةَ وَالإِنْجِلِيزِيَّةَ."
+   },
+   {
+    "icon": "👧🏽",
+    "name": "Maryam",
+    "facts": "Age 14 · Syrian · Paris · Arabic and French",
+    "model": "اِسْمُهَا مَرْيَمُ، وَعُمْرُهَا أَرْبَعَ عَشْرَةَ سَنَةً. هِيَ سُورِيَّةٌ، وَتَعِيشُ فِي بَارِيسَ. تَتَكَلَّمُ العَرَبِيَّةَ وَالفَرَنْسِيَّةَ."
+   },
+   {
+    "icon": "👦🏾",
+    "name": "Bilal",
+    "facts": "Age 15 · Pakistani · London · English and Urdu",
+    "model": "اِسْمُهُ بِلَالٌ، وَعُمْرُهُ خَمْسَ عَشْرَةَ سَنَةً. هُوَ بَاكِسْتَانِيٌّ، وَيَعِيشُ فِي لَنْدَنَ. يَتَكَلَّمُ الإِنْجِلِيزِيَّةَ وَالأُرْدِيَّةَ."
+   }
+  ]
+ },
+ "l10": {
+  "retrievalQuiz": [
+   {
+    "q": "Choose the greeting that means ‘peace be upon you’.?",
+    "a": [
+     "السَّلَامُ عَلَيْكُمْ",
+     "مَعَ السَّلَامَةِ",
+     "شُكْرًا"
+    ],
+    "ok": 0,
+    "why": "السَّلَامُ عَلَيْكُمْ opens a respectful greeting exchange."
+   },
+   {
+    "q": "Which phrase asks after a female listener?",
+    "a": [
+     "كَيْفَ حَالُكِ؟",
+     "كَيْفَ حَالُكَ؟",
+     "مَا اسْمُهَا؟"
+    ],
+    "ok": 0,
+    "why": "The final kasra in ـكِ addresses one female."
+   },
+   {
+    "q": "Which line means ‘I am from Morocco’?",
+    "a": [
+     "أَنَا مِنَ المَغْرِبِ.",
+     "أَسْكُنُ فِي المَغْرِبِ.",
+     "أَنَا مَغْرِبِيَّةٌ."
+    ],
+    "ok": 0,
+    "why": "مِنْ introduces origin: where someone is from."
+   },
+   {
+    "q": "Choose ‘I live in London’.?",
+    "a": [
+     "أَسْكُنُ فِي لَنْدَنَ.",
+     "أَنَا مِنْ لَنْدَنَ.",
+     "أَتَكَلَّمُ لَنْدَنَ."
+    ],
+    "ok": 0,
+    "why": "أَسْكُنُ فِي introduces where someone lives."
+   },
+   {
+    "q": "Which form means ‘she speaks’?",
+    "a": [
+     "تَتَكَلَّمُ",
+     "يَتَكَلَّمُ",
+     "أَتَكَلَّمُ"
+    ],
+    "ok": 0,
+    "why": "The تـ prefix marks the third-person feminine form here."
+   },
+   {
+    "q": "Which pair is correctly gender-matched?",
+    "a": [
+     "طَالِبَةٌ ذَكِيَّةٌ",
+     "طَالِبَةٌ ذَكِيٌّ",
+     "طَالِبٌ ذَكِيَّةٌ"
+    ],
+    "ok": 0,
+    "why": "The feminine noun and adjective both use feminine forms."
+   },
+   {
+    "q": "Which phrase is a polite welcome to one female?",
+    "a": [
+     "تَفَضَّلِي",
+     "تَفَضَّلْ",
+     "لَا"
+    ],
+    "ok": 0,
+    "why": "تَفَضَّلِي addresses one female."
+   },
+   {
+    "q": "Which sentence joins identity and language?",
+    "a": [
+     "أَنَا أُرْدُنِيَّةٌ وَأَتَكَلَّمُ العَرَبِيَّةَ.",
+     "أَنَا أُرْدُنِيٌّ وَهِيَ العَرَبِيَّةُ.",
+     "أَنَا مِنْ أَتَكَلَّمُ."
+    ],
+    "ok": 0,
+    "why": "The sentence uses a feminine nationality and the first-person language verb accurately."
+   }
+  ],
+  "vocabQuiz": [
+   {
+    "q": "What does ثَقَافَةٌ mean?",
+    "a": [
+     "culture",
+     "custom",
+     "religion"
+    ],
+    "ok": 0,
+    "why": "ثَقَافَةٌ means culture."
+   },
+   {
+    "q": "Choose the Arabic for ‘customs’.?",
+    "a": [
+     "عَادَاتٌ",
+     "تَقَالِيدُ",
+     "مُجْتَمَعٌ"
+    ],
+    "ok": 0,
+    "why": "عَادَاتٌ means customs or habits."
+   },
+   {
+    "q": "Which word means ‘traditions’?",
+    "a": [
+     "تَقَالِيدُ",
+     "ضِيَافَةٌ",
+     "هُوِيَّةٌ"
+    ],
+    "ok": 0,
+    "why": "تَقَالِيدُ means traditions."
+   },
+   {
+    "q": "Choose ‘respect’.?",
+    "a": [
+     "اِحْتِرَامٌ",
+     "اِخْتِلَافٌ",
+     "اِسْتِمَاعٌ"
+    ],
+    "ok": 0,
+    "why": "اِحْتِرَامٌ means respect."
+   },
+   {
+    "q": "Which word means ‘hospitality’?",
+    "a": [
+     "ضِيَافَةٌ",
+     "عَائِلَةٌ",
+     "صَدَاقَةٌ"
+    ],
+    "ok": 0,
+    "why": "ضِيَافَةٌ means hospitality."
+   },
+   {
+    "q": "Choose ‘family’.?",
+    "a": [
+     "عَائِلَةٌ",
+     "مُجْتَمَعٌ",
+     "دِينٌ"
+    ],
+    "ok": 0,
+    "why": "عَائِلَةٌ means family."
+   },
+   {
+    "q": "Which word means ‘community/society’?",
+    "a": [
+     "مُجْتَمَعٌ",
+     "هُوِيَّةٌ",
+     "ثَقَافَةٌ"
+    ],
+    "ok": 0,
+    "why": "مُجْتَمَعٌ can mean society or community."
+   },
+   {
+    "q": "Choose ‘religion’.?",
+    "a": [
+     "دِينٌ",
+     "بَلَدٌ",
+     "لُغَةٌ"
+    ],
+    "ok": 0,
+    "why": "دِينٌ means religion."
+   },
+   {
+    "q": "Which word means ‘identity’?",
+    "a": [
+     "هُوِيَّةٌ",
+     "جِنْسِيَّةٌ",
+     "ضِيَافَةٌ"
+    ],
+    "ok": 0,
+    "why": "هُوِيَّةٌ means identity."
+   },
+   {
+    "q": "Complete for a female speaker: أَنَا … بِثَقَافَتِي.",
+    "a": [
+     "فَخُورَةٌ",
+     "فَخُورٌ",
+     "فَخْرٌ"
+    ],
+    "ok": 0,
+    "why": "فَخُورَةٌ is the feminine adjective ‘proud’."
+   }
+  ],
+  "customsQuiz": [
+   {
+    "q": "What is the most accurate statement about greeting gestures?",
+    "a": [
+     "They vary by person, family, setting and community.",
+     "Every Arab greeting includes a handshake.",
+     "Physical contact is always expected."
+    ],
+    "ok": 0,
+    "why": "Greeting gestures vary; observe and follow the other person’s lead."
+   },
+   {
+    "q": "Which Arabic phrase respectfully asks after the family?",
+    "a": [
+     "كَيْفَ الأَهْلُ؟",
+     "مَا دِينُكَ؟",
+     "كَمْ عُمْرُكَ؟"
+    ],
+    "ok": 0,
+    "why": "كَيْفَ الأَهْلُ؟ means ‘How is the family?’"
+   },
+   {
+    "q": "A guest declines tea. What is the respectful response?",
+    "a": [
+     "Accept the choice politely.",
+     "Insist until the guest agrees.",
+     "Assume the guest dislikes the family."
+    ],
+    "ok": 0,
+    "why": "Hospitality includes respecting the guest’s preferences and boundaries."
+   },
+   {
+    "q": "Which phrase is a warm welcome?",
+    "a": [
+     "أَهْلًا وَسَهْلًا",
+     "إِلَى اللِّقَاءِ",
+     "لَا أَفْهَمُ"
+    ],
+    "ok": 0,
+    "why": "أَهْلًا وَسَهْلًا is a warm welcome."
+   },
+   {
+    "q": "What should a learner do when unsure about a greeting gesture?",
+    "a": [
+     "Use words, observe and follow the other person’s lead.",
+     "Copy one rule for every country.",
+     "Avoid greeting anyone."
+    ],
+    "ok": 0,
+    "why": "Words plus attentive observation are respectful and adaptable."
+   },
+   {
+    "q": "Which sentence avoids overgeneralising?",
+    "a": [
+     "فِي بَعْضِ العَائِلَاتِ يُقَدِّمُونَ القَهْوَةَ.",
+     "كُلُّ العَائِلَاتِ تُقَدِّمُ القَهْوَةَ.",
+     "العَرَبُ جَمِيعًا مُتَشَابِهُونَ."
+    ],
+    "ok": 0,
+    "why": "فِي بَعْضِ العَائِلَاتِ means ‘in some families’ and leaves room for variation."
+   },
+   {
+    "q": "Which value can be shown through a careful greeting?",
+    "a": [
+     "الاِحْتِرَامُ",
+     "الخَطَأُ",
+     "السُّؤَالُ"
+    ],
+    "ok": 0,
+    "why": "A careful greeting can communicate respect."
+   },
+   {
+    "q": "Which is the best cultural-learning habit?",
+    "a": [
+     "Notice patterns while remembering that individuals differ.",
+     "Turn every observation into a universal rule.",
+     "Assume one country represents the whole Arab world."
+    ],
+    "ok": 0,
+    "why": "Cultural understanding needs both patterns and individual variation."
+   }
+  ],
+  "identityQuiz": [
+   {
+    "q": "Which list shows several possible layers of identity?",
+    "a": [
+     "Name, family, language, place, belief and interests",
+     "Only nationality",
+     "Only religion"
+    ],
+    "ok": 0,
+    "why": "Identity can include many connected layers."
+   },
+   {
+    "q": "Which phrase means ‘my identity’?",
+    "a": [
+     "هُوِيَّتِي",
+     "جِنْسِيَّتِي",
+     "عَائِلَتِي"
+    ],
+    "ok": 0,
+    "why": "هُوِيَّتِي means my identity."
+   },
+   {
+    "q": "Choose the accurate female statement. ",
+    "a": [
+     "أَنَا فَخُورَةٌ بِعَائِلَتِي.",
+     "أَنَا فَخُورٌ بِعَائِلَتِي.",
+     "أَنَا فَخُورَةٌ بِعَائِلَتُهُ."
+    ],
+    "ok": 0,
+    "why": "A female speaker uses فَخُورَةٌ and عَائِلَتِي means my family."
+   },
+   {
+    "q": "A learner does not wish to discuss religion. What is appropriate?",
+    "a": [
+     "Respect the choice and use another identity topic.",
+     "Require a personal answer.",
+     "Guess the learner’s belief."
+    ],
+    "ok": 0,
+    "why": "Belief is personal; no learner should be required to disclose it."
+   },
+   {
+    "q": "Which question asks one male about religion?",
+    "a": [
+     "مَا دِينُكَ؟",
+     "مَا دِينُكِ؟",
+     "مَا جِنْسِيَّتُكَ؟"
+    ],
+    "ok": 0,
+    "why": "ـكَ addresses one male; the question is for recognition and optional use only."
+   },
+   {
+    "q": "Which question asks one female about religion?",
+    "a": [
+     "مَا دِينُكِ؟",
+     "مَا دِينُكَ؟",
+     "مَا اسْمُهَا؟"
+    ],
+    "ok": 0,
+    "why": "ـكِ addresses one female; personal disclosure remains optional."
+   },
+   {
+    "q": "Which sentence shows layered identity?",
+    "a": [
+     "أَنَا بَرِيطَانِيَّةٌ مِنْ عَائِلَةٍ سُورِيَّةٍ وَأَتَكَلَّمُ لُغَتَيْنِ.",
+     "أَنَا هُوِيَّةٌ.",
+     "هِيَ بَلَدٌ."
+    ],
+    "ok": 0,
+    "why": "The sentence combines nationality, family background and language."
+   },
+   {
+    "q": "Which statement is respectful?",
+    "a": [
+     "A person chooses which parts of identity to share.",
+     "Appearance tells us someone’s religion.",
+     "A nationality determines everyone’s customs."
+    ],
+    "ok": 0,
+    "why": "People control their own personal information and identity description."
+   }
+  ],
+  "listeningQuiz": [
+   {
+    "q": "What is the speaker’s name?",
+    "a": [
+     "هَنَاءُ",
+     "مَرْيَمُ",
+     "يَاسْمِينُ"
+    ],
+    "ok": 0,
+    "why": "The speaker says اِسْمِي هَنَاءُ."
+   },
+   {
+    "q": "What is Hanaa’s nationality?",
+    "a": [
+     "أُرْدُنِيَّةٌ",
+     "مَغْرِبِيَّةٌ",
+     "لُبْنَانِيَّةٌ"
+    ],
+    "ok": 0,
+    "why": "She says وَأَنَا أُرْدُنِيَّةٌ."
+   },
+   {
+    "q": "Where does Hanaa live?",
+    "a": [
+     "لَنْدَنُ",
+     "عَمَّانُ",
+     "بَرِيسْتُولُ"
+    ],
+    "ok": 0,
+    "why": "She says أَعِيشُ فِي لَنْدَنَ."
+   },
+   {
+    "q": "Who visits the family?",
+    "a": [
+     "Her friend Maryam",
+     "Her brother Rami",
+     "Her teacher"
+    ],
+    "ok": 0,
+    "why": "Hanaa says her friend Maryam is visiting."
+   },
+   {
+    "q": "Which greeting does Hanaa use for Maryam?",
+    "a": [
+     "أَهْلًا وَسَهْلًا، تَفَضَّلِي.",
+     "مَعَ السَّلَامَةِ.",
+     "صَبَاحُ النُّورِ فَقَطْ."
+    ],
+    "ok": 0,
+    "why": "She welcomes Maryam with أَهْلًا وَسَهْلًا، تَفَضَّلِي."
+   },
+   {
+    "q": "What does Hanaa ask?",
+    "a": [
+     "كَيْفَ الأَهْلُ؟",
+     "كَمْ عُمْرُكِ؟",
+     "مَا دِينُكِ؟"
+    ],
+    "ok": 0,
+    "why": "She asks after the family: كَيْفَ الأَهْلُ؟"
+   },
+   {
+    "q": "What does Hanaa offer?",
+    "a": [
+     "الشَّايَ وَالتَّمْرَ",
+     "القَهْوَةَ وَالخُبْزَ",
+     "المَاءَ فَقَطْ"
+    ],
+    "ok": 0,
+    "why": "She offers tea and dates."
+   },
+   {
+    "q": "What is Hanaa’s final message?",
+    "a": [
+     "Greeting and hospitality customs differ from one family to another.",
+     "Every family follows exactly the same customs.",
+     "Only nationality forms identity."
+    ],
+    "ok": 0,
+    "why": "She explicitly says customs differ from one family to another."
+   }
+  ],
+  "finalQuiz": [
+   {
+    "q": "Which word means ‘culture’?",
+    "a": [
+     "ثَقَافَةٌ",
+     "ضِيَافَةٌ",
+     "هُوِيَّةٌ"
+    ],
+    "ok": 0,
+    "why": "ثَقَافَةٌ means culture."
+   },
+   {
+    "q": "Which word means ‘hospitality’?",
+    "a": [
+     "ضِيَافَةٌ",
+     "تَقَالِيدُ",
+     "مُجْتَمَعٌ"
+    ],
+    "ok": 0,
+    "why": "ضِيَافَةٌ means hospitality."
+   },
+   {
+    "q": "Choose the female form of ‘proud’.?",
+    "a": [
+     "فَخُورَةٌ",
+     "فَخُورٌ",
+     "فَخْرٌ"
+    ],
+    "ok": 0,
+    "why": "فَخُورَةٌ agrees with a female speaker or feminine noun."
+   },
+   {
+    "q": "Which phrase asks after the family?",
+    "a": [
+     "كَيْفَ الأَهْلُ؟",
+     "مَا اسْمُكَ؟",
+     "أَيْنَ تَسْكُنُ؟"
+    ],
+    "ok": 0,
+    "why": "كَيْفَ الأَهْلُ؟ asks how the family is."
+   },
+   {
+    "q": "Which phrase avoids a universal claim?",
+    "a": [
+     "فِي بَعْضِ العَائِلَاتِ…",
+     "كُلُّ النَّاسِ…",
+     "دَائِمًا عِنْدَ الجَمِيعِ…"
+    ],
+    "ok": 0,
+    "why": "فِي بَعْضِ العَائِلَاتِ means ‘in some families’."
+   },
+   {
+    "q": "What should you do when greeting customs are unclear?",
+    "a": [
+     "Use respectful words, observe and follow the other person’s lead.",
+     "Assume a handshake is required.",
+     "Apply one rule to everyone."
+    ],
+    "ok": 0,
+    "why": "Observation and choice protect respect and individual boundaries."
+   },
+   {
+    "q": "Which sentence is accurate?",
+    "a": [
+     "Identity may include family, language, place, belief and interests.",
+     "Identity is only nationality.",
+     "Appearance proves someone’s religion."
+    ],
+    "ok": 0,
+    "why": "Identity can have several layers and remains personal."
+   },
+   {
+    "q": "How should a religion question be handled in this lesson?",
+    "a": [
+     "As recognition/optional language, with no required personal disclosure",
+     "As a compulsory personal interview",
+     "By guessing the answer"
+    ],
+    "ok": 0,
+    "why": "Religion is sensitive personal information; disclosure is optional."
+   },
+   {
+    "q": "What did Hanaa offer in the listening task?",
+    "a": [
+     "الشَّايَ وَالتَّمْرَ",
+     "القَهْوَةَ فَقَطْ",
+     "العَصِيرَ وَالخُبْزَ"
+    ],
+    "ok": 0,
+    "why": "The transcript says tea and dates."
+   },
+   {
+    "q": "What was Rami’s main point in the reading?",
+    "a": [
+     "Respect matters more than one fixed greeting form.",
+     "Everyone should shake hands.",
+     "Only Arabic may be spoken at home."
+    ],
+    "ok": 0,
+    "why": "Rami values respect over a particular gesture."
+   },
+   {
+    "q": "Which connector introduces contrast?",
+    "a": [
+     "وَلَكِنْ",
+     "وَ",
+     "ثُمَّ"
+    ],
+    "ok": 0,
+    "why": "وَلَكِنْ means ‘but’ and introduces contrast."
+   },
+   {
+    "q": "Which is the best final cultural statement?",
+    "a": [
+     "Practices vary, so I describe evidence carefully and respect personal choice.",
+     "One family represents an entire country.",
+     "All Arabic-speaking communities share identical traditions."
+    ],
+    "ok": 0,
+    "why": "Careful evidence, variation and choice are the core cultural-learning principles."
+   }
+  ],
+  "cultureRounds": [
+   {
+    "icon": "🤝",
+    "statement": "Greeting gestures can vary by person, family, setting and community.",
+    "ok": 0,
+    "why": "This is respectful and accurate because it recognises variation."
+   },
+   {
+    "icon": "☕",
+    "statement": "Every Arab family serves coffee to every visitor.",
+    "ok": 1,
+    "why": "This needs more care. Some families serve coffee, tea, another drink or nothing; guests may also decline."
+   },
+   {
+    "icon": "🗣️",
+    "statement": "I prefer to greet with words rather than physical contact.",
+    "ok": 2,
+    "why": "This is a personal choice and should be respected."
+   },
+   {
+    "icon": "🌍",
+    "statement": "One country represents all Arabic-speaking communities.",
+    "ok": 1,
+    "why": "The Arab world and Arabic-speaking communities are diverse; one example cannot represent everyone."
+   },
+   {
+    "icon": "👪",
+    "statement": "In some families, asking after relatives is part of a warm greeting.",
+    "ok": 0,
+    "why": "The phrase ‘in some families’ reports a pattern without making it universal."
+   },
+   {
+    "icon": "🔐",
+    "statement": "A student must tell the class their religion.",
+    "ok": 1,
+    "why": "Religion is personal information. No learner should be required to disclose it."
+   },
+   {
+    "icon": "🧭",
+    "statement": "A person can identify with more than one culture.",
+    "ok": 0,
+    "why": "Layered or mixed cultural identity is common and accurately described."
+   },
+   {
+    "icon": "🙋",
+    "statement": "I will observe and follow the other person’s lead when I am unsure.",
+    "ok": 0,
+    "why": "This is a practical and respectful approach."
+   },
+   {
+    "icon": "🫖",
+    "statement": "I do not drink tea, but I appreciate the offer.",
+    "ok": 2,
+    "why": "A guest may politely decline; hospitality includes respecting that choice."
+   },
+   {
+    "icon": "👀",
+    "statement": "I can know someone’s religion from their appearance.",
+    "ok": 1,
+    "why": "Appearance does not reliably reveal belief and assumptions can be harmful."
+   },
+   {
+    "icon": "💬",
+    "statement": "السَّلَامُ عَلَيْكُمْ is one respectful Arabic greeting, alongside other appropriate greetings.",
+    "ok": 0,
+    "why": "This recognises the phrase’s importance without claiming it is the only possible greeting."
+   },
+   {
+    "icon": "🏠",
+    "statement": "Our family has its own way of welcoming visitors.",
+    "ok": 2,
+    "why": "A family may describe its own practice without presenting it as a rule for others."
+   }
+  ],
+  "speakingProfiles": [
+   {
+    "icon": "🇲🇦",
+    "title": "A Moroccan-British family in Birmingham",
+    "details": "Greeting: السَّلَامُ عَلَيْكُمْ · hospitality: mint tea · languages: Arabic and English · variation: some relatives shake hands; others use words only.",
+    "model": "هَذِهِ عَائِلَةٌ مَغْرِبِيَّةٌ بَرِيطَانِيَّةٌ تَعِيشُ فِي بِرْمِنْغَامَ. يَقُولُونَ السَّلَامُ عَلَيْكُمْ عِنْدَ اللِّقَاءِ، وَيُقَدِّمُونَ الشَّايَ لِلضُّيُوفِ. يَتَكَلَّمُونَ العَرَبِيَّةَ وَالإِنْجِلِيزِيَّةَ. بَعْضُ الأَقَارِبِ يُصَافِحُونَ، وَلَكِنَّ آخَرِينَ يُفَضِّلُونَ التَّحِيَّةَ بِالكَلِمَاتِ."
+   },
+   {
+    "icon": "🇯🇴",
+    "title": "A Jordanian family welcoming a neighbour",
+    "details": "Greeting: أَهْلًا وَسَهْلًا · hospitality: tea and dates · family question: كَيْفَ الأَهْلُ؟ · emphasis: guest choice is respected.",
+    "model": "هَذِهِ عَائِلَةٌ أُرْدُنِيَّةٌ. عِنْدَمَا يَصِلُ الجَارُ يَقُولُونَ أَهْلًا وَسَهْلًا وَيَسْأَلُونَ كَيْفَ الأَهْلُ؟ يُقَدِّمُونَ الشَّايَ وَالتَّمْرَ، وَلَكِنَّهُمْ يَحْتَرِمُونَ اِخْتِيَارَ الضَّيْفِ."
+   },
+   {
+    "icon": "🇱🇧",
+    "title": "A multilingual Lebanese family in Manchester",
+    "details": "Languages: Arabic, English and French · greeting varies by setting · identity combines family background and British life.",
+    "model": "هَذِهِ عَائِلَةٌ لُبْنَانِيَّةٌ تَعِيشُ فِي مَانْشِسْتَرَ. يَتَكَلَّمُونَ ثَلَاثَ لُغَاتٍ. تَخْتَلِفُ التَّحِيَّةُ فِي البَيْتِ عَنِ المَدْرَسَةِ. هُوِيَّتُهُمْ تَجْمَعُ بَيْنَ ثَقَافَةِ العَائِلَةِ وَالحَيَاةِ فِي بَرِيطَانِيَا."
+   },
+   {
+    "icon": "🇪🇬",
+    "title": "An Egyptian family at a large gathering",
+    "details": "Greeting: warm verbal exchange · asks about health and family · hospitality: several optional drinks · practices differ by generation.",
+    "model": "فِي هَذَا التَّجَمُّعِ تَرْحَبُ عَائِلَةٌ مِصْرِيَّةٌ بِالضُّيُوفِ. يَسْأَلُونَ عَنِ الصِّحَّةِ وَالعَائِلَةِ وَيُقَدِّمُونَ أَكْثَرَ مِنْ مَشْرُوبٍ. تَخْتَلِفُ بَعْضُ العَادَاتِ بَيْنَ الأَجْيَالِ، وَلَكِنَّ الاِحْتِرَامَ مُهِمٌّ لِلْجَمِيعِ."
+   },
+   {
+    "icon": "🇸🇾",
+    "title": "A Syrian-British student describing identity",
+    "details": "Proud of family language and British school community · greets friends differently from older relatives · no personal belief disclosure required.",
+    "model": "هَذَا طَالِبٌ سُورِيٌّ بَرِيطَانِيٌّ. هُوَ فَخُورٌ بِلُغَةِ عَائِلَتِهِ وَبِمُجْتَمَعِ مَدْرَسَتِهِ. تَحِيَّتُهُ مَعَ أَصْدِقَائِهِ قَصِيرَةٌ، وَلَكِنَّهُ يَسْأَلُ أَقَارِبَهُ الكِبَارَ عَنِ الصِّحَّةِ وَالأَهْلِ."
+   },
+   {
+    "icon": "🌐",
+    "title": "A fictional international Arabic club",
+    "details": "Members come from several backgrounds · use Arabic greetings · bring different family customs · agree to ask before physical contact.",
+    "model": "فِي نَادِي اللُّغَةِ العَرَبِيَّةِ طُلَّابٌ مِنْ خَلْفِيَّاتٍ مُخْتَلِفَةٍ. يَسْتَعْمِلُونَ تَحِيَّاتٍ عَرَبِيَّةً، وَلِكُلِّ طَالِبٍ عَادَاتٌ عَائِلِيَّةٌ خَاصَّةٌ. يَتَّفِقُونَ عَلَى السُّؤَالِ وَالاِحْتِرَامِ قَبْلَ أَيِّ تَوَاصُلٍ جَسَدِيٍّ."
+   }
+  ]
+ },
+ "l11": {
+  "retrievalQuiz": [
+   {
+    "q": "Choose ‘My name is Amal’.",
+    "a": [
+     "اِسْمِي أَمَلُ.",
+     "اِسْمُهَا أَمَلُ.",
+     "مَا اسْمُكِ؟"
+    ],
+    "ok": 0,
+    "why": "اِسْمِي introduces the speaker’s own name."
+   },
+   {
+    "q": "Which phrase gives the speaker’s age?",
+    "a": [
+     "عُمْرِي ثَلَاثَ عَشْرَةَ سَنَةً.",
+     "كَمْ عُمْرُكِ؟",
+     "عُمْرُهَا ثَلَاثَ عَشْرَةَ."
+    ],
+    "ok": 0,
+    "why": "عُمْرِي means ‘my age’, and سَنَةً completes the age phrase."
+   },
+   {
+    "q": "Which sentence means ‘I am from Jordan’?",
+    "a": [
+     "أَنَا مِنَ الأُرْدُنِ.",
+     "أَسْكُنُ فِي الأُرْدُنِ.",
+     "أَنَا أُرْدُنِيَّةٌ."
+    ],
+    "ok": 0,
+    "why": "مِنْ introduces origin: where someone is from."
+   },
+   {
+    "q": "Choose ‘I live in Bristol’.",
+    "a": [
+     "أَسْكُنُ فِي بَرِيسْتُولَ.",
+     "أَنَا مِنْ بَرِيسْتُولَ.",
+     "أَتَكَلَّمُ بَرِيسْتُولَ."
+    ],
+    "ok": 0,
+    "why": "أَسْكُنُ فِي introduces place of residence."
+   },
+   {
+    "q": "A female student says ‘My nationality is Lebanese’. Choose the correct line.",
+    "a": [
+     "جِنْسِيَّتِي لُبْنَانِيَّةٌ.",
+     "جِنْسِيَّتِي لُبْنَانِيٌّ.",
+     "جِنْسِيَّتُهُ لُبْنَانِيَّةٌ."
+    ],
+    "ok": 0,
+    "why": "The female nationality adjective is لُبْنَانِيَّةٌ."
+   },
+   {
+    "q": "Which first-person verb means ‘I speak’?",
+    "a": [
+     "أَتَكَلَّمُ",
+     "يَتَكَلَّمُ",
+     "تَتَكَلَّمُ"
+    ],
+    "ok": 0,
+    "why": "أَتَكَلَّمُ is the first-person form."
+   },
+   {
+    "q": "Which is a polite closing?",
+    "a": [
+     "شُكْرًا، وَإِلَى اللِّقَاءِ.",
+     "مَا اسْمُكَ؟",
+     "أَنَا مِنْ…"
+    ],
+    "ok": 0,
+    "why": "The phrase thanks the listener and closes with ‘see you’."
+   },
+   {
+    "q": "Which connector means ‘also’?",
+    "a": [
+     "أَيْضًا",
+     "ثُمَّ",
+     "لِأَنَّ"
+    ],
+    "ok": 0,
+    "why": "أَيْضًا adds another fact and means ‘also’."
+   }
+  ],
+  "vocabQuiz": [
+   {
+    "q": "Which field asks for a name?",
+    "a": [
+     "الاِسْمُ",
+     "العُمْرُ",
+     "التَّوْقِيعُ"
+    ],
+    "ok": 0,
+    "why": "الاِسْمُ means ‘the name’."
+   },
+   {
+    "q": "Which field asks for age?",
+    "a": [
+     "العُمْرُ",
+     "الجِنْسِيَّةُ",
+     "اللُّغَاتُ"
+    ],
+    "ok": 0,
+    "why": "العُمْرُ means ‘the age’."
+   },
+   {
+    "q": "Which field asks for nationality?",
+    "a": [
+     "الجِنْسِيَّةُ",
+     "مَكَانُ السَّكَنِ",
+     "الاِسْمُ الأَوَّلُ"
+    ],
+    "ok": 0,
+    "why": "الجِنْسِيَّةُ means nationality."
+   },
+   {
+    "q": "What does مَكَانُ السَّكَنِ request?",
+    "a": [
+     "Place of residence",
+     "Country of origin",
+     "Signature"
+    ],
+    "ok": 0,
+    "why": "It asks where the person lives."
+   },
+   {
+    "q": "Choose the Arabic for ‘signature’.",
+    "a": [
+     "التَّوْقِيعُ",
+     "العُنْوَانُ",
+     "اللَّقَبُ"
+    ],
+    "ok": 0,
+    "why": "التَّوْقِيعُ means signature."
+   },
+   {
+    "q": "Which phrase means ‘family name / surname’?",
+    "a": [
+     "اِسْمُ العَائِلَةِ",
+     "الاِسْمُ الأَوَّلُ",
+     "اللُّغَةُ الأُولَى"
+    ],
+    "ok": 0,
+    "why": "اِسْمُ العَائِلَةِ is the family name."
+   },
+   {
+    "q": "What does تَارِيخُ المِيلَادِ mean?",
+    "a": [
+     "Date of birth",
+     "Telephone number",
+     "Email address"
+    ],
+    "ok": 0,
+    "why": "تَارِيخُ المِيلَادِ means date of birth."
+   },
+   {
+    "q": "Which field asks for languages?",
+    "a": [
+     "اللُّغَاتُ",
+     "البَلَدُ",
+     "المَدِينَةُ"
+    ],
+    "ok": 0,
+    "why": "اللُّغَاتُ is the plural ‘languages’."
+   },
+   {
+    "q": "Which word means ‘draft’?",
+    "a": [
+     "مَسَوَّدَةٌ",
+     "مُرَاجَعَةٌ",
+     "تَحْسِينٌ"
+    ],
+    "ok": 0,
+    "why": "مَسَوَّدَةٌ is a draft."
+   },
+   {
+    "q": "Which word means ‘review/checking’?",
+    "a": [
+     "مُرَاجَعَةٌ",
+     "مَسَوَّدَةٌ",
+     "تَوْقِيعٌ"
+    ],
+    "ok": 0,
+    "why": "مُرَاجَعَةٌ means review or checking."
+   },
+   {
+    "q": "Which connective gives a reason?",
+    "a": [
+     "لِأَنَّ",
+     "أَيْضًا",
+     "ثُمَّ"
+    ],
+    "ok": 0,
+    "why": "لِأَنَّ introduces a reason."
+   },
+   {
+    "q": "Which connective shows sequence?",
+    "a": [
+     "ثُمَّ",
+     "وَ",
+     "أَيْضًا"
+    ],
+    "ok": 0,
+    "why": "ثُمَّ means ‘then’."
+   }
+  ],
+  "connectiveQuiz": [
+   {
+    "q": "أَنَا مِنْ مِصْرَ، … أَسْكُنُ فِي لَنْدَنَ.",
+    "a": [
+     "وَ",
+     "لِأَنَّ",
+     "ثُمَّ"
+    ],
+    "ok": 0,
+    "why": "وَ joins the two related personal facts."
+   },
+   {
+    "q": "أَتَكَلَّمُ الإِنْجِلِيزِيَّةَ، وَأَفْهَمُ العَرَبِيَّةَ …",
+    "a": [
+     "أَيْضًا",
+     "لِأَنَّ",
+     "ثُمَّ"
+    ],
+    "ok": 0,
+    "why": "أَيْضًا adds another language fact."
+   },
+   {
+    "q": "أَكْتُبُ المَسَوَّدَةَ، … أُرَاجِعُهَا.",
+    "a": [
+     "ثُمَّ",
+     "وَلَكِنْ",
+     "لِأَنَّ"
+    ],
+    "ok": 0,
+    "why": "ثُمَّ shows the next step in a sequence."
+   },
+   {
+    "q": "أُحِبُّ القِرَاءَةَ … هَا مُفِيدَةٌ.",
+    "a": [
+     "لِأَنَّ",
+     "أَيْضًا",
+     "وَ"
+    ],
+    "ok": 0,
+    "why": "لِأَنَّهَا introduces the reason ‘because it is useful’."
+   },
+   {
+    "q": "Which connective is best for ‘I speak Arabic, but my writing needs practice’?",
+    "a": [
+     "وَلَكِنْ",
+     "أَيْضًا",
+     "ثُمَّ"
+    ],
+    "ok": 0,
+    "why": "وَلَكِنْ introduces a contrast."
+   },
+   {
+    "q": "Which sentence uses أَيْضًا naturally?",
+    "a": [
+     "أَتَكَلَّمُ العَرَبِيَّةَ وَالفَرَنْسِيَّةَ أَيْضًا.",
+     "أَيْضًا أَنَا مِنْ.",
+     "لِأَنَّ أَيْضًا."
+    ],
+    "ok": 0,
+    "why": "أَيْضًا adds the second language fact naturally."
+   },
+   {
+    "q": "Which line gives a complete reason?",
+    "a": [
+     "أُحِبُّ الرِّيَاضَةَ لِأَنَّهَا مُفِيدَةٌ.",
+     "أُحِبُّ الرِّيَاضَةَ لِأَنَّ.",
+     "لِأَنَّ الرِّيَاضَةَ."
+    ],
+    "ok": 0,
+    "why": "The correct sentence completes both the opinion and the reason."
+   },
+   {
+    "q": "Choose the clearest connected sentence.",
+    "a": [
+     "اِسْمِي سَارَةُ، وَعُمْرِي خَمْسَ عَشْرَةَ سَنَةً.",
+     "اِسْمِي سَارَةُ عُمْرِي.",
+     "وَ خَمْسَ عَشْرَةَ."
+    ],
+    "ok": 0,
+    "why": "The comma and وَ connect two complete facts clearly."
+   },
+   {
+    "q": "Which connective should not be added without a following reason?",
+    "a": [
+     "لِأَنَّ",
+     "وَ",
+     "أَيْضًا"
+    ],
+    "ok": 0,
+    "why": "لِأَنَّ must introduce a reason; it cannot stand alone."
+   },
+   {
+    "q": "Which sequence is most logical for the writing process?",
+    "a": [
+     "أُخَطِّطُ، ثُمَّ أَكْتُبُ، ثُمَّ أُرَاجِعُ.",
+     "أُرَاجِعُ، لِأَنَّ وَ.",
+     "أَيْضًا ثُمَّ فقط."
+    ],
+    "ok": 0,
+    "why": "The correct sentence uses ثُمَّ to order planning, writing and checking."
+   }
+  ],
+  "editQuiz": [
+   {
+    "q": "Which opening improves a bare list of facts?",
+    "a": [
+     "السَّلَامُ عَلَيْكُمْ.",
+     "العُمْرُ:",
+     "ثُمَّ"
+    ],
+    "ok": 0,
+    "why": "A greeting gives the introduction a natural opening."
+   },
+   {
+    "q": "Which revision joins name and age most clearly?",
+    "a": [
+     "اِسْمِي عَلِيٌّ، وَعُمْرِي أَرْبَعَ عَشْرَةَ سَنَةً.",
+     "اِسْمِي عَلِيٌّ عُمْرِي.",
+     "وَعُمْرِي فقط."
+    ],
+    "ok": 0,
+    "why": "The sentence contains both complete facts joined by وَ."
+   },
+   {
+    "q": "A female writer should choose…",
+    "a": [
+     "جِنْسِيَّتِي سُورِيَّةٌ.",
+     "جِنْسِيَّتِي سُورِيٌّ.",
+     "جِنْسِيَّتُهُ سُورِيَّةٌ."
+    ],
+    "ok": 0,
+    "why": "The nationality adjective agrees with the female speaker."
+   },
+   {
+    "q": "Which age sentence is complete?",
+    "a": [
+     "عُمْرِي ثَلَاثَ عَشْرَةَ سَنَةً.",
+     "عُمْرِي ثَلَاثَ عَشْرَةَ.",
+     "كَمْ عُمْرِي؟"
+    ],
+    "ok": 0,
+    "why": "The complete model includes سَنَةً."
+   },
+   {
+    "q": "Which change adds useful detail rather than repetition?",
+    "a": [
+     "أَتَكَلَّمُ العَرَبِيَّةَ، وَأَفْهَمُ الفَرَنْسِيَّةَ أَيْضًا.",
+     "أَتَكَلَّمُ العَرَبِيَّةَ. أَتَكَلَّمُ العَرَبِيَّةَ.",
+     "أَيْضًا أَيْضًا."
+    ],
+    "ok": 0,
+    "why": "The first line adds a different language skill and uses أَيْضًا."
+   },
+   {
+    "q": "Which sentence explains an interest?",
+    "a": [
+     "أُحِبُّ الرَّسْمَ لِأَنَّهُ جَمِيلٌ.",
+     "أُحِبُّ الرَّسْمَ.",
+     "لِأَنَّ جَمِيلٌ."
+    ],
+    "ok": 0,
+    "why": "The complete reason explains why the speaker likes drawing."
+   },
+   {
+    "q": "Which punctuation helps separate two connected facts?",
+    "a": [
+     "An Arabic comma ، before وَ where a pause is useful",
+     "No spacing or punctuation",
+     "A question mark after every sentence"
+    ],
+    "ok": 0,
+    "why": "The Arabic comma can mark a useful pause before a connected fact."
+   },
+   {
+    "q": "Which closing completes the introduction politely?",
+    "a": [
+     "شُكْرًا، وَإِلَى اللِّقَاءِ.",
+     "لِأَنَّ.",
+     "العُمْرُ."
+    ],
+    "ok": 0,
+    "why": "The phrase thanks the listener and signals the end."
+   }
+  ],
+  "listeningQuiz": [
+   {
+    "q": "What is the speaker’s name?",
+    "a": [
+     "سَلْمَى",
+     "لَيْلَى",
+     "مَرْيَم"
+    ],
+    "ok": 0,
+    "why": "She says اِسْمِي سَلْمَى."
+   },
+   {
+    "q": "How old is Salma?",
+    "a": [
+     "١٣",
+     "١٤",
+     "١٥"
+    ],
+    "ok": 0,
+    "why": "She says ثَلَاثَ عَشْرَةَ سَنَةً."
+   },
+   {
+    "q": "Where is Salma from?",
+    "a": [
+     "سُورِيَا",
+     "مِصْرُ",
+     "المَغْرِبُ"
+    ],
+    "ok": 0,
+    "why": "She says أَنَا مِنْ سُورِيَا."
+   },
+   {
+    "q": "Where does she live?",
+    "a": [
+     "مَانْشِسْتَرُ",
+     "لَنْدَنُ",
+     "لِيدْزُ"
+    ],
+    "ok": 0,
+    "why": "She says أَسْكُنُ فِي مَانْشِسْتَرَ."
+   },
+   {
+    "q": "What is her nationality?",
+    "a": [
+     "سُورِيَّةٌ",
+     "مِصْرِيَّةٌ",
+     "بَرِيطَانِيَّةٌ"
+    ],
+    "ok": 0,
+    "why": "She says جِنْسِيَّتِي سُورِيَّةٌ."
+   },
+   {
+    "q": "Which languages does she speak?",
+    "a": [
+     "Arabic and English",
+     "Arabic and French",
+     "English only"
+    ],
+    "ok": 0,
+    "why": "She names العَرَبِيَّةَ وَالإِنْجِلِيزِيَّةَ."
+   },
+   {
+    "q": "What does she like?",
+    "a": [
+     "الرَّسْمَ",
+     "القِرَاءَةَ",
+     "السِّبَاحَةَ"
+    ],
+    "ok": 0,
+    "why": "She says أُحِبُّ الرَّسْمَ."
+   },
+   {
+    "q": "Which polite ending does she use?",
+    "a": [
+     "شُكْرًا، وَإِلَى اللِّقَاءِ.",
+     "مِنْ فَضْلِكِ.",
+     "عَفْوًا فَقَطْ."
+    ],
+    "ok": 0,
+    "why": "She closes with thanks and ‘see you’."
+   }
+  ],
+  "readingQuiz": [
+   {
+    "q": "What is Layla’s family name?",
+    "a": [
+     "حَسَن",
+     "خَالِد",
+     "يُوسُف"
+    ],
+    "ok": 0,
+    "why": "The opening says اِسْمِي لَيْلَى حَسَن."
+   },
+   {
+    "q": "How old is Layla?",
+    "a": [
+     "١٥",
+     "١٣",
+     "١٤"
+    ],
+    "ok": 0,
+    "why": "She says خَمْسَ عَشْرَةَ سَنَةً."
+   },
+   {
+    "q": "Where is she from?",
+    "a": [
+     "المَغْرِبُ",
+     "بَرِيطَانِيَا",
+     "سُورِيَا"
+    ],
+    "ok": 0,
+    "why": "She says أَنَا مِنَ المَغْرِبِ."
+   },
+   {
+    "q": "Where does she live?",
+    "a": [
+     "لِيدْزُ",
+     "لَنْدَنُ",
+     "بِرْمِنْغَامُ"
+    ],
+    "ok": 0,
+    "why": "She lives in Leeds in Britain."
+   },
+   {
+    "q": "What is her nationality?",
+    "a": [
+     "مَغْرِبِيَّةٌ",
+     "بَرِيطَانِيَّةٌ",
+     "سُورِيَّةٌ"
+    ],
+    "ok": 0,
+    "why": "She states جِنْسِيَّتِي مَغْرِبِيَّةٌ."
+   },
+   {
+    "q": "Which languages does she speak?",
+    "a": [
+     "Arabic and English",
+     "Arabic and French",
+     "French only"
+    ],
+    "ok": 0,
+    "why": "She says she speaks Arabic and English."
+   },
+   {
+    "q": "Which additional language does she understand?",
+    "a": [
+     "الفَرَنْسِيَّةَ",
+     "الأُرْدِيَّةَ",
+     "الإِسْبَانِيَّةَ"
+    ],
+    "ok": 0,
+    "why": "She understands French also."
+   },
+   {
+    "q": "How does Layla describe herself?",
+    "a": [
+     "طَالِبَةٌ مُجْتَهِدَةٌ",
+     "مُعَلِّمَةٌ جَدِيدَةٌ",
+     "طَالِبٌ مُجْتَهِدٌ"
+    ],
+    "ok": 0,
+    "why": "She uses the feminine noun and adjective طَالِبَةٌ مُجْتَهِدَةٌ."
+   },
+   {
+    "q": "What does she like?",
+    "a": [
+     "تَعَلُّمَ اللُّغَاتِ",
+     "الرَّسْمَ",
+     "كُرَةَ القَدَمِ"
+    ],
+    "ok": 0,
+    "why": "She likes learning languages."
+   },
+   {
+    "q": "Why does she like it?",
+    "a": [
+     "لِأَنَّهُ مُفِيدٌ وَمُمْتِعٌ",
+     "لِأَنَّهَا قَصِيرَةٌ",
+     "لِأَنَّ فَقَطْ"
+    ],
+    "ok": 0,
+    "why": "She says it is useful and enjoyable."
+   },
+   {
+    "q": "Which connector introduces contrast between origin and residence?",
+    "a": [
+     "وَلَكِنْ",
+     "أَيْضًا",
+     "ثُمَّ"
+    ],
+    "ok": 0,
+    "why": "وَلَكِنْ contrasts being from Morocco with living in Britain."
+   },
+   {
+    "q": "Which two features create a polite frame around the profile?",
+    "a": [
+     "مَرْحَبًا and تَشَرَّفْنَا / إِلَى اللِّقَاءِ",
+     "العُمْرُ and الجِنْسِيَّةُ",
+     "لِأَنَّ and وَ فقط"
+    ],
+    "ok": 0,
+    "why": "A greeting opens the profile and polite phrases close it."
+   }
+  ],
+  "finalQuiz": [
+   {
+    "q": "Which form field means ‘place of residence’?",
+    "a": [
+     "مَكَانُ السَّكَنِ",
+     "تَارِيخُ المِيلَادِ",
+     "اِسْمُ العَائِلَةِ"
+    ],
+    "ok": 0,
+    "why": "مَكَانُ السَّكَنِ asks where the person lives."
+   },
+   {
+    "q": "Which field should contain a nationality adjective?",
+    "a": [
+     "الجِنْسِيَّةُ",
+     "العُمْرُ",
+     "التَّوْقِيعُ"
+    ],
+    "ok": 0,
+    "why": "The nationality belongs in الجِنْسِيَّةُ."
+   },
+   {
+    "q": "Choose the complete age sentence.",
+    "a": [
+     "عُمْرِي أَرْبَعَ عَشْرَةَ سَنَةً.",
+     "عُمْرِي أَرْبَعَ عَشْرَةَ.",
+     "أَرْبَعَ عُمْرِي."
+    ],
+    "ok": 0,
+    "why": "The complete Foundation chunk includes عُمْرِي and سَنَةً."
+   },
+   {
+    "q": "Which connective means ‘then’?",
+    "a": [
+     "ثُمَّ",
+     "أَيْضًا",
+     "لِأَنَّ"
+    ],
+    "ok": 0,
+    "why": "ثُمَّ shows sequence."
+   },
+   {
+    "q": "Which connective gives a reason?",
+    "a": [
+     "لِأَنَّ",
+     "وَ",
+     "أَيْضًا"
+    ],
+    "ok": 0,
+    "why": "لِأَنَّ introduces a reason."
+   },
+   {
+    "q": "Which sentence uses a female nationality accurately?",
+    "a": [
+     "جِنْسِيَّتِي مِصْرِيَّةٌ.",
+     "جِنْسِيَّتِي مِصْرِيٌّ.",
+     "جِنْسِيَّتُهُ مِصْرِيَّةٌ."
+    ],
+    "ok": 0,
+    "why": "The feminine nationality adjective ends in ـيَّةٌ."
+   },
+   {
+    "q": "What should normally come first in a personal introduction?",
+    "a": [
+     "A greeting",
+     "A signature",
+     "A reason without a topic"
+    ],
+    "ok": 0,
+    "why": "A greeting creates a natural opening."
+   },
+   {
+    "q": "Which detail distinguishes origin from residence?",
+    "a": [
+     "مِنْ gives origin; فِي follows أَسْكُنُ for residence.",
+     "Both always mean age.",
+     "فِي gives nationality."
+    ],
+    "ok": 0,
+    "why": "مِنْ and أَسْكُنُ فِي serve different information functions."
+   },
+   {
+    "q": "Which revision adds range?",
+    "a": [
+     "Adding أَيْضًا and a second relevant language fact",
+     "Repeating the same sentence twice",
+     "Removing the polite close"
+    ],
+    "ok": 0,
+    "why": "A second relevant fact and an accurate connective expand the writing."
+   },
+   {
+    "q": "Which is the best editing routine?",
+    "a": [
+     "Check content, connection, accuracy and punctuation, then improve one point.",
+     "Submit the first draft without rereading.",
+     "Count sentences only."
+    ],
+    "ok": 0,
+    "why": "Effective editing checks several dimensions and leads to a concrete improvement."
+   },
+   {
+    "q": "Which closing is polite and complete?",
+    "a": [
+     "شُكْرًا، وَإِلَى اللِّقَاءِ.",
+     "لِأَنَّ.",
+     "مَكَانُ السَّكَنِ."
+    ],
+    "ok": 0,
+    "why": "The correct option clearly closes the introduction."
+   },
+   {
+    "q": "What is the safest approach to contact details on this public practice page?",
+    "a": [
+     "Use fictional details rather than real private information.",
+     "Enter a real telephone number.",
+     "Publish a real email address."
+    ],
+    "ok": 0,
+    "why": "Fictional details protect privacy while allowing accurate form practice."
+   }
+  ],
+  "accepted": {
+   "name": [
+    "مريم خالد"
+   ],
+   "age": [
+    "13",
+    "١٣",
+    "13 سنه",
+    "١٣ سنه",
+    "ثلاث عشره",
+    "ثلاث عشرة"
+   ],
+   "nationality": [
+    "مصريه"
+   ],
+   "residence": [
+    "برمنغهام",
+    "برمنجهام",
+    "بيرمنغهام"
+   ],
+   "languages": [
+    "العربيه والانجليزيه",
+    "العربيه و الانجليزيه",
+    "العربيه والانكليزيه",
+    "العربيه و الانكليزيه"
+   ],
+   "signature": [
+    "مريم"
+   ]
+  },
+  "orderItems": [
+   "السَّلَامُ عَلَيْكُمْ.",
+   "اِسْمِي يُوسُفُ، وَعُمْرِي أَرْبَعَ عَشْرَةَ سَنَةً.",
+   "أَنَا مِنْ بَرِيطَانِيَا، وَأَسْكُنُ فِي لَنْدَنَ.",
+   "جِنْسِيَّتِي بَرِيطَانِيَّةٌ.",
+   "أَتَكَلَّمُ الإِنْجِلِيزِيَّةَ وَالعَرَبِيَّةَ أَيْضًا.",
+   "أُحِبُّ القِرَاءَةَ لِأَنَّهَا مُفِيدَةٌ.",
+   "شُكْرًا، وَإِلَى اللِّقَاءِ."
+  ]
+ },
+ "l12": {
+  "stations": [
+   {
+    "title": "Station 1 · Greetings and polite replies",
+    "description": "Retrieve fixed greeting pairs, wellbeing questions and polite closings.",
+    "items": [
+     {
+      "q": "Choose the reply to <span class='n2-ar' lang='ar'>السَّلَامُ عَلَيْكُمْ</span>.",
+      "a": [
+       "وَعَلَيْكُمُ السَّلَامُ",
+       "صَبَاحُ الخَيْرِ",
+       "مَعَ السَّلَامَةِ"
+      ],
+      "ok": 0,
+      "why": "The peace greeting has a fixed paired reply: وَعَلَيْكُمُ السَّلَامُ."
+     },
+     {
+      "q": "Choose the reply to <span class='n2-ar' lang='ar'>صَبَاحُ الخَيْرِ</span>.",
+      "a": [
+       "صَبَاحُ النُّورِ",
+       "مَسَاءُ النُّورِ",
+       "عَفْوًا"
+      ],
+      "ok": 0,
+      "why": "The morning pair is صَبَاحُ الخَيْرِ → صَبَاحُ النُّورِ."
+     },
+     {
+      "q": "Which question addresses one female?",
+      "a": [
+       "كَيْفَ حَالُكِ؟",
+       "كَيْفَ حَالُكَ؟",
+       "مَا اسْمُهَا؟"
+      ],
+      "ok": 0,
+      "why": "Final ـكِ addresses one female."
+     },
+     {
+      "q": "Which phrase means ‘welcome’?",
+      "a": [
+       "أَهْلًا وَسَهْلًا",
+       "إِلَى اللِّقَاءِ",
+       "شُكْرًا جَزِيلًا"
+      ],
+      "ok": 0,
+      "why": "أَهْلًا وَسَهْلًا is a common welcome."
+     },
+     {
+      "q": "Choose a polite reply to <span class='n2-ar' lang='ar'>شُكْرًا</span>.",
+      "a": [
+       "عَفْوًا",
+       "لَا",
+       "مِنْ أَيْنَ؟"
+      ],
+      "ok": 0,
+      "why": "عَفْوًا can mean ‘you are welcome’."
+     },
+     {
+      "q": "Which phrase means ‘goodbye / go in safety’?",
+      "a": [
+       "مَعَ السَّلَامَةِ",
+       "مَرْحَبًا",
+       "نَعَمْ"
+      ],
+      "ok": 0,
+      "why": "مَعَ السَّلَامَةِ is a polite farewell."
+     },
+     {
+      "q": "Choose ‘please’ to one female.",
+      "a": [
+       "مِنْ فَضْلِكِ",
+       "مِنْ فَضْلِكَ",
+       "تَفَضَّلْ"
+      ],
+      "ok": 0,
+      "why": "The final kasra in ـكِ addresses one female."
+     },
+     {
+      "q": "Which answer means ‘I am fine, thank you’?",
+      "a": [
+       "أَنَا بِخَيْرٍ، شُكْرًا",
+       "أَنَا مِنْ مِصْرَ",
+       "اِسْمِي نُورٌ"
+      ],
+      "ok": 0,
+      "why": "أَنَا بِخَيْرٍ answers a wellbeing question."
+     }
+    ]
+   },
+   {
+    "title": "Station 2 · Personal questions and answers",
+    "description": "Distinguish name, age, origin and residence questions, including male/female forms.",
+    "items": [
+     {
+      "q": "Ask one male his name.",
+      "a": [
+       "مَا اسْمُكَ؟",
+       "مَا اسْمُكِ؟",
+       "مَا اسْمُهُ؟"
+      ],
+      "ok": 0,
+      "why": "ـكَ addresses one male."
+     },
+     {
+      "q": "Ask one female her age.",
+      "a": [
+       "كَمْ عُمْرُكِ؟",
+       "كَمْ عُمْرُكَ؟",
+       "أَيْنَ تَسْكُنِينَ؟"
+      ],
+      "ok": 0,
+      "why": "The age question to one female ends in ـكِ."
+     },
+     {
+      "q": "Which chunk means ‘my name is…’?",
+      "a": [
+       "اِسْمِي…",
+       "اِسْمُهُ…",
+       "اِسْمُكَ…"
+      ],
+      "ok": 0,
+      "why": "The suffix ـي means ‘my’."
+     },
+     {
+      "q": "Which chunk means ‘my age is…’?",
+      "a": [
+       "عُمْرِي…",
+       "عُمْرُهَا…",
+       "عُمْرُكَ…"
+      ],
+      "ok": 0,
+      "why": "عُمْرِي contains the first-person possessive ending ـي."
+     },
+     {
+      "q": "Ask one male where he is from.",
+      "a": [
+       "مِنْ أَيْنَ أَنْتَ؟",
+       "أَيْنَ تَسْكُنُ؟",
+       "مِنْ أَيْنَ أَنْتِ؟"
+      ],
+      "ok": 0,
+      "why": "Origin uses مِنْ أَيْنَ and أَنْتَ addresses one male."
+     },
+     {
+      "q": "Ask one female where she lives.",
+      "a": [
+       "أَيْنَ تَسْكُنِينَ؟",
+       "أَيْنَ تَسْكُنُ؟",
+       "مِنْ أَيْنَ أَنْتِ؟"
+      ],
+      "ok": 0,
+      "why": "The feminine singular present form ends in ـينَ: تَسْكُنِينَ."
+     },
+     {
+      "q": "Which question normally expects yes or no?",
+      "a": [
+       "هَلْ تَتَكَلَّمُ العَرَبِيَّةَ؟",
+       "مَا اسْمُكَ؟",
+       "كَمْ عُمْرُكَ؟"
+      ],
+      "ok": 0,
+      "why": "هَلْ introduces a yes/no question."
+     },
+     {
+      "q": "Choose a complete age answer.",
+      "a": [
+       "عُمْرِي خَمْسَ عَشْرَةَ سَنَةً.",
+       "عُمْرِي فِي لَنْدَنَ.",
+       "اِسْمِي سَنَةً."
+      ],
+      "ok": 0,
+      "why": "A teen age uses عُمْرِي + number + سَنَةً."
+     }
+    ]
+   },
+   {
+    "title": "Station 3 · Origin, residence, nationality and language",
+    "description": "Keep country of origin, city of residence, nationality and language distinct.",
+    "items": [
+     {
+      "q": "Choose ‘I am from Syria’.",
+      "a": [
+       "أَنَا مِنْ سُورِيَا.",
+       "أَسْكُنُ مِنْ سُورِيَا.",
+       "أَنَا فِي سُورِيَا مِنْ."
+      ],
+      "ok": 0,
+      "why": "Origin uses أَنَا مِنْ…"
+     },
+     {
+      "q": "Choose ‘I live in London’.",
+      "a": [
+       "أَسْكُنُ فِي لَنْدَنَ.",
+       "أَنَا مِنْ لَنْدَنَ فِي.",
+       "أَسْكُنُ مِنْ لَنْدَنَ."
+      ],
+      "ok": 0,
+      "why": "Residence uses أَسْكُنُ فِي…"
+     },
+     {
+      "q": "Choose a city, not a country.",
+      "a": [
+       "القَاهِرَةُ",
+       "مِصْرُ",
+       "سُورِيَا"
+      ],
+      "ok": 0,
+      "why": "القَاهِرَةُ is Cairo, a city."
+     },
+     {
+      "q": "Choose a country, not a city.",
+      "a": [
+       "المَغْرِبُ",
+       "الرِّبَاطُ",
+       "لَنْدَنُ"
+      ],
+      "ok": 0,
+      "why": "المَغْرِبُ is Morocco, a country."
+     },
+     {
+      "q": "A girl says she is Egyptian.",
+      "a": [
+       "أَنَا مِصْرِيَّةٌ.",
+       "أَنَا مِصْرِيٌّ.",
+       "أَنَا مِصْرُ."
+      ],
+      "ok": 0,
+      "why": "The feminine nationality is مِصْرِيَّةٌ."
+     },
+     {
+      "q": "A boy says he is Moroccan.",
+      "a": [
+       "أَنَا مَغْرِبِيٌّ.",
+       "أَنَا مَغْرِبِيَّةٌ.",
+       "أَنَا المَغْرِبُ."
+      ],
+      "ok": 0,
+      "why": "The masculine nationality is مَغْرِبِيٌّ."
+     },
+     {
+      "q": "Which verb means ‘I speak’?",
+      "a": [
+       "أَتَكَلَّمُ",
+       "أَفْهَمُ",
+       "أَسْكُنُ"
+      ],
+      "ok": 0,
+      "why": "أَتَكَلَّمُ means ‘I speak’."
+     },
+     {
+      "q": "Choose a connected origin-and-residence sentence.",
+      "a": [
+       "أَنَا مِنْ مِصْرَ، وَأَسْكُنُ فِي لَنْدَنَ.",
+       "أَنَا فِي مِصْرَ، وَمِنْ لَنْدَنَ.",
+       "أَسْكُنُ مِصْرَ وَأَنَا لَنْدَنَ."
+      ],
+      "ok": 0,
+      "why": "Origin takes مِنْ; residence takes فِي."
+     }
+    ]
+   },
+   {
+    "title": "Station 4 · Gender, agreement and third person",
+    "description": "Review masculine/feminine nouns, adjective agreement and he/she profile language.",
+    "items": [
+     {
+      "q": "Choose ‘a new female student’.",
+      "a": [
+       "طَالِبَةٌ جَدِيدَةٌ",
+       "طَالِبٌ جَدِيدَةٌ",
+       "طَالِبَةٌ جَدِيدٌ"
+      ],
+      "ok": 0,
+      "why": "Both noun and adjective are feminine."
+     },
+     {
+      "q": "Choose ‘this is a male teacher’.",
+      "a": [
+       "هَذَا مُعَلِّمٌ.",
+       "هَذِهِ مُعَلِّمٌ.",
+       "هَذَا مُعَلِّمَةٌ."
+      ],
+      "ok": 0,
+      "why": "هَذَا introduces a masculine singular noun."
+     },
+     {
+      "q": "Choose ‘this is a female friend’.",
+      "a": [
+       "هَذِهِ صَدِيقَةٌ.",
+       "هَذَا صَدِيقَةٌ.",
+       "هَذِهِ صَدِيقٌ."
+      ],
+      "ok": 0,
+      "why": "هَذِهِ and صَدِيقَةٌ are feminine."
+     },
+     {
+      "q": "Which feminine noun normally has no final ة?",
+      "a": [
+       "شَمْسٌ",
+       "طَالِبَةٌ",
+       "مُعَلِّمَةٌ"
+      ],
+      "ok": 0,
+      "why": "شَمْسٌ is conventionally feminine without ة."
+     },
+     {
+      "q": "Complete: <span class='n2-ar' lang='ar'>هُوَ ____ فِي لَنْدَنَ.</span>",
+      "a": [
+       "يَعِيشُ",
+       "تَعِيشُ",
+       "أَعِيشُ"
+      ],
+      "ok": 0,
+      "why": "Third-person masculine present verbs commonly begin with يـ."
+     },
+     {
+      "q": "Complete: <span class='n2-ar' lang='ar'>هِيَ ____ العَرَبِيَّةَ.</span>",
+      "a": [
+       "تَتَكَلَّمُ",
+       "يَتَكَلَّمُ",
+       "أَتَكَلَّمُ"
+      ],
+      "ok": 0,
+      "why": "Third-person feminine present verbs commonly begin with تـ."
+     },
+     {
+      "q": "Which phrase means ‘her name’?",
+      "a": [
+       "اِسْمُهَا",
+       "اِسْمُهُ",
+       "اِسْمِي"
+      ],
+      "ok": 0,
+      "why": "The suffix ـهَا means ‘her’."
+     },
+     {
+      "q": "Choose a correct profile sentence about a girl.",
+      "a": [
+       "هِيَ طَالِبَةٌ ذَكِيَّةٌ.",
+       "هُوَ طَالِبَةٌ ذَكِيٌّ.",
+       "هِيَ طَالِبٌ ذَكِيَّةٌ."
+      ],
+      "ok": 0,
+      "why": "Pronoun, noun and adjective all agree in feminine gender."
+     }
+    ]
+   },
+   {
+    "title": "Station 5 · Forms, connectives and assessment language",
+    "description": "Retrieve form labels, text organisers and the words needed to reflect on progress.",
+    "items": [
+     {
+      "q": "Which form label means ‘nationality’?",
+      "a": [
+       "الجِنْسِيَّةُ",
+       "العُمْرُ",
+       "التَّوْقِيعُ"
+      ],
+      "ok": 0,
+      "why": "الجِنْسِيَّةُ means nationality."
+     },
+     {
+      "q": "Which form label means ‘signature’?",
+      "a": [
+       "التَّوْقِيعُ",
+       "مَكَانُ السَّكَنِ",
+       "الاِسْمُ"
+      ],
+      "ok": 0,
+      "why": "التَّوْقِيعُ means signature."
+     },
+     {
+      "q": "Which connective means ‘and’?",
+      "a": [
+       "وَ",
+       "ثُمَّ",
+       "لِأَنَّ"
+      ],
+      "ok": 0,
+      "why": "وَ means ‘and’ and is attached to the following word."
+     },
+     {
+      "q": "Which word means ‘also’?",
+      "a": [
+       "أَيْضًا",
+       "وَلَكِنْ",
+       "مِنْ"
+      ],
+      "ok": 0,
+      "why": "أَيْضًا adds another related detail."
+     },
+     {
+      "q": "Which connective means ‘then’?",
+      "a": [
+       "ثُمَّ",
+       "فِي",
+       "هَلْ"
+      ],
+      "ok": 0,
+      "why": "ثُمَّ sequences the next idea."
+     },
+     {
+      "q": "Which connective introduces a reason?",
+      "a": [
+       "لِأَنَّ",
+       "أَيْنَ",
+       "وَ"
+      ],
+      "ok": 0,
+      "why": "لِأَنَّ introduces a reason."
+     },
+     {
+      "q": "Which word means ‘assessment’?",
+      "a": [
+       "تَقْيِيمٌ",
+       "هَدَفٌ",
+       "دَرَجَةٌ"
+      ],
+      "ok": 0,
+      "why": "تَقْيِيمٌ means assessment."
+     },
+     {
+      "q": "Which phrase means ‘a strength’?",
+      "a": [
+       "نُقْطَةُ قُوَّةٍ",
+       "مَكَانُ السَّكَنِ",
+       "مَرَّةً أُخْرَى"
+      ],
+      "ok": 0,
+      "why": "نُقْطَةُ قُوَّةٍ is a strength."
+     }
+    ]
+   }
+  ],
+  "listeningA": [
+   {
+    "q": "Choose the phrase heard in item 1.",
+    "a": [
+     "صَبَاحُ الخَيْرِ",
+     "مَسَاءُ الخَيْرِ",
+     "إِلَى اللِّقَاءِ"
+    ],
+    "ok": 0,
+    "why": "The speaker says صَبَاحُ الخَيْرِ — good morning."
+   },
+   {
+    "q": "Choose the phrase heard in item 2.",
+    "a": [
+     "عَفْوًا",
+     "شُكْرًا",
+     "نَعَمْ"
+    ],
+    "ok": 1,
+    "why": "The speaker says شُكْرًا — thank you."
+   },
+   {
+    "q": "Choose the phrase heard in item 3.",
+    "a": [
+     "مَعَ السَّلَامَةِ",
+     "أَهْلًا وَسَهْلًا",
+     "مِنْ فَضْلِكَ"
+    ],
+    "ok": 1,
+    "why": "The speaker says أَهْلًا وَسَهْلًا — welcome."
+   },
+   {
+    "q": "Choose the phrase heard in item 4.",
+    "a": [
+     "صَبَاحُ النُّورِ",
+     "مَرْحَبًا",
+     "مَعَ السَّلَامَةِ"
+    ],
+    "ok": 2,
+    "why": "The speaker says مَعَ السَّلَامَةِ — goodbye."
+   }
+  ],
+  "listeningB": [
+   {
+    "q": "What is the speaker’s name?",
+    "a": [
+     "نُورٌ",
+     "سَلْمَى",
+     "مَرْيَمُ"
+    ],
+    "ok": 0,
+    "why": "She says اِسْمِي نُورُ."
+   },
+   {
+    "q": "How old is she?",
+    "a": [
+     "١٣",
+     "١٤",
+     "١٥"
+    ],
+    "ok": 1,
+    "why": "She says أَرْبَعَ عَشْرَةَ سَنَةً — fourteen years old."
+   },
+   {
+    "q": "Where is she from?",
+    "a": [
+     "مِصْرُ",
+     "سُورِيَا",
+     "المَغْرِبُ"
+    ],
+    "ok": 0,
+    "why": "She says أَنَا مِنْ مِصْرَ."
+   },
+   {
+    "q": "Where does she live?",
+    "a": [
+     "حَلَبُ",
+     "القَاهِرَةُ",
+     "الرِّبَاطُ"
+    ],
+    "ok": 1,
+    "why": "She says أَسْكُنُ فِي القَاهِرَةِ."
+   },
+   {
+    "q": "Which greeting opens the introduction?",
+    "a": [
+     "مَرْحَبًا",
+     "مَعَ السَّلَامَةِ",
+     "صَبَاحُ النُّورِ"
+    ],
+    "ok": 0,
+    "why": "The introduction begins with مَرْحَبًا."
+   }
+  ],
+  "listeningC": [
+   {
+    "q": "Match speaker 1.",
+    "a": [
+     "Where are you from?",
+     "Where do you live?",
+     "What is your name?"
+    ],
+    "ok": 0,
+    "why": "مِنْ أَيْنَ أَنْتَ؟ asks a boy where he is from."
+   },
+   {
+    "q": "Match speaker 2.",
+    "a": [
+     "How old are you?",
+     "How are you?",
+     "What is your nationality?"
+    ],
+    "ok": 0,
+    "why": "كَمْ عُمْرُكِ؟ asks a girl her age."
+   },
+   {
+    "q": "Match speaker 3.",
+    "a": [
+     "I live in London.",
+     "I am from London.",
+     "I speak English."
+    ],
+    "ok": 0,
+    "why": "أَسْكُنُ فِي لَنْدَنَ means ‘I live in London’."
+   },
+   {
+    "q": "Match speaker 4.",
+    "a": [
+     "My name is Omar.",
+     "His name is Omar.",
+     "I am Omar’s friend."
+    ],
+    "ok": 0,
+    "why": "اِسْمِي عُمَرُ means ‘My name is Omar’."
+   },
+   {
+    "q": "Match speaker 5.",
+    "a": [
+     "Please, to a boy.",
+     "Please, to a girl.",
+     "You are welcome."
+    ],
+    "ok": 0,
+    "why": "مِنْ فَضْلِكَ is ‘please’ to one male."
+   },
+   {
+    "q": "Match speaker 6.",
+    "a": [
+     "I am from Pakistan.",
+     "I live in Pakistan.",
+     "I am Pakistani (female)."
+    ],
+    "ok": 0,
+    "why": "أَنَا مِنْ بَاكِسْتَانَ means ‘I am from Pakistan’."
+   }
+  ],
+  "readingA": [
+   {
+    "q": "What is the person’s name?",
+    "a": [
+     "عُمَرُ",
+     "كَرِيمٌ",
+     "طَارِقٌ"
+    ],
+    "ok": 1,
+    "why": "The text says اِسْمِي كَرِيمٌ."
+   },
+   {
+    "q": "How old is he?",
+    "a": [
+     "١٣",
+     "١٤",
+     "١٥"
+    ],
+    "ok": 2,
+    "why": "خَمْسَ عَشْرَةَ سَنَةً means fifteen years old."
+   },
+   {
+    "q": "Where is he from?",
+    "a": [
+     "مِصْرُ",
+     "سُورِيَا",
+     "المَغْرِبُ"
+    ],
+    "ok": 1,
+    "why": "He says أَنَا مِنْ سُورِيَا."
+   },
+   {
+    "q": "Where does he live?",
+    "a": [
+     "حَلَبُ",
+     "القَاهِرَةُ",
+     "لَنْدَنُ"
+    ],
+    "ok": 0,
+    "why": "He says أَسْكُنُ فِي حَلَبَ."
+   }
+  ],
+  "readingB": [
+   {
+    "q": "<span class='n2-ar' lang='ar'>مَا اسْمُكِ؟</span>",
+    "a": [
+     "What is your name? (to a girl)",
+     "How old are you? (to a girl)",
+     "Where do you live?"
+    ],
+    "ok": 0,
+    "why": "مَا asks ‘what’, and final ـكِ addresses a girl."
+   },
+   {
+    "q": "<span class='n2-ar' lang='ar'>كَمْ عُمْرُكَ؟</span>",
+    "a": [
+     "How old are you? (to a boy)",
+     "What is your name? (to a boy)",
+     "Where are you from?"
+    ],
+    "ok": 0,
+    "why": "كَمْ عُمْرُكَ؟ asks one male his age."
+   },
+   {
+    "q": "<span class='n2-ar' lang='ar'>أَيْنَ تَسْكُنُ؟</span>",
+    "a": [
+     "Where do you live? (to a boy)",
+     "Where are you from?",
+     "Which language do you speak?"
+    ],
+    "ok": 0,
+    "why": "أَيْنَ تَسْكُنُ؟ asks one male where he lives."
+   },
+   {
+    "q": "<span class='n2-ar' lang='ar'>عَفْوًا</span>",
+    "a": [
+     "You are welcome",
+     "Thank you",
+     "Good evening"
+    ],
+    "ok": 0,
+    "why": "عَفْوًا can be the reply ‘you are welcome’."
+   },
+   {
+    "q": "<span class='n2-ar' lang='ar'>إِلَى اللِّقَاءِ</span>",
+    "a": [
+     "See you / goodbye",
+     "Welcome",
+     "Please"
+    ],
+    "ok": 0,
+    "why": "إِلَى اللِّقَاءِ is a farewell meaning ‘until we meet’."
+   }
+  ],
+  "readingC": [
+   {
+    "q": "Her name is Salma.",
+    "a": [
+     "True",
+     "False"
+    ],
+    "ok": 0,
+    "why": "The text begins اِسْمُهَا سَلْمَى."
+   },
+   {
+    "q": "She is from Egypt.",
+    "a": [
+     "True",
+     "False"
+    ],
+    "ok": 1,
+    "why": "She is from Morocco: هِيَ مِنَ المَغْرِبِ."
+   },
+   {
+    "q": "She lives in Rabat.",
+    "a": [
+     "True",
+     "False"
+    ],
+    "ok": 0,
+    "why": "The text says وَتَسْكُنُ فِي الرِّبَاطِ."
+   },
+   {
+    "q": "She is fourteen years old.",
+    "a": [
+     "True",
+     "False"
+    ],
+    "ok": 1,
+    "why": "She is thirteen: ثَلَاثَ عَشْرَةَ سَنَةً."
+   },
+   {
+    "q": "She is a student.",
+    "a": [
+     "True",
+     "False"
+    ],
+    "ok": 0,
+    "why": "The text says هِيَ طَالِبَةٌ."
+   },
+   {
+    "q": "The text is about a boy.",
+    "a": [
+     "True",
+     "False"
+    ],
+    "ok": 1,
+    "why": "The profile uses feminine forms: هِيَ، اِسْمُهَا، عُمْرُهَا، طَالِبَةٌ."
+   }
+  ]
+ }
+}
