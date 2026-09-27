@@ -13,7 +13,7 @@ const meta = F.meta({
   focus: 'Use one reliable routine to read any fully vowelled word aloud: start at the Right edge, Extract the letters, Attach the marks, Draw them together — then read again more smoothly.',
   icon: 'FaBookOpenReader', level: 'Foundation · beginner',
 });
-const NEXT = { nextCode: 'F1-L09', nextTitle: 'Write Clearly, Then Fluently', nextAr: 'الكِتَابَةُ اليَدَوِيَّةُ وَالإِمْلَاءُ' };
+const NEXT = { nextCode: 'F1-L09', nextTitle: 'Write Clearly, Then Fluently', nextAr: 'التَّدْرِيبُ عَلَى الكِتَابَةِ' };
 
 const slides = [
   F.titleSlide({
