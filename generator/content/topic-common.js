@@ -3,7 +3,7 @@
  * Advanced Topics A and B. On the website each Topic lesson is a pathway “lesson engine” (e.g. AT-A-L01 = D1-L01)
  * wrapped with the Topic focus, grammar, skills, an application challenge and a Topic picture game.
  * reuse() retargets an already-built pathway deck for the Topic sequence: lesson codes are mapped to the Topic codes,
- * codes outside the Topic become “Revision”, the title notes gain the Topic framing, the journey / preparation / close
+ * codes outside the Topic keep their website code, the title notes gain the Topic framing, the journey / preparation / close
  * slides point to the next Topic lesson, and the website application challenge is added before the speaking task.
  */
 const C = require('./common');
@@ -31,9 +31,10 @@ function codeMap(t) {
 }
 function retargetString(s, t) {
   const m = codeMap(t);
-  let out = s.replace(/\b([FDP]\d)-L(\d{2})\b/g, (x) => m[x] || 'Revision');
+  const keep = [];
+  let out = s.replace(/\b([FDP]\d)-L(\d{2})\b/g, (x) => { keep.push(m[x] || `${x} (website)`); return `\u0000${keep.length - 1}\u0000`; });
   INFO[t].words.forEach(([re, w]) => { out = out.replace(re, w); });
-  return out;
+  return out.replace(/\u0000(\d+)\u0000/g, (_, i) => keep[Number(i)]);
 }
 function retarget(v, t) {
   if (typeof v === 'string') return retargetString(v, t);
@@ -53,7 +54,7 @@ function nextOf(t, n) {
 function topicNote(t, n, src) {
   const L = lesson(t, n); const P = topic(t).practice[n - 1];
   return `ADVANCED TOPIC ${t} · ${tcode(t, n)} — ${L.title}. Website: Advanced Topics › Topic ${t} (${topic(t).title}) › Lesson ${n}.
-The website builds this lesson on the ${src} lesson engine, with the Topic focus “${L.focus}” (grammar: ${L.grammar}; skills: ${L.skills}) and the application challenge “${P.title}”. This deck follows the same engine, re-sequenced for Topic ${t}: lesson references now point to Topic ${t} codes (others are marked “Revision”), and the challenge is added before the speaking task.
+The website builds this lesson on the ${src} lesson engine, with the Topic focus “${L.focus}” (grammar: ${L.grammar}; skills: ${L.skills}) and the application challenge “${P.title}”. This deck follows the same engine, re-sequenced for Topic ${t}: lesson references now point to Topic ${t} codes (lessons outside Topic ${t} keep their website code), and the challenge is added before the speaking task.
 No year group: Topic lessons are taught to any class following the Advanced Topics route.
 
 `;
