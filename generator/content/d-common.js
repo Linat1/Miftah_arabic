@@ -31,6 +31,7 @@ function vocabSlides(s, x) {
   const out = []; let n = 0;
   const coreSet = new Set(x.core || s.vocab[0].items.slice(0, 6).map((it) => it.ar));
   s.vocab.forEach((g, gi) => {
+    if (x.skipGroups && x.skipGroups.includes(gi)) return; // revision groups left on the website vocabulary tab
     const parts = Math.ceil(g.items.length / 6); const size = Math.ceil(g.items.length / parts); // balanced: 7 → 4+3, 10 → 5+5
     for (let i = 0; i < g.items.length; i += size) {
       const chunk = g.items.slice(i, i + size);
