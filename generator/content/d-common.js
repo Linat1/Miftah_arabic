@@ -96,7 +96,7 @@ function devLesson(code, x) {
   slides.push(...vocabSlides(s, x));
   (x.grammar || []).forEach((g) => slides.push(g));
   slides.push({
-    type: 'ruleRows', stage: 'teach', flex: true, eyebrow: 'Grammar focus · the website rules with examples · FLEX', title: G.title, ar: G.arabic,
+    type: 'ruleRows', stage: 'teach', flex: true, eyebrow: 'Grammar focus · the website rules with examples · FLEX', title: x.rulesTitle || (/[\u0600-\u06FF]/.test(G.title) ? 'The website grammar rules' : G.title), ar: G.arabic,
     rows: G.rules.map((r) => ({ title: r.heading, formula: r.formula, examples: r.examples })),
     notes: `WEBSITE GRAMMAR RULES AND EXAMPLES (FLEX — revision or homework). Website overview: “${G.overview}”\n${G.rules.map((r) => `• ${r.heading}: ${r.explanation}`).join('\n')}\nWebsite common error: ${G.common_error || ''}`,
   });
