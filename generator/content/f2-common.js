@@ -35,6 +35,17 @@ function w(item, extra = {}) {
   const opts = (item.options || item.opts || item.a).slice(); const ok = item.ok !== undefined ? item.ok : (item.answer || 0);
   const right = opts.splice(ok, 1)[0]; opts.unshift(right);
   const out = { prompt: item.q || item.prompt || item.stem, options: opts, answer: 0, why: item.why || item.feedback || '', ...extra };
+  // Arabic embedded in an English prompt → show it large beside a short English prompt
+  if (!item.show && !extra.prompt && /[A-Za-z]/.test(out.prompt) && /[\u0600-\u06FF]/.test(out.prompt)) {
+    const colon = /^([^:\u0600-\u06FF]+):\s*(.*[\u0600-\u06FF].*)$/.exec(out.prompt);
+    const runs = out.prompt.match(/[\u0600-\u06FF][\u0600-\u06FF\s…ـ.،؟!]*/g) || [];
+    if (colon) { out.prompt = `${colon[1]}:`; out.ar = colon[2].trim(); out.arBig = true; }
+    else if (runs.length === 1) {
+      const endQ = /[؟?]$/.test(runs[0].trim()) && runs[0].trim().split(/\s+/).length > 1 && !/^(مَا|كَمْ|كَيْفَ|هَلْ|أَيْنَ|مِنْ أَيْنَ)/.test(runs[0].trim());
+      out.ar = endQ ? runs[0].trim().replace(/[؟?]$/, '') : runs[0].trim(); out.arBig = true;
+      out.prompt = out.prompt.replace(runs[0], /[؟?]$/.test(runs[0].trim()) ? 'this? ' : 'this ').replace(/\s+([.?!,])/g, '$1').trim();
+    }
+  }
   if (item.show && !extra.prompt) {
     if (/[؀-ۿ]/.test(item.show)) { out.ar = item.show; out.arBig = true; } else out.prompt = `${item.show} ${out.prompt}`;
   }
