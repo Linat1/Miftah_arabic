@@ -24,20 +24,13 @@ const natCols = [
 const q = (prompt, options, why, extra = {}) => ({ prompt, options, answer: 0, why, ...extra });
 const fromSite = (item, extra = {}) => ({ prompt: item.prompt, options: item.options, answer: item.answer, why: item.feedback, ...extra });
 
-const meta = {
-  code: 'TC-L01',
-  file: 'TC_Wk01_L1_TCL01_People_Places_Compass_Points',
-  chip: 'People, Places & Compass',
+const meta = require('./common').meta({
+  n: 1, fileTitle: 'People_Places_Compass_Points', chip: 'People, Places & Compass',
   title: 'People, Places, Continents and Compass Points',
   arabic: 'النَّاسُ وَالأَمَاكِنُ وَالقَارَّاتُ وَاتِّجَاهَاتُ البُوصَلَةِ',
   focus: 'Locate, identify and compare places accurately: name the Arab countries, build nationalities with the nisba ـِيٌّ / ـِيَّةٌ and say where places are with compass points.',
-  kicker: 'CAMBRIDGE IGCSE ARABIC 0544  ·  ADVANCED TOPIC C  ·  WEEK 1  ·  LESSON 1 OF 3',
-  lessonLine: 'TC-L01 · Week 1, lesson 1',
-  level: 'Topic C · A1+ → B1',
-  site: 'Advanced Topics › C › Lesson 1',
-  footer: 'Miftah Arabic · Advanced Topic C · The World Around Us · Week 1 · Lesson 1 of 3',
   icon: 'FaEarthAfrica',
-};
+});
 
 const slides = [
   // 1 ────────────────────────────────────────────── TITLE
@@ -107,7 +100,7 @@ Key idea for today (bottom-right card): add ـِيٌّ for he and ـِيَّةٌ
   },
   // 6 ────────────────────────────────────────────── OBJECTIVES
   {
-    type: 'objectives', stage: 'welcome', min: 1, eyebrow: 'Lesson 1 of 3 this week', title: 'Objectives and success criteria', ar: 'الأَهْدَافُ وَمَعَايِيرُ النَّجَاحِ',
+    type: 'objectives', stage: 'welcome', min: 1, eyebrow: 'Lesson objectives', title: 'Objectives and success criteria', ar: 'الأَهْدَافُ وَمَعَايِيرُ النَّجَاحِ',
     objectives: site.objectives,
     routes: {
       core: ['I can say where a country is with فِي and north / south / east / west.', 'I can make the nationality for he (ـِيٌّ) and she (ـِيَّةٌ).'],

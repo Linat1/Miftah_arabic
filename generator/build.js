@@ -33,7 +33,9 @@ async function build(key, outDir) {
 
 if (require.main === module) {
   const [key, out] = process.argv.slice(2);
-  const dir = key.startsWith('tc-') ? 'Topic_C' : `Foundation_${key.split('-')[0].toUpperCase()}`;
+  const unit = key.split('-')[0].toUpperCase();
+  const dir = { TC: 'Topic_C', TA: 'Topic_A', TB: 'Topic_B', TD: 'Topic_D', TE: 'Topic_E' }[unit]
+    || `${{ F: 'Foundation', D: 'Development', P: 'Progression' }[unit[0]]}_${unit}`;
   build(key, out || path.join(__dirname, '..', dir)).catch((e) => { console.error(e); process.exit(1); });
 }
 module.exports = build;

@@ -31,7 +31,7 @@ const slides = [
       q('What does مطعم mean?', ['restaurant', 'school', 'station'], 'F1-L10 sign.'),
       q('Can context turn بت into بيت?', ['No', 'Yes'], 'F1-L10: the hard boundary.'),
       q('What does لُغَةٌ mean (prepared at home)?', ['a language', 'a country', 'a sign'], 'Prepared at home.'),
-      q('Where did you find Arabic script this week?', ['Any safe example is right!', 'Nowhere — Arabic is only in books'], 'Share your example: source, script, reading, confidence.'),
+      q('Where did you find Arabic script recently?', ['Any safe example is right!', 'Nowhere — Arabic is only in books'], 'Share your example: source, script, reading, confidence.'),
     ],
     keyIdea: { text: 'Seeing Arabic script does not always mean the language is Arabic. Investigate!', ar: 'خَطٌّ · لُغَةٌ · مَعْنًى' },
     retrieves: 'Questions 1–3 retrieve F1-L10 (website retrieval). Q4 tests the home preparation. Q5 launches the website “four-part share routine”: Source — “I found this on …”; Script — name letters and dots; Reading — apply SCOPE; Confidence — secure, likely or uncertain.',

@@ -6,21 +6,7 @@
  */
 const C = require('./common');
 
-function meta(o) {
-  const wk = Math.ceil(o.n / 3); const k = ((o.n - 1) % 3) + 1; const nn = String(o.n).padStart(2, '0');
-  return {
-    code: `F1-L${nn}`,
-    file: `Y7_F1_Wk${String(wk).padStart(2, '0')}_L${k}_F1L${nn}_${o.fileTitle}`,
-    chip: o.chip, title: o.title, arabic: o.arabic, focus: o.focus,
-    kicker: `CAMBRIDGE IGCSE ARABIC 0544  ·  YEAR 7  ·  FOUNDATION F1  ·  WEEK ${wk}  ·  LESSON ${k} OF 3`,
-    lessonLine: `F1-L${nn} · Week ${wk}, lesson ${k}`,
-    level: o.level || 'Foundation · pre-A1 → A1',
-    site: `Foundation › F1 › Lesson ${o.n}`,
-    footer: `Miftah Arabic · Foundation F1 · Arabic Script & Sounds · Week ${wk} · Lesson ${k} of 3`,
-    icon: o.icon, iconSet: o.iconSet,
-    week: wk, k,
-  };
-}
+const meta = C.unitMeta({ code: 'F1', kicker: 'YEAR 7  ·  FOUNDATION F1', name: 'Foundation F1 · Arabic Script & Sounds', level: 'Foundation · pre-A1 → A1', site: 'Pathways › Foundation › F1', footer: 'Foundation F1 · Arabic Script & Sounds' });
 
 const titleSlide = (o) => C.titleSlide({
   ...o,

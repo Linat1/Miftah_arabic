@@ -8,21 +8,7 @@
 const C = require('./common');
 const banks = require('../site-data/f2-quizzes.json');
 
-function meta(o) {
-  const wk = Math.ceil(o.n / 3); const k = ((o.n - 1) % 3) + 1; const nn = String(o.n).padStart(2, '0');
-  return {
-    code: `F2-L${nn}`,
-    file: `Y7_F2_Wk${String(wk).padStart(2, '0')}_L${k}_F2L${nn}_${o.fileTitle}`,
-    chip: o.chip, title: o.title, arabic: o.arabic, focus: o.focus,
-    kicker: `CAMBRIDGE IGCSE ARABIC 0544  ·  YEAR 7  ·  FOUNDATION F2  ·  WEEK ${wk}  ·  LESSON ${k} OF 3`,
-    lessonLine: `F2-L${nn} · Week ${wk}, lesson ${k}`,
-    level: o.level || 'Foundation · A1',
-    site: `Foundation › F2 › Lesson ${o.n}`,
-    footer: `Miftah Arabic · Foundation F2 · Greetings & Introductions · Week ${wk} · Lesson ${k} of 3`,
-    icon: o.icon, iconSet: o.iconSet,
-    week: wk, k,
-  };
-}
+const meta = C.unitMeta({ code: 'F2', kicker: 'YEAR 7  ·  FOUNDATION F2', name: 'Foundation F2 · Greetings & Introductions', level: 'Foundation · A1', site: 'Pathways › Foundation › F2', footer: 'Foundation F2 · Greetings & Introductions' });
 
 const titleSlide = (o) => C.titleSlide({
   ...o,

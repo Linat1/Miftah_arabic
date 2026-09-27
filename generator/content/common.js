@@ -15,21 +15,24 @@ function splitPrompt(item, extra = {}) {
   return base;
 }
 
-function meta(o) {
-  const wk = Math.ceil(o.n / 3); const k = ((o.n - 1) % 3) + 1; const nn = String(o.n).padStart(2, '0');
-  return {
-    code: `TC-L${nn}`,
-    file: `TC_Wk${String(wk).padStart(2, '0')}_L${k}_TCL${nn}_${o.fileTitle}`,
-    chip: o.chip, title: o.title, arabic: o.arabic, focus: o.focus,
-    kicker: `CAMBRIDGE IGCSE ARABIC 0544  ·  ADVANCED TOPIC C  ·  WEEK ${wk}  ·  LESSON ${k} OF 3`,
-    lessonLine: `TC-L${nn} · Week ${wk}, lesson ${k}`,
-    level: o.level || 'Topic C · A1+ → B1',
-    site: `Advanced Topics › C › Lesson ${o.n}`,
-    footer: `Miftah Arabic · Advanced Topic C · The World Around Us · Week ${wk} · Lesson ${k} of 3`,
-    icon: o.icon, iconSet: o.iconSet,
-    week: wk, k,
+// Lessons are labelled only by their website code (e.g. D1-L01): no week or “lesson x of 3” numbering,
+// because the number of lessons per week changes every year.
+function unitMeta(u) {
+  return (o) => {
+    const code = `${u.code}-L${String(o.n).padStart(2, '0')}`;
+    return {
+      code, file: `${code}_${o.fileTitle}`,
+      chip: o.chip, title: o.title, arabic: o.arabic, focus: o.focus,
+      kicker: `CAMBRIDGE IGCSE ARABIC 0544  ·  ${u.kicker}  ·  ${code}`,
+      lessonLine: `${code} · ${u.name}`,
+      level: o.level || u.level,
+      site: `${u.site} › ${code}`,
+      footer: `Miftah Arabic · ${u.footer} · ${code}`,
+      icon: o.icon, iconSet: o.iconSet,
+    };
   };
 }
+const meta = unitMeta({ code: 'TC', kicker: 'ADVANCED TOPIC C', name: 'Advanced Topic C', level: 'Topic C · A1+ → B1', site: 'Advanced Topics › Topic C', footer: 'Advanced Topic C · The World Around Us' });
 
 function titleSlide(o) {
   return {
@@ -100,7 +103,7 @@ Key idea for today (bottom-right card): ${o.keyIdea.text}`,
 
 function objectivesSlide(objectives, routes, k, extra = '') {
   return {
-    type: 'objectives', stage: 'welcome', min: 1, eyebrow: `Lesson ${k} of 3 this week`, title: 'Objectives and success criteria', ar: 'الأَهْدَافُ وَمَعَايِيرُ النَّجَاحِ',
+    type: 'objectives', stage: 'welcome', min: 1, eyebrow: 'Lesson objectives', title: 'Objectives and success criteria', ar: 'الأَهْدَافُ وَمَعَايِيرُ النَّجَاحِ',
     objectives, routes,
     notes: `OBJECTIVES (1 min).
 Left: the lesson objectives exactly as they appear on the website.
@@ -319,7 +322,7 @@ ${o.notes || ''}`,
 }
 
 module.exports = {
-  fromSite, q, splitPrompt, meta, titleSlide, welcomeSlide, journeySlide, doNow, objectivesSlide, keywordsSlide, quickCheck,
+  fromSite, q, splitPrompt, unitMeta, meta, titleSlide, welcomeSlide, journeySlide, doNow, objectivesSlide, keywordsSlide, quickCheck,
   morePractice, repairSlide, listening, speakingSlide, routesSlide, framesSlide, stretchSlide, modelSlide, selfCheckSlide,
   exitTicket, readingSlides, prepSlide, closeSlide, gameSlide,
 };
