@@ -92,8 +92,9 @@ function devLesson(code, x) {
     rows: s.patterns.slice(0, 4).map((p) => ({ ar: p.ar, en: p.en, tip: p.tip })),
     notes: `MODEL SENTENCES (1 min) — website patterns. Students copy TWO that are useful for them.\n${x.modelsNotes || '• Core: copy one and change one word. • Develop: copy two and change the subject. • Stretch: combine two into one longer sentence with a connector.'}`,
   });
-  if (game && x.game) slides.push(C.gameSlide({ ...game, items: (x.game.pick || [0, 1, 2]).map((i) => game.items[i]) }, x.game));
+  if (game && game.items && x.game) slides.push(C.gameSlide({ ...game, items: (x.game.pick || [0, 1, 2]).map((i) => game.items[i]) }, x.game));
   if (x.builder) slides.push(x.builder);
+  (x.wedoSlides || []).forEach((w) => slides.push(w));
   if (s.sorter) {
     slides.push({
       type: 'sorter', stage: 'wedo', min: x.sorterFlex ? undefined : 2, flex: !!x.sorterFlex, eyebrow: 'We do · website sorter', title: s.sorter.title, ar: 'صَنِّفْ',
