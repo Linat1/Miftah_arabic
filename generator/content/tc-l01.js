@@ -26,12 +26,12 @@ const fromSite = (item, extra = {}) => ({ prompt: item.prompt, options: item.opt
 
 const meta = {
   code: 'TC-L01',
-  file: 'Y8_TC_Wk01_L1_TCL01_People_Places_Compass_Points',
+  file: 'TC_Wk01_L1_TCL01_People_Places_Compass_Points',
   chip: 'People, Places & Compass',
   title: 'People, Places, Continents and Compass Points',
   arabic: 'النَّاسُ وَالأَمَاكِنُ وَالقَارَّاتُ وَاتِّجَاهَاتُ البُوصَلَةِ',
   focus: 'Locate, identify and compare places accurately: name the Arab countries, build nationalities with the nisba ـِيٌّ / ـِيَّةٌ and say where places are with compass points.',
-  kicker: 'CAMBRIDGE IGCSE ARABIC 0544  ·  YEAR 8  ·  ADVANCED TOPIC C  ·  WEEK 1  ·  LESSON 1 OF 3',
+  kicker: 'CAMBRIDGE IGCSE ARABIC 0544  ·  ADVANCED TOPIC C  ·  WEEK 1  ·  LESSON 1 OF 3',
   lessonLine: 'TC-L01 · Week 1, lesson 1',
   level: 'Topic C · A1+ → B1',
   site: 'Advanced Topics › C › Lesson 1',

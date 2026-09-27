@@ -19,9 +19,9 @@ function meta(o) {
   const wk = Math.ceil(o.n / 3); const k = ((o.n - 1) % 3) + 1; const nn = String(o.n).padStart(2, '0');
   return {
     code: `TC-L${nn}`,
-    file: `Y8_TC_Wk${String(wk).padStart(2, '0')}_L${k}_TCL${nn}_${o.fileTitle}`,
+    file: `TC_Wk${String(wk).padStart(2, '0')}_L${k}_TCL${nn}_${o.fileTitle}`,
     chip: o.chip, title: o.title, arabic: o.arabic, focus: o.focus,
-    kicker: `CAMBRIDGE IGCSE ARABIC 0544  ·  YEAR 8  ·  ADVANCED TOPIC C  ·  WEEK ${wk}  ·  LESSON ${k} OF 3`,
+    kicker: `CAMBRIDGE IGCSE ARABIC 0544  ·  ADVANCED TOPIC C  ·  WEEK ${wk}  ·  LESSON ${k} OF 3`,
     lessonLine: `TC-L${nn} · Week ${wk}, lesson ${k}`,
     level: o.level || 'Topic C · A1+ → B1',
     site: `Advanced Topics › C › Lesson ${o.n}`,
