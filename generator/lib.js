@@ -184,9 +184,18 @@ function txt(s, text, x, y, w, h, o = {}) {
     align: o.align || (arabic ? 'right' : 'left'), fontSize: size, paraSpaceAfter: o.psa || 0,
   };
   if (arabic && o.arFactor) common.fontSize = fit(text, w, h, o.size || 18, o.min || 11, true, o.arFactor);
+  let arLsm = o.lsm;
+  if (arabic && o.fit && !o.lsm) {
+    // fully vowelled Arabic over several lines needs air between lines so the harakat do not collide
+    const f = o.arFactor || factor;
+    if (linesNeeded(stripMarkupRaw(String(text)), common.fontSize, (w * 0.94) / f, true) > 1) {
+      arLsm = 1.2;
+      common.fontSize = fit(text, w, h / 1.2, o.size || 18, o.min || 11, true, f);
+    }
+  }
   if (arabic) {
     s.addText(arRuns(String(text), { color: o.color, bold: o.bold, plain: o.plain }), {
-      ...common, rtlMode: true, lang: 'ar-SA', fontFace: 'Amiri', lineSpacingMultiple: o.lsm || undefined,
+      ...common, rtlMode: true, lang: 'ar-SA', fontFace: 'Amiri', lineSpacingMultiple: arLsm || undefined,
     });
   } else if (AR_RE.test(String(text))) {
     // English sentence containing Arabic words: Arabic segments in Amiri, a little larger so they stay legible
