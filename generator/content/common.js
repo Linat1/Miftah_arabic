@@ -38,7 +38,7 @@ function titleSlide(o) {
 ${o.plan || '0–1 Welcome · 1–2 Lesson map · 2–9 Do Now + answers · 9–10 Objectives · 10–17 Key words · 17–23 Grammar · 23–25 Quick check · 25–28 I Do · 28–37 We Do · 37–49 You Do (speaking 3 + writing 9, with live feedback) · 49–54 Feedback (model, self-check, exit ticket) · 54–56 Preparation for next lesson.'}
 FLEX slides are optional. Use them if the class is moving quickly; otherwise the same activities are on the website for homework.
 
-Content source: Miftah Arabic website, Advanced Topics › Topic C › Lesson ${o.n} (TC-L${String(o.n).padStart(2, '0')}). ${o.source}
+Content source: Miftah Arabic website, ${o.siteRef || `Advanced Topics › Topic C › Lesson ${o.n} (TC-L${String(o.n).padStart(2, '0')})`}. ${o.source}
 All vocabulary, grammar rules, quizzes, the listening script, the reading text, speaking prompts and model answers come from those pages, so students meet the same language in class and at home. Anything teacher-made (Core scaffolds, riddles, translations) is labelled in the notes.
 
 SUPPORT FOR THIS CLASS (Arabic not yet secure; mixed levels):

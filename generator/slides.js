@@ -64,7 +64,7 @@ function mcqCard(s, q, n, x, y, w, h, reveal, k) {
     optTop = y + 1.16;
   } else if (q.ar) {
     txt(s, q.prompt, x + 0.54, y + 0.08, (w - 0.66) * 0.46, 0.52, { fit: true, size: 12, min: 9.5, bold: true, color: C.navy });
-    txt(s, q.ar, x + 0.54 + (w - 0.66) * 0.48, y + 0.08, (w - 0.66) * 0.52, 0.52, { fit: true, size: 15, min: 10, bold: true, color: C.ink });
+    txt(s, q.ar, x + 0.54 + (w - 0.66) * 0.48, y + 0.08, (w - 0.66) * 0.52, 0.52, { fit: true, size: q.arBig ? 30 : 15, min: 10, bold: true, color: q.arBig ? C.navy : C.ink });
   } else {
     txt(s, q.prompt, x + 0.54, y + 0.08, w - 0.66, 0.52, { fit: true, size: 12.5, min: 9.5, bold: true, color: C.navy });
   }
@@ -72,8 +72,10 @@ function mcqCard(s, q, n, x, y, w, h, reveal, k) {
   const pitch = Math.min(0.5, (y + h - fbSpace - optTop) / options.length);
   const arabicOpts = options.every((o) => isArabic(o));
   // shared size for Arabic options in one card so they look even
-  let arSize = 22;
-  if (arabicOpts) for (const o of options) arSize = Math.min(arSize, fit(o, w - 0.72, pitch * 0.98, 22, 10.5, true));
+  let arSize = 30;
+  const letterOpts = arabicOpts && options.every((o) => o.replace(/[\u064B-\u0652\s]/g, '').length <= 1);
+  if (arabicOpts) for (const o of options) arSize = Math.min(arSize, fit(o, w - 0.72, pitch * 0.98, letterOpts ? 30 : 22, 10.5, true));
+  if (!letterOpts) arSize = Math.min(arSize, 22);
   options.forEach((o, i) => {
     const oy = optTop + i * pitch;
     const isAns = reveal && i === answer;
@@ -307,7 +309,7 @@ function vocab(D, sp) {
     }
     if (it.core) pill(s, x + cw - 0.95, y + 0.14, 0.8, 0.28, C.core, 'CORE', { size: 8 });
     const hasForms = it.forms && it.forms.length;
-    txt(s, it.ar, x + 0.12, y + 0.44, cw - 0.26, hasForms ? 0.78 : 0.95, { fit: true, size: 30, min: 16, bold: true, color: C.navy });
+    txt(s, it.ar, x + 0.12, y + 0.44, cw - 0.26, hasForms ? 0.78 : 0.95, { fit: true, size: sp.bigAr ? 48 : 30, min: 16, bold: true, color: C.navy });
     const ey = hasForms ? y + 1.2 : y + 1.44;
     s.addText([
       { text: it.en, options: { fontSize: 13.5, bold: true, color: C.ink, breakLine: true } },
@@ -326,6 +328,41 @@ function vocab(D, sp) {
       mixedLine(s, it.note, x + 0.15, y + 1.98, cw - 0.3, 0.32, { size: 10, italic: true, color: C.goldDark });
     }
   });
+}
+
+
+// ------------------------------------------------------------------ letter formation: model, steps, tracing row
+function trace(D, sp) {
+  const s = frame(D, sp);
+  const n = sp.items.length; const cols = sp.cols || (n <= 3 ? n : n === 4 ? 2 : n <= 6 ? 3 : 4);
+  const rows = Math.ceil(n / cols); const gap = 0.18;
+  const cw = (12.33 - gap * (cols - 1)) / cols; const top = 1.98; const avail = (sp.foot ? 4.5 : 4.92);
+  const ch = (avail - gap * (rows - 1)) / rows;
+  sp.items.forEach((it, i) => {
+    const r = Math.floor(i / cols); const c = i % cols;
+    const x = 12.83 - (c + 1) * cw - c * gap; const y = top + r * (ch + gap);
+    box(s, x, y, cw, ch);
+    const lw = Math.min(1.5, cw * 0.36);
+    // model letter (right), name under it
+    txt(s, it.ar, x + cw - lw - 0.1, y + 0.08, lw, ch * 0.5, { fit: true, size: 54, min: 28, bold: true, color: C.navy, align: 'center' });
+    txt(s, it.name || '', x + cw - lw - 0.1, y + ch * 0.52, lw, 0.34, { fit: true, size: 15, min: 10, bold: true, color: C.teal, align: 'center' });
+    // numbered steps (left)
+    const sx = x + 0.15; const sw = cw - lw - 0.35;
+    (it.steps || []).forEach((st, j) => {
+      const sy = y + 0.14 + j * Math.min(0.46, (ch * 0.62) / Math.max(1, it.steps.length));
+      circle(s, sx, sy + 0.02, 0.26, '6B4C9A', j + 1, { size: 9 });
+      mixedLine(s, st, sx + 0.34, sy - 0.03, sw - 0.34, 0.4, { size: 10.5, color: C.ink });
+    });
+    // tracing row: baseline + pale copies
+    const ty = y + ch - 0.62; const tw = cw - 0.3;
+    s.addShape('line', { x: x + 0.15, y: ty + 0.44, w: tw, h: 0, line: { color: 'C9BFA8', width: 0.75, dashType: 'dash' } });
+    const k = Math.max(3, Math.min(6, Math.floor(tw / 0.62)));
+    for (let j = 0; j < k; j += 1) {
+      const gx = x + 0.15 + tw - (j + 1) * (tw / k);
+      txt(s, j < k - 2 ? it.ar : ' ', gx, ty - 0.08, tw / k, 0.58, { size: 26, bold: false, color: j < k - 2 ? 'D8CFBD' : C.ink, align: 'center', plain: true });
+    }
+  });
+  if (sp.foot) mixedLine(s, sp.foot, 0.5, 6.55, 12.33, 0.34, { size: 11.5, bold: true, color: C.goldDark });
 }
 
 // ------------------------------------------------------------------ nationality / forms table
@@ -812,7 +849,7 @@ function close(D, sp) {
 
 module.exports = {
   frame, mcq, title, welcome, journey, objectives, keywords, vocab, formsTable, codeWord, peopleTable, ruleCards,
-  formula, ruleRows, ido, models, builder, sorter, repair, passage, glossed, speaking, routes, frames, stretchTask,
+  trace, formula, ruleRows, ido, models, builder, sorter, repair, passage, glossed, speaking, routes, frames, stretchTask,
   modelAnswer, selfCheck, prep, close,
 };
 

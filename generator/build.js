@@ -33,6 +33,7 @@ async function build(key, outDir) {
 
 if (require.main === module) {
   const [key, out] = process.argv.slice(2);
-  build(key, out || path.join(__dirname, '..', 'Topic_C')).catch((e) => { console.error(e); process.exit(1); });
+  const dir = key.startsWith('tc-') ? 'Topic_C' : `Foundation_${key.split('-')[0].toUpperCase()}`;
+  build(key, out || path.join(__dirname, '..', dir)).catch((e) => { console.error(e); process.exit(1); });
 }
 module.exports = build;
