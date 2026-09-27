@@ -303,7 +303,7 @@ Real or invented neighbourhood — no one has to describe where they actually li
   ], 16),
   F.prepSlide({
     ...NEXT,
-    words: [['مِرْآةٌ', 'a mirror', 'pl. مَرَايَا'], ['وِسَادَةٌ', 'a pillow', 'pl. وَسَائِدُ'], ['بَطَّانِيَّةٌ', 'a blanket', 'pl. بَطَّانِيَّاتٌ'], ['رَفٌّ', 'a shelf', 'pl. رُفُوفٌ'], ['سِتَارَةٌ', 'a curtain', 'pl. سَتَائِرُ']],
+    words: [['مِرْآةٌ', 'a mirror', 'pl. مَرَايَا'], ['وِسَادَةٌ', 'a pillow', 'pl. وَسَائِدُ'], ['بِطَّانِيَّةٌ', 'a blanket', 'pl. بِطَّانِيَّاتٌ'], ['رَفٌّ', 'a shelf', 'pl. رُفُوفٌ'], ['سِتَارَةٌ', 'a curtain', 'pl. سَتَائِرُ']],
     questionEn: 'What colour is your bedroom? (A real or an invented room is fine.)',
     questionAr: 'مَا لَوْنُ غُرْفَتِكَ؟',
     homework: {
