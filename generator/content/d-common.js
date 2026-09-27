@@ -16,9 +16,16 @@ const UNITS = {
   D5: { title: 'Hobbies, Sport and Leisure' },
   F3: { title: 'Family and Home' },
   F5: { title: 'Food, Health and Body' },
-  F6: { title: 'Town and Transport' },
+  F6: { title: 'My Town and Transport' },
+  D3: { title: 'Work and Careers' },
+  D4: { title: 'Environment, Weather and Technology' },
+  D6: { title: 'Countries, Cultures and Celebrations' },
+  P2: { title: 'Education and Future Plans' },
+  P4: { title: 'The Built and Natural World' },
+  P5: { title: 'Social Issues and Opinions' },
+  P6: { title: 'IGCSE Bridge' },
   P1: { title: 'Healthy Lifestyles' },
-  P3: { title: 'Travel and Transport' },
+  P3: { title: 'Travel, Holidays and Transport' },
 };
 const PATHWAY = { F: 'Foundation', D: 'Development', P: 'Progression' };
 const YEAR = { F: 'YEAR 7', D: 'YEAR 8', P: 'YEAR 9' };
