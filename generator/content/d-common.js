@@ -99,7 +99,7 @@ function devLesson(code, x) {
   if (s.sorter) {
     slides.push({
       type: 'sorter', stage: 'wedo', min: x.sorterFlex ? undefined : 2, flex: !!x.sorterFlex, eyebrow: 'We do · website sorter', title: s.sorter.title, ar: 'صَنِّفْ',
-      categories: x.sorterCats || s.sorter.categories, items: s.sorter.items.slice(0, 9).map((it) => ({ ar: it.label, cat: it.answer })),
+      categories: x.sorterCats || s.sorter.categories, items: s.sorter.items.slice(0, 9).map((it) => ({ ar: it.label, cat: it.answer ?? it.category })),
       answerSlide: { eyebrow: 'We do · sorter answers', title: 'Sorted', ar: 'الإِجَابَاتُ' },
       notes: `WE DO — website sorter (2 min). Website instruction: ${s.sorter.instructions}\n${x.sorterNotes || ''}`,
     });
@@ -110,6 +110,7 @@ function devLesson(code, x) {
   const pure = (t) => t.replace(/\s*—\s*to an? [a-z ]+\.?$/i, '');
   slides.push(C.repairSlide({ ...s, mistakes: s.mistakes.map((m) => ({ ...m, wrong: pure(m.wrong), right: pure(m.right) })) }, x.hints));
   slides.push(C.listening(s, { coreTip: x.coreTip, routes: x.listenRoutes, gloss: x.gloss }));
+  if (x.readingCore) slides.push(...(x.preReading || []), ...C.readingSlides(s, x.glossary, x.readingCore));
   slides.push(C.speakingSlide(s, x.speak));
   slides.push(C.routesSlide(s, x.write));
   slides.push(C.framesSlide(x.frames));
@@ -117,7 +118,7 @@ function devLesson(code, x) {
   slides.push(C.modelSlide(s, x.modelEn, x.find, x.modelNotes));
   slides.push(C.selfCheckSlide(x.selfCheck));
   slides.push(C.exitTicket((x.exit || [0, 1, 3]).map((i) => fromSite(s.final[i])), s.final.length));
-  slides.push(...C.readingSlides(s, x.glossary));
+  if (!x.readingCore) slides.push(...C.readingSlides(s, x.glossary));
   if (s.mission && s.mission.rounds) {
     slides.push({
       type: 'mcq', stage: 'youdo', flex: true, eyebrow: `Extension · website mission · FLEX`, title: s.mission.title, ar: 'المُهِمَّةُ',

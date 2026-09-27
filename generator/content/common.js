@@ -270,24 +270,31 @@ Anyone scoring low → Core route next lesson and a check-in during the Do Now. 
   };
 }
 
-function readingSlides(site, glossary) {
-  return [
+function readingSlides(site, glossary, core) {
+  // core (reading-skills lessons): the website reading is the main You Do task, not an extension
+  const qs = site.reading.questions.map((x) => fromSite(x));
+  const out = [
     {
       type: 'passage', stage: 'youdo', flex: true, eyebrow: 'Extension · fast finishers or homework (Stretch)', title: site.reading.title, ar: 'القِرَاءَةُ',
-      text: site.reading.text, glossary,
+      text: (core && core.text) || site.reading.text, glossary,
       notes: `EXTENSION — website reading text. For fast finishers during You Do, or Stretch homework. “You don’t need every word; find the words the question asks about.”
 The green key-words panel is a teacher-made glossary so Develop students can also attempt it.
 SEND reading strategy (Toolkit 1): cover the text with a piece of paper and uncover one sentence at a time.`,
     },
     {
       type: 'mcq', stage: 'youdo', flex: true, eyebrow: 'Extension · reading questions', title: 'Reading: questions', ar: 'أَسْئِلَةُ القِرَاءَةِ',
-      seed: 9, questions: site.reading.questions.map((x) => fromSite(x)),
-      side: { kind: 'info', head: 'READ LIKE A DETECTIVE', fill: 'E9F5EE', line: '9CCFB0', color: '1E6B52', text: '1. Read the question first.\n2. Find ONE key word from the question in the text.\n3. Read only that sentence again, then choose.' },
+      seed: 9, questions: qs,
+      side: qs.length > 7 ? undefined : { kind: 'info', head: 'READ LIKE A DETECTIVE', fill: 'E9F5EE', line: '9CCFB0', color: '1E6B52', text: '1. Read the question first.\n2. Find ONE key word from the question in the text.\n3. Read only that sentence again, then choose.' },
       answerSlide: { eyebrow: 'Extension · reading answers', title: 'Reading: answers', ar: 'إِجَابَاتُ القِرَاءَةِ' },
       notes: 'Reading questions from the website. The detective steps follow the SEND “modular reading” strategy: read one part at a time.',
       answerNotes: 'Answers from the website, with the evidence for each.',
     },
   ];
+  if (core) {
+    out[0] = { ...out[0], flex: false, min: core.readMin || 4, eyebrow: 'You do · reading · read the whole text once, then hunt for evidence', notes: core.notes || out[0].notes };
+    out[1] = { ...out[1], flex: false, min: core.qMin || 6, eyebrow: 'You do · reading questions · find the evidence', answerSlide: { ...out[1].answerSlide, min: 2, eyebrow: 'Feedback · reading answers with evidence' } };
+  }
+  return out;
 }
 
 function prepSlide(o) {
