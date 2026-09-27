@@ -13,7 +13,7 @@ const meta = F.meta({
   focus: 'Add eight letters (ض ط ظ ع غ ف ق ك), hear the difference between plain and “emphatic” sounds, and build the three long vowels: بَا · بُو · بِي.',
   icon: 'FaVolumeHigh', level: 'Foundation · complete beginner',
 });
-const NEXT = { nextCode: 'F1-L04', nextTitle: 'Final Letters & Short Vowels', nextAr: 'آخِرُ الحُرُوفِ وَالحَرَكَاتُ القَصِيرَةُ' };
+const NEXT = { nextCode: 'F1-L04', nextTitle: 'Complete the Alphabet & Read Short Vowels', nextAr: 'أَكْمِلِ الحُرُوفَ وَاقْرَأِ الحَرَكَاتِ' };
 const L = (n, ar, name, en, dots, tag, core = true) => ({ n, ar, en, tr: dots, tag, core, forms: [{ l: 'name', ar: name }] });
 
 const slides = [
