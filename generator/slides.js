@@ -313,8 +313,9 @@ function vocab(D, sp) {
       it.forms.forEach((f, j) => {
         const fx = x + cw - 0.15 - (j + 1) * fw - j * 0.1;
         box(s, fx, y + 1.78, fw, 0.48, { fill: C.cream, line: C.cream, shadow: false, r: 0.05 });
-        txt(s, f.l, fx + 0.06, y + 1.8, 0.4, 0.2, { size: 7.5, bold: true, color: C.goldDark, arabic: false });
-        txt(s, f.ar, fx + 0.05, y + 1.83, fw - 0.1, 0.42, { fit: true, size: 15, min: 10, bold: true, color: C.navy, align: 'center' });
+        const longLbl = f.l.length > 3;
+        txt(s, f.l, fx + 0.06, y + 1.79, fw - 0.12, 0.17, { size: longLbl ? 7 : 7.5, bold: true, color: C.goldDark, arabic: false });
+        txt(s, f.ar, fx + 0.05, longLbl ? y + 1.93 : y + 1.83, fw - 0.1, longLbl ? 0.32 : 0.42, { fit: true, size: 15, min: 10, bold: true, color: C.navy, align: 'center' });
       });
     } else if (it.note) {
       mixedLine(s, it.note, x + 0.15, y + 1.98, cw - 0.3, 0.32, { size: 10, italic: true, color: C.goldDark });
