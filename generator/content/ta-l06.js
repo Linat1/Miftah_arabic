@@ -64,6 +64,7 @@ const raw = D.devLesson('P1-L01', {
     1: 'Learn each describing word WITH its preposition: يَحْتَوِي عَلَى، غَنِيٌّ بِـ، يَفْتَقِرُ إِلَى.',
     2: 'FLEX (Stretch): academic verbs for advice and effects — يُوصَى بِـ is passive: “it is recommended to”.',
   },
+  patchNote: 'the website P1-L01 model patterns have no English translation and the sorter has no title or instruction, so the deck adds teacher-written translations, a title and an instruction (the Arabic and the categories are the website’s).',
   patch: {
     patterns: [
       { ar: 'يَحْتَوِي السَّمَكُ عَلَى بُرُوتِينٍ.', en: 'Fish contains protein.', tip: 'contains + ‘alā' },

@@ -79,7 +79,7 @@ function devLesson(code, x) {
     plan: x.plan,
     source: x.source || `The website lesson “${s.title}”: vocabulary, grammar rules and quiz, patterns, common mistakes, sorter, listening, reading, speaking prompts and model, writing task and model, differentiation, final check and the lesson mission.${game ? ` Picture match: website visual game “${game.title.replace('Visual game — ', '')}”.` : ''}`,
     support: x.patch ? `${x.support}
-• TEACHER-WRITTEN ITEMS: on the website this lesson’s ${Object.keys(x.patch).join(', ')} items are generic placeholders, so the deck uses teacher-written questions and translations built on the website’s own script and text (flagged for the website editor).` : x.support,
+• TEACHER-WRITTEN ITEMS: ${x.patchNote || `on the website this lesson’s ${Object.keys(x.patch).join(', ')} items are generic placeholders, so the deck uses teacher-written questions and translations built on the website’s own script and text (flagged for the website editor).`}` : x.support,
   }));
   slides.push(C.welcomeSlide());
   slides.push(C.journeySlide({ teach: x.teach, wedo: x.wedo, next: x.next.nextCode }));

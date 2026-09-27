@@ -79,6 +79,11 @@ function reuse(t, n, mod, o) {
     if (sp.type === 'journey' && nx) return { ...sp, steps: sp.steps.map((st) => (st.stage === 'prep' ? { ...st, text: `Get ready at home for ${nx.nextCode}.` } : st)) };
     if (sp.type === 'prep' && nx) {
       if (o.prep) return C.prepSlide({ ...nx, ...o.prep }); // new words for a different next-lesson engine
+      if (o.prepWordsFrom) { // the next Topic lesson reuses a deck whose Do Now tests ANOTHER deck’s preparation words
+        const src = retarget(o.prepWordsFrom.slides.find((x) => x.type === 'prep'), t);
+        return { ...sp, title: `Before ${nx.nextCode}: get ready at home`, next: `${nx.nextCode} · ${nx.nextTitle}`, words: src.words, questionEn: src.questionEn, questionAr: src.questionAr,
+          notes: `${sp.notes.replace(/Next lesson \([^)]*\)/, `Next lesson (${nx.nextCode} · ${nx.nextTitle})`)}\nTOPIC ${t}: the five words are the ones the ${nx.nextCode} Do Now tests (preparation list of the website ${o.prepWordsFrom.meta.code} lesson).` };
+      }
       return { ...sp, title: `Before ${nx.nextCode}: get ready at home`, next: `${nx.nextCode} · ${nx.nextTitle}`, notes: sp.notes.replace(/Next lesson \([^)]*\)/, `Next lesson (${nx.nextCode} · ${nx.nextTitle})`) };
     }
     if (sp.type === 'close' && nx) return { ...sp, next: `${nx.nextCode} · ${nx.nextTitle}`, nextAr: nx.nextAr, ...(o.close || {}) };
