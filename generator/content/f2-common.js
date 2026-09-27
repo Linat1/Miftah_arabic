@@ -34,7 +34,7 @@ const titleSlide = (o) => C.titleSlide({
 function w(item, extra = {}) {
   const opts = (item.options || item.opts || item.a).slice(); const ok = item.ok !== undefined ? item.ok : (item.answer || 0);
   const right = opts.splice(ok, 1)[0]; opts.unshift(right);
-  const out = { prompt: item.q || item.prompt || item.stem, options: opts, answer: 0, why: item.why || item.feedback || '', ...extra };
+  const out = { prompt: String(item.q || item.prompt || item.stem).replace(/\.\?\s*$/, '.').trim(), options: opts, answer: 0, why: item.why || item.feedback || '', ...extra };
   // Arabic embedded in an English prompt → show it large beside a short English prompt
   if (!item.show && !extra.prompt && /[A-Za-z]/.test(out.prompt) && /[\u0600-\u06FF]/.test(out.prompt)) {
     const colon = /^([^:\u0600-\u06FF]+):\s*(.*[\u0600-\u06FF].*)$/.exec(out.prompt);
