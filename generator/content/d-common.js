@@ -35,7 +35,7 @@ function vocabSlides(s, x) {
     for (let i = 0; i < g.items.length; i += size) {
       const chunk = g.items.slice(i, i + size);
       const part = parts > 1 ? ` (${i / size + 1} of ${parts})` : '';
-      const flex = out.length >= (x.vocabSlides || 3);
+      const flex = x.flexGroups ? x.flexGroups.includes(gi) : out.length >= (x.vocabSlides || 3);
       out.push({
         type: 'vocab', stage: 'teach', min: flex ? undefined : 2, flex, eyebrow: `Key words · Group ${gi + 1}${flex ? ' · FLEX' : ''}`,
         title: `${g.label}${part}`, ar: (x.groupAr && x.groupAr[gi]) || 'كَلِمَاتُ الدَّرْسِ',
