@@ -43,7 +43,12 @@ function frame(D, sp) {
 // ------------------------------------------------------------------ answer arrangement
 const POS = [1, 0, 2, 2, 0, 1, 0, 2, 1, 1, 2, 0];
 function arrange(q, k) {
-  if (q.fixed || q.options.length !== 3) return { options: q.options, answer: q.answer || 0 };
+  if (q.fixed || q.options.length < 2 || q.options.length > 3) return { options: q.options, answer: q.answer || 0 };
+  if (q.options.length === 2) {
+    // two-option items (sun/moon, yes/no): keep a stable order and let the answer move
+    const a = q.answer || 0; const opts = q.options.slice().sort();
+    return { options: opts, answer: opts.indexOf(q.options[a]) };
+  }
   const correct = q.options[q.answer || 0];
   const others = q.options.filter((_, i) => i !== (q.answer || 0));
   const pos = POS[k % POS.length];
@@ -604,10 +609,13 @@ function sorter(D, sp) {
     const x = colX(i);
     box(a, x, 1.98, cw, 4.92, { fill: C.icePale, line: C.blueLine, shadow: false });
     pill(a, x + 0.15, 2.1, cw - 0.3, 0.34, STAGES.wedo.color, `${i + 1} · ${cat}`, { size: 9.5, cs: 0 });
-    sp.items.filter((it) => it.cat === i).forEach((it, j) => {
-      const y = 2.6 + j * 0.56;
-      box(a, x + 0.15, y, cw - 0.3, 0.48, { fill: 'FFF4DC', line: 'E6C98A', r: 0.06, shadow: false });
-      txt(a, it.ar, x + 0.25, y, cw - 0.5, 0.48, { fit: true, size: 18, min: 11, bold: true, color: C.navy, align: 'center' });
+    const mine = sp.items.filter((it) => it.cat === i);
+    const most = Math.max(...sp.categories.map((_, ci) => sp.items.filter((it) => it.cat === ci).length));
+    const pitch = Math.min(0.56, 4.2 / Math.max(1, most)); const bh = pitch - 0.08;
+    mine.forEach((it, j) => {
+      const y = 2.6 + j * pitch;
+      box(a, x + 0.15, y, cw - 0.3, bh, { fill: 'FFF4DC', line: 'E6C98A', r: 0.06, shadow: false });
+      txt(a, it.ar, x + 0.25, y, cw - 0.5, bh, { fit: true, size: 18, min: 11, bold: true, color: C.navy, align: 'center' });
     });
   });
 }
