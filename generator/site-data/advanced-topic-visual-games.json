@@ -1,0 +1,1306 @@
+{
+  "a01": {
+    "title": "Beat the Clock",
+    "arabic": "اِهْزِمِ السَّاعَةَ!",
+    "kind": "clock",
+    "items": []
+  },
+  "a02": {
+    "title": "Calendar Challenge",
+    "arabic": "تَحَدِّي التَّقْوِيمِ",
+    "kind": "match",
+    "items": [
+      {
+        "visual": "📅  الإثنين 14 سبتمبر",
+        "sentence": "اَلْيَوْمُ الِاثْنَيْنِ، الرَّابِعَ عَشَرَ مِنْ سِبْتَمْبَرَ.",
+        "feedback": "Match the day and date exactly."
+      },
+      {
+        "visual": "📅  الخميس 1 أكتوبر",
+        "sentence": "اَلْيَوْمُ الْخَمِيسُ، الأَوَّلُ مِنْ أُكْتُوبَرَ.",
+        "feedback": "الأَوَّلُ is used for the first day of the month."
+      },
+      {
+        "visual": "🏫  الأحد → الخميس",
+        "sentence": "اَلْأُسْبُوعُ الدِّرَاسِيُّ مِنَ الأَحَدِ إِلَى الْخَمِيسِ.",
+        "feedback": "The sentence describes the school week shown."
+      }
+    ]
+  },
+  "a03": {
+    "title": "Put the Day in Order",
+    "arabic": "رَتِّبِ الْيَوْمَ",
+    "kind": "match",
+    "items": [
+      {
+        "visual": "🌅 ➜ 🥣 ➜ 🏫",
+        "sentence": "أَسْتَيْقِظُ أَوَّلًا، ثُمَّ أَتَنَاوَلُ الْإِفْطَارَ، وَبَعْدَ ذٰلِكَ أَذْهَبُ إِلَى الْمَدْرَسَةِ.",
+        "feedback": "The connectors follow the picture sequence."
+      },
+      {
+        "visual": "🏫 ➜ 📚 ➜ 🏠",
+        "sentence": "بَعْدَ الْمَدْرَسَةِ أَدْرُسُ، ثُمَّ أَعُودُ إِلَى الْبَيْتِ.",
+        "feedback": "Read the arrows from left to right as a sequence."
+      },
+      {
+        "visual": "📱  أَحْيَانًا",
+        "sentence": "أَسْتَعْمِلُ هَاتِفِي أَحْيَانًا فِي الْمَسَاءِ.",
+        "feedback": "أَحْيَانًا means sometimes."
+      }
+    ]
+  },
+  "a04": {
+    "title": "Meal Match",
+    "arabic": "طَابِقِ الْوَجْبَةَ",
+    "kind": "match",
+    "items": [
+      {
+        "visual": "🥣 ☕ 🌅",
+        "sentence": "أَتَنَاوَلُ الْإِفْطَارَ فِي الصَّبَاحِ.",
+        "feedback": "The picture shows breakfast in the morning."
+      },
+      {
+        "visual": "🍚 🥗 🕛",
+        "sentence": "أُفَضِّلُ الْأَرُزَّ وَالسَّلَطَةَ فِي الْغَدَاءِ.",
+        "feedback": "Match the foods and the meal."
+      },
+      {
+        "visual": "🍎 💧 ❤️",
+        "sentence": "أُحِبُّ الْفَاكِهَةَ وَالْمَاءَ لِأَنَّهُمَا صِحِّيَّانِ.",
+        "feedback": "The reason matches the healthy choices."
+      }
+    ]
+  },
+  "a05": {
+    "title": "Café Order",
+    "arabic": "اُطْلُبْ فِي الْمَقْهَى",
+    "kind": "match",
+    "items": [
+      {
+        "visual": "☕ + 🥐  £5",
+        "sentence": "مِنْ فَضْلِكَ، أُرِيدُ قَهْوَةً وَقِطْعَةَ مَعْجَنَاتٍ.",
+        "feedback": "This is a polite order for the two items shown."
+      },
+      {
+        "visual": "🥣  £4",
+        "sentence": "كَمْ سِعْرُ الْحَسَاءِ، مِنْ فَضْلِكَ؟",
+        "feedback": "The task asks for the price of the soup."
+      },
+      {
+        "visual": "🍕 ❌ 🌶️",
+        "sentence": "مِنْ فَضْلِكَ، أُرِيدُ الْبِيتْزَا مِنْ دُونِ فُلْفُلٍ حَارٍّ.",
+        "feedback": "The picture shows a pizza without chilli."
+      }
+    ]
+  },
+  "a06": {
+    "title": "Healthy Choice",
+    "arabic": "اِخْتَرِ الْأَصَحَّ",
+    "kind": "match",
+    "items": [
+      {
+        "visual": "🥗 💧 🚶",
+        "sentence": "أَتَنَاوَلُ طَعَامًا صِحِّيًّا، وَأَشْرَبُ الْمَاءَ، وَأَمْشِي كُلَّ يَوْمٍ.",
+        "feedback": "All three healthy habits are shown."
+      },
+      {
+        "visual": "🍟 🥤 🛋️",
+        "sentence": "يَجِبُ أَنْ أُقَلِّلَ مِنَ الْوَجَبَاتِ السَّرِيعَةِ وَالْمَشْرُوبَاتِ الْغَازِيَّةِ.",
+        "feedback": "The advice responds to the unhealthy choices."
+      },
+      {
+        "visual": "😴 8h",
+        "sentence": "مِنَ الْمُهِمِّ أَنْ أَنَامَ ثَمَانِيَ سَاعَاتٍ.",
+        "feedback": "The image gives the exact sleep target."
+      }
+    ]
+  },
+  "a07": {
+    "title": "Symptom Detective",
+    "arabic": "مُحَقِّقُ الأَعْرَاضِ",
+    "kind": "match",
+    "items": [
+      {
+        "visual": "🤕  رأس",
+        "sentence": "يُؤْلِمُنِي رَأْسِي.",
+        "feedback": "The pain is in the head."
+      },
+      {
+        "visual": "🦷 😣",
+        "sentence": "عِنْدِي أَلَمٌ فِي أَسْنَانِي.",
+        "feedback": "The picture shows tooth pain."
+      },
+      {
+        "visual": "🤒 🌡️",
+        "sentence": "عِنْدِي حُمَّى وَأَشْعُرُ بِالتَّعَبِ.",
+        "feedback": "The thermometer and face show fever and tiredness."
+      }
+    ]
+  },
+  "a08": {
+    "title": "Doctor Says",
+    "arabic": "مَاذَا يَقُولُ الطَّبِيبُ؟",
+    "kind": "match",
+    "items": [
+      {
+        "visual": "👩‍⚕️ 💧",
+        "sentence": "يَنْبَغِي أَنْ تَشْرَبَ مَاءً كَثِيرًا.",
+        "feedback": "The doctor is advising plenty of water."
+      },
+      {
+        "visual": "💊 2×",
+        "sentence": "خُذْ هٰذَا الدَّوَاءَ مَرَّتَيْنِ فِي الْيَوْمِ.",
+        "feedback": "The picture shows medicine twice a day."
+      },
+      {
+        "visual": "🛌 🕗",
+        "sentence": "مِنَ الأَفْضَلِ أَنْ تَرْتَاحَ وَتَنَامَ مُبَكِّرًا.",
+        "feedback": "The advice matches rest and early sleep."
+      }
+    ]
+  },
+  "a09": {
+    "title": "Journey Match",
+    "arabic": "طَابِقِ الرِّحْلَةَ",
+    "kind": "match",
+    "items": [
+      {
+        "visual": "🚌 🏫",
+        "sentence": "أَذْهَبُ إِلَى الْمَدْرَسَةِ بِالْحَافِلَةِ.",
+        "feedback": "The transport and destination both match."
+      },
+      {
+        "visual": "🚆 09:15",
+        "sentence": "يَنْطَلِقُ الْقِطَارُ فِي السَّاعَةِ التَّاسِعَةِ وَالرُّبْعِ.",
+        "feedback": "The train time is 09:15."
+      },
+      {
+        "visual": "🚲 🌳",
+        "sentence": "أَرْكَبُ الدَّرَّاجَةَ إِلَى الْحَدِيقَةِ.",
+        "feedback": "The picture shows cycling to the park."
+      }
+    ]
+  },
+  "a10": {
+    "title": "Distractor Detective",
+    "arabic": "مُحَقِّقُ الْمُشَتِّتَاتِ",
+    "kind": "match",
+    "items": [
+      {
+        "visual": "🎧  «الحافلة 7:30»",
+        "sentence": "تَنْطَلِقُ الْحَافِلَةُ فِي السَّابِعَةِ وَالنِّصْفِ.",
+        "feedback": "Choose the exact detail you heard."
+      },
+      {
+        "visual": "📖  «لا يسافر يوم الجمعة»",
+        "sentence": "هُوَ لَا يُسَافِرُ يَوْمَ الْجُمُعَةِ.",
+        "feedback": "Do not choose an answer that changes the negative."
+      },
+      {
+        "visual": "🔎  «المحطة بجانب البنك»",
+        "sentence": "اَلْمَحَطَّةُ بِجَانِبِ الْبَنْكِ.",
+        "feedback": "The evidence gives the exact location."
+      }
+    ]
+  },
+  "a11": {
+    "title": "Travel Text Picture Match",
+    "arabic": "طَابِقْ نَصَّ السَّفَرِ",
+    "kind": "match",
+    "items": [
+      {
+        "visual": "🏨 🌊",
+        "sentence": "أَقَمْنَا فِي فُنْدُقٍ قَرِيبٍ مِنَ الْبَحْرِ.",
+        "feedback": "The hotel is near the sea."
+      },
+      {
+        "visual": "✈️ ⏰ 2h",
+        "sentence": "تَأَخَّرَتِ الطَّائِرَةُ سَاعَتَيْنِ.",
+        "feedback": "The flight is delayed by two hours."
+      },
+      {
+        "visual": "🗺️ 🏛️",
+        "sentence": "زُرْنَا الْمَعَالِمَ السِّيَاحِيَّةَ فِي الْمَدِينَةِ.",
+        "feedback": "The map and landmark show sightseeing."
+      }
+    ]
+  },
+  "a12": {
+    "title": "Topic A Mixed Challenge",
+    "arabic": "تَحَدِّي الْمِحْوَرِ أ",
+    "kind": "match",
+    "items": [
+      {
+        "visual": "🕖 🍳 🏫",
+        "sentence": "أَتَنَاوَلُ الْإِفْطَارَ فِي السَّابِعَةِ قَبْلَ أَنْ أَذْهَبَ إِلَى الْمَدْرَسَةِ.",
+        "feedback": "This combines time, food and routine."
+      },
+      {
+        "visual": "🤒 👩‍⚕️ 💊",
+        "sentence": "ذَهَبْتُ إِلَى الطَّبِيبِ لِأَنَّنِي كُنْتُ مَرِيضًا، فَأَعْطَانِي دَوَاءً.",
+        "feedback": "This combines health, reason and past tense."
+      },
+      {
+        "visual": "🚆 🧳 🏨",
+        "sentence": "سَأُسَافِرُ بِالْقِطَارِ وَسَأُقِيمُ فِي فُنْدُقٍ.",
+        "feedback": "This combines future travel and accommodation."
+      }
+    ]
+  },
+  "b01": {
+    "title": "Profile Picture Match",
+    "arabic": "طَابِقِ الْمِلَفَّ الشَّخْصِيَّ",
+    "kind": "match",
+    "items": [
+      {
+        "visual": "👧 14 🇬🇧 🗣️🇦🇪",
+        "sentence": "اِسْمِي سَارَةُ، عُمْرِي أَرْبَعَ عَشْرَةَ سَنَةً، وَأَتَكَلَّمُ الْعَرَبِيَّةَ وَالْإِنْجِلِيزِيَّةَ.",
+        "feedback": "Match age and languages."
+      },
+      {
+        "visual": "👦 ⚽ 📚",
+        "sentence": "هُوَ يُحِبُّ كُرَةَ الْقَدَمِ وَالْقِرَاءَةَ.",
+        "feedback": "The profile shows football and reading."
+      },
+      {
+        "visual": "👩‍🎓 🏫 لندن",
+        "sentence": "هِيَ طَالِبَةٌ وَتَدْرُسُ فِي لَنْدَنَ.",
+        "feedback": "The picture shows a female student in London."
+      }
+    ]
+  },
+  "b02": {
+    "title": "Family Tree Match",
+    "arabic": "طَابِقْ شَجَرَةَ الْعَائِلَةِ",
+    "kind": "match",
+    "items": [
+      {
+        "visual": "👩‍👧",
+        "sentence": "هٰذِهِ أُمِّي وَأَنَا ابْنَتُهَا.",
+        "feedback": "The relationship is mother and daughter."
+      },
+      {
+        "visual": "👨‍👩‍👧‍👦",
+        "sentence": "لَدَيَّ أَخٌ وَأُخْتٌ.",
+        "feedback": "The picture shows one brother and one sister."
+      },
+      {
+        "visual": "👵 ❤️ 👧",
+        "sentence": "جَدَّتِي لَطِيفَةٌ وَأُحِبُّهَا كَثِيرًا.",
+        "feedback": "The sentence describes grandmother affection."
+      }
+    ]
+  },
+  "b03": {
+    "title": "Describe the Person",
+    "arabic": "صِفِ الشَّخْصَ",
+    "kind": "match",
+    "items": [
+      {
+        "visual": "👩‍🦱 😊",
+        "sentence": "هِيَ ذَاتُ شَعْرٍ مُجَعَّدٍ وَشَخْصِيَّتُهَا مَرِحَةٌ.",
+        "feedback": "Hair and personality both match."
+      },
+      {
+        "visual": "👨‍🦰 😐",
+        "sentence": "هُوَ ذُو شَعْرٍ أَحْمَرَ وَهَادِئٌ.",
+        "feedback": "The description matches the visual cues."
+      },
+      {
+        "visual": "👧 👓 📚",
+        "sentence": "هِيَ تَرْتَدِي نَظَّارَةً وَتُحِبُّ الْقِرَاءَةَ.",
+        "feedback": "The picture shows glasses and reading."
+      }
+    ]
+  },
+  "b04": {
+    "title": "Home Scene",
+    "arabic": "مَشْهَدُ الْبَيْتِ",
+    "kind": "match",
+    "items": [
+      {
+        "visual": "🏠 🛋️ 1F",
+        "sentence": "غُرْفَةُ الْجُلُوسِ فِي الطَّابِقِ الأَوَّلِ.",
+        "feedback": "The room and floor match."
+      },
+      {
+        "visual": "🏡 🌳",
+        "sentence": "خَلْفَ الْبَيْتِ حَدِيقَةٌ كَبِيرَةٌ.",
+        "feedback": "The garden is behind the house."
+      },
+      {
+        "visual": "🛏️ ⬆️",
+        "sentence": "غُرْفَةُ نَوْمِي فِي الطَّابِقِ الْعُلْوِيِّ.",
+        "feedback": "The bedroom is upstairs."
+      }
+    ]
+  },
+  "b05": {
+    "title": "Where Is It?",
+    "arabic": "أَيْنَ هُوَ؟",
+    "kind": "match",
+    "items": [
+      {
+        "visual": "🛋️ 📺",
+        "sentence": "اَلتِّلْفَازُ أَمَامَ الأَرِيكَةِ.",
+        "feedback": "The TV is in front of the sofa."
+      },
+      {
+        "visual": "🛏️ 💡",
+        "sentence": "اَلْمِصْبَاحُ بِجَانِبِ السَّرِيرِ.",
+        "feedback": "The lamp is beside the bed."
+      },
+      {
+        "visual": "🍽️ ❄️",
+        "sentence": "اَلثَّلَّاجَةُ فِي الْمَطْبَخِ.",
+        "feedback": "The fridge belongs in the kitchen."
+      }
+    ]
+  },
+  "b06": {
+    "title": "Colour Scene",
+    "arabic": "مَشْهَدُ الأَلْوَانِ",
+    "kind": "match",
+    "items": [
+      {
+        "visual": "👗 🔴",
+        "sentence": "اَلْفُسْتَانُ أَحْمَرُ.",
+        "feedback": "The dress is red."
+      },
+      {
+        "visual": "🚗 🔵",
+        "sentence": "اَلسَّيَّارَةُ زَرْقَاءُ.",
+        "feedback": "The feminine noun takes the feminine colour form."
+      },
+      {
+        "visual": "📚 🟢",
+        "sentence": "اَلْكُتُبُ خَضْرَاءُ.",
+        "feedback": "A non-human plural commonly takes feminine singular adjective agreement."
+      }
+    ]
+  },
+  "b07": {
+    "title": "Dress the Person",
+    "arabic": "اِخْتَرِ الْمَلَابِسَ",
+    "kind": "match",
+    "items": [
+      {
+        "visual": "👕 🔵 + 👖 ⚫",
+        "sentence": "هُوَ يَرْتَدِي قَمِيصًا أَزْرَقَ وَبِنْطَالًا أَسْوَدَ.",
+        "feedback": "Both clothing items and colours match."
+      },
+      {
+        "visual": "👗 🟢 + 👜",
+        "sentence": "هِيَ تَرْتَدِي فُسْتَانًا أَخْضَرَ وَتَحْمِلُ حَقِيبَةً.",
+        "feedback": "The dress and accessory match."
+      },
+      {
+        "visual": "👟 £30",
+        "sentence": "سِعْرُ الْحِذَاءِ ثَلَاثُونَ جُنَيْهًا.",
+        "feedback": "The price shown is £30."
+      }
+    ]
+  },
+  "b08": {
+    "title": "Free-Time Match",
+    "arabic": "طَابِقْ وَقْتَ الْفَرَاغِ",
+    "kind": "match",
+    "items": [
+      {
+        "visual": "🏊 3×/week",
+        "sentence": "أَسْبَحُ ثَلَاثَ مَرَّاتٍ فِي الْأُسْبُوعِ.",
+        "feedback": "The frequency is three times a week."
+      },
+      {
+        "visual": "🎮 أَحْيَانًا",
+        "sentence": "أَلْعَبُ أَلْعَابَ الْفِيدْيُو أَحْيَانًا.",
+        "feedback": "The adverb matches sometimes."
+      },
+      {
+        "visual": "📚 ❤️",
+        "sentence": "أُحِبُّ الْقِرَاءَةَ لِأَنَّهَا مُفِيدَةٌ.",
+        "feedback": "The reason matches the hobby."
+      }
+    ]
+  },
+  "b09": {
+    "title": "Invitation & Holiday",
+    "arabic": "الدَّعْوَةُ وَالْعُطْلَةُ",
+    "kind": "match",
+    "items": [
+      {
+        "visual": "💌 🎂 السبت 4:00",
+        "sentence": "أَدْعُوكَ إِلَى حَفْلَةِ عِيدِ مِيلَادِي يَوْمَ السَّبْتِ فِي الرَّابِعَةِ.",
+        "feedback": "The invitation includes the correct day and time."
+      },
+      {
+        "visual": "🏖️ ☀️ الماضي",
+        "sentence": "ذَهَبْنَا إِلَى الشَّاطِئِ فِي الْعُطْلَةِ الْمَاضِيَةِ.",
+        "feedback": "The image is a past beach holiday."
+      },
+      {
+        "visual": "🏔️ 📸",
+        "sentence": "زُرْتُ الْجِبَالَ وَالْتَقَطْتُ صُوَرًا كَثِيرَةً.",
+        "feedback": "The picture shows mountains and photography."
+      }
+    ]
+  },
+  "b10": {
+    "title": "Profile Evidence Hunt",
+    "arabic": "ابْحَثْ عَنِ الدَّلِيلِ",
+    "kind": "match",
+    "items": [
+      {
+        "visual": "📖 «مريم تحب الرياضة لكنها لا تحب السباحة»",
+        "sentence": "مَرْيَمُ تُحِبُّ الرِّيَاضَةَ وَلٰكِنَّهَا لَا تُحِبُّ السِّبَاحَةَ.",
+        "feedback": "Keep the contrast and negative exactly."
+      },
+      {
+        "visual": "🎧 «أخوها أطول منها»",
+        "sentence": "أَخُوهَا أَطْوَلُ مِنْهَا.",
+        "feedback": "The comparative detail is the evidence."
+      },
+      {
+        "visual": "📩 «سنلتقي الجمعة»",
+        "sentence": "سَنَلْتَقِي يَوْمَ الْجُمُعَةِ.",
+        "feedback": "The message gives a future meeting day."
+      }
+    ]
+  },
+  "b11": {
+    "title": "Expand the Answer",
+    "arabic": "وَسِّعِ الْإِجَابَةَ",
+    "kind": "match",
+    "items": [
+      {
+        "visual": "❓ الهواية + سبب",
+        "sentence": "هَوَايَتِي الْمُفَضَّلَةُ هِيَ السِّبَاحَةُ لِأَنَّهَا مُفِيدَةٌ وَمُمْتِعَةٌ.",
+        "feedback": "A strong answer gives the hobby and a reason."
+      },
+      {
+        "visual": "❓ البيت + مقارنة",
+        "sentence": "بَيْتِي أَكْبَرُ مِنْ بَيْتِ صَدِيقَتِي وَلٰكِنَّهُ أَبْعَدُ عَنِ الْمَدْرَسَةِ.",
+        "feedback": "The answer includes a comparison and contrast."
+      },
+      {
+        "visual": "❓ عطلة ماضية",
+        "sentence": "فِي الْعُطْلَةِ الْمَاضِيَةِ سَافَرْتُ مَعَ أُسْرَتِي وَزُرْنَا مَدِينَةً جَدِيدَةً.",
+        "feedback": "The answer uses a clear past time frame."
+      }
+    ]
+  },
+  "b12": {
+    "title": "Topic B Mixed Challenge",
+    "arabic": "تَحَدِّي الْمِحْوَرِ ب",
+    "kind": "match",
+    "items": [
+      {
+        "visual": "👨‍👩‍👧‍👦 🏠",
+        "sentence": "أَعِيشُ مَعَ أُسْرَتِي فِي بَيْتٍ كَبِيرٍ.",
+        "feedback": "Family and home are both shown."
+      },
+      {
+        "visual": "👗 🔵 🛍️",
+        "sentence": "اِشْتَرَيْتُ فُسْتَانًا أَزْرَقَ مِنَ الْمَتْجَرِ.",
+        "feedback": "Clothes, colour and shopping are combined."
+      },
+      {
+        "visual": "🏊 ☀️ عطلة",
+        "sentence": "فِي الْعُطْلَةِ أَسْبَحُ غَالِبًا عِنْدَمَا يَكُونُ الطَّقْسُ دَافِئًا.",
+        "feedback": "The sentence combines leisure, frequency and weather."
+      }
+    ]
+  },
+  "c01": {
+    "title": "Map & Compass",
+    "arabic": "الْخَرِيطَةُ وَالْبُوصَلَةُ",
+    "kind": "match",
+    "items": [
+      {
+        "visual": "🇫🇷 ⬆️ 🇪🇸",
+        "sentence": "فَرَنْسَا شَمَالَ إِسْبَانْيَا.",
+        "feedback": "France is north of Spain."
+      },
+      {
+        "visual": "🇬🇧 🌍 أوروبا",
+        "sentence": "بِرِيطَانْيَا فِي قَارَّةِ أُورُوبَّا.",
+        "feedback": "The country and continent match."
+      },
+      {
+        "visual": "🇪🇬 🗣️ العربية",
+        "sentence": "مِصْرُ دَوْلَةٌ عَرَبِيَّةٌ وَاللُّغَةُ الْعَرَبِيَّةُ لُغَةٌ رَسْمِيَّةٌ فِيهَا.",
+        "feedback": "The scene links Egypt and Arabic."
+      }
+    ]
+  },
+  "c02": {
+    "title": "Nature Scene",
+    "arabic": "مَشْهَدُ الطَّبِيعَةِ",
+    "kind": "match",
+    "items": [
+      {
+        "visual": "🏔️ 🐐",
+        "sentence": "تَعِيشُ الْمَاعِزُ فِي الْمَنَاطِقِ الْجَبَلِيَّةِ.",
+        "feedback": "The animal and landscape match."
+      },
+      {
+        "visual": "🌊 🐟",
+        "sentence": "تَعِيشُ الأَسْمَاكُ فِي الْبَحْرِ.",
+        "feedback": "The habitat is the sea."
+      },
+      {
+        "visual": "🏜️ 🌴",
+        "sentence": "فِي الصَّحْرَاءِ نَبَاتَاتٌ تَتَحَمَّلُ الْجَفَافَ.",
+        "feedback": "The scene is a dry desert habitat."
+      }
+    ]
+  },
+  "c03": {
+    "title": "Weather Forecast",
+    "arabic": "نَشْرَةُ الطَّقْسِ",
+    "kind": "match",
+    "items": [
+      {
+        "visual": "☀️ 32°C",
+        "sentence": "اَلطَّقْسُ حَارٌّ وَمُشْمِسٌ وَدَرَجَةُ الْحَرَارَةِ اثْنَتَانِ وَثَلَاثُونَ.",
+        "feedback": "The forecast is hot and sunny at 32°C."
+      },
+      {
+        "visual": "🌧️ 💨",
+        "sentence": "سَيَكُونُ الطَّقْسُ مُمْطِرًا وَعَاصِفًا.",
+        "feedback": "The weather is rainy and windy."
+      },
+      {
+        "visual": "❄️ -2°C",
+        "sentence": "اَلطَّقْسُ بَارِدٌ جِدًّا وَدَرَجَةُ الْحَرَارَةِ تَحْتَ الصِّفْرِ.",
+        "feedback": "The temperature is below zero."
+      }
+    ]
+  },
+  "c04": {
+    "title": "Cause & Effect",
+    "arabic": "السَّبَبُ وَالنَّتِيجَةُ",
+    "kind": "match",
+    "items": [
+      {
+        "visual": "🏭 💨 ➜ 😷",
+        "sentence": "يُسَبِّبُ دُخَانُ الْمَصَانِعِ تَلَوُّثَ الْهَوَاءِ.",
+        "feedback": "The factory smoke causes air pollution."
+      },
+      {
+        "visual": "🗑️ 🌊 ➜ 🐟❌",
+        "sentence": "يُؤَدِّي رَمْيُ النُّفَايَاتِ فِي الْبَحْرِ إِلَى إِضْرَارِ الْحَيَاةِ الْبَحْرِيَّةِ.",
+        "feedback": "The arrows show cause and effect."
+      },
+      {
+        "visual": "🌳❌ ➜ 🐾🏠❌",
+        "sentence": "يُؤَدِّي قَطْعُ الأَشْجَارِ إِلَى فَقْدَانِ مَوَائِلِ الْحَيَوَانَاتِ.",
+        "feedback": "Tree loss removes animal habitats."
+      }
+    ]
+  },
+  "c05": {
+    "title": "Choose the Solution",
+    "arabic": "اِخْتَرِ الْحَلَّ",
+    "kind": "match",
+    "items": [
+      {
+        "visual": "♻️ 🗑️",
+        "sentence": "يَجِبُ أَنْ نُعِيدَ تَدْوِيرَ النُّفَايَاتِ.",
+        "feedback": "Recycling is the solution shown."
+      },
+      {
+        "visual": "🚲 🚗❌",
+        "sentence": "مِنَ الأَفْضَلِ أَنْ نَسْتَعْمِلَ الدَّرَّاجَةَ بَدَلًا مِنَ السَّيَّارَةِ لِلرِّحْلَاتِ الْقَصِيرَةِ.",
+        "feedback": "The visual replaces a car with a bicycle."
+      },
+      {
+        "visual": "💡 OFF",
+        "sentence": "يَنْبَغِي أَنْ نُطْفِئَ الأَضْوَاءَ عِنْدَمَا لَا نَحْتَاجُ إِلَيْهَا.",
+        "feedback": "Turning off lights saves energy."
+      }
+    ]
+  },
+  "c06": {
+    "title": "Digital Life",
+    "arabic": "الْحَيَاةُ الرَّقْمِيَّةُ",
+    "kind": "match",
+    "items": [
+      {
+        "visual": "📱 💬",
+        "sentence": "أُرْسِلُ رَسَائِلَ إِلَى أَصْدِقَائِي بِالْهَاتِفِ.",
+        "feedback": "The phone is being used for messages."
+      },
+      {
+        "visual": "💻 🎓",
+        "sentence": "أَسْتَعْمِلُ الْحَاسُوبَ لِلدِّرَاسَةِ عَبْرَ الْإِنْتَرْنِتِ.",
+        "feedback": "The laptop is used for online study."
+      },
+      {
+        "visual": "🔒 🔑",
+        "sentence": "يَجِبُ أَنْ نَسْتَعْمِلَ كَلِمَةَ مُرُورٍ قَوِيَّةً.",
+        "feedback": "The lock and key show online security."
+      }
+    ]
+  },
+  "c07": {
+    "title": "Document Detective",
+    "arabic": "مُحَقِّقُ الْوَثَائِقِ",
+    "kind": "match",
+    "items": [
+      {
+        "visual": "🛂 جواز سفر",
+        "sentence": "هٰذَا جَوَازُ سَفَرٍ.",
+        "feedback": "The document shown is a passport."
+      },
+      {
+        "visual": "📧 موعد 10:00",
+        "sentence": "تُؤَكِّدُ الرِّسَالَةُ أَنَّ الْمَوْعِدَ فِي السَّاعَةِ الْعَاشِرَةِ.",
+        "feedback": "The email gives the appointment time."
+      },
+      {
+        "visual": "🧾 £24.50",
+        "sentence": "اَلْمَبْلَغُ الإِجْمَالِيُّ أَرْبَعَةٌ وَعِشْرُونَ جُنَيْهًا وَخَمْسُونَ بِنْسًا.",
+        "feedback": "Read the receipt total exactly."
+      }
+    ]
+  },
+  "c08": {
+    "title": "Town Map",
+    "arabic": "خَرِيطَةُ الْمَدِينَةِ",
+    "kind": "match",
+    "items": [
+      {
+        "visual": "🏥 ↔️ 🏦",
+        "sentence": "اَلْمُسْتَشْفَى مُقَابِلُ الْبَنْكِ.",
+        "feedback": "The two buildings are opposite each other."
+      },
+      {
+        "visual": "📚🏛️ + ☕",
+        "sentence": "اَلْمَقْهَى بِجَانِبِ الْمَكْتَبَةِ.",
+        "feedback": "The café is beside the library."
+      },
+      {
+        "visual": "🚉 ⬅️ 🏨",
+        "sentence": "اَلْفُنْدُقُ شَرْقَ مَحَطَّةِ الْقِطَارِ.",
+        "feedback": "The hotel is east of the station."
+      }
+    ]
+  },
+  "c09": {
+    "title": "Best Buy",
+    "arabic": "أَفْضَلُ شِرَاءٍ",
+    "kind": "match",
+    "items": [
+      {
+        "visual": "👕 £20  vs  👕 £15",
+        "sentence": "اَلْقَمِيصُ الثَّانِي أَرْخَصُ مِنَ الْقَمِيصِ الأَوَّلِ.",
+        "feedback": "£15 is cheaper than £20."
+      },
+      {
+        "visual": "📦 2kg £6  vs  1kg £4",
+        "sentence": "اَلْعُبْوَةُ الْكَبِيرَةُ أَفْضَلُ قِيمَةً.",
+        "feedback": "The larger pack gives better value."
+      },
+      {
+        "visual": "🏷️ -25%",
+        "sentence": "هُنَاكَ خَصْمٌ قَدْرُهُ خَمْسَةٌ وَعِشْرُونَ فِي الْمِئَةِ.",
+        "feedback": "The label shows a 25% discount."
+      }
+    ]
+  },
+  "c10": {
+    "title": "Measure & Material",
+    "arabic": "الْقِيَاسُ وَالْمَادَّةُ",
+    "kind": "match",
+    "items": [
+      {
+        "visual": "📏 2m  🪵",
+        "sentence": "طُولُهُ مِتْرَانِ وَهُوَ مَصْنُوعٌ مِنَ الْخَشَبِ.",
+        "feedback": "The object is two metres and wooden."
+      },
+      {
+        "visual": "⚪ 10cm  🧴",
+        "sentence": "هُوَ دَائِرِيُّ الشَّكْلِ وَقُطْرُهُ عَشَرَةُ سَنْتِيمِتْرَاتٍ.",
+        "feedback": "The shape and measurement match."
+      },
+      {
+        "visual": "🥛 1L",
+        "sentence": "سِعَةُ الزُّجَاجَةِ لِتْرٌ وَاحِدٌ.",
+        "feedback": "The bottle capacity is one litre."
+      }
+    ]
+  },
+  "c11": {
+    "title": "Information Relay",
+    "arabic": "سِبَاقُ الْمَعْلُومَاتِ",
+    "kind": "match",
+    "items": [
+      {
+        "visual": "🌦️ + 🗺️",
+        "sentence": "فِي الشَّمَالِ سَيَكُونُ الطَّقْسُ مُمْطِرًا.",
+        "feedback": "The map and weather must both match."
+      },
+      {
+        "visual": "🏙️ + ♻️",
+        "sentence": "تُخَطِّطُ الْمَدِينَةُ لِزِيَادَةِ مَرَاكِزِ إِعَادَةِ التَّدْوِيرِ.",
+        "feedback": "The city plan is about recycling."
+      },
+      {
+        "visual": "📱 + 🔒",
+        "sentence": "اَلرِّسَالَةُ تَنْصَحُ بِحِمَايَةِ الْحِسَابِ بِكَلِمَةِ مُرُورٍ قَوِيَّةٍ.",
+        "feedback": "The digital message is about security."
+      }
+    ]
+  },
+  "c12": {
+    "title": "Topic C Mixed Challenge",
+    "arabic": "تَحَدِّي الْمِحْوَرِ ج",
+    "kind": "match",
+    "items": [
+      {
+        "visual": "🌍 🌦️",
+        "sentence": "يَخْتَلِفُ الْمُنَاخُ مِنْ مَنْطِقَةٍ إِلَى أُخْرَى.",
+        "feedback": "This combines places and climate."
+      },
+      {
+        "visual": "🏭 ♻️",
+        "sentence": "يُمْكِنُنَا تَقْلِيلُ التَّلَوُّثِ بِإِعَادَةِ التَّدْوِيرِ وَاسْتِعْمَالِ طَاقَةٍ أَنْظَفَ.",
+        "feedback": "The image combines problem and solution."
+      },
+      {
+        "visual": "🏙️ 🛍️ 📱",
+        "sentence": "أَسْتَعْمِلُ هَاتِفِي لِلْعُثُورِ عَلَى الْمَتَاجِرِ وَمُقَارَنَةِ الأَسْعَارِ.",
+        "feedback": "The sentence combines town, shopping and technology."
+      }
+    ]
+  },
+  "d01": {
+    "title": "Education Journey",
+    "arabic": "رِحْلَةُ التَّعْلِيمِ",
+    "kind": "match",
+    "items": [
+      {
+        "visual": "🏫 ➜ 🎓",
+        "sentence": "يَنْتَقِلُ الطَّالِبُ مِنَ الْمَدْرَسَةِ إِلَى الْجَامِعَةِ.",
+        "feedback": "The route is school to university."
+      },
+      {
+        "visual": "👶🏫 ➜ 🧒🏫",
+        "sentence": "اَلتَّعْلِيمُ الِابْتِدَائِيُّ يَسْبِقُ التَّعْلِيمَ الثَّانَوِيَّ.",
+        "feedback": "Primary comes before secondary."
+      },
+      {
+        "visual": "🎓 📜",
+        "sentence": "بَعْدَ الدِّرَاسَةِ يَحْصُلُ الطَّالِبُ عَلَى مُؤَهَّلٍ.",
+        "feedback": "The certificate follows study."
+      }
+    ]
+  },
+  "d02": {
+    "title": "Classroom Tool Match",
+    "arabic": "طَابِقْ أَدَوَاتِ الْفَصْلِ",
+    "kind": "match",
+    "items": [
+      {
+        "visual": "📖 ✏️",
+        "sentence": "أَحْتَاجُ إِلَى كِتَابٍ وَقَلَمٍ.",
+        "feedback": "The two classroom tools match."
+      },
+      {
+        "visual": "💻 🖱️",
+        "sentence": "أَسْتَعْمِلُ الْحَاسُوبَ وَالْفَأْرَةَ.",
+        "feedback": "The computer and mouse are shown."
+      },
+      {
+        "visual": "📐 📏",
+        "sentence": "نَسْتَعْمِلُ الْمِسْطَرَةَ فِي دَرْسِ الرِّيَاضِيَّاتِ.",
+        "feedback": "The ruler is used in maths."
+      }
+    ]
+  },
+  "d03": {
+    "title": "Timetable Challenge",
+    "arabic": "تَحَدِّي الْجَدْوَلِ",
+    "kind": "match",
+    "items": [
+      {
+        "visual": "09:00 ➗",
+        "sentence": "عِنْدِي الرِّيَاضِيَّاتُ فِي السَّاعَةِ التَّاسِعَةِ.",
+        "feedback": "The subject and time match."
+      },
+      {
+        "visual": "11:00 🌍",
+        "sentence": "عِنْدِي الْجُغْرَافِيَا فِي الْحَادِيَةَ عَشْرَةَ.",
+        "feedback": "The timetable shows geography at 11."
+      },
+      {
+        "visual": "❤️ 🧪",
+        "sentence": "أُفَضِّلُ الْعُلُومَ لِأَنَّهَا مُثِيرَةٌ لِلِاهْتِمَامِ.",
+        "feedback": "The heart indicates a preferred subject."
+      }
+    ]
+  },
+  "d04": {
+    "title": "Study Strategy",
+    "arabic": "اِسْتِرَاتِيجِيَّةُ الدِّرَاسَةِ",
+    "kind": "match",
+    "items": [
+      {
+        "visual": "📚 25m + 5m",
+        "sentence": "أَدْرُسُ خَمْسًا وَعِشْرِينَ دَقِيقَةً ثُمَّ أَسْتَرِيحُ خَمْسَ دَقَائِقَ.",
+        "feedback": "The study-rest cycle matches the timer."
+      },
+      {
+        "visual": "📝 ✅",
+        "sentence": "مِنَ الْمُفِيدِ أَنْ أَكْتُبَ مُلَخَّصًا بَعْدَ الْمُرَاجَعَةِ.",
+        "feedback": "The note-taking strategy matches."
+      },
+      {
+        "visual": "📱 ❌ أثناء المراجعة",
+        "sentence": "يَنْبَغِي أَنْ أُبْعِدَ هَاتِفِي عِنْدَ الْمُرَاجَعَةِ.",
+        "feedback": "The phone is removed during revision."
+      }
+    ]
+  },
+  "d05": {
+    "title": "Qualification Route",
+    "arabic": "طَرِيقُ الْمُؤَهِّلَاتِ",
+    "kind": "match",
+    "items": [
+      {
+        "visual": "🏫 ➜ 📚 ➜ 🎓",
+        "sentence": "سَأُكْمِلُ دِرَاسَتِي ثُمَّ أَدْخُلُ الْجَامِعَةَ.",
+        "feedback": "The route continues from school to university."
+      },
+      {
+        "visual": "🛠️ 📜",
+        "sentence": "اَلتَّدْرِيبُ الْمِهْنِيُّ يُكْسِبُنِي مَهَارَاتٍ عَمَلِيَّةً.",
+        "feedback": "The tools indicate vocational training."
+      },
+      {
+        "visual": "💻 📜",
+        "sentence": "أَحْتَاجُ إِلَى مُؤَهَّلٍ فِي تِكْنُولُوجِيَا الْمَعْلُومَاتِ.",
+        "feedback": "The qualification area is IT."
+      }
+    ]
+  },
+  "d06": {
+    "title": "Guess the Job",
+    "arabic": "خَمِّنِ الْمِهْنَةَ",
+    "kind": "match",
+    "items": [
+      {
+        "visual": "👩‍⚕️ 🏥",
+        "sentence": "هِيَ طَبِيبَةٌ وَتَعْمَلُ فِي مُسْتَشْفًى.",
+        "feedback": "The workplace and profession match."
+      },
+      {
+        "visual": "👨‍🏫 🏫",
+        "sentence": "هُوَ مُعَلِّمٌ وَيُدَرِّسُ الطُّلَّابَ.",
+        "feedback": "The person is teaching students."
+      },
+      {
+        "visual": "👩‍💻 💻",
+        "sentence": "هِيَ مُطَوِّرَةُ بَرْمَجِيَّاتٍ وَتَعْمَلُ عَلَى الْحَاسُوبِ.",
+        "feedback": "The job is software development."
+      }
+    ]
+  },
+  "d07": {
+    "title": "Workplace Match",
+    "arabic": "طَابِقْ مَكَانَ الْعَمَلِ",
+    "kind": "match",
+    "items": [
+      {
+        "visual": "🏢 9–5",
+        "sentence": "أَعْمَلُ فِي مَكْتَبٍ مِنَ التَّاسِعَةِ إِلَى الْخَامِسَةِ.",
+        "feedback": "The office hours match."
+      },
+      {
+        "visual": "🏠 💻",
+        "sentence": "أَعْمَلُ مِنَ الْبَيْتِ عَبْرَ الْإِنْتَرْنِتِ.",
+        "feedback": "The scene shows remote work."
+      },
+      {
+        "visual": "🏪 🌙",
+        "sentence": "أَعْمَلُ فِي الْمَتْجَرِ فِي نَوْبَةٍ مَسَائِيَّةٍ.",
+        "feedback": "The shop shift is in the evening."
+      }
+    ]
+  },
+  "d08": {
+    "title": "Skill Match",
+    "arabic": "طَابِقِ الْمَهَارَةَ",
+    "kind": "match",
+    "items": [
+      {
+        "visual": "🤝 👥",
+        "sentence": "أَنَا مُتَعَاوِنٌ وَأُجِيدُ الْعَمَلَ ضِمْنَ فَرِيقٍ.",
+        "feedback": "The visual shows teamwork."
+      },
+      {
+        "visual": "🗣️ 💬",
+        "sentence": "لَدَيَّ مَهَارَاتُ تَوَاصُلٍ جَيِّدَةٌ.",
+        "feedback": "The speech bubbles represent communication."
+      },
+      {
+        "visual": "⏰ ✅",
+        "sentence": "أَنَا مُنَظَّمٌ وَأَحْتَرِمُ الْمَوَاعِيدَ.",
+        "feedback": "The clock and tick show punctual organisation."
+      }
+    ]
+  },
+  "d09": {
+    "title": "Interview Choice",
+    "arabic": "اِخْتَرْ إِجَابَةَ الْمُقَابَلَةِ",
+    "kind": "match",
+    "items": [
+      {
+        "visual": "❓ لماذا تريد الوظيفة؟",
+        "sentence": "أُرِيدُ هٰذِهِ الْوَظِيفَةَ لِأَنَّ لَدَيَّ الْمَهَارَاتِ الْمُنَاسِبَةَ وَأُرِيدُ أَنْ أَتَطَوَّرَ.",
+        "feedback": "The answer gives a reason and motivation."
+      },
+      {
+        "visual": "📄 خبرة سنتان",
+        "sentence": "لَدَيَّ خِبْرَةٌ لِمُدَّةِ سَنَتَيْنِ فِي خِدْمَةِ الْعُمَلَاءِ.",
+        "feedback": "The CV shows two years of experience."
+      },
+      {
+        "visual": "⭐ نقطة قوة",
+        "sentence": "مِنْ نِقَاطِ قُوَّتِي أَنَّنِي مُنَظَّمٌ وَأَتَعَلَّمُ بِسُرْعَةٍ.",
+        "feedback": "The answer identifies strengths."
+      }
+    ]
+  },
+  "d10": {
+    "title": "Career Plan",
+    "arabic": "خُطَّةُ الْمِهْنَةِ",
+    "kind": "match",
+    "items": [
+      {
+        "visual": "🎓 ➜ 👩‍⚕️",
+        "sentence": "أُرِيدُ أَنْ أَدْرُسَ الطِّبَّ لِأَصْبِحَ طَبِيبَةً.",
+        "feedback": "Study goal and career match."
+      },
+      {
+        "visual": "💻 ➜ 🌐",
+        "sentence": "أَطْمَحُ إِلَى الْعَمَلِ فِي مَجَالِ تَطْوِيرِ الْمَوَاقِعِ.",
+        "feedback": "The computer and web indicate web development."
+      },
+      {
+        "visual": "🗣️ 🌍",
+        "sentence": "أَرْغَبُ فِي عَمَلٍ يَسْتَعْمِلُ اللُّغَاتِ وَالتَّوَاصُلَ الدَّوْلِيَّ.",
+        "feedback": "The career plan uses languages internationally."
+      }
+    ]
+  },
+  "d11": {
+    "title": "Shortlist the Candidate",
+    "arabic": "اِخْتَرِ الْمُرَشَّحَ",
+    "kind": "match",
+    "items": [
+      {
+        "visual": "وظيفة: خدمة عملاء  |  👤 عربي+إنجليزي",
+        "sentence": "اَلْمُرَشَّحُ مُنَاسِبٌ لِأَنَّهُ يَتَكَلَّمُ الْعَرَبِيَّةَ وَالْإِنْجِلِيزِيَّةَ.",
+        "feedback": "The languages are relevant evidence."
+      },
+      {
+        "visual": "وظيفة: دوام 8:00  |  👤 متاح 10:00",
+        "sentence": "اَلْمُرَشَّحُ غَيْرُ مُنَاسِبٍ لِأَنَّهُ لَا يَسْتَطِيعُ الْبَدْءَ فِي الثَّامِنَةِ.",
+        "feedback": "The availability conflicts with the job."
+      },
+      {
+        "visual": "وظيفة: تقنية  |  👤 خبرة 3 سنوات",
+        "sentence": "لَدَى الْمُرَشَّحِ ثَلَاثُ سَنَوَاتٍ مِنَ الْخِبْرَةِ التِّقْنِيَّةِ.",
+        "feedback": "The experience is the strongest evidence."
+      }
+    ]
+  },
+  "d12": {
+    "title": "Topic D Mixed Challenge",
+    "arabic": "تَحَدِّي الْمِحْوَرِ د",
+    "kind": "match",
+    "items": [
+      {
+        "visual": "🏫 📚 🎓",
+        "sentence": "أَدْرُسُ بِجِدٍّ لِأَحْصُلَ عَلَى مُؤَهَّلٍ جَيِّدٍ.",
+        "feedback": "Education and qualification are linked."
+      },
+      {
+        "visual": "👩‍💻 🤝",
+        "sentence": "اَلْعَمَلُ يَحْتَاجُ إِلَى مَهَارَاتٍ تِقْنِيَّةٍ وَالْعَمَلِ ضِمْنَ فَرِيقٍ.",
+        "feedback": "The job needs technical and teamwork skills."
+      },
+      {
+        "visual": "📄 ➜ 🗣️ ➜ 💼",
+        "sentence": "بَعْدَ إِرْسَالِ الطَّلَبِ ذَهَبْتُ إِلَى مُقَابَلَةٍ وَحَصَلْتُ عَلَى الْوَظِيفَةِ.",
+        "feedback": "The arrows show application, interview, job."
+      }
+    ]
+  },
+  "e01": {
+    "title": "Country–Language Match",
+    "arabic": "طَابِقِ الدَّوْلَةَ وَاللُّغَةَ",
+    "kind": "match",
+    "items": [
+      {
+        "visual": "🇫🇷 🗣️",
+        "sentence": "فِي فَرَنْسَا يَتَكَلَّمُ النَّاسُ الْفَرَنْسِيَّةَ.",
+        "feedback": "Country and language match."
+      },
+      {
+        "visual": "🇪🇬 🗣️ العربية",
+        "sentence": "مِصْرُ دَوْلَةٌ عَرَبِيَّةٌ.",
+        "feedback": "Egypt is an Arab country."
+      },
+      {
+        "visual": "🇬🇧 🗣️ English",
+        "sentence": "أَعِيشُ فِي بِرِيطَانْيَا وَأَتَكَلَّمُ الْإِنْجِلِيزِيَّةَ.",
+        "feedback": "The country and language shown match."
+      }
+    ]
+  },
+  "e02": {
+    "title": "Multilingual Life",
+    "arabic": "حَيَاةٌ مُتَعَدِّدَةُ اللُّغَاتِ",
+    "kind": "match",
+    "items": [
+      {
+        "visual": "🏠 العربية  |  🏫 English",
+        "sentence": "أَتَكَلَّمُ الْعَرَبِيَّةَ فِي الْبَيْتِ وَالْإِنْجِلِيزِيَّةَ فِي الْمَدْرَسَةِ.",
+        "feedback": "The language changes by setting."
+      },
+      {
+        "visual": "👵 العربية  |  👭 English",
+        "sentence": "أَسْتَعْمِلُ الْعَرَبِيَّةَ مَعَ جَدَّتِي وَالْإِنْجِلِيزِيَّةَ مَعَ صَدِيقَاتِي.",
+        "feedback": "The speakers and languages match."
+      },
+      {
+        "visual": "📚 🇫🇷",
+        "sentence": "أَتَعَلَّمُ الْفَرَنْسِيَّةَ كَلُغَةٍ إِضَافِيَّةٍ.",
+        "feedback": "The books and flag show learning French."
+      }
+    ]
+  },
+  "e03": {
+    "title": "Identity Layers",
+    "arabic": "طَبَقَاتُ الْهُوِيَّةِ",
+    "kind": "match",
+    "items": [
+      {
+        "visual": "👤 + 👨‍👩‍👧‍👦 + 🏙️",
+        "sentence": "تَتَأَثَّرُ هُوِيَّتِي بِأُسْرَتِي وَمُجْتَمَعِي وَتَجَارِبِي الشَّخْصِيَّةِ.",
+        "feedback": "The three layers all influence identity."
+      },
+      {
+        "visual": "🗣️ + 🍲 + 🎉",
+        "sentence": "اَللُّغَةُ وَالطَّعَامُ وَالِاحْتِفَالَاتُ جُزْءٌ مِنَ الثَّقَافَةِ.",
+        "feedback": "The visual shows cultural elements."
+      },
+      {
+        "visual": "🌍 + 🏠",
+        "sentence": "يُمْكِنُ أَنْ أَنْتَمِيَ إِلَى أَكْثَرَ مِنْ ثَقَافَةٍ فِي الْوَقْتِ نَفْسِهِ.",
+        "feedback": "The globe and home suggest multiple cultural belonging."
+      }
+    ]
+  },
+  "e04": {
+    "title": "Hospitality & Etiquette",
+    "arabic": "الضِّيَافَةُ وَالآدَابُ",
+    "kind": "match",
+    "items": [
+      {
+        "visual": "🚪 👋",
+        "sentence": "عِنْدَمَا أَزُورُ أَحَدًا أُحَيِّيهِ بِأَدَبٍ.",
+        "feedback": "The scene shows greeting at a visit."
+      },
+      {
+        "visual": "☕ 🍪 🤝",
+        "sentence": "مِنَ الْمُهَذَّبِ أَنْ أَشْكُرَ الْمُضِيفَ عَلَى الضِّيَافَةِ.",
+        "feedback": "The tea and food show hospitality."
+      },
+      {
+        "visual": "❓ ثقافة جديدة",
+        "sentence": "إِذَا لَمْ أَعْرِفِ الْعَادَةَ فَمِنَ الأَفْضَلِ أَنْ أَسْأَلَ بِاحْتِرَامٍ.",
+        "feedback": "The safest response is to ask respectfully."
+      }
+    ]
+  },
+  "e05": {
+    "title": "Belief & Place Match",
+    "arabic": "طَابِقِ الْمُعْتَقَدَ وَالْمَكَانَ",
+    "kind": "match",
+    "items": [
+      {
+        "visual": "🕌",
+        "sentence": "هٰذَا مَسْجِدٌ وَهُوَ مَكَانٌ لِلْعِبَادَةِ.",
+        "feedback": "The building is a mosque."
+      },
+      {
+        "visual": "⛪",
+        "sentence": "هٰذِهِ كَنِيسَةٌ وَهِيَ مَكَانٌ لِلْعِبَادَةِ.",
+        "feedback": "The building is a church."
+      },
+      {
+        "visual": "🤝 🌍",
+        "sentence": "يَجِبُ أَنْ نَتَحَدَّثَ عَنِ الْمُعْتَقَدَاتِ بِاحْتِرَامٍ.",
+        "feedback": "The visual emphasises respectful discussion."
+      }
+    ]
+  },
+  "e06": {
+    "title": "Special Occasion Planner",
+    "arabic": "مُخَطِّطُ الْمُنَاسَبَةِ",
+    "kind": "match",
+    "items": [
+      {
+        "visual": "🌙 🎉 🍽️",
+        "sentence": "نَجْتَمِعُ مَعَ الأُسْرَةِ وَنَتَنَاوَلُ طَعَامًا خَاصًّا فِي الْمُنَاسَبَةِ.",
+        "feedback": "The celebration includes family and a special meal."
+      },
+      {
+        "visual": "🎁 👨‍👩‍👧‍👦",
+        "sentence": "نَتَبَادَلُ الْهَدَايَا وَنَزُورُ الأَقَارِبَ.",
+        "feedback": "The gifts and family visit match."
+      },
+      {
+        "visual": "📅 ✨",
+        "sentence": "تَحْدُثُ الْمُنَاسَبَةُ فِي تَارِيخٍ مُحَدَّدٍ كُلَّ عَامٍ.",
+        "feedback": "The calendar shows an annual occasion."
+      }
+    ]
+  },
+  "e07": {
+    "title": "Festival Match",
+    "arabic": "طَابِقِ الْمِهْرَجَانَ",
+    "kind": "match",
+    "items": [
+      {
+        "visual": "🎆 🇬🇧",
+        "sentence": "تَشْمَلُ الِاحْتِفَالَاتُ عُرُوضًا وَأَنْشِطَةً عَامَّةً.",
+        "feedback": "The visual shows a public celebration."
+      },
+      {
+        "visual": "🎶 💃",
+        "sentence": "فِي الْمِهْرَجَانِ مُوسِيقَى وَرَقْصٌ وَأَنْشِطَةٌ ثَقَافِيَّةٌ.",
+        "feedback": "Music and dance are shown."
+      },
+      {
+        "visual": "🍲 👗 🎊",
+        "sentence": "يَلْبَسُ النَّاسُ مَلَابِسَ خَاصَّةً وَيَأْكُلُونَ أَطْعِمَةً تَقْلِيدِيَّةً.",
+        "feedback": "Clothing and traditional food match."
+      }
+    ]
+  },
+  "e08": {
+    "title": "Respectful Visitor",
+    "arabic": "الزَّائِرُ الْمُحْتَرِمُ",
+    "kind": "match",
+    "items": [
+      {
+        "visual": "🧳 🤝",
+        "sentence": "عِنْدَ السَّفَرِ أَحْتَرِمُ عَادَاتِ الْمَكَانِ الَّذِي أَزُورُهُ.",
+        "feedback": "The traveller respects local customs."
+      },
+      {
+        "visual": "❓ 🍽️",
+        "sentence": "إِذَا لَمْ أَعْرِفْ قَاعِدَةَ الطَّعَامِ أَسْأَلُ الْمُضِيفَ بِأَدَبٍ.",
+        "feedback": "The visitor asks rather than assumes."
+      },
+      {
+        "visual": "📸 🚫",
+        "sentence": "لَا أَلْتَقِطُ صُوَرًا فِي مَكَانٍ يُمْنَعُ فِيهِ التَّصْوِيرُ.",
+        "feedback": "The camera prohibition is respected."
+      }
+    ]
+  },
+  "e09": {
+    "title": "Compare Cultures",
+    "arabic": "قَارِنِ الثَّقَافَاتِ",
+    "kind": "match",
+    "items": [
+      {
+        "visual": "A 🤝 B",
+        "sentence": "تَتَشَابَهُ الثَّقَافَتَانِ فِي أَهَمِّيَّةِ الضِّيَافَةِ.",
+        "feedback": "The overlap shows a similarity."
+      },
+      {
+        "visual": "A ☕  |  B 🍵",
+        "sentence": "تَخْتَلِفُ الْعَادَاتُ فِي نَوْعِ الْمَشْرُوبِ الَّذِي يُقَدَّمُ لِلضُّيُوفِ.",
+        "feedback": "The two customs differ in the drink."
+      },
+      {
+        "visual": "⚖️ احترام",
+        "sentence": "يَنْبَغِي أَنْ نُقَارِنَ مِنْ دُونِ الْحُكْمِ عَلَى أَيِّ ثَقَافَةٍ بِأَنَّهَا أَفْضَلُ.",
+        "feedback": "The scale symbolises balanced comparison."
+      }
+    ]
+  },
+  "e10": {
+    "title": "Global Connections",
+    "arabic": "رَوَابِطُ عَالَمِيَّةٌ",
+    "kind": "match",
+    "items": [
+      {
+        "visual": "🌍 💬 📱",
+        "sentence": "تُسَاعِدُنَا التِّكْنُولُوجِيَا عَلَى التَّوَاصُلِ مَعَ النَّاسِ فِي دُوَلٍ مُخْتَلِفَةٍ.",
+        "feedback": "Technology connects people globally."
+      },
+      {
+        "visual": "✈️ 🎓",
+        "sentence": "يُمْكِنُ لِلطُّلَّابِ الدِّرَاسَةُ فِي بِلَادٍ أُخْرَى.",
+        "feedback": "The plane and study symbol show international education."
+      },
+      {
+        "visual": "🌐 🤝",
+        "sentence": "تَتَعَاوَنُ الدُّوَلُ فِي بَعْضِ الْقَضَايَا الدَّوْلِيَّةِ.",
+        "feedback": "The globe and handshake show cooperation."
+      }
+    ]
+  },
+  "e11": {
+    "title": "International Fair Relay",
+    "arabic": "سِبَاقُ الْمَعْرِضِ الدَّوْلِيِّ",
+    "kind": "match",
+    "items": [
+      {
+        "visual": "🇲🇦 العربية + الفرنسية",
+        "sentence": "فِي الْمَغْرِبِ تُسْتَعْمَلُ الْعَرَبِيَّةُ وَتُنْتَشَرُ الْفَرَنْسِيَّةُ أَيْضًا.",
+        "feedback": "The stand gives country and language information."
+      },
+      {
+        "visual": "🤝 ☕",
+        "sentence": "يَشْرَحُ الْجَنَاحُ عَادَاتِ الضِّيَافَةِ وَالتَّحِيَّةِ.",
+        "feedback": "The stand is about hospitality and greeting customs."
+      },
+      {
+        "visual": "🎉 👗 🍲",
+        "sentence": "يَعْرِضُ الْجَنَاحُ مَلَابِسَ وَأَطْعِمَةً وَاحْتِفَالَاتٍ تَقْلِيدِيَّةً.",
+        "feedback": "The fair stand combines clothing, food and celebrations."
+      }
+    ]
+  },
+  "e12": {
+    "title": "Topic E Mixed Challenge",
+    "arabic": "تَحَدِّي الْمِحْوَرِ هـ",
+    "kind": "match",
+    "items": [
+      {
+        "visual": "🇪🇬 🗣️ 🌍",
+        "sentence": "مِصْرُ دَوْلَةٌ عَرَبِيَّةٌ وَهِيَ جُزْءٌ مِنَ الْعَالَمِ الدَّوْلِيِّ الْمُتَرَابِطِ.",
+        "feedback": "Country, language and global connection combine."
+      },
+      {
+        "visual": "🧳 🤝 🎉",
+        "sentence": "عِنْدَ زِيَارَةِ احْتِفَالٍ فِي بَلَدٍ آخَرَ أَحْتَرِمُ الْعَادَاتِ وَأَسْأَلُ إِذَا لَمْ أَفْهَمْ.",
+        "feedback": "Travel, celebration and respect are combined."
+      },
+      {
+        "visual": "🗣️🌍 + 🤝",
+        "sentence": "تَعَلُّمُ اللُّغَاتِ يُسَاعِدُ عَلَى التَّوَاصُلِ وَفَهْمِ الثَّقَافَاتِ.",
+        "feedback": "Languages support international understanding."
+      }
+    ]
+  }
+}

@@ -1,0 +1,86 @@
+{
+    "bank": [
+        {
+            "icon": "🗺️",
+            "title": "Map and directions race",
+            "text": "Follow and give routes between places using compass points, landmarks and accurate location phrases. Add one deliberate wrong turn for a partner to repair."
+        },
+        {
+            "icon": "🌦️",
+            "title": "Forecast detective",
+            "text": "Match weather and climate clues to places or seasons, then produce a short forecast and compare conditions using accurate time frames."
+        },
+        {
+            "icon": "♻️",
+            "title": "Cause–solution match",
+            "text": "Match environmental problems to causes, effects and realistic solutions. Justify each link with a cause\/effect connector or advice structure."
+        },
+        {
+            "icon": "📱",
+            "title": "Technology benefit–risk debate",
+            "text": "Sort statements into benefit, risk or balanced view, then defend one position using contrast, evidence and a recommendation."
+        }
+    ],
+    "lessons": [
+        {
+            "icon": "🧭",
+            "title": "Continent and compass challenge",
+            "text": "Place countries and regions on a simple map, add north\/south\/east\/west clues and describe where people or places are without naming them first."
+        },
+        {
+            "icon": "🏞️",
+            "title": "Landscape classification",
+            "text": "Sort natural-world vocabulary into landscape, animal, plant or ecosystem groups, then describe one scene with location and comparison language."
+        },
+        {
+            "icon": "🌦️",
+            "title": "Forecast detective",
+            "text": "Match weather clues to seasons or places, then deliver a short forecast containing a comparison and a change from one time to another."
+        },
+        {
+            "icon": "🔗",
+            "title": "Cause–effect chain",
+            "text": "Build a four-step chain from an environmental cause to a problem and two effects. A partner must challenge or improve one link."
+        },
+        {
+            "icon": "♻️",
+            "title": "Solution council",
+            "text": "Choose the best solution to three environmental problems, rank the options and defend the final recommendation with reasons and advice language."
+        },
+        {
+            "icon": "📱",
+            "title": "Technology benefit–risk debate",
+            "text": "Classify digital-life statements as benefit, risk or mixed, then defend a balanced viewpoint with one example and one recommendation."
+        },
+        {
+            "icon": "🪪",
+            "title": "Digital document sort",
+            "text": "Sort passports, identity details, forms, messages, notices and online information by purpose, then extract the key fact needed for a realistic task."
+        },
+        {
+            "icon": "🏙️",
+            "title": "City-planner information gap",
+            "text": "Plan a small urban area from incomplete maps. Ask for missing services, buildings and locations, then justify where two facilities should go."
+        },
+        {
+            "icon": "🛒",
+            "title": "Shopping budget challenge",
+            "text": "Compare prices and quantities, choose items within a budget and explain which option is best value using numbers and comparative language."
+        },
+        {
+            "icon": "📐",
+            "title": "Shape and material lab",
+            "text": "Describe objects by measurement, shape and material. Partners identify the object, then improve the description with a precise property or comparison."
+        },
+        {
+            "icon": "🔄",
+            "title": "Topic C information relay",
+            "text": "Combine a map, forecast, environmental problem and digital message. Pass the essential information accurately to a partner who completes the final task."
+        },
+        {
+            "icon": "🏁",
+            "title": "Topic C four-skills relay",
+            "text": "Complete short built-world, natural-world, environment and technology stations, then record the vocabulary or grammar target that needs further repair."
+        }
+    ]
+}

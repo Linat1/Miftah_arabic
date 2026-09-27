@@ -1,0 +1,30 @@
+{
+  "topic_area": { "code": "C", "en": "The World Around Us", "ar": "العَالَمُ مِنْ حَوْلِنَا" },
+  "subtopic": { "code": "C5", "en": "Measurements", "ar": "القِيَاسَاتُ" },
+  "source": "Miftah vocabulary source, The World Around Us sections 15–17 (units, shapes, sizes). The single size-scale row gives one counted adjective plus secondary size forms.",
+  "groups": [
+    { "key": "units", "en": "Units of measurement", "ar": "وَحَدَاتُ القِيَاسِ" },
+    { "key": "shapes", "en": "Shapes", "ar": "الأَشْكَالُ" },
+    { "key": "sizes", "en": "Sizes & comparison", "ar": "الأَحْجَامُ وَالمُقَارَنَةُ" }
+  ],
+  "items": [
+    { "id": "metre", "ar": "مِتْر", "en": "metre", "pos": "noun", "gender": "m", "group": "units", "plural": "أَمْتَار", "example": "نَقِيسُ طُولَ الغُرْفَةِ بِالمِتْرِ.", "example_en": "We measure the length of the room in metres." },
+    { "id": "cm", "ar": "سِنْتِمْتِر", "en": "centimetre", "pos": "noun", "gender": "m", "group": "units" },
+    { "id": "km", "ar": "كِيلُومِتْر", "en": "kilometre", "pos": "noun", "gender": "m", "group": "units" },
+    { "id": "gram", "ar": "غِرَامٌ", "en": "gram", "pos": "noun", "gender": "m", "group": "units" },
+    { "id": "kg", "ar": "كِيلُوغِرَام", "en": "kilogram", "pos": "noun", "gender": "m", "group": "units" },
+    { "id": "litre", "ar": "لِتْر", "en": "litre", "pos": "noun", "gender": "m", "group": "units", "plural": "لِتْرَات" },
+    { "id": "degree", "ar": "دَرَجَة", "en": "degree", "pos": "noun", "gender": "f", "group": "units", "plural": "دَرَجَات", "note": "دَرَجَةُ الحَرَارَةِ = temperature" },
+
+    { "id": "circle", "ar": "دَائِرَة", "en": "circle", "pos": "noun", "gender": "f", "group": "shapes", "alt": "دَائِرِيّ", "plural": "دَوَائِر", "note": "على شَكْلِ دَائِرَةٍ = circle-shaped" },
+    { "id": "square_shape", "ar": "مُرَبَّع", "en": "square", "pos": "noun", "gender": "m", "group": "shapes", "note": "على شَكْلِ مُرَبَّعٍ = square-shaped" },
+    { "id": "rectangle", "ar": "مُسْتَطِيل", "en": "rectangle", "pos": "noun", "gender": "m", "group": "shapes", "note": "على شَكْلِ مُسْتَطِيلٍ = rectangular" },
+
+    { "id": "small", "ar": "صَغِير", "en": "small", "pos": "adjective", "group": "sizes", "fem": "صَغِيرَة", "example": "الفِيلُ كَبِيرٌ وَالفَأْرُ صَغِيرٌ.", "example_en": "The elephant is big and the mouse is small." },
+    { "id": "long", "ar": "طَوِيل", "en": "long, tall", "pos": "adjective", "group": "sizes", "fem": "طَوِيلَة" },
+    { "id": "short", "ar": "قَصِير", "en": "short", "pos": "adjective", "group": "sizes", "fem": "قَصِيرَة" },
+    { "id": "big", "ar": "كَبِير", "en": "big, large", "pos": "adjective", "group": "sizes", "fem": "كَبِيرَة", "secondary": true },
+    { "id": "medium", "ar": "مُتَوَسِّطُ الحَجْمِ", "en": "medium-sized", "pos": "adjective", "group": "sizes", "secondary": true },
+    { "id": "huge", "ar": "ضَخْم", "en": "huge, enormous", "pos": "adjective", "group": "sizes", "fem": "ضَخْمَة", "secondary": true }
+  ]
+}

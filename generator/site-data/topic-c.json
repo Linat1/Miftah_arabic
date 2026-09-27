@@ -1,0 +1,169 @@
+{
+    "area": "C",
+    "code": "TC",
+    "title": "The World Around Us",
+    "arabic": "العَالَمُ مِنْ حَوْلِنَا",
+    "icon": "🌍",
+    "colour": "purple",
+    "route_note": "Flexible topic-based teaching unit",
+    "summary": "People and places, the natural and built environment, weather and climate, communications and technology, shopping, measurements and materials.",
+    "subtopics": [
+        "People and places: continents, countries, nationalities and compass points",
+        "The natural world, environment, climate, weather and animals",
+        "Communications and technology: the digital world, documents and texts",
+        "The built environment: buildings, services, urban areas and shopping",
+        "Measurements: size and shape; materials and their properties"
+    ],
+    "vocabulary": [
+        {
+            "slug": "people-places",
+            "label": "People & Places"
+        },
+        {
+            "slug": "natural-environment-weather",
+            "label": "Natural World, Environment & Weather"
+        },
+        {
+            "slug": "communications-technology",
+            "label": "Communications & Technology"
+        },
+        {
+            "slug": "towns-buildings-services-shopping",
+            "label": "Towns, Buildings, Services & Shopping"
+        },
+        {
+            "slug": "measurements",
+            "label": "Measurements"
+        },
+        {
+            "slug": "materials",
+            "label": "Materials"
+        }
+    ],
+    "grammar": [
+        "Place expressions, compass directions and locative prepositions",
+        "Comparative and superlative forms for places, climate and services",
+        "Cause, effect, contrast and solution connectors",
+        "Passive voice for processes, environmental change and technology",
+        "Relative clauses and participles for description and definition",
+        "Numbers, measurements, shapes, materials and agreement"
+    ],
+    "skills": {
+        "Listening": "Weather forecasts, news reports, directions, service information and technology discussions",
+        "Reading": "Maps, articles, public notices, adverts, webpages, messages and product information",
+        "Speaking": "Compare places, discuss environmental action, explain technology and manage shopping situations",
+        "Writing": "Place descriptions, environmental articles, balanced opinions and formal\/informal messages"
+    },
+    "related": [
+        {
+            "label": "Foundation F6 · Town & Transport",
+            "url": "\/lessons\/foundation\/f6\/index.php"
+        },
+        {
+            "label": "Development D4 · Environment, Weather & Technology",
+            "url": "\/lessons\/development\/d4\/index.php"
+        },
+        {
+            "label": "Progression P4 · Built & Natural World",
+            "url": "\/lessons\/progression\/p4\/index.php"
+        }
+    ],
+    "lessons": [
+        {
+            "code": "TC-L01",
+            "title": "People, Places, Continents and Compass Points",
+            "arabic": "النَّاسُ وَالأَمَاكِنُ وَالقَارَّاتُ وَاتِّجَاهَاتُ البُوصَلَةِ",
+            "focus": "Locate, identify and compare places accurately.",
+            "grammar": "Nisba adjectives; prepositions; nominal sentences",
+            "skills": "Listening · Reading"
+        },
+        {
+            "code": "TC-L02",
+            "title": "Landscapes, Nature and Animals",
+            "arabic": "التَّضَارِيسُ وَالطَّبِيعَةُ وَالحَيَوَانَاتُ",
+            "focus": "Describe natural settings and explain relationships within them.",
+            "grammar": "Adjective agreement; relative clauses; idāfa",
+            "skills": "Reading · Writing"
+        },
+        {
+            "code": "TC-L03",
+            "title": "Climate, Seasons and Weather",
+            "arabic": "المُنَاخُ وَالفُصُولُ وَالطَّقْسُ",
+            "focus": "Understand forecasts and compare climate across regions and seasons.",
+            "grammar": "Weather expressions; comparatives; time frames",
+            "skills": "Listening · Speaking"
+        },
+        {
+            "code": "TC-L04",
+            "title": "Environmental Problems and Their Causes",
+            "arabic": "المُشْكِلَاتُ البِيئِيَّةُ وَأَسْبَابُهَا",
+            "focus": "Explain pollution, climate change and habitat loss through cause and effect.",
+            "grammar": "Passive voice; cause\/effect connectors",
+            "skills": "Reading · Writing"
+        },
+        {
+            "code": "TC-L05",
+            "title": "Environmental Solutions and Responsibility",
+            "arabic": "الحُلُولُ البِيئِيَّةُ وَالمَسْؤُولِيَّةُ",
+            "focus": "Propose, justify and evaluate practical environmental action.",
+            "grammar": "Advice; subjunctive after أن\/لكي; conditionals",
+            "skills": "Speaking · Writing"
+        },
+        {
+            "code": "TC-L06",
+            "title": "The Digital World and Communication",
+            "arabic": "العَالَمُ الرَّقْمِيُّ وَالتَّوَاصُلُ",
+            "focus": "Discuss devices, platforms, benefits, risks and patterns of use.",
+            "grammar": "Verbal nouns; object pronouns; contrast",
+            "skills": "Listening · Speaking"
+        },
+        {
+            "code": "TC-L07",
+            "title": "Documents, Texts and Digital Information",
+            "arabic": "الوَثَائِقُ وَالنُّصُوصُ وَالمَعْلُومَاتُ الرَّقْمِيَّةُ",
+            "focus": "Interpret messages, forms, webpages and instructions critically.",
+            "grammar": "Imperatives; passive; relative pronouns",
+            "skills": "Reading · Writing"
+        },
+        {
+            "code": "TC-L08",
+            "title": "Buildings, Services and Urban Areas",
+            "arabic": "المَبَانِي وَالخَدَمَاتُ وَالمَنَاطِقُ الحَضَرِيَّةُ",
+            "focus": "Describe a town and evaluate the availability and quality of services.",
+            "grammar": "يوجد\/توجد; locatives; comparatives",
+            "skills": "Listening · Speaking"
+        },
+        {
+            "code": "TC-L09",
+            "title": "Shopping, Prices and Consumer Choices",
+            "arabic": "التَّسَوُّقُ وَالأَسْعَارُ وَخِيَارَاتُ المُسْتَهْلِكِ",
+            "focus": "Understand adverts and transactions, compare products and resolve problems.",
+            "grammar": "Numbers; demonstratives; attached pronouns",
+            "skills": "Listening · Reading · Speaking"
+        },
+        {
+            "code": "TC-L10",
+            "title": "Measurements, Shapes and Materials",
+            "arabic": "القِيَاسَاتُ وَالأَشْكَالُ وَالمَوَادُّ",
+            "focus": "Describe size, form, composition, use and suitability precisely.",
+            "grammar": "Measurement expressions; agreement; passive participles",
+            "skills": "Reading · Writing"
+        },
+        {
+            "code": "TC-L11",
+            "title": "Topic C Integrated Communication Workshop",
+            "arabic": "وَرْشَةُ التَّوَاصُلِ المُتَكَامِلِ لِلْمِحْوَرِ ج",
+            "focus": "Connect environmental, technological and urban issues across all four skills.",
+            "grammar": "Mixed tenses; cohesion; balanced opinion",
+            "skills": "All four skills"
+        },
+        {
+            "code": "TC-L12",
+            "title": "Topic C Review and Four-Skills Assessment",
+            "arabic": "مُرَاجَعَةُ المِحْوَرِ ج وَتَقْيِيمُ المَهَارَاتِ الأَرْبَعِ",
+            "focus": "Assess knowledge, inference, communication and accuracy across Topic C.",
+            "grammar": "Cumulative Topic C grammar",
+            "skills": "All four skills"
+        }
+    ]
+}

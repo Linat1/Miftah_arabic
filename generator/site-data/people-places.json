@@ -1,0 +1,29 @@
+{
+  "topic_area": { "code": "C", "en": "The World Around Us", "ar": "العَالَمُ مِنْ حَوْلِنَا" },
+  "subtopic": { "code": "C1", "en": "People & Places", "ar": "النَّاسُ وَالأَمَاكِنُ" },
+  "source": "Miftah vocabulary source, The World Around Us sections 01–03 (continents, countries/nationalities/languages, compass directions).",
+  "groups": [
+    { "key": "continents", "en": "Continents", "ar": "القَارَّاتُ" },
+    { "key": "directions", "en": "Compass directions", "ar": "اتِّجَاهَاتُ البُوصَلَةِ" },
+    { "key": "identity", "en": "Countries, nationalities & languages", "ar": "البُلْدَانُ وَالجِنْسِيَّاتُ وَاللُّغَاتُ" }
+  ],
+  "items": [
+    { "id": "asia", "ar": "آسِيَا", "en": "Asia", "pos": "noun", "gender": "f", "group": "continents", "example": "تَضُمُّ آسِيَا الصِّينَ وَاليَابَانَ وَالهِنْدَ.", "example_en": "Asia includes China, Japan and India." },
+    { "id": "africa", "ar": "أَفْرِيقِيَا", "en": "Africa", "pos": "noun", "gender": "f", "group": "continents" },
+    { "id": "antarctica", "ar": "القَارَّةُ القُطْبِيَّةُ الجَنُوبِيَّةُ", "en": "Antarctica", "pos": "noun", "gender": "f", "group": "continents" },
+    { "id": "namerica", "ar": "أَمْرِيكَا الشَّمَالِيَّةُ", "en": "North America", "pos": "noun", "gender": "f", "group": "continents" },
+    { "id": "samerica", "ar": "أَمْرِيكَا الجَنُوبِيَّةُ", "en": "South America", "pos": "noun", "gender": "f", "group": "continents" },
+    { "id": "europe", "ar": "أُورُوبَّا", "en": "Europe", "pos": "noun", "gender": "f", "group": "continents" },
+    { "id": "australia", "ar": "أُسْتُرَالِيَا", "en": "Australia (continent)", "pos": "noun", "gender": "f", "group": "continents" },
+
+    { "id": "north", "ar": "شَمَال", "en": "north", "pos": "noun", "gender": "m", "group": "directions", "example": "تُشِيرُ إِبْرَةُ البُوصَلَةِ نَحْوَ الشَّمَالِ.", "example_en": "The compass needle points north." },
+    { "id": "south", "ar": "جَنُوب", "en": "south", "pos": "noun", "gender": "m", "group": "directions" },
+    { "id": "east", "ar": "شَرْق", "en": "east", "pos": "noun", "gender": "m", "group": "directions", "note": "تُشْرِقُ الشَّمْسُ مِنَ الشَّرْقِ = the sun rises in the east" },
+    { "id": "west", "ar": "غَرْب", "en": "west", "pos": "noun", "gender": "m", "group": "directions" },
+
+    { "id": "language", "ar": "لُغَة", "en": "language", "pos": "noun", "gender": "f", "group": "identity", "plural": "لُغَات", "support": true },
+    { "id": "nationality", "ar": "جِنْسِيَّة", "en": "nationality", "pos": "noun", "gender": "f", "group": "identity", "plural": "جِنْسِيَّات", "support": true },
+    { "id": "country", "ar": "بَلَد", "en": "country", "pos": "noun", "gender": "m", "group": "identity", "plural": "بُلْدَان", "support": true },
+    { "id": "homeland", "ar": "وَطَن", "en": "homeland, home country", "pos": "noun", "gender": "m", "group": "identity", "plural": "أَوْطَان", "support": true }
+  ]
+}

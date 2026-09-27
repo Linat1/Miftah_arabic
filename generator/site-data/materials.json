@@ -1,0 +1,28 @@
+{
+  "topic_area": { "code": "C", "en": "The World Around Us", "ar": "العَالَمُ مِنْ حَوْلِنَا" },
+  "subtopic": { "code": "C6", "en": "Materials", "ar": "المَوَادُّ" },
+  "source": "Miftah vocabulary source, The World Around Us section 18 (materials).",
+  "groups": [
+    { "key": "wood_stone", "en": "Wood & stone", "ar": "الخَشَبُ وَالحَجَرُ" },
+    { "key": "metals", "en": "Metals", "ar": "المَعَادِنُ" },
+    { "key": "manufactured", "en": "Glass, plastic & paper", "ar": "الزُّجَاجُ وَالبِلَاسْتِيكُ وَالوَرَقُ" },
+    { "key": "fabrics", "en": "Fabrics & clothing materials", "ar": "الأَقْمِشَةُ وَخَامَاتُ المَلَابِسِ" }
+  ],
+  "items": [
+    { "id": "wood", "ar": "خَشَب", "en": "wood", "pos": "noun", "gender": "m", "group": "wood_stone", "example": "تُصْنَعُ الطَّاوِلَةُ مِنَ الخَشَبِ.", "example_en": "The table is made of wood." },
+    { "id": "stone", "ar": "حَجَر", "en": "stone", "pos": "noun", "gender": "m", "group": "wood_stone", "plural": "حِجَارَة" },
+
+    { "id": "iron", "ar": "حَدِيد", "en": "iron", "pos": "noun", "gender": "m", "group": "metals" },
+    { "id": "gold", "ar": "ذَهَب", "en": "gold", "pos": "noun", "gender": "m", "group": "metals" },
+    { "id": "silver", "ar": "فِضَّة", "en": "silver", "pos": "noun", "gender": "f", "group": "metals" },
+
+    { "id": "glass", "ar": "زُجَاج", "en": "glass", "pos": "noun", "gender": "m", "group": "manufactured" },
+    { "id": "plastic", "ar": "بِلَاسْتِيك", "en": "plastic", "pos": "noun", "gender": "m", "group": "manufactured" },
+    { "id": "paper", "ar": "وَرَق", "en": "paper", "pos": "noun", "gender": "m", "group": "manufactured" },
+
+    { "id": "cotton", "ar": "قُطْن", "en": "cotton", "pos": "noun", "gender": "m", "group": "fabrics" },
+    { "id": "wool", "ar": "صُوف", "en": "wool", "pos": "noun", "gender": "m", "group": "fabrics" },
+    { "id": "silk", "ar": "حَرِير", "en": "silk", "pos": "noun", "gender": "m", "group": "fabrics" },
+    { "id": "leather", "ar": "جِلْد", "en": "leather", "pos": "noun", "gender": "m", "group": "fabrics", "plural": "جُلُود" }
+  ]
+}
