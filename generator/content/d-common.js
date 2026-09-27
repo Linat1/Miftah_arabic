@@ -21,10 +21,12 @@ const UNITS = {
   P3: { title: 'Travel and Transport' },
 };
 const PATHWAY = { F: 'Foundation', D: 'Development', P: 'Progression' };
-const meta = (unit) => C.unitMeta({
-  code: unit, kicker: `YEAR 8  ·  DEVELOPMENT ${unit}`, name: `Development ${unit} · ${UNITS[unit].title}`,
-  level: 'Development · A2 → B1', site: `Pathways › Development › ${unit}`, footer: `Development ${unit} · ${UNITS[unit].title}`,
-});
+const YEAR = { F: 'YEAR 7', D: 'YEAR 8', P: 'YEAR 9' };
+const LEVEL = { F: 'Foundation · A1', D: 'Development · A2 → B1', P: 'Progression · B1 → B2' };
+const meta = (unit) => { const p = PATHWAY[unit[0]]; return C.unitMeta({
+  code: unit, kicker: `${YEAR[unit[0]]}  ·  ${p.toUpperCase()} ${unit}`, name: `${p} ${unit} · ${UNITS[unit].title}`,
+  level: LEVEL[unit[0]], site: `Pathways › ${p} › ${unit}`, footer: `${p} ${unit} · ${UNITS[unit].title}`,
+}); };
 const site = (code) => {
   const unit = code.slice(0, 2).toLowerCase();
   const l = require(`../site-data/${unit}-content.json`).lessons.find((x) => x.code === code);
@@ -69,7 +71,7 @@ function devLesson(code, x) {
   // x.patch: teacher replacements where a website section is a generic placeholder (D2-L02 onwards: listening / reading
   // questions, pattern translations, sorter, some mistakes). Scripts and texts always stay the website's.
   const raw = site(code); const pt = x.patch || {};
-  const s = { ...raw, ...pt, listening: { ...raw.listening, ...(pt.listening || {}) }, reading: { ...raw.reading, ...(pt.reading || {}) } };
+  const s = { ...raw, ...pt, listening: { ...raw.listening, ...(pt.listening || {}) }, reading: { ...raw.reading, ...(pt.reading || {}) }, differentiation: { ...raw.differentiation, ...(x.diff || {}) } };
   const G = s.grammar; const unit = code.slice(0, 2);
   const game = games[code.toLowerCase()];
   const slides = [];
