@@ -1,0 +1,551 @@
+{
+  "listening": {
+    "one": {
+      "script": "فِي الطُّفُولَةِ كُنْتُ أَلْعَبُ كُرَةَ الطَّائِرَةِ فِي نَادِي الحَيِّ، وَكَانَ مُدَرِّبِي يُشَجِّعُنِي كَثِيرًا. أَمَّا الآنَ فَأَتَدَرَّبُ عَادَةً ثَلَاثَ مَرَّاتٍ فِي الأُسْبُوعِ. وَفِي العَامِ المَاضِي فُزْتُ بِالمِيدَالِيَةِ البُرُونْزِيَّةِ فِي بُطُولَةِ المَدَارِسِ، وَكَانَ ذٰلِكَ أَجْمَلَ إِنْجَازٍ لِي. وَالشَّهْرَ القَادِمَ سَأُشَارِكُ فِي بُطُولَةٍ إِقْلِيمِيَّةٍ. فِي رَأْيِي الرِّيَاضَةُ تُعَلِّمُ الصَّبْرَ. وَالأُسْبُوعَ المَاضِيَ حَضَرْتُ حَفْلَةً مُوسِيقِيَّةً تُرَاثِيَّةً مَعَ أُسْرَتِي، وَأُعْجَبْتُ بِعَازِفِ العُودِ لِأَنَّهُ مُتَوَاضِعٌ وَمُجْتَهِدٌ.",
+      "questions": [
+        {
+          "prompt": "Text 1: Which sport did the speaker play in childhood?",
+          "options": [
+            "Volleyball",
+            "Handball",
+            "Basketball"
+          ],
+          "answer": 0,
+          "feedback": "كُنْتُ أَلْعَبُ كُرَةَ الطَّائِرَةِ فِي نَادِي الحَيِّ."
+        },
+        {
+          "prompt": "Text 1: How often does the speaker train now?",
+          "options": [
+            "Three times a week",
+            "Twice a week",
+            "Every day"
+          ],
+          "answer": 0,
+          "feedback": "أَمَّا الآنَ فَأَتَدَرَّبُ عَادَةً ثَلَاثَ مَرَّاتٍ فِي الأُسْبُوعِ."
+        },
+        {
+          "prompt": "Text 1: When is the next competition?",
+          "options": [
+            "Next month",
+            "Next week",
+            "Last month"
+          ],
+          "answer": 0,
+          "feedback": "وَالشَّهْرَ القَادِمَ سَأُشَارِكُ فِي بُطُولَةٍ إِقْلِيمِيَّةٍ."
+        },
+        {
+          "prompt": "Text 1: What was the greatest achievement?",
+          "options": [
+            "A bronze medal at the schools championship",
+            "A gold medal at a regional event",
+            "Captaincy of the team"
+          ],
+          "answer": 0,
+          "feedback": "فُزْتُ بِالمِيدَالِيَةِ البُرُونْزِيَّةِ فِي بُطُولَةِ المَدَارِسِ."
+        },
+        {
+          "prompt": "Text 1: What is the speaker's opinion of sport?",
+          "options": [
+            "It teaches patience",
+            "It is too expensive",
+            "It takes too much time"
+          ],
+          "answer": 0,
+          "feedback": "فِي رَأْيِي الرِّيَاضَةُ تُعَلِّمُ الصَّبْرَ."
+        },
+        {
+          "prompt": "Text 1: What did the speaker do last week?",
+          "options": [
+            "Attended a heritage concert",
+            "Won a match",
+            "Started a new sport"
+          ],
+          "answer": 0,
+          "feedback": "وَالأُسْبُوعَ المَاضِيَ حَضَرْتُ حَفْلَةً مُوسِيقِيَّةً تُرَاثِيَّةً."
+        },
+        {
+          "prompt": "Text 1: Whom does the speaker admire, and why?",
+          "options": [
+            "The oud player, for being modest and hard-working",
+            "The coach, for being strict",
+            "A teammate, for being fast"
+          ],
+          "answer": 0,
+          "feedback": "أُعْجِبْتُ بِعَازِفِ العُودِ لِأَنَّهُ مُتَوَاضِعٌ وَمُجْتَهِدٌ."
+        },
+        {
+          "prompt": "Text 1: Which cultural activity is mentioned?",
+          "options": [
+            "A traditional music concert",
+            "A calligraphy exhibition",
+            "A theatre play"
+          ],
+          "answer": 0,
+          "feedback": "حَفْلَةً مُوسِيقِيَّةً تُرَاثِيَّةً is the cultural activity named."
+        }
+      ]
+    },
+    "two": {
+      "script": "سَامِي: فِي الصَّيْفِ المَاضِي سَافَرْتُ إِلَى مَدِينَةٍ سَاحِلِيَّةٍ وَأَقَمْتُ فِي فُنْدُقٍ صَغِيرٍ. لَيْلَى: وَأَنَا حَجَزْتُ رِحْلَةً جَبَلِيَّةً، وَمَشَيْنَا سَاعَتَيْنِ حَتَّى وَصَلْنَا إِلَى القِمَّةِ. سَامِي: اسْتَمْتَعْتُ بِالشَّاطِئِ كَثِيرًا، وَاكْتَشَفْتُ سُوقًا قَدِيمًا. لَيْلَى: أَنَا أَيْضًا اسْتَمْتَعْتُ بِالرِّحْلَةِ، وَلٰكِنْ لِلْأَسَفِ نَسِيتُ الكَامِيرَا فِي الفُنْدُقِ. سَامِي: وَأَنَا نَسِيتُ حَقِيبَتِي فِي المَحَطَّةِ! لِحُسْنِ الحَظِّ وَجَدْتُهَا. لَيْلَى: فِي المُسْتَقْبَلِ سَأَعُودُ إِلَى الجَبَلِ مَرَّةً أُخْرَى. سَامِي: وَأَنَا سَأَعُودُ إِلَى الشَّاطِئِ.",
+      "questions": [
+        {
+          "prompt": "Text 2: Who stayed in a small hotel?",
+          "options": [
+            "Sami",
+            "Layla",
+            "Both"
+          ],
+          "answer": 0,
+          "feedback": "سَامِي: أَقَمْتُ فِي فُنْدُقٍ صَغِيرٍ."
+        },
+        {
+          "prompt": "Text 2: Who booked a mountain trip?",
+          "options": [
+            "Layla",
+            "Sami",
+            "Both"
+          ],
+          "answer": 0,
+          "feedback": "لَيْلَى: حَجَزْتُ رِحْلَةً جَبَلِيَّةً."
+        },
+        {
+          "prompt": "Text 2: Who discovered an old market?",
+          "options": [
+            "Sami",
+            "Layla",
+            "Both"
+          ],
+          "answer": 0,
+          "feedback": "سَامِي: اكْتَشَفْتُ سُوقًا قَدِيمًا."
+        },
+        {
+          "prompt": "Text 2: Who said they enjoyed the trip?",
+          "options": [
+            "Both",
+            "Sami only",
+            "Layla only"
+          ],
+          "answer": 0,
+          "feedback": "Sami says اسْتَمْتَعْتُ بِالشَّاطِئِ and Layla says اسْتَمْتَعْتُ بِالرِّحْلَةِ."
+        },
+        {
+          "prompt": "Text 2: Who forgot something?",
+          "options": [
+            "Both",
+            "Layla only",
+            "Sami only"
+          ],
+          "answer": 0,
+          "feedback": "Layla forgot the camera; Sami forgot his suitcase."
+        },
+        {
+          "prompt": "Text 2: Who plans to return?",
+          "options": [
+            "Both",
+            "Sami only",
+            "Layla only"
+          ],
+          "answer": 0,
+          "feedback": "Both close with سَأَعُودُ — to the mountain and to the beach."
+        }
+      ]
+    },
+    "three": {
+      "script": "فِي الأُسْبُوعِ المَاضِي نَظَّمَ المَرْكَزُ الثَّقَافِيُّ أُمْسِيَةً مُوسِيقِيَّةً. عَزَفَتْ فِرْقَةٌ صَغِيرَةٌ عَلَى العُودِ وَالنَّايِ وَالقَانُونِ، وَعَبَّرَتِ المُوسِيقَى عَنْ تُرَاثٍ طَوِيلٍ. حَضَرَ أَكْثَرُ مِنْ مِئَتَيْ شَخْصٍ، وَأَثَّرَتِ الأُمْسِيَةُ فِي الجُمْهُورِ كَثِيرًا. وَبَعْدَ الحَفْلَةِ افْتَتَحَ المَرْكَزُ مَعْرِضًا لِلْخَطِّ العَرَبِيِّ، وَأَلْهَمَتِ الزَّخْرَفَةُ عَدَدًا مِنَ الطُّلَّابِ. وَفِي بَعْضِ المَدَارِسِ يَتَعَلَّمُ الأَطْفَالُ هٰذِهِ الآلَاتِ، وَلٰكِنْ لَيْسَ دَائِمًا؛ فَالأَذْوَاقُ تَخْتَلِفُ.",
+      "questions": [
+        {
+          "prompt": "Text 3: Select a correct statement — the ensemble.",
+          "options": [
+            "A small ensemble played oud, nay and qanun.",
+            "A large orchestra played violins only.",
+            "A soloist played the piano."
+          ],
+          "answer": 0,
+          "feedback": "عَزَفَتْ فِرْقَةٌ صَغِيرَةٌ عَلَى العُودِ وَالنَّايِ وَالقَانُونِ."
+        },
+        {
+          "prompt": "Text 3: Select a correct statement — the audience.",
+          "options": [
+            "More than two hundred people attended.",
+            "Fewer than fifty attended.",
+            "The event was cancelled."
+          ],
+          "answer": 0,
+          "feedback": "حَضَرَ أَكْثَرُ مِنْ مِئَتَيْ شَخْصٍ."
+        },
+        {
+          "prompt": "Text 3: Select a correct statement — after the concert.",
+          "options": [
+            "A calligraphy exhibition opened.",
+            "A sports match began.",
+            "The centre closed for repairs."
+          ],
+          "answer": 0,
+          "feedback": "افْتَتَحَ المَرْكَزُ مَعْرِضًا لِلْخَطِّ العَرَبِيِّ."
+        },
+        {
+          "prompt": "Text 3: Select a correct statement — the effect.",
+          "options": [
+            "The ornamentation inspired a number of students.",
+            "The students were bored.",
+            "No one stayed for the exhibition."
+          ],
+          "answer": 0,
+          "feedback": "أَلْهَمَتِ الزَّخْرَفَةُ عَدَدًا مِنَ الطُّلَّابِ."
+        },
+        {
+          "prompt": "Text 3: Select a correct statement — what music expressed.",
+          "options": [
+            "A long heritage.",
+            "A modern political message.",
+            "A personal complaint."
+          ],
+          "answer": 0,
+          "feedback": "عَبَّرَتِ المُوسِيقَى عَنْ تُرَاثٍ طَوِيلٍ."
+        },
+        {
+          "prompt": "Text 3: How is the closing claim qualified?",
+          "options": [
+            "Children learn these instruments in some schools, but not always.",
+            "All children learn these instruments.",
+            "No children learn these instruments."
+          ],
+          "answer": 0,
+          "feedback": "فِي بَعْضِ المَدَارِسِ … وَلٰكِنْ لَيْسَ دَائِمًا؛ فَالأَذْوَاقُ تَخْتَلِفُ."
+        }
+      ]
+    }
+  },
+  "reading": {
+    "text": "فِي الطُّفُولَةِ كُنْتُ أَلْعَبُ كُرَةَ السَّلَّةِ فِي الشَّارِعِ مَعَ أَصْدِقَائِي كُلَّ مَسَاءٍ، وَكَانَ أَخِي الأَكْبَرُ يُشَجِّعُنِي دَائِمًا. وَفِي العَامِ المَاضِي اشْتَرَكْتُ فِي نَادٍ قَرِيبٍ وَتَدَرَّبْتُ ثَلَاثَ مَرَّاتٍ فِي الأُسْبُوعِ. فَجْأَةً أُصِبْتُ فِي كَتِفِي، وَلِلْأَسَفِ تَوَقَّفْتُ شَهْرًا كَامِلًا. وَلٰكِنْ لِحُسْنِ الحَظِّ عُدْتُ بَعْدَ ذٰلِكَ أَقْوَى، وَفُزْنَا بِالمَرْكَزِ الثَّانِي فِي بُطُولَةِ المَدَارِسِ. أَمَّا الآنَ فَأُمَارِسُ السِّبَاحَةَ مَرَّتَيْنِ فِي الأُسْبُوعِ، وَأَسْتَمْتِعُ بِهَا أَكْثَرَ مِنَ الجَرْيِ. وَفِي المُسْتَقْبَلِ سَأَشْتَرِكُ فِي بُطُولَةٍ جَدِيدَةٍ، وَأَنْوِي أَنْ أَتَعَلَّمَ العَزْفَ عَلَى العُودِ. بِصَرَاحَةٍ، كَانَتْ تِلْكَ السَّنَةُ مِنْ أَجْمَلِ سَنَوَاتِ حَيَاتِي.",
+    "questions": [
+      {
+        "prompt": "R1: What is the writer's main current hobby?",
+        "options": [
+          "Swimming",
+          "Basketball",
+          "Playing the oud"
+        ],
+        "answer": 0,
+        "feedback": "أَمَّا الآنَ فَأُمَارِسُ السِّبَاحَةَ مَرَّتَيْنِ فِي الأُسْبُوعِ."
+      },
+      {
+        "prompt": "R2: What happened last year?",
+        "options": [
+          "Joined a nearby club and trained three times a week",
+          "Moved to another city",
+          "Stopped all sport"
+        ],
+        "answer": 0,
+        "feedback": "فِي العَامِ المَاضِي اشْتَرَكْتُ فِي نَادٍ قَرِيبٍ وَتَدَرَّبْتُ ثَلَاثَ مَرَّاتٍ فِي الأُسْبُوعِ."
+      },
+      {
+        "prompt": "R2: Why did the writer stop for a month?",
+        "options": [
+          "A shoulder injury",
+          "Examinations",
+          "A family trip"
+        ],
+        "answer": 0,
+        "feedback": "فَجْأَةً أُصِبْتُ فِي كَتِفِي."
+      },
+      {
+        "prompt": "R3: How do you know the year ended positively? Choose the best evidence.",
+        "options": [
+          "كَانَتْ تِلْكَ السَّنَةُ مِنْ أَجْمَلِ سَنَوَاتِ حَيَاتِي",
+          "فَجْأَةً أُصِبْتُ فِي كَتِفِي",
+          "تَوَقَّفْتُ شَهْرًا كَامِلًا"
+        ],
+        "answer": 0,
+        "feedback": "The closing evaluation states directly that it was one of the finest years."
+      },
+      {
+        "prompt": "R3: Which phrase shows the setback was overcome?",
+        "options": [
+          "لِحُسْنِ الحَظِّ عُدْتُ بَعْدَ ذٰلِكَ أَقْوَى",
+          "لِلْأَسَفِ تَوَقَّفْتُ شَهْرًا",
+          "أُصِبْتُ فِي كَتِفِي"
+        ],
+        "answer": 0,
+        "feedback": "لِحُسْنِ الحَظِّ introduces the recovery."
+      },
+      {
+        "prompt": "R4 gap-fill: وَفِي المُسْتَقْبَلِ ___ فِي بُطُولَةٍ جَدِيدَةٍ.",
+        "options": [
+          "سَأَشْتَرِكُ",
+          "اشْتَرَكْتُ",
+          "كُنْتُ أَشْتَرِكُ"
+        ],
+        "answer": 0,
+        "feedback": "فِي المُسْتَقْبَلِ requires سَـ with a present verb."
+      },
+      {
+        "prompt": "R2: How often did the writer train at the club?",
+        "options": [
+          "Three times a week",
+          "Twice a week",
+          "Every evening"
+        ],
+        "answer": 0,
+        "feedback": "تَدَرَّبْتُ ثَلَاثَ مَرَّاتٍ فِي الأُسْبُوعِ."
+      },
+      {
+        "prompt": "R1: Who encouraged the writer in childhood?",
+        "options": [
+          "The older brother",
+          "The coach",
+          "A school friend"
+        ],
+        "answer": 0,
+        "feedback": "كَانَ أَخِي الأَكْبَرُ يُشَجِّعُنِي دَائِمًا."
+      },
+      {
+        "prompt": "R2: What result did the team achieve?",
+        "options": [
+          "Second place in the schools championship",
+          "First place",
+          "They did not qualify"
+        ],
+        "answer": 0,
+        "feedback": "فُزْنَا بِالمَرْكَزِ الثَّانِي فِي بُطُولَةِ المَدَارِسِ."
+      },
+      {
+        "prompt": "R3: Which does the writer prefer now?",
+        "options": [
+          "Swimming over running",
+          "Running over swimming",
+          "Basketball over swimming"
+        ],
+        "answer": 0,
+        "feedback": "أَسْتَمْتِعُ بِهَا أَكْثَرَ مِنَ الجَرْيِ."
+      }
+    ]
+  },
+  "writing_form": [
+    [
+      "هِوَايَتِي المُفَضَّلَةُ مَعَ الفِعْلِ الصَّحِيحِ",
+      "Favourite hobby with its correct collocation verb"
+    ],
+    [
+      "الرِّيَاضَةُ الَّتِي أُمَارِسُهَا",
+      "The sport you play"
+    ],
+    [
+      "وِجْهَةُ إِجَازَتِي الأَخِيرَةِ (اِسْتَعْمِلْ حَجَزَ أَوْ أَقَامَ)",
+      "Last holiday destination — use حَجَزَ or أَقَامَ"
+    ],
+    [
+      "نَشَاطٌ ثَقَافِيٌّ حَضَرْتُهُ",
+      "A cultural activity you attended"
+    ],
+    [
+      "خُطَّتِي التَّرْفِيهِيَّةُ القَادِمَةُ",
+      "Your next leisure plan"
+    ]
+  ],
+  "roleplay": [
+    [
+      "اِسْأَلْ عَنِ الأَنْشِطَةِ المُتَوَفِّرَةِ فِي المَرْكَزِ.",
+      "Ask what activities are available — present tense."
+    ],
+    [
+      "اِسْأَلْ عَنْ أَوْقَاتِ العَمَلِ.",
+      "Ask about opening times — present tense."
+    ],
+    [
+      "قُلْ مَاذَا فَعَلْتَ هُنَا فِي المَرَّةِ المَاضِيَةِ.",
+      "Say what you did here last time — past tense; suffix accuracy assessed."
+    ],
+    [
+      "قُلْ مَاذَا تَنْوِي أَنْ تَفْعَلَ فِي المَرَّةِ القَادِمَةِ.",
+      "Say what you plan to do next time — future."
+    ]
+  ],
+  "topic": [
+    [
+      "مَا هِوَايَتُكَ المُفَضَّلَةُ وَكَيْفَ بَدَأْتَ بِهَا؟",
+      "Past required."
+    ],
+    [
+      "صِفْ تَجْرِبَةً رِيَاضِيَّةً مَرَرْتَ بِهَا.",
+      "Past narrative required."
+    ],
+    [
+      "مَا خُطَطُكَ لِلْإِجَازَةِ القَادِمَةِ؟",
+      "Future required."
+    ]
+  ],
+  "mark_scheme": {
+    "writing_q2": [
+      [
+        "Task Completion",
+        5,
+        [
+          "Hobby or sport described with its correct collocation (1)",
+          "Past experience narrated with at least three events (2)",
+          "Future plan stated (1)",
+          "Opinion given (1)"
+        ]
+      ],
+      [
+        "Range",
+        5,
+        [
+          "Six or more different past-tense verbs (2)",
+          "Future tense with سَـ or سَوْفَ (1)",
+          "A narrative connector such as فَجْأَةً or لِحُسْنِ الحَظِّ (1)",
+          "A كَانَ description or a Form II/IV cultural verb (1)"
+        ]
+      ],
+      [
+        "Accuracy",
+        5,
+        [
+          "Past-tense suffix accuracy across six or more verbs (3)",
+          "Hobby collocation preposition correct (1)",
+          "Adjective and pronoun agreement correct (1)"
+        ]
+      ]
+    ],
+    "speaking": [
+      [
+        "Role play",
+        4,
+        [
+          "Communication (2)",
+          "Accuracy, with the past-tense suffix in prompt 3 (2)"
+        ]
+      ],
+      [
+        "Topic conversation",
+        6,
+        [
+          "Communication (3)",
+          "Quality of language: past suffix accuracy, collocation, tense variety (3)"
+        ]
+      ]
+    ]
+  },
+  "grammar": [
+    {
+      "prompt": "Past tense: choose the accurate أَنَا form of لَعِبَ.",
+      "options": [
+        "لَعِبْتُ",
+        "لَعِبْتَ",
+        "لَعِبَتْ"
+      ],
+      "answer": 0,
+      "feedback": "The أَنَا suffix is ـْتُ with a ḍamma."
+    },
+    {
+      "prompt": "Past tense: choose the accurate هِيَ form of رَسَمَ.",
+      "options": [
+        "رَسَمَتْ",
+        "رَسَمْتُ",
+        "رَسَمْتِ"
+      ],
+      "answer": 0,
+      "feedback": "The هِيَ suffix is ـَتْ, with a sukūn on the tāʾ."
+    },
+    {
+      "prompt": "Past tense: choose the accurate هُمْ form of ذَهَبَ.",
+      "options": [
+        "ذَهَبُوا",
+        "ذَهَبْنَا",
+        "ذَهَبْتُمْ"
+      ],
+      "answer": 0,
+      "feedback": "The هُمْ suffix is ـُوا, whose alif is silent."
+    },
+    {
+      "prompt": "Past tense: choose the accurate نَحْنُ form of شَاهَدَ.",
+      "options": [
+        "شَاهَدْنَا",
+        "شَاهَدُوا",
+        "شَاهَدْتُمْ"
+      ],
+      "answer": 0,
+      "feedback": "The نَحْنُ suffix is ـنَا."
+    },
+    {
+      "prompt": "Irregular verbs: choose the accurate نَحْنُ form of قَالَ.",
+      "options": [
+        "قُلْنَا",
+        "قَالْنَا",
+        "قِلْنَا"
+      ],
+      "answer": 0,
+      "feedback": "A hollow verb shortens its middle vowel before a consonant suffix."
+    },
+    {
+      "prompt": "Irregular verbs: choose the accurate أَنَا form of زَارَ.",
+      "options": [
+        "زُرْتُ",
+        "زَارْتُ",
+        "زِرْتُ"
+      ],
+      "answer": 0,
+      "feedback": "زَارَ belongs to the u family, giving زُرْتُ."
+    },
+    {
+      "prompt": "Irregular verbs: choose the accurate نَحْنُ form of مَشَى.",
+      "options": [
+        "مَشَيْنَا",
+        "مَشَانَا",
+        "مَشَوْنَا"
+      ],
+      "answer": 0,
+      "feedback": "A weak-final verb replaces the alif maqṣūra with yāʾ before the suffix."
+    },
+    {
+      "prompt": "كَانَ: choose the accurate past description.",
+      "options": [
+        "كَانَ الطَّقْسُ جَمِيلًا.",
+        "كَانَ الطَّقْسُ جَمِيلٌ.",
+        "كَانَ الطَّقْسَ جَمِيلًا."
+      ],
+      "answer": 0,
+      "feedback": "The subject of كَانَ stays nominative and its predicate becomes accusative."
+    },
+    {
+      "prompt": "كَانَ: which sentence means “she used to watch”?",
+      "options": [
+        "كَانَتْ تُشَاهِدُ",
+        "كَانَتْ شَاهَدَتْ",
+        "كَانَ تُشَاهِدُ"
+      ],
+      "answer": 0,
+      "feedback": "كَانَ plus a present-tense verb expresses a past habit."
+    },
+    {
+      "prompt": "Collocation: choose the accurate sentence.",
+      "options": [
+        "أُمَارِسُ السِّبَاحَةَ مَرَّتَيْنِ فِي الأُسْبُوعِ.",
+        "أَلْعَبُ السِّبَاحَةَ مَرَّتَيْنِ فِي الأُسْبُوعِ.",
+        "أَعْزِفُ السِّبَاحَةَ مَرَّتَيْنِ فِي الأُسْبُوعِ."
+      ],
+      "answer": 0,
+      "feedback": "An activity noun takes يُمَارِسُ, and the dual adverbial is مَرَّتَيْنِ."
+    },
+    {
+      "prompt": "Prepositions: complete — فَازَ الفَرِيقُ ___ البُطُولَةِ، وَأُعْجِبْتُ ___ تَوَاضُعِهِ.",
+      "options": [
+        "بِـ … بِـ",
+        "عَلَى … بِـ",
+        "بِـ … عَنْ"
+      ],
+      "answer": 0,
+      "feedback": "بِـ introduces the title won, and أُعْجَبُ is fixed with بِـ."
+    },
+    {
+      "prompt": "Narrative and tense: choose the accurate sentence.",
+      "options": [
+        "فَجْأَةً بَدَأَ المَطَرُ، وَفِي المُسْتَقْبَلِ سَأَعُودُ إِلَى الجَبَلِ.",
+        "فَجْأَةً بَدَأَ المَطَرُ، وَفِي المُسْتَقْبَلِ عُدْتُ إِلَى الجَبَلِ.",
+        "فَجْأَةً سَيَبْدَأُ المَطَرُ، وَفِي المُسْتَقْبَلِ عُدْتُ إِلَى الجَبَلِ."
+      ],
+      "answer": 0,
+      "feedback": "The narrative clause stays past and the future clause takes سَـ with a present verb."
+    }
+  ]
+}

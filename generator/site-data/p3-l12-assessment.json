@@ -1,0 +1,551 @@
+{
+  "listening": {
+    "one": {
+      "script": "يَقُولُ المُسَافِرُ: كُنْتُ قَدْ حَجَزْتُ رِحْلَتِي إِلَى الأُرْدُنِّ قَبْلَ شَهْرَيْنِ، وَكُنْتُ قَدْ أَقَمْتُ فِي فُنْدُقٍ صَغِيرٍ فِي عَمَّانَ. قَالَ الدَّلِيلُ إِنَّ أَفْضَلَ وَقْتٍ لِزِيَارَةِ البَتْرَاءِ هُوَ الصَّبَاحُ البَاكِرُ. اسْتَعْمَلْتُ الحَافِلَةَ السِّيَاحِيَّةَ الَّتِي تَصِلُ بَيْنَ المُدُنِ. إِذَا زُرْتُ الأُرْدُنَّ ثَانِيَةً، سَأُخَصِّصُ يَوْمَيْنِ لِلْبَتْرَاءِ. وَلَوْ كُنْتُ قَدْ بَقِيتُ لَيْلَةً إِضَافِيَّةً، لَرَأَيْتُ الخَزْنَةَ تَحْتَ ضَوْءِ الشُّمُوعِ. وَتَسْتَقْطِبُ البَتْرَاءُ نَحْوَ مِلْيُونِ زَائِرٍ سَنَوِيًّا. وَأَرَى أَنَّ السِّيَاحَةَ المُسْتَدَامَةَ ضَرُورَةٌ لِحِمَايَةِ هٰذَا التُّرَاثِ.",
+      "questions": [
+        {
+          "prompt": "What had the traveller done before the trip?",
+          "options": [
+            "Booked the trip and stayed in a small hotel in Amman",
+            "Nothing",
+            "Cancelled the trip"
+          ],
+          "answer": 0,
+          "feedback": "كُنْتُ قَدْ حَجَزْتُ رِحْلَتِي … وَكُنْتُ قَدْ أَقَمْتُ فِي فُنْدُقٍ صَغِيرٍ."
+        },
+        {
+          "prompt": "What did the guide say about visiting Petra?",
+          "options": [
+            "Early morning is the best time",
+            "Night is the only time",
+            "It is always closed"
+          ],
+          "answer": 0,
+          "feedback": "قَالَ الدَّلِيلُ إِنَّ أَفْضَلَ وَقْتٍ … هُوَ الصَّبَاحُ البَاكِرُ."
+        },
+        {
+          "prompt": "What transport did they use?",
+          "options": [
+            "The tourist coach between cities",
+            "A private car only",
+            "A cruise ship"
+          ],
+          "answer": 0,
+          "feedback": "اسْتَعْمَلْتُ الحَافِلَةَ السِّيَاحِيَّةَ الَّتِي تَصِلُ بَيْنَ المُدُنِ."
+        },
+        {
+          "prompt": "What is the Type 1 plan for next time?",
+          "options": [
+            "Devote two days to Petra",
+            "Skip Petra",
+            "Never return"
+          ],
+          "answer": 0,
+          "feedback": "إِذَا زُرْتُ الأُرْدُنَّ ثَانِيَةً، سَأُخَصِّصُ يَوْمَيْنِ لِلْبَتْرَاءِ."
+        },
+        {
+          "prompt": "What is the Type 2 regret?",
+          "options": [
+            "Had they stayed an extra night, they would have seen the Treasury by candlelight",
+            "Staying makes no difference",
+            "They refused to stay"
+          ],
+          "answer": 0,
+          "feedback": "لَوْ كُنْتُ قَدْ بَقِيتُ لَيْلَةً إِضَافِيَّةً، لَرَأَيْتُ الخَزْنَةَ تَحْتَ ضَوْءِ الشُّمُوعِ."
+        },
+        {
+          "prompt": "How many visitors does Petra attract yearly?",
+          "options": [
+            "About a million",
+            "About a thousand",
+            "About a hundred"
+          ],
+          "answer": 0,
+          "feedback": "تَسْتَقْطِبُ البَتْرَاءُ نَحْوَ مِلْيُونِ زَائِرٍ سَنَوِيًّا."
+        },
+        {
+          "prompt": "Where had the traveller stayed?",
+          "options": [
+            "In a small hotel in Amman",
+            "In a luxury resort",
+            "With relatives"
+          ],
+          "answer": 0,
+          "feedback": "كُنْتُ قَدْ أَقَمْتُ فِي فُنْدُقٍ صَغِيرٍ فِي عَمَّانَ."
+        },
+        {
+          "prompt": "What is the traveller's own view on sustainable tourism?",
+          "options": [
+            "It is necessary to protect this heritage",
+            "It is unimportant",
+            "It harms heritage"
+          ],
+          "answer": 0,
+          "feedback": "أَرَى أَنَّ السِّيَاحَةَ المُسْتَدَامَةَ ضَرُورَةٌ لِحِمَايَةِ هٰذَا التُّرَاثِ."
+        }
+      ]
+    },
+    "two": {
+      "script": "سَامِي: تُسْهِمُ السِّيَاحَةُ فِي الاِقْتِصَادِ المَحَلِّيِّ وَتُوَفِّرُ فُرَصَ عَمَلٍ. لَيْلَى: أَتَّفِقُ، لٰكِنْ إِذَا لَمْ نُنَظِّمِ الزِّيَارَاتِ، سَيَتَدَهْوَرُ التُّرَاثُ. سَامِي: وَلَوِ اعْتَمَدَتِ الدُّوَلُ نِظَامَ الحِصَصِ مُبَكِّرًا، لَكَانَتِ المَوَاقِعُ أَفْضَلَ حَالًا. لَيْلَى: وَقَالَ خَبِيرٌ إِنَّ مَسْؤُولِيَّةَ السَّائِحِ لَا تَقِلُّ عَنْ سِيَاسَةِ الدَّوْلَةِ. سَامِي: وَيُسْتَحْسَنُ أَنْ يَحْتَرِمَ الزَّائِرُ العَادَاتِ المَحَلِّيَّةَ. لَيْلَى: وَأَنَا أَرَى أَنَّ التَّوْعِيَةَ هِيَ الحَلُّ.",
+      "questions": [
+        {
+          "prompt": "Who says tourism contributes to the local economy?",
+          "options": [
+            "Sami",
+            "Layla",
+            "Both"
+          ],
+          "answer": 0,
+          "feedback": "سَامِي: تُسْهِمُ السِّيَاحَةُ فِي الاِقْتِصَادِ المَحَلِّيِّ."
+        },
+        {
+          "prompt": "Who states the Type 1 concern about unregulated visits?",
+          "options": [
+            "Layla",
+            "Sami",
+            "Both"
+          ],
+          "answer": 0,
+          "feedback": "لَيْلَى: إِذَا لَمْ نُنَظِّمِ الزِّيَارَاتِ، سَيَتَدَهْوَرُ التُّرَاثُ."
+        },
+        {
+          "prompt": "Who makes the Type 2 counterfactual about quotas?",
+          "options": [
+            "Sami",
+            "Layla",
+            "Both"
+          ],
+          "answer": 0,
+          "feedback": "سَامِي: وَلَوِ اعْتَمَدَتِ الدُّوَلُ نِظَامَ الحِصَصِ مُبَكِّرًا، لَكَانَتِ المَوَاقِعُ أَفْضَلَ."
+        },
+        {
+          "prompt": "Who cites an expert on tourist responsibility?",
+          "options": [
+            "Layla",
+            "Sami",
+            "Both"
+          ],
+          "answer": 0,
+          "feedback": "لَيْلَى: قَالَ خَبِيرٌ إِنَّ مَسْؤُولِيَّةَ السَّائِحِ لَا تَقِلُّ."
+        },
+        {
+          "prompt": "Who gives the يُسْتَحْسَنُ أَنْ advice?",
+          "options": [
+            "Sami",
+            "Layla",
+            "Both"
+          ],
+          "answer": 0,
+          "feedback": "سَامِي: وَيُسْتَحْسَنُ أَنْ يَحْتَرِمَ الزَّائِرُ العَادَاتِ المَحَلِّيَّةَ."
+        },
+        {
+          "prompt": "Who says awareness is the solution?",
+          "options": [
+            "Layla",
+            "Sami",
+            "Both"
+          ],
+          "answer": 0,
+          "feedback": "لَيْلَى: وَأَنَا أَرَى أَنَّ التَّوْعِيَةَ هِيَ الحَلُّ."
+        }
+      ]
+    },
+    "three": {
+      "script": "يَقُولُ مَسْؤُولٌ فِي هَيْئَةِ النَّقْلِ: كَانَتِ الهَيْئَةُ قَدْ أَطْلَقَتْ مَشْرُوعَ الخَطِّ الحَدِيدِيِّ السَّرِيعِ قَبْلَ سَنَوَاتٍ. وَأَكَّدَ أَنَّ المَشْرُوعَ قَلَّصَ وَقْتَ السَّفَرِ بَيْنَ المُدُنِ الكُبْرَى. وَأَشَارَ إِلَى أَنَّ القِطَارَ يَصِلُ بَيْنَ العَاصِمَةِ وَالسَّاحِلِ فِي سَاعَتَيْنِ. وَقَالَ إِنَّهُ إِذَا اعْتَمَدْنَا عَلَى النَّقْلِ الكَهْرَبَائِيِّ، سَتَنْخَفِضُ الانْبِعَاثَاتُ. وَاعْتَرَفَ بِأَنَّ البُنْيَةَ التَّحْتِيَّةَ تَحْتَاجُ إِلَى مَزِيدٍ مِنَ الاِسْتِثْمَارِ. وَلَوْ بَدَأَ المَشْرُوعُ مُبَكِّرًا، لَكَانَ الرَّبْطُ أَوْسَعَ اليَوْمَ.",
+      "questions": [
+        {
+          "prompt": "Which statement is supported?",
+          "options": [
+            "The authority had launched the high-speed rail project years earlier",
+            "The project never started",
+            "The project starts next year"
+          ],
+          "answer": 0,
+          "feedback": "كَانَتِ الهَيْئَةُ قَدْ أَطْلَقَتْ مَشْرُوعَ الخَطِّ الحَدِيدِيِّ … قَبْلَ سَنَوَاتٍ."
+        },
+        {
+          "prompt": "Which statement is supported?",
+          "options": [
+            "The project reduced travel time between major cities",
+            "It increased travel time",
+            "It had no effect"
+          ],
+          "answer": 0,
+          "feedback": "أَكَّدَ أَنَّ المَشْرُوعَ قَلَّصَ وَقْتَ السَّفَرِ."
+        },
+        {
+          "prompt": "Which statement is supported?",
+          "options": [
+            "The train connects the capital and the coast in two hours",
+            "It takes a whole day",
+            "It does not reach the coast"
+          ],
+          "answer": 0,
+          "feedback": "يَصِلُ بَيْنَ العَاصِمَةِ وَالسَّاحِلِ فِي سَاعَتَيْنِ."
+        },
+        {
+          "prompt": "Which statement is supported (Type 1)?",
+          "options": [
+            "If they rely on electric transport, emissions will fall",
+            "Electric transport raises emissions",
+            "Emissions cannot fall"
+          ],
+          "answer": 0,
+          "feedback": "إِذَا اعْتَمَدْنَا عَلَى النَّقْلِ الكَهْرَبَائِيِّ، سَتَنْخَفِضُ الانْبِعَاثَاتُ."
+        },
+        {
+          "prompt": "Which statement is supported?",
+          "options": [
+            "The official concedes the infrastructure needs more investment",
+            "Infrastructure is complete",
+            "Investment is unnecessary"
+          ],
+          "answer": 0,
+          "feedback": "اعْتَرَفَ بِأَنَّ البُنْيَةَ التَّحْتِيَّةَ تَحْتَاجُ إِلَى مَزِيدٍ مِنَ الاِسْتِثْمَارِ."
+        },
+        {
+          "prompt": "Which statement is supported (Type 2)?",
+          "options": [
+            "Had the project started earlier, connectivity would be wider today",
+            "Early start makes no difference",
+            "The project cannot expand"
+          ],
+          "answer": 0,
+          "feedback": "لَوْ بَدَأَ المَشْرُوعُ مُبَكِّرًا، لَكَانَ الرَّبْطُ أَوْسَعَ اليَوْمَ."
+        }
+      ]
+    }
+  },
+  "reading": {
+    "text": "تُعَدُّ السِّيَاحَةُ سِلَاحًا ذَا حَدَّيْنِ. فَهِيَ تُسْهِمُ فِي الاِقْتِصَادِ وَتُوَفِّرُ فُرَصَ عَمَلٍ، غَيْرَ أَنَّهَا قَدْ تُلْحِقُ الضَّرَرَ بِالتُّرَاثِ إِذَا لَمْ تُنَظَّمْ. يَقُولُ كَاتِبُ المَقَالِ: «إِذَا احْتَرَمَ السُّيَّاحُ القَوَاعِدَ، سَتَبْقَى المَوَاقِعُ لِلْأَجْيَالِ.» ثُمَّ يُضِيفُ: «لَوِ اهْتَمَّتِ الحُكُومَاتُ بِالتَّنْظِيمِ مُنْذُ البِدَايَةِ، لَمَا تَدَهْوَرَتْ مَوَاقِعُ كَثِيرَةٌ.» وَيُسْتَحْسَنُ أَنْ يَتَعَلَّمَ الزَّائِرُ عَادَاتِ البَلَدِ قَبْلَ وُصُولِهِ. وَقَدْ كَانَ الكَاتِبُ قَدْ زَارَ البَتْرَاءَ، وَأَشَارَ إِلَى أَنَّ التَّنْظِيمَ الجَيِّدَ يَحْمِي جَمَالَهَا. وَالغَرَضُ مِنَ النَّصِّ إِقْنَاعُ القَارِئِ بِالسِّيَاحَةِ المَسْؤُولَةِ.",
+    "questions": [
+      {
+        "prompt": "R1 — What is the writer's main view?",
+        "options": [
+          "Tourism is a double-edged sword",
+          "Tourism is purely good",
+          "Tourism is purely bad"
+        ],
+        "answer": 0,
+        "feedback": "تُعَدُّ السِّيَاحَةُ سِلَاحًا ذَا حَدَّيْنِ."
+      },
+      {
+        "prompt": "R2 — What are the benefits of tourism?",
+        "options": [
+          "It supports the economy and provides jobs",
+          "It only harms",
+          "It has no effect"
+        ],
+        "answer": 0,
+        "feedback": "تُسْهِمُ فِي الاِقْتِصَادِ وَتُوَفِّرُ فُرَصَ عَمَلٍ."
+      },
+      {
+        "prompt": "R2 — What cultural advice does the writer give?",
+        "options": [
+          "Learn the country's customs before arriving",
+          "Avoid customs",
+          "Ignore the country"
+        ],
+        "answer": 0,
+        "feedback": "يُسْتَحْسَنُ أَنْ يَتَعَلَّمَ الزَّائِرُ عَادَاتِ البَلَدِ قَبْلَ وُصُولِهِ."
+      },
+      {
+        "prompt": "R3 — Identify the Type 1 conditional.",
+        "options": [
+          "إِذَا احْتَرَمَ السُّيَّاحُ القَوَاعِدَ، سَتَبْقَى المَوَاقِعُ لِلْأَجْيَالِ",
+          "لَوِ اهْتَمَّتِ الحُكُومَاتُ … لَمَا تَدَهْوَرَتْ",
+          "كَانَ الكَاتِبُ قَدْ زَارَ البَتْرَاءَ"
+        ],
+        "answer": 0,
+        "feedback": "إِذَا … سَـ is the Type 1 conditional."
+      },
+      {
+        "prompt": "R3 — Identify the Type 2 conditional.",
+        "options": [
+          "لَوِ اهْتَمَّتِ الحُكُومَاتُ بِالتَّنْظِيمِ مُنْذُ البِدَايَةِ، لَمَا تَدَهْوَرَتْ مَوَاقِعُ كَثِيرَةٌ",
+          "إِذَا احْتَرَمَ السُّيَّاحُ القَوَاعِدَ، سَتَبْقَى المَوَاقِعُ",
+          "يُسْتَحْسَنُ أَنْ يَتَعَلَّمَ الزَّائِرُ"
+        ],
+        "answer": 0,
+        "feedback": "لَوْ … لَـ is the Type 2 conditional."
+      },
+      {
+        "prompt": "R3 — What argumentative purpose does the Type 2 serve?",
+        "options": [
+          "It implies current regulation was inadequate — an implicit criticism",
+          "It praises current regulation",
+          "It reports a fact"
+        ],
+        "answer": 0,
+        "feedback": "A counterfactual implies the condition was not met, hinting at criticism."
+      },
+      {
+        "prompt": "R3 — Find the past-perfect structure.",
+        "options": [
+          "كَانَ الكَاتِبُ قَدْ زَارَ البَتْرَاءَ",
+          "إِذَا احْتَرَمَ السُّيَّاحُ",
+          "يُسْتَحْسَنُ أَنْ يَتَعَلَّمَ"
+        ],
+        "answer": 0,
+        "feedback": "كَانَ … قَدْ + past is the past perfect."
+      },
+      {
+        "prompt": "R4 — Complete the Type 1 gap: إِذَا احْتَرَمَ السُّيَّاحُ القَوَاعِدَ، ___ المَوَاقِعُ.",
+        "options": [
+          "سَتَبْقَى",
+          "لَبَقِيَتِ",
+          "بَقِيَتِ"
+        ],
+        "answer": 0,
+        "feedback": "A real إِذَا conditional takes a سَـ result."
+      },
+      {
+        "prompt": "R4 — Complete the Type 2 gap: لَوِ اهْتَمَّتِ الحُكُومَاتُ مُبَكِّرًا، ___ المَوَاقِعُ.",
+        "options": [
+          "لَمَا تَدَهْوَرَتِ",
+          "سَتَتَدَهْوَرُ",
+          "تَتَدَهْوَرُ"
+        ],
+        "answer": 0,
+        "feedback": "A counterfactual لَوْ conditional takes a لَـ result (here the negative لَمَا)."
+      },
+      {
+        "prompt": "R4 — What is the purpose of the text?",
+        "options": [
+          "To persuade the reader to practise responsible tourism",
+          "To report the news",
+          "To entertain only"
+        ],
+        "answer": 0,
+        "feedback": "الغَرَضُ مِنَ النَّصِّ إِقْنَاعُ القَارِئِ بِالسِّيَاحَةِ المَسْؤُولَةِ."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "prompt": "Choose the accurate Type 1 conditional.",
+      "options": [
+        "إِذَا زُرْتَ الأُرْدُنَّ، سَتَنْبَهِرُ.",
+        "إِذَا زُرْتَ الأُرْدُنَّ، تَنْبَهِرُ.",
+        "إِذَا تَزُورُ الأُرْدُنَّ، سَتَنْبَهِرُ."
+      ],
+      "answer": 0,
+      "feedback": "إِذَا takes a past-form verb and the result takes سَـ."
+    },
+    {
+      "prompt": "Choose the accurate Type 2 conditional.",
+      "options": [
+        "لَوْ حَجَزْتُ مُبَكِّرًا، لَوَفَّرْتُ المَالَ.",
+        "لَوْ حَجَزْتُ مُبَكِّرًا، وَفَّرْتُ المَالَ.",
+        "لَوْ حَجَزْتُ مُبَكِّرًا، سَأُوَفِّرُ."
+      ],
+      "answer": 0,
+      "feedback": "A Type 2 result takes the لَـ prefix on a past verb."
+    },
+    {
+      "prompt": "Which verb form follows لَوْ?",
+      "options": [
+        "زُرْتُ",
+        "أَزُورُ",
+        "سَأَزُورُ"
+      ],
+      "answer": 0,
+      "feedback": "لَوْ is followed by a past-tense verb."
+    },
+    {
+      "prompt": "Complete the past perfect: ___ حَجَزْتُ الفُنْدُقَ قَبْلَ السَّفَرِ.",
+      "options": [
+        "كُنْتُ قَدْ",
+        "سَـ",
+        "إِذَا"
+      ],
+      "answer": 0,
+      "feedback": "The past perfect is كُنْتُ قَدْ حَجَزْتُ."
+    },
+    {
+      "prompt": "Complete the future of يُقِيمُ: ___ فِي رِيَاضٍ تَقْلِيدِيٍّ.",
+      "options": [
+        "سَأُقِيمُ",
+        "أَقَمْتُ",
+        "سَأُقَامُ"
+      ],
+      "answer": 0,
+      "feedback": "The future is سَأُقِيمُ فِي."
+    },
+    {
+      "prompt": "Complete: أُقِيمُ ___ فُنْدُقٍ قَرِيبٍ مِنَ الشَّاطِئِ.",
+      "options": [
+        "فِي",
+        "عَلَى",
+        "بِـ"
+      ],
+      "answer": 0,
+      "feedback": "يُقِيمُ is fixed with فِي."
+    },
+    {
+      "prompt": "Complete the subjunctive: يُسْتَحْسَنُ أَنْ ___ الزَّائِرُ التَّحِيَّةَ.",
+      "options": [
+        "يَتَعَلَّمَ",
+        "يَتَعَلَّمُ",
+        "تَعَلَّمَ"
+      ],
+      "answer": 0,
+      "feedback": "After أَنْ the verb is subjunctive: يَتَعَلَّمَ."
+    },
+    {
+      "prompt": "Which reported clause is correct?",
+      "options": [
+        "قَالَ الدَّلِيلُ إِنَّ الرَّبِيعَ أَفْضَلُ.",
+        "قَالَ الدَّلِيلُ أَنَّ الرَّبِيعَ أَفْضَلُ.",
+        "قَالَ الدَّلِيلُ بِأَنَّ الرَّبِيعَ أَفْضَلُ."
+      ],
+      "answer": 0,
+      "feedback": "قَالَ takes إِنَّ."
+    },
+    {
+      "prompt": "Complete: أَشَارَ الدَّلِيلُ ___ أَنَّ الرَّبِيعَ أَفْضَلُ.",
+      "options": [
+        "إِلَى",
+        "بِـ",
+        "عَلَى"
+      ],
+      "answer": 0,
+      "feedback": "أَشَارَ is fixed with إِلَى before أَنَّ."
+    },
+    {
+      "prompt": "Choose the accurate sentence with يَسْتَقْطِبُ.",
+      "options": [
+        "تَسْتَقْطِبُ المَدِينَةُ السُّيَّاحَ.",
+        "تَسْتَقْطِبُ المَدِينَةُ بِالسُّيَّاحِ.",
+        "تَقْطِبُ المَدِينَةُ السُّيَّاحَ."
+      ],
+      "answer": 0,
+      "feedback": "يَسْتَقْطِبُ is Form X and takes a direct object."
+    },
+    {
+      "prompt": "Complete: يَصِلُ القِطَارُ ___ العَاصِمَةِ وَالسَّاحِلِ.",
+      "options": [
+        "بَيْنَ",
+        "إِلَى",
+        "عِنْدَ"
+      ],
+      "answer": 0,
+      "feedback": "يَصِلُ بَيْنَ links two places."
+    },
+    {
+      "prompt": "Which agreement is correct (for a girl)?",
+      "options": [
+        "كَانَتْ قَدْ أَقَامَتْ فِي فُنْدُقٍ.",
+        "كَانَتْ قَدْ أَقَامَ فِي فُنْدُقٍ.",
+        "كَانَ قَدْ أَقَامَتْ فِي فُنْدُقٍ."
+      ],
+      "answer": 0,
+      "feedback": "كَانَتْ and أَقَامَتْ both agree with the feminine subject."
+    }
+  ],
+  "writing_form": [
+    [
+      "الوِجْهَةُ وَمَكَانُ الإِقَامَةِ بِاسْتِعْمَالِ «يُقِيمُ فِي»",
+      "Destination and accommodation using يُقِيمُ فِي"
+    ],
+    [
+      "طَرِيقَةُ الحَجْزِ بِاسْتِعْمَالِ «يَحْجِزُ»",
+      "Your booking method using يَحْجِزُ"
+    ],
+    [
+      "إِنْجَازٌ سَابِقٌ عَنِ التَّحْضِيرِ بِاسْتِعْمَالِ «كُنْتُ قَدْ …»",
+      "A prior research/preparation statement using the past perfect"
+    ],
+    [
+      "خُطَّةٌ شَرْطِيَّةٌ مِنَ النَّوْعِ الأَوَّلِ (إِذَا …)",
+      "A Type 1 conditional plan (إِذَا …)"
+    ],
+    [
+      "تَأَمُّلٌ شَرْطِيٌّ مِنَ النَّوْعِ الثَّانِي عَنْ رِحْلَةٍ سَابِقَةٍ (لَوْ …)",
+      "A Type 2 conditional reflection on a previous trip (لَوْ …)"
+    ]
+  ],
+  "roleplay": [
+    [
+      "اسْأَلْ عَنْ وِجْهَةٍ سِيَاحِيَّةٍ (يَسْتَقْطِبُ / يَتَمَيَّزُ بِـ مُتَوَقَّعٌ فِي الرَّدِّ).",
+      "Ask about a destination; the response should use يَسْتَقْطِبُ or يَتَمَيَّزُ بِـ."
+    ],
+    [
+      "اسْأَلْ عَنْ خِيَارَاتِ الحَجْزِ وَالإِقَامَةِ (يَحْجِزُ / يُقِيمُ).",
+      "Ask about booking and accommodation options using يَحْجِزُ and يُقِيمُ."
+    ],
+    [
+      "صِفْ مُشْكِلَةً وَاجَهْتَهَا فِي إِجَازَةٍ سَابِقَةٍ (مَاضٍ + مَاضٍ تَامٌّ).",
+      "Describe a problem you faced on a past holiday, using the past and the past perfect."
+    ],
+    [
+      "اطْلُبْ تَوْصِيَةً شَرْطِيَّةً مِنَ الوَكِيلِ (إِذَا … سَـ …).",
+      "Ask the agent for a conditional recommendation using a Type 1 conditional."
+    ]
+  ],
+  "topic": [
+    [
+      "صِفْ إِجَازَةً مَاضِيَةً — مَا الَّذِي كُنْتَ قَدْ تَوَقَّعْتَهُ؟ (مَاضٍ تَامٌّ مَطْلُوبٌ)",
+      "Describe a past holiday — what had you expected? (past perfect required)"
+    ],
+    [
+      "مَا رَأْيُكَ فِي السِّيَاحَةِ المُسْتَدَامَةِ؟ (شَرْطٌ مِنَ النَّوْعِ الأَوَّلِ مُتَوَقَّعٌ)",
+      "What is your view on sustainable tourism? (a Type 1 conditional expected)"
+    ],
+    [
+      "لَوْ كَانَ لَدَيْكَ مِيزَانِيَّةٌ غَيْرُ مَحْدُودَةٍ لِلسَّفَرِ، أَيْنَ سَتَذْهَبُ؟ (شَرْطٌ مِنَ النَّوْعِ الثَّانِي مَطْلُوبٌ)",
+      "If you had an unlimited travel budget, where would you go? (Type 2 conditional required)"
+    ]
+  ],
+  "mark_scheme": {
+    "writing_q2": [
+      [
+        "Task completion (TC)",
+        5,
+        [
+          "The destination is described and the journey or booking is covered with يَحْجِزُ / يُقِيمُ.",
+          "The experience is narrated with a past-perfect background.",
+          "Both a Type 1 recommendation and a Type 2 reflection are present; 145-160 words."
+        ]
+      ],
+      [
+        "Range",
+        5,
+        [
+          "A Type 1 conditional (إِذَا + past → سَـ) — one mark.",
+          "A Type 2 conditional (لَوْ + past → لَـ) — a second, separate mark.",
+          "Past perfect (كَانَ قَدْ), reported speech with a verb other than قَالَ, and a tourism verb (يَسْتَقْطِبُ / يُبْهِرُ)."
+        ]
+      ],
+      [
+        "Accuracy",
+        5,
+        [
+          "The Type 2 لَـ prefix in the result clause (2 marks — the primary criterion).",
+          "Past-perfect كَانَ / كَانَتْ agreement (2 marks).",
+          "Reported speech إِنَّ after قَالَ, أَنَّ after other verbs (1 mark)."
+        ]
+      ]
+    ],
+    "speaking": [
+      [
+        "Role play — communication and accuracy",
+        4,
+        [
+          "Communication (2): all four prompts are addressed clearly and relevantly.",
+          "Accuracy (2): يَحْجِزُ / يُقِيمُ past forms in prompt 3 and the Type 1 recommendation are formed correctly.",
+          "The destination is described with يَسْتَقْطِبُ or يَتَمَيَّزُ بِـ."
+        ]
+      ],
+      [
+        "Topic conversation — communication and quality of language",
+        6,
+        [
+          "Communication (3): answers are developed with point, reason and example.",
+          "Quality of language (3): the past perfect (Q1), a Type 1 conditional (Q2) and a Type 2 conditional (Q3) all appear and are accurate.",
+          "Q3 opens with لَوْ; a student who answers with إِذَا is avoiding the conditional — record it and note the missed mark."
+        ]
+      ]
+    ]
+  }
+}

@@ -1,0 +1,551 @@
+{
+  "listening": {
+    "one": {
+      "script": "يَقُولُ خَبِيرُ التَّغْذِيَةِ: الطَّعَامُ الصِّحِّيُّ غَنِيٌّ بِالخُضَارِ وَالبُرُوتِينِ، وَيَحْتَوِي عَلَى أَلْيَافٍ كَثِيرَةٍ. يُوصَى بِتَنَاوُلِ خَمْسِ حِصَصٍ مِنَ الفَوَاكِهِ وَالخُضَارِ يَوْمِيًّا. وَتُشِيرُ الدِّرَاسَاتُ إِلَى أَنَّ هٰذَا النِّظَامَ يُقَلِّلُ خَطَرَ أَمْرَاضِ القَلْبِ بِنِسْبَةِ ثَلَاثِينَ بِالْمِئَةِ. وَإِذَا قَلَّلْتَ السُّكَّرَ، سَتَنْخَفِضُ نِسْبَةُ الإِصَابَةِ بِالسُّكَّرِيِّ. وَإِذَا شَرِبْتَ المَاءَ بِانْتِظَامٍ، سَيَتَحَسَّنُ تَرْكِيزُكَ. كَمَا يُقَوِّي الطَّعَامُ المُتَوَازِنُ جِهَازَ المَنَاعَةِ. وَعِنْدَ المُقَارَنَةِ، يَبْقَى الطَّعَامُ الطَّازَجُ أَفْضَلَ مِنَ المُصَنَّعِ.",
+      "questions": [
+        {
+          "prompt": "How is healthy food described?",
+          "options": [
+            "Rich in vegetables and protein",
+            "Rich in sugar",
+            "Poor in everything"
+          ],
+          "answer": 0,
+          "feedback": "غَنِيٌّ بِالخُضَارِ وَالبُرُوتِينِ."
+        },
+        {
+          "prompt": "What does it contain a lot of?",
+          "options": [
+            "Fibre",
+            "Salt",
+            "Fat"
+          ],
+          "answer": 0,
+          "feedback": "يَحْتَوِي عَلَى أَلْيَافٍ كَثِيرَةٍ."
+        },
+        {
+          "prompt": "What is recommended daily?",
+          "options": [
+            "Five portions of fruit and vegetables",
+            "One meal only",
+            "No vegetables"
+          ],
+          "answer": 0,
+          "feedback": "يُوصَى بِتَنَاوُلِ خَمْسِ حِصَصٍ … يَوْمِيًّا."
+        },
+        {
+          "prompt": "By what percentage does it cut heart-disease risk?",
+          "options": [
+            "30%",
+            "13%",
+            "3%"
+          ],
+          "answer": 0,
+          "feedback": "بِنِسْبَةِ ثَلَاثِينَ بِالْمِئَةِ = 30%."
+        },
+        {
+          "prompt": "What follows from cutting sugar?",
+          "options": [
+            "Diabetes risk falls",
+            "Weight always rises",
+            "Nothing"
+          ],
+          "answer": 0,
+          "feedback": "إِذَا قَلَّلْتَ السُّكَّرَ، سَتَنْخَفِضُ نِسْبَةُ الإِصَابَةِ بِالسُّكَّرِيِّ."
+        },
+        {
+          "prompt": "What follows from drinking water regularly?",
+          "options": [
+            "Focus improves",
+            "Focus worsens",
+            "No change"
+          ],
+          "answer": 0,
+          "feedback": "إِذَا شَرِبْتَ المَاءَ بِانْتِظَامٍ، سَيَتَحَسَّنُ تَرْكِيزُكَ."
+        },
+        {
+          "prompt": "What does balanced food strengthen?",
+          "options": [
+            "The immune system",
+            "Only the teeth",
+            "Nothing measurable"
+          ],
+          "answer": 0,
+          "feedback": "يُقَوِّي الطَّعَامُ المُتَوَازِنُ جِهَازَ المَنَاعَةِ."
+        },
+        {
+          "prompt": "In the comparison, which is better?",
+          "options": [
+            "Fresh food over processed",
+            "Processed over fresh",
+            "They are equal"
+          ],
+          "answer": 0,
+          "feedback": "يَبْقَى الطَّعَامُ الطَّازَجُ أَفْضَلَ مِنَ المُصَنَّعِ."
+        }
+      ]
+    },
+    "two": {
+      "script": "سَامِي: أُعَانِي مِنَ التَّوَتُّرِ قَبْلَ الامْتِحَانَاتِ، وَإِذَا لَمْ أَنَمْ جَيِّدًا يَزْدَادُ قَلَقِي. لَيْلَى: وَأَنَا أَتَغَلَّبُ عَلَى الضَّغْطِ بِالرِّيَاضَةِ وَالتَّنْظِيمِ. سَامِي: أَتَّفِقُ مَعَكِ؛ فَالرِّيَاضَةُ تُحَسِّنُ مِزَاجِي أَيْضًا. لَيْلَى: لٰكِنَّنِي لَا أُحِبُّ السَّهَرَ عَلَى الشَّاشَاتِ، فَهُوَ يُعِيقُ نَوْمِي. سَامِي: نَحْنُ الِاثْنَانِ نَحْتَاجُ إِلَى تَوَازُنٍ أَفْضَلَ بَيْنَ الدِّرَاسَةِ وَالرَّاحَةِ. لَيْلَى: نَعَمْ، وَإِذَا نَظَّمْنَا وَقْتَنَا، سَنَشْعُرُ بِتَحَسُّنٍ.",
+      "questions": [
+        {
+          "prompt": "Who suffers from stress before exams?",
+          "options": [
+            "Sami",
+            "Layla",
+            "Both"
+          ],
+          "answer": 0,
+          "feedback": "سَامِي: أُعَانِي مِنَ التَّوَتُّرِ قَبْلَ الامْتِحَانَاتِ."
+        },
+        {
+          "prompt": "Who overcomes pressure with sport and organisation?",
+          "options": [
+            "Layla",
+            "Sami",
+            "Both"
+          ],
+          "answer": 0,
+          "feedback": "لَيْلَى: أَتَغَلَّبُ عَلَى الضَّغْطِ بِالرِّيَاضَةِ وَالتَّنْظِيمِ."
+        },
+        {
+          "prompt": "Who says sport improves their mood?",
+          "options": [
+            "Both",
+            "Only Sami",
+            "Only Layla"
+          ],
+          "answer": 0,
+          "feedback": "لَيْلَى تُمَارِسُ الرِّيَاضَةَ وَسَامِي يَقُولُ إِنَّهَا تُحَسِّنُ مِزَاجَهُ أَيْضًا."
+        },
+        {
+          "prompt": "Who dislikes staying up on screens?",
+          "options": [
+            "Layla",
+            "Sami",
+            "Both"
+          ],
+          "answer": 0,
+          "feedback": "لَيْلَى: لَا أُحِبُّ السَّهَرَ عَلَى الشَّاشَاتِ."
+        },
+        {
+          "prompt": "Who says they need a better study-rest balance?",
+          "options": [
+            "Both",
+            "Only Sami",
+            "Only Layla"
+          ],
+          "answer": 0,
+          "feedback": "سَامِي: نَحْنُ الِاثْنَانِ نَحْتَاجُ إِلَى تَوَازُنٍ أَفْضَلَ."
+        },
+        {
+          "prompt": "Who states a conditional about organising time?",
+          "options": [
+            "Layla",
+            "Sami",
+            "Neither"
+          ],
+          "answer": 0,
+          "feedback": "لَيْلَى: إِذَا نَظَّمْنَا وَقْتَنَا، سَنَشْعُرُ بِتَحَسُّنٍ."
+        }
+      ]
+    },
+    "three": {
+      "script": "تَقُولُ الخَبِيرَةُ الصِّحِّيَّةُ: يُلْحِقُ التَّدْخِينُ ضَرَرًا بَالِغًا بِالرِّئَتَيْنِ، وَيَزِيدُ مِنْ خَطَرِ السَّرَطَانِ. وَيُشَخَّصُ كَثِيرٌ مِنَ الحَالَاتِ مُتَأَخِّرًا لِأَنَّ الأَعْرَاضَ تَظْهَرُ بِبُطْءٍ. وَإِذَا أَقْلَعَ الشَّخْصُ عَنِ التَّدْخِينِ، تَتَحَسَّنُ وَظَائِفُ الرِّئَةِ تَدْرِيجِيًّا. أَمَّا إِدْمَانُ الشَّاشَاتِ فَيُعِيقُ النَّوْمَ وَيُضْعِفُ التَّرْكِيزَ. وَيُنْصَحُ بِفَتْرَةٍ بِلَا شَاشَاتٍ قَبْلَ النَّوْمِ. وَلَيْسَ الهَدَفُ إِخَافَةَ النَّاسِ، بَلْ تَمْكِينَهُمْ مِنْ قَرَارٍ أَفْضَلَ.",
+      "questions": [
+        {
+          "prompt": "Which statement is supported by the text?",
+          "options": [
+            "Smoking seriously harms the lungs",
+            "Smoking helps the lungs",
+            "Smoking has no effect"
+          ],
+          "answer": 0,
+          "feedback": "يُلْحِقُ التَّدْخِينُ ضَرَرًا بَالِغًا بِالرِّئَتَيْنِ."
+        },
+        {
+          "prompt": "Which statement is supported?",
+          "options": [
+            "Many cases are diagnosed late",
+            "All cases are caught early",
+            "Symptoms appear instantly"
+          ],
+          "answer": 0,
+          "feedback": "يُشَخَّصُ كَثِيرٌ مِنَ الحَالَاتِ مُتَأَخِّرًا."
+        },
+        {
+          "prompt": "Which statement is supported?",
+          "options": [
+            "Quitting gradually improves lung function",
+            "Quitting has no benefit",
+            "Lung function never recovers"
+          ],
+          "answer": 0,
+          "feedback": "إِذَا أَقْلَعَ الشَّخْصُ … تَتَحَسَّنُ وَظَائِفُ الرِّئَةِ تَدْرِيجِيًّا."
+        },
+        {
+          "prompt": "Which statement is supported?",
+          "options": [
+            "Screen addiction hinders sleep",
+            "Screens improve sleep",
+            "Screens have no effect on sleep"
+          ],
+          "answer": 0,
+          "feedback": "إِدْمَانُ الشَّاشَاتِ فَيُعِيقُ النَّوْمَ."
+        },
+        {
+          "prompt": "Which statement is supported?",
+          "options": [
+            "A screen-free period before sleep is advised",
+            "Screens before sleep are advised",
+            "No advice is given"
+          ],
+          "answer": 0,
+          "feedback": "يُنْصَحُ بِفَتْرَةٍ بِلَا شَاشَاتٍ قَبْلَ النَّوْمِ."
+        },
+        {
+          "prompt": "Which statement is supported?",
+          "options": [
+            "The aim is to empower better decisions, not to frighten",
+            "The aim is to frighten people",
+            "The aim is to sell products"
+          ],
+          "answer": 0,
+          "feedback": "لَيْسَ الهَدَفُ إِخَافَةَ النَّاسِ، بَلْ تَمْكِينَهُمْ مِنْ قَرَارٍ أَفْضَلَ."
+        }
+      ]
+    }
+  },
+  "reading": {
+    "text": "تُشِيرُ الدِّرَاسَاتُ إِلَى أَنَّ اسْتِعْمَالَ الشَّاشَاتِ قَبْلَ النَّوْمِ يُؤَثِّرُ عَلَى جَوْدَةِ النَّوْمِ، لِأَنَّ الضَّوْءَ الأَزْرَقَ يُؤَخِّرُ النَّوْمَ. وَإِذَا اسْتَعْمَلْتَ الهَاتِفَ فِي السَّرِيرِ، سَتَقِلُّ سَاعَاتُ نَوْمِكَ وَسَتَشْعُرُ بِالتَّعَبِ. أَمَّا إِذَا خَصَّصْتَ فَتْرَةَ هُدُوءٍ بِلَا شَاشَاتٍ، فَسَتَنَامُ أَعْمَقَ. وَيُنْصَحُ بِإِطْفَاءِ الإِشْعَارَاتِ لَيْلًا. وَيَرْتَبِطُ الأَرَقُ بِالتَّعَبِ المُزْمِنِ وَضَعْفِ التَّرْكِيزِ. وَلَيْسَتِ التِّقْنِيَّةُ عَدُوًّا؛ فَالمُهِمُّ هُوَ التَّوَازُنُ الرَّقْمِيُّ. وَفِي رَأْيِي، النَّوْمُ الجَيِّدُ لَا يَقِلُّ أَهَمِّيَّةً عَنِ الغِذَاءِ وَالحَرَكَةِ.",
+    "questions": [
+      {
+        "prompt": "R1 — What is the main argument of the text?",
+        "options": [
+          "Screens before sleep harm sleep quality, and balance is the key",
+          "Technology is entirely harmful",
+          "Sleep is unimportant"
+        ],
+        "answer": 0,
+        "feedback": "The text links screens to sleep quality and argues for digital balance."
+      },
+      {
+        "prompt": "R2 — Why does blue light matter?",
+        "options": [
+          "It delays sleep",
+          "It improves sleep",
+          "It has no effect"
+        ],
+        "answer": 0,
+        "feedback": "لِأَنَّ الضَّوْءَ الأَزْرَقَ يُؤَخِّرُ النَّوْمَ."
+      },
+      {
+        "prompt": "R2 — What follows from using the phone in bed?",
+        "options": [
+          "Fewer sleep hours and tiredness",
+          "Deeper sleep",
+          "More energy"
+        ],
+        "answer": 0,
+        "feedback": "سَتَقِلُّ سَاعَاتُ نَوْمِكَ وَسَتَشْعُرُ بِالتَّعَبِ."
+      },
+      {
+        "prompt": "R2 — What is insomnia linked to?",
+        "options": [
+          "Chronic fatigue and poor focus",
+          "Better mood",
+          "More focus"
+        ],
+        "answer": 0,
+        "feedback": "يَرْتَبِطُ الأَرَقُ بِالتَّعَبِ المُزْمِنِ وَضَعْفِ التَّرْكِيزِ."
+      },
+      {
+        "prompt": "R3 — Identify a conditional sentence in the text.",
+        "options": [
+          "إِذَا اسْتَعْمَلْتَ الهَاتِفَ فِي السَّرِيرِ، سَتَقِلُّ سَاعَاتُ نَوْمِكَ",
+          "يُنْصَحُ بِإِطْفَاءِ الإِشْعَارَاتِ",
+          "الضَّوْءُ الأَزْرَقُ يُؤَخِّرُ النَّوْمَ"
+        ],
+        "answer": 0,
+        "feedback": "إِذَا … سَـ is the Type 1 conditional."
+      },
+      {
+        "prompt": "R3 — What kind of relationship does that conditional describe?",
+        "options": [
+          "Cause and effect",
+          "Contrast",
+          "Time sequence only"
+        ],
+        "answer": 0,
+        "feedback": "It links a cause (phone in bed) to an effect (less sleep)."
+      },
+      {
+        "prompt": "R3 — Find a passive structure in the text.",
+        "options": [
+          "يُنْصَحُ بِإِطْفَاءِ الإِشْعَارَاتِ",
+          "سَتَنَامُ أَعْمَقَ",
+          "النَّوْمُ الجَيِّدُ مُهِمٌّ"
+        ],
+        "answer": 0,
+        "feedback": "يُنْصَحُ is a passive with no named doer."
+      },
+      {
+        "prompt": "R3 — What is the writer's attitude to technology?",
+        "options": [
+          "Balanced — not an enemy, but needing regulation",
+          "Wholly hostile",
+          "Wholly uncritical"
+        ],
+        "answer": 0,
+        "feedback": "لَيْسَتِ التِّقْنِيَّةُ عَدُوًّا؛ فَالمُهِمُّ هُوَ التَّوَازُنُ."
+      },
+      {
+        "prompt": "R4 — Complete: أَمَّا إِذَا خَصَّصْتَ فَتْرَةَ هُدُوءٍ، فَـ___ أَعْمَقَ.",
+        "options": [
+          "سَتَنَامُ",
+          "نِمْتَ",
+          "تَنَامُ أَمْسِ"
+        ],
+        "answer": 0,
+        "feedback": "A Type 1 result clause takes سَـ + present."
+      },
+      {
+        "prompt": "R4 — Complete: وَإِذَا ___ الهَاتِفَ فِي السَّرِيرِ، سَتَقِلُّ سَاعَاتُ نَوْمِكَ.",
+        "options": [
+          "اسْتَعْمَلْتَ",
+          "تَسْتَعْمِلُ",
+          "سَتَسْتَعْمِلُ"
+        ],
+        "answer": 0,
+        "feedback": "إِذَا takes a past-form verb."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "prompt": "Complete the conditional: إِذَا ___ الرِّيَاضَةَ، سَتَشْعُرُ بِتَحَسُّنٍ.",
+      "options": [
+        "مَارَسْتَ",
+        "تُمَارِسُ",
+        "سَتُمَارِسُ"
+      ],
+      "answer": 0,
+      "feedback": "إِذَا takes a past-form verb."
+    },
+    {
+      "prompt": "Which result clause is correct?",
+      "options": [
+        "سَتَنْخَفِضُ نِسْبَةُ التَّوَتُّرِ",
+        "تَنْخَفِضُ أَمْسِ",
+        "لَتَنْخَفِضُ"
+      ],
+      "answer": 0,
+      "feedback": "A Type 1 result is marked with سَـ."
+    },
+    {
+      "prompt": "Choose the accurate passive.",
+      "options": [
+        "يُشَخَّصُ المَرِيضُ",
+        "يُشَخَّصُ المَرِيضَ",
+        "يُشَخِّصُ المَرِيضُ نَفْسَهُ"
+      ],
+      "answer": 0,
+      "feedback": "The passive subject is nominative."
+    },
+    {
+      "prompt": "Complete: يُوصَى ___ الخُضَارِ.",
+      "options": [
+        "بِتَنَاوُلِ",
+        "أَنْ نَتَنَاوَلَ",
+        "تَنَاوُلَ"
+      ],
+      "answer": 0,
+      "feedback": "يُوصَى takes بِـ plus a verbal noun."
+    },
+    {
+      "prompt": "Fix the preposition: الطَّعَامُ غَنِيٌّ ___ البُرُوتِينِ.",
+      "options": [
+        "بِـ",
+        "مِنْ",
+        "عَنْ"
+      ],
+      "answer": 0,
+      "feedback": "غَنِيٌّ is fixed with بِـ."
+    },
+    {
+      "prompt": "Complete: الوَجْبَةُ تَفْتَقِرُ ___ الأَلْيَافِ.",
+      "options": [
+        "إِلَى",
+        "بِـ",
+        "مِنْ"
+      ],
+      "answer": 0,
+      "feedback": "يَفْتَقِرُ is fixed with إِلَى."
+    },
+    {
+      "prompt": "Complete: أُعَانِي ___ التَّوَتُّرِ.",
+      "options": [
+        "مِنَ",
+        "بِـ",
+        "عَلَى"
+      ],
+      "answer": 0,
+      "feedback": "يُعَانِي is fixed with مِنْ."
+    },
+    {
+      "prompt": "Complete: يُؤَثِّرُ الضَّوْءُ الأَزْرَقُ ___ النَّوْمِ.",
+      "options": [
+        "عَلَى",
+        "بِـ",
+        "إِلَى"
+      ],
+      "answer": 0,
+      "feedback": "يُؤَثِّرُ is fixed with عَلَى."
+    },
+    {
+      "prompt": "Choose the rhetorical opener with a correct case.",
+      "options": [
+        "هَلْ تَعْلَمُ أَنَّ النَّوْمَ يُقَوِّي المَنَاعَةَ؟",
+        "هَلْ تَعْلَمُ أَنَّ النَّوْمُ يُقَوِّي المَنَاعَةَ؟",
+        "هَلْ تَعْلَمُ أَنْ النَّوْمَ يُقَوِّي"
+      ],
+      "answer": 0,
+      "feedback": "أَنَّ takes an accusative noun."
+    },
+    {
+      "prompt": "Choose the correct agreement.",
+      "options": [
+        "عَادَاتٌ صِحِّيَّةٌ",
+        "عَادَاتٌ صِحِّيُّونَ",
+        "عَادَاتٌ صِحِّيٌّ"
+      ],
+      "answer": 0,
+      "feedback": "A non-human plural takes a feminine singular adjective."
+    },
+    {
+      "prompt": "Choose the correct comparative.",
+      "options": [
+        "النَّوْمُ أَنْفَعُ مِنَ السَّهَرِ",
+        "النَّوْمُ نَافِعٌ مِنَ السَّهَرِ",
+        "النَّوْمُ مَنْفَعَةٌ مِنَ السَّهَرِ"
+      ],
+      "answer": 0,
+      "feedback": "The comparative form is أَفْعَل: أَنْفَعُ."
+    },
+    {
+      "prompt": "Complete with a Form II benefit verb: النَّوْمُ الجَيِّدُ ___ التَّرْكِيزَ.",
+      "options": [
+        "يُقَوِّي",
+        "يَقْوَى",
+        "قَوِيٌّ"
+      ],
+      "answer": 0,
+      "feedback": "يُقَوِّي is the Form II verb with a direct object."
+    }
+  ],
+  "writing_form": [
+    [
+      "نَوْعُ نِظَامِكَ الغِذَائِيِّ الرَّئِيسِيُّ",
+      "Your main diet type"
+    ],
+    [
+      "عَدَدُ مَرَّاتِ الرِّيَاضَةِ أُسْبُوعِيًّا",
+      "Frequency of exercise per week"
+    ],
+    [
+      "سَاعَاتُ نَوْمِكَ فِي اللَّيْلَةِ",
+      "Your hours of sleep per night"
+    ],
+    [
+      "تَحَدٍّ صِحِّيٌّ وَاحِدٌ تُوَاجِهُهُ",
+      "One health challenge you face"
+    ],
+    [
+      "تَوْصِيَةٌ شَرْطِيَّةٌ لِحَيَاةٍ أَصَحَّ (إِذَا …)",
+      "One conditional recommendation for a healthier life"
+    ]
+  ],
+  "roleplay": [
+    [
+      "صِفْ نِظَامَكَ الغِذَائِيَّ (غَنِيٌّ بِـ / يَحْتَوِي عَلَى).",
+      "Describe your diet using غَنِيٌّ بِـ or يَحْتَوِي عَلَى."
+    ],
+    [
+      "صِفْ عَادَاتِكَ الرِّيَاضِيَّةَ.",
+      "Describe your exercise habits."
+    ],
+    [
+      "قُلْ مَا التَّحَدِّي الصِّحِّيُّ الَّذِي تُوَاجِهُهُ (يُعَانِي مِنْ).",
+      "Say what health challenge you face, using يُعَانِي مِنْ."
+    ],
+    [
+      "اطْلُبْ تَوْصِيَةً شَرْطِيَّةً: «إِذَا فَعَلْتُ كَذَا، سَـ…؟»",
+      "Ask for a conditional recommendation using a Type 1 conditional."
+    ]
+  ],
+  "topic": [
+    [
+      "مَا نِظَامُكَ الغِذَائِيُّ؟ مَا الأَطْعِمَةُ الَّتِي تُوصِي بِهَا؟",
+      "What is your diet? Which foods do you recommend?"
+    ],
+    [
+      "كَيْفَ تَتَعَامَلُ مَعَ الضَّغْطِ الدِّرَاسِيِّ؟ (يُعَانِي مِنْ + يَتَغَلَّبُ عَلَى)",
+      "How do you handle academic pressure? (use يُعَانِي مِنْ and يَتَغَلَّبُ عَلَى)"
+    ],
+    [
+      "إِذَا كَانَ بِإِمْكَانِكَ تَغْيِيرُ عَادَةٍ صِحِّيَّةٍ وَاحِدَةٍ، مَاذَا سَتَخْتَارُ؟ (شَرْطٌ مَطْلُوبٌ)",
+      "If you could change one healthy habit, what would you choose? (conditional required)"
+    ]
+  ],
+  "mark_scheme": {
+    "writing_q2": [
+      [
+        "Task completion (TC)",
+        5,
+        [
+          "All required content is present: diet, exercise, mental health and a clear opinion.",
+          "The register suits an article or email for a youth health magazine.",
+          "The response is 140-150 words and stays on topic throughout."
+        ]
+      ],
+      [
+        "Range",
+        5,
+        [
+          "A Type 1 conditional (إِذَا … سَـ) is used accurately — required.",
+          "A medical passive (يُعَالَجُ / يُوصَى بِـ) is used accurately — required.",
+          "Further markers add credit: a rhetorical question, a Form II benefit verb, a comparative, a formal connector, statistical language."
+        ]
+      ],
+      [
+        "Accuracy",
+        5,
+        [
+          "Conditional tense is correct: a past-form verb after إِذَا and سَـ in the result.",
+          "The passive is vowelled correctly and its subject is nominative.",
+          "Prepositions (غَنِيٌّ بِـ، يَفْتَقِرُ إِلَى، يُعَانِي مِنْ) and agreement are accurate."
+        ]
+      ]
+    ],
+    "speaking": [
+      [
+        "Role play — communication and accuracy",
+        4,
+        [
+          "Communication (2): all four prompts are addressed clearly and relevantly.",
+          "Accuracy (2): prompt 3 uses يُعَانِي مِنْ and prompt 4 requests a conditional; both are formed correctly.",
+          "Diet is described with غَنِيٌّ بِـ or يَحْتَوِي عَلَى."
+        ]
+      ],
+      [
+        "Topic conversation — communication and quality of language",
+        6,
+        [
+          "Communication (3): answers are developed with point, reason and example.",
+          "Quality of language (3): a Type 1 conditional appears spontaneously in the stress or habit-change question.",
+          "A Form II benefit verb and academic health vocabulary raise the quality; record if the candidate avoids the conditional by using the present."
+        ]
+      ]
+    ]
+  }
+}

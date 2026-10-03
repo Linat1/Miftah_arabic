@@ -1,0 +1,551 @@
+{
+  "listening": {
+    "one": {
+      "script": "يَقُولُ الطَّالِبُ: بِحُلُولِ نِهَايَةِ الثَّانَوِيَّةِ، كُنْتُ قَدْ قَرَّرْتُ دِرَاسَةَ الهَنْدَسَةِ، وَكُنْتُ قَدْ حَصَلْتُ عَلَى خِبْرَةٍ عَمَلِيَّةٍ فِي البَرْمَجَةِ. قَالَ مُرْشِدِي إِنَّنِي مُؤَهَّلٌ، وَأَكَّدَ أَنَّ اجْتِهَادِي سَيُثْمِرُ. إِذَا قُبِلْتُ فِي الجَامِعَةِ الَّتِي أُرِيدُهَا، سَأَتَخَصَّصُ فِي الطَّاقَةِ المُتَجَدِّدَةِ. وَلَوْ تَوَافَرَتْ لِي مَوَارِدُ أَفْضَلُ مُبَكِّرًا، لَكُنْتُ قَدْ تَقَدَّمْتُ أَسْرَعَ. وَأَشَارَ تَقْرِيرٌ إِلَى أَنَّ نِسْبَةَ القَبُولِ فِي هٰذَا المَجَالِ تَبْلُغُ سِتِّينَ بِالْمِئَةِ. أَرَى أَنَّ ضَغْطَ الامْتِحَانَاتِ كَبِيرٌ، لٰكِنَّهُ يَدْفَعُنِي إِلَى العَمَلِ. وَسَوْفَ أُسْهِمُ فِي مَجَالِي بَعْدَ التَّخَرُّجِ.",
+      "questions": [
+        {
+          "prompt": "What had the student done by the end of secondary school?",
+          "options": [
+            "Decided on engineering and gained programming experience",
+            "Nothing yet",
+            "Started a job"
+          ],
+          "answer": 0,
+          "feedback": "كُنْتُ قَدْ قَرَّرْتُ … وَكُنْتُ قَدْ حَصَلْتُ عَلَى خِبْرَةٍ."
+        },
+        {
+          "prompt": "What did the mentor say about the student?",
+          "options": [
+            "That the student is qualified",
+            "That the student should stop",
+            "That the field is closed"
+          ],
+          "answer": 0,
+          "feedback": "قَالَ مُرْشِدِي إِنَّنِي مُؤَهَّلٌ."
+        },
+        {
+          "prompt": "What is the real (Type 1) plan if accepted?",
+          "options": [
+            "Specialise in renewable energy",
+            "Leave university",
+            "Nothing"
+          ],
+          "answer": 0,
+          "feedback": "إِذَا قُبِلْتُ … سَأَتَخَصَّصُ فِي الطَّاقَةِ المُتَجَدِّدَةِ."
+        },
+        {
+          "prompt": "What is the counterfactual (Type 2) about resources?",
+          "options": [
+            "With better resources, the student would have progressed faster",
+            "Resources make no difference",
+            "The student refused help"
+          ],
+          "answer": 0,
+          "feedback": "لَوْ تَوَافَرَتْ لِي مَوَارِدُ أَفْضَلُ … لَكُنْتُ قَدْ تَقَدَّمْتُ أَسْرَعَ."
+        },
+        {
+          "prompt": "What acceptance rate does the report give?",
+          "options": [
+            "60%",
+            "16%",
+            "6%"
+          ],
+          "answer": 0,
+          "feedback": "نِسْبَةَ القَبُولِ … تَبْلُغُ سِتِّينَ بِالْمِئَةِ."
+        },
+        {
+          "prompt": "What did the mentor stress?",
+          "options": [
+            "That the student's effort will bear fruit",
+            "That effort is useless",
+            "That exams are easy"
+          ],
+          "answer": 0,
+          "feedback": "أَكَّدَ أَنَّ اجْتِهَادِي سَيُثْمِرُ."
+        },
+        {
+          "prompt": "What is the student's own view on exam pressure?",
+          "options": [
+            "It is great but drives them to work",
+            "It is pleasant",
+            "It does not exist"
+          ],
+          "answer": 0,
+          "feedback": "أَرَى أَنَّ ضَغْطَ الامْتِحَانَاتِ كَبِيرٌ، لٰكِنَّهُ يَدْفَعُنِي إِلَى العَمَلِ."
+        },
+        {
+          "prompt": "What is the student's future plan?",
+          "options": [
+            "To contribute to their field after graduating",
+            "To stop studying",
+            "To change fields"
+          ],
+          "answer": 0,
+          "feedback": "وَسَوْفَ أُسْهِمُ فِي مَجَالِي بَعْدَ التَّخَرُّجِ."
+        }
+      ]
+    },
+    "two": {
+      "script": "سَامِي: كَانَ العَالَمُ العَرَبِيُّ قَدْ أَسَّسَ أَرْقَى الأَنْظِمَةِ التَّعْلِيمِيَّةِ فِي العَصْرِ الذَّهَبِيِّ. لَيْلَى: أَتَّفِقُ، وَأَشَارَ المُؤَرِّخُونَ إِلَى أَنَّ دَارَ الحِكْمَةِ كَانَتْ قَدِ اسْتَقْطَبَتْ عُلَمَاءَ كَثِيرِينَ. سَامِي: لٰكِنَّ الإِصْلَاحَ اليَوْمَ ضَرُورِيٌّ؛ فَبَعْضُ المَنَاطِقِ تُعَانِي مِنْ أُمِّيَّةٍ. لَيْلَى: وَقَالَ خَبِيرٌ إِنَّ الاِسْتِثْمَارَ فِي المُعَلِّمِ هُوَ الحَلُّ. سَامِي: وَلَوِ اسْتُثْمِرَ مُبَكِّرًا، لَتَغَيَّرَ الوَضْعُ كَثِيرًا. لَيْلَى: وَأَنَا أَرَى أَنَّ تَعْلِيمَ المَرْأَةِ أَوْلَوِيَّةٌ.",
+      "questions": [
+        {
+          "prompt": "Who says the Arab world had founded the finest systems in the Golden Age?",
+          "options": [
+            "Sami",
+            "Layla",
+            "Both"
+          ],
+          "answer": 0,
+          "feedback": "سَامِي: كَانَ العَالَمُ العَرَبِيُّ قَدْ أَسَّسَ … فِي العَصْرِ الذَّهَبِيِّ."
+        },
+        {
+          "prompt": "Who cites historians about the House of Wisdom?",
+          "options": [
+            "Layla",
+            "Sami",
+            "Both"
+          ],
+          "answer": 0,
+          "feedback": "لَيْلَى: أَشَارَ المُؤَرِّخُونَ إِلَى أَنَّ دَارَ الحِكْمَةِ …"
+        },
+        {
+          "prompt": "Who says reform is necessary today?",
+          "options": [
+            "Sami",
+            "Layla",
+            "Both"
+          ],
+          "answer": 0,
+          "feedback": "سَامِي: لٰكِنَّ الإِصْلَاحَ اليَوْمَ ضَرُورِيٌّ."
+        },
+        {
+          "prompt": "Who reports an expert saying investment in the teacher is the solution?",
+          "options": [
+            "Layla",
+            "Sami",
+            "Both"
+          ],
+          "answer": 0,
+          "feedback": "لَيْلَى: قَالَ خَبِيرٌ إِنَّ الاِسْتِثْمَارَ فِي المُعَلِّمِ هُوَ الحَلُّ."
+        },
+        {
+          "prompt": "Who makes the Type 2 counterfactual about early investment?",
+          "options": [
+            "Sami",
+            "Layla",
+            "Both"
+          ],
+          "answer": 0,
+          "feedback": "سَامِي: وَلَوِ اسْتُثْمِرَ مُبَكِّرًا، لَتَغَيَّرَ الوَضْعُ."
+        },
+        {
+          "prompt": "Who gives their own view that women's education is a priority?",
+          "options": [
+            "Layla",
+            "Sami",
+            "Both"
+          ],
+          "answer": 0,
+          "feedback": "لَيْلَى: وَأَنَا أَرَى أَنَّ تَعْلِيمَ المَرْأَةِ أَوْلَوِيَّةٌ."
+        }
+      ]
+    },
+    "three": {
+      "script": "يَقُولُ مَسْؤُولٌ فِي الوِزَارَةِ: كَانَتِ الوِزَارَةُ قَدْ أَطْلَقَتْ خُطَّةَ إِصْلَاحٍ قَبْلَ ثَلَاثِ سَنَوَاتٍ. وَأَكَّدَ أَنَّ نِسْبَةَ الالْتِحَاقِ ارْتَفَعَتْ بَعْدَ الإِصْلَاحِ. وَأَشَارَ إِلَى أَنَّ الفَجْوَةَ بَيْنَ المَنَاطِقِ مَا زَالَتْ قَائِمَةً. وَقَالَ إِنَّهُ إِذَا اسْتَمَرَّ الاِسْتِثْمَارُ، سَتَتَقَلَّصُ الفَجْوَةُ. وَاعْتَرَفَ بِأَنَّ تَدْرِيبَ المُعَلِّمِينَ يَحْتَاجُ إِلَى وَقْتٍ. وَلَوْ تَوَافَرَتْ مِيزَانِيَّةٌ أَكْبَرُ، لَكَانَ التَّقَدُّمُ أَسْرَعَ.",
+      "questions": [
+        {
+          "prompt": "Which statement is supported by the text?",
+          "options": [
+            "The ministry had launched a reform plan three years earlier",
+            "The ministry did nothing",
+            "Reform starts next year"
+          ],
+          "answer": 0,
+          "feedback": "كَانَتِ الوِزَارَةُ قَدْ أَطْلَقَتْ خُطَّةَ إِصْلَاحٍ قَبْلَ ثَلَاثِ سَنَوَاتٍ."
+        },
+        {
+          "prompt": "Which statement is supported?",
+          "options": [
+            "Enrolment rose after the reform",
+            "Enrolment fell",
+            "Enrolment was unchanged"
+          ],
+          "answer": 0,
+          "feedback": "أَكَّدَ أَنَّ نِسْبَةَ الالْتِحَاقِ ارْتَفَعَتْ بَعْدَ الإِصْلَاحِ."
+        },
+        {
+          "prompt": "Which statement is supported?",
+          "options": [
+            "The regional gap still exists",
+            "The gap has closed",
+            "There was never a gap"
+          ],
+          "answer": 0,
+          "feedback": "أَشَارَ إِلَى أَنَّ الفَجْوَةَ بَيْنَ المَنَاطِقِ مَا زَالَتْ قَائِمَةً."
+        },
+        {
+          "prompt": "Which statement is supported?",
+          "options": [
+            "If investment continues, the gap will shrink",
+            "Investment has stopped",
+            "The gap cannot shrink"
+          ],
+          "answer": 0,
+          "feedback": "إِذَا اسْتَمَرَّ الاِسْتِثْمَارُ، سَتَتَقَلَّصُ الفَجْوَةُ."
+        },
+        {
+          "prompt": "Which statement is supported?",
+          "options": [
+            "The official concedes teacher training needs time",
+            "Training is finished",
+            "Training is unnecessary"
+          ],
+          "answer": 0,
+          "feedback": "اعْتَرَفَ بِأَنَّ تَدْرِيبَ المُعَلِّمِينَ يَحْتَاجُ إِلَى وَقْتٍ."
+        },
+        {
+          "prompt": "Which statement is supported?",
+          "options": [
+            "With a larger budget, progress would have been faster",
+            "A larger budget would slow progress",
+            "Budgets do not matter"
+          ],
+          "answer": 0,
+          "feedback": "لَوْ تَوَافَرَتْ مِيزَانِيَّةٌ أَكْبَرُ، لَكَانَ التَّقَدُّمُ أَسْرَعَ."
+        }
+      ]
+    }
+  },
+  "reading": {
+    "text": "أَتَقَدَّمُ بِطَلَبِ الالْتِحَاقِ بِكُلِّيَّةِ الطِّبِّ. كُنْتُ قَدْ قَرَّرْتُ هٰذَا المَسَارَ مُنْذُ المَرْحَلَةِ الإِعْدَادِيَّةِ، وَبِحُلُولِ الثَّانَوِيَّةِ كُنْتُ قَدْ أَنْجَزْتُ مَشْرُوعًا بَحْثِيًّا فِي عِلْمِ الأَحْيَاءِ. وَقَدْ قَالَ أُسْتَاذِي إِنَّنِي مُؤَهَّلٌ، وَأَكَّدَ أَنَّ اجْتِهَادِي سَيُثْمِرُ. إِذَا قُبِلْتُ، سَأُكَرِّسُ جُهْدِي لِلْبَحْثِ العِلْمِيِّ. وَلَوْ تَوَافَرَتْ لِي فُرَصٌ بَحْثِيَّةٌ مُبَكِّرًا، لَكُنْتُ قَدْ نَشَرْتُ دِرَاسَةً بِالفِعْلِ. أَطْمَحُ إِلَى خِدْمَةِ مُجْتَمَعِي، وَأَرَى أَنَّ الطِّبَّ رِسَالَةٌ لَا مِهْنَةٌ فَقَطْ. وَسَوْفَ أُوَاصِلُ تَطْوِيرَ مَهَارَاتِي طَوَالَ حَيَاتِي.",
+    "questions": [
+      {
+        "prompt": "R1 — What is the applicant applying for?",
+        "options": [
+          "A place at the faculty of medicine",
+          "A teaching job",
+          "A scholarship abroad"
+        ],
+        "answer": 0,
+        "feedback": "أَتَقَدَّمُ بِطَلَبِ الالْتِحَاقِ بِكُلِّيَّةِ الطِّبِّ."
+      },
+      {
+        "prompt": "R2 — What had the applicant completed by secondary school?",
+        "options": [
+          "A biology research project",
+          "A medical degree",
+          "Nothing"
+        ],
+        "answer": 0,
+        "feedback": "بِحُلُولِ الثَّانَوِيَّةِ كُنْتُ قَدْ أَنْجَزْتُ مَشْرُوعًا بَحْثِيًّا فِي عِلْمِ الأَحْيَاءِ."
+      },
+      {
+        "prompt": "R2 — What will the applicant do if accepted?",
+        "options": [
+          "Devote effort to scientific research",
+          "Leave the field",
+          "Stop studying"
+        ],
+        "answer": 0,
+        "feedback": "إِذَا قُبِلْتُ، سَأُكَرِّسُ جُهْدِي لِلْبَحْثِ العِلْمِيِّ."
+      },
+      {
+        "prompt": "R2 — What does the applicant aspire to?",
+        "options": [
+          "Serving their community",
+          "Becoming wealthy",
+          "Leaving the country"
+        ],
+        "answer": 0,
+        "feedback": "أَطْمَحُ إِلَى خِدْمَةِ مُجْتَمَعِي."
+      },
+      {
+        "prompt": "R3 — Identify the Type 2 (لَوْ) conditional in the text.",
+        "options": [
+          "لَوْ تَوَافَرَتْ لِي فُرَصٌ بَحْثِيَّةٌ مُبَكِّرًا، لَكُنْتُ قَدْ نَشَرْتُ دِرَاسَةً",
+          "إِذَا قُبِلْتُ، سَأُكَرِّسُ جُهْدِي",
+          "كُنْتُ قَدْ أَنْجَزْتُ مَشْرُوعًا"
+        ],
+        "answer": 0,
+        "feedback": "لَوْ … لَـ is the Type 2 conditional."
+      },
+      {
+        "prompt": "R3 — What hypothetical argument does that لَوْ sentence make?",
+        "options": [
+          "Given earlier research chances, the applicant would already have published",
+          "Research is pointless",
+          "The applicant refused research"
+        ],
+        "answer": 0,
+        "feedback": "It is a counterfactual: the early chances were not available, so nothing was published yet."
+      },
+      {
+        "prompt": "R3 — Identify the past-perfect background in the text.",
+        "options": [
+          "كُنْتُ قَدْ قَرَّرْتُ هٰذَا المَسَارَ مُنْذُ الإِعْدَادِيَّةِ",
+          "إِذَا قُبِلْتُ سَأُكَرِّسُ جُهْدِي",
+          "أَرَى أَنَّ الطِّبَّ رِسَالَةٌ"
+        ],
+        "answer": 0,
+        "feedback": "كُنْتُ قَدْ + past is the past perfect."
+      },
+      {
+        "prompt": "R3 — Whose view is «مُؤَهَّلٌ» — the applicant's or a cited source?",
+        "options": [
+          "A cited source: the teacher, via reported speech",
+          "The applicant's own view",
+          "No one's"
+        ],
+        "answer": 0,
+        "feedback": "قَالَ أُسْتَاذِي إِنَّنِي مُؤَهَّلٌ — reported from the teacher."
+      },
+      {
+        "prompt": "R4 — Complete with the right reporting verb: ___ أُسْتَاذِي إِنَّنِي مُؤَهَّلٌ.",
+        "options": [
+          "قَالَ",
+          "أَشَارَ",
+          "اعْتَرَفَ"
+        ],
+        "answer": 0,
+        "feedback": "إِنَّ follows قَالَ; the other verbs take أَنَّ."
+      },
+      {
+        "prompt": "R4 — Complete: وَ___ أَنَّ اجْتِهَادِي سَيُثْمِرُ.",
+        "options": [
+          "أَكَّدَ",
+          "قَالَ",
+          "إِنَّ"
+        ],
+        "answer": 0,
+        "feedback": "أَنَّ follows a reporting verb other than قَالَ, such as أَكَّدَ."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "prompt": "Complete: قَالَ ___ التَّعْلِيمَ حَقٌّ.",
+      "options": [
+        "إِنَّ",
+        "أَنَّ",
+        "بِأَنَّ"
+      ],
+      "answer": 0,
+      "feedback": "Only قَالَ takes إِنَّ."
+    },
+    {
+      "prompt": "Complete: أَكَّدَ ___ المَنَاهِجَ تَتَطَوَّرُ.",
+      "options": [
+        "أَنَّ",
+        "إِنَّ",
+        "لِأَنَّ"
+      ],
+      "answer": 0,
+      "feedback": "Reporting verbs other than قَالَ take أَنَّ."
+    },
+    {
+      "prompt": "Report «سَأَدْرُسُ الطِّبَّ» said by a boy.",
+      "options": [
+        "قَالَ إِنَّهُ سَيَدْرُسُ الطِّبَّ.",
+        "قَالَ إِنَّهُ دَرَسَ الطِّبَّ.",
+        "قَالَ أَنَّهُ سَيَدْرُسُ الطِّبَّ."
+      ],
+      "answer": 0,
+      "feedback": "إِنَّ after قَالَ, third-person pronoun, future kept."
+    },
+    {
+      "prompt": "Choose the accurate past perfect (for a girl).",
+      "options": [
+        "كَانَتْ قَدْ حَصَلَتْ عَلَى مِنْحَةٍ.",
+        "كَانَتْ قَدْ حَصَلَ عَلَى مِنْحَةٍ.",
+        "كَانَ قَدْ حَصَلَتْ عَلَى مِنْحَةٍ."
+      ],
+      "answer": 0,
+      "feedback": "كَانَتْ and حَصَلَتْ agree with the feminine subject."
+    },
+    {
+      "prompt": "Complete: كُنْتُ قَدْ ___ بَحْثِي قَبْلَ الاجْتِمَاعِ.",
+      "options": [
+        "أَنْهَيْتُ",
+        "أُنْهِي",
+        "سَأُنْهِي"
+      ],
+      "answer": 0,
+      "feedback": "The verb after قَدْ is past."
+    },
+    {
+      "prompt": "Choose the accurate Type 1 conditional.",
+      "options": [
+        "إِذَا دَرَسْتَ، سَتَنْجَحُ.",
+        "إِذَا دَرَسْتَ، تَنْجَحُ.",
+        "إِذَا تَدْرُسُ، سَتَنْجَحُ."
+      ],
+      "answer": 0,
+      "feedback": "إِذَا takes a past-form verb and the result takes سَـ."
+    },
+    {
+      "prompt": "Choose the accurate Type 2 conditional.",
+      "options": [
+        "لَوْ دَرَسَ، لَنَجَحَ.",
+        "لَوْ دَرَسَ، نَجَحَ.",
+        "لَوْ دَرَسَ، سَيَنْجَحُ."
+      ],
+      "answer": 0,
+      "feedback": "A Type 2 result takes the لَـ prefix on a past verb."
+    },
+    {
+      "prompt": "Which verb form follows لَوْ?",
+      "options": [
+        "دَرَسَ",
+        "يَدْرُسُ",
+        "سَيَدْرُسُ"
+      ],
+      "answer": 0,
+      "feedback": "لَوْ is followed by a past-tense verb."
+    },
+    {
+      "prompt": "Complete: أَشَارَ الخَبِيرُ ___ أَنَّ الإِصْلَاحَ ضَرُورِيٌّ.",
+      "options": [
+        "إِلَى",
+        "بِـ",
+        "عَلَى"
+      ],
+      "answer": 0,
+      "feedback": "أَشَارَ is fixed with إِلَى before أَنَّ."
+    },
+    {
+      "prompt": "Complete: يَتَفَوَّقُ الطَّالِبُ ___ العُلُومِ.",
+      "options": [
+        "فِي",
+        "عَلَى",
+        "بِـ"
+      ],
+      "answer": 0,
+      "feedback": "يَتَفَوَّقُ is fixed with فِي."
+    },
+    {
+      "prompt": "Complete: يُؤَهِّلُنِي التَّعْلِيمُ ___ سُوقِ العَمَلِ.",
+      "options": [
+        "لِـ",
+        "إِلَى",
+        "عَلَى"
+      ],
+      "answer": 0,
+      "feedback": "يُؤَهِّلُ is fixed with لِـ."
+    },
+    {
+      "prompt": "Which case is correct after أَنَّ?",
+      "options": [
+        "أَنَّ التَّحْصِيلَ يَتَحَسَّنُ",
+        "أَنَّ التَّحْصِيلُ يَتَحَسَّنُ",
+        "أَنَّ التَّحْصِيلِ يَتَحَسَّنُ"
+      ],
+      "answer": 0,
+      "feedback": "أَنَّ makes the following noun accusative."
+    }
+  ],
+  "writing_form": [
+    [
+      "الشَّهَادَةُ أَوِ التَّخَصُّصُ الَّذِي تَسْعَى إِلَيْهِ",
+      "The qualification or specialism you are seeking"
+    ],
+    [
+      "إِنْجَازٌ سَابِقٌ بِاسْتِعْمَالِ «كُنْتُ قَدْ …»",
+      "A prior achievement using the past perfect (كُنْتُ قَدْ …)"
+    ],
+    [
+      "تَوْصِيَةُ مُعَلِّمِكَ بِاسْتِعْمَالِ الكَلَامِ المَنْقُولِ (قَالَ إِنَّ …)",
+      "Your teacher's recommendation using reported speech (قَالَ إِنَّ …)"
+    ],
+    [
+      "خُطَّةٌ شَرْطِيَّةٌ إِنْ قُبِلْتَ (إِذَا … سَـ …)",
+      "A conditional plan if accepted (إِذَا … سَـ …)"
+    ],
+    [
+      "طُمُوحٌ مُسْتَقْبَلِيٌّ وَاحِدٌ",
+      "One future aspiration"
+    ]
+  ],
+  "roleplay": [
+    [
+      "عَرِّفْ بِنَفْسِكَ وَخَلْفِيَّتِكَ التَّعْلِيمِيَّةِ (كُنْتُ قَدْ حَصَلْتُ عَلَى …).",
+      "Introduce yourself and your background using the past perfect."
+    ],
+    [
+      "صِفْ مَا قَالَهُ مُعَلِّمُوكَ عَنْكَ (قَالَ أُسْتَاذِي إِنَّنِي …).",
+      "Say what your teachers have said about you using reported speech."
+    ],
+    [
+      "قُلْ مَاذَا سَتَدْرُسُ إِنْ قُبِلْتَ (إِذَا قُبِلْتُ، سَـ …).",
+      "Say what you will study if accepted, using a Type 1 conditional."
+    ],
+    [
+      "اطْلُبْ نَصِيحَةً حَوْلَ التَّخَصُّصِ الأَنْسَبِ لِطُمُوحِكَ.",
+      "Ask for advice about the specialism that best fits your ambition."
+    ]
+  ],
+  "topic": [
+    [
+      "مَا الَّذِي كُنْتَ قَدْ قَرَّرْتَهُ بِشَأْنِ مُسْتَقْبَلِكَ قَبْلَ هٰذَا العَامِ؟ (مَاضٍ تَامٌّ مَطْلُوبٌ)",
+      "What had you decided about your future before this year? (past perfect required)"
+    ],
+    [
+      "مَاذَا قَالَ مُعَلِّمُوكَ عَنْ طُمُوحَاتِكَ؟ (كَلَامٌ مَنْقُولٌ مَطْلُوبٌ)",
+      "What did your teachers say about your ambitions? (reported speech required)"
+    ],
+    [
+      "لَوْ كَانَتْ لَدَيْكَ مَوَارِدُ لَا نِهَائِيَّةٌ لِتَعَلُّمِ أَيِّ شَيْءٍ، مَاذَا سَتَخْتَارُ؟ (شَرْطٌ مِنَ النَّوْعِ الثَّانِي مَطْلُوبٌ)",
+      "If you had unlimited resources to learn anything, what would you choose? (Type 2 conditional required)"
+    ]
+  ],
+  "mark_scheme": {
+    "writing_q2": [
+      [
+        "Task completion (TC)",
+        5,
+        [
+          "Education is described with academic vocabulary.",
+          "A past achievement is given with كَانَ قَدْ, and a teacher/expert view with reported speech.",
+          "Both a Type 1 plan and a Type 2 hypothesis are present; 140-155 words, on topic."
+        ]
+      ],
+      [
+        "Range",
+        5,
+        [
+          "Reported speech with a verb other than قَالَ (e.g. أَشَارَ إِلَى أَنَّ, أَكَّدَ أَنَّ).",
+          "A past perfect with correct agreement, and a Type 1 conditional (إِذَا + past → سَـ).",
+          "A Type 2 conditional (لَوْ + past → لَـ + past) and a formal connector or academic verb."
+        ]
+      ],
+      [
+        "Accuracy",
+        5,
+        [
+          "إِنَّ after قَالَ, أَنَّ after all other reporting verbs (2 marks).",
+          "كَانَ / كَانَتْ agreement in the past perfect (2 marks).",
+          "The لَـ prefix in the Type 2 result clause (1 mark)."
+        ]
+      ]
+    ],
+    "speaking": [
+      [
+        "Role play — communication and accuracy",
+        4,
+        [
+          "Communication (2): all four prompts are addressed clearly and relevantly.",
+          "Accuracy (2): prompt 1 uses the past perfect and prompt 2 uses قَالَ إِنَّ, both formed correctly.",
+          "The Type 1 plan in prompt 3 is accurate."
+        ]
+      ],
+      [
+        "Topic conversation — communication and quality of language",
+        6,
+        [
+          "Communication (3): answers are developed with point, reason and example.",
+          "Quality of language (3): the past perfect (Q1), reported speech (Q2) and a Type 2 conditional (Q3) all appear and are accurate.",
+          "Record whether the candidate produces the Type 2 conditional spontaneously or avoids it."
+        ]
+      ]
+    ]
+  }
+}

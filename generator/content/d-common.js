@@ -38,6 +38,11 @@ const site = (code) => {
   const unit = code.slice(0, 2).toLowerCase();
   const l = require(`../site-data/${unit}-content.json`).lessons.find((x) => x.code === code);
   if (!l) throw new Error(`No website lesson ${code}`);
+  // D3-style sorter: items {text, category} with no category list → derive the list in order of first use
+  if (l.sorter && !l.sorter.categories && l.sorter.items) {
+    const cats = [...new Set(l.sorter.items.map((it) => it.category))];
+    l.sorter = { ...l.sorter, categories: cats, items: l.sorter.items.map((it) => ({ label: it.label || it.text, answer: cats.indexOf(it.category) })) };
+  }
   return l;
 };
 const { q, fromSite, splitPrompt } = C;
@@ -98,7 +103,7 @@ function devLesson(code, x) {
   slides.push(C.welcomeSlide());
   slides.push(C.journeySlide({ teach: x.teach, wedo: x.wedo, next: x.next.nextCode }));
   slides.push(C.doNow(x.doNow));
-  slides.push(C.objectivesSlide(s.objectives, x.routes, 0, x.objNotes || 'The route statements turn the website objectives into this lesson’s concrete targets.'));
+  slides.push(C.objectivesSlide(x.objectives || s.objectives, x.routes, 0, x.objNotes || 'The route statements turn the website objectives into this lesson’s concrete targets.'));
   slides.push(C.keywordsSlide({
     text: x.kwText || `${s.vocab.reduce((a, g) => a + g.items.length, 0)} words from the website in ${s.vocab.length} groups. Learn the CORE words first. Hear it → say it → see it → use it.`,
     groups: s.vocab.map((g, i) => ({ head: `GROUP ${i + 1}`, name: `${g.label} · ${g.items.length}` })).slice(0, 4),
@@ -117,7 +122,7 @@ function devLesson(code, x) {
   slides.push({ type: 'ido', stage: 'ido', min: 3, eyebrow: 'I do · watch, then copy', title: x.ido.title, ar: 'شَاهِدْ ثُمَّ اُكْتُبْ', ...x.ido });
   slides.push({
     type: 'models', stage: 'ido', min: 1, eyebrow: 'I do · model sentences from the website', title: 'Sentences to borrow', ar: 'جُمَلٌ نَمُوذَجِيَّةٌ',
-    rows: s.patterns.slice(0, 4).map((p) => ({ ar: p.ar, en: p.en, tip: p.tip })),
+    rows: (x.patterns || s.patterns).slice(0, 4).map((p) => ({ ar: p.ar, en: p.en, tip: p.tip })),
     notes: `MODEL SENTENCES (1 min) — website patterns. Students copy TWO that are useful for them.\n${x.modelsNotes || '• Core: copy one and change one word. • Develop: copy two and change the subject. • Stretch: combine two into one longer sentence with a connector.'}`,
   });
   if (game && game.items && x.game) slides.push(C.gameSlide({ ...game, items: (x.game.pick || [0, 1, 2]).map((i) => game.items[i]) }, x.game));

@@ -1,0 +1,551 @@
+{
+  "listening": {
+    "one": {
+      "script": "فِي الطُّفُولَةِ كُنَّا نَحْتَفِلُ بِالعِيدِ فِي بَلَدِ أُسْرَتِي، وَكَانَتْ جَدَّتِي تُعِدُّ الحَلْوَى بِنَفْسِهَا. وَفِي العَامِ المَاضِي زُرْنَا الأَقَارِبَ هُنَاكَ بَعْدَ غِيَابٍ طَوِيلٍ، وَوَزَّعَ أَبِي العِيدِيَّةَ عَلَى الأَطْفَالِ. أَمَّا الآنَ فَنَحْتَفِلُ عَادَةً فِي المَرْكَزِ الثَّقَافِيِّ مَعَ الجَالِيَةِ، وَتُزَيَّنُ القَاعَةُ وَتُتَبَادَلُ التَّهَانِي. وَفِي بَعْضِ العَائِلَاتِ تُوَزَّعُ العِيدِيَّةُ، وَلٰكِنْ لَيْسَ دَائِمًا؛ فَالعَادَاتُ تَخْتَلِفُ. وَالعَامَ القَادِمَ سَنُنَظِّمُ حَفْلًا أَكْبَرَ، وَسَنَدْعُو الجِيرَانَ لِكَيْ يَتَعَرَّفُوا عَلَى تَقَالِيدِنَا. وَأَطْمَحُ إِلَى أَنْ أَزُورَ بَلَدَ أُسْرَتِي مَرَّةً أُخْرَى.",
+      "questions": [
+        {
+          "prompt": "Text 1: Where did the family celebrate in childhood?",
+          "options": [
+            "In the family's home country",
+            "At the cultural centre",
+            "At school"
+          ],
+          "answer": 0,
+          "feedback": "كُنَّا نَحْتَفِلُ بِالعِيدِ فِي بَلَدِ أُسْرَتِي."
+        },
+        {
+          "prompt": "Text 1: What did the grandmother used to do?",
+          "options": [
+            "Prepare the sweets herself",
+            "Travel with them",
+            "Decorate the hall"
+          ],
+          "answer": 0,
+          "feedback": "وَكَانَتْ جَدَّتِي تُعِدُّ الحَلْوَى بِنَفْسِهَا — كَانَ plus a present verb."
+        },
+        {
+          "prompt": "Text 1: What happened last year?",
+          "options": [
+            "They visited relatives after a long absence",
+            "They cancelled the celebration",
+            "They moved abroad"
+          ],
+          "answer": 0,
+          "feedback": "وَفِي العَامِ المَاضِي زُرْنَا الأَقَارِبَ هُنَاكَ بَعْدَ غِيَابٍ طَوِيلٍ."
+        },
+        {
+          "prompt": "Text 1: Where do they usually celebrate now?",
+          "options": [
+            "At the cultural centre with the community",
+            "In the village",
+            "At a relative's house"
+          ],
+          "answer": 0,
+          "feedback": "أَمَّا الآنَ فَنَحْتَفِلُ عَادَةً فِي المَرْكَزِ الثَّقَافِيِّ."
+        },
+        {
+          "prompt": "Text 1: What happens to the hall now?",
+          "options": [
+            "It is decorated and greetings are exchanged",
+            "It is rebuilt each year",
+            "It stays closed"
+          ],
+          "answer": 0,
+          "feedback": "وَتُزَيَّنُ القَاعَةُ وَتُتَبَادَلُ التَّهَانِي."
+        },
+        {
+          "prompt": "Text 1: What will happen next year?",
+          "options": [
+            "A larger celebration, with neighbours invited",
+            "No celebration at all",
+            "A move to another city"
+          ],
+          "answer": 0,
+          "feedback": "وَالعَامَ القَادِمَ سَنُنَظِّمُ حَفْلًا أَكْبَرَ، وَسَنَدْعُو الجِيرَانَ."
+        },
+        {
+          "prompt": "Text 1: What is the speaker's aspiration?",
+          "options": [
+            "To visit the family's country again",
+            "To stop travelling",
+            "To change languages"
+          ],
+          "answer": 0,
+          "feedback": "وَأَطْمَحُ إِلَى أَنْ أَزُورَ بَلَدَ أُسْرَتِي مَرَّةً أُخْرَى."
+        },
+        {
+          "prompt": "Text 1: What does العِيدِيَّة mean?",
+          "options": [
+            "Money given to children at Eid",
+            "A special sweet",
+            "The Eid prayer"
+          ],
+          "answer": 0,
+          "feedback": "العِيدِيَّة is the gift of money given to children at Eid."
+        }
+      ]
+    },
+    "two": {
+      "script": "نُورُ: أَنَا مِنَ الجِيلِ الثَّانِي، وَأَنْتَمِي إِلَى ثَقَافَتَيْنِ. أَتَحَدَّثُ العَرَبِيَّةَ فِي البَيْتِ. سَامِي: وَأَنَا وُلِدْتُ هُنَاكَ وَجِئْتُ صَغِيرًا، وَتَكَيَّفْتُ مَعَ الحَيَاةِ هُنَا بِسُرْعَةٍ. نُورُ: أَحْتَفِظُ بِعَادَاتِ أُسْرَتِي، وَخَاصَّةً فِي المُنَاسَبَاتِ. سَامِي: وَأَنَا أَيْضًا أَحْتَفِظُ بِهَا، وَلٰكِنَّنِي أَحْيَانًا أَخْلِطُ بَيْنَ اللُّغَتَيْنِ. نُورُ: أَنَا كَذٰلِكَ! وَهٰذَا طَبِيعِيٌّ وَلَيْسَ مُشْكِلَةً. سَامِي: أَحِنُّ إِلَى وَطَنِي أَحْيَانًا. نُورُ: وَأَنَا لَمْ أَعِشْ هُنَاكَ، وَلٰكِنِّي أَشْعُرُ بِالانْتِمَاءِ إِلَيْهِ.",
+      "questions": [
+        {
+          "prompt": "Text 2: Who belongs to the second generation?",
+          "options": [
+            "Nūr",
+            "Sami",
+            "Both"
+          ],
+          "answer": 0,
+          "feedback": "نُورُ: أَنَا مِنَ الجِيلِ الثَّانِي."
+        },
+        {
+          "prompt": "Text 2: Who was born in the family's country?",
+          "options": [
+            "Sami",
+            "Nūr",
+            "Both"
+          ],
+          "answer": 0,
+          "feedback": "سَامِي: وَأَنَا وُلِدْتُ هُنَاكَ."
+        },
+        {
+          "prompt": "Text 2: Who keeps the family customs?",
+          "options": [
+            "Both",
+            "Nūr only",
+            "Sami only"
+          ],
+          "answer": 0,
+          "feedback": "Nūr says أَحْتَفِظُ بِعَادَاتِ أُسْرَتِي and Sami says وَأَنَا أَيْضًا أَحْتَفِظُ بِهَا."
+        },
+        {
+          "prompt": "Text 2: Who mixes the two languages sometimes?",
+          "options": [
+            "Both",
+            "Sami only",
+            "Nūr only"
+          ],
+          "answer": 0,
+          "feedback": "Sami says أَحْيَانًا أَخْلِطُ بَيْنَ اللُّغَتَيْنِ and Nūr replies أَنَا كَذٰلِكَ."
+        },
+        {
+          "prompt": "Text 2: Who feels nostalgia for the homeland?",
+          "options": [
+            "Sami",
+            "Nūr",
+            "Both"
+          ],
+          "answer": 0,
+          "feedback": "سَامِي: أَحِنُّ إِلَى وَطَنِي أَحْيَانًا."
+        },
+        {
+          "prompt": "Text 2: Who has never lived there?",
+          "options": [
+            "Nūr",
+            "Sami",
+            "Both"
+          ],
+          "answer": 0,
+          "feedback": "نُورُ: وَأَنَا لَمْ أَعِشْ هُنَاكَ."
+        }
+      ]
+    },
+    "three": {
+      "script": "تُعَدُّ العَرَبِيَّةُ مِنْ أَوْسَعِ اللُّغَاتِ انْتِشَارًا، وَهِيَ إِحْدَى لُغَاتِ الأُمَمِ المُتَّحِدَةِ الرَّسْمِيَّةِ. وَتَضُمُّ المِنْطَقَةُ اثْنَتَيْنِ وَعِشْرِينَ دَوْلَةً تَخْتَلِفُ لَهَجَاتُهَا، بَيْنَمَا تَجْمَعُهَا الفُصْحَى فِي الكِتَابَةِ وَالإِعْلَامِ. وَإِلَى جَانِبِ العَرَبِيَّةِ تُوجَدُ لُغَاتٌ رَسْمِيَّةٌ أُخْرَى، مِثْلُ الأَمَازِيغِيَّةِ فِي المَغْرِبِ وَالجَزَائِرِ. وَقَدِ انْتَقَلَتْ كَلِمَاتٌ عَرَبِيَّةٌ إِلَى لُغَاتٍ أُخْرَى عَبْرَ التِّجَارَةِ وَالتَّرْجَمَةِ. وَيُشَارُ إِلَى أَنَّ التَّنَوُّعَ الثَّقَافِيَّ وَالدِّينِيَّ قَدِيمٌ فِي المِنْطَقَةِ، وَلَيْسَ صَحِيحًا أَنَّهَا ذَاتُ ثَقَافَةٍ وَاحِدَةٍ.",
+      "questions": [
+        {
+          "prompt": "Text 3: Select a correct statement — Arabic's status.",
+          "options": [
+            "It is one of the official UN languages.",
+            "It is the only official world language.",
+            "It has no official status."
+          ],
+          "answer": 0,
+          "feedback": "وَهِيَ إِحْدَى لُغَاتِ الأُمَمِ المُتَّحِدَةِ الرَّسْمِيَّةِ."
+        },
+        {
+          "prompt": "Text 3: Select a correct statement — the number of states.",
+          "options": [
+            "The region contains twenty-two states.",
+            "The region contains twelve states.",
+            "The number is not given."
+          ],
+          "answer": 0,
+          "feedback": "وَتَضُمُّ المِنْطَقَةُ اثْنَتَيْنِ وَعِشْرِينَ دَوْلَةً."
+        },
+        {
+          "prompt": "Text 3: Select a correct statement — dialects and fuṣḥā.",
+          "options": [
+            "Dialects differ, while fuṣḥā unites them in writing.",
+            "All dialects are identical.",
+            "Fuṣḥā is no longer used."
+          ],
+          "answer": 0,
+          "feedback": "تَخْتَلِفُ لَهَجَاتُهَا، بَيْنَمَا تَجْمَعُهَا الفُصْحَى فِي الكِتَابَةِ وَالإِعْلَامِ."
+        },
+        {
+          "prompt": "Text 3: Select a correct statement — other languages.",
+          "options": [
+            "Amazigh is official in Morocco and Algeria.",
+            "Arabic is the only official language everywhere.",
+            "No other languages exist."
+          ],
+          "answer": 0,
+          "feedback": "مِثْلُ الأَمَازِيغِيَّةِ فِي المَغْرِبِ وَالجَزَائِرِ."
+        },
+        {
+          "prompt": "Text 3: Select a correct statement — loanwords.",
+          "options": [
+            "Arabic words moved into other languages through trade and translation.",
+            "No Arabic words entered other languages.",
+            "Only place names travelled."
+          ],
+          "answer": 0,
+          "feedback": "وَقَدِ انْتَقَلَتْ كَلِمَاتٌ عَرَبِيَّةٌ إِلَى لُغَاتٍ أُخْرَى عَبْرَ التِّجَارَةِ وَالتَّرْجَمَةِ."
+        },
+        {
+          "prompt": "Text 3: How does the speaker qualify the closing claim?",
+          "options": [
+            "It is not true that the region has a single culture.",
+            "The region has one uniform culture.",
+            "Diversity is a recent development."
+          ],
+          "answer": 0,
+          "feedback": "وَلَيْسَ صَحِيحًا أَنَّهَا ذَاتُ ثَقَافَةٍ وَاحِدَةٍ."
+        }
+      ]
+    }
+  },
+  "reading": {
+    "text": "فِي بَلَدِنَا تُقَامُ مِهْرَجَانَاتٌ ثَقَافِيَّةٌ كُلَّ صَيْفٍ فِي مَسَارِحَ أَثَرِيَّةٍ. وَقَدْ حَضَرْتُ العَامَ المَاضِي وَاحِدًا مِنْهَا مَعَ أُسْرَتِي، وَشَاهَدْنَا عُرُوضَ الرَّقْصِ الشَّعْبِيِّ وَالمُوسِيقَى التَّقْلِيدِيَّةِ. زُيِّنَتِ السَّاحَاتُ بِالأَضْوَاءِ، وَتُبُودِلَتِ الأَطْعِمَةُ بَيْنَ العَائِلَاتِ. وَتَحْتَفِلُ فِي المَدِينَةِ نَفْسِهَا طَوَائِفُ مُخْتَلِفَةٌ بِمُنَاسَبَاتِهَا؛ فَيُقَامُ القُدَّاسُ فِي الكَنِيسَةِ القَدِيمَةِ، وَتُزَيَّنُ البُيُوتُ فِي الأَعْيَادِ الأُخْرَى. وَمِنْ وِجْهَةِ نَظَرِي لَا يُمْكِنُ إِنْكَارُ أَنَّ هٰذَا التَّنَوُّعَ ثَرْوَةٌ حَقِيقِيَّةٌ. عَلَى الرَّغْمِ مِنْ ذٰلِكَ لَا يَذْكُرُ كَثِيرٌ مِنَ الزُّوَّارِ سِوَى الجَانِبِ السِّيَاحِيِّ. وَفِي المُسْتَقْبَلِ سَأَعُودُ إِلَى المِهْرَجَانِ، وَأَطْمَحُ إِلَى أَنْ أُشَارِكَ فِي تَنْظِيمِهِ.",
+    "questions": [
+      {
+        "prompt": "R1: What is described in the text?",
+        "options": [
+          "Cultural festivals held each summer",
+          "A sports tournament",
+          "A school trip"
+        ],
+        "answer": 0,
+        "feedback": "تُقَامُ مِهْرَجَانَاتٌ ثَقَافِيَّةٌ كُلَّ صَيْفٍ فِي مَسَارِحَ أَثَرِيَّةٍ."
+      },
+      {
+        "prompt": "R2: When did the writer attend one?",
+        "options": [
+          "Last year, with the family",
+          "This month, alone",
+          "Ten years ago"
+        ],
+        "answer": 0,
+        "feedback": "وَقَدْ حَضَرْتُ العَامَ المَاضِي وَاحِدًا مِنْهَا مَعَ أُسْرَتِي."
+      },
+      {
+        "prompt": "R2: What did they watch?",
+        "options": [
+          "Folk dance and traditional music",
+          "A film",
+          "A debate"
+        ],
+        "answer": 0,
+        "feedback": "شَاهَدْنَا عُرُوضَ الرَّقْصِ الشَّعْبِيِّ وَالمُوسِيقَى التَّقْلِيدِيَّةِ."
+      },
+      {
+        "prompt": "R2: What happened to the squares?",
+        "options": [
+          "They were decorated with lights",
+          "They were closed",
+          "They were rebuilt"
+        ],
+        "answer": 0,
+        "feedback": "زُيِّنَتِ السَّاحَاتُ بِالأَضْوَاءِ."
+      },
+      {
+        "prompt": "R2: What is said about different communities in the city?",
+        "options": [
+          "They celebrate their own occasions",
+          "They share one single festival",
+          "They do not celebrate"
+        ],
+        "answer": 0,
+        "feedback": "وَتَحْتَفِلُ فِي المَدِينَةِ نَفْسِهَا طَوَائِفُ مُخْتَلِفَةٌ بِمُنَاسَبَاتِهَا."
+      },
+      {
+        "prompt": "R3: Does the writer value the diversity described? How do you know?",
+        "options": [
+          "Yes — they write لَا يُمْكِنُ إِنْكَارُ أَنَّ هٰذَا التَّنَوُّعَ ثَرْوَةٌ حَقِيقِيَّةٌ.",
+          "No — they describe it as a problem.",
+          "The text gives no indication either way."
+        ],
+        "answer": 0,
+        "feedback": "The opinion structure states the value directly."
+      },
+      {
+        "prompt": "R3: What reservation does the writer express?",
+        "options": [
+          "Many visitors mention only the tourist side",
+          "The festivals are too expensive",
+          "The music is poor"
+        ],
+        "answer": 0,
+        "feedback": "لَا يَذْكُرُ كَثِيرٌ مِنَ الزُّوَّارِ سِوَى الجَانِبِ السِّيَاحِيِّ."
+      },
+      {
+        "prompt": "R3: What does the tense of زُيِّنَتْ signal?",
+        "options": [
+          "A completed action on that occasion",
+          "A general habit",
+          "A future plan"
+        ],
+        "answer": 0,
+        "feedback": "The past passive presents it as completed at that festival."
+      },
+      {
+        "prompt": "R4 gap-fill: وَفِي المُسْتَقْبَلِ ___ إِلَى المِهْرَجَانِ.",
+        "options": [
+          "سَأَعُودُ",
+          "عُدْتُ",
+          "كُنْتُ أَعُودُ"
+        ],
+        "answer": 0,
+        "feedback": "فِي المُسْتَقْبَلِ requires سَـ with a present verb."
+      },
+      {
+        "prompt": "R4: What does the writer aspire to?",
+        "options": [
+          "To take part in organising the festival",
+          "To leave the city",
+          "To stop attending"
+        ],
+        "answer": 0,
+        "feedback": "وَأَطْمَحُ إِلَى أَنْ أُشَارِكَ فِي تَنْظِيمِهِ."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "prompt": "Past tense: choose the accurate نَحْنُ form of زَارَ.",
+      "options": [
+        "زُرْنَا",
+        "زَارْنَا",
+        "زِرْنَا"
+      ],
+      "answer": 0,
+      "feedback": "A hollow verb shortens its middle vowel before a consonant suffix."
+    },
+    {
+      "prompt": "Past habit: which sentence means “she used to prepare”?",
+      "options": [
+        "كَانَتْ تُعِدُّ",
+        "كَانَتْ أَعَدَّتْ",
+        "سَتُعِدُّ"
+      ],
+      "answer": 0,
+      "feedback": "كَانَ plus a present verb expresses a past habit."
+    },
+    {
+      "prompt": "Future: complete — العَامَ القَادِمَ ___ حَفْلًا أَكْبَرَ.",
+      "options": [
+        "سَنُنَظِّمُ",
+        "نَظَّمْنَا",
+        "كُنَّا نُنَظِّمُ"
+      ],
+      "answer": 0,
+      "feedback": "A future time phrase requires سَـ with a present verb."
+    },
+    {
+      "prompt": "Negation: complete — ___ نَتَخَلَّى عَنْ لُغَتِنَا.",
+      "options": [
+        "لَنْ",
+        "لَمْ",
+        "لَا"
+      ],
+      "answer": 0,
+      "feedback": "لَنْ negates the future and takes the subjunctive."
+    },
+    {
+      "prompt": "Cultural verb: complete — نَحْتَفِلُ ___ العِيدِ.",
+      "options": [
+        "بِـ",
+        "عَلَى",
+        "فِي"
+      ],
+      "answer": 0,
+      "feedback": "يَحْتَفِلُ is fixed with بِـ."
+    },
+    {
+      "prompt": "Cultural verb: complete — أَنْتَمِي ___ ثَقَافَتَيْنِ.",
+      "options": [
+        "إِلَى",
+        "بِـ",
+        "مَعَ"
+      ],
+      "answer": 0,
+      "feedback": "يَنْتَمِي is fixed with إِلَى."
+    },
+    {
+      "prompt": "Cultural verb: complete — يَتَكَيَّفُ ___ الحَيَاةِ الجَدِيدَةِ.",
+      "options": [
+        "مَعَ",
+        "عَلَى",
+        "إِلَى"
+      ],
+      "answer": 0,
+      "feedback": "يَتَكَيَّفُ is fixed with مَعَ."
+    },
+    {
+      "prompt": "Passive: complete — ___ القَاعَةُ بِالأَضْوَاءِ.",
+      "options": [
+        "تُزَيَّنُ",
+        "تُزَيِّنُ",
+        "يُزَيَّنُ"
+      ],
+      "answer": 0,
+      "feedback": "The passive agrees with the feminine nominative subject."
+    },
+    {
+      "prompt": "Relative clause: complete — المَدِينَةُ ___ زُرْتُهَا جَمِيلَةٌ.",
+      "options": [
+        "الَّتِي",
+        "الَّذِي",
+        "الَّذِينَ"
+      ],
+      "answer": 0,
+      "feedback": "The pronoun agrees with the feminine noun before it."
+    },
+    {
+      "prompt": "Comparative: which is accurate?",
+      "options": [
+        "أَكْبَرُ مِنَ السَّابِقِ",
+        "أَكْثَرُ أَكْبَرُ مِنَ السَّابِقِ",
+        "الأَكْبَرُ مِنَ السَّابِقِ"
+      ],
+      "answer": 0,
+      "feedback": "Use one comparative form with مِنْ."
+    },
+    {
+      "prompt": "Diptote: complete — سَافَرْنَا إِلَى ___ فِي الصَّيْفِ.",
+      "options": [
+        "لُبْنَانَ",
+        "لُبْنَانٍ",
+        "لُبْنَانًا"
+      ],
+      "answer": 0,
+      "feedback": "لُبْنَان is a diptote and takes a bare fatḥa."
+    },
+    {
+      "prompt": "Opinion: complete — لَا يُمْكِنُ إِنْكَارُ أَنَّ ___ ثَرْوَةٌ.",
+      "options": [
+        "التَّنَوُّعَ",
+        "التَّنَوُّعُ",
+        "التَّنَوُّعِ"
+      ],
+      "answer": 0,
+      "feedback": "أَنَّ takes an accusative noun."
+    }
+  ],
+  "writing_form": [
+    [
+      "جِنْسِيَّتِي أَوْ إِرْثِي الثَّقَافِيُّ",
+      "Your nationality or cultural heritage"
+    ],
+    [
+      "عَادَةٌ ثَقَافِيَّةٌ أَعْرِفُهَا",
+      "One cultural custom you know"
+    ],
+    [
+      "مُنَاسَبَةٌ أَحْتَفِلُ بِهَا (اِسْتَعْمِلْ يَحْتَفِلُ بِـ)",
+      "One celebration you mark — use يَحْتَفِلُ بِـ"
+    ],
+    [
+      "لُغَةٌ أَتَحَدَّثُهَا",
+      "One language you speak"
+    ],
+    [
+      "طُمُوحٌ ثَقَافِيٌّ لِلْمُسْتَقْبَلِ",
+      "One cultural aspiration for the future"
+    ]
+  ],
+  "roleplay": [
+    [
+      "عَرِّفْ بِنَفْسِكَ وَبِخَلْفِيَّتِكَ الثَّقَافِيَّةِ.",
+      "Introduce yourself and your cultural background — 2 marks."
+    ],
+    [
+      "صِفْ عَادَةً ثَقَافِيَّةً مِنْ خَلْفِيَّتِكَ.",
+      "Describe a custom from your background — 1 mark."
+    ],
+    [
+      "اِسْأَلِ الشَّخْصَ الآخَرَ عَنْ ثَقَافَتِهِ.",
+      "Ask the other person about their culture — 1 mark."
+    ],
+    [
+      "اُذْكُرْ شَيْئًا تَعَلَّمْتَهُ مِنْ ثَقَافَةٍ أُخْرَى.",
+      "Say one thing you have learned from another culture."
+    ]
+  ],
+  "topic": [
+    [
+      "صِفْ بَلَدًا عَرَبِيًّا تُرِيدُ زِيَارَتَهُ وَلِمَاذَا.",
+      "Present and future; nationality vocabulary expected."
+    ],
+    [
+      "صِفْ مُنَاسَبَةً ثَقَافِيَّةً أَوْ دِينِيَّةً مَرَرْتَ بِهَا.",
+      "Past tense required throughout."
+    ],
+    [
+      "مَا أَهَمِّيَّةُ اللُّغَةِ العَرَبِيَّةِ فِي حَيَاتِكَ؟",
+      "Opinion structure plus future."
+    ]
+  ],
+  "mark_scheme": {
+    "writing_q2": [
+      [
+        "Task Completion",
+        5,
+        [
+          "Cultural background or identity described (1)",
+          "A past cultural experience narrated with at least three events (2)",
+          "A future aspiration stated (1)",
+          "An opinion given (1)"
+        ]
+      ],
+      [
+        "Range",
+        5,
+        [
+          "Five or more past-tense verbs (2)",
+          "Future tense with سَـ or سَوْفَ (1)",
+          "A cultural verb with its correct preposition (1)",
+          "A passive, a comparison or a formal connector (1)"
+        ]
+      ],
+      [
+        "Accuracy",
+        5,
+        [
+          "Past-tense suffix accuracy across five or more verbs (3)",
+          "Cultural verb prepositions correct (1)",
+          "Adjective, pronoun and case agreement correct (1)"
+        ]
+      ]
+    ],
+    "speaking": [
+      [
+        "Role play",
+        4,
+        [
+          "Communication (2)",
+          "Accuracy, including cultural verb prepositions (2)"
+        ]
+      ],
+      [
+        "Topic conversation",
+        6,
+        [
+          "Communication (3)",
+          "Quality of language: cultural vocabulary range, tense accuracy, opinion structures (3)"
+        ]
+      ]
+    ]
+  }
+}

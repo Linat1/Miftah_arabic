@@ -1,0 +1,551 @@
+{
+  "listening": {
+    "one": {
+      "script": "يَقُولُ الخَبِيرُ البِيئِيُّ: تُعَانِي المِنْطَقَةُ العَرَبِيَّةُ مِنْ نُدْرَةِ المِيَاهِ الحَادَّةِ، وَتُمَثِّلُ المَوَارِدُ المُتَجَدِّدَةُ نِسْبَةً ضَئِيلَةً مِنْ حَاجَتِنَا. يَتَطَلَّبُ الوَضْعُ أَنْ تُخَصِّصَ الحُكُومَاتُ مِيزَانِيَّاتٍ أَكْبَرَ لِلتَّحْلِيَةِ. وَنَخْشَى أَنْ يَتَجَاوَزَ الاِحْتِرَارُ العَالَمِيُّ حُدُودَهُ الآمِنَةَ. إِذَا اعْتَمَدْنَا عَلَى الطَّاقَةِ الشَّمْسِيَّةِ، سَنُخَفِّضُ التَّكَالِيفَ. وَلَوْ كُنَّا قَدِ اسْتَثْمَرْنَا مُبَكِّرًا، لَتَجَنَّبْنَا هٰذِهِ الأَزْمَةَ. وَقَالَ تَقْرِيرٌ أُمَمِيٌّ إِنَّ ثُلُثَ سُكَّانِ العَالَمِ سَيُوَاجِهُونَ العَطَشَ. وَنَرْجُو أَنْ تُوَقِّعَ الدُّوَلُ اتِّفَاقًا لِإِدَارَةِ الأَنْهَارِ المُشْتَرَكَةِ.",
+      "questions": [
+        {
+          "prompt": "What is the current water situation?",
+          "options": [
+            "The region suffers acute water scarcity",
+            "The region has a water surplus",
+            "Water is no concern"
+          ],
+          "answer": 0,
+          "feedback": "تُعَانِي المِنْطَقَةُ العَرَبِيَّةُ مِنْ نُدْرَةِ المِيَاهِ الحَادَّةِ."
+        },
+        {
+          "prompt": "What does the expert say is required (يَتَطَلَّبُ)?",
+          "options": [
+            "Governments should allocate bigger budgets for desalination",
+            "Governments should stop desalination",
+            "Nothing is required"
+          ],
+          "answer": 0,
+          "feedback": "يَتَطَلَّبُ الوَضْعُ أَنْ تُخَصِّصَ الحُكُومَاتُ مِيزَانِيَّاتٍ أَكْبَرَ لِلتَّحْلِيَةِ."
+        },
+        {
+          "prompt": "What does the expert fear (يَخْشَى)?",
+          "options": [
+            "That global warming will exceed its safe limits",
+            "That rainfall will increase",
+            "That budgets will grow"
+          ],
+          "answer": 0,
+          "feedback": "نَخْشَى أَنْ يَتَجَاوَزَ الاِحْتِرَارُ العَالَمِيُّ حُدُودَهُ الآمِنَةَ."
+        },
+        {
+          "prompt": "What is the Type 1 recommendation?",
+          "options": [
+            "If they rely on solar power, costs will fall",
+            "Solar power raises costs",
+            "Costs cannot fall"
+          ],
+          "answer": 0,
+          "feedback": "إِذَا اعْتَمَدْنَا عَلَى الطَّاقَةِ الشَّمْسِيَّةِ، سَنُخَفِّضُ التَّكَالِيفَ."
+        },
+        {
+          "prompt": "What is the Type 2 regret about past failure?",
+          "options": [
+            "Had they invested earlier, they would have avoided this crisis",
+            "Investing makes no difference",
+            "They refused to invest"
+          ],
+          "answer": 0,
+          "feedback": "لَوْ كُنَّا قَدِ اسْتَثْمَرْنَا مُبَكِّرًا، لَتَجَنَّبْنَا هٰذِهِ الأَزْمَةَ."
+        },
+        {
+          "prompt": "What statistic is reported from the UN report?",
+          "options": [
+            "A third of the world's people will face thirst",
+            "All the world will have water",
+            "No one will face thirst"
+          ],
+          "answer": 0,
+          "feedback": "قَالَ تَقْرِيرٌ أُمَمِيٌّ إِنَّ ثُلُثَ سُكَّانِ العَالَمِ سَيُوَاجِهُونَ العَطَشَ."
+        },
+        {
+          "prompt": "What is the source of the statistic?",
+          "options": [
+            "A UN report",
+            "A local newspaper",
+            "The expert's own guess"
+          ],
+          "answer": 0,
+          "feedback": "قَالَ تَقْرِيرٌ أُمَمِيٌّ إِنَّ …."
+        },
+        {
+          "prompt": "What does the expert hope for (يَرْجُو)?",
+          "options": [
+            "That states will sign an agreement to manage shared rivers",
+            "That rivers will dry up",
+            "That desalination will stop"
+          ],
+          "answer": 0,
+          "feedback": "نَرْجُو أَنْ تُوَقِّعَ الدُّوَلُ اتِّفَاقًا لِإِدَارَةِ الأَنْهَارِ المُشْتَرَكَةِ."
+        }
+      ]
+    },
+    "two": {
+      "script": "مَعْمَارِيٌّ أَوَّلُ (سَامِي): يَنْبَغِي أَنْ نُحَافِظَ عَلَى المَبَانِي التَّارِيخِيَّةِ لِأَنَّهَا ذَاكِرَةُ المَدِينَةِ. مَعْمَارِيَّةٌ ثَانِيَةٌ (لَيْلَى): أَتَّفِقُ، لٰكِنِّي أَرَى أَنَّ التَّنْمِيَةَ ضَرُورِيَّةٌ أَيْضًا. سَامِي: نُرَمِّمُ التُّرَاثَ لِكَيْ نَصُونَ هُوِيَّتَنَا، وَلَوْ هَدَمْنَاهُ لَفَقَدْنَا جُزْءًا مِنْ تَارِيخِنَا. لَيْلَى: وَأَنَا أَرْجُو أَنْ نَجِدَ حَلًّا يُوَازِنُ بَيْنَ القَدِيمِ وَالحَدِيثِ. سَامِي: وَيَتَطَلَّبُ ذٰلِكَ أَنْ نَسْتَشِيرَ الخُبَرَاءَ. لَيْلَى: وَكَانَتِ المَدِينَةُ قَدْ فَقَدَتْ مَبَانِيَ كَثِيرَةً بِسَبَبِ الإِهْمَالِ.",
+      "questions": [
+        {
+          "prompt": "Who says historic buildings must be preserved (necessity)?",
+          "options": [
+            "Sami",
+            "Layla",
+            "Both"
+          ],
+          "answer": 0,
+          "feedback": "سَامِي: يَنْبَغِي أَنْ نُحَافِظَ عَلَى المَبَانِي التَّارِيخِيَّةِ."
+        },
+        {
+          "prompt": "Who states that development is also necessary?",
+          "options": [
+            "Layla",
+            "Sami",
+            "Both"
+          ],
+          "answer": 0,
+          "feedback": "لَيْلَى: أَرَى أَنَّ التَّنْمِيَةَ ضَرُورِيَّةٌ أَيْضًا."
+        },
+        {
+          "prompt": "Who gives the purpose clause about restoring heritage (لِكَي)?",
+          "options": [
+            "Sami",
+            "Layla",
+            "Both"
+          ],
+          "answer": 0,
+          "feedback": "سَامِي: نُرَمِّمُ التُّرَاثَ لِكَيْ نَصُونَ هُوِيَّتَنَا."
+        },
+        {
+          "prompt": "Who hopes for a balanced solution (يَرْجُو)?",
+          "options": [
+            "Layla",
+            "Sami",
+            "Both"
+          ],
+          "answer": 0,
+          "feedback": "لَيْلَى: أَرْجُو أَنْ نَجِدَ حَلًّا يُوَازِنُ بَيْنَ القَدِيمِ وَالحَدِيثِ."
+        },
+        {
+          "prompt": "Who says the matter requires consulting experts (يَتَطَلَّبُ)?",
+          "options": [
+            "Sami",
+            "Layla",
+            "Both"
+          ],
+          "answer": 0,
+          "feedback": "سَامِي: يَتَطَلَّبُ ذٰلِكَ أَنْ نَسْتَشِيرَ الخُبَرَاءَ."
+        },
+        {
+          "prompt": "Who notes the city had lost buildings to neglect (past perfect)?",
+          "options": [
+            "Layla",
+            "Sami",
+            "Both"
+          ],
+          "answer": 0,
+          "feedback": "لَيْلَى: كَانَتِ المَدِينَةُ قَدْ فَقَدَتْ مَبَانِيَ كَثِيرَةً بِسَبَبِ الإِهْمَالِ."
+        }
+      ]
+    },
+    "three": {
+      "script": "يَقُولُ مُخَطِّطٌ عُمْرَانِيٌّ: كَانَتِ الحُكُومَةُ قَدْ أَطْلَقَتْ مَشْرُوعَ المَدِينَةِ الذَّكِيَّةِ قَبْلَ سَنَوَاتٍ. وَفِي العَامِ المَاضِي، دُمِّرَتْ أَحْيَاءٌ قَدِيمَةٌ فِي فَيَضَانٍ مُفَاجِئٍ، وَأُجْلِيَ السُّكَّانُ، وَأُعْلِنَتْ حَالَةُ الطَّوَارِئِ. وَلِذٰلِكَ صُمِّمَتِ المَدِينَةُ الجَدِيدَةُ لِكَيْ تُقَاوِمَ الكَوَارِثَ. وَيَتَطَلَّبُ الأَمْرُ أَنْ نُطَوِّرَ أَنْظِمَةَ الإِنْذَارِ المُبَكِّرِ. وَإِذَا اعْتَمَدْنَا عَلَى الطَّاقَةِ المُتَجَدِّدَةِ، سَتَنْخَفِضُ الاِنْبِعَاثَاتُ. وَنَرْجُو أَنْ تُصْبِحَ مِثَالًا يُحْتَذَى فِي المِنْطَقَةِ.",
+      "questions": [
+        {
+          "prompt": "Select a statement supported by the text (past perfect).",
+          "options": [
+            "The government had launched the smart-city project years earlier",
+            "The project never started",
+            "The project starts next year"
+          ],
+          "answer": 0,
+          "feedback": "كَانَتِ الحُكُومَةُ قَدْ أَطْلَقَتْ مَشْرُوعَ المَدِينَةِ الذَّكِيَّةِ قَبْلَ سَنَوَاتٍ."
+        },
+        {
+          "prompt": "Select a statement supported by the text (disaster passives).",
+          "options": [
+            "Old districts were destroyed, residents were evacuated and a state of emergency was declared",
+            "Nothing was damaged",
+            "The districts were rebuilt overnight"
+          ],
+          "answer": 0,
+          "feedback": "دُمِّرَتْ أَحْيَاءٌ قَدِيمَةٌ … وَأُجْلِيَ السُّكَّانُ، وَأُعْلِنَتْ حَالَةُ الطَّوَارِئِ."
+        },
+        {
+          "prompt": "Select a statement supported by the text (purpose, لِكَي).",
+          "options": [
+            "The new city was designed to withstand disasters",
+            "The city was designed to attract floods",
+            "The city has no design purpose"
+          ],
+          "answer": 0,
+          "feedback": "صُمِّمَتِ المَدِينَةُ الجَدِيدَةُ لِكَيْ تُقَاوِمَ الكَوَارِثَ."
+        },
+        {
+          "prompt": "Select a statement supported by the text (necessity, يَتَطَلَّبُ).",
+          "options": [
+            "The matter requires developing early-warning systems",
+            "Early-warning systems are unnecessary",
+            "Warnings should be removed"
+          ],
+          "answer": 0,
+          "feedback": "يَتَطَلَّبُ الأَمْرُ أَنْ نُطَوِّرَ أَنْظِمَةَ الإِنْذَارِ المُبَكِّرِ."
+        },
+        {
+          "prompt": "Select a statement supported by the text (Type 1).",
+          "options": [
+            "If they rely on renewable energy, emissions will fall",
+            "Renewable energy raises emissions",
+            "Emissions cannot fall"
+          ],
+          "answer": 0,
+          "feedback": "إِذَا اعْتَمَدْنَا عَلَى الطَّاقَةِ المُتَجَدِّدَةِ، سَتَنْخَفِضُ الاِنْبِعَاثَاتُ."
+        },
+        {
+          "prompt": "Select a statement supported by the text (hope, يَرْجُو).",
+          "options": [
+            "They hope the city becomes a model for the region",
+            "They hope it fails",
+            "They have no hopes for it"
+          ],
+          "answer": 0,
+          "feedback": "نَرْجُو أَنْ تُصْبِحَ مِثَالًا يُحْتَذَى فِي المِنْطَقَةِ."
+        }
+      ]
+    }
+  },
+  "reading": {
+    "text": "تُوَاجِهُ البِيئَةُ فِي العَالَمِ العَرَبِيِّ تَحَدِّيَاتٍ كَبِيرَةً، مِنْ نُدْرَةِ المِيَاهِ إِلَى التَّلَوُّثِ وَفُقْدَانِ التُّرَاثِ العُمْرَانِيِّ. يَقُولُ كَاتِبُ المَقَالِ: «يَنْبَغِي أَنْ نَسْتَثْمِرَ فِي الطَّاقَةِ المُتَجَدِّدَةِ، وَأَنْ نُحَافِظَ عَلَى مُدُنِنَا القَدِيمَةِ.» وَيُضِيفُ أَنَّنَا نَفْعَلُ ذٰلِكَ لِكَيْ نَحْمِيَ الأَجْيَالَ القَادِمَةَ وَنَصُونَ هُوِيَّتَنَا. وَكَانَتْ مُدُنٌ كَثِيرَةٌ قَدْ فَقَدَتْ مَعَالِمَهَا قَبْلَ أَنْ تَنْتَبِهَ الحُكُومَاتُ لِلْخَطَرِ. وَيَرْجُو الكَاتِبُ أَنْ يَتَغَيَّرَ سُلُوكُ الأَفْرَادِ. وَيُؤَكِّدُ أَنَّهُ إِذَا اعْتَمَدْنَا عَلَى النَّقْلِ النَّظِيفِ، سَتَنْخَفِضُ الاِنْبِعَاثَاتُ. وَالغَرَضُ مِنَ النَّصِّ إِقْنَاعُ القَارِئِ بِالمَسْؤُولِيَّةِ البِيئِيَّةِ.",
+    "questions": [
+      {
+        "prompt": "R1 — What is the writer's main concern?",
+        "options": [
+          "The environment faces major challenges in the Arab world",
+          "The environment has no problems",
+          "Only water matters"
+        ],
+        "answer": 0,
+        "feedback": "تُوَاجِهُ البِيئَةُ فِي العَالَمِ العَرَبِيِّ تَحَدِّيَاتٍ كَبِيرَةً."
+      },
+      {
+        "prompt": "R2 — Name two challenges the writer lists.",
+        "options": [
+          "Water scarcity and loss of built heritage",
+          "Abundant water and new buildings",
+          "Nothing specific"
+        ],
+        "answer": 0,
+        "feedback": "مِنْ نُدْرَةِ المِيَاهِ إِلَى التَّلَوُّثِ وَفُقْدَانِ التُّرَاثِ العُمْرَانِيِّ."
+      },
+      {
+        "prompt": "R2 — What does the writer hope for (يَرْجُو)?",
+        "options": [
+          "That individuals' behaviour will change",
+          "That behaviour stays the same",
+          "That governments do nothing"
+        ],
+        "answer": 0,
+        "feedback": "يَرْجُو الكَاتِبُ أَنْ يَتَغَيَّرَ سُلُوكُ الأَفْرَادِ."
+      },
+      {
+        "prompt": "R3 — Identify ONE subjunctive verb in the first quotation and name its trigger type.",
+        "options": [
+          "نَسْتَثْمِرَ — a necessity trigger (يَنْبَغِي أَنْ)",
+          "نَسْتَثْمِرَ — a purpose trigger (لِكَي)",
+          "سَتَنْخَفِضُ — a conditional result"
+        ],
+        "answer": 0,
+        "feedback": "يَنْبَغِي أَنْ نَسْتَثْمِرَ is a necessity trigger; the verb نَسْتَثْمِرَ is subjunctive."
+      },
+      {
+        "prompt": "R3 — Identify the purpose trigger and its verb.",
+        "options": [
+          "لِكَيْ نَحْمِيَ — purpose",
+          "يَنْبَغِي أَنْ نَسْتَثْمِرَ — purpose",
+          "يَرْجُو أَنْ يَتَغَيَّرَ — purpose"
+        ],
+        "answer": 0,
+        "feedback": "لِكَي نَحْمِيَ states a purpose."
+      },
+      {
+        "prompt": "R3 — What does the purpose clause tell you about the writer's argument?",
+        "options": [
+          "Preservation is framed as protecting future generations and identity",
+          "Preservation is optional and minor",
+          "The writer opposes preservation"
+        ],
+        "answer": 0,
+        "feedback": "لِكَي نَحْمِيَ الأَجْيَالَ القَادِمَةَ وَنَصُونَ هُوِيَّتَنَا frames the argument."
+      },
+      {
+        "prompt": "R3 — Find the past-perfect structure.",
+        "options": [
+          "كَانَتْ مُدُنٌ كَثِيرَةٌ قَدْ فَقَدَتْ مَعَالِمَهَا",
+          "يَنْبَغِي أَنْ نَسْتَثْمِرَ",
+          "لِكَيْ نَحْمِيَ الأَجْيَالَ"
+        ],
+        "answer": 0,
+        "feedback": "كَانَتْ … قَدْ فَقَدَتْ is the past perfect."
+      },
+      {
+        "prompt": "R4 — Complete the necessity gap: يَتَطَلَّبُ الأَمْرُ أَنْ ___ عَلَى مُدُنِنَا القَدِيمَةِ.",
+        "options": [
+          "نُحَافِظَ",
+          "نُحَافِظُ",
+          "نُحَافِظْ"
+        ],
+        "answer": 0,
+        "feedback": "After أَنْ the verb is subjunctive: نُحَافِظَ, not the indicative نُحَافِظُ."
+      },
+      {
+        "prompt": "R4 — Complete the Type 1 gap: إِذَا اعْتَمَدْنَا عَلَى النَّقْلِ النَّظِيفِ، ___ الاِنْبِعَاثَاتُ.",
+        "options": [
+          "سَتَنْخَفِضُ",
+          "لَانْخَفَضَتِ",
+          "تَنْخَفِضُ"
+        ],
+        "answer": 0,
+        "feedback": "A real إِذَا conditional takes a سَـ result."
+      },
+      {
+        "prompt": "R4 — What is the purpose of the text?",
+        "options": [
+          "To persuade the reader of environmental responsibility",
+          "To report the news only",
+          "To entertain only"
+        ],
+        "answer": 0,
+        "feedback": "الغَرَضُ مِنَ النَّصِّ إِقْنَاعُ القَارِئِ بِالمَسْؤُولِيَّةِ البِيئِيَّةِ."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "prompt": "Choose the accurate purpose clause (لِكَي).",
+      "options": [
+        "نَزْرَعُ الأَشْجَارَ لِكَيْ نُنَقِّيَ الهَوَاءَ.",
+        "نَزْرَعُ الأَشْجَارَ لِكَيْ نُنَقِّي الهَوَاءَ.",
+        "نَزْرَعُ الأَشْجَارَ لِكَيْ نُنَقِّيْ الهَوَاءَ."
+      ],
+      "answer": 0,
+      "feedback": "After لِكَي the verb takes a final fatḥa: نُنَقِّيَ."
+    },
+    {
+      "prompt": "Choose the accurate necessity clause (يَنْبَغِي أَنْ).",
+      "options": [
+        "يَنْبَغِي أَنْ نَسْتَثْمِرَ فِي الطَّاقَةِ.",
+        "يَنْبَغِي أَنْ نَسْتَثْمِرُ فِي الطَّاقَةِ.",
+        "يَنْبَغِي أَنْ نَسْتَثْمِرْ فِي الطَّاقَةِ."
+      ],
+      "answer": 0,
+      "feedback": "After أَنْ the verb is subjunctive: نَسْتَثْمِرَ."
+    },
+    {
+      "prompt": "Choose the accurate volition clause.",
+      "options": [
+        "يَتَطَلَّبُ الأَمْرُ أَنْ نُخَصِّصَ مِيزَانِيَّةً.",
+        "يَتَطَلَّبُ الأَمْرُ أَنْ نُخَصِّصُ مِيزَانِيَّةً.",
+        "يَتَطَلَّبُ الأَمْرُ نُخَصِّصَ مِيزَانِيَّةً."
+      ],
+      "answer": 0,
+      "feedback": "يَتَطَلَّبُ أَنْ takes a subjunctive verb: نُخَصِّصَ."
+    },
+    {
+      "prompt": "Complete: يَهْدِفُ المَشْرُوعُ ___ أَنْ يُقَلِّلَ الاِنْبِعَاثَاتِ.",
+      "options": [
+        "إِلَى",
+        "عَلَى",
+        "بِـ"
+      ],
+      "answer": 0,
+      "feedback": "يَهْدِفُ is fixed with إِلَى before أَنْ."
+    },
+    {
+      "prompt": "Choose the accurate Type 1 conditional.",
+      "options": [
+        "إِذَا اسْتَثْمَرْنَا، سَنَحْمِي الغَدَ.",
+        "إِذَا اسْتَثْمَرْنَا، نَحْمِي الغَدَ.",
+        "إِذَا نَسْتَثْمِرُ، سَنَحْمِي الغَدَ."
+      ],
+      "answer": 0,
+      "feedback": "إِذَا takes a past-form verb and the result takes سَـ."
+    },
+    {
+      "prompt": "Choose the accurate Type 2 conditional.",
+      "options": [
+        "لَوْ بَدَأْنَا مُبَكِّرًا، لَنَجَحْنَا.",
+        "لَوْ بَدَأْنَا مُبَكِّرًا، نَجَحْنَا.",
+        "لَوْ بَدَأْنَا مُبَكِّرًا، سَنَنْجَحُ."
+      ],
+      "answer": 0,
+      "feedback": "A Type 2 result takes the لَـ prefix on a past verb."
+    },
+    {
+      "prompt": "Which verb form follows لَوْ?",
+      "options": [
+        "اسْتَثْمَرْنَا",
+        "نَسْتَثْمِرُ",
+        "سَنَسْتَثْمِرُ"
+      ],
+      "answer": 0,
+      "feedback": "لَوْ is followed by a past-tense verb."
+    },
+    {
+      "prompt": "Complete the past perfect: ___ المَدِينَةُ قَدْ فَقَدَتْ حَدَائِقَهَا.",
+      "options": [
+        "كَانَتِ",
+        "سَـ",
+        "إِذَا"
+      ],
+      "answer": 0,
+      "feedback": "The past perfect is كَانَتْ … قَدْ فَقَدَتْ."
+    },
+    {
+      "prompt": "Which disaster passive is correctly formed?",
+      "options": [
+        "دُمِّرَتِ المَبَانِي فِي الزِّلْزَالِ.",
+        "يُدَمَّرَتِ المَبَانِي فِي الزِّلْزَالِ.",
+        "دَمَّرَتِ المَبَانِي فِي الزِّلْزَالِ."
+      ],
+      "answer": 0,
+      "feedback": "The past passive is دُمِّرَتْ."
+    },
+    {
+      "prompt": "Which passive means “was declared”?",
+      "options": [
+        "أُعْلِنَتْ",
+        "أَعْلَنَتْ",
+        "تُعْلِنُ"
+      ],
+      "answer": 0,
+      "feedback": "أُعْلِنَتْ is the past passive “was declared”."
+    },
+    {
+      "prompt": "Which reported clause is correct?",
+      "options": [
+        "قَالَ الخَبِيرُ إِنَّ الاِسْتِدَامَةَ ضَرُورَةٌ.",
+        "قَالَ الخَبِيرُ أَنَّ الاِسْتِدَامَةَ ضَرُورَةٌ.",
+        "قَالَ الخَبِيرُ بِأَنَّ الاِسْتِدَامَةَ ضَرُورَةٌ."
+      ],
+      "answer": 0,
+      "feedback": "قَالَ takes إِنَّ."
+    },
+    {
+      "prompt": "Which fear clause (volition) is correct?",
+      "options": [
+        "نَخْشَى أَنْ يَتَفَاقَمَ التَّلَوُّثُ.",
+        "نَخْشَى أَنْ يَتَفَاقَمُ التَّلَوُّثُ.",
+        "نَخْشَى أَنْ تَفَاقَمَ التَّلَوُّثُ."
+      ],
+      "answer": 0,
+      "feedback": "After أَنْ the verb is subjunctive: يَتَفَاقَمَ."
+    }
+  ],
+  "writing_form": [
+    [
+      "أَكْبَرُ تَحَدٍّ بِيئِيٍّ بِاسْتِعْمَالِ «يُشَكِّلُ / يُمَثِّلُ»",
+      "The main environmental challenge using يُشَكِّلُ or يُمَثِّلُ"
+    ],
+    [
+      "إِجْرَاءٌ ضَرُورِيٌّ بِاسْتِعْمَالِ «يَتَطَلَّبُ أَنْ» + مَنْصُوبٌ",
+      "One required action using يَتَطَلَّبُ أَنْ + subjunctive"
+    ],
+    [
+      "غَرَضٌ بِاسْتِعْمَالِ «لِكَيْ» + مَنْصُوبٌ",
+      "One purpose statement using لِكَي + subjunctive"
+    ],
+    [
+      "أَمَلٌ بِاسْتِعْمَالِ «يَرْجُو أَنْ» + مَنْصُوبٌ",
+      "One hope using يَرْجُو أَنْ + subjunctive"
+    ],
+    [
+      "تَوْصِيَةٌ شَرْطِيَّةٌ (إِذَا … سَـ …)",
+      "One conditional recommendation using a Type 1 conditional"
+    ]
+  ],
+  "roleplay": [
+    [
+      "صِفْ تَحَدِّيًا بِيئِيًّا (يُشَكِّلُ / يُمَثِّلُ مُتَوَقَّعٌ فِي الرَّدِّ).",
+      "Describe an environmental challenge; the response should use يُشَكِّلُ or يُمَثِّلُ."
+    ],
+    [
+      "اشْرَحْ مَا الَّذِي يَتَطَلَّبُهُ الحَلُّ (يَتَطَلَّبُ أَنْ + مَنْصُوبٌ — عَلَامَةُ دِقَّةٍ لِلنَّصْبِ).",
+      "Explain what the solution requires using يَتَطَلَّبُ أَنْ + subjunctive (a subjunctive-accuracy mark)."
+    ],
+    [
+      "اقْتَرِحْ إِجْرَاءً مُسْتَقْبَلِيًّا (شَرْطٌ مِنَ النَّوْعِ الأَوَّلِ — إِذَا …).",
+      "Propose a future action using a Type 1 conditional."
+    ],
+    [
+      "عَبِّرْ عَنْ أَمَلٍ لِلْأَجْيَالِ القَادِمَةِ (يَرْجُو أَنْ + مَنْصُوبٌ).",
+      "Express a hope for future generations using يَرْجُو أَنْ + subjunctive."
+    ]
+  ],
+  "topic": [
+    [
+      "صِفْ تَحَدِّيًا بِيئِيًّا فِي العَالَمِ العَرَبِيِّ وَمَا أَسْبَابُهُ. (المَبْنِيُّ لِلْمَجْهُولِ وَالسَّبَبِيَّةُ مُتَوَقَّعَةٌ)",
+      "Describe an environmental challenge in the Arab world and its causes (passive and cause-effect expected)."
+    ],
+    [
+      "لَوْ كَانَتْ لَدَيْكَ صَلَاحِيَّاتُ وَزِيرِ البِيئَةِ، مَاذَا كُنْتَ سَتُغَيِّرُ؟ (شَرْطٌ مِنَ النَّوْعِ الثَّانِي مَطْلُوبٌ)",
+      "If you had an environment minister's powers, what would you change? (Type 2 conditional required)."
+    ],
+    [
+      "مَا الَّذِي يَتَطَلَّبُهُ الحِفَاظُ عَلَى التُّرَاثِ فِي رَأْيِكَ؟ (يَتَطَلَّبُ أَنْ + مَنْصُوبٌ مَطْلُوبٌ)",
+      "What does conserving heritage require in your view? (يَتَطَلَّبُ أَنْ + subjunctive required)."
+    ]
+  ],
+  "mark_scheme": {
+    "writing_q2": [
+      [
+        "Task completion (TC)",
+        5,
+        [
+          "A built/natural-world challenge is described with ecosystem or urban vocabulary (يُشَكِّلُ / يُمَثِّلُ).",
+          "A past-perfect background gives historical or prior context.",
+          "Conditional analysis and a proposed solution are present; 145-160 words."
+        ]
+      ],
+      [
+        "Range",
+        5,
+        [
+          "A purpose trigger (لِكَي + subjunctive) — one mark.",
+          "A necessity trigger (يَنْبَغِي / يَتَطَلَّبُ / مِنَ الضَّرُورِيِّ أَنْ + subjunctive) — a second, separate mark.",
+          "A volition trigger (يَهْدِفُ / يَخْشَى / يَرْجُو أَنْ + subjunctive), a Type 2 conditional and reported speech."
+        ]
+      ],
+      [
+        "Accuracy",
+        5,
+        [
+          "The subjunctive final fatḥa (ـَ) after every trigger (2 marks — the primary criterion).",
+          "The Type 2 لَـ prefix in the result clause (2 marks).",
+          "Passive formation (دُمِّرَتْ / أُعْلِنَتْ) (1 mark)."
+        ]
+      ]
+    ],
+    "speaking": [
+      [
+        "Role play — communication and accuracy",
+        4,
+        [
+          "Communication (2): all four prompts are addressed clearly and relevantly.",
+          "Accuracy (2): the necessity subjunctive in prompt 2 (يَتَطَلَّبُ أَنْ + fatḥa) and the Type 1 conditional in prompt 3 are formed correctly.",
+          "The challenge is described with يُشَكِّلُ or يُمَثِّلُ."
+        ]
+      ],
+      [
+        "Topic conversation — communication and quality of language",
+        6,
+        [
+          "Communication (3): answers are developed with point, reason and example.",
+          "Quality of language (3): a passive/cause-effect (Q1), a Type 2 conditional (Q2) and a necessity subjunctive (Q3) all appear.",
+          "Q2 opens with لَوْ (Type 2 required) and Q3 invites يَتَطَلَّبُ أَنْ + subjunctive; give credit for any correct trigger even if the final fatḥa is not perfectly marked in spontaneous speech."
+        ]
+      ]
+    ]
+  }
+}

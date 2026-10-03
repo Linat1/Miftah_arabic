@@ -1,0 +1,3305 @@
+{
+  "unit": {
+    "code": "P6",
+    "title": "Progression P6 — IGCSE Bridge",
+    "arabic": "جِسْرُ الامْتِحَانِ",
+    "summary": "Full IGCSE paper practice across listening, reading, writing and speaking.",
+    "lesson_count": 12
+  },
+  "lessons": [
+    {
+      "code": "P6-L01",
+      "slug": "lesson-01-bridge-launch",
+      "title": "Bridge Launch — Mapping the IGCSE and Setting Personal Targets",
+      "arabic": "إِطْلَاقُ الجِسْرِ — رَسْمُ خَرِيطَةِ الامْتِحَانِ وَتَحْدِيدُ الأَهْدَافِ",
+      "icon": "🧭",
+      "summary": "Open the IGCSE Bridge: map all four papers of Cambridge IGCSE Arabic 0544, audit your F1–P6 grammar readiness honestly, and set specific, measurable targets for the ten lessons ahead.",
+      "objectives": [
+        "Understand the full structure of IGCSE Arabic 0544 Papers 1–4 and their mark allocations.",
+        "Audit your own readiness across every grammar structure from F1 to P6.",
+        "Set specific, measurable targets for each of the four papers.",
+        "Name your Arabic learning journey from the first letter to the formal argument."
+      ],
+      "success": [
+        "I can state the marks, timing and format of each of the four papers.",
+        "I have rated my confidence in every F1–P6 grammar structure honestly.",
+        "I have written one SMART target per paper.",
+        "I can name a specific strategy that will move each target forward."
+      ],
+      "blocks": [
+        {
+          "type": "panel",
+          "kicker": "Map · orient · own",
+          "title": "What is IGCSE Arabic 0544?",
+          "body": [
+            "The Cambridge IGCSE Arabic (Foreign Language) 0544 examination has four papers testing the four skills. Together they carry 150 marks. Every structure you have learned from F1 to P6 is tested somewhere across them.",
+            "P6 is not a new content unit — it is the bridge between three years of learning and the exam. Over the next ten lessons you will practise each paper in full format, sit three mock papers under exam conditions, revise your weak points, and celebrate the journey."
+          ]
+        },
+        {
+          "type": "table",
+          "title": "The four papers at a glance",
+          "headers": [
+            "Paper",
+            "Skill",
+            "Marks",
+            "Time",
+            "Format"
+          ],
+          "rows": [
+            [
+              "Paper 1",
+              "Listening",
+              "45",
+              "~40 min",
+              "3 texts: multiple choice / matching / select two"
+            ],
+            [
+              "Paper 2",
+              "Reading",
+              "45",
+              "~45 min",
+              "3 texts, six question groups (incl. Q4 gap-fill, Q5 cross-text)"
+            ],
+            [
+              "Paper 3",
+              "Speaking",
+              "30",
+              "~12 min",
+              "Role play (10) + topic conversation (20)"
+            ],
+            [
+              "Paper 4",
+              "Writing",
+              "30",
+              "60 min",
+              "Q1 directed writing (15) + Q2 extended writing (15)"
+            ],
+            [
+              "Total",
+              "All four",
+              "150",
+              "—",
+              "Grade A* = 135+ · A = 120+ · B = 105+ · C = 90+"
+            ]
+          ]
+        },
+        {
+          "type": "vocab",
+          "title": "Exam terminology vault",
+          "kicker": "Recognise · use · retrieve",
+          "intro": "The language of the exam itself — know these terms so instructions and mark schemes are never a barrier.",
+          "groups": [
+            {
+              "label": "Papers and components",
+              "items": [
+                {
+                  "ar": "وَرَقَةُ الامْتِحَانِ",
+                  "en": "the exam paper",
+                  "note": ""
+                },
+                {
+                  "ar": "الوَرَقَةُ الأُولَى — الاسْتِمَاعُ",
+                  "en": "Paper 1 — Listening",
+                  "note": ""
+                },
+                {
+                  "ar": "الوَرَقَةُ الثَّانِيَةُ — القِرَاءَةُ",
+                  "en": "Paper 2 — Reading",
+                  "note": ""
+                },
+                {
+                  "ar": "الوَرَقَةُ الثَّالِثَةُ — التَّحَدُّثُ",
+                  "en": "Paper 3 — Speaking",
+                  "note": ""
+                },
+                {
+                  "ar": "الوَرَقَةُ الرَّابِعَةُ — الكِتَابَةُ",
+                  "en": "Paper 4 — Writing",
+                  "note": ""
+                },
+                {
+                  "ar": "مَعَايِيرُ التَّقْيِيمِ",
+                  "en": "assessment criteria",
+                  "note": ""
+                },
+                {
+                  "ar": "مَحَاوِرُ المَوْضُوعَاتِ",
+                  "en": "topic areas",
+                  "note": ""
+                },
+                {
+                  "ar": "جَاهِزِيَّةُ الامْتِحَانِ",
+                  "en": "exam readiness",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "label": "Readiness and targets",
+              "items": [
+                {
+                  "ar": "التَّقْيِيمُ الذَّاتِيُّ",
+                  "en": "self-assessment",
+                  "note": ""
+                },
+                {
+                  "ar": "نُقْطَةُ قُوَّةٍ",
+                  "en": "a strength",
+                  "note": ""
+                },
+                {
+                  "ar": "مَجَالُ تَحْسِينٍ",
+                  "en": "an area for improvement",
+                  "note": ""
+                },
+                {
+                  "ar": "هَدَفٌ مَحَدَّدٌ",
+                  "en": "a specific target",
+                  "note": ""
+                },
+                {
+                  "ar": "خُطَّةُ المُرَاجَعَةِ",
+                  "en": "a revision plan",
+                  "note": ""
+                },
+                {
+                  "ar": "كِفَاءَةُ اللُّغَةِ",
+                  "en": "language proficiency",
+                  "note": ""
+                },
+                {
+                  "ar": "إِتْقَانٌ",
+                  "en": "mastery",
+                  "note": ""
+                },
+                {
+                  "ar": "تَحْقِيقُ الأَهْدَافِ",
+                  "en": "achieving goals",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "audit",
+          "title": "Grammar readiness tracker — the full F1–P6 audit",
+          "kicker": "Rate · exemplify · target",
+          "intro": "For each structure, rate your confidence 1–5 and write one example sentence from memory. Your lowest ratings are your revision agenda for the lessons ahead.",
+          "rows": [
+            {
+              "label": [
+                "Present tense (Forms I/V/VIII) ",
+                {
+                  "ar": "يَكْتُبُ / يَتَنَاوَلُ / يَسْتَمِعُ"
+                }
+              ]
+            },
+            {
+              "label": [
+                "Past tense (singular and plural) ",
+                {
+                  "ar": "كَتَبَ / كَتَبُوا"
+                }
+              ]
+            },
+            {
+              "label": [
+                "Future tense ",
+                {
+                  "ar": "سَـ / سَوْفَ / لَنْ"
+                }
+              ]
+            },
+            {
+              "label": [
+                "Relative clauses ",
+                {
+                  "ar": "الَّذِي / الَّتِي"
+                }
+              ]
+            },
+            {
+              "label": [
+                "Comparatives and superlatives ",
+                {
+                  "ar": "أَفْعَلُ / أَكْثَرُ"
+                }
+              ]
+            },
+            {
+              "label": [
+                "The passive voice ",
+                {
+                  "ar": "يُكْتَبُ / دُمِّرَتْ"
+                }
+              ]
+            },
+            {
+              "label": [
+                "Conditional Type 1 ",
+                {
+                  "ar": "إِذَا … سَـ"
+                }
+              ]
+            },
+            {
+              "label": [
+                "Conditional Type 2 ",
+                {
+                  "ar": "لَوْ … لَـ"
+                }
+              ]
+            },
+            {
+              "label": [
+                "Reported speech ",
+                {
+                  "ar": "قَالَ إِنَّ / أَكَّدَ أَنَّ"
+                }
+              ]
+            },
+            {
+              "label": [
+                "Past perfect ",
+                {
+                  "ar": "كَانَ قَدْ"
+                }
+              ]
+            },
+            {
+              "label": [
+                "Subjunctive — purpose ",
+                {
+                  "ar": "لِكَيْ"
+                }
+              ]
+            },
+            {
+              "label": [
+                "Subjunctive — necessity ",
+                {
+                  "ar": "يَنْبَغِي أَنْ"
+                }
+              ]
+            },
+            {
+              "label": [
+                "Subjunctive — volition ",
+                {
+                  "ar": "يَتَطَلَّبُ / يُطَالِبُ بِأَنْ"
+                }
+              ]
+            },
+            {
+              "label": [
+                "Concession ",
+                {
+                  "ar": "صَحِيحٌ أَنَّ"
+                }
+              ]
+            },
+            {
+              "label": [
+                "Refutation ",
+                {
+                  "ar": "غَيْرَ أَنَّ"
+                }
+              ]
+            },
+            {
+              "label": [
+                "Conclusion connector ",
+                {
+                  "ar": "وَبِنَاءً عَلَى مَا سَبَقَ"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "title": "The Bridge lesson map — Lessons 2–12",
+          "kicker": "Plan · sequence · pace",
+          "intro": "Annotate your personal targets against each lesson.",
+          "headers": [
+            "Lesson",
+            "Focus"
+          ],
+          "rows": [
+            [
+              "L02",
+              "Paper 1 Listening — full-format practice and strategy"
+            ],
+            [
+              "L03",
+              "Paper 2 Reading — full-format practice and R1–R4 mastery"
+            ],
+            [
+              "L04",
+              "Paper 4 Q1 — directed writing, form and register"
+            ],
+            [
+              "L05",
+              "Paper 4 Q2 — extended writing, essay architecture"
+            ],
+            [
+              "L06",
+              "Paper 3 — role play, transactional language"
+            ],
+            [
+              "L07",
+              "Paper 3 — topic conversation, extended speaking"
+            ],
+            [
+              "L08",
+              "Mock Paper 1 Listening (exam conditions)"
+            ],
+            [
+              "L09",
+              "Mock Papers 2 + 4 Reading + Writing (exam conditions)"
+            ],
+            [
+              "L10",
+              "Mock Paper 3 Speaking (exam conditions)"
+            ],
+            [
+              "L11",
+              "Mock results, targeted revision, final preparation"
+            ],
+            [
+              "L12",
+              "Celebration, reflection and the road ahead"
+            ]
+          ]
+        },
+        {
+          "type": "fields",
+          "title": "SMART targets — one per paper",
+          "kicker": "Specific · measurable · strategy-tied",
+          "intro": "Make each target specific and tied to a strategy, for example: “Score 35+/45 in Paper 1 by annotating every question before the audio and verifying on the second listen.”",
+          "items": [
+            {
+              "label": "Paper 1 (Listening) target",
+              "multiline": true,
+              "placeholder": "Score …/45 by …"
+            },
+            {
+              "label": "Paper 2 (Reading) target",
+              "multiline": true,
+              "placeholder": "Score …/45 by …"
+            },
+            {
+              "label": "Paper 3 (Speaking) target",
+              "multiline": true,
+              "placeholder": "Score …/30 by …"
+            },
+            {
+              "label": "Paper 4 (Writing) target",
+              "multiline": true,
+              "placeholder": "Score …/30 by …"
+            }
+          ]
+        },
+        {
+          "type": "exit",
+          "title": "The journey — from letter to argument",
+          "kicker": "Reflect · name · own",
+          "intro": "In F1 you learned to write the letter ب. Today you can construct a formal Arabic argument. Name that journey.",
+          "heading": "My Arabic journey",
+          "prompt_can": "بَدَأْتُ رِحْلَتِي مَعَ العَرَبِيَّةِ بِـ…",
+          "prompt_next": "وَاليَوْمَ أَسْتَطِيعُ أَنْ…"
+        }
+      ]
+    },
+    {
+      "code": "P6-L02",
+      "slug": "lesson-02-paper1-listening",
+      "title": "Paper 1 Listening — Full Format Practice and Strategy Mastery",
+      "arabic": "الوَرَقَةُ الأُولَى — الاسْتِمَاعُ: مُمَارَسَةُ الشَّكْلِ الكَامِلِ",
+      "icon": "🎧",
+      "summary": "Practise a full-format Paper 1 Listening: multiple choice, matching and select-two across three texts, applying the six listening strategies and analysing your performance by question type.",
+      "objectives": [
+        "Complete a full-format Paper 1 Listening across all three question types.",
+        "Apply the six active-listening strategies, especially annotation and the second listen.",
+        "Recognise P6 grammar (conditionals, subjunctive triggers, concession) in speech.",
+        "Analyse your performance by question type and set a target for the mock."
+      ],
+      "success": [
+        "I read and annotate every question before the script.",
+        "I use the second reading to verify and correct, not to over-change.",
+        "I hear conditional type, subjunctive triggers and صَحِيحٌ أَنَّ / غَيْرَ أَنَّ in the texts.",
+        "I know which question type is my priority for the mock."
+      ],
+      "blocks": [
+        {
+          "type": "vocab",
+          "title": "Listening strategy vocabulary",
+          "kicker": "Recognise · use",
+          "groups": [
+            {
+              "label": "Listening strategies",
+              "items": [
+                {
+                  "ar": "اسْتِرَاتِيجِيَّاتُ الاسْتِمَاعِ",
+                  "en": "listening strategies",
+                  "note": ""
+                },
+                {
+                  "ar": "الاسْتِمَاعُ الأَوَّلُ لِلْفَهْمِ العَامِّ",
+                  "en": "first listen for general understanding",
+                  "note": ""
+                },
+                {
+                  "ar": "الاسْتِمَاعُ الثَّانِي لِلتَّفَاصِيلِ",
+                  "en": "second listen for details",
+                  "note": ""
+                },
+                {
+                  "ar": "قِرَاءَةُ الأَسْئِلَةِ مُسْبَقًا",
+                  "en": "reading the questions in advance",
+                  "note": ""
+                },
+                {
+                  "ar": "التَّنَبُّؤُ بِالمَحْتَوَى",
+                  "en": "predicting the content",
+                  "note": ""
+                },
+                {
+                  "ar": "التَّرْكِيزُ عَلَى الإِشَارَاتِ اللُّغَوِيَّةِ",
+                  "en": "focusing on language signals",
+                  "note": ""
+                },
+                {
+                  "ar": "مُشَتِّتَاتُ الاسْتِمَاعِ",
+                  "en": "listening distractors",
+                  "note": ""
+                },
+                {
+                  "ar": "التَّحَقُّقُ فِي الاسْتِمَاعِ الثَّانِي",
+                  "en": "verifying on the second listen",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "cards",
+          "title": "The six listening strategies",
+          "kicker": "Apply all six today",
+          "items": [
+            {
+              "title": "Read the questions first",
+              "text": "Before the audio, read every question so you know what to listen for."
+            },
+            {
+              "title": "Annotate each question",
+              "text": "Mark the type of information sought: a name, a number, an opinion, a conditional type, a tense.",
+              "ar": "اسْمٌ؟ رَقْمٌ؟ رَأْيٌ؟ نَوْعُ شَرْطٍ؟"
+            },
+            {
+              "title": "First listen for the gist",
+              "text": "On the first hearing, answer only what you are confident about."
+            },
+            {
+              "title": "Second listen to verify",
+              "text": "Use the second hearing to confirm, correct and complete — trust your first answer on plain facts."
+            },
+            {
+              "title": "Never leave a blank",
+              "text": "An unanswered question scores zero; make your best-supported guess."
+            },
+            {
+              "title": "Listen for the grammar signal",
+              "text": "A trigger, a conditional particle or صَحِيحٌ أَنَّ tells you the meaning that follows.",
+              "ar": "لِكَيْ · إِذَا · لَوْ · صَحِيحٌ أَنَّ · غَيْرَ أَنَّ"
+            }
+          ]
+        },
+        {
+          "type": "panel",
+          "title": "How Paper 1 is scored",
+          "body": [
+            "The three texts carry 8 + 6 + 6 = 20 raw marks in this practice; in the real Paper 1 the section is scaled to 45. Read the questions in the two-minute gaps, then read each script twice (the audio is in production, so the script stands in for the recording).",
+            "The texts below span the five P6 topic areas and carry P6 grammar naturally: conditionals, subjunctive triggers, reported speech and the concession-refutation pair."
+          ]
+        },
+        {
+          "type": "quiz",
+          "skill": "listening",
+          "title": "Text 1 — Multiple choice (8 marks)",
+          "activity": {
+            "kicker": "An expert on healthy living",
+            "title": "Choose the correct option for each question"
+          },
+          "note": [
+            {
+              "ar": ""
+            },
+            "Transcript-based practice — read the script, then answer."
+          ],
+          "script": "يَقُولُ الخَبِيرُ: تُشِيرُ الدِّرَاسَاتُ إِلَى أَنَّ النَّوْمَ الجَيِّدَ أَسَاسُ الصِّحَّةِ. صَحِيحٌ أَنَّ الرِّيَاضَةَ مُهِمَّةٌ، غَيْرَ أَنَّ الرَّاحَةَ لَا تَقِلُّ أَهَمِّيَّةً عَنْهَا. إِذَا نَامَ الإِنْسَانُ سَبْعَ سَاعَاتٍ، سَيَتَحَسَّنُ تَرْكِيزُهُ. وَلَوْ قَلَّلْنَا مِنَ الشَّاشَاتِ لَيْلًا، لَنِمْنَا بِعُمْقٍ أَكْبَرَ. وَيَنْبَغِي أَنْ نَحْرِصَ عَلَى غِذَاءٍ مُتَوَازِنٍ. وَأَكَّدَ الخَبِيرُ أَنَّ التَّوَتُّرَ المُزْمِنَ يُضْعِفُ المَنَاعَةَ.",
+          "questions": [
+            {
+              "prompt": "What do the studies indicate is the basis of health?",
+              "options": [
+                "Good sleep",
+                "Constant exercise",
+                "A high income"
+              ],
+              "answer": 0,
+              "feedback": "تُشِيرُ الدِّرَاسَاتُ إِلَى أَنَّ النَّوْمَ الجَيِّدَ أَسَاسُ الصِّحَّةِ."
+            },
+            {
+              "prompt": "What does the expert concede (صَحِيحٌ أَنَّ)?",
+              "options": [
+                "That exercise is important",
+                "That sleep is useless",
+                "That food does not matter"
+              ],
+              "answer": 0,
+              "feedback": "صَحِيحٌ أَنَّ الرِّيَاضَةَ مُهِمَّةٌ."
+            },
+            {
+              "prompt": "What does the expert then emphasise (غَيْرَ أَنَّ)?",
+              "options": [
+                "Rest is no less important than exercise",
+                "Exercise is the only thing that matters",
+                "Rest is unimportant"
+              ],
+              "answer": 0,
+              "feedback": "غَيْرَ أَنَّ الرَّاحَةَ لَا تَقِلُّ أَهَمِّيَّةً عَنْهَا."
+            },
+            {
+              "prompt": "What is the Type 1 conditional claim?",
+              "options": [
+                "If a person sleeps seven hours, their focus will improve",
+                "Sleep harms focus",
+                "Focus cannot improve"
+              ],
+              "answer": 0,
+              "feedback": "إِذَا نَامَ الإِنْسَانُ سَبْعَ سَاعَاتٍ، سَيَتَحَسَّنُ تَرْكِيزُهُ."
+            },
+            {
+              "prompt": "What is the Type 2 conditional claim?",
+              "options": [
+                "Had we cut screens at night, we would have slept more deeply",
+                "Screens improve sleep",
+                "Sleep depth cannot change"
+              ],
+              "answer": 0,
+              "feedback": "لَوْ قَلَّلْنَا مِنَ الشَّاشَاتِ لَيْلًا، لَنِمْنَا بِعُمْقٍ أَكْبَرَ."
+            },
+            {
+              "prompt": "What does the necessity trigger recommend (يَنْبَغِي أَنْ)?",
+              "options": [
+                "Maintaining a balanced diet",
+                "Skipping meals",
+                "Eating only at night"
+              ],
+              "answer": 0,
+              "feedback": "يَنْبَغِي أَنْ نَحْرِصَ عَلَى غِذَاءٍ مُتَوَازِنٍ."
+            },
+            {
+              "prompt": "What did the expert report about chronic stress?",
+              "options": [
+                "It weakens immunity",
+                "It strengthens immunity",
+                "It has no effect"
+              ],
+              "answer": 0,
+              "feedback": "أَكَّدَ الخَبِيرُ أَنَّ التَّوَتُّرَ المُزْمِنَ يُضْعِفُ المَنَاعَةَ."
+            },
+            {
+              "prompt": "Overall, is the expert's view balanced?",
+              "options": [
+                "Yes — it concedes then qualifies",
+                "No — it is one-sided",
+                "There is no view"
+              ],
+              "answer": 0,
+              "feedback": "The speaker concedes (صَحِيحٌ أَنَّ) then qualifies (غَيْرَ أَنَّ), so the view is balanced."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "skill": "listening",
+          "title": "Text 2 — Matching: who says it? (6 marks)",
+          "activity": {
+            "kicker": "Two students on studying abroad",
+            "title": "Match each statement to the speaker"
+          },
+          "script": "سَلْمَى: أَرَى أَنَّ الدِّرَاسَةَ فِي الخَارِجِ تُوَسِّعُ الآفَاقَ. كَرِيمٌ: صَحِيحٌ أَنَّهَا مُكْلِفَةٌ، غَيْرَ أَنَّ العَائِدَ يَسْتَحِقُّ. سَلْمَى: وَلَوْ تَعَلَّمْتُ لُغَةً جَدِيدَةً، لَانْفَتَحَتْ أَمَامِي فُرَصٌ أَكْثَرُ. كَرِيمٌ: وَيَنْبَغِي أَنْ نُخَطِّطَ لِلْمِيزَانِيَّةِ مُبَكِّرًا. سَلْمَى: وَأَكَّدَ مُسْتَشَارِي أَنَّ المِنَحَ تُخَفِّفُ العِبْءَ. كَرِيمٌ: وَإِذَا حَصَلْتُ عَلَى مِنْحَةٍ، سَأُسَافِرُ العَامَ القَادِمَ.",
+          "questions": [
+            {
+              "prompt": "Who says studying abroad broadens horizons?",
+              "options": [
+                "Salma",
+                "Karim",
+                "Both"
+              ],
+              "answer": 0,
+              "feedback": "سَلْمَى: أَرَى أَنَّ الدِّرَاسَةَ فِي الخَارِجِ تُوَسِّعُ الآفَاقَ."
+            },
+            {
+              "prompt": "Who concedes it is costly but worth it (صَحِيحٌ أَنَّ … غَيْرَ أَنَّ)?",
+              "options": [
+                "Karim",
+                "Salma",
+                "Both"
+              ],
+              "answer": 0,
+              "feedback": "كَرِيمٌ: صَحِيحٌ أَنَّهَا مُكْلِفَةٌ، غَيْرَ أَنَّ العَائِدَ يَسْتَحِقُّ."
+            },
+            {
+              "prompt": "Who makes the Type 2 conditional about a new language?",
+              "options": [
+                "Salma",
+                "Karim",
+                "Both"
+              ],
+              "answer": 0,
+              "feedback": "سَلْمَى: لَوْ تَعَلَّمْتُ لُغَةً جَدِيدَةً، لَانْفَتَحَتْ أَمَامِي فُرَصٌ."
+            },
+            {
+              "prompt": "Who says one ought to budget early (يَنْبَغِي أَنْ)?",
+              "options": [
+                "Karim",
+                "Salma",
+                "Both"
+              ],
+              "answer": 0,
+              "feedback": "كَرِيمٌ: يَنْبَغِي أَنْ نُخَطِّطَ لِلْمِيزَانِيَّةِ مُبَكِّرًا."
+            },
+            {
+              "prompt": "Who reports that scholarships ease the burden?",
+              "options": [
+                "Salma",
+                "Karim",
+                "Both"
+              ],
+              "answer": 0,
+              "feedback": "سَلْمَى: أَكَّدَ مُسْتَشَارِي أَنَّ المِنَحَ تُخَفِّفُ العِبْءَ."
+            },
+            {
+              "prompt": "Who makes the Type 1 conditional about a scholarship?",
+              "options": [
+                "Karim",
+                "Salma",
+                "Both"
+              ],
+              "answer": 0,
+              "feedback": "كَرِيمٌ: إِذَا حَصَلْتُ عَلَى مِنْحَةٍ، سَأُسَافِرُ العَامَ القَادِمَ."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "skill": "listening",
+          "title": "Text 3 — Select the supported statements (6 marks)",
+          "activity": {
+            "kicker": "A planner on a green city",
+            "title": "Choose the statement the text supports"
+          },
+          "script": "يَقُولُ المُخَطِّطُ: كَانَتِ المَدِينَةُ قَدْ عَانَتْ مِنَ التَّلَوُّثِ لِسَنَوَاتٍ. وَاليَوْمَ يَتَطَلَّبُ الأَمْرُ أَنْ نَسْتَثْمِرَ فِي النَّقْلِ النَّظِيفِ. صُمِّمَتِ الحَدَائِقُ الجَدِيدَةُ لِكَيْ تُنَقِّيَ الهَوَاءَ. وَإِذَا اعْتَمَدْنَا عَلَى الطَّاقَةِ الشَّمْسِيَّةِ، سَتَنْخَفِضُ الاِنْبِعَاثَاتُ. وَيَرْجُو المُخَطِّطُ أَنْ تُصْبِحَ المَدِينَةُ نَمُوذَجًا يُحْتَذَى.",
+          "questions": [
+            {
+              "prompt": "Which statement is supported (past perfect)?",
+              "options": [
+                "The city had suffered from pollution for years",
+                "The city was always clean",
+                "Pollution started this year"
+              ],
+              "answer": 0,
+              "feedback": "كَانَتِ المَدِينَةُ قَدْ عَانَتْ مِنَ التَّلَوُّثِ لِسَنَوَاتٍ."
+            },
+            {
+              "prompt": "Which statement is supported (necessity trigger)?",
+              "options": [
+                "The matter requires investing in clean transport",
+                "Clean transport is unnecessary",
+                "Transport should be reduced"
+              ],
+              "answer": 0,
+              "feedback": "يَتَطَلَّبُ الأَمْرُ أَنْ نَسْتَثْمِرَ فِي النَّقْلِ النَّظِيفِ."
+            },
+            {
+              "prompt": "Which statement is supported (purpose, لِكَي)?",
+              "options": [
+                "The new parks were designed to purify the air",
+                "The parks were built to attract traffic",
+                "The parks have no purpose"
+              ],
+              "answer": 0,
+              "feedback": "صُمِّمَتِ الحَدَائِقُ الجَدِيدَةُ لِكَيْ تُنَقِّيَ الهَوَاءَ."
+            },
+            {
+              "prompt": "Which statement is supported (Type 1 conditional)?",
+              "options": [
+                "If they rely on solar power, emissions will fall",
+                "Solar power raises emissions",
+                "Emissions cannot fall"
+              ],
+              "answer": 0,
+              "feedback": "إِذَا اعْتَمَدْنَا عَلَى الطَّاقَةِ الشَّمْسِيَّةِ، سَتَنْخَفِضُ الاِنْبِعَاثَاتُ."
+            },
+            {
+              "prompt": "Which statement is supported (hope, يَرْجُو)?",
+              "options": [
+                "The planner hopes the city becomes a model",
+                "The planner wants the city to fail",
+                "The planner has no hopes"
+              ],
+              "answer": 0,
+              "feedback": "يَرْجُو المُخَطِّطُ أَنْ تُصْبِحَ المَدِينَةُ نَمُوذَجًا يُحْتَذَى."
+            },
+            {
+              "prompt": "What is the overall register of the text?",
+              "options": [
+                "Formal, academic planning language",
+                "Casual conversation",
+                "A personal diary"
+              ],
+              "answer": 0,
+              "feedback": "The text uses passives, subjunctive triggers and formal planning vocabulary — a formal register."
+            }
+          ]
+        },
+        {
+          "type": "fields",
+          "title": "Performance analysis",
+          "kicker": "Diagnose · target",
+          "intro": "Record your raw scores and identify your priority for the Lesson 8 mock.",
+          "items": [
+            {
+              "label": "Text 1 score (out of 8)",
+              "placeholder": "…/8"
+            },
+            {
+              "label": "Text 2 score (out of 6)",
+              "placeholder": "…/6"
+            },
+            {
+              "label": "Text 3 score (out of 6)",
+              "placeholder": "…/6"
+            },
+            {
+              "label": "Hardest question type (opinion / conditional / grammar / factual detail)",
+              "placeholder": "…"
+            },
+            {
+              "label": "For the Lesson 8 mock, I will improve …",
+              "multiline": true,
+              "placeholder": "I will improve my score on … by …"
+            }
+          ]
+        },
+        {
+          "type": "exit",
+          "title": "Listening reflection",
+          "heading": "Two things I will do differently",
+          "prompt_can": "My most effective strategy today was…",
+          "prompt_next": "In the mock I will change…"
+        }
+      ]
+    },
+    {
+      "code": "P6-L03",
+      "slug": "lesson-03-paper2-reading",
+      "title": "Paper 2 Reading — Full Format Practice and R1–R4 Mastery",
+      "arabic": "الوَرَقَةُ الثَّانِيَةُ — القِرَاءَةُ: مُمَارَسَةُ الشَّكْلِ الكَامِلِ",
+      "icon": "📖",
+      "summary": "Practise a full-format Paper 2 Reading across three texts and the R1–R4 question levels, mastering the Q4 gap-fill (subjunctive vs indicative, conditional type) and Q5 cross-text matching.",
+      "objectives": [
+        "Apply R1–R4 comprehension systematically across three texts.",
+        "Master the Q4 gap-fill by identifying the grammar trigger before choosing the form.",
+        "Master the Q5 cross-text matching by recognising paraphrase.",
+        "Analyse your performance and set a Q4/Q5 target for the mock."
+      ],
+      "success": [
+        "I locate the thesis (R1) and prove facts from the text (R2).",
+        "I analyse attitude, register and purpose for R3.",
+        "I choose the indicative after صَحِيحٌ أَنَّ and the subjunctive after a trigger in Q4.",
+        "I match each Q5 statement to its text by its key paraphrase."
+      ],
+      "blocks": [
+        {
+          "type": "vocab",
+          "title": "Reading terminology",
+          "kicker": "Recognise · use",
+          "groups": [
+            {
+              "label": "The R1–R4 hierarchy",
+              "items": [
+                {
+                  "ar": "المَعْنَى العَامُّ",
+                  "en": "R1 — general meaning",
+                  "note": ""
+                },
+                {
+                  "ar": "التَّفَاصِيلُ الوَاقِعِيَّةُ",
+                  "en": "R2 — factual details",
+                  "note": ""
+                },
+                {
+                  "ar": "الرَّأْيُ وَالمَوْقِفُ وَالأُسْلُوبُ",
+                  "en": "R3 — opinion, attitude, style",
+                  "note": ""
+                },
+                {
+                  "ar": "الاِخْتِيَارُ وَتَحْدِيدُ المَعْلُومَاتِ",
+                  "en": "R4 — selecting information",
+                  "note": ""
+                },
+                {
+                  "ar": "الأَدِلَّةُ النَّصِّيَّةُ",
+                  "en": "textual evidence",
+                  "note": ""
+                },
+                {
+                  "ar": "اسْتِنْتَاجُ الكَلِمَاتِ المَجْهُولَةِ",
+                  "en": "deducing unknown words",
+                  "note": ""
+                },
+                {
+                  "ar": "التَّطَابُقُ عَبْرَ النُّصُوصِ",
+                  "en": "cross-text matching",
+                  "note": ""
+                },
+                {
+                  "ar": "الدِّقَّةُ فِي الاِخْتِيَارِ",
+                  "en": "accuracy in selection",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "cards",
+          "title": "The R1–R4 hierarchy",
+          "kicker": "Surface → deep",
+          "items": [
+            {
+              "title": "R1 — general meaning",
+              "text": "Find the main idea. Surface level."
+            },
+            {
+              "title": "R2 — factual detail",
+              "text": "Find specific facts. Most Paper 2 marks live here."
+            },
+            {
+              "title": "R3 — attitude and style",
+              "text": "Analyse why the writer made a language choice — including a conditional, a subjunctive trigger or a concession. This decides whether you score 35 or 45."
+            },
+            {
+              "title": "R4 — select and identify",
+              "text": "Choose the exact supported statement, and in Q4 the exact grammatical form."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "skill": "reading",
+          "title": "Text 1 — Notices and short text (4 marks)",
+          "activity": {
+            "kicker": "Q Groups 1–2",
+            "title": "Factual comprehension"
+          },
+          "text": "إِعْلَانٌ: تُغْلَقُ المَكْتَبَةُ فِي السَّاعَةِ الثَّامِنَةِ مَسَاءً. يُمْنَعُ إِدْخَالُ الطَّعَامِ. لِاسْتِعَارَةِ الكُتُبِ، يَجِبُ إِبْرَازُ البِطَاقَةِ. وَتُقَامُ حَلْقَةُ قِرَاءَةٍ كُلَّ خَمِيسٍ فِي السَّاعَةِ الرَّابِعَةِ.",
+          "questions": [
+            {
+              "prompt": "When does the library close?",
+              "options": [
+                "At 8 p.m.",
+                "At 4 p.m.",
+                "It does not close"
+              ],
+              "answer": 0,
+              "feedback": "تُغْلَقُ المَكْتَبَةُ فِي السَّاعَةِ الثَّامِنَةِ مَسَاءً."
+            },
+            {
+              "prompt": "What is forbidden?",
+              "options": [
+                "Bringing in food",
+                "Reading books",
+                "Borrowing books"
+              ],
+              "answer": 0,
+              "feedback": "يُمْنَعُ إِدْخَالُ الطَّعَامِ."
+            },
+            {
+              "prompt": "What is required to borrow books?",
+              "options": [
+                "Showing the card",
+                "Paying a fee",
+                "Nothing"
+              ],
+              "answer": 0,
+              "feedback": "لِاسْتِعَارَةِ الكُتُبِ، يَجِبُ إِبْرَازُ البِطَاقَةِ."
+            },
+            {
+              "prompt": "When is the reading circle held?",
+              "options": [
+                "Every Thursday at 4",
+                "Every Friday at 8",
+                "Every day"
+              ],
+              "answer": 0,
+              "feedback": "تُقَامُ حَلْقَةُ قِرَاءَةٍ كُلَّ خَمِيسٍ فِي السَّاعَةِ الرَّابِعَةِ."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "skill": "reading",
+          "title": "Text 2 — R1–R4 + Q4 gap-fill (6 marks)",
+          "activity": {
+            "kicker": "Q Groups 3–4",
+            "title": "Comprehend, then choose the correct form"
+          },
+          "text": "يُشَارُ إِلَى أَنَّ العَمَلَ التَّطَوُّعِيَّ يُقَوِّي رَوَابِطَ المُجْتَمَعِ. صَحِيحٌ أَنَّ الوَقْتَ مَحْدُودٌ لَدَى الطُّلَّابِ، غَيْرَ أَنَّ سَاعَةً وَاحِدَةً أُسْبُوعِيًّا تَصْنَعُ فَرْقًا. وَيَتَطَلَّبُ الأَمْرُ أَنْ تُنَظِّمَ المَدَارِسُ بَرَامِجَ تَطَوُّعٍ. وَلَوْ شَارَكَ كُلُّ طَالِبٍ، لَتَغَيَّرَتِ الأَحْيَاءُ.",
+          "questions": [
+            {
+              "prompt": "R1 — What is the main idea?",
+              "options": [
+                "Volunteering strengthens community bonds",
+                "Volunteering wastes time",
+                "Schools should close"
+              ],
+              "answer": 0,
+              "feedback": "يُشَارُ إِلَى أَنَّ العَمَلَ التَّطَوُّعِيَّ يُقَوِّي رَوَابِطَ المُجْتَمَعِ."
+            },
+            {
+              "prompt": "R2 — How much time makes a difference, per the text?",
+              "options": [
+                "One hour a week",
+                "Ten hours a day",
+                "No time at all"
+              ],
+              "answer": 0,
+              "feedback": "سَاعَةً وَاحِدَةً أُسْبُوعِيًّا تَصْنَعُ فَرْقًا."
+            },
+            {
+              "prompt": "R3 — What is the purpose of صَحِيحٌ أَنَّ الوَقْتَ مَحْدُودٌ?",
+              "options": [
+                "To concede a real objection before answering it",
+                "To state the writer's conclusion",
+                "To report a statistic"
+              ],
+              "answer": 0,
+              "feedback": "A concession admits the opposing point before the refutation."
+            },
+            {
+              "prompt": "R4 gap-fill — صَحِيحٌ أَنَّ الوَقْتَ ___ ، غَيْرَ أَنَّ … . Which form?",
+              "options": [
+                "مَحْدُودٌ (indicative situation)",
+                "يَكُونَ مَحْدُودًا (subjunctive)",
+                "كَانَ مَحْدُودًا لَـ (Type 2)"
+              ],
+              "answer": 0,
+              "feedback": "After صَحِيحٌ أَنَّ the clause describes a real situation — the indicative."
+            },
+            {
+              "prompt": "R4 gap-fill — يَتَطَلَّبُ الأَمْرُ أَنْ ___ المَدَارِسُ بَرَامِجَ. Which form?",
+              "options": [
+                "تُنَظِّمَ (subjunctive)",
+                "تُنَظِّمُ (indicative)",
+                "نَظَّمَتْ (past)"
+              ],
+              "answer": 0,
+              "feedback": "After أَنْ (with يَتَطَلَّبُ) the verb is subjunctive: تُنَظِّمَ."
+            },
+            {
+              "prompt": "R4 gap-fill — لَوْ شَارَكَ كُلُّ طَالِبٍ، ___ الأَحْيَاءُ. Which form?",
+              "options": [
+                "لَتَغَيَّرَتِ (Type 2 result)",
+                "سَتَتَغَيَّرُ (Type 1 result)",
+                "تَتَغَيَّرُ (indicative)"
+              ],
+              "answer": 0,
+              "feedback": "A لَوْ conditional takes a لَـ result: لَتَغَيَّرَتْ."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "skill": "reading",
+          "title": "Text 3 — R3 analysis + Q5 cross-text matching (6 marks)",
+          "activity": {
+            "kicker": "Q Groups 5–6",
+            "title": "Deep analysis and cross-text matching"
+          },
+          "text": "يَرَى الكَاتِبُ أَنَّ القِرَاءَةَ الحُرَّةَ تُنَمِّي الخَيَالَ أَكْثَرَ مِنَ الشَّاشَاتِ. لَا يُمْكِنُ إِنْكَارُ أَنَّ التِّقْنِيَّةَ مُفِيدَةٌ، غَيْرَ أَنَّ الإِفْرَاطَ فِيهَا يُضْعِفُ التَّرْكِيزَ. وَبِنَاءً عَلَى مَا سَبَقَ، يَنْبَغِي أَنْ نُوَازِنَ بَيْنَ الكِتَابِ وَالشَّاشَةِ.",
+          "questions": [
+            {
+              "prompt": "R3 — What is the writer's attitude to technology?",
+              "options": [
+                "Balanced: useful but harmful in excess",
+                "Wholly negative",
+                "Wholly positive"
+              ],
+              "answer": 0,
+              "feedback": "لَا يُمْكِنُ إِنْكَارُ أَنَّ التِّقْنِيَّةَ مُفِيدَةٌ، غَيْرَ أَنَّ الإِفْرَاطَ فِيهَا يُضْعِفُ التَّرْكِيزَ."
+            },
+            {
+              "prompt": "R3 — What does لَا يُمْكِنُ إِنْكَارُ أَنَّ signal?",
+              "options": [
+                "A concession before a counter-claim",
+                "A final conclusion",
+                "A statistic"
+              ],
+              "answer": 0,
+              "feedback": "It concedes a difficult point before the writer makes the stronger claim."
+            },
+            {
+              "prompt": "R3 — What does وَبِنَاءً عَلَى مَا سَبَقَ mark?",
+              "options": [
+                "The synthesising conclusion",
+                "A new argument",
+                "A quotation"
+              ],
+              "answer": 0,
+              "feedback": "وَبِنَاءً عَلَى مَا سَبَقَ opens the conclusion."
+            },
+            {
+              "prompt": "Q5 — “Free reading develops the imagination.” Which text?",
+              "options": [
+                "Text 3",
+                "Text 1",
+                "Text 2"
+              ],
+              "answer": 0,
+              "feedback": "Text 3: القِرَاءَةُ الحُرَّةُ تُنَمِّي الخَيَالَ."
+            },
+            {
+              "prompt": "Q5 — “Volunteering strengthens community bonds.” Which text?",
+              "options": [
+                "Text 2",
+                "Text 1",
+                "Text 3"
+              ],
+              "answer": 0,
+              "feedback": "Text 2: العَمَلُ التَّطَوُّعِيُّ يُقَوِّي رَوَابِطَ المُجْتَمَعِ."
+            },
+            {
+              "prompt": "Q5 — “The library closes at eight in the evening.” Which text?",
+              "options": [
+                "Text 1",
+                "Text 2",
+                "Text 3"
+              ],
+              "answer": 0,
+              "feedback": "Text 1: تُغْلَقُ المَكْتَبَةُ فِي السَّاعَةِ الثَّامِنَةِ."
+            }
+          ]
+        },
+        {
+          "type": "fields",
+          "title": "Reading performance analysis",
+          "kicker": "Diagnose · target",
+          "items": [
+            {
+              "label": "Weakest R level (R1 / R2 / R3 / R4)",
+              "placeholder": "…"
+            },
+            {
+              "label": "Q4 gap-fill accuracy (out of 3)",
+              "placeholder": "…/3"
+            },
+            {
+              "label": "Q5 cross-text accuracy (out of 3)",
+              "placeholder": "…/3"
+            },
+            {
+              "label": "My Q4 improvement action",
+              "multiline": true,
+              "placeholder": "To identify the trigger first, I will …"
+            },
+            {
+              "label": "My Q5 improvement action",
+              "multiline": true,
+              "placeholder": "To spot the paraphrase, I will …"
+            }
+          ]
+        },
+        {
+          "type": "exit",
+          "title": "Reading reflection",
+          "heading": "My Paper 2 priority",
+          "prompt_can": "My strongest R level today was…",
+          "prompt_next": "For the mock I will practise…"
+        }
+      ]
+    },
+    {
+      "code": "P6-L04",
+      "slug": "lesson-04-paper4-q1-directed-writing",
+      "title": "Paper 4 Q1 — Directed Writing: Mastering Form and Register",
+      "arabic": "الوَرَقَةُ الرَّابِعَةُ السُّؤَالُ الأَوَّلُ — الكِتَابَةُ المُوَجَّهَةُ: إِتْقَانُ الشَّكْلِ",
+      "icon": "✉️",
+      "summary": "Practise Paper 4 Q1 directed writing across three text types — a formal letter, an article and an email — matching register to text type and applying the Q1 mark scheme (TC 7 + Range 4 + Accuracy 4 = 15).",
+      "objectives": [
+        "Write Paper 4 Q1 (130–140 words) in three different text types.",
+        "Match register — formal, semi-formal, friendly — to each text type.",
+        "Cover every required content point for Task Completion.",
+        "Apply the Q1 mark scheme to self-assess each response."
+      ],
+      "success": [
+        "I choose the correct opening and closing for each text type.",
+        "I keep the register consistent from the opening sentence.",
+        "I include every required content point.",
+        "I can score my own writing against TC, Range and Accuracy."
+      ],
+      "blocks": [
+        {
+          "type": "vocab",
+          "title": "Text types and register",
+          "kicker": "Recognise · match",
+          "groups": [
+            {
+              "label": "Text types",
+              "items": [
+                {
+                  "ar": "الكِتَابَةُ المُوَجَّهَةُ",
+                  "en": "directed writing",
+                  "note": ""
+                },
+                {
+                  "ar": "خِطَابٌ رَسْمِيٌّ",
+                  "en": "a formal letter",
+                  "note": ""
+                },
+                {
+                  "ar": "بَرِيدٌ إِلِكْتْرُونِيٌّ",
+                  "en": "an email",
+                  "note": ""
+                },
+                {
+                  "ar": "مَقَالَةٌ",
+                  "en": "an article",
+                  "note": ""
+                },
+                {
+                  "ar": "تَقْرِيرٌ",
+                  "en": "a report",
+                  "note": ""
+                },
+                {
+                  "ar": "يَوْمِيَّاتٌ",
+                  "en": "a diary entry",
+                  "note": ""
+                },
+                {
+                  "ar": "صِيغَةٌ رَسْمِيَّةٌ",
+                  "en": "formal register",
+                  "note": ""
+                },
+                {
+                  "ar": "صِيغَةٌ غَيْرُ رَسْمِيَّةٍ",
+                  "en": "informal register",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "label": "Register signals",
+              "items": [
+                {
+                  "ar": "مُقَدِّمَةٌ مُنَاسِبَةٌ",
+                  "en": "an appropriate opening",
+                  "note": ""
+                },
+                {
+                  "ar": "خَاتِمَةٌ مُنَاسِبَةٌ",
+                  "en": "an appropriate closing",
+                  "note": ""
+                },
+                {
+                  "ar": "اللُّغَةُ الإِقْنَاعِيَّةُ",
+                  "en": "persuasive language",
+                  "note": ""
+                },
+                {
+                  "ar": "المَعْلُومَاتُ المَطْلُوبَةُ",
+                  "en": "the required information",
+                  "note": ""
+                },
+                {
+                  "ar": "أَتَشَرَّفُ بِمُخَاطَبَتِكُمْ",
+                  "en": "I have the honour of writing to you",
+                  "note": "Formal opener."
+                },
+                {
+                  "ar": "حَيَّاكَ اللَّهُ",
+                  "en": "welcome / hello",
+                  "note": "Informal opener."
+                },
+                {
+                  "ar": "وَتَفَضَّلُوا بِقَبُولِ الاِحْتِرَامِ",
+                  "en": "yours faithfully",
+                  "note": "Formal closer."
+                },
+                {
+                  "ar": "إِلَى اللِّقَاءِ",
+                  "en": "see you soon",
+                  "note": "Informal closer."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "title": "Register signals by text type",
+          "kicker": "Match the signal to the type",
+          "ar_cols": [
+            1
+          ],
+          "headers": [
+            "Text type",
+            "Opening signal",
+            "Register"
+          ],
+          "rows": [
+            [
+              "Formal letter",
+              "أَتَشَرَّفُ بِمُخَاطَبَتِكُمْ",
+              "Formal: third person, passive, formal connectors"
+            ],
+            [
+              "Email (friend)",
+              "حَيَّاكَ اللَّهُ / عَزِيزِي",
+              "Friendly: first/second person, conversational"
+            ],
+            [
+              "Article",
+              "(a hook, no address)",
+              "Semi-formal, engaging, first person"
+            ],
+            [
+              "Report",
+              "عُنْوَانٌ + أَقْسَامٌ مُرَقَّمَةٌ",
+              "Formal, impersonal, structured"
+            ]
+          ]
+        },
+        {
+          "type": "mark_scheme",
+          "title": "The Paper 4 Q1 mark scheme",
+          "kicker": "Know how you are marked",
+          "criteria": [
+            [
+              "Task Completion (TC)",
+              7,
+              [
+                "Every required content point is present.",
+                "The text type and register are correct from the opening.",
+                "An appropriate opening and closing for the text type."
+              ]
+            ],
+            [
+              "Range",
+              4,
+              [
+                "A variety of vocabulary suited to the register.",
+                "Several different grammar structures (tenses, connectors)."
+              ]
+            ],
+            [
+              "Accuracy",
+              4,
+              [
+                "Correct tense, agreement and subjunctive forms.",
+                "Errors do not obscure the meaning."
+              ]
+            ]
+          ],
+          "note": "In Q1, Task Completion carries the most weight: wrong register or a missing content point costs marks even when the Arabic is accurate. Get the register right from the opening sentence."
+        },
+        {
+          "type": "writing",
+          "title": "Task 1 — Formal letter (15 marks)",
+          "mark_max": 15,
+          "feedback_label": "Self-assessment note (TC / Range / Accuracy)",
+          "prompt": [
+            "Write a formal letter (130–140 words) to the Arab League Environment Committee recommending a specific environmental measure. Include: the problem, your proposed solution, the expected benefit, and a request for action. Keep the register ",
+            {
+              "ar": "رَسْمِيًّا"
+            },
+            " throughout."
+          ],
+          "checklist": [
+            "Formal opening (أَتَشَرَّفُ بِمُخَاطَبَتِكُمْ …).",
+            "The problem, the solution, the benefit and a request for action.",
+            "Formal connectors and impersonal/passive structures.",
+            "A formal closing (وَتَفَضَّلُوا بِقَبُولِ الاِحْتِرَامِ)."
+          ],
+          "model": "حَضَرَاتِ أَعْضَاءِ لَجْنَةِ البِيئَةِ المُحْتَرَمِينَ، أَتَشَرَّفُ بِمُخَاطَبَتِكُمْ بِشَأْنِ نُدْرَةِ المِيَاهِ فِي مِنْطَقَتِنَا. صَحِيحٌ أَنَّ المَوَارِدَ مَحْدُودَةٌ، غَيْرَ أَنَّ سُوءَ الإِدَارَةِ يُفَاقِمُ الأَزْمَةَ. وَأَقْتَرِحُ أَنْ تُطْلَقَ حَمْلَةٌ لِتَرْشِيدِ الاِسْتِهْلَاكِ، وَأَنْ تُسْتَثْمَرَ الطَّاقَةُ الشَّمْسِيَّةُ فِي تَحْلِيَةِ المِيَاهِ. وَلَوْ طُبِّقَتْ هٰذِهِ الإِجْرَاءَاتُ، لَتَحَسَّنَ الوَضْعُ كَثِيرًا. وَبِنَاءً عَلَى مَا سَبَقَ، أَرْجُو أَنْ تَتَّخِذُوا القَرَارَ المُنَاسِبَ عَاجِلًا. وَتَفَضَّلُوا بِقَبُولِ فَائِقِ الاِحْتِرَامِ."
+        },
+        {
+          "type": "writing",
+          "title": "Task 2 — Article (15 marks)",
+          "mark_max": 15,
+          "feedback_label": "Self-assessment note (TC / Range / Accuracy)",
+          "prompt": [
+            "Write an article (130–140 words) for an Arabic youth magazine on: “How I manage stress and maintain my wellbeing.” Register: engaging, semi-formal, first person."
+          ],
+          "checklist": [
+            "An engaging hook (no formal address).",
+            "First-person, semi-formal register.",
+            "At least one conditional and one subjunctive trigger.",
+            "A clear closing thought for the reader."
+          ],
+          "model": "كَيْفَ أُحَافِظُ عَلَى تَوَازُنِي النَّفْسِيِّ؟ سُؤَالٌ يَشْغَلُ كَثِيرًا مِنَ الشَّبَابِ. أُشِيرُ أَوَّلًا إِلَى أَنَّ النَّوْمَ الجَيِّدَ وَالرِّيَاضَةَ أَسَاسٌ لَا غِنَى عَنْهُ. صَحِيحٌ أَنَّ الدِّرَاسَةَ تُسَبِّبُ ضَغْطًا، غَيْرَ أَنَّ تَنْظِيمَ الوَقْتِ يُخَفِّفُهُ. وَإِذَا خَصَّصْتُ سَاعَةً لِلرَّاحَةِ يَوْمِيًّا، شَعَرْتُ بِتَحَسُّنٍ وَاضِحٍ. وَيَنْبَغِي أَنْ نَحْرِصَ عَلَى الحَدِيثِ مَعَ مَنْ نَثِقُ بِهِمْ. وَخِتَامًا، أَدْعُو كُلَّ قَارِئٍ إِلَى أَنْ يَعْتَنِيَ بِصِحَّتِهِ النَّفْسِيَّةِ كَمَا يَعْتَنِي بِجَسَدِهِ."
+        },
+        {
+          "type": "writing",
+          "title": "Task 3 — Email (15 marks)",
+          "mark_max": 15,
+          "feedback_label": "Self-assessment note (TC / Range / Accuracy)",
+          "prompt": [
+            "Write a friendly email (130–140 words) to an Arabic exchange student coming to your school for a month. Describe: your school, the local area, one cultural custom to be aware of, and a suggested activity. Register: friendly, semi-formal."
+          ],
+          "checklist": [
+            "A warm opening (حَيَّاكَ اللَّهُ / عَزِيزِي …).",
+            "The school, the area, a custom and a suggested activity.",
+            "Friendly, first/second-person register.",
+            "A warm closing (إِلَى اللِّقَاءِ)."
+          ],
+          "model": "عَزِيزِي أَحْمَدُ، حَيَّاكَ اللَّهُ! يَسْعُدُنِي أَنَّكَ سَتَزُورُ مَدْرَسَتَنَا الشَّهْرَ القَادِمَ. مَدْرَسَتُنَا كَبِيرَةٌ وَفِيهَا مُخْتَبَرَاتٌ حَدِيثَةٌ، وَتَقَعُ قُرْبَ حَدِيقَةٍ جَمِيلَةٍ. صَحِيحٌ أَنَّ الطَّقْسَ بَارِدٌ أَحْيَانًا، غَيْرَ أَنَّ النَّاسَ وَدُودُونَ. وَأَنْصَحُكَ بِأَنْ تُحْضِرَ مِعْطَفًا. وَمِنَ العَادَاتِ المُهِمَّةِ أَنْ نَخْلَعَ الحِذَاءَ عِنْدَ دُخُولِ البُيُوتِ. وَإِذَا تَوَفَّرَ الوَقْتُ، سَنَزُورُ المَتْحَفَ المَحَلِّيَّ مَعًا. أَتَطَلَّعُ إِلَى لِقَائِكَ. إِلَى اللِّقَاءِ، صَدِيقُكَ سَامِي."
+        },
+        {
+          "type": "fields",
+          "title": "Text type difficulty profile",
+          "kicker": "Diagnose · choose",
+          "intro": "In the real exam you cannot always choose the text type, so know your strengths and weaknesses.",
+          "items": [
+            {
+              "label": "My strongest text type is … because …",
+              "multiline": true,
+              "placeholder": "…"
+            },
+            {
+              "label": "My weakest text type is … because …",
+              "multiline": true,
+              "placeholder": "…"
+            },
+            {
+              "label": "For the Lesson 9 mock I will practise …",
+              "placeholder": "…"
+            }
+          ]
+        },
+        {
+          "type": "exit",
+          "title": "Directed writing reflection",
+          "heading": "Register — the TC multiplier",
+          "prompt_can": "The register signal I now use confidently is…",
+          "prompt_next": "The text type I will practise most is…"
+        }
+      ]
+    },
+    {
+      "code": "P6-L05",
+      "slug": "lesson-05-paper4-q2-extended-writing",
+      "title": "Paper 4 Q2 — Extended Writing: Essay Architecture Under Exam Conditions",
+      "arabic": "الوَرَقَةُ الرَّابِعَةُ السُّؤَالُ الثَّانِي — الكِتَابَةُ المُوَسَّعَةُ",
+      "icon": "🖋️",
+      "summary": "Practise Paper 4 Q2 — a 130–150 word argumentative essay — under exam conditions, demonstrating Task Completion, Range and Accuracy together and applying the Q2 mark scheme (TC 5 + Range 5 + Accuracy 5 = 15).",
+      "objectives": [
+        "Write a full argumentative essay (130–150 words) under timed conditions.",
+        "Show the complete architecture: thesis, evidence, concession, refutation, conclusion.",
+        "Balance quantity and quality — enough Range without losing Accuracy.",
+        "Apply the Q2 mark scheme to identify your writing strengths and weaknesses."
+      ],
+      "success": [
+        "I open with a clear thesis and support it with cited evidence.",
+        "I concede with صَحِيحٌ أَنَّ and refute with غَيْرَ أَنَّ.",
+        "I close with وَبِنَاءً عَلَى مَا سَبَقَ and a subjunctive.",
+        "I keep to 130–150 words and check accuracy before submitting."
+      ],
+      "blocks": [
+        {
+          "type": "vocab",
+          "title": "Extended-writing terminology",
+          "kicker": "Recognise · use",
+          "groups": [
+            {
+              "label": "Essay and exam craft",
+              "items": [
+                {
+                  "ar": "الكِتَابَةُ المُوَسَّعَةُ",
+                  "en": "extended writing",
+                  "note": ""
+                },
+                {
+                  "ar": "هَيْكَلُ المَقَالِ",
+                  "en": "essay structure",
+                  "note": ""
+                },
+                {
+                  "ar": "الأُطْرُوحَةُ",
+                  "en": "the thesis",
+                  "note": ""
+                },
+                {
+                  "ar": "نَقِيضُ الحُجَّةِ",
+                  "en": "the counter-argument",
+                  "note": ""
+                },
+                {
+                  "ar": "الرَّدُّ",
+                  "en": "the refutation",
+                  "note": ""
+                },
+                {
+                  "ar": "الخَاتِمَةُ",
+                  "en": "the conclusion",
+                  "note": ""
+                },
+                {
+                  "ar": "التَّنَوُّعُ المَعْجَمِيُّ",
+                  "en": "lexical variety",
+                  "note": ""
+                },
+                {
+                  "ar": "الدِّقَّةُ تَحْتَ ضَغْطِ الوَقْتِ",
+                  "en": "accuracy under time pressure",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "cards",
+          "title": "Time management and architecture",
+          "kicker": "Plan · write · check",
+          "items": [
+            {
+              "title": "Split the hour",
+              "text": "Paper 4 is 60 minutes: about 20 for Q1, about 35 for Q2, and 5 to check. Do not let Q1 eat Q2's time."
+            },
+            {
+              "title": "Plan for four minutes",
+              "text": "Before writing Q2, plan the thesis, the evidence, the concession-refutation, and the conclusion."
+            },
+            {
+              "title": "Write the architecture",
+              "text": "Each paragraph has a job.",
+              "ar": "أُطْرُوحَةٌ ← دَلِيلٌ ← صَحِيحٌ أَنَّ … غَيْرَ أَنَّ ← وَبِنَاءً عَلَى مَا سَبَقَ"
+            },
+            {
+              "title": "Range without risk",
+              "text": "Aim for grammar variety — different tenses, a conditional, a subjunctive trigger, a formal connector — but never at the cost of accuracy."
+            }
+          ]
+        },
+        {
+          "type": "mark_scheme",
+          "title": "The Paper 4 Q2 mark scheme",
+          "kicker": "Know how you are marked",
+          "criteria": [
+            [
+              "Task Completion (TC)",
+              5,
+              [
+                "A clear thesis (a position, not just a topic).",
+                "Cited evidence, a genuine concession and a clear refutation.",
+                "A formal conclusion connector with a subjunctive."
+              ]
+            ],
+            [
+              "Range",
+              5,
+              [
+                "At least three different tenses.",
+                "At least one conditional type and one subjunctive trigger.",
+                "A concession structure and a formal connector."
+              ]
+            ],
+            [
+              "Accuracy",
+              5,
+              [
+                "Correct subjunctive endings and the Type 2 لَـ prefix.",
+                "Correct indicative after صَحِيحٌ أَنَّ.",
+                "Agreement and tense free of major errors."
+              ]
+            ]
+          ],
+          "note": "Length is capped at 130–150 words: writing more does not gain marks if quality drops. Choose the topic whose vocabulary you know best — Range falls when you are hunting for words."
+        },
+        {
+          "type": "writing",
+          "title": "Essay 1 — Health topic (15 marks)",
+          "mark_max": 15,
+          "feedback_label": "Self-assessment note (TC / Range / Accuracy)",
+          "prompt": [
+            "Write an argumentative essay (130–150 words): “الصِّحَّةُ النَّفْسِيَّةُ أَهَمُّ مِنَ الصِّحَّةِ الجَسَدِيَّةِ — هَلْ تُوَافِقُ؟” Use the full architecture."
+          ],
+          "checklist": [
+            "A clear thesis stating your position.",
+            "Cited evidence (أَكَّدَ … أَنَّ) and a concession (صَحِيحٌ أَنَّ).",
+            "A refutation (غَيْرَ أَنَّ) and a Type 2 conditional.",
+            "A conclusion (وَبِنَاءً عَلَى مَا سَبَقَ) with a subjunctive; 130–150 words."
+          ],
+          "model": "يُشَارُ إِلَى أَنَّ الصِّحَّةَ النَّفْسِيَّةَ لَا تَقِلُّ أَهَمِّيَّةً عَنِ الصِّحَّةِ الجَسَدِيَّةِ. أَكَّدَ البَاحِثُونَ أَنَّ التَّوَتُّرَ المُزْمِنَ يُضْعِفُ المَنَاعَةَ وَيُؤَثِّرُ فِي الجَسَدِ. صَحِيحٌ أَنَّ الجَسَدَ يَحْتَاجُ إِلَى رِعَايَةٍ، غَيْرَ أَنَّ إِهْمَالَ النَّفْسِ يَهْدِمُ الصِّحَّةَ كُلَّهَا. وَلَوِ اهْتَمَّتِ المَدَارِسُ بِالدَّعْمِ النَّفْسِيِّ مُبَكِّرًا، لَقَلَّتْ حَالَاتُ الاِحْتِرَاقِ. وَإِذَا وَازَنَ الإِنْسَانُ بَيْنَ الجَسَدِ وَالنَّفْسِ، عَاشَ حَيَاةً أَفْضَلَ. وَبِنَاءً عَلَى مَا سَبَقَ، يَتَطَلَّبُ الأَمْرُ أَنْ نُوَلِيَ الصِّحَّةَ النَّفْسِيَّةَ العِنَايَةَ الَّتِي تَسْتَحِقُّهَا."
+        },
+        {
+          "type": "writing",
+          "title": "Essay 2 — Education topic (15 marks)",
+          "mark_max": 15,
+          "feedback_label": "Self-assessment note (TC / Range / Accuracy)",
+          "prompt": [
+            "Write an argumentative essay (130–150 words): “التَّعْلِيمُ الجَامِعِيُّ لَمْ يَعُدْ ضَرُورِيًّا لِلنَّجَاحِ فِي عَالَمِ اليَوْمِ — هَلْ تُوَافِقُ؟”"
+          ],
+          "checklist": [
+            "A clear thesis and cited evidence.",
+            "A concession (صَحِيحٌ أَنَّ) answered by a refutation (غَيْرَ أَنَّ).",
+            "Both a Type 1 and a Type 2 conditional if you can.",
+            "A conclusion connector with a subjunctive; 130–150 words."
+          ],
+          "model": "يُشَارُ إِلَى أَنَّ التَّعْلِيمَ الجَامِعِيَّ لَا يَزَالُ رَكِيزَةً مُهِمَّةً لِلنَّجَاحِ. صَحِيحٌ أَنَّ بَعْضَ رُوَّادِ الأَعْمَالِ نَجَحُوا دُونَ شَهَادَةٍ، غَيْرَ أَنَّ الأَغْلَبِيَّةَ تَحْتَاجُ إِلَى مَهَارَاتٍ لَا تُبْنَى إِلَّا بِالتَّعَلُّمِ المُنَظَّمِ. أَكَّدَ خُبَرَاءُ سُوقِ العَمَلِ أَنَّ المَعْرِفَةَ المُتَخَصِّصَةَ تَرْفَعُ فُرَصَ التَّوْظِيفِ. وَإِذَا طَوَّرَتِ الجَامِعَاتُ مَنَاهِجَهَا، سَيَزْدَادُ ارْتِبَاطُهَا بِالوَاقِعِ. وَلَوِ اقْتَصَرْنَا عَلَى المَهَارَاتِ الذَّاتِيَّةِ وَحْدَهَا، لَحُرِمَ كَثِيرُونَ مِنْ فُرَصٍ عَادِلَةٍ. وَبِنَاءً عَلَى مَا سَبَقَ، يَنْبَغِي أَنْ نُطَوِّرَ التَّعْلِيمَ لَا أَنْ نَسْتَغْنِيَ عَنْهُ."
+        },
+        {
+          "type": "writing",
+          "title": "Essay 3 — Social issues topic (15 marks)",
+          "mark_max": 15,
+          "feedback_label": "Self-assessment note (TC / Range / Accuracy)",
+          "prompt": [
+            "Write an argumentative essay (130–150 words): “وَسَائِلُ التَّوَاصُلِ الاجْتِمَاعِيِّ تُفِيدُ المُجْتَمَعَاتِ أَكْثَرَ مِمَّا تَضُرُّهَا — هَلْ تُوَافِقُ؟”"
+          ],
+          "checklist": [
+            "A clear thesis and cited evidence.",
+            "A concession (صَحِيحٌ أَنَّ) and a refutation (غَيْرَ أَنَّ).",
+            "A subjunctive trigger and a Type 2 conditional.",
+            "A conclusion connector with a subjunctive; 130–150 words."
+          ],
+          "model": "يُشَارُ إِلَى أَنَّ وَسَائِلَ التَّوَاصُلِ الاجْتِمَاعِيِّ سِلَاحٌ ذُو حَدَّيْنِ. صَحِيحٌ أَنَّهَا تُقَرِّبُ النَّاسَ وَتَنْشُرُ المَعْرِفَةَ، غَيْرَ أَنَّهَا تُعَمِّقُ الفَجْوَةَ وَتَنْشُرُ المَعْلُومَاتِ المُضَلِّلَةَ. أَكَّدَ البَاحِثُونَ أَنَّ الإِفْرَاطَ فِيهَا يُضْعِفُ التَّرْكِيزَ. وَلَوْ وُضِعَتْ ضَوَابِطُ حَكِيمَةٌ، لَتَقَلَّصَتِ الأَضْرَارُ. وَإِذَا اسْتَخْدَمْنَاهَا بِوَعْيٍ، سَتُصْبِحُ أَدَاةً لِلْبِنَاءِ. وَبِنَاءً عَلَى مَا سَبَقَ، يَتَطَلَّبُ الأَمْرُ أَنْ نُرَبِّيَ الأَجْيَالَ عَلَى الاِسْتِخْدَامِ المَسْؤُولِ لِكَيْ نَجْنِيَ فَوَائِدَهَا وَنَتَجَنَّبَ مَخَاطِرَهَا."
+        },
+        {
+          "type": "fields",
+          "title": "Writing performance profile",
+          "kicker": "Diagnose · target",
+          "items": [
+            {
+              "label": "My best essay today (TC / Range / Accuracy out of 5 each)",
+              "placeholder": "TC …/5 · Range …/5 · Accuracy …/5"
+            },
+            {
+              "label": "My strongest TC element",
+              "placeholder": "…"
+            },
+            {
+              "label": "My weakest Range marker",
+              "placeholder": "…"
+            },
+            {
+              "label": "My most common Accuracy error",
+              "multiline": true,
+              "placeholder": "…"
+            }
+          ]
+        },
+        {
+          "type": "exit",
+          "title": "Extended-writing reflection",
+          "heading": "The exam gives you more time",
+          "prompt_can": "The architecture element I now write confidently is…",
+          "prompt_next": "Before the mock I will practise…"
+        }
+      ]
+    },
+    {
+      "code": "P6-L06",
+      "slug": "lesson-06-paper3-role-play",
+      "title": "Paper 3 Role Play — Transactional Language at IGCSE Standard",
+      "arabic": "الوَرَقَةُ الثَّالِثَةُ — تَمْثِيلُ الدَّوْرِ: اللُّغَةُ التَّعَامُلِيَّةُ",
+      "icon": "🎭",
+      "summary": "Practise IGCSE Paper 3 role plays across the topic areas, scoring full Communication by responding to every prompt with appropriate transactional language, and applying the role-play mark scheme (Communication 6 + Accuracy 4 = 10).",
+      "objectives": [
+        "Respond to every role-play prompt with relevant, sufficient language.",
+        "Use the right transactional language for each topic area.",
+        "Score Communication by answering exactly what each prompt asks.",
+        "Apply the role-play mark scheme to self-assess each task."
+      ],
+      "success": [
+        "I answer the exact question each prompt asks.",
+        "I use a full sentence, not one word, for each prompt.",
+        "I use the correct tense and structure for the situation.",
+        "I can score my own role play on Communication and Accuracy."
+      ],
+      "blocks": [
+        {
+          "type": "vocab",
+          "title": "Role-play terminology",
+          "kicker": "Recognise · use",
+          "groups": [
+            {
+              "label": "Transactional language",
+              "items": [
+                {
+                  "ar": "تَمْثِيلُ الدَّوْرِ",
+                  "en": "role play",
+                  "note": ""
+                },
+                {
+                  "ar": "الاِسْتِجَابَةُ لِلْمُحَفِّزَاتِ",
+                  "en": "responding to prompts",
+                  "note": ""
+                },
+                {
+                  "ar": "اللُّغَةُ التَّعَامُلِيَّةُ",
+                  "en": "transactional language",
+                  "note": ""
+                },
+                {
+                  "ar": "إِعْطَاءُ المَعْلُومَاتِ",
+                  "en": "giving information",
+                  "note": ""
+                },
+                {
+                  "ar": "طَلَبُ المَعْلُومَاتِ",
+                  "en": "requesting information",
+                  "note": ""
+                },
+                {
+                  "ar": "التَّفَاوُضُ",
+                  "en": "negotiation",
+                  "note": ""
+                },
+                {
+                  "ar": "حَلُّ المُشْكِلَةِ",
+                  "en": "problem-solving",
+                  "note": ""
+                },
+                {
+                  "ar": "التَّحَدُّثُ بِثِقَةٍ",
+                  "en": "speaking with confidence",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "cards",
+          "title": "The role-play mark scheme, demystified",
+          "kicker": "1 mark per prompt",
+          "items": [
+            {
+              "title": "Communication (6 marks)",
+              "text": "One mark per prompt successfully communicated — up to six prompts."
+            },
+            {
+              "title": "Accuracy (4 marks)",
+              "text": "An overall score for language accuracy: 4 = consistently accurate, down to 1 = frequent errors that obscure meaning."
+            },
+            {
+              "title": "What costs you marks",
+              "text": "Not answering the prompt; answering a different question; or using one word where a sentence is needed."
+            }
+          ],
+          "note": null
+        },
+        {
+          "type": "panel",
+          "title": "How to score full Communication",
+          "body": [
+            "Each prompt needs a relevant response with enough language to communicate the information clearly. Perfect grammar is not required for the Communication mark — but a serious error that causes misunderstanding loses that prompt. Give two to three sentences per prompt, delivered confidently."
+          ]
+        },
+        {
+          "type": "speaking",
+          "mark_entries": [
+            {
+              "label": "Communication",
+              "max": 6,
+              "name": "comm"
+            },
+            {
+              "label": "Accuracy",
+              "max": 4,
+              "name": "acc"
+            }
+          ],
+          "feedback_label": "Feedback note (which prompt was hardest? which structure worked?)",
+          "prompts": [
+            {
+              "ar": "صِفْ أَعْرَاضَكَ لِلطَّبِيبِ.",
+              "en": "Describe your symptoms to the doctor."
+            },
+            {
+              "ar": "اسْأَلْ عَنِ العِلَاجِ المُنَاسِبِ.",
+              "en": "Ask about the appropriate treatment."
+            },
+            {
+              "ar": "اطْلُبْ نَصِيحَةً لِلْوِقَايَةِ.",
+              "en": "Ask for prevention advice."
+            },
+            {
+              "ar": "اتَّفِقْ عَلَى مَوْعِدٍ لِلْمُتَابَعَةِ.",
+              "en": "Agree on a follow-up appointment."
+            }
+          ],
+          "model": [
+            [
+              "Examiner",
+              "مَا الَّذِي تَشْكُو مِنْهُ؟",
+              "Prompt 1"
+            ],
+            [
+              "You",
+              "أَشْعُرُ بِصُدَاعٍ وَأُعَانِي مِنَ الأَرَقِ مُنْذُ أُسْبُوعٍ.",
+              "Full-sentence response"
+            ]
+          ],
+          "title": "Task 1 — Health centre (10 marks)"
+        },
+        {
+          "type": "speaking",
+          "mark_entries": [
+            {
+              "label": "Communication",
+              "max": 6,
+              "name": "comm"
+            },
+            {
+              "label": "Accuracy",
+              "max": 4,
+              "name": "acc"
+            }
+          ],
+          "feedback_label": "Feedback note (which prompt was hardest? which structure worked?)",
+          "prompts": [
+            {
+              "ar": "احْجِزْ رِحْلَةً وَاسْأَلْ عَنِ المَوَاعِيدِ.",
+              "en": "Book a trip and ask about the schedule."
+            },
+            {
+              "ar": "اسْأَلْ عَنْ خِيَارَاتِ الإِقَامَةِ.",
+              "en": "Ask about accommodation options (يُقِيمُ)."
+            },
+            {
+              "ar": "اطْلُبْ خِيَارًا صَدِيقًا لِلْبِيئَةِ.",
+              "en": "Request an environmentally friendly option."
+            },
+            {
+              "ar": "تَفَاوَضْ عَلَى السِّعْرِ.",
+              "en": "Negotiate on the price."
+            }
+          ],
+          "title": "Task 2 — Travel agency (10 marks)"
+        },
+        {
+          "type": "speaking",
+          "mark_entries": [
+            {
+              "label": "Communication",
+              "max": 6,
+              "name": "comm"
+            },
+            {
+              "label": "Accuracy",
+              "max": 4,
+              "name": "acc"
+            }
+          ],
+          "feedback_label": "Feedback note (which prompt was hardest? which structure worked?)",
+          "prompts": [
+            {
+              "ar": "صِفْ خَلْفِيَّتَكَ الدِّرَاسِيَّةَ (المَاضِي التَّامُّ).",
+              "en": "Describe your academic background (past perfect)."
+            },
+            {
+              "ar": "اسْأَلْ عَنِ البَرَامِجِ المُتَاحَةِ.",
+              "en": "Ask about available programmes."
+            },
+            {
+              "ar": "تَحَدَّثْ عَنْ خُطَطِكَ المُسْتَقْبَلِيَّةِ (شَرْطٌ).",
+              "en": "Talk about your future plans (conditional)."
+            },
+            {
+              "ar": "اطْلُبْ مَعْلُومَاتٍ عَنِ المِنَحِ.",
+              "en": "Ask for scholarship information."
+            }
+          ],
+          "title": "Task 3 — University admissions (10 marks)"
+        },
+        {
+          "type": "speaking",
+          "mark_entries": [
+            {
+              "label": "Communication",
+              "max": 6,
+              "name": "comm"
+            },
+            {
+              "label": "Accuracy",
+              "max": 4,
+              "name": "acc"
+            }
+          ],
+          "feedback_label": "Feedback note (which prompt was hardest? which structure worked?)",
+          "prompts": [
+            {
+              "ar": "أَبْلِغْ عَنْ مُشْكِلَةٍ بِيئِيَّةٍ مَحَلِّيَّةٍ (المَبْنِيُّ لِلْمَجْهُولِ).",
+              "en": "Report a local environmental problem (passive)."
+            },
+            {
+              "ar": "اقْتَرِحْ حُلُولًا (مُسَبِّبُ نَصْبٍ).",
+              "en": "Suggest solutions (subjunctive trigger)."
+            },
+            {
+              "ar": "اسْأَلْ عَنِ اللَّوَائِحِ.",
+              "en": "Ask about the regulations."
+            },
+            {
+              "ar": "اطْلُبْ دَعْمَ البَلَدِيَّةِ.",
+              "en": "Request the council's support."
+            }
+          ],
+          "title": "Task 4 — Community environment meeting (10 marks)"
+        },
+        {
+          "type": "speaking",
+          "mark_entries": [
+            {
+              "label": "Communication",
+              "max": 6,
+              "name": "comm"
+            },
+            {
+              "label": "Accuracy",
+              "max": 4,
+              "name": "acc"
+            }
+          ],
+          "feedback_label": "Feedback note (which prompt was hardest? which structure worked?)",
+          "prompts": [
+            {
+              "ar": "اعْرِضْ مَوْقِفَكَ مِنْ قَضِيَّةٍ اجْتِمَاعِيَّةٍ.",
+              "en": "Present your position on a social issue."
+            },
+            {
+              "ar": "سَلِّمْ بِرَأْيِ الطَّرَفِ الآخَرِ (صَحِيحٌ أَنَّ).",
+              "en": "Concede the opposing view (صَحِيحٌ أَنَّ)."
+            },
+            {
+              "ar": "اطْلُبْ إِجْرَاءً (يَتَطَلَّبُ أَنْ).",
+              "en": "Request action (يَتَطَلَّبُ أَنْ)."
+            },
+            {
+              "ar": "اخْتِمْ بِتَوْصِيَةٍ.",
+              "en": "Close with a recommendation."
+            }
+          ],
+          "title": "Task 5 — International conference (10 marks)"
+        },
+        {
+          "type": "fields",
+          "title": "Communication mark analysis",
+          "kicker": "Diagnose · target",
+          "intro": "Rate your confidence 1–5 in each topic area, then diagnose your lowest.",
+          "items": [
+            {
+              "label": "Average Communication across the tasks (out of 6)",
+              "placeholder": "…/6"
+            },
+            {
+              "label": "Average Accuracy across the tasks (out of 4)",
+              "placeholder": "…/4"
+            },
+            {
+              "label": "My lowest-confidence topic area",
+              "placeholder": "health / travel / education / environment / social"
+            },
+            {
+              "label": "The cause (prompt recognition / vocabulary / hesitation) and my fix",
+              "multiline": true,
+              "placeholder": "…"
+            }
+          ]
+        },
+        {
+          "type": "exit",
+          "title": "Role-play reflection",
+          "heading": "Precise, not long",
+          "prompt_can": "The transactional phrase I now use confidently is…",
+          "prompt_next": "The topic I will practise most is…"
+        }
+      ]
+    },
+    {
+      "code": "P6-L07",
+      "slug": "lesson-07-paper3-topic-conversation",
+      "title": "Paper 3 Topic Conversation — Extended Speaking at IGCSE Level",
+      "arabic": "الوَرَقَةُ الثَّالِثَةُ — المُحَادَثَةُ المَوْضُوعِيَّةُ: التَّحَدُّثُ المُوَسَّعُ",
+      "icon": "🗣️",
+      "summary": "Practise the IGCSE Paper 3 topic conversation, developing answers with opinion, reasons and examples to reach the top Communication band, and applying the mark scheme (Communication 15 + Quality of Language 5 = 20).",
+      "objectives": [
+        "Develop each answer with a point, a reason and an example.",
+        "Deploy complex grammar spontaneously for Quality of Language.",
+        "Handle unexpected questions with transferable “emergency” sentences.",
+        "Apply the topic-conversation mark scheme to self-assess."
+      ],
+      "success": [
+        "I extend each answer beyond a single sentence.",
+        "I use at least two tenses, a conditional and a subjunctive per answer.",
+        "I give an opinion with a reason and an example.",
+        "I can recover from an unexpected question without going blank."
+      ],
+      "blocks": [
+        {
+          "type": "vocab",
+          "title": "Topic-conversation terminology",
+          "kicker": "Recognise · use",
+          "groups": [
+            {
+              "label": "Extended speaking",
+              "items": [
+                {
+                  "ar": "المُحَادَثَةُ المَوْضُوعِيَّةُ",
+                  "en": "topic conversation",
+                  "note": ""
+                },
+                {
+                  "ar": "التَّوْسِيعُ فِي الإِجَابَةِ",
+                  "en": "extending the answer",
+                  "note": ""
+                },
+                {
+                  "ar": "الرَّأْيُ مَعَ الأَسْبَابِ",
+                  "en": "opinion with reasons",
+                  "note": ""
+                },
+                {
+                  "ar": "الأَمْثِلَةُ الدَّاعِمَةُ",
+                  "en": "supporting examples",
+                  "note": ""
+                },
+                {
+                  "ar": "الطَّلَاقَةُ مَعَ الدِّقَّةِ",
+                  "en": "fluency with accuracy",
+                  "note": ""
+                },
+                {
+                  "ar": "التَّعَافِي مِنَ الأَخْطَاءِ",
+                  "en": "recovering from errors",
+                  "note": ""
+                },
+                {
+                  "ar": "لُغَةُ التَّوَقُّفِ وَالتَّفْكِيرِ",
+                  "en": "pause-and-think language",
+                  "note": ""
+                },
+                {
+                  "ar": "المُبَادَرَةُ فِي المُحَادَثَةِ",
+                  "en": "taking initiative",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "cards",
+          "title": "What a Band 5 answer looks like",
+          "kicker": "Point · reason · example · grammar",
+          "intro": "Three answers to “مَا رَأْيُكَ فِي الضَّغْطِ الدِّرَاسِيِّ؟” — notice what lifts each band.",
+          "items": [
+            {
+              "title": "Band 2 — minimal",
+              "text": "A bare opinion, no development.",
+              "ar": "الضَّغْطُ الدِّرَاسِيُّ صَعْبٌ. لَا أُحِبُّهُ."
+            },
+            {
+              "title": "Band 3 — adequate",
+              "text": "An opinion with one reason.",
+              "ar": "يُعَانِي كَثِيرٌ مِنَ الطُّلَّابِ مِنَ الضَّغْطِ. فِي رَأْيِي هُوَ مُفِيدٌ أَحْيَانًا لِأَنَّهُ يُحَفِّزُ."
+            },
+            {
+              "title": "Band 5 — developed",
+              "text": "Evidence + concession-refutation + conditional + subjunctive.",
+              "ar": "يُشَارُ إِلَى أَنَّ الضَّغْطَ فِي تَصَاعُدٍ. صَحِيحٌ أَنَّ بَعْضَهُ يُحَفِّزُ، غَيْرَ أَنَّهُ إِذَا تَجَاوَزَ حَدَّهُ سَيُؤَدِّي إِلَى الاِحْتِرَاقِ. لِذَا يَتَطَلَّبُ الأَمْرُ أَنْ تُوَفِّرَ المَدَارِسُ بِيئَةً أَقَلَّ ضَغْطًا."
+            }
+          ]
+        },
+        {
+          "type": "mark_scheme",
+          "title": "The topic-conversation mark scheme",
+          "kicker": "Know how you are marked",
+          "criteria": [
+            [
+              "Communication",
+              15,
+              [
+                "5 marks per question across three questions.",
+                "Band 5 fully develops the answer with opinion, reasons and examples.",
+                "Band 3 is an adequate answer; Band 1 is minimal."
+              ]
+            ],
+            [
+              "Quality of Language",
+              5,
+              [
+                "Band 5 consistently uses complex structures.",
+                "At least two tenses, a conditional and a subjunctive across the answers.",
+                "Range is rewarded even if a vowel is occasionally imperfect."
+              ]
+            ]
+          ],
+          "note": "Development is the key to Communication Band 5: a two-sentence answer caps at about Band 3, while a four-to-five-sentence answer with opinion, evidence and conditional analysis reaches Band 5."
+        },
+        {
+          "type": "speaking",
+          "title": "Topic conversation — full practice (20 marks)",
+          "mark_entries": [
+            {
+              "label": "Communication",
+              "max": 15,
+              "name": "comm"
+            },
+            {
+              "label": "Quality of Language",
+              "max": 5,
+              "name": "qol"
+            }
+          ],
+          "feedback_label": "Feedback note (which structures appeared spontaneously?)",
+          "prompts": [
+            {
+              "ar": "مَا رَأْيُكَ فِي الضَّغْطِ الدِّرَاسِيِّ، وَكَيْفَ يُمْكِنُ التَّعَامُلُ مَعَهُ؟",
+              "en": "Education — develop with opinion, reason and example."
+            },
+            {
+              "ar": "هَلْ تُعَمِّقُ التِّقْنِيَّةُ عَدَمَ المُسَاوَاةِ أَمْ تُقَلِّلُهَا؟",
+              "en": "Social issues — concede then refute (صَحِيحٌ أَنَّ … غَيْرَ أَنَّ)."
+            },
+            {
+              "ar": "لَوْ كُنْتَ مَسْؤُولًا عَنِ البِيئَةِ، مَاذَا كُنْتَ سَتُغَيِّرُ أَوَّلًا؟",
+              "en": "Environment — Type 2 conditional required (لَوْ …)."
+            }
+          ],
+          "model": [
+            [
+              "Examiner",
+              "مَا رَأْيُكَ فِي الضَّغْطِ الدِّرَاسِيِّ؟",
+              "Question 1"
+            ],
+            [
+              "You",
+              "يُشَارُ إِلَى أَنَّ الضَّغْطَ فِي تَصَاعُدٍ. صَحِيحٌ أَنَّ بَعْضَهُ يُحَفِّزُ، غَيْرَ أَنَّهُ إِذَا تَجَاوَزَ حَدَّهُ سَيَضُرُّ. يَتَطَلَّبُ الأَمْرُ أَنْ تُوَفِّرَ المَدَارِسُ دَعْمًا نَفْسِيًّا.",
+              "Band 5 development"
+            ]
+          ]
+        },
+        {
+          "type": "speaking",
+          "title": "Extra question bank — mixed topics (practice)",
+          "mark_entries": [],
+          "prompts": [
+            {
+              "ar": "صِفْ عَادَةً صِحِّيَّةً تُحَافِظُ عَلَيْهَا، وَلِمَاذَا.",
+              "en": "Health."
+            },
+            {
+              "ar": "مَا أَهَمِّيَّةُ الحِفَاظِ عَلَى التُّرَاثِ فِي رَأْيِكَ؟",
+              "en": "Culture / environment."
+            },
+            {
+              "ar": "كَيْفَ تَقْضِي وَقْتَ فَرَاغِكَ، وَهَلْ تَغَيَّرَ ذٰلِكَ؟",
+              "en": "Daily life — past and present."
+            },
+            {
+              "ar": "مَا دَوْرُ الشَّبَابِ فِي تَغْيِيرِ المُجْتَمَعِ؟",
+              "en": "Social — subjunctive of demand."
+            }
+          ]
+        },
+        {
+          "type": "fields",
+          "title": "Emergency sentences for your weakest topics",
+          "kicker": "Prepare · transfer",
+          "intro": "For your two least confident topics, prepare three transferable sentences you can use if you go blank.",
+          "items": [
+            {
+              "label": "A general observation (يُشَارُ إِلَى أَنَّ …)",
+              "ar": true,
+              "placeholder": "يُشَارُ إِلَى أَنَّ…"
+            },
+            {
+              "label": "A Type 1 conditional (إِذَا … سَـ …)",
+              "ar": true,
+              "placeholder": "إِذَا…"
+            },
+            {
+              "label": "A subjunctive conclusion (يَتَطَلَّبُ أَنْ …)",
+              "ar": true,
+              "placeholder": "يَتَطَلَّبُ الأَمْرُ أَنْ…"
+            }
+          ]
+        },
+        {
+          "type": "exit",
+          "title": "Topic-conversation reflection",
+          "heading": "Development earns the band",
+          "prompt_can": "The topic I develop most confidently is…",
+          "prompt_next": "For the mock I will prepare emergency sentences for…"
+        }
+      ]
+    },
+    {
+      "code": "P6-L08",
+      "slug": "lesson-08-mock-paper1-listening",
+      "title": "Mock Examination — Paper 1 Listening (Full Exam Conditions)",
+      "arabic": "امْتِحَانُ المُحَاكَاةِ — الوَرَقَةُ الأُولَى — الاسْتِمَاعُ",
+      "icon": "📝",
+      "summary": "Sit the mock Paper 1 Listening under full exam conditions: three texts in the three formats, applying every listening strategy at once. Raw score /20 scales to /45.",
+      "objectives": [
+        "Sit the mock Paper 1 Listening under exam conditions.",
+        "Apply all six listening strategies simultaneously.",
+        "Recognise F1–P6 grammar in fast speech across three formats.",
+        "Record your raw score and identify targets for the final exam."
+      ],
+      "success": [
+        "I answered every question — no blanks.",
+        "I annotated each question before the script.",
+        "I used the second reading to verify, not to over-change.",
+        "I know my raw score and my priority format."
+      ],
+      "blocks": [
+        {
+          "type": "panel",
+          "kicker": "Exam conditions",
+          "title": "Before you begin",
+          "arabic": "ظُرُوفُ الامْتِحَانِ",
+          "body": [
+            "This is a mock examination. Work silently, without notes, in one sitting. Read the questions in the two-minute gaps, then read each script twice.",
+            "The three texts carry 8 + 6 + 6 = 20 raw marks; the real Paper 1 scales this section to 45. Record your raw score at the end and convert it."
+          ]
+        },
+        {
+          "type": "quiz",
+          "skill": "listening",
+          "title": "Text 1 — Multiple choice (8 marks)",
+          "note": [
+            {
+              "ar": ""
+            },
+            "Sit this under exam conditions: read the questions in the gaps, then read each script twice. Mark yourself against the answers afterwards."
+          ],
+          "activity": {
+            "kicker": "A doctor on a balanced life",
+            "title": "Choose the correct option"
+          },
+          "script": "تَقُولُ الطَّبِيبَةُ: أُشِيرُ إِلَى أَنَّ الوِقَايَةَ خَيْرٌ مِنَ العِلَاجِ. صَحِيحٌ أَنَّ الأَدْوِيَةَ ضَرُورِيَّةٌ أَحْيَانًا، غَيْرَ أَنَّ نَمَطَ الحَيَاةِ الصِّحِّيَّ يَقِي مِنْ كَثِيرٍ مِنَ الأَمْرَاضِ. كَانَ كَثِيرٌ مِنَ المَرْضَى قَدْ أَهْمَلُوا الرِّيَاضَةَ لِسَنَوَاتٍ. وَإِذَا مَشَى الإِنْسَانُ نِصْفَ سَاعَةٍ يَوْمِيًّا، سَيَتَحَسَّنُ قَلْبُهُ. وَلَوْ قَلَّلْنَا مِنَ السُّكَّرِ، لَانْخَفَضَتْ أَمْرَاضُ العَصْرِ. وَيَنْبَغِي أَنْ نَشْرَبَ المَاءَ بِوَفْرَةٍ. وَأَرْجُو أَنْ يَهْتَمَّ الشَّبَابُ بِصِحَّتِهِمْ مُبَكِّرًا.",
+          "questions": [
+            {
+              "prompt": "What does the doctor say prevention is?",
+              "options": [
+                "Better than cure",
+                "A waste of time",
+                "Only for the old"
+              ],
+              "answer": 0,
+              "feedback": "أُشِيرُ إِلَى أَنَّ الوِقَايَةَ خَيْرٌ مِنَ العِلَاجِ."
+            },
+            {
+              "prompt": "What does she concede (صَحِيحٌ أَنَّ)?",
+              "options": [
+                "Medicines are sometimes necessary",
+                "Medicines are useless",
+                "Lifestyle does not matter"
+              ],
+              "answer": 0,
+              "feedback": "صَحِيحٌ أَنَّ الأَدْوِيَةَ ضَرُورِيَّةٌ أَحْيَانًا."
+            },
+            {
+              "prompt": "What does she emphasise (غَيْرَ أَنَّ)?",
+              "options": [
+                "A healthy lifestyle prevents many diseases",
+                "Only medicine works",
+                "Exercise is pointless"
+              ],
+              "answer": 0,
+              "feedback": "غَيْرَ أَنَّ نَمَطَ الحَيَاةِ الصِّحِّيَّ يَقِي مِنْ كَثِيرٍ مِنَ الأَمْرَاضِ."
+            },
+            {
+              "prompt": "What had many patients done (past perfect)?",
+              "options": [
+                "Neglected exercise for years",
+                "Exercised daily",
+                "Followed the advice"
+              ],
+              "answer": 0,
+              "feedback": "كَانَ كَثِيرٌ مِنَ المَرْضَى قَدْ أَهْمَلُوا الرِّيَاضَةَ لِسَنَوَاتٍ."
+            },
+            {
+              "prompt": "What is the Type 1 conditional claim?",
+              "options": [
+                "If a person walks half an hour daily, their heart will improve",
+                "Walking harms the heart",
+                "The heart cannot improve"
+              ],
+              "answer": 0,
+              "feedback": "إِذَا مَشَى الإِنْسَانُ نِصْفَ سَاعَةٍ يَوْمِيًّا، سَيَتَحَسَّنُ قَلْبُهُ."
+            },
+            {
+              "prompt": "What is the Type 2 conditional claim?",
+              "options": [
+                "Had we cut sugar, modern diseases would have fallen",
+                "Sugar has no effect",
+                "Diseases cannot fall"
+              ],
+              "answer": 0,
+              "feedback": "لَوْ قَلَّلْنَا مِنَ السُّكَّرِ، لَانْخَفَضَتْ أَمْرَاضُ العَصْرِ."
+            },
+            {
+              "prompt": "What does she say one ought to do (يَنْبَغِي أَنْ)?",
+              "options": [
+                "Drink plenty of water",
+                "Skip meals",
+                "Avoid all fat"
+              ],
+              "answer": 0,
+              "feedback": "يَنْبَغِي أَنْ نَشْرَبَ المَاءَ بِوَفْرَةٍ."
+            },
+            {
+              "prompt": "What does she hope for (أَرْجُو أَنْ)?",
+              "options": [
+                "That young people care for their health early",
+                "That people ignore health",
+                "That medicine replaces lifestyle"
+              ],
+              "answer": 0,
+              "feedback": "أَرْجُو أَنْ يَهْتَمَّ الشَّبَابُ بِصِحَّتِهِمْ مُبَكِّرًا."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "skill": "listening",
+          "title": "Text 2 — Matching: who says it? (6 marks)",
+          "note": [
+            {
+              "ar": ""
+            },
+            "Sit this under exam conditions: read the questions in the gaps, then read each script twice. Mark yourself against the answers afterwards."
+          ],
+          "activity": {
+            "kicker": "Two friends on future plans",
+            "title": "Match each statement to the speaker"
+          },
+          "script": "نُورٌ: أَرَى أَنَّ التَّدْرِيبَ العَمَلِيَّ لَا يَقِلُّ أَهَمِّيَّةً عَنِ الشَّهَادَةِ. زَيْدٌ: صَحِيحٌ أَنَّ الشَّهَادَةَ مُهِمَّةٌ، غَيْرَ أَنَّ المَهَارَاتِ تَصْنَعُ الفَرْقَ. نُورٌ: وَلَوْ بَدَأْتُ التَّدَرُّبَ مُبَكِّرًا، لَاكْتَسَبْتُ خِبْرَةً أَكْبَرَ. زَيْدٌ: وَيَنْبَغِي أَنْ نَخْتَارَ مَجَالًا نُحِبُّهُ. نُورٌ: وَأَكَّدَ مُعَلِّمِي أَنَّ الشَّغَفَ يَقُودُ إِلَى النَّجَاحِ. زَيْدٌ: وَإِذَا حَدَّدْتُ هَدَفِي، سَأُخَطِّطُ لَهُ بِوُضُوحٍ.",
+          "questions": [
+            {
+              "prompt": "Who says practical training is no less important than the certificate?",
+              "options": [
+                "Nour",
+                "Zayd",
+                "Both"
+              ],
+              "answer": 0,
+              "feedback": "نُورٌ: أَرَى أَنَّ التَّدْرِيبَ العَمَلِيَّ لَا يَقِلُّ أَهَمِّيَّةً عَنِ الشَّهَادَةِ."
+            },
+            {
+              "prompt": "Who concedes the certificate matters but skills make the difference?",
+              "options": [
+                "Zayd",
+                "Nour",
+                "Both"
+              ],
+              "answer": 0,
+              "feedback": "زَيْدٌ: صَحِيحٌ أَنَّ الشَّهَادَةَ مُهِمَّةٌ، غَيْرَ أَنَّ المَهَارَاتِ تَصْنَعُ الفَرْقَ."
+            },
+            {
+              "prompt": "Who makes the Type 2 conditional about starting training early?",
+              "options": [
+                "Nour",
+                "Zayd",
+                "Both"
+              ],
+              "answer": 0,
+              "feedback": "نُورٌ: لَوْ بَدَأْتُ التَّدَرُّبَ مُبَكِّرًا، لَاكْتَسَبْتُ خِبْرَةً."
+            },
+            {
+              "prompt": "Who says one ought to choose a field they love?",
+              "options": [
+                "Zayd",
+                "Nour",
+                "Both"
+              ],
+              "answer": 0,
+              "feedback": "زَيْدٌ: يَنْبَغِي أَنْ نَخْتَارَ مَجَالًا نُحِبُّهُ."
+            },
+            {
+              "prompt": "Who reports the teacher's view that passion leads to success?",
+              "options": [
+                "Nour",
+                "Zayd",
+                "Both"
+              ],
+              "answer": 0,
+              "feedback": "نُورٌ: أَكَّدَ مُعَلِّمِي أَنَّ الشَّغَفَ يَقُودُ إِلَى النَّجَاحِ."
+            },
+            {
+              "prompt": "Who makes the Type 1 conditional about defining a goal?",
+              "options": [
+                "Zayd",
+                "Nour",
+                "Both"
+              ],
+              "answer": 0,
+              "feedback": "زَيْدٌ: إِذَا حَدَّدْتُ هَدَفِي، سَأُخَطِّطُ لَهُ بِوُضُوحٍ."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "skill": "listening",
+          "title": "Text 3 — Select the supported statements (6 marks)",
+          "note": [
+            {
+              "ar": ""
+            },
+            "Sit this under exam conditions: read the questions in the gaps, then read each script twice. Mark yourself against the answers afterwards."
+          ],
+          "activity": {
+            "kicker": "An official on a social programme",
+            "title": "Choose the statement the text supports"
+          },
+          "script": "يَقُولُ المَسْؤُولُ: كَانَتِ المِنْطَقَةُ قَدْ عَانَتْ مِنَ البَطَالَةِ بَيْنَ الشَّبَابِ. وَاليَوْمَ يَتَطَلَّبُ الأَمْرُ أَنْ نُوَفِّرَ فُرَصَ تَدْرِيبٍ حَقِيقِيَّةً. أُطْلِقَ بَرْنَامَجٌ لِكَيْ يُمَكِّنَ الشَّبَابَ مِنْ سُوقِ العَمَلِ. صَحِيحٌ أَنَّ التَّمْوِيلَ مَحْدُودٌ، غَيْرَ أَنَّ الإِرَادَةَ مَوْجُودَةٌ. وَإِذَا تَعَاوَنَ القِطَاعَانِ العَامُّ وَالخَاصُّ، سَتَزْدَادُ الفُرَصُ. وَيَرْجُو المَسْؤُولُ أَنْ يُصْبِحَ البَرْنَامَجُ نَمُوذَجًا وَطَنِيًّا.",
+          "questions": [
+            {
+              "prompt": "Which statement is supported (past perfect)?",
+              "options": [
+                "The region had suffered from youth unemployment",
+                "The region always had jobs",
+                "Unemployment began today"
+              ],
+              "answer": 0,
+              "feedback": "كَانَتِ المِنْطَقَةُ قَدْ عَانَتْ مِنَ البَطَالَةِ بَيْنَ الشَّبَابِ."
+            },
+            {
+              "prompt": "Which statement is supported (necessity trigger)?",
+              "options": [
+                "The matter requires providing real training opportunities",
+                "Training is unnecessary",
+                "Opportunities should be cut"
+              ],
+              "answer": 0,
+              "feedback": "يَتَطَلَّبُ الأَمْرُ أَنْ نُوَفِّرَ فُرَصَ تَدْرِيبٍ حَقِيقِيَّةً."
+            },
+            {
+              "prompt": "Which statement is supported (purpose, لِكَي)?",
+              "options": [
+                "A programme was launched to empower youth for the job market",
+                "The programme excludes youth",
+                "The programme has no aim"
+              ],
+              "answer": 0,
+              "feedback": "أُطْلِقَ بَرْنَامَجٌ لِكَيْ يُمَكِّنَ الشَّبَابَ مِنْ سُوقِ العَمَلِ."
+            },
+            {
+              "prompt": "Which statement is supported (concession-refutation)?",
+              "options": [
+                "Funding is limited, yet the will exists",
+                "There is no will",
+                "Funding is unlimited"
+              ],
+              "answer": 0,
+              "feedback": "صَحِيحٌ أَنَّ التَّمْوِيلَ مَحْدُودٌ، غَيْرَ أَنَّ الإِرَادَةَ مَوْجُودَةٌ."
+            },
+            {
+              "prompt": "Which statement is supported (Type 1 conditional)?",
+              "options": [
+                "If the public and private sectors cooperate, opportunities will grow",
+                "Cooperation reduces opportunities",
+                "Opportunities cannot grow"
+              ],
+              "answer": 0,
+              "feedback": "إِذَا تَعَاوَنَ القِطَاعَانِ العَامُّ وَالخَاصُّ، سَتَزْدَادُ الفُرَصُ."
+            },
+            {
+              "prompt": "Which statement is supported (hope, يَرْجُو)?",
+              "options": [
+                "The official hopes the programme becomes a national model",
+                "The official expects it to fail",
+                "The official has no hopes"
+              ],
+              "answer": 0,
+              "feedback": "يَرْجُو المَسْؤُولُ أَنْ يُصْبِحَ البَرْنَامَجُ نَمُوذَجًا وَطَنِيًّا."
+            }
+          ]
+        },
+        {
+          "type": "fields",
+          "title": "Record your Paper 1 mock score",
+          "kicker": "Score · convert · target",
+          "intro": "Add your three raw scores, then convert to /45 (raw × 2.25). Bring this to Lesson 11.",
+          "items": [
+            {
+              "label": "Text 1 (out of 8)",
+              "placeholder": "…/8"
+            },
+            {
+              "label": "Text 2 (out of 6)",
+              "placeholder": "…/6"
+            },
+            {
+              "label": "Text 3 (out of 6)",
+              "placeholder": "…/6"
+            },
+            {
+              "label": "Raw total (out of 20) and converted score (out of 45)",
+              "placeholder": "…/20 → …/45"
+            },
+            {
+              "label": "My priority format for the real exam (MC / matching / select-two)",
+              "placeholder": "…"
+            }
+          ]
+        },
+        {
+          "type": "exit",
+          "title": "Post-mock reflection",
+          "heading": "Paper 1 done",
+          "prompt_can": "My strongest format today was…",
+          "prompt_next": "Before the real exam I will improve…"
+        }
+      ]
+    },
+    {
+      "code": "P6-L09",
+      "slug": "lesson-09-mock-papers2-4",
+      "title": "Mock Examination — Papers 2 and 4 (Reading and Writing)",
+      "arabic": "امْتِحَانُ المُحَاكَاةِ — الوَرَقَتَانِ الثَّانِيَةُ وَالرَّابِعَةُ",
+      "icon": "📝",
+      "summary": "Sit the mock Paper 2 Reading (45) and Paper 4 Writing (30) under exam conditions: three reading texts with R1–R4, Q4 gap-fill and Q5 cross-text, then directed writing and an argumentative essay.",
+      "objectives": [
+        "Sit the mock Paper 2 Reading under exam conditions.",
+        "Sit the mock Paper 4 Writing (Q1 directed + Q2 essay) under exam conditions.",
+        "Manage the 45 + 60 minutes across the two papers efficiently.",
+        "Record your scores and identify targets for the final exam."
+      ],
+      "success": [
+        "I proved every reading answer from the Arabic text.",
+        "I chose the correct form in every Q4 gap.",
+        "I wrote Q1 in the correct register and Q2 with full architecture.",
+        "I kept Q1 under 20 minutes so Q2 had enough time."
+      ],
+      "blocks": [
+        {
+          "type": "panel",
+          "kicker": "Exam conditions",
+          "title": "Before you begin",
+          "arabic": "ظُرُوفُ الامْتِحَانِ",
+          "body": [
+            "Paper 2 Reading is about 45 minutes for 45 marks; Paper 4 Writing is 60 minutes for 30 marks (Q1 in about 20, Q2 in about 35, with 5 to check).",
+            "Work silently, without notes. Prove every reading answer from the text; write both Paper 4 answers to length in the correct register."
+          ]
+        },
+        {
+          "type": "quiz",
+          "skill": "reading",
+          "title": "Paper 2 · Text 1 — Notices (4 marks)",
+          "activity": {
+            "kicker": "Q Groups 1–2",
+            "title": "Factual comprehension"
+          },
+          "text": "إِعْلَانٌ: يُفْتَتَحُ المَرْكَزُ الرِّيَاضِيُّ فِي السَّاعَةِ السَّادِسَةِ صَبَاحًا. يُشْتَرَطُ حَجْزُ المَلْعَبِ مُسْبَقًا. تُقَامُ دُرُوسُ السِّبَاحَةِ لِلْمُبْتَدِئِينَ يَوْمَ السَّبْتِ. وَيُمْنَعُ اسْتِخْدَامُ الهَاتِفِ فِي قَاعَةِ التَّدْرِيبِ.",
+          "questions": [
+            {
+              "prompt": "When does the sports centre open?",
+              "options": [
+                "At 6 a.m.",
+                "At 6 p.m.",
+                "It does not open"
+              ],
+              "answer": 0,
+              "feedback": "يُفْتَتَحُ المَرْكَزُ الرِّيَاضِيُّ فِي السَّاعَةِ السَّادِسَةِ صَبَاحًا."
+            },
+            {
+              "prompt": "What is required to use the pitch?",
+              "options": [
+                "Booking in advance",
+                "Paying at the door",
+                "Nothing"
+              ],
+              "answer": 0,
+              "feedback": "يُشْتَرَطُ حَجْزُ المَلْعَبِ مُسْبَقًا."
+            },
+            {
+              "prompt": "When are beginners' swimming lessons?",
+              "options": [
+                "On Saturday",
+                "On Sunday",
+                "Every day"
+              ],
+              "answer": 0,
+              "feedback": "تُقَامُ دُرُوسُ السِّبَاحَةِ لِلْمُبْتَدِئِينَ يَوْمَ السَّبْتِ."
+            },
+            {
+              "prompt": "What is forbidden in the training hall?",
+              "options": [
+                "Using the phone",
+                "Drinking water",
+                "Wearing shoes"
+              ],
+              "answer": 0,
+              "feedback": "يُمْنَعُ اسْتِخْدَامُ الهَاتِفِ فِي قَاعَةِ التَّدْرِيبِ."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "skill": "reading",
+          "title": "Paper 2 · Text 2 — R1–R4 + Q4 gap-fill (6 marks)",
+          "activity": {
+            "kicker": "Q Groups 3–4",
+            "title": "Comprehend, then choose the correct form"
+          },
+          "text": "يُشَارُ إِلَى أَنَّ القِرَاءَةَ عَادَةٌ تُثْرِي العَقْلَ. صَحِيحٌ أَنَّ الحَيَاةَ مَشْغُولَةٌ، غَيْرَ أَنَّ عَشْرَ دَقَائِقَ يَوْمِيًّا تَبْنِي عَادَةً رَاسِخَةً. وَيَتَطَلَّبُ الأَمْرُ أَنْ تُخَصِّصَ الأُسَرُ وَقْتًا لِلْقِرَاءَةِ. وَلَوْ قَرَأَ كُلُّ طِفْلٍ كِتَابًا شَهْرِيًّا، لَاتَّسَعَتْ مَدَارِكُهُ.",
+          "questions": [
+            {
+              "prompt": "R1 — What is the main idea?",
+              "options": [
+                "Reading enriches the mind",
+                "Reading wastes time",
+                "Families are too busy to matter"
+              ],
+              "answer": 0,
+              "feedback": "يُشَارُ إِلَى أَنَّ القِرَاءَةَ عَادَةٌ تُثْرِي العَقْلَ."
+            },
+            {
+              "prompt": "R2 — How much daily reading builds a habit?",
+              "options": [
+                "Ten minutes",
+                "Two hours",
+                "No time"
+              ],
+              "answer": 0,
+              "feedback": "عَشْرَ دَقَائِقَ يَوْمِيًّا تَبْنِي عَادَةً رَاسِخَةً."
+            },
+            {
+              "prompt": "R3 — What does صَحِيحٌ أَنَّ الحَيَاةَ مَشْغُولَةٌ do?",
+              "options": [
+                "Concedes an objection before answering it",
+                "States the conclusion",
+                "Reports a statistic"
+              ],
+              "answer": 0,
+              "feedback": "It concedes a real objection before the refutation."
+            },
+            {
+              "prompt": "R4 gap-fill — صَحِيحٌ أَنَّ الحَيَاةَ ___ . Which form?",
+              "options": [
+                "مَشْغُولَةٌ (indicative situation)",
+                "تَكُونَ مَشْغُولَةً (subjunctive)",
+                "كَانَتْ مَشْغُولَةً لَـ (Type 2)"
+              ],
+              "answer": 0,
+              "feedback": "After صَحِيحٌ أَنَّ the clause is indicative — a real situation."
+            },
+            {
+              "prompt": "R4 gap-fill — يَتَطَلَّبُ الأَمْرُ أَنْ ___ الأُسَرُ وَقْتًا. Which form?",
+              "options": [
+                "تُخَصِّصَ (subjunctive)",
+                "تُخَصِّصُ (indicative)",
+                "خَصَّصَتْ (past)"
+              ],
+              "answer": 0,
+              "feedback": "After أَنْ (with يَتَطَلَّبُ) the verb is subjunctive: تُخَصِّصَ."
+            },
+            {
+              "prompt": "R4 gap-fill — لَوْ قَرَأَ كُلُّ طِفْلٍ كِتَابًا، ___ مَدَارِكُهُ. Which form?",
+              "options": [
+                "لَاتَّسَعَتْ (Type 2 result)",
+                "سَتَتَّسِعُ (Type 1 result)",
+                "تَتَّسِعُ (indicative)"
+              ],
+              "answer": 0,
+              "feedback": "A لَوْ conditional takes a لَـ result: لَاتَّسَعَتْ."
+            }
+          ]
+        },
+        {
+          "type": "quiz",
+          "skill": "reading",
+          "title": "Paper 2 · Text 3 — R3 + Q5 cross-text (6 marks)",
+          "activity": {
+            "kicker": "Q Groups 5–6",
+            "title": "Deep analysis and cross-text matching"
+          },
+          "text": "يَرَى الكَاتِبُ أَنَّ العَمَلَ التَّطَوُّعِيَّ يَبْنِي شَخْصِيَّةَ الشَّبَابِ. لَا يُمْكِنُ إِنْكَارُ أَنَّ الوَقْتَ ثَمِينٌ، غَيْرَ أَنَّ العَطَاءَ يَمْنَحُ مَعْنًى لَا يُشْتَرَى. وَبِنَاءً عَلَى مَا سَبَقَ، يَنْبَغِي أَنْ تُشَجِّعَ المَدَارِسُ التَّطَوُّعَ.",
+          "questions": [
+            {
+              "prompt": "R3 — What is the writer's attitude to volunteering?",
+              "options": [
+                "Positive: it gives meaning that cannot be bought",
+                "Negative",
+                "Neutral"
+              ],
+              "answer": 0,
+              "feedback": "غَيْرَ أَنَّ العَطَاءَ يَمْنَحُ مَعْنًى لَا يُشْتَرَى."
+            },
+            {
+              "prompt": "R3 — What does لَا يُمْكِنُ إِنْكَارُ أَنَّ signal?",
+              "options": [
+                "A concession before a counter-claim",
+                "A final conclusion",
+                "A statistic"
+              ],
+              "answer": 0,
+              "feedback": "It concedes a point before the stronger claim."
+            },
+            {
+              "prompt": "R3 — What does وَبِنَاءً عَلَى مَا سَبَقَ mark?",
+              "options": [
+                "The conclusion",
+                "A new argument",
+                "A quotation"
+              ],
+              "answer": 0,
+              "feedback": "وَبِنَاءً عَلَى مَا سَبَقَ opens the conclusion."
+            },
+            {
+              "prompt": "Q5 — “Volunteering builds young people's character.” Which text?",
+              "options": [
+                "Text 3",
+                "Text 1",
+                "Text 2"
+              ],
+              "answer": 0,
+              "feedback": "Text 3: العَمَلُ التَّطَوُّعِيُّ يَبْنِي شَخْصِيَّةَ الشَّبَابِ."
+            },
+            {
+              "prompt": "Q5 — “Ten minutes of daily reading builds a habit.” Which text?",
+              "options": [
+                "Text 2",
+                "Text 1",
+                "Text 3"
+              ],
+              "answer": 0,
+              "feedback": "Text 2: عَشْرَ دَقَائِقَ يَوْمِيًّا تَبْنِي عَادَةً."
+            },
+            {
+              "prompt": "Q5 — “The sports centre opens at six in the morning.” Which text?",
+              "options": [
+                "Text 1",
+                "Text 2",
+                "Text 3"
+              ],
+              "answer": 0,
+              "feedback": "Text 1: يُفْتَتَحُ المَرْكَزُ الرِّيَاضِيُّ فِي السَّادِسَةِ صَبَاحًا."
+            }
+          ]
+        },
+        {
+          "type": "writing",
+          "title": "Paper 4 · Q1 — Directed writing (15 marks)",
+          "mark_max": 15,
+          "feedback_label": "Self-assessment note (TC / Range / Accuracy)",
+          "prompt": [
+            "Write a formal email (130–140 words) to your school principal proposing a new after-school club. Include: the idea, why it is needed, what it requires, and a request for approval. Register: formal."
+          ],
+          "checklist": [
+            "A formal opening and closing.",
+            "The idea, the need, what it requires, and a request.",
+            "At least one subjunctive trigger and one conditional.",
+            "Correct register from the opening sentence."
+          ],
+          "model": "حَضْرَةَ مُدِيرِ المَدْرَسَةِ المُحْتَرَمِ، أَتَشَرَّفُ بِأَنْ أَقْتَرِحَ إِنْشَاءَ نَادٍ لِلْبِرْمَجَةِ بَعْدَ الدَّوَامِ. يُشَارُ إِلَى أَنَّ المَهَارَاتِ الرَّقْمِيَّةَ بَاتَتْ ضَرُورِيَّةً. صَحِيحٌ أَنَّ الوَقْتَ مَحْدُودٌ، غَيْرَ أَنَّ سَاعَةً أُسْبُوعِيَّةً تَكْفِي. وَيَتَطَلَّبُ الأَمْرُ أَنْ تُوَفِّرَ المَدْرَسَةُ قَاعَةً وَمُشْرِفًا. وَإِذَا وَافَقْتُمْ، سَيَسْتَفِيدُ عَدَدٌ كَبِيرٌ مِنَ الطُّلَّابِ. أَرْجُو أَنْ تَتَكَرَّمُوا بِالمُوَافَقَةِ، وَتَفَضَّلُوا بِقَبُولِ الاِحْتِرَامِ."
+        },
+        {
+          "type": "writing",
+          "title": "Paper 4 · Q2 — Extended writing (15 marks)",
+          "mark_max": 15,
+          "feedback_label": "Self-assessment note (TC / Range / Accuracy)",
+          "prompt": [
+            "Choose ONE title and write an argumentative essay (130–150 words): (A) “السَّفَرُ أَفْضَلُ مُعَلِّمٍ — هَلْ تُوَافِقُ؟”  (B) “المُدُنُ الكُبْرَى أَفْضَلُ لِلْعَيْشِ مِنَ القُرَى — هَلْ تُوَافِقُ؟”  (C) “عَلَى الشَّبَابِ أَنْ يَخْدُمُوا مُجْتَمَعَهُمْ قَبْلَ أَنْفُسِهِمْ — هَلْ تُوَافِقُ؟”"
+          ],
+          "checklist": [
+            "A clear thesis and cited evidence.",
+            "A concession (صَحِيحٌ أَنَّ) and a refutation (غَيْرَ أَنَّ).",
+            "A conditional and a subjunctive trigger.",
+            "A conclusion connector with a subjunctive; 130–150 words."
+          ],
+          "model": "يُشَارُ إِلَى أَنَّ السَّفَرَ مِنْ أَعْظَمِ مَصَادِرِ التَّعَلُّمِ. أَكَّدَ التَّرْبَوِيُّونَ أَنَّ الاِحْتِكَاكَ بِالثَّقَافَاتِ يُنَمِّي الوَعْيَ. صَحِيحٌ أَنَّ الكُتُبَ تُعَلِّمُ الكَثِيرَ، غَيْرَ أَنَّ التَّجْرِبَةَ المُبَاشِرَةَ تَتْرُكُ أَثَرًا أَعْمَقَ. وَلَوْ سَافَرَ كُلُّ طَالِبٍ مَرَّةً، لَتَغَيَّرَتْ نَظْرَتُهُ إِلَى العَالَمِ. وَإِذَا أُتِيحَتِ الفُرَصُ، سَيَتَعَلَّمُ الشَّبَابُ التَّسَامُحَ. وَبِنَاءً عَلَى مَا سَبَقَ، يَنْبَغِي أَنْ نُشَجِّعَ السَّفَرَ التَّعْلِيمِيَّ لِكَيْ نَبْنِيَ جِيلًا مُنْفَتِحًا."
+        },
+        {
+          "type": "fields",
+          "title": "Record your Papers 2 and 4 mock scores",
+          "kicker": "Score · target",
+          "items": [
+            {
+              "label": "Paper 2 Reading raw (out of 16) → converted (out of 45)",
+              "placeholder": "…/16 → …/45"
+            },
+            {
+              "label": "Paper 4 Q1 (out of 15)",
+              "placeholder": "…/15"
+            },
+            {
+              "label": "Paper 4 Q2 (out of 15)",
+              "placeholder": "…/15"
+            },
+            {
+              "label": "My biggest challenge today and my fix",
+              "multiline": true,
+              "placeholder": "…"
+            }
+          ]
+        },
+        {
+          "type": "exit",
+          "title": "Post-mock reflection",
+          "heading": "Papers 2 and 4 done",
+          "prompt_can": "My Paper 4 register/architecture was strongest in…",
+          "prompt_next": "For the real exam I will improve…"
+        }
+      ]
+    },
+    {
+      "code": "P6-L10",
+      "slug": "lesson-10-mock-paper3-speaking",
+      "title": "Mock Examination — Paper 3 Speaking (Full IGCSE Format)",
+      "arabic": "امْتِحَانُ المُحَاكَاةِ — الوَرَقَةُ الثَّالِثَةُ — التَّحَدُّثُ",
+      "icon": "📝",
+      "summary": "Sit the mock Paper 3 Speaking in full IGCSE format: a role play (10) and a topic conversation (20), scored on Communication, Accuracy and Quality of Language.",
+      "objectives": [
+        "Sit the mock Paper 3 Speaking under full IGCSE format.",
+        "Address every role-play prompt and develop every topic-conversation answer.",
+        "Deploy conditionals, subjunctive triggers and concession-refutation spontaneously.",
+        "Record your Communication and Quality-of-Language scores."
+      ],
+      "success": [
+        "I addressed all the role-play prompts with full sentences.",
+        "I developed each topic answer with opinion, reason and example.",
+        "I used complex grammar spontaneously.",
+        "I recovered from any hesitation and kept speaking."
+      ],
+      "blocks": [
+        {
+          "type": "panel",
+          "kicker": "Exam conditions",
+          "title": "Before you speak",
+          "arabic": "التَّهَيُّؤُ الذِّهْنِيُّ",
+          "body": [
+            "Sit quietly for a moment. Bring to mind the Arabic sentence you are most proud of — proof of what you can do — then show the examiner that sentence and the many like it.",
+            "Paper 3 is about 12 minutes: a role play (about 5 minutes, 10 marks) and a topic conversation (about 7 minutes, 20 marks). Record yourself if you can, and self-mark against the scheme."
+          ]
+        },
+        {
+          "type": "mark_scheme",
+          "title": "The Paper 3 mark scheme",
+          "kicker": "Know how you are marked",
+          "criteria": [
+            [
+              "Role play",
+              10,
+              [
+                "Communication (6): one mark per prompt successfully addressed.",
+                "Accuracy (4): overall language accuracy across the role play."
+              ]
+            ],
+            [
+              "Topic conversation",
+              20,
+              [
+                "Communication (15): 5 per question — develop with opinion, reason and example.",
+                "Quality of Language (5): consistent complex structures — tenses, conditionals, subjunctives."
+              ]
+            ]
+          ],
+          "note": "Give credit to yourself for any correct trigger or conditional even if a vowel is imperfect in spontaneous speech — consistent use of complex structures is the realistic top-band standard."
+        },
+        {
+          "type": "speaking",
+          "title": "Part 1 — Role play (10 marks)",
+          "mark_entries": [
+            {
+              "label": "Communication",
+              "max": 6,
+              "name": "comm"
+            },
+            {
+              "label": "Accuracy",
+              "max": 4,
+              "name": "acc"
+            }
+          ],
+          "feedback_label": "Feedback note (which prompt was hardest? which structure worked?)",
+          "prompts": [
+            {
+              "ar": "أَنْتَ فِي مَرْكَزٍ ثَقَافِيٍّ: عَرِّفْ بِنَفْسِكَ وَاهْتِمَامَاتِكَ.",
+              "en": "Introduce yourself and your interests."
+            },
+            {
+              "ar": "اسْأَلْ عَنِ الأَنْشِطَةِ المُتَاحَةِ.",
+              "en": "Ask about the available activities."
+            },
+            {
+              "ar": "اقْتَرِحْ نَشَاطًا جَدِيدًا وَاشْرَحْ فَائِدَتَهُ (مُسَبِّبُ نَصْبٍ).",
+              "en": "Suggest a new activity and explain its benefit (subjunctive trigger)."
+            },
+            {
+              "ar": "اتَّفِقْ عَلَى مَوْعِدِ التَّسْجِيلِ (شَرْطٌ).",
+              "en": "Agree on a registration time (conditional)."
+            }
+          ],
+          "model": [
+            [
+              "Examiner",
+              "عَرِّفْ بِنَفْسِكَ.",
+              "Prompt 1"
+            ],
+            [
+              "You",
+              "اسْمِي سَامِي، وَأُحِبُّ القِرَاءَةَ وَكُرَةَ القَدَمِ، وَأَرْغَبُ فِي تَعَلُّمِ مَهَارَاتٍ جَدِيدَةٍ.",
+              "Full-sentence response"
+            ]
+          ]
+        },
+        {
+          "type": "speaking",
+          "title": "Part 2 — Topic conversation (20 marks)",
+          "mark_entries": [
+            {
+              "label": "Communication",
+              "max": 15,
+              "name": "comm"
+            },
+            {
+              "label": "Quality of Language",
+              "max": 5,
+              "name": "qol"
+            }
+          ],
+          "feedback_label": "Feedback note (which structures appeared spontaneously?)",
+          "prompts": [
+            {
+              "ar": "مَا أَكْبَرُ تَحَدٍّ اجْتِمَاعِيٍّ يُوَاجِهُ الشَّبَابَ اليَوْمَ؟ وَلِمَاذَا؟",
+              "en": "Social issues — develop with opinion, reason and example."
+            },
+            {
+              "ar": "هَلْ تُعَمِّقُ التِّقْنِيَّةُ العُزْلَةَ أَمْ تُقَلِّلُهَا؟",
+              "en": "Concede then refute (صَحِيحٌ أَنَّ … غَيْرَ أَنَّ)."
+            },
+            {
+              "ar": "لَوْ كُنْتَ مَسْؤُولًا عَنِ التَّعْلِيمِ، مَاذَا كُنْتَ سَتُغَيِّرُ؟",
+              "en": "Type 2 conditional required (لَوْ …)."
+            }
+          ],
+          "model": [
+            [
+              "Examiner",
+              "هَلْ تُعَمِّقُ التِّقْنِيَّةُ العُزْلَةَ؟",
+              "Question 2"
+            ],
+            [
+              "You",
+              "صَحِيحٌ أَنَّ التِّقْنِيَّةَ تُقَرِّبُ البَعِيدَ، غَيْرَ أَنَّهَا قَدْ تُبْعِدُ القَرِيبَ. وَلَوِ اسْتَخْدَمْنَاهَا بِوَعْيٍ، لَحَقَّقْنَا التَّوَازُنَ.",
+              "Concession-refutation + Type 2"
+            ]
+          ]
+        },
+        {
+          "type": "fields",
+          "title": "Record your Paper 3 mock score",
+          "kicker": "Score · target",
+          "items": [
+            {
+              "label": "Role play (out of 10)",
+              "placeholder": "…/10"
+            },
+            {
+              "label": "Topic conversation (out of 20)",
+              "placeholder": "…/20"
+            },
+            {
+              "label": "Structures I used spontaneously",
+              "multiline": true,
+              "placeholder": "conditional / subjunctive / concession …"
+            },
+            {
+              "label": "My weakest point and my fix",
+              "multiline": true,
+              "placeholder": "…"
+            }
+          ]
+        },
+        {
+          "type": "exit",
+          "title": "Post-speaking reflection",
+          "heading": "All four mocks complete",
+          "prompt_can": "I developed my answers best on…",
+          "prompt_next": "Before the real exam I will practise…"
+        }
+      ]
+    },
+    {
+      "code": "P6-L11",
+      "slug": "lesson-11-mock-results-revision",
+      "title": "Mock Results, Targeted Revision and Final IGCSE Preparation",
+      "arabic": "نَتَائِجُ المُحَاكَاةِ وَالمُرَاجَعَةُ المُوَجَّهَةُ وَالاِسْتِعْدَادُ النِّهَائِيُّ",
+      "icon": "📊",
+      "summary": "Bring your four mock papers together into a /150 profile with a predicted grade, address the most common errors, and complete targeted revision with maximum impact per minute before the real exam.",
+      "objectives": [
+        "Calculate your full mock profile across all four papers (/150) and read your predicted grade.",
+        "Correct the highest-impact grammar errors from the mocks.",
+        "Revise your personal weakest grammar and vocabulary areas.",
+        "Complete a final exam-readiness checklist."
+      ],
+      "success": [
+        "I know my mock total and predicted grade.",
+        "I can state and correct the three most common errors.",
+        "I have revised my two weakest structures with examples.",
+        "My readiness checklist shows what to do before the exam."
+      ],
+      "blocks": [
+        {
+          "type": "panel",
+          "kicker": "Results · grade · agenda",
+          "title": "Your mock profile",
+          "body": [
+            "Enter your four mock scores below to see your total out of 150 and your predicted grade. Grade boundaries (guidance): A* = 135+, A = 120+, B = 105+, C = 90+, D = 75+.",
+            "Your mock score is not your final score. Students typically gain 5–15 marks between the mock and the real exam through targeted revision. The gap between your mock and your target is today's agenda."
+          ]
+        },
+        {
+          "type": "results",
+          "title": "Mock results calculator (/150)",
+          "kicker": "Enter · total · predict",
+          "total_max": 150,
+          "papers": [
+            {
+              "label": "Paper 1 — Listening",
+              "max": 45,
+              "name": "p1"
+            },
+            {
+              "label": "Paper 2 — Reading",
+              "max": 45,
+              "name": "p2"
+            },
+            {
+              "label": "Paper 3 — Speaking",
+              "max": 30,
+              "name": "p3"
+            },
+            {
+              "label": "Paper 4 — Writing",
+              "max": 30,
+              "name": "p4"
+            }
+          ],
+          "boundaries": [
+            [
+              "A*",
+              135
+            ],
+            [
+              "A",
+              120
+            ],
+            [
+              "B",
+              105
+            ],
+            [
+              "C",
+              90
+            ],
+            [
+              "D",
+              75
+            ]
+          ]
+        },
+        {
+          "type": "cards",
+          "title": "The three most common errors — and their fixes",
+          "kicker": "Highest impact first",
+          "items": [
+            {
+              "title": "The subjunctive fatḥa",
+              "text": "After a trigger, the verb must end in ـَ — not ـُ, not ـِ. Worth 2 Accuracy marks and very frequent.",
+              "ar": "يَتَطَلَّبُ / يَنْبَغِي / لِكَيْ + فِعْلٌ مَنْصُوبٌ بِفَتْحَةٍ"
+            },
+            {
+              "title": "The Type 2 لَـ prefix",
+              "text": "لَوْ + past, then لَـ + past in the result. The لَـ cannot be dropped. Worth 2 Accuracy marks.",
+              "ar": "لَوْ دَرَسْتُ، لَنَجَحْتُ"
+            },
+            {
+              "title": "أَنْ vs أَنَّ · صَحِيحٌ أَنَّ + indicative",
+              "text": "أَنْ introduces a subjunctive; أَنَّ introduces a reported fact. And صَحِيحٌ أَنَّ concedes a real situation, so its verb stays indicative.",
+              "ar": "يُطَالِبُ بِأَنْ تُوَقِّعَ · أَكَّدَ أَنَّ الوَقْتَ يَنْفَدُ · صَحِيحٌ أَنَّ الوَقْتَ مَحْدُودٌ"
+            }
+          ]
+        },
+        {
+          "type": "cards",
+          "title": "Grammar revision hierarchy — most marks per minute",
+          "kicker": "Revise in this order",
+          "items": [
+            {
+              "title": "1 · Subjunctive ـَ marker",
+              "text": "High-frequency, 2 Accuracy marks."
+            },
+            {
+              "title": "2 · Type 2 لَـ prefix",
+              "text": "Common error, 2 Accuracy marks."
+            },
+            {
+              "title": "3 · Reported speech إِنَّ / أَنَّ",
+              "text": "2 Accuracy marks."
+            },
+            {
+              "title": "4 · صَحِيحٌ أَنَّ + indicative",
+              "text": "1 mark, but crucial for Task Completion."
+            },
+            {
+              "title": "5 · Passive agreement",
+              "text": "1 Accuracy mark."
+            },
+            {
+              "title": "6 · Vocabulary by topic",
+              "text": "Target your three weakest topic areas from the mock."
+            }
+          ]
+        },
+        {
+          "type": "checklist",
+          "title": "Final exam-readiness checklist",
+          "kicker": "Tick what is secure",
+          "intro": "Tick each item you can do confidently from memory. Anything unticked is your final revision list.",
+          "items": [
+            [
+              "I can form the subjunctive after every trigger ",
+              {
+                "ar": "لِكَيْ / يَنْبَغِي / يَتَطَلَّبُ أَنْ"
+              }
+            ],
+            [
+              "I keep the لَـ prefix in every Type 2 result ",
+              {
+                "ar": "لَوْ … لَـ"
+              }
+            ],
+            [
+              "I use أَنْ before a subjunctive and أَنَّ before a reported fact"
+            ],
+            [
+              "I keep the indicative after ",
+              {
+                "ar": "صَحِيحٌ أَنَّ"
+              }
+            ],
+            [
+              "I can build the full essay architecture from memory ",
+              {
+                "ar": "أُطْرُوحَة ← دَلِيل ← صَحِيحٌ أَنَّ ← غَيْرَ أَنَّ ← وَبِنَاءً عَلَى مَا سَبَقَ"
+              }
+            ],
+            [
+              "I remember my top Paper 1 listening strategy (annotate + second listen)"
+            ],
+            [
+              "I remember my Paper 2 R3 strategy (analyse the language choice)"
+            ],
+            [
+              "I have emergency topic sentences for my three weakest speaking topics"
+            ]
+          ]
+        },
+        {
+          "type": "fields",
+          "title": "My final revision plan",
+          "kicker": "Prioritise · act",
+          "items": [
+            {
+              "label": "My highest-scoring paper (build on it)",
+              "placeholder": "…"
+            },
+            {
+              "label": "My lowest-scoring paper (greatest opportunity)",
+              "placeholder": "…"
+            },
+            {
+              "label": "My two weakest grammar structures",
+              "placeholder": "…"
+            },
+            {
+              "label": "My single most important revision action before the exam",
+              "multiline": true,
+              "placeholder": "…"
+            }
+          ]
+        },
+        {
+          "type": "exit",
+          "title": "What we know now that we did not know in F1",
+          "heading": "Three years of Arabic",
+          "intro": "In F1 you could not read one Arabic letter. Today you read academic texts, write argumentative essays and speak for five minutes on complex topics.",
+          "prompt_can": "My most important Arabic sentence is…",
+          "prompt_next": "My final revision priority is…"
+        }
+      ]
+    },
+    {
+      "code": "P6-L12",
+      "slug": "lesson-12-celebration",
+      "title": "Celebration — Reflection and the Road Ahead",
+      "arabic": "جِسْرُ الامْتِحَانِ — الاِحْتِفَالُ وَالتَّأَمُّلُ وَالطَّرِيقُ إِلَى الأَمَامِ",
+      "icon": "🎓",
+      "summary": "Celebrate the achievement of completing the three-year Cambridge IGCSE Arabic 0544 preparation programme: reflect on the journey from the first letter to the formal argument, produce free authentic Arabic, and look ahead to what Arabic opens.",
+      "objectives": [
+        "Celebrate completing the full three-year IGCSE Arabic 0544 preparation programme.",
+        "Reflect on your linguistic journey from F1 to P6.",
+        "Produce free, authentic Arabic communication.",
+        "Look ahead to the exam and to Arabic beyond it."
+      ],
+      "success": [
+        "I can name how far I have come as an Arabic learner.",
+        "I can communicate freely in Arabic without a script.",
+        "I have recorded my proudest Arabic sentence.",
+        "I know the doors Arabic can open next."
+      ],
+      "blocks": [
+        {
+          "type": "panel",
+          "kicker": "Then · now · distance",
+          "title": "From F1 to P6 — the distance",
+          "body": [
+            "In F1 you learned to write the letter ب. Today you can construct a formal Arabic argument in 150 words with conditionals, reported speech, the past perfect, three subjunctive triggers and a concession-refutation architecture.",
+            "Whatever grade the exam returns, you are not the person who walked into the F1 classroom. You are an Arabic speaker — and that does not expire."
+          ]
+        },
+        {
+          "type": "fields",
+          "title": "Name the journey",
+          "kicker": "Then → now",
+          "items": [
+            {
+              "label": "In F1 I was… but today I can…",
+              "multiline": true,
+              "ar": true,
+              "placeholder": "فِي الصَّفِّ الأَوَّلِ كُنْتُ… أَمَّا اليَوْمَ فَأَسْتَطِيعُ أَنْ…"
+            }
+          ]
+        },
+        {
+          "type": "cards",
+          "title": "Arabic in the wild — authentic communication",
+          "kicker": "Choose one · speak freely",
+          "intro": "The most unscaffolded Arabic you have produced. Choose one and use the language freely — no marks, just proof.",
+          "items": [
+            {
+              "title": "A · Conversation",
+              "text": "Have a genuine five-minute conversation entirely in Arabic — no topic set, just talk."
+            },
+            {
+              "title": "B · Creative",
+              "text": "Write a 100-word piece of free Arabic: a story opening, a poem, a diary entry, or a letter to a future student."
+            },
+            {
+              "title": "C · Cultural",
+              "text": "Give a three-minute spoken summary of something about the Arab world that genuinely moved or surprised you."
+            }
+          ]
+        },
+        {
+          "type": "writing",
+          "title": "Free Arabic — your choice (unmarked)",
+          "mark_max": 0,
+          "feedback_label": "A note to your future self",
+          "prompt": [
+            "Write freely in Arabic — a story, a poem, a diary entry, or a letter to a student beginning F1. This is not marked; it is yours."
+          ],
+          "checklist": [
+            "Write for meaning, not for the mark scheme.",
+            "Use the Arabic that feels most yours.",
+            "Enjoy how much you can now say."
+          ],
+          "model": "أَكْتُبُ إِلَى طَالِبٍ يَبْدَأُ رِحْلَتَهُ مَعَ العَرَبِيَّةِ: لَا تَخَفْ مِنَ الحَرْفِ الأَوَّلِ، فَكُلُّ لُغَةٍ تَبْدَأُ بِخُطْوَةٍ. صَحِيحٌ أَنَّ الطَّرِيقَ طَوِيلٌ، غَيْرَ أَنَّهُ يَسْتَحِقُّ كُلَّ جُهْدٍ. وَبِنَاءً عَلَى تَجْرِبَتِي، أَنْصَحُكَ بِأَنْ تَقْرَأَ وَتَتَحَدَّثَ كُلَّ يَوْمٍ. وَلَوْ ثَابَرْتَ، لَوَجَدْتَ نَفْسَكَ يَوْمًا تَكْتُبُ بِالعَرَبِيَّةِ بِثِقَةٍ. العَرَبِيَّةُ الآنَ لَكَ."
+        },
+        {
+          "type": "fields",
+          "title": "My achievement certificate — my best Arabic sentence",
+          "kicker": "The proof",
+          "intro": "Write the most beautiful, most complete Arabic sentence you can. This is the sentence that goes on your certificate — the proof of three years.",
+          "items": [
+            {
+              "label": "My proudest Arabic sentence",
+              "multiline": true,
+              "ar": true,
+              "placeholder": "اُكْتُبْ أَجْمَلَ جُمْلَةٍ تَسْتَطِيعُهَا…"
+            },
+            {
+              "label": "The structures it uses (in English)",
+              "placeholder": "e.g. concession, Type 2 conditional, subjunctive trigger"
+            }
+          ]
+        },
+        {
+          "type": "cards",
+          "title": "The road ahead — Arabic after P6",
+          "kicker": "A key to a world",
+          "items": [
+            {
+              "title": "The IGCSE exam",
+              "text": "The immediate bridge — sit it with confidence, knowing what three years built."
+            },
+            {
+              "title": "Further study",
+              "text": "A-Level Arabic and university Arabic programmes deepen everything you have begun."
+            },
+            {
+              "title": "Professional Arabic",
+              "text": "Diplomacy, journalism, medicine, business, engineering and translation all open with Arabic."
+            },
+            {
+              "title": "Personal Arabic",
+              "text": "Travel, heritage, cultural engagement and dialogue — Arabic is a key to a world, not a school subject."
+            }
+          ]
+        },
+        {
+          "type": "panel",
+          "title": "The programme is complete",
+          "body": [
+            "The Cambridge IGCSE Arabic 0544 preparation programme — F1 to P6, 216 lessons — is complete. You can now speak, read, write and listen in Arabic: the language of 400 million people and of a civilisation spanning fourteen centuries."
+          ],
+          "list": [
+            [
+              "Use it. ",
+              {
+                "ar": "العَرَبِيَّةُ الآنَ لَكَ."
+              }
+            ],
+            [
+              {
+                "ar": "الامْتِحَانُ جِسْرٌ — وَالجِسْرُ يُوصِلُكَ إِلَى الضَّفَّةِ الأُخْرَى."
+              }
+            ]
+          ]
+        },
+        {
+          "type": "exit",
+          "title": "Final reflection",
+          "heading": "The road ahead",
+          "prompt_can": "In Year 9 I am proudest of…",
+          "prompt_next": "I will use my Arabic to…"
+        }
+      ]
+    }
+  ]
+}

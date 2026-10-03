@@ -1,0 +1,551 @@
+{
+  "listening": {
+    "one": {
+      "script": "يَقُولُ الأَكَادِيمِيُّ: أُطْرُوحَتِي أَنَّ التَّفَاوُتَ الاجْتِمَاعِيَّ يُهَدِّدُ الاِسْتِقْرَارَ فِي العَالَمِ العَرَبِيِّ. أَكَّدَتِ الدِّرَاسَاتُ أَنَّ أَكْثَرَ مِنْ مِئَةِ مِلْيُونِ عَرَبِيٍّ يَعِيشُونَ تَحْتَ حَدِّ الفَقْرِ. صَحِيحٌ أَنَّ الإِصْلَاحَاتِ تَحْتَاجُ وَقْتًا طَوِيلًا وَمَوَارِدَ ضَخْمَةً، غَيْرَ أَنَّ الحَاجَةَ الاجْتِمَاعِيَّةَ المُلِحَّةَ لَا تَتَحَمَّلُ الاِنْتِظَارَ. إِذَا اسْتُثْمِرَ فِي التَّعْلِيمِ المُبَكِّرِ، سَتَضِيقُ الفَجْوَةُ تَدْرِيجِيًّا. وَلَوْ عُولِجَ التَّفَاوُتُ قَبْلَ عُقُودٍ، لَتَحَسَّنَ الوَضْعُ كَثِيرًا. وَيَتَطَلَّبُ الوَضْعُ أَنْ تَتَحَرَّكَ الحُكُومَاتُ فَوْرًا. وَبِنَاءً عَلَى مَا سَبَقَ، فَمَوْقِفِي وَاضِحٌ: العَدَالَةُ الاجْتِمَاعِيَّةُ ضَرُورَةٌ لَا رَفَاهِيَةٌ.",
+      "questions": [
+        {
+          "prompt": "What is the speaker's main argument (thesis)?",
+          "options": [
+            "Social inequality threatens stability",
+            "Inequality is beneficial",
+            "Inequality does not exist"
+          ],
+          "answer": 0,
+          "feedback": "أُطْرُوحَتِي أَنَّ التَّفَاوُتَ الاجْتِمَاعِيَّ يُهَدِّدُ الاِسْتِقْرَارَ."
+        },
+        {
+          "prompt": "What statistical evidence is cited?",
+          "options": [
+            "Over 100 million Arabs live below the poverty line",
+            "Poverty has ended",
+            "There are no figures"
+          ],
+          "answer": 0,
+          "feedback": "أَكَّدَتِ الدِّرَاسَاتُ أَنَّ أَكْثَرَ مِنْ مِئَةِ مِلْيُونِ عَرَبِيٍّ يَعِيشُونَ تَحْتَ حَدِّ الفَقْرِ."
+        },
+        {
+          "prompt": "What does the speaker concede (صَحِيحٌ أَنَّ)?",
+          "options": [
+            "Reforms need time and huge resources",
+            "Reforms are impossible",
+            "Reforms are unnecessary"
+          ],
+          "answer": 0,
+          "feedback": "صَحِيحٌ أَنَّ الإِصْلَاحَاتِ تَحْتَاجُ وَقْتًا طَوِيلًا وَمَوَارِدَ ضَخْمَةً."
+        },
+        {
+          "prompt": "What is the refutation (غَيْرَ أَنَّ)?",
+          "options": [
+            "The pressing social need cannot wait",
+            "The need can wait indefinitely",
+            "There is no need"
+          ],
+          "answer": 0,
+          "feedback": "غَيْرَ أَنَّ الحَاجَةَ الاجْتِمَاعِيَّةَ المُلِحَّةَ لَا تَتَحَمَّلُ الاِنْتِظَارَ."
+        },
+        {
+          "prompt": "What is the Type 1 conditional recommendation?",
+          "options": [
+            "If early education is invested in, the gap will narrow",
+            "Investment widens the gap",
+            "The gap cannot narrow"
+          ],
+          "answer": 0,
+          "feedback": "إِذَا اسْتُثْمِرَ فِي التَّعْلِيمِ المُبَكِّرِ، سَتَضِيقُ الفَجْوَةُ."
+        },
+        {
+          "prompt": "What is the Type 2 conditional regret?",
+          "options": [
+            "Had inequality been addressed decades ago, the situation would be much better",
+            "Timing makes no difference",
+            "The situation cannot improve"
+          ],
+          "answer": 0,
+          "feedback": "لَوْ عُولِجَ التَّفَاوُتُ قَبْلَ عُقُودٍ، لَتَحَسَّنَ الوَضْعُ كَثِيرًا."
+        },
+        {
+          "prompt": "What is the subjunctive conclusion (يَتَطَلَّبُ)?",
+          "options": [
+            "The situation requires governments to act immediately",
+            "Governments should wait",
+            "No action is required"
+          ],
+          "answer": 0,
+          "feedback": "يَتَطَلَّبُ الوَضْعُ أَنْ تَتَحَرَّكَ الحُكُومَاتُ فَوْرًا."
+        },
+        {
+          "prompt": "What is the speaker's overall position?",
+          "options": [
+            "Balanced — social justice is a necessity, not a luxury",
+            "Purely partisan",
+            "No clear position"
+          ],
+          "answer": 0,
+          "feedback": "العَدَالَةُ الاجْتِمَاعِيَّةُ ضَرُورَةٌ لَا رَفَاهِيَةٌ, reached after conceding and refuting."
+        }
+      ]
+    },
+    "two": {
+      "script": "مُتَحَدِّثٌ أَوَّلُ (كَرِيمٌ): يَجِبُ أَنْ تُنَظِّمَ الدُّوَلُ الإِنْتِرْنِتَ لِحِمَايَةِ المُوَاطِنِينَ. مُتَحَدِّثَةٌ ثَانِيَةٌ (هُدَى): صَحِيحٌ أَنَّ التَّنْظِيمَ ضَرُورِيٌّ، غَيْرَ أَنَّهُ يَجِبُ أَلَّا يُقَيِّدَ حُرِّيَّةَ التَّعْبِيرِ. كَرِيمٌ: يَمْنَعُ القَانُونُ أَنْ تُبَاعَ البَيَانَاتُ الشَّخْصِيَّةُ، وَهٰذَا حَقٌّ. هُدَى: وَأَنَا أَرْفُضُ أَنْ تُرَاقَبَ المُرَاسَلَاتُ الخَاصَّةُ دُونَ إِذْنٍ. كَرِيمٌ: لَوْ وُضِعَتْ حَوْكَمَةٌ رَقْمِيَّةٌ مُتَوَازِنَةٌ، لَكَانَتِ الخُصُوصِيَّةُ أَكْثَرَ أَمَانًا. هُدَى: وَبِنَاءً عَلَى مَا سَبَقَ، لَا بُدَّ مِنَ التَّوَازُنِ بَيْنَ الأَمْنِ وَالحُرِّيَّةِ.",
+      "questions": [
+        {
+          "prompt": "Who says states must regulate the internet?",
+          "options": [
+            "Karim",
+            "Huda",
+            "Both"
+          ],
+          "answer": 0,
+          "feedback": "كَرِيمٌ: يَجِبُ أَنْ تُنَظِّمَ الدُّوَلُ الإِنْتِرْنِتَ."
+        },
+        {
+          "prompt": "Who concedes regulation is necessary but refutes restricting free expression?",
+          "options": [
+            "Huda",
+            "Karim",
+            "Both"
+          ],
+          "answer": 0,
+          "feedback": "هُدَى: صَحِيحٌ أَنَّ التَّنْظِيمَ ضَرُورِيٌّ، غَيْرَ أَنَّهُ يَجِبُ أَلَّا يُقَيِّدَ حُرِّيَّةَ التَّعْبِيرِ."
+        },
+        {
+          "prompt": "Who states the law prohibits selling personal data (يَمْنَعُ)?",
+          "options": [
+            "Karim",
+            "Huda",
+            "Both"
+          ],
+          "answer": 0,
+          "feedback": "كَرِيمٌ: يَمْنَعُ القَانُونُ أَنْ تُبَاعَ البَيَانَاتُ الشَّخْصِيَّةُ."
+        },
+        {
+          "prompt": "Who refuses that private correspondence be monitored (يَرْفُضُ)?",
+          "options": [
+            "Huda",
+            "Karim",
+            "Both"
+          ],
+          "answer": 0,
+          "feedback": "هُدَى: أَرْفُضُ أَنْ تُرَاقَبَ المُرَاسَلَاتُ الخَاصَّةُ دُونَ إِذْنٍ."
+        },
+        {
+          "prompt": "Who makes the Type 2 counterfactual about digital governance?",
+          "options": [
+            "Karim",
+            "Huda",
+            "Both"
+          ],
+          "answer": 0,
+          "feedback": "كَرِيمٌ: لَوْ وُضِعَتْ حَوْكَمَةٌ رَقْمِيَّةٌ مُتَوَازِنَةٌ، لَكَانَتِ الخُصُوصِيَّةُ أَكْثَرَ أَمَانًا."
+        },
+        {
+          "prompt": "Who concludes with a call for balance (وَبِنَاءً عَلَى مَا سَبَقَ)?",
+          "options": [
+            "Huda",
+            "Karim",
+            "Both"
+          ],
+          "answer": 0,
+          "feedback": "هُدَى: وَبِنَاءً عَلَى مَا سَبَقَ، لَا بُدَّ مِنَ التَّوَازُنِ بَيْنَ الأَمْنِ وَالحُرِّيَّةِ."
+        }
+      ]
+    },
+    "three": {
+      "script": "تَقُولُ النَّاشِطَةُ الشَّابَّةُ: يُشَكِّلُ الشَّبَابُ أَكْثَرَ مِنْ نِصْفِ سُكَّانِ العَالَمِ العَرَبِيِّ. كَانَتِ الأَجْيَالُ السَّابِقَةُ قَدْ نَاضَلَتْ مِنْ أَجْلِ الاِسْتِقْلَالِ، أَمَّا جِيلُنَا فَيُعِيدُ تَعْرِيفَ المُشَارَكَةِ عَبْرَ الوَسَائِطِ الرَّقْمِيَّةِ. صَحِيحٌ أَنَّ التَّحَدِّيَاتِ كَبِيرَةٌ، غَيْرَ أَنَّ الطَّاقَاتِ أَكْبَرُ. نَحْنُ نُطَالِبُ بِأَنْ تُفْتَحَ أَبْوَابُ المُشَارَكَةِ، وَنَصِرُّ عَلَى أَنْ نَكُونَ شُرَكَاءَ فِي القَرَارِ. وَلَوْ أُتِيحَتْ لَنَا الفُرَصُ، لَغَيَّرْنَا وَاقِعَنَا. وَبِنَاءً عَلَى مَا سَبَقَ، لَا تَنْمِيَةَ حَقِيقِيَّةً دُونَ تَمْكِينِ الشَّبَابِ.",
+      "questions": [
+        {
+          "prompt": "Select a statement supported by the text (past perfect).",
+          "options": [
+            "Earlier generations had struggled for independence",
+            "Youth are a small minority",
+            "Earlier generations did nothing"
+          ],
+          "answer": 0,
+          "feedback": "كَانَتِ الأَجْيَالُ السَّابِقَةُ قَدْ نَاضَلَتْ مِنْ أَجْلِ الاِسْتِقْلَالِ."
+        },
+        {
+          "prompt": "Select a statement supported by the text (يُعِيدُ تَعْرِيفَ).",
+          "options": [
+            "This generation redefines participation through digital media",
+            "This generation rejects participation",
+            "This generation repeats the past exactly"
+          ],
+          "answer": 0,
+          "feedback": "جِيلُنَا فَيُعِيدُ تَعْرِيفَ المُشَارَكَةِ عَبْرَ الوَسَائِطِ الرَّقْمِيَّةِ."
+        },
+        {
+          "prompt": "Select a statement supported by the text (concession-refutation).",
+          "options": [
+            "Challenges are great, yet the energies are greater",
+            "There are no challenges",
+            "The challenges are insurmountable"
+          ],
+          "answer": 0,
+          "feedback": "صَحِيحٌ أَنَّ التَّحَدِّيَاتِ كَبِيرَةٌ، غَيْرَ أَنَّ الطَّاقَاتِ أَكْبَرُ."
+        },
+        {
+          "prompt": "Select a statement supported by the text (demand + insistence).",
+          "options": [
+            "They demand participation be opened and insist on being partners in decisions",
+            "They reject participation",
+            "They insist on staying silent"
+          ],
+          "answer": 0,
+          "feedback": "نُطَالِبُ بِأَنْ تُفْتَحَ أَبْوَابُ المُشَارَكَةِ، وَنَصِرُّ عَلَى أَنْ نَكُونَ شُرَكَاءَ."
+        },
+        {
+          "prompt": "Select a statement supported by the text (Type 2).",
+          "options": [
+            "Had opportunities been available, they would have changed their reality",
+            "Opportunities make no difference",
+            "Their reality cannot change"
+          ],
+          "answer": 0,
+          "feedback": "لَوْ أُتِيحَتْ لَنَا الفُرَصُ، لَغَيَّرْنَا وَاقِعَنَا."
+        },
+        {
+          "prompt": "Select a statement supported by the text (conclusion).",
+          "options": [
+            "There is no real development without youth empowerment",
+            "Development needs no youth",
+            "Youth empowerment is a luxury"
+          ],
+          "answer": 0,
+          "feedback": "وَبِنَاءً عَلَى مَا سَبَقَ، لَا تَنْمِيَةَ حَقِيقِيَّةً دُونَ تَمْكِينِ الشَّبَابِ."
+        }
+      ]
+    }
+  },
+  "reading": {
+    "text": "يُشَارُ إِلَى أَنَّ التَّنَقُّلَ الاجْتِمَاعِيَّ الصَّاعِدَ يُعَدُّ مِقْيَاسًا لِعَدَالَةِ أَيِّ مُجْتَمَعٍ. أَكَّدَ البَاحِثُونَ أَنَّ التَّعْلِيمَ الجَيِّدَ يُفْضِي إِلَى فُرَصٍ أَوْسَعَ، وَأَنَّ الحِرْمَانَ المُبَكِّرَ يُكَرِّسُ الفَقْرَ. صَحِيحٌ أَنَّ الدَّوْلَةَ تَتَّخِذُ إِجْرَاءَاتٍ لِدَعْمِ الفُقَرَاءِ، غَيْرَ أَنَّ المُعِيقَاتِ البِنْيَوِيَّةَ لَا تَزَالُ تَحُولُ دُونَ تَكَافُؤِ الفُرَصِ. وَكَانَتْ بَرَامِجُ كَثِيرَةٌ قَدْ تَعَثَّرَتْ بِسَبَبِ ضَعْفِ التَّمْوِيلِ. وَيُطَالِبُ الخُبَرَاءُ بِأَنْ يُعَادَ تَوْزِيعُ الفُرَصِ. وَلَوْ وُجِّهَ الدَّعْمُ إِلَى التَّعْلِيمِ المُبَكِّرِ، لَتَحَسَّنَتْ فُرَصُ الصُّعُودِ. وَبِنَاءً عَلَى مَا سَبَقَ، يَتَطَلَّبُ تَحْقِيقُ العَدَالَةِ أَنْ تُعِيدَ الدَّوْلَةُ تَوْزِيعَ الفُرَصِ لِكَيْ يَصْعَدَ الجَمِيعُ.",
+    "questions": [
+      {
+        "prompt": "R1 — What is the writer's main thesis?",
+        "options": [
+          "Upward social mobility measures the justice of a society",
+          "Mobility is unimportant",
+          "Only wealth matters"
+        ],
+        "answer": 0,
+        "feedback": "يُشَارُ إِلَى أَنَّ التَّنَقُّلَ الاجْتِمَاعِيَّ الصَّاعِدَ يُعَدُّ مِقْيَاسًا لِعَدَالَةِ أَيِّ مُجْتَمَعٍ."
+      },
+      {
+        "prompt": "R2 — What do researchers confirm about education?",
+        "options": [
+          "Good education leads to wider opportunities",
+          "Education has no effect",
+          "Education deepens poverty"
+        ],
+        "answer": 0,
+        "feedback": "أَكَّدَ البَاحِثُونَ أَنَّ التَّعْلِيمَ الجَيِّدَ يُفْضِي إِلَى فُرَصٍ أَوْسَعَ."
+      },
+      {
+        "prompt": "R2 — What had many programmes done (past perfect)?",
+        "options": [
+          "They had stalled due to weak funding",
+          "They had all succeeded",
+          "They were never launched"
+        ],
+        "answer": 0,
+        "feedback": "وَكَانَتْ بَرَامِجُ كَثِيرَةٌ قَدْ تَعَثَّرَتْ بِسَبَبِ ضَعْفِ التَّمْوِيلِ."
+      },
+      {
+        "prompt": "R3 — Identify the concession structure and its purpose.",
+        "options": [
+          "صَحِيحٌ أَنَّ الدَّوْلَةَ تَتَّخِذُ إِجْرَاءَاتٍ — conceding a real point before refuting it",
+          "يُشَارُ إِلَى أَنَّ — a thesis",
+          "لَوْ وُجِّهَ الدَّعْمُ — a conditional"
+        ],
+        "answer": 0,
+        "feedback": "صَحِيحٌ أَنَّ concedes the state's action before the writer refutes it with غَيْرَ أَنَّ."
+      },
+      {
+        "prompt": "R3 — Is the argument balanced or one-sided?",
+        "options": [
+          "Balanced — it concedes state action, then refutes with structural barriers",
+          "One-sided — it only praises the state",
+          "One-sided — it only attacks the state"
+        ],
+        "answer": 0,
+        "feedback": "The text concedes (صَحِيحٌ أَنَّ) and refutes (غَيْرَ أَنَّ), so it is balanced."
+      },
+      {
+        "prompt": "R3 — What argumentative purpose does the Type 2 serve?",
+        "options": [
+          "It implies past support was misdirected — an implicit criticism",
+          "It praises current policy",
+          "It reports a neutral fact"
+        ],
+        "answer": 0,
+        "feedback": "لَوْ وُجِّهَ الدَّعْمُ … لَتَحَسَّنَتْ implies the support was not well directed."
+      },
+      {
+        "prompt": "R4 — Gap-fill: صَحِيحٌ أَنَّ الدَّوْلَةَ ___ إِجْرَاءَاتٍ. Which form?",
+        "options": [
+          "تَتَّخِذُ (indicative)",
+          "تَتَّخِذَ (subjunctive)",
+          "تَتَّخِذْ (jussive)"
+        ],
+        "answer": 0,
+        "feedback": "After صَحِيحٌ أَنَّ the verb is indicative — it describes a real situation."
+      },
+      {
+        "prompt": "R4 — Gap-fill: يَتَطَلَّبُ تَحْقِيقُ العَدَالَةِ أَنْ ___ الدَّوْلَةُ تَوْزِيعَ الفُرَصِ. Which form?",
+        "options": [
+          "تُعِيدَ (subjunctive)",
+          "تُعِيدُ (indicative)",
+          "تُعِيدْ (jussive)"
+        ],
+        "answer": 0,
+        "feedback": "After أَنْ (with يَتَطَلَّبُ) the verb is subjunctive: تُعِيدَ."
+      },
+      {
+        "prompt": "R4 — Gap-fill: يُطَالِبُ الخُبَرَاءُ ___ أَنْ يُعَادَ تَوْزِيعُ الفُرَصِ. Which particle?",
+        "options": [
+          "بِـ",
+          "عَلَى",
+          "إِلَى"
+        ],
+        "answer": 0,
+        "feedback": "يُطَالِبُ is fixed with بِـ before أَنْ."
+      },
+      {
+        "prompt": "R4 — What is the purpose of the text?",
+        "options": [
+          "To argue that the state must redistribute opportunities for justice",
+          "To report the news only",
+          "To entertain only"
+        ],
+        "answer": 0,
+        "feedback": "يَتَطَلَّبُ تَحْقِيقُ العَدَالَةِ أَنْ تُعِيدَ الدَّوْلَةُ تَوْزِيعَ الفُرَصِ."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "prompt": "Choose the accurate concession (صَحِيحٌ أَنَّ + indicative).",
+      "options": [
+        "صَحِيحٌ أَنَّ التَّعْلِيمَ يَتَطَلَّبُ مَوَارِدَ.",
+        "صَحِيحٌ أَنَّ التَّعْلِيمَ يَتَطَلَّبَ مَوَارِدَ.",
+        "صَحِيحٌ أَنْ التَّعْلِيمَ يَتَطَلَّبَ مَوَارِدَ."
+      ],
+      "answer": 0,
+      "feedback": "After صَحِيحٌ أَنَّ the verb is indicative: يَتَطَلَّبُ."
+    },
+    {
+      "prompt": "Which connector refutes a concession?",
+      "options": [
+        "غَيْرَ أَنَّ",
+        "لِأَنَّ",
+        "لِكَيْ"
+      ],
+      "answer": 0,
+      "feedback": "غَيْرَ أَنَّ refutes a concession."
+    },
+    {
+      "prompt": "Choose the accurate insistence trigger.",
+      "options": [
+        "يَصِرُّ المُدَافِعُونَ عَلَى أَنْ تَحْصُلَ المَرْأَةُ عَلَى حُقُوقِهَا.",
+        "يَصِرُّ المُدَافِعُونَ عَلَى أَنْ تَحْصُلُ المَرْأَةُ عَلَى حُقُوقِهَا.",
+        "يَصِرُّ المُدَافِعُونَ بِأَنْ تَحْصُلَ المَرْأَةُ عَلَى حُقُوقِهَا."
+      ],
+      "answer": 0,
+      "feedback": "يَصِرُّ عَلَى أَنْ + subjunctive: تَحْصُلَ."
+    },
+    {
+      "prompt": "Choose the accurate demand trigger.",
+      "options": [
+        "يُطَالِبُ النَّاشِطُونَ بِأَنْ تُوَقِّعَ الدُّوَلُ.",
+        "يُطَالِبُ النَّاشِطُونَ عَلَى أَنْ تُوَقِّعَ الدُّوَلُ.",
+        "يُطَالِبُ النَّاشِطُونَ بِأَنَّ تُوَقِّعَ الدُّوَلُ."
+      ],
+      "answer": 0,
+      "feedback": "يُطَالِبُ بِأَنْ + subjunctive."
+    },
+    {
+      "prompt": "Choose the accurate prohibition trigger.",
+      "options": [
+        "يَمْنَعُ القَانُونُ أَنْ تُبَاعَ البَيَانَاتُ.",
+        "يَمْنَعُ القَانُونُ أَنْ تُبَاعُ البَيَانَاتُ.",
+        "يَمْنَعُ القَانُونُ أَنَّ تُبَاعَ البَيَانَاتُ."
+      ],
+      "answer": 0,
+      "feedback": "يَمْنَعُ أَنْ + subjunctive: تُبَاعَ."
+    },
+    {
+      "prompt": "Choose the accurate refusal trigger.",
+      "options": [
+        "يَرْفُضُ النَّاشِطُونَ أَنْ تَسْتَمِرَّ الاِزْدِوَاجِيَّةُ.",
+        "يَرْفُضُ النَّاشِطُونَ أَنْ تَسْتَمِرُّ الاِزْدِوَاجِيَّةُ.",
+        "يَرْفُضُ النَّاشِطُونَ أَنَّ تَسْتَمِرَّ الاِزْدِوَاجِيَّةُ."
+      ],
+      "answer": 0,
+      "feedback": "يَرْفُضُ أَنْ + subjunctive: تَسْتَمِرَّ."
+    },
+    {
+      "prompt": "Which is a formal conclusion connector?",
+      "options": [
+        "وَبِنَاءً عَلَى مَا سَبَقَ",
+        "عَلَاوَةً عَلَى ذٰلِكَ",
+        "مِنْ نَاحِيَةٍ أُخْرَى"
+      ],
+      "answer": 0,
+      "feedback": "وَبِنَاءً عَلَى مَا سَبَقَ is a formal conclusion connector."
+    },
+    {
+      "prompt": "Which also means “in summary”?",
+      "options": [
+        "وَخُلَاصَةُ القَوْلِ",
+        "بِالإِضَافَةِ إِلَى ذٰلِكَ",
+        "عَلَى سَبِيلِ المِثَالِ"
+      ],
+      "answer": 0,
+      "feedback": "وَخُلَاصَةُ القَوْلِ means in summary."
+    },
+    {
+      "prompt": "Choose the accurate Type 2 conditional.",
+      "options": [
+        "لَوْ عُولِجَ التَّفَاوُتُ مُبَكِّرًا، لَتَحَسَّنَ الوَضْعُ.",
+        "لَوْ عُولِجَ التَّفَاوُتُ مُبَكِّرًا، تَحَسَّنَ الوَضْعُ.",
+        "لَوْ عُولِجَ التَّفَاوُتُ مُبَكِّرًا، سَيَتَحَسَّنُ الوَضْعُ."
+      ],
+      "answer": 0,
+      "feedback": "A Type 2 result takes the لَـ prefix."
+    },
+    {
+      "prompt": "Which is the humanitarian passive “is displaced”?",
+      "options": [
+        "يُهَجَّرُ",
+        "يُهَاجِرُ",
+        "هَجَّرَ"
+      ],
+      "answer": 0,
+      "feedback": "يُهَجَّرُ is the Form II passive."
+    },
+    {
+      "prompt": "Which uses أَنْ vs أَنَّ correctly?",
+      "options": [
+        "يُطَالِبُ بِأَنْ تُوَقِّعَ، وَأَكَّدَ أَنَّ الوَقْتَ يَنْفَدُ.",
+        "يُطَالِبُ بِأَنَّ تُوَقِّعَ، وَأَكَّدَ أَنْ الوَقْتَ يَنْفَدُ.",
+        "يُطَالِبُ أَنَّ تُوَقِّعَ، وَأَكَّدَ بِأَنْ الوَقْتَ يَنْفَدُ."
+      ],
+      "answer": 0,
+      "feedback": "A trigger takes أَنْ + subjunctive; a reporting verb takes أَنَّ + a noun clause."
+    },
+    {
+      "prompt": "Complete the subjunctive conclusion: وَبِنَاءً عَلَى مَا سَبَقَ، يَتَطَلَّبُ الأَمْرُ أَنْ ___ الحُكُومَاتُ.",
+      "options": [
+        "تَتَحَرَّكَ",
+        "تَتَحَرَّكُ",
+        "تَتَحَرَّكْ"
+      ],
+      "answer": 0,
+      "feedback": "After أَنْ the verb is subjunctive: تَتَحَرَّكَ."
+    }
+  ],
+  "writing_form": [
+    [
+      "القَضِيَّةُ الاجْتِمَاعِيَّةُ الرَّئِيسِيَّةُ الَّتِي تُعَالِجُهَا",
+      "The main social issue you are addressing"
+    ],
+    [
+      "دَلِيلٌ إِحْصَائِيٌّ بِكَلَامٍ مَنْقُولٍ (أَكَّدَ … أَنَّ)",
+      "A statistical piece of evidence using reported speech"
+    ],
+    [
+      "تَسْلِيمٌ بِالرَّأْيِ المُضَادِّ بِاسْتِعْمَالِ «صَحِيحٌ أَنَّ» + مُثْبَتٌ",
+      "A concession of the opposing view using صَحِيحٌ أَنَّ + indicative"
+    ],
+    [
+      "رَدٌّ بِاسْتِعْمَالِ «غَيْرَ أَنَّ»",
+      "A refutation using غَيْرَ أَنَّ"
+    ],
+    [
+      "خَاتِمَةٌ بِاسْتِعْمَالِ «وَبِنَاءً عَلَى مَا سَبَقَ» + فِعْلٍ مَنْصُوبٍ",
+      "A conclusion using وَبِنَاءً عَلَى مَا سَبَقَ + a subjunctive verb"
+    ]
+  ],
+  "roleplay": [
+    [
+      "قَدِّمِ القَضِيَّةَ الاجْتِمَاعِيَّةَ الَّتِي تُعَالِجُهَا (دَلِيلٌ + كَلَامٌ مَنْقُولٌ مُتَوَقَّعٌ).",
+      "Introduce the social issue you are addressing; evidence and reported speech expected."
+    ],
+    [
+      "قُلْ مَا الَّذِي تُوَافِقُ عَلَيْهِ فِي المَوْقِفِ المُضَادِّ (صَحِيحٌ أَنَّ + تَسْلِيمٌ حَقِيقِيٌّ — عَلَامَةُ دِقَّةٍ).",
+      "Say what you agree with in the opposing position using صَحِيحٌ أَنَّ + a real concession (an accuracy mark)."
+    ],
+    [
+      "اعْرِضْ حُجَّتَكَ الأَقْوَى (غَيْرَ أَنَّ + رَدٌّ — عَلَامَةُ دِقَّةٍ).",
+      "Give your strongest counter-argument using غَيْرَ أَنَّ + a refutation (an accuracy mark)."
+    ],
+    [
+      "اذْكُرْ مَا الَّذِي يَتَطَلَّبُهُ الحَلُّ (يَتَطَلَّبُ أَنْ + مَنْصُوبٌ).",
+      "State what the solution requires using يَتَطَلَّبُ أَنْ + subjunctive."
+    ]
+  ],
+  "topic": [
+    [
+      "مَا أَكْبَرُ تَحَدٍّ اجْتِمَاعِيٍّ يُوَاجِهُ العَالَمَ العَرَبِيَّ اليَوْمَ؟ (حُجَّةٌ كَامِلَةٌ + دَلِيلٌ مُتَوَقَّعٌ)",
+      "What is the biggest social challenge facing the Arab world today? (a full argument with evidence expected)."
+    ],
+    [
+      "هَلْ تَعْتَقِدُ أَنَّ التَّكْنُولُوجِيَا تُعَمِّقُ أَمْ تُقَلِّلُ عَدَمَ المُسَاوَاةِ؟ (صَحِيحٌ أَنَّ / غَيْرَ أَنَّ مُتَوَقَّعٌ)",
+      "Do you think technology deepens or reduces inequality? (concession-refutation expected)."
+    ],
+    [
+      "لَوْ كُنْتَ فِي مَوْقِعِ السُّلْطَةِ، مَاذَا كُنْتَ سَتُغَيِّرُ أَوَّلًا؟ (شَرْطٌ مِنَ النَّوْعِ الثَّانِي مَطْلُوبٌ)",
+      "If you were in a position of power, what would you change first? (Type 2 conditional required)."
+    ]
+  ],
+  "mark_scheme": {
+    "writing_q2": [
+      [
+        "Task completion (TC)",
+        5,
+        [
+          "A clear thesis (a position, not just a topic) and statistical evidence with reported speech.",
+          "A genuine concession (صَحِيحٌ أَنَّ) and a clear refutation (غَيْرَ أَنَّ).",
+          "A formal conclusion connector (وَبِنَاءً عَلَى مَا سَبَقَ) + a subjunctive; 150-165 words."
+        ]
+      ],
+      [
+        "Range",
+        5,
+        [
+          "Reported speech with a verb other than قَالَ, and a Type 2 conditional.",
+          "A subjunctive trigger from P4 or P5 (يَتَطَلَّبُ / يُطَالِبُ / يَصِرُّ / يَمْنَعُ / يَرْفُضُ أَنْ …).",
+          "A concession structure (صَحِيحٌ أَنَّ / بِالرَّغْمِ مِنْ) and a formal conclusion connector."
+        ]
+      ],
+      [
+        "Accuracy",
+        5,
+        [
+          "The subjunctive ـَ marker after every trigger, and correct أَنْ vs أَنَّ (2 marks).",
+          "The Type 2 لَـ prefix in the result clause (2 marks).",
+          "The correct indicative after صَحِيحٌ أَنَّ (1 mark) — the primary P5 accuracy criterion."
+        ]
+      ]
+    ],
+    "speaking": [
+      [
+        "Role play — communication and accuracy",
+        4,
+        [
+          "Communication (2): all four prompts are addressed clearly and relevantly.",
+          "Accuracy (2): a genuine concession (صَحِيحٌ أَنَّ) in prompt 2 and a refutation (غَيْرَ أَنَّ) in prompt 3.",
+          "The issue is introduced with evidence and reported speech."
+        ]
+      ],
+      [
+        "Topic conversation — communication and quality of language",
+        6,
+        [
+          "Communication (3): answers are developed with point, reason and example.",
+          "Quality of language (3): a full argument (Q1), a concession-refutation (Q2) and a Type 2 conditional (Q3) all appear.",
+          "Q3 opens with لَوْ (Type 2 required); a candidate who answers with إِذَا is avoiding the conditional. Credit spontaneous صَحِيحٌ أَنَّ / غَيْرَ أَنَّ in Q2."
+        ]
+      ]
+    ]
+  }
+}
