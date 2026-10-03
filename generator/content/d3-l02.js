@@ -169,6 +169,7 @@ Stretch: after أَنَّ and لٰكِنَّ the noun takes -a (accusative): أ�
       ],
     },
     speaking: {
+      context: 'Where would you like to work?',
       model: [
         ['A', 'أَيْنَ تُفَضِّلُ أَنْ تَعْمَلَ؟', 'Where would you prefer to work?'],
         ['B', 'أُفَضِّلُ مَكْتَبًا حَدِيثًا لِأَنَّ بِيئَتَهُ آمِنَةٌ وَمُنَظَّمَةٌ.', 'I prefer a modern office because its environment is safe and organised.'],

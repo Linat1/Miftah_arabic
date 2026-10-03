@@ -180,6 +180,7 @@ The error pair is teacher-chosen (the website common error for this lesson is ge
       ],
     },
     speaking: {
+      context: 'What makes a good worker?',
       model: [
         ['A', 'مَا المَهَارَاتُ الَّتِي يَحْتَاجُ إِلَيْهَا المُدَرِّسُ؟', 'What skills does a teacher need?'],
         ['B', 'يَحْتَاجُ إِلَى التَّوَاصُلِ، وَيَجِبُ أَنْ يَكُونَ صَبُورًا وَمُنَظَّمًا.', 'He needs communication, and he must be patient and organised.'],
