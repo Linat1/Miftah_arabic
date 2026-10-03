@@ -160,7 +160,7 @@ const slides = G.gmLesson({
   ],
   practiceLabel: 'teacher-written on website games 2, 4 and 6',
   read: {
-    title: 'Letter hunt', label: 'website reading task “letter hunt”',
+    title: 'Letter hunt', label: 'website reading task “letter hunt”', size: 40,
     text: 'مَدْرَسَةٌ · بَيْتٌ · زَهْرَةٌ · كِتَابٌ · وَلَدٌ · قَمَرٌ',
     glossary: [['مَدْرَسَةٌ', 'a school'], ['بَيْتٌ', 'a house'], ['زَهْرَةٌ', 'a flower'], ['كِتَابٌ', 'a book'], ['وَلَدٌ', 'a boy'], ['قَمَرٌ', 'a moon']],
     task: 'Website letter hunt: find every non-connector, circle letters in medial position, underline final letters, and explain the visible break in two words.',

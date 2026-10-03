@@ -660,7 +660,7 @@ function passage(D, sp) {
       if (i) s.addShape('line', { x: 0.75, y, w: tw, h: 0, line: { color: 'E4DCCB', width: 0.75, dashType: 'dash' } });
       txt(s, ln, 0.75, y + 0.02, tw, rh - 0.04, { fit: true, size: i ? 20 : 22, min: 12, bold: !i, color: i ? C.ink : C.navy, arFactor: 0.9 });
     });
-  } else txt(s, sp.text, 0.75, 2.15, tw, 4.6, { fit: true, size: 26, min: 13, bold: false, color: C.ink, valign: 'top', arFactor: 0.9 });
+  } else txt(s, sp.text, 0.75, 2.15, tw, 4.6, { fit: true, size: sp.size || 26, min: 13, bold: false, color: C.ink, valign: 'top', arFactor: 0.9 });
   if (sp.glossary) {
     const x = 12.83 - gw;
     box(s, x, 1.98, gw, 4.92, { fill: C.corePale, line: '9CCFB0' });

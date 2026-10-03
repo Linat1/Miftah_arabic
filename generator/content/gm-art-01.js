@@ -50,7 +50,7 @@ const slides = G.gmLesson({
         'Start with MEANING: are you naming any one of something (indefinite) or a particular, known one (definite)?',
         'Indefinite: Arabic has NO word for “a / an”. The noun stands alone; in vowelled text it usually ends in tanwīn: كِتَابٌ (kitābun).',
         'Definite: add الـ to the front of the noun — joined, with no space or hyphen: الْكِتَابُ (al-kitābu).',
-        'A noun never has BOTH الـ and tanwīn: write الْكِتَابُ, not الْكِتَابٌ.',
+        'A noun never has BOTH الـ and tanwīn: once الـ is added, the tanwīn goes.',
         'In a text, a new noun usually appears first WITHOUT الـ; when it comes back, the reader knows it, so it takes الـ.',
       ],
       examples: [
@@ -107,7 +107,7 @@ Bridge: عَبْدُ الرَّحْمٰنِ, الرَّحِيمِ — students a
         'After a pause, say it: الْبَيْتُ كَبِيرٌ = al-baytu kabīrun.',
         'After another word, the helping vowel is not pronounced: فِي الْبَيْتِ = fī l-bayti · إِلَى الْمَدْرَسَةِ = ilā l-madrasati.',
         'Both changes can happen at once: فِي الشَّارِعِ = fī sh-shāriʿi (vowel dropped AND lām assimilated).',
-        'Pronounce naturally — but ALWAYS write every letter: فِي الْبَيْتِ, never فِلْبَيْتِ.',
+        'Pronounce naturally — but ALWAYS write every letter of both words, even the ones you do not hear.',
       ],
       examples: [
         { ar: 'الْبَيْتُ كَبِيرٌ.', en: 'al-baytu kabīrun', note: 'after a pause' },
@@ -115,7 +115,7 @@ Bridge: عَبْدُ الرَّحْمٰنِ, الرَّحِيمِ — students a
         { ar: 'وَالشَّمْسُ', en: 'wa-sh-shamsu', note: 'connected + sun letter' },
         { ar: 'مَعَ الْمُعَلِّمَةِ', en: 'maʿa l-muʿallimati', note: 'connected' },
       ],
-      callout: { kind: 'warn', text: 'Pronounce naturally; spell conventionally. Cambridge writing expects standard spelling — never write what you hear (فِلْبَيْتِ ✗).' },
+      callout: { kind: 'warn', text: 'Pronounce naturally; spell conventionally. Cambridge writing expects standard spelling — never write words the way they sound when joined.' },
       notes: 'PART 4 (3 min) — website section “Hamzat al-waṣl and connected speech”. Model each pair slowly, then naturally. Website: “Connected pronunciation is never an instruction to delete letters.”',
     },
     {

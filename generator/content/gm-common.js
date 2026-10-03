@@ -108,7 +108,7 @@ ${x.terms.notes || ''}`,
   if (x.read) {
     slides.push({
       type: 'passage', stage: 'youdo', min: x.read.min || 3, eyebrow: `You do · read and notice · ${x.read.label || 'website reading text'}`, title: x.read.title, ar: 'اِقْرَأْ وَلَاحِظْ',
-      text: x.read.text, glossary: x.read.glossary,
+      text: x.read.text, glossary: x.read.glossary, size: x.read.size,
       notes: `READ AND NOTICE (3 min) — ${x.read.label || 'the website reading text'}. Read it aloud once while students follow; then they hunt for today’s grammar.
 Task: ${x.read.task}
 SEND reading strategy: cover the text and uncover one sentence at a time. Core: use the green glossary.
