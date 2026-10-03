@@ -73,7 +73,7 @@ ROUTES: Core (green) = students whose Arabic is not yet secure; Develop (amber) 
   });
   slides.push(C.welcomeSlide());
   slides.push(C.journeySlide({ teach: x.teach, wedo: x.wedo, next: x.next.nextCode, support: x.mapSupport }));
-  slides.push(C.doNow({ ...x.doNow, questions: x.doNow.questions || pick(quiz(s, /Entry|Diagnostic|Starter/i), x.doNow.pick || [0, 1, 2, 3, 4]) }));
+  slides.push(C.doNow({ ...x.doNow, questions: x.doNow.questions || pick(quiz(s, /Entry|Diagnostic|Starter/i).map((it, i) => (x.doNow.fb && x.doNow.fb[i] ? { ...it, feedback: x.doNow.fb[i] } : it)), x.doNow.pick || [0, 1, 2, 3, 4]) }));
   slides.push(C.objectivesSlide(x.objectives, x.routes, 0, x.objNotes || 'Objectives are drawn from the website lesson purpose and its Core / Develop / Stretch routes.'));
   // grammar words (terms): 6 cards per slide
   const terms = x.terms.items;
