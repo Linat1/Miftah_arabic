@@ -155,8 +155,8 @@ Students find in the model (● 20s → ◎) the items on the chips. ${x.model.n
 Then each student chooses ONE thing from the model to add to their own writing.`,
   });
   slides.push(C.selfCheckSlide(x.selfCheck));
-  const mastery = s && s.quizzes.length ? quiz(s, x.masteryQuiz || /Mastery|Self-check|Final/i) : null;
-  slides.push(C.exitTicket(x.exit || pick(mastery, x.exitPick || [0, 1, 2]), mastery ? mastery.length : 3));
+  const mastery = x.exit && !x.exitPick ? null : (s && s.quizzes.some((z) => z.items.length) ? quiz(s, x.masteryQuiz || /Mastery|Self-check|Final/i) : null);
+  slides.push(C.exitTicket(x.exit || pick(mastery, x.exitPick || [0, 1, 2]), mastery ? mastery.length : (x.exitTotal || 3)));
   if (x.mastery !== false && mastery) {
     const restIdx = x.masteryPick || mastery.map((_, i) => i).filter((i) => !(x.exitPick || [0, 1, 2]).includes(i)).slice(0, 6);
     if (restIdx.length) {
@@ -167,6 +167,14 @@ Then each student chooses ONE thing from the model to add to their own writing.`
         notes: 'WEBSITE MASTERY CHECK (FLEX) — the rest of the website final check, for fast finishers or homework. Website guidance: below 70% repeat the mini-check; 70–89% replay the game; 90%+ move on and revisit in 3–7 days.',
       });
     }
+  }
+  if (x.masteryQs) {
+    slides.push({
+      type: 'mcq', stage: 'feedback', flex: true, eyebrow: 'Extension · mastery check · FLEX', title: 'Mastery check', ar: 'اِخْتِبَارُ الإِتْقَانِ',
+      seed: 12, questions: x.masteryQs,
+      answerSlide: { eyebrow: 'Extension · mastery answers', title: 'Mastery check: answers', ar: 'الإِجَابَاتُ' },
+      notes: `MASTERY CHECK (FLEX) — ${x.masteryNote || 'teacher-written on the website lesson (the website checks this chapter through interactive games)'}. Fast finishers or homework. Below 70%: repeat the explanation slides; 90%+: move on and revisit in 3–7 days.`,
+    });
   }
   (x.extra || []).forEach((e) => slides.push(e));
   slides.push(C.prepSlide({ ...x.next, ...x.prep }));
