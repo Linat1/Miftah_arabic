@@ -64,7 +64,7 @@ const slides = D.devLesson('D1-L10', {
       rows: [
         { core: true, cells: [{ ar: '{e|تَـ} / {w|يَـ} / {k|أَـ}' }, P('{e|تَ}سْتَيْقِظُ مَرْيَمُ · {w|يَ}عُودُ سَامِرٌ', 'Maryam wakes · Samer returns'), 'WHO does it', 'mixing up two people'] },
         { core: true, cells: [{ ar: 'فِي + الوَقْتِ' }, P('تَسْتَيْقِظُ {k|فِي السَّادِسَةِ} … تَخْرُجُ {k|حَتَّى السَّابِعَةِ وَالرُّبْعِ}', 'wakes at 6 … leaves at 7:15'), 'which EVENT the time belongs to', 'choosing the first number heard'] },
-        { cells: [{ ar: 'وَلٰكِنَّ · أَمَّا' }, P('اِقْتَرَحَ الرَّابِعَةَ … {k|أَمَّا} سَلْمَى {k|فَـ}لَا …', 'he suggested four … as for Salma …'), 'the CORRECTED information', 'stopping too early'] },
+        { cells: [{ ar: 'وَلٰكِنَّ · أَمَّا' }, P('اِقْتَرَحَ الرَّابِعَةَ … {k|أَمَّا} سَلْمَى {k|فَلَا} …', 'he suggested four … as for Salma …'), 'the CORRECTED information', 'stopping too early'] },
         { cells: [{ ar: 'لَا · لَمْ · إِلَّا' }, P('{k|لَا} أَتَمَرَّنُ يَوْمَ الجُمُعَةِ.', 'I do not train on Friday.'), 'NEGATION', 'missing the reversal'] },
       ],
       foot: 'Before each listening: write T (time), P (person), F (frequency) or R (reason) next to every question.',

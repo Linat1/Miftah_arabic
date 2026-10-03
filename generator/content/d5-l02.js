@@ -35,7 +35,7 @@ const slides = D.devLesson('D5-L02', {
       q('Complete: ___ كُرَةَ القَدَمِ مَرَّتَيْنِ فِي الأُسْبُوعِ.', ['أَلْعَبُ', 'أَعْزِفُ', 'أَسْتَمِعُ'], 'D5-L01: collocation.'),
       q('Complete: أُفَضِّلُ السِّبَاحَةَ ___ الجَرْيِ.', ['عَلَى', 'إِلَى', 'مِنْ'], 'D5-L01: preference.'),
     ],
-    keyIdea: { text: 'You win a PRIZE with bi- and you beat a TEAM with ʿalā.', ar: 'فَازَ {w|بِـ}البُطُولَةِ · فَازَ {k|عَلَى} الفَرِيقِ الضَّيْفِ' },
+    keyIdea: { text: 'You win a PRIZE with bi- and you beat a TEAM with ʿalā.', ar: 'فَازَ {w|بِالبُطُولَةِ} · فَازَ {k|عَلَى} الفَرِيقِ الضَّيْفِ' },
     retrieves: 'Questions 1–3 test three of the five words prepared at home at the end of D5-L01. Questions 4–5 retrieve the D5-L01 collocation and preference structures.',
   },
   routes: {
@@ -96,7 +96,7 @@ Core: يُعْجِبُنِي + name is enough. Website mistake: يَجِبُ ع�
     title: 'Watch me describe an athlete I admire',
     steps: [
       { head: 'Admire', ar: '{e|يُعْجِبُنِي} هٰذَا اللَّاعِبُ', think: 'Player = subject.' },
-      { head: 'Prize', ar: 'فَازَ {w|بِـ}البُطُولَةِ', think: 'Prize: bi-.' },
+      { head: 'Prize', ar: 'فَازَ {w|بِالبُطُولَةِ}', think: 'Prize: bi-.' },
       { head: 'Opponent', ar: 'فَازَ {k|عَلَى} فِرَقٍ قَوِيَّةٍ', think: 'Opponent: ʿalā.' },
       { head: 'Reason', ar: '{e|أُعْجَبُ بِهِ} لِأَنَّهُ مُتَوَاضِعٌ', think: 'He: -hu.' },
     ],

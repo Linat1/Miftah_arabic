@@ -62,7 +62,7 @@ const slides = D.devLesson('D1-L11', {
       ],
       rows: [
         { en: 'I prefer an organised routine because it helps me concentrate. For example, I prepare my bag at night. However, my routine changes on holiday.', cells: ['أُفَضِّلُ الرُّوتِينَ المُنَظَّمَ', '{k|لِأَنَّهُ} يُسَاعِدُنِي عَلَى التَّرْكِيزِ.', '{k|عَلَى سَبِيلِ المِثَالِ}، أُحَضِّرُ حَقِيبَتِي لَيْلًا.', '{k|مَعَ ذٰلِكَ} يَتَغَيَّرُ رُوتِينِي فِي العُطْلَةِ.'] },
-        { en: 'I wake up at 6:30 because school starts early. For example, the first lesson is at 8:20. As for Saturday, I sleep longer.', cells: ['أَسْتَيْقِظُ فِي السَّادِسَةِ وَالنِّصْفِ', '{k|لِأَنَّ} المَدْرَسَةَ تَبْدَأُ مُبَكِّرًا.', '{k|مَثَلًا}، الحِصَّةُ الأُولَى فِي الثَّامِنَةِ وَالثُّلُثِ.', '{k|أَمَّا} يَوْمُ السَّبْتِ {k|فَـ}أَنَامُ أَطْوَلَ.'] },
+        { en: 'I wake up at 6:30 because school starts early. For example, the first lesson is at 8:20. As for Saturday, I sleep longer.', cells: ['أَسْتَيْقِظُ فِي السَّادِسَةِ وَالنِّصْفِ', '{k|لِأَنَّ} المَدْرَسَةَ تَبْدَأُ مُبَكِّرًا.', '{k|مَثَلًا}، الحِصَّةُ الأُولَى فِي الثَّامِنَةِ وَالثُّلُثِ.', '{k|أَمَّا} يَوْمُ السَّبْتِ {k|فَأَنَامُ} أَطْوَلَ.'] },
       ],
       foot: 'Core: Point + Reason. Develop: + Example. Stretch: + Contrast, then “this means that …”.',
       notes: `GRAMMAR PART 1 — website rules “Build Point + Reason + Example” and “Add comparison or qualification” (بَيْنَمَا · مَعَ ذٰلِكَ · أَمَّا) with the website patterns.
@@ -77,7 +77,7 @@ Teacher script: “Answer the question FIRST (point), then build.” Model row 1
         { core: true, cells: ['Clock time (past / to)', { ar: '٦:٤٥ = السَّادِسَةُ إِلَّا الرُّبْعَ' }, { ar: '٦:٤٥ = {k|السَّابِعَةُ} إِلَّا الرُّبْعَ' }, 'D1-L02'] },
         { cells: ['Verb after “an”', { ar: 'قَبْلَ أَنْ أَخْرُجُ' }, { ar: 'قَبْلَ أَنْ أَخْرُ{e|جَ}' }, 'D1-L04'] },
         { cells: ['Asking a girl', { ar: 'أَنْتِ تَسْتَيْقِظُ؟' }, { ar: 'أَنْتِ تَسْتَيْقِظِ{e|ينَ}؟' }, 'D1-L07'] },
-        { cells: ['As for … fa-', { ar: 'أَمَّا السَّبْتُ أَسْتَرِيحُ' }, { ar: 'أَمَّا السَّبْتُ {k|فَـ}أَسْتَرِيحُ' }, 'D1-L03, D1-L08'] },
+        { cells: ['As for … fa-', { ar: 'أَمَّا السَّبْتُ أَسْتَرِيحُ' }, { ar: 'أَمَّا السَّبْتُ {k|فَأَسْتَرِيحُ}' }, 'D1-L03, D1-L08'] },
       ],
       foot: 'Say the family first (“person prefix!”), then the correction. Naming the rule makes the fix stick.',
       notes: `GRAMMAR PART 2 — website rule “Repair errors by category” (verb pattern · person · أَنْ · time · frequency) and the website table (Person · Time · Sequence · Development). These are the five error families from the website error-analysis report (reading text: Lina).

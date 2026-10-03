@@ -30,7 +30,7 @@ const slides = D.devLesson('D1-L09', {
       q('Which is 6:45?', ['السَّابِعَةُ إِلَّا الرُّبْعَ', 'السَّادِسَةُ إِلَّا الرُّبْعَ', 'السَّادِسَةُ وَالرُّبْعُ'], 'D1-L02: the NEXT hour with إِلَّا.', { ar: '٦:٤٥', arBig: true }),
       q('In تُحَضِّرُ حَقِيبَتَهَا, who prepares the bag?', ['a girl / woman', 'a boy / man', 'me'], 'D1-L06: tu- + -hā.'),
     ],
-    keyIdea: { text: 'Don’t pick a number just because you see it. First find WHO and WHICH event, then the exact time.', ar: '{w|تَـ}عُودُ مَرْيَمُ {k|فِي الرَّابِعَةِ}، بَيْنَمَا {w|يَـ}عُودُ أَخُوهَا {k|فِي الخَامِسَةِ}.' },
+    keyIdea: { text: 'Don’t pick a number just because you see it. First find WHO and WHICH event, then the exact time.', ar: '{w|تَعُودُ} مَرْيَمُ {k|فِي الرَّابِعَةِ}، بَيْنَمَا {w|يَعُودُ} أَخُوهَا {k|فِي الخَامِسَةِ}.' },
     retrieves: 'Questions 1–2 test two of the five words prepared at home. Questions 3–5 retrieve D1-L08 (أَمَّا … فَـ), D1-L02 (time with إِلَّا) and D1-L06 (she + her).',
   },
   routes: {

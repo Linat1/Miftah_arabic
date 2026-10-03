@@ -29,7 +29,7 @@ const slides = D.devLesson('F6-L11', {
       q('Choose “Turn left” to a group.', ['اِنْعَطِفُوا يَسَارًا.', 'اِنْعَطِفِي يَسَارًا.', 'اِنْعَطِفْ يَسَارًا.'], 'F6-L08: -ū for a group.'),
       q('Which sentence is accurate?', ['تُوجَدُ مَحَطَّةٌ قَرِيبَةٌ.', 'يُوجَدُ مَحَطَّةٌ قَرِيبٌ.', 'تُوجَدُ مَحَطَّةٌ قَرِيبٌ.'], 'F6-L01: feminine noun → tūjadu + -a.'),
     ],
-    keyIdea: { text: 'Before you fix an ending, find what controls it: the noun, the person or the transport.', ar: '{k|تُوجَدُ} مَحَطَّةٌ · {k|اِنْعَطِفُوا} · أَذْهَبُ {k|بِـ}الحَافِلَةِ' },
+    keyIdea: { text: 'Before you fix an ending, find what controls it: the noun, the person or the transport.', ar: '{k|تُوجَدُ} مَحَطَّةٌ · {k|اِنْعَطِفُوا} · أَذْهَبُ {k|بِالحَافِلَةِ}' },
     retrieves: 'Questions 1–2 test two of the five words prepared at home at the end of F6-L10. Questions 3–5 retrieve F6-L10, F6-L08 and F6-L01. Note which of Q4–Q5 each student gets wrong: it points to their route today.',
   },
   routes: {
@@ -56,7 +56,7 @@ const slides = D.devLesson('F6-L11', {
       cols: [{ label: 'Family', w: 2.6 }, { label: '✗', w: 3.3, size: 20 }, { label: '✓', w: 3.6, size: 20 }, { label: 'Check …', w: 2.83 }],
       rows: [
         { core: true, cells: ['Existence + agreement (L01)', P('يُوجَدُ مَحَطَّةٌ قَرِيبٌ.', ''), P('{k|تُوجَدُ} مَحَطَّةٌ {k|قَرِيبَةٌ}.', ''), 'the noun’s gender'] },
-        { core: true, cells: ['Transport (L03)', P('أُسَافِرُ عَلَى الحَافِلَةِ.', ''), P('أُسَافِرُ {k|بِـ}الحَافِلَةِ.', ''), 'the transport type'] },
+        { core: true, cells: ['Transport (L03)', P('أُسَافِرُ عَلَى الحَافِلَةِ.', ''), P('أُسَافِرُ {k|بِالحَافِلَةِ}.', ''), 'the transport type'] },
         { cells: ['Directions (L08)', P('اِذْهَبِي يَمِينًا يَا طُلَّابُ.', ''), P('{k|اِذْهَبُوا} يَمِينًا يَا طُلَّابُ.', ''), 'who is addressed'] },
         { cells: ['Description (L05, L07)', P('العِمَارَةُ مَبْنِيٌّ مِنَ الزُّجَاجِ.', ''), P('العِمَارَةُ {k|مَبْنِيَّةٌ} مِنَ الزُّجَاجِ.', ''), 'agreement + preposition'] },
         { cells: ['Balanced view (L05)', P('مِنْ مَزَايَا مَدِينَتِي المَوَاصَلَاتُ رَخِيصَةٌ.', ''), P('مِنْ مَزَايَا مَدِينَتِي {k|أَنَّ} المَوَاصَلَاتِ رَخِيصَةٌ.', ''), 'the missing anna'] },
@@ -89,7 +89,7 @@ This is exactly what Layla does in today’s reading text (error-analysis report
     steps: [
       { head: '1 · Place + existence', ar: 'أَسْكُنُ فِي مَدِينَةٍ حَدِيثَةٍ {k|تُوجَدُ} فِيهَا مَحَطَّاتٌ.', think: 'Feminine plural → tūjadu.' },
       { head: '2 · Description', ar: '{k|تَتَمَيَّزُ} بِمَتْحَفٍ {k|مَبْنِيٍّ} مِنَ الحَجَرِ.', think: 'bi- after tatamayyazu; mabniyyin agrees.' },
-      { head: '3 · Journey', ar: 'أَذْهَبُ {k|بِـ}المِتْرُو، وَ{k|تَسْتَغْرِقُ} الرِّحْلَةُ عِشْرِينَ دَقِيقَةً.', think: 'bi- + duration.' },
+      { head: '3 · Journey', ar: 'أَذْهَبُ {k|بِالمِتْرُو}، وَ{k|تَسْتَغْرِقُ} الرِّحْلَةُ عِشْرِينَ دَقِيقَةً.', think: 'bi- + duration.' },
       { head: '4 · Balanced view', ar: 'مِنْ مَزَايَا المَدِينَةِ {k|أَنَّ} المَوَاصَلَاتِ رَخِيصَةٌ.', think: 'Do not forget anna.' },
     ],
     legend: ['k'], legendLabels: { k: 'F6 GRAMMAR' },

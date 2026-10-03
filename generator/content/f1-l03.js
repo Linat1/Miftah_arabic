@@ -109,7 +109,7 @@ All eight letters today CONNECT on both sides (website final check 5).`,
     rows: [
       { core: true, cells: ['/ā/ — a held “a”', 'fatḥa + alif', { ar: 'بَ + {k|ا} ← بَ{k|ا}', sub: 'bā · two beats' }, { ar: 'بَ{k|ا}بٌ', sub: 'bāb' }, 'door'] },
       { core: true, cells: ['/ū/ — a held “oo”', 'ḍamma + wāw', { ar: 'بُ + {k|و} ← بُ{k|و}', sub: 'bū · two beats' }, { ar: 'سُ{k|و}قٌ', sub: 'sūq' }, 'market'] },
-      { core: true, cells: ['/ī/ — a held “ee”', 'kasra + yāʾ', { ar: 'بِ + {k|ي} ← بِ{k|ي}', sub: 'bī · two beats' }, { ar: 'كَبِ{k|ي}رٌ', sub: 'kabīr' }, 'big'] },
+      { core: true, cells: ['/ī/ — a held “ee”', 'kasra + yāʾ', { ar: 'بِ + {k|ي} ← {k|بِي}', sub: 'bī · two beats' }, { ar: 'كَبِ{k|ي}رٌ', sub: 'kabīr' }, 'big'] },
     ],
     foot: 'A long vowel lasts about TWO beats. The short mark before it must match: fatḥa + alif · ḍamma + wāw · kasra + yāʾ.',
     notes: `LONG VOWELS (website Part 4). Teal = the long-vowel letter (carrier).

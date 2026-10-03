@@ -34,7 +34,7 @@ const slides = D.devLesson('D3-L04', {
       q('Complete: يَجِبُ أَنْ يَكُونَ المُدَرِّسُ ___ .', ['صَبُورًا', 'صَبُورٌ', 'صَبُورَةً'], 'D3-L03: -an after yakūna.'),
       q('Which means “I study”?', ['أَدْرُسُ', 'يَدْرُسُ', 'تَدْرُسُ'], 'D1: a- = I.'),
     ],
-    keyIdea: { text: 'The future = sa- or sawfa + the present verb you already know.', ar: '{k|سَـ}أَدْرُسُ · {k|سَوْفَ} أَتَدَرَّبُ · لِكَيْ {w|أَنْجَحَ}' },
+    keyIdea: { text: 'The future = sa- or sawfa + the present verb you already know.', ar: '{k|سَأَدْرُسُ} · {k|سَوْفَ} أَتَدَرَّبُ · لِكَيْ {w|أَنْجَحَ}' },
     retrieves: 'Questions 1–2 test two of the five words prepared at home at the end of D3-L03. Questions 3–4 retrieve D3-L03; question 5 retrieves the D1 present tense (the base of the future).',
   },
   routes: {

@@ -36,7 +36,7 @@ const slides = D.devLesson('D3-L05', {
       q('Complete: سَأَتَدَرَّبُ لِكَيْ ___ خِبْرَةً.', ['أَكْتَسِبَ', 'اكْتَسَبْتُ', 'سَأَكْتَسِبُ'], 'D3-L04: li-kay + verb (-a).'),
       q('Which sentence gives a disadvantage?', ['مِنْ عُيُوبِهِ أَنَّهُ مُجْهِدٌ.', 'مِنْ مَزَايَاهُ أَنَّهُ مُجْزٍ.', 'أَطْمَحُ إِلَى أَنْ أُصْبِحَ طَبِيبًا.'], 'D3-L02: pros and cons.'),
     ],
-    keyIdea: { text: 'Goal → route → condition: to become … I must … — if I succeed, I will …', ar: 'لِكَيْ {w|أُصْبِحَ} طَبِيبًا يَجِبُ أَنْ أَدْرُسَ · إِذَا {k|نَجَحْتُ}، فَ{k|سَ}أَلْتَحِقُ بِالجَامِعَةِ' },
+    keyIdea: { text: 'Goal → route → condition: to become … I must … — if I succeed, I will …', ar: 'لِكَيْ {w|أُصْبِحَ} طَبِيبًا يَجِبُ أَنْ أَدْرُسَ · إِذَا {k|نَجَحْتُ}، {k|فَسَ}أَلْتَحِقُ بِالجَامِعَةِ' },
     retrieves: 'Questions 1–2 test two of the five words prepared at home at the end of D3-L04. Questions 3–4 retrieve D3-L04 (future, purpose); question 5 retrieves D3-L02 (pros and cons).',
   },
   routes: {

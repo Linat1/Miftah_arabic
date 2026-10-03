@@ -97,7 +97,7 @@ After بِـ the noun ends in -in: بِصُدَاعٍ، بِأَلَمٍ (say it
     title: 'Watch me write four patient messages',
     steps: [
       { head: '1 · What + since', ar: 'عِنْدِي صُدَاعٌ وَحُمَّى {m|مُنْذُ} أَمْسِ.', think: 'Symptoms + mundhu.' },
-      { head: '2 · Feel + where', ar: 'أَشْعُرُ {w|بِـ}أَلَمٍ {k|فِي} المَعِدَةِ.', think: 'bi- after ashʿuru; fī for place.' },
+      { head: '2 · Feel + where', ar: 'أَشْعُرُ {w|بِأَلَمٍ} {k|فِي} المَعِدَةِ.', think: 'bi- after ashʿuru; fī for place.' },
       { head: '3 · Cause', ar: 'سَقَطْتُ، وَعِنْدِي جُرْحٌ {k|فِي} رُكْبَتِي.', think: 'I fell → a cut in my knee.' },
       { head: '4 · Agreement', ar: 'أَنَا مُصَابَ{e|ةٌ} بِالزُّكَامِ وَأَشْعُرُ بِالتَّعَبِ.', think: 'A girl writes → -a.' },
     ],

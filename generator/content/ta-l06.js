@@ -83,7 +83,7 @@ const raw = D.devLesson('P1-L01', {
       type: 'formsTable', stage: 'teach', min: 3, eyebrow: 'Grammar focus · Part 1 · three ways to describe content (website table)', title: 'Contains · rich in · lacks', ar: 'يَحْتَوِي · غَنِيٌّ · يَفْتَقِرُ',
       cols: [{ label: 'Structure', w: 2.6, size: 24 }, { label: 'Preposition', w: 1.9, size: 24 }, { label: 'Example', w: 5.0, size: 22 }, { label: 'Meaning', w: 2.83 }],
       rows: [
-        { core: true, cells: [{ ar: 'غَنِيٌّ / غَنِيَّةٌ' }, { ar: '{k|بِـ}' }, { ar: 'التَّمْرُ غَنِيٌّ {k|بِـ}الحَدِيدِ.' }, 'rich in — dates are rich in iron'] },
+        { core: true, cells: [{ ar: 'غَنِيٌّ / غَنِيَّةٌ' }, { ar: '{k|بِـ}' }, { ar: 'التَّمْرُ غَنِيٌّ {k|بِالحَدِيدِ}.' }, 'rich in — dates are rich in iron'] },
         { core: true, cells: [{ ar: 'يَحْتَوِي / تَحْتَوِي' }, { ar: '{k|عَلَى}' }, { ar: 'يَحْتَوِي السَّمَكُ {k|عَلَى} بُرُوتِينٍ.' }, 'contains — fish contains protein'] },
         { cells: [{ ar: 'يَفْتَقِرُ / تَفْتَقِرُ' }, { ar: '{k|إِلَى}' }, { ar: 'يَفْتَقِرُ الطَّعَامُ {k|إِلَى} الأَلْيَافِ.' }, 'lacks — the food lacks fibre'] },
         { cells: [{ ar: 'يُقَلِّلُ' }, { ar: '{k|مِنْ}' }, { ar: 'يُقَلِّلُ {k|مِنَ} الخَطَرِ.' }, 'reduces — it reduces the risk'] },
@@ -112,11 +112,11 @@ The Core card (صِحِّيٌّ / صِحِّيَّةٌ + لِأَنَّهُ / ل
     steps: [
       { head: 'The meal', ar: 'وَجْبَتِي: أَرُزٌّ وَدَجَاجٌ وَسَلَطَةٌ.', think: 'AT-A-L04 food words.' },
       { head: 'Contains', ar: 'تَحْتَوِي الوَجْبَةُ {k|عَلَى} بُرُوتِينٍ.', think: 'Meal is f. → taḥtawī.' },
-      { head: 'Rich in', ar: 'السَّلَطَةُ غَنِيَّةٌ {k|بِـ}الأَلْيَافِ.', think: 'Salad f. → ghaniyya.' },
-      { head: 'Lacks + advice', ar: 'تَفْتَقِرُ {k|إِلَى} الفَاكِهَةِ، فَ{p|يُوصَى بِـ}إِضَافَةِ تُفَّاحَةٍ.', think: 'Gap → advice.' },
+      { head: 'Rich in', ar: 'السَّلَطَةُ غَنِيَّةٌ {k|بِالأَلْيَافِ}.', think: 'Salad f. → ghaniyya.' },
+      { head: 'Lacks + advice', ar: 'تَفْتَقِرُ {k|إِلَى} الفَاكِهَةِ، {p|فَيُوصَى بِإِضَافَةِ} تُفَّاحَةٍ.', think: 'Gap → advice.' },
     ],
     legend: ['k', 'p'], legendLabels: { k: 'PREPOSITION', p: 'ADVICE' },
-    model: 'تَنَاوَلْتُ أَرُزًّا وَدَجَاجًا وَسَلَطَةً. تَحْتَوِي الوَجْبَةُ {k|عَلَى} بُرُوتِينٍ وَكَرْبُوهِيدْرَاتٍ، وَالسَّلَطَةُ غَنِيَّةٌ {k|بِـ}الأَلْيَافِ وَالفِيتَامِينَاتِ. وَلٰكِنَّهَا تَفْتَقِرُ {k|إِلَى} الفَاكِهَةِ، لِذٰلِكَ {p|يُوصَى بِـ}إِضَافَةِ تُفَّاحَةٍ.',
+    model: 'تَنَاوَلْتُ أَرُزًّا وَدَجَاجًا وَسَلَطَةً. تَحْتَوِي الوَجْبَةُ {k|عَلَى} بُرُوتِينٍ وَكَرْبُوهِيدْرَاتٍ، وَالسَّلَطَةُ غَنِيَّةٌ {k|بِالأَلْيَافِ} وَالفِيتَامِينَاتِ. وَلٰكِنَّهَا تَفْتَقِرُ {k|إِلَى} الفَاكِهَةِ، لِذٰلِكَ {p|يُوصَى بِإِضَافَةِ} تُفَّاحَةٍ.',
     modelEn: 'I ate rice, chicken and salad. The meal contains protein and carbohydrates, and the salad is rich in fibre and vitamins. But it lacks fruit, so it is recommended to add an apple.',
     notes: 'I DO (3 min) — the website speaking model and writing model (a meal of rice, chicken and salad) simplified to four steps. Think aloud: “which structure? which little word after it? is the subject feminine?”',
   },

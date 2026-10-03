@@ -28,7 +28,7 @@ const slides = D.devLesson('D1-L08', {
       q('Which question asks for a reason?', ['لِمَاذَا؟', 'مَتَى؟', 'كَمْ مَرَّةً؟'], 'D1-L07 question words.'),
       q('Complete: أَمَّا يَوْمُ السَّبْتِ ___ هُوَ يَوْمُ الرَّاحَةِ.', ['فَـ', 'بَيْنَمَا', 'لِأَنَّ'], 'D1-L03: أَمَّا … فَـ.'),
     ],
-    keyIdea: { text: 'School days are fixed; the weekend is flexible. Contrast them, and say what depends on time.', ar: '{k|أَمَّا} فِي نِهَايَةِ الأُسْبُوعِ {k|فَـ}أَنَامُ وَقْتًا أَطْوَلَ. {w|إِذَا} كَانَ لَدَيَّ وَقْتٌ أَلْتَقِي بِأَصْدِقَائِي.' },
+    keyIdea: { text: 'School days are fixed; the weekend is flexible. Contrast them, and say what depends on time.', ar: '{k|أَمَّا} فِي نِهَايَةِ الأُسْبُوعِ {k|فَأَنَامُ} وَقْتًا أَطْوَلَ. {w|إِذَا} كَانَ لَدَيَّ وَقْتٌ أَلْتَقِي بِأَصْدِقَائِي.' },
     retrieves: 'Questions 1–2 test two of the five words prepared at home. Questions 3–5 retrieve D1-L07 (you m./f., question words) and D1-L03 (أَمَّا … فَـ).',
   },
   routes: {
@@ -60,10 +60,10 @@ const slides = D.devLesson('D1-L08', {
       type: 'formsTable', stage: 'teach', min: 3, eyebrow: 'Grammar focus · Part 1 · school days vs the weekend (website rule)', title: 'School days … as for the weekend …', ar: 'أَمَّا فِي نِهَايَةِ الأُسْبُوعِ فَـ…',
       cols: [{ label: 'School days', w: 4.5, size: 22 }, { label: 'As for the weekend …', w: 5.2, size: 22 }, { label: 'Contrast', w: 2.63 }],
       rows: [
-        { core: true, cells: [P('فِي أَيَّامِ الدِّرَاسَةِ أَسْتَيْقِظُ مُبَكِّرًا،', 'On school days I wake up early,'), P('{k|أَمَّا} فِي نِهَايَةِ الأُسْبُوعِ {k|فَـ}أَنَامُ وَقْتًا أَطْوَلَ.', 'as for the weekend, I sleep longer.'), 'early / longer'] },
-        { core: true, cells: [P('أَذْهَبُ إِلَى المَدْرَسَةِ،', 'I go to school,'), P('{k|أَمَّا} يَوْمُ السَّبْتِ {k|فَـ}أَزُورُ أَقَارِبِي.', 'as for Saturday, I visit my relatives.'), 'school / family'] },
-        { cells: [P('أُرَاجِعُ دُرُوسِي يَوْمِيًّا،', 'I revise my lessons daily,'), P('{k|أَمَّا} يَوْمُ الأَحَدِ {k|فَـ}أُرَاجِعُ لِمُدَّةِ سَاعَةٍ فَقَطْ.', 'as for Sunday, I revise for one hour only.'), 'daily / one hour'] },
-        { cells: [P('أَتَّبِعُ جَدْوَلًا ثَابِتًا،', 'I follow a fixed timetable,'), P('{k|أَمَّا} فِي العُطْلَةِ {k|فَـ}خُطَّتِي مَرِنَةٌ.', 'as for the break, my plan is flexible.'), 'fixed / flexible'] },
+        { core: true, cells: [P('فِي أَيَّامِ الدِّرَاسَةِ أَسْتَيْقِظُ مُبَكِّرًا،', 'On school days I wake up early,'), P('{k|أَمَّا} فِي نِهَايَةِ الأُسْبُوعِ {k|فَأَنَامُ} وَقْتًا أَطْوَلَ.', 'as for the weekend, I sleep longer.'), 'early / longer'] },
+        { core: true, cells: [P('أَذْهَبُ إِلَى المَدْرَسَةِ،', 'I go to school,'), P('{k|أَمَّا} يَوْمُ السَّبْتِ {k|فَأَزُورُ} أَقَارِبِي.', 'as for Saturday, I visit my relatives.'), 'school / family'] },
+        { cells: [P('أُرَاجِعُ دُرُوسِي يَوْمِيًّا،', 'I revise my lessons daily,'), P('{k|أَمَّا} يَوْمُ الأَحَدِ {k|فَأُرَاجِعُ} لِمُدَّةِ سَاعَةٍ فَقَطْ.', 'as for Sunday, I revise for one hour only.'), 'daily / one hour'] },
+        { cells: [P('أَتَّبِعُ جَدْوَلًا ثَابِتًا،', 'I follow a fixed timetable,'), P('{k|أَمَّا} فِي العُطْلَةِ {k|فَخُطَّتِي} مَرِنَةٌ.', 'as for the break, my plan is flexible.'), 'fixed / flexible'] },
       ],
       foot: 'Website warning: “as for” comes FIRST, then the topic, then fa- joined to the comment. Never fa- before “as for”.',
       notes: `GRAMMAR PART 1 — website rule “Contrast school days and weekends” (أَمَّا introduces the new topic and فَـ begins the comment) and website pattern 3.
@@ -86,13 +86,13 @@ Useful chunk for everyone: إِذَا كَانَ لَدَيَّ وَقْتٌ (if
   ido: {
     title: 'Watch me describe my weekend',
     steps: [
-      { head: 'Contrast', ar: '{k|أَمَّا} يَوْمُ السَّبْتِ {k|فَـ}أَنَامُ وَقْتًا أَطْوَلَ.', think: 'As for + topic + fa-.' },
+      { head: 'Contrast', ar: '{k|أَمَّا} يَوْمُ السَّبْتِ {k|فَأَنَامُ} وَقْتًا أَطْوَلَ.', think: 'As for + topic + fa-.' },
       { head: 'How often', ar: '{w|غَالِبًا مَا} أَزُورُ أَقَارِبِي بَعْدَ الظُّهْرِ.', think: 'A tendency.' },
       { head: 'Condition', ar: '{e|إِذَا} كَانَ لَدَيَّ وَقْتٌ أَلْتَقِي بِأَصْدِقَائِي.', think: 'It depends on time.' },
       { head: 'Judgement', ar: 'عُطْلَتِي مُتَوَازِنَةٌ لِأَنَّهَا تَجْمَعُ بَيْنَ الرَّاحَةِ وَالمَسْؤُولِيَّةِ.', think: 'Opinion + evidence.' },
     ],
     legend: ['k', 'w', 'e'], legendLabels: { k: 'AS FOR … FA-', w: 'FREQUENCY', e: 'CONDITION' },
-    model: 'فِي أَيَّامِ الدِّرَاسَةِ أَسْتَيْقِظُ مُبَكِّرًا، {k|أَمَّا} يَوْمُ السَّبْتِ {k|فَـ}أَنَامُ وَقْتًا أَطْوَلَ. {w|غَالِبًا مَا} أَزُورُ أَقَارِبِي بَعْدَ الظُّهْرِ، وَ{e|إِذَا} كَانَ لَدَيَّ وَقْتٌ أَلْتَقِي بِأَصْدِقَائِي. يَوْمَ الأَحَدِ أُخَطِّطُ لِلْأُسْبُوعِ. عُطْلَتِي مُتَوَازِنَةٌ لِأَنَّهَا تَجْمَعُ بَيْنَ الرَّاحَةِ وَالمَسْؤُولِيَّةِ.',
+    model: 'فِي أَيَّامِ الدِّرَاسَةِ أَسْتَيْقِظُ مُبَكِّرًا، {k|أَمَّا} يَوْمُ السَّبْتِ {k|فَأَنَامُ} وَقْتًا أَطْوَلَ. {w|غَالِبًا مَا} أَزُورُ أَقَارِبِي بَعْدَ الظُّهْرِ، وَ{e|إِذَا} كَانَ لَدَيَّ وَقْتٌ أَلْتَقِي بِأَصْدِقَائِي. يَوْمَ الأَحَدِ أُخَطِّطُ لِلْأُسْبُوعِ. عُطْلَتِي مُتَوَازِنَةٌ لِأَنَّهَا تَجْمَعُ بَيْنَ الرَّاحَةِ وَالمَسْؤُولِيَّةِ.',
     modelEn: 'On school days I wake up early; as for Saturday, I sleep longer. I often visit my relatives in the afternoon, and if I have time I meet my friends. On Sunday I plan the week. My weekend is balanced because it combines rest and responsibility.',
     notes: 'I DO (3 min) — website patterns combined into a short weekend, with a think-aloud. Students copy it and label each sentence: CONTRAST · FREQUENCY · CONDITION · JUDGEMENT.',
   },

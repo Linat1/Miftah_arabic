@@ -36,7 +36,7 @@ const slides = D.devLesson('D4-L08', {
       q('What does يُشْتَرَطُ mean in an advert?', ['is required', 'is preferred', 'is offered'], 'D3-L08: a reading passive.'),
       q('In أَرْسَلَتْ سَلْمَى سِيرَتَهَا, -hā refers to …', ['Salma', 'the company', 'the CV'], 'D3-L08: pronoun reference.'),
     ],
-    keyIdea: { text: 'A strong reader asks: who says it, what is the evidence, and how sure is the writer?', ar: '{k|وَفْقًا لِـ}بَيَانَاتِ البَلَدِيَّةِ · {w|يُشَارُ إِلَى أَنَّ} … · بِنِسْبَةِ {e|١٨٪}' },
+    keyIdea: { text: 'A strong reader asks: who says it, what is the evidence, and how sure is the writer?', ar: '{k|وَفْقًا لِبَيَانَاتِ} البَلَدِيَّةِ · {w|يُشَارُ إِلَى أَنَّ} … · بِنِسْبَةِ {e|١٨٪}' },
     retrieves: 'Questions 1–2 test two of the five words prepared at home at the end of D4-L07. Question 3 retrieves D4-L07; questions 4–5 retrieve the D3-L08 reading skills (passive advert language, pronoun reference).',
   },
   routes: {
@@ -63,7 +63,7 @@ const slides = D.devLesson('D4-L08', {
       type: 'formsTable', stage: 'teach', min: 3, eyebrow: 'Grammar focus · Part 1 · reporting and statistics (website rules 1–3)', title: 'Who says it? What is the number?', ar: 'النَّقْلُ وَالأَرْقَامُ',
       cols: [{ label: 'Example', w: 7.6, size: 22 }, { label: 'Reading signal', w: 4.73 }],
       rows: [
-        { core: true, cells: [P('{k|وَفْقًا لِـ}تَقْرِيرٍ جَدِيدٍ، ارْتَفَعَ مُتَوَسِّطُ دَرَجَةِ الحَرَارَةِ.', 'According to a new report, the average temperature rose.'), 'source: wafqan li-'] },
+        { core: true, cells: [P('{k|وَفْقًا لِتَقْرِيرٍ} جَدِيدٍ، ارْتَفَعَ مُتَوَسِّطُ دَرَجَةِ الحَرَارَةِ.', 'According to a new report, the average temperature rose.'), 'source: wafqan li-'] },
         { core: true, cells: [P('{w|يُشَارُ إِلَى أَنَّ} فَتَرَاتِ الجَفَافِ أَصْبَحَتْ أَطْوَلَ.', 'It is indicated that droughts have become longer.'), 'impersonal report + anna'] },
         { cells: [P('{w|يُتَوَقَّعُ أَنْ} يَزْدَادَ الطَّلَبُ عَلَى المِيَاهِ.', 'Demand for water is expected to rise.'), 'prediction: an + verb in -a'] },
         { cells: [P('{e|يَبْلُغُ} الحَدُّ الأَقْصَى ٤٠ دَرَجَةً.', 'The maximum reaches 40 degrees.'), 'a number: yablughu'] },
@@ -91,13 +91,13 @@ Claim / evidence / tone come from the website vocabulary and the writing model (
   ido: {
     title: 'Watch me read a report like an examiner',
     steps: [
-      { head: 'Source', ar: '{k|وَفْقًا لِـ}بَيَانَاتِ البَلَدِيَّةِ', think: 'Who says it? The council.' },
+      { head: 'Source', ar: '{k|وَفْقًا لِبَيَانَاتِ} البَلَدِيَّةِ', think: 'Who says it? The council.' },
       { head: 'Evidence', ar: 'انْخَفَضَ الاسْتِهْلَاكُ {e|بِنِسْبَةِ ١٨٪}', think: 'A number = evidence.' },
       { head: 'How', ar: '{w|يُشَارُ إِلَى أَنَّ} النِّظَامَ يُطْفِئُ الإِضَاءَةَ', think: 'Impersonal report.' },
       { head: 'Tone', ar: 'النَّبْرَةُ مُحَايِدَةٌ', think: 'Figures, no opinion.' },
     ],
     legend: ['k', 'e', 'w'], legendLabels: { k: 'SOURCE', e: 'EVIDENCE', w: 'REPORT' },
-    model: 'النَّصُّ الأَوَّلُ تَقْرِيرٌ. {k|وَفْقًا لِـ}بَيَانَاتِ البَلَدِيَّةِ، انْخَفَضَ اسْتِهْلَاكُ الكَهْرَبَاءِ {e|بِنِسْبَةِ ١٨٪}، وَهٰذَا دَلِيلٌ مُحَدَّدٌ. وَ{w|يُشَارُ إِلَى أَنَّ} النِّظَامَ يُطْفِئُ الإِضَاءَةَ فِي الغُرَفِ الفَارِغَةِ. نَبْرَةُ النَّصِّ مُحَايِدَةٌ لِأَنَّهُ يَعْرِضُ أَرْقَامًا.',
+    model: 'النَّصُّ الأَوَّلُ تَقْرِيرٌ. {k|وَفْقًا لِبَيَانَاتِ} البَلَدِيَّةِ، انْخَفَضَ اسْتِهْلَاكُ الكَهْرَبَاءِ {e|بِنِسْبَةِ ١٨٪}، وَهٰذَا دَلِيلٌ مُحَدَّدٌ. وَ{w|يُشَارُ إِلَى أَنَّ} النِّظَامَ يُطْفِئُ الإِضَاءَةَ فِي الغُرَفِ الفَارِغَةِ. نَبْرَةُ النَّصِّ مُحَايِدَةٌ لِأَنَّهُ يَعْرِضُ أَرْقَامًا.',
     modelEn: 'The first text is a report. According to council data, electricity use fell by 18%, and this is precise evidence. It is indicated that the system turns off lights in empty rooms. The tone is neutral because it presents figures.',
     notes: 'I DO (3 min) — think-aloud on the website reading text 1 using the four-question routine (source → evidence → how → tone). Students then do text 2 themselves in the You Do.',
   },

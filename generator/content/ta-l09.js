@@ -42,7 +42,7 @@ const raw = D.devLesson('F6-L03', {
       q('“Drink!” to a girl =', ['اِشْرَبِي', 'اِشْرَبْ', 'اِشْرَبُوا'], 'AT-A-L08: imperative -ī.'),
       q('السَّاعَةُ الثَّامِنَةُ إِلَّا الرُّبْعَ = ?', ['7:45', '8:15', '8:45'], 'AT-A-L02: quarter to.'),
     ],
-    keyIdea: { text: 'By bus / train / car → bi-. On a bike → ‘alā. On foot → mashyan (no little word).', ar: 'أَذْهَبُ {k|بِـ}الحَافِلَةِ · {k|عَلَى} الدَّرَّاجَةِ · {k|مَشْيًا}' },
+    keyIdea: { text: 'By bus / train / car → bi-. On a bike → ‘alā. On foot → mashyan (no little word).', ar: 'أَذْهَبُ {k|بِالحَافِلَةِ} · {k|عَلَى} الدَّرَّاجَةِ · {k|مَشْيًا}' },
     retrieves: 'Questions 1–2 test two of the five transport words prepared at home at the end of AT-A-L08. Questions 3–5 retrieve AT-A-L08 (advice, imperative) and AT-A-L02 (time — needed for today’s timetable).',
   },
   routes: {
@@ -70,7 +70,7 @@ const raw = D.devLesson('F6-L03', {
       type: 'formsTable', stage: 'teach', min: 3, eyebrow: 'Grammar focus · Part 1 · three ways to travel (website rules + table)', title: 'By bus, on a bike, on foot', ar: 'بِـ · عَلَى · مَشْيًا',
       cols: [{ label: 'Pattern', w: 2.0, size: 24 }, { label: 'I go … / to a boy', w: 4.0, size: 24 }, { label: 'She goes … / to a girl', w: 4.0, size: 24 }, { label: 'Meaning', w: 2.33 }],
       rows: [
-        { core: true, cells: [{ ar: '{k|بِـ}' }, { ar: 'أَذْهَبُ {k|بِـ}الحَافِلَةِ' }, { ar: '{e|تَ}ذْهَبُ {k|بِـ}القِطَارِ' }, 'by'] },
+        { core: true, cells: [{ ar: '{k|بِـ}' }, { ar: 'أَذْهَبُ {k|بِالحَافِلَةِ}' }, { ar: '{e|تَ}ذْهَبُ {k|بِالقِطَارِ}' }, 'by'] },
         { core: true, cells: [{ ar: '{k|عَلَى}' }, { ar: 'أَذْهَبُ {k|عَلَى} الدَّرَّاجَةِ' }, { ar: '{e|تَ}ذْهَبُ {k|عَلَى} الدَّرَّاجَةِ' }, 'on'] },
         { core: true, cells: [{ ar: '{k|مَشْيًا}' }, { ar: 'أَذْهَبُ {k|مَشْيًا}' }, { ar: '{e|تَ}ذْهَبُ {k|مَشْيًا}' }, 'on foot'] },
         { cells: [{ ar: 'كَيْفَ …؟' }, { ar: 'كَيْفَ تَذْهَبُ؟' }, { ar: 'كَيْفَ تَذْهَبِ{e|ينَ}؟' }, 'how? (to m. · to f.)'] },
@@ -98,13 +98,13 @@ Directions (FLEX): اِذْهَبْ مُسْتَقِيمًا · اِنْعَطِ
   ido: {
     title: 'Watch me explain a journey',
     steps: [
-      { head: 'How', ar: 'أَذْهَبُ إِلَى المَدْرَسَةِ {k|بِـ}الحَافِلَةِ.', think: 'Bus → bi-.' },
+      { head: 'How', ar: 'أَذْهَبُ إِلَى المَدْرَسَةِ {k|بِالحَافِلَةِ}.', think: 'Bus → bi-.' },
       { head: 'When', ar: 'تُغَادِرُ الحَافِلَةُ فِي السَّاعَةِ السَّابِعَةِ وَالنِّصْفِ.', think: 'Bus is f. → tughādiru.' },
       { head: 'Someone else', ar: 'أَمَّا أَخِي فَيَذْهَبُ {k|عَلَى} الدَّرَّاجَةِ.', think: 'Bike → ‘alā.' },
       { head: 'Compare', ar: 'الحَافِلَةُ {p|أَسْرَعُ مِنَ} الدَّرَّاجَةِ، وَلٰكِنَّ الدَّرَّاجَةَ أَرْخَصُ.', think: 'faster than … cheaper.' },
     ],
     legend: ['k', 'p'], legendLabels: { k: 'BY / ON', p: 'COMPARE' },
-    model: 'أَذْهَبُ إِلَى المَدْرَسَةِ {k|بِـ}الحَافِلَةِ لِأَنَّ بَيْتِي بَعِيدٌ. تُغَادِرُ الحَافِلَةُ فِي السَّاعَةِ السَّابِعَةِ وَالنِّصْفِ. أَمَّا أَخِي فَيَذْهَبُ {k|عَلَى} الدَّرَّاجَةِ، وَأُخْتِي تَذْهَبُ {k|مَشْيًا}. الحَافِلَةُ {p|أَسْرَعُ مِنَ} الدَّرَّاجَةِ، وَلٰكِنَّ الدَّرَّاجَةَ أَرْخَصُ.',
+    model: 'أَذْهَبُ إِلَى المَدْرَسَةِ {k|بِالحَافِلَةِ} لِأَنَّ بَيْتِي بَعِيدٌ. تُغَادِرُ الحَافِلَةُ فِي السَّاعَةِ السَّابِعَةِ وَالنِّصْفِ. أَمَّا أَخِي فَيَذْهَبُ {k|عَلَى} الدَّرَّاجَةِ، وَأُخْتِي تَذْهَبُ {k|مَشْيًا}. الحَافِلَةُ {p|أَسْرَعُ مِنَ} الدَّرَّاجَةِ، وَلٰكِنَّ الدَّرَّاجَةَ أَرْخَصُ.',
     modelEn: 'I go to school by bus because my house is far. The bus leaves at half past seven. As for my brother, he goes by bike, and my sister walks. The bus is faster than the bike, but the bike is cheaper.',
     notes: 'I DO (3 min) — website patterns (بِالحَافِلَةِ · عَلَى الدَّرَّاجَةِ · مَشْيًا) and the website model (لِأَنَّ بَيْتِي بَعِيدٌ · أَمَّا أُخْتِي فَـ…) with a Topic A time and a comparison added.',
   },

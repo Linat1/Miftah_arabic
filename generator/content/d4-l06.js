@@ -61,8 +61,8 @@ const slides = D.devLesson('D4-L06', {
       rows: [
         { core: true, cells: [P('{e|تُحَوِّلُ} الأَلْوَاحُ الشَّمْسِيَّةُ ضَوْءَ الشَّمْسِ إِلَى كَهْرَبَاءَ.', 'Solar panels convert sunlight into electricity.'), 'active · non-human plural → ta-'] },
         { core: true, cells: [P('{e|تُخَفِّضُ} المَدِينَةُ الذَّكِيَّةُ الانْبِعَاثَاتِ.', 'The smart city reduces emissions.'), 'active · feminine → ta-'] },
-        { cells: [P('{w|يُسْتَخْدَمُ} الذَّكَاءُ الاصْطِنَاعِيُّ {k|لِـ}رَصْدِ التَّلَوُّثِ.', 'AI is used to monitor pollution.'), 'passive · al-dhakāʾ (m.) → yu-'] },
-        { cells: [P('{e|تُسْتَخْدَمُ} الأَقْمَارُ الصِّنَاعِيَّةُ {k|لِـ}مُرَاقَبَةِ الجَفَافِ.', 'Satellites are used to monitor drought.'), 'passive · non-human plural → tu-'] },
+        { cells: [P('{w|يُسْتَخْدَمُ} الذَّكَاءُ الاصْطِنَاعِيُّ {k|لِرَصْدِ} التَّلَوُّثِ.', 'AI is used to monitor pollution.'), 'passive · al-dhakāʾ (m.) → yu-'] },
+        { cells: [P('{e|تُسْتَخْدَمُ} الأَقْمَارُ الصِّنَاعِيَّةُ {k|لِمُرَاقَبَةِ} الجَفَافِ.', 'Satellites are used to monitor drought.'), 'passive · non-human plural → tu-'] },
       ],
       ltr: true,
       foot: 'Purpose after the passive: li- + a verbal noun (li-raṣdi = for monitoring).',
