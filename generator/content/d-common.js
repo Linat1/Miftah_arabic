@@ -83,7 +83,7 @@ function devLesson(code, x) {
   // x.patch: teacher replacements where a website section is a generic placeholder (D2-L02 onwards: listening / reading
   // questions, pattern translations, sorter, some mistakes). Scripts and texts always stay the website's.
   const raw = site(code); const pt = x.patch || {};
-  const s = { ...raw, ...pt, listening: { ...raw.listening, ...(pt.listening || {}) }, reading: { ...raw.reading, ...(pt.reading || {}) }, differentiation: { ...raw.differentiation, ...(x.diff || {}) } };
+  const s = { ...raw, ...pt, listening: { ...raw.listening, ...(pt.listening || {}) }, reading: { ...raw.reading, ...(pt.reading || {}) }, grammar: { ...raw.grammar, ...(pt.grammar || {}) }, writing: { ...raw.writing, ...(pt.writing || {}) }, speaking: { ...raw.speaking, ...(pt.speaking || {}) }, differentiation: { ...raw.differentiation, ...(x.diff || {}) } };
   // clock times in Arabic-Indic digits (٨:٣٠) reverse in mixed runs: show them as 8:30
   const clock = (t) => (typeof t === 'string' ? t.replace(/[٠-٩]+:[٠-٩]+/g, (m) => m.replace(/[٠-٩]/g, (d) => '٠١٢٣٤٥٦٧٨٩'.indexOf(d))) : t);
   const fixQ = (qs) => (qs || []).map((x) => ({ ...x, prompt: clock(x.prompt), feedback: clock(x.feedback), options: (x.options || []).map(clock) }));
@@ -121,7 +121,7 @@ function devLesson(code, x) {
   slides.push(C.quickCheck(qc.map((i) => splitPrompt(G.quiz[i])), `website grammar quiz questions ${qc.map((i) => i + 1).join(', ')}.`));
   slides.push({ type: 'ido', stage: 'ido', min: 3, eyebrow: 'I do · watch, then copy', title: x.ido.title, ar: 'شَاهِدْ ثُمَّ اُكْتُبْ', ...x.ido });
   slides.push({
-    type: 'models', stage: 'ido', min: 1, eyebrow: 'I do · model sentences from the website', title: 'Sentences to borrow', ar: 'جُمَلٌ نَمُوذَجِيَّةٌ',
+    type: 'models', stage: 'ido', min: 1, eyebrow: x.patterns ? 'I do · model sentences (teacher-written on the website rules)' : 'I do · model sentences from the website', title: 'Sentences to borrow', ar: 'جُمَلٌ نَمُوذَجِيَّةٌ',
     rows: (x.patterns || s.patterns).slice(0, 4).map((p) => ({ ar: p.ar, en: p.en, tip: p.tip })),
     notes: `MODEL SENTENCES (1 min) — website patterns. Students copy TWO that are useful for them.\n${x.modelsNotes || '• Core: copy one and change one word. • Develop: copy two and change the subject. • Stretch: combine two into one longer sentence with a connector.'}`,
   });
