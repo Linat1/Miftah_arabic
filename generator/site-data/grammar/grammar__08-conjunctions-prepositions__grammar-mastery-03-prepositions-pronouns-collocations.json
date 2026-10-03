@@ -1,0 +1,477 @@
+{
+ "path": "lessons/grammar/08-conjunctions-prepositions/grammar-mastery-03-prepositions-pronouns-collocations.php",
+ "title": "Prepositions with Pronouns and Verb Collocations",
+ "arabic": "حُرُوفُ الْجَرِّ مَعَ الضَّمَائِرِ وَالْمُتَلَازِمَاتِ",
+ "lede": "Build compact forms such as فِيهِ and إِلَيْهَا, then learn verbs with the prepositions they naturally require.",
+ "nav": [
+  [
+   "GM-CP-02",
+   "Spatial and Temporal Locators"
+  ]
+ ],
+ "quizzes": [
+  {
+   "title": "🔎 Entry Check",
+   "items": [
+    {
+     "prompt": "Choose “in it / in him”.",
+     "options": [
+      "فِيهِ",
+      "فِيهُ",
+      "لَهُ"
+     ],
+     "answer": 0,
+     "feedback": "The established form is فِيهِ."
+    },
+    {
+     "prompt": "Choose “to her”.",
+     "options": [
+      "إِلَيْهَا",
+      "إِلَى هَا",
+      "عَلَيْهَا"
+     ],
+     "answer": 0,
+     "feedback": "The pronoun attaches to the transformed stem إِلَيْـ."
+    },
+    {
+     "prompt": "Complete: أَبْحَثُ ___ مَعْلُومَاتٍ.",
+     "options": [
+      "عَنْ",
+      "إِلَى",
+      "عَلَى"
+     ],
+     "answer": 0,
+     "feedback": "The collocation is بحث عن."
+    },
+    {
+     "prompt": "Complete: أَسْتَمِعُ ___ الْمُوسِيقَى.",
+     "options": [
+      "إِلَى",
+      "عَنْ",
+      "مِنْ"
+     ],
+     "answer": 0,
+     "feedback": "The collocation is استمع إلى."
+    },
+    {
+     "prompt": "Which verb normally takes a direct object without إِلَى?",
+     "options": [
+      "زَارَ صَدِيقَهُ",
+      "ذَهَبَ إِلَى صَدِيقِهِ",
+      "اِسْتَمَعَ إِلَى صَدِيقِهِ"
+     ],
+     "answer": 0,
+     "feedback": "زار directly governs the person or place visited."
+    },
+    {
+     "prompt": "Choose “with them”.",
+     "options": [
+      "مَعَهُمْ",
+      "مَعَ هُمْ",
+      "بِهُمْ only"
+     ],
+     "answer": 0,
+     "feedback": "مَعَهُمْ is the company form; بِهُمْ has a different function."
+    }
+   ]
+  },
+  {
+   "title": "Pronoun Form Check",
+   "items": [
+    {
+     "prompt": "Choose “on it / on him”.",
+     "options": [
+      "عَلَيْهِ",
+      "عَلَاهُ",
+      "عَلَى هِ"
+     ],
+     "answer": 0,
+     "feedback": "على becomes عليـ before the pronoun."
+    },
+    {
+     "prompt": "Choose “from them”.",
+     "options": [
+      "مِنْهُمْ",
+      "مِنْ هُمْ",
+      "عَنْهُمْ"
+     ],
+     "answer": 0,
+     "feedback": "من + هم = منهم."
+    },
+    {
+     "prompt": "Choose “for her”.",
+     "options": [
+      "لَهَا",
+      "لِهَا",
+      "بِهَا"
+     ],
+     "answer": 0,
+     "feedback": "The established form is لها."
+    },
+    {
+     "prompt": "Choose “with them” meaning company.",
+     "options": [
+      "مَعَهُمْ",
+      "بِهِمْ",
+      "فِيهِمْ"
+     ],
+     "answer": 0,
+     "feedback": "Company uses مع."
+    }
+   ]
+  },
+  {
+   "title": "Reference Check",
+   "items": [
+    {
+     "prompt": "Replace الْمَدْرَسَةِ in ذَهَبْتُ إِلَى الْمَدْرَسَةِ.",
+     "options": [
+      "ذَهَبْتُ إِلَيْهَا.",
+      "ذَهَبْتُ إِلَيْهِ.",
+      "ذَهَبْتُ عَلَيْهَا."
+     ],
+     "answer": 0,
+     "feedback": "المدرسة is feminine; retain the preposition إلى."
+    },
+    {
+     "prompt": "Replace الْكِتَابِ in بَحَثْتُ عَنِ الْكِتَابِ.",
+     "options": [
+      "بَحَثْتُ عَنْهُ.",
+      "بَحَثْتُ إِلَيْهِ.",
+      "بَحَثْتُ فِيهَا."
+     ],
+     "answer": 0,
+     "feedback": "الكتاب is masculine; retain عن."
+    },
+    {
+     "prompt": "Replace الصَّدِيقَاتِ in ذَهَبْتُ مَعَ الصَّدِيقَاتِ.",
+     "options": [
+      "ذَهَبْتُ مَعَهُنَّ.",
+      "ذَهَبْتُ مَعَهُمْ.",
+      "ذَهَبْتُ بِهَا."
+     ],
+     "answer": 0,
+     "feedback": "A feminine human plural takes ـهُنَّ."
+    },
+    {
+     "prompt": "Replace الْمَعْلُومَاتِ after اهتممت بـ.",
+     "options": [
+      "اِهْتَمَمْتُ بِهَا.",
+      "اِهْتَمَمْتُ لَهَا.",
+      "اِهْتَمَمْتُ عَنْهَا."
+     ],
+     "answer": 0,
+     "feedback": "Non-human plural information is grammatically feminine singular; retain بـ."
+    }
+   ]
+  },
+  {
+   "title": "Collocation Check",
+   "items": [
+    {
+     "prompt": "Complete: أُفَكِّرُ ___ خُطَطِي.",
+     "options": [
+      "فِي",
+      "عَنْ",
+      "مِنْ"
+     ],
+     "answer": 0,
+     "feedback": "The collocation is فكر في."
+    },
+    {
+     "prompt": "Complete: شَارَكْتُ ___ الْمَشْرُوعِ.",
+     "options": [
+      "فِي",
+      "إِلَى",
+      "عَنْ"
+     ],
+     "answer": 0,
+     "feedback": "The collocation is شارك في."
+    },
+    {
+     "prompt": "Complete: نَعْتَمِدُ ___ الطَّاقَةِ الشَّمْسِيَّةِ.",
+     "options": [
+      "عَلَى",
+      "إِلَى",
+      "مِنْ"
+     ],
+     "answer": 0,
+     "feedback": "The collocation is اعتمد على."
+    },
+    {
+     "prompt": "Complete: أَحْتَاجُ ___ مُسَاعَدَةٍ.",
+     "options": [
+      "إِلَى",
+      "عَنْ",
+      "مَعَ"
+     ],
+     "answer": 0,
+     "feedback": "The collocation is احتاج إلى."
+    }
+   ]
+  },
+  {
+   "title": "🏁 Final Mastery",
+   "items": [
+    {
+     "prompt": "Choose “to them”.",
+     "options": [
+      "إِلَيْهِمْ",
+      "إِلَى هُمْ",
+      "عَلَيْهِمْ"
+     ],
+     "answer": 0,
+     "feedback": "إلى + هم = إليهم."
+    },
+    {
+     "prompt": "Choose “about her”.",
+     "options": [
+      "عَنْهَا",
+      "عَلَيْهَا",
+      "مِنْهَا"
+     ],
+     "answer": 0,
+     "feedback": "عن + ها = عنها."
+    },
+    {
+     "prompt": "Choose “with her” meaning company.",
+     "options": [
+      "مَعَهَا",
+      "بِهَا",
+      "فِيهَا"
+     ],
+     "answer": 0,
+     "feedback": "Company uses مع."
+    },
+    {
+     "prompt": "Complete: اِعْتَمَدْنَا ___ الْخُطَّةِ.",
+     "options": [
+      "عَلَى",
+      "إِلَى",
+      "عَنْ"
+     ],
+     "answer": 0,
+     "feedback": "اعتمد على."
+    },
+    {
+     "prompt": "Complete: وَصَلْنَا ___ الْمَطَارِ.",
+     "options": [
+      "إِلَى",
+      "عَنْ",
+      "مَعَ"
+     ],
+     "answer": 0,
+     "feedback": "وصل إلى."
+    },
+    {
+     "prompt": "Complete: تَحَدَّثْتُ ___ صَدِيقِي ___ الْمُشْكِلَةِ.",
+     "options": [
+      "مَعَ … عَنِ",
+      "عَنْ … مَعَ",
+      "إِلَى … مِنْ"
+     ],
+     "answer": 0,
+     "feedback": "Person with = مع; topic about = عن."
+    },
+    {
+     "prompt": "Correct direct-object sentence.",
+     "options": [
+      "سَاعَدْتُ أَخِي.",
+      "سَاعَدْتُ لِأَخِي.",
+      "سَاعَدْتُ إِلَى أَخِي."
+     ],
+     "answer": 0,
+     "feedback": "ساعد takes a direct object."
+    },
+    {
+     "prompt": "Replace الْحَدِيقَةِ in ذَهَبْتُ إِلَى الْحَدِيقَةِ.",
+     "options": [
+      "ذَهَبْتُ إِلَيْهَا.",
+      "ذَهَبْتُ إِلَيْهِ.",
+      "ذَهَبْتُ عَنْهَا."
+     ],
+     "answer": 0,
+     "feedback": "Feminine noun, same preposition."
+    },
+    {
+     "prompt": "Replace الْكُتُبِ in بَحَثْتُ عَنِ الْكُتُبِ.",
+     "options": [
+      "بَحَثْتُ عَنْهَا.",
+      "بَحَثْتُ عَنْهُمْ.",
+      "بَحَثْتُ إِلَيْهَا."
+     ],
+     "answer": 0,
+     "feedback": "Non-human plural is grammatically feminine singular."
+    },
+    {
+     "prompt": "Best vocabulary strategy?",
+     "options": [
+      "Store verb + preposition + model sentence.",
+      "Store an English translation only.",
+      "Add إلى after every verb of movement or contact."
+     ],
+     "answer": 0,
+     "feedback": "The usable unit is the whole collocation."
+    }
+   ]
+  }
+ ],
+ "games": [
+  [
+   {
+    "p": "Choose “to her”.",
+    "a": "إِلَيْهَا",
+    "choices": [
+     "إِلَيْهَا",
+     "إِلَى هَا",
+     "عَلَيْهَا"
+    ],
+    "e": "إلى becomes إليـ before the pronoun."
+   },
+   {
+    "p": "Choose “on them”.",
+    "a": "عَلَيْهِمْ",
+    "choices": [
+     "عَلَيْهِمْ",
+     "عَلَى هُمْ",
+     "فِيهِمْ"
+    ],
+    "e": "على becomes عليـ before the pronoun."
+   },
+   {
+    "p": "Choose “for him”.",
+    "a": "لَهُ",
+    "choices": [
+     "لَهُ",
+     "لِهُ",
+     "بِهِ"
+    ],
+    "e": "The established form is له."
+   },
+   {
+    "p": "Complete: أَبْحَثُ ___ كِتَابٍ.",
+    "a": "عَنْ",
+    "choices": [
+     "عَنْ",
+     "إِلَى",
+     "فِي"
+    ],
+    "e": "بحث عن."
+   },
+   {
+    "p": "Complete: أَسْتَمِعُ ___ الْبُودْكَاسْتِ.",
+    "a": "إِلَى",
+    "choices": [
+     "إِلَى",
+     "عَنْ",
+     "مِنْ"
+    ],
+    "e": "استمع إلى."
+   },
+   {
+    "p": "Complete: أُفَكِّرُ ___ خُطَّةٍ جَدِيدَةٍ.",
+    "a": "فِي",
+    "choices": [
+     "فِي",
+     "مَعَ",
+     "مِنْ"
+    ],
+    "e": "فكر في."
+   },
+   {
+    "p": "Complete: نَهْتَمُّ ___ الْبِيئَةِ.",
+    "a": "بِالْبِيئَةِ",
+    "choices": [
+     "بِالْبِيئَةِ",
+     "إِلَى الْبِيئَةِ",
+     "عَنِ الْبِيئَةِ"
+    ],
+    "e": "اهتم بـ."
+   },
+   {
+    "p": "Complete: شَارَكُوا ___ الْمُسَابَقَةِ.",
+    "a": "فِي",
+    "choices": [
+     "فِي",
+     "إِلَى",
+     "عَنْ"
+    ],
+    "e": "شارك في."
+   },
+   {
+    "p": "Which is correct?",
+    "a": "زُرْتُ الْمُتْحَفَ.",
+    "choices": [
+     "زُرْتُ الْمُتْحَفَ.",
+     "زُرْتُ إِلَى الْمُتْحَفِ.",
+     "زُرْتُ عَنِ الْمُتْحَفِ."
+    ],
+    "e": "زار takes a direct object."
+   },
+   {
+    "p": "Replace الْمَعْلُومَاتِ in بَحَثْتُ عَنِ الْمَعْلُومَاتِ.",
+    "a": "بَحَثْتُ عَنْهَا.",
+    "choices": [
+     "بَحَثْتُ عَنْهَا.",
+     "بَحَثْتُ إِلَيْهَا.",
+     "بَحَثْتُ بِهَا."
+    ],
+    "e": "Retain عن; المعلومات is feminine singular in agreement."
+   }
+  ]
+ ],
+ "blocks": [
+  "## Why this matters",
+  "Attached pronouns make Arabic concise, while accurate collocations prevent sentences that are grammatically possible-looking but unnatural.",
+  "### Core",
+  "Recognise forms with ـه، ـها and ـهم.",
+  "### Develop",
+  "Use full pronoun families and verb–preposition pairs.",
+  "### Stretch",
+  "Contrast direct objects with governed prepositional complements.",
+  "[callout] Communication target: Avoid repetition by replacing a known noun with the correct attached pronoun.",
+  "## Diagnostic start",
+  "Use meaning and the visible stem to identify each form.",
+  "## How pronouns attach",
+  "A preposition and attached pronoun form one written word.",
+  "TABLE: Base | him / it m. | her / it f. | them m./mixed | Meaning family // فِي | فِيهِ | فِيهَا | فِيهِمْ | in // إِلَى | إِلَيْهِ | إِلَيْهَا | إِلَيْهِمْ | to / towards // عَلَى | عَلَيْهِ | عَلَيْهَا | عَلَيْهِمْ | on / upon // عَنْ | عَنْهُ | عَنْهَا | عَنْهُمْ | about / away from // مِنْ | مِنْهُ | مِنْهَا | مِنْهُمْ | from // مَعَ | مَعَهُ | مَعَهَا | مَعَهُمْ | with / in company // لِـ | لَهُ | لَهَا | لَهُمْ | for / to / possession // بِـ | بِهِ | بِهَا | بِهِمْ | with / by / using",
+  "[callout] Notice the stem: إِلَى and عَلَى become إِلَيْـ and عَلَيْـ before attached pronouns: إِلَيْهِ، عَلَيْهَا .",
+  "[callout/warning] Pronunciation and writing: Write one word. Do not separate إِلَى هَا or invent عَلَاهُ .",
+  "## Replace the repeated noun",
+  "First identify the preposition; then attach a pronoun matching the known noun.",
+  "[ar] ذَهَبْتُ إِلَى الْمَكْتَبَةِ. ذَهَبْتُ إِلَيْهَا أَمْسِ.",
+  "[ar] تَحَدَّثْنَا عَنِ الرِّحْلَةِ. تَحَدَّثْنَا عَنْهَا طَوِيلًا.",
+  "[ar] الْكِتَابُ عَلَى الطَّاوِلَةِ. هُوَ عَلَيْهَا.",
+  "[ar] ذَهَبْتُ مَعَ أَصْدِقَائِي. قَضَيْتُ الْيَوْمَ مَعَهُمْ.",
+  "[callout] Reference check: The pronoun agrees with the noun it replaces, not with the English word “it”. الْمَكْتَبَةُ is feminine, so use إِلَيْهَا .",
+  "## Verb–preposition collocations",
+  "Treat each pair as one vocabulary item.",
+  "TABLE: Verb + preposition | Meaning | Model // ذَهَبَ إِلَى | go to | ذَهَبْنَا إِلَى الْمَطَارِ. // وَصَلَ إِلَى | arrive at / reach | وَصَلْتُ إِلَى الْفُنْدُقِ. // عَادَ مِنْ | return from | عَادُوا مِنَ السَّفَرِ. // بَحَثَ عَنْ | look/search for | أَبْحَثُ عَنْ عَمَلٍ. // تَحَدَّثَ عَنْ | talk about | تَحَدَّثْنَا عَنِ الْبِيئَةِ. // تَحَدَّثَ مَعَ | talk with | تَحَدَّثْتُ مَعَ الْمُعَلِّمَةِ. // اِسْتَمَعَ إِلَى | listen to | أَسْتَمِعُ إِلَى الْأَخْبَارِ. // فَكَّرَ فِي | think about / consider | أُفَكِّرُ فِي الْمُسْتَقْبَلِ. // اِهْتَمَّ بِـ | be interested in / care about | نَهْتَمُّ بِالصِّحَّةِ. // شَارَكَ فِي | take part in | شَارَكْتُ فِي الْمُسَابَقَةِ. // اِعْتَمَدَ عَلَى | depend/rely on | نَعْتَمِدُ عَلَى التِّقْنِيَّةِ. // اِحْتَاجَ إِلَى | need | أَحْتَاجُ إِلَى وَقْتٍ.",
+  "[callout] One verb, two meanings: تَحَدَّثَ عَنْ introduces the topic; تَحَدَّثَ مَعَ identifies the person spoken with.",
+  "## Direct object or preposition?",
+  "Not every English “to” or “for” becomes an Arabic preposition.",
+  "TABLE: Correct Arabic | Avoid | Reason // زُرْتُ صَدِيقِي. | زُرْتُ إِلَى صَدِيقِي. | زار takes a direct object // سَأَلْتُ الْمُعَلِّمَ. | سَأَلْتُ إِلَى الْمُعَلِّمِ. | سأل takes a direct object // سَاعَدْتُ أُخْتِي. | سَاعَدْتُ لِأُخْتِي. | ساعد takes a direct object // اِنْتَظَرْتُ الْحَافِلَةَ. | اِنْتَظَرْتُ لِلْحَافِلَةِ. | انتظر takes a direct object // أَجَبْتُ عَنِ السُّؤَالِ. | أَجَبْتُ السُّؤَالَ in this target pattern | أجاب عن is the taught collocation",
+  "[callout/warning] Translation trap: English syntax does not decide Arabic syntax. Store the Arabic verb with its complement pattern.",
+  "## Misconception and proofreading clinic",
+  "Repair stem, reference and collocation errors.",
+  "TABLE: Incorrect | Correct | Why // ذَهَبْتُ إِلَى هَا. | ذَهَبْتُ إِلَيْهَا. | attach pronoun and change stem // الْمَدْرَسَةُ قَرِيبَةٌ. ذَهَبْتُ إِلَيْهِ. | الْمَدْرَسَةُ قَرِيبَةٌ. ذَهَبْتُ إِلَيْهَا. | pronoun agrees with المدرسة // أَبْحَثُ إِلَى عَمَلٍ. | أَبْحَثُ عَنْ عَمَلٍ. | بحث عن // زُرْتُ إِلَى الْمُتْحَفِ. | زُرْتُ الْمُتْحَفَ. | زار takes a direct object",
+  "## Grammar game",
+  "Match each verb, meaning or pronoun form with its natural completion.",
+  "## Skills workshop التَّطْبِيقُ الْعَمَلِيُّ",
+  "Use compact pronoun forms and collocations in messages, gap fills and spoken answers.",
+  "[ar] قَرَأْتُ عَنِ الْمَسَابَقَةِ، ثُمَّ شَارَكْتُ فِيهَا.",
+  "[ar] تَحَدَّثْتُ مَعَ مُعَلِّمِي عَنِ الْمُسْتَقْبَلِ، وَاسْتَمَعْتُ إِلَيْهِ بِعِنَايَةٍ.",
+  "### Write a connected account",
+  "Write 80–100 Arabic words about a project, club, journey or school event. Refer back to people, places and things with attached pronouns instead of repeating every noun.",
+  "[callout] Success checklist: Use five verb–preposition collocations; use four attached preposition–pronoun forms; include one direct-object verb correctly without an unnecessary preposition.",
+  "[callout] Paper route: Underline verb–preposition pairs once and circle attached pronoun forms. Check what each pronoun refers to.",
+  "## Final mastery check",
+  "Check pronoun attachment and natural verb–preposition combinations.",
+  "### What you can now do",
+  "- Attach pronouns to common prepositions.",
+  "- Recognise high-frequency stem changes such as عَلَيْهِ and إِلَيْهَا.",
+  "- Learn verbs together with their required prepositions.",
+  "- Avoid adding a preposition to verbs that take a direct object.",
+  "Spaced revisit: Return in two or three days and complete the final check again without looking at the tables."
+ ]
+}

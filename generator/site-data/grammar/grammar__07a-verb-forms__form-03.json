@@ -1,0 +1,114 @@
+{
+ "path": "lessons/grammar/07a-verb-forms/form-03.php",
+ "title": "Form III: Participation and Interaction",
+ "arabic": "الْوَزْنُ الثَّالِثُ",
+ "lede": "Form III frequently describes involvement with another person or engagement in an action. It is particularly useful for speaking about school and social life.",
+ "nav": [
+  [
+   "GM-VF-02",
+   "Form II: Teaching and Intensifying"
+  ]
+ ],
+ "quizzes": [
+  {
+   "title": "Quick pattern check",
+   "items": [
+    {
+     "prompt": "Which verb is Form III?",
+     "options": [
+      "تَسَاعَدَ",
+      "سَعَدَ",
+      "سَاعَدَ"
+     ],
+     "answer": 2,
+     "feedback": "The long ā after the first radical is a characteristic Form III feature."
+    }
+   ]
+  },
+  {
+   "title": "Form III · Self-check",
+   "items": [
+    {
+     "prompt": "Which verb is Form III?",
+     "options": [
+      "سَعَدَ",
+      "سَاعَدَ",
+      "تَسَاعَدَ"
+     ],
+     "answer": 1,
+     "feedback": "The long ā after the first radical is a characteristic Form III feature."
+    },
+    {
+     "prompt": "Choose the present of شَارَكَ.",
+     "options": [
+      "يَتَشَارَكُ",
+      "يَشْرَكُ",
+      "يُشَارِكُ"
+     ],
+     "answer": 2,
+     "feedback": "Form III commonly follows يُفَاعِلُ."
+    },
+    {
+     "prompt": "What is the best interpretation of Form III?",
+     "options": [
+      "It always means a reciprocal action.",
+      "It is simply the plural of Form I.",
+      "It often suggests interaction, but each verb has its own meaning."
+     ],
+     "answer": 2,
+     "feedback": "Meaning depends on the actual verb and context."
+    }
+   ]
+  }
+ ],
+ "games": [],
+ "blocks": [
+  "## Why this matters",
+  "Learn the meaning before memorising the pattern.",
+  "### Core",
+  "Recognise the pattern and understand the model verb in a sentence.",
+  "### Develop",
+  "Use two or three verbs from this family in accurate past and present sentences.",
+  "[callout] Your goal: Form III frequently describes involvement with another person or engagement in an action. It is particularly useful for speaking about school and social life.",
+  "## Discover the pattern",
+  "Notice what changes and what stays connected to the root.",
+  "### Root and pattern",
+  "A long ā is inserted after the first root consonant in the past: فَاعَلَ. The present commonly follows يُفَاعِلُ, with the same long vowel.",
+  "TABLE: Past | Present | Meaning // شَارَكَ | يُشَارِكُ | to participate",
+  "[callout] Notice the relationship: شَارَكَ means to participate or share in an activity. Other Form III verbs, such as سَاعَدَ, have their own lexical meanings; the pattern does not guarantee reciprocity.",
+  "## Learn the family",
+  "Read each pair aloud, then use the verbs in meaningful sentences.",
+  "TABLE: Past | Present | Meaning // سَاعَدَ | يُسَاعِدُ | to help // حَاوَلَ | يُحَاوِلُ | to try // سَافَرَ | يُسَافِرُ | to travel",
+  "أُشَارِكُ فِي نَادِي الْقِرَاءَةِ.",
+  "I participate in the reading club.",
+  "سَاعَدَتْ سَلْمَى صَدِيقَتَهَا فِي الْوَاجِبِ.",
+  "Salma helped her friend with the homework.",
+  "نُحَاوِلُ أَنْ نَتَحَدَّثَ بِالْعَرَبِيَّةِ.",
+  "We try to speak Arabic.",
+  "[callout] Look closely: Compare شَرِكَ / يَشْرَكُ with شَارَكَ / يُشَارِكُ. The long vowel is a recognisable clue, but use the dictionary meaning of the actual verb.",
+  "## Practise and apply",
+  "Move from recognising the pattern to using the language yourself.",
+  "### Misconception clinic",
+  "Form III does not always mean “doing something to each other”. سَاعَدَ means to help; سَافَرَ means to travel.",
+  "I helped my friend. No reciprocal meaning is required.",
+  "### Apply the form",
+  "Write a four-sentence account of a school activity using participate, help and try. Include a past event and a present habit.",
+  "[callout] Success checklist: Use the correct verb form and person; check the past/present vowels; use a natural sentence and reread your Arabic.",
+  "Complete your own response first. This is one possible answer, not the only correct response.",
+  "أُشَارِكُ فِي نَادِي الْقِرَاءَةِ. أَمْسِ سَاعَدْتُ صَدِيقَتِي فِي الْوَاجِبِ. نُحَاوِلُ أَنْ نَتَحَدَّثَ بِالْعَرَبِيَّةِ كُلَّ يَوْمٍ. وَسَافَرْنَا إِلَى لَنْدَنَ فِي الصَّيْفِ.",
+  "I participate in the reading club. Yesterday I helped my friend with the homework. We try to speak Arabic every day. We travelled to London in the summer.",
+  "Compare شَارَكَ with تَشَارَكَ. What difference can the reciprocal Form VI add in an appropriate context?",
+  "Use the optional morphology reference if you need a pattern reminder.",
+  "## Final self-check",
+  "Try the questions without looking back. Your feedback explains the key feature.",
+  "## What you can now do",
+  "Review the essentials before moving to the next form.",
+  "### Lesson mastery summary",
+  "- recognise Form III and its characteristic pattern;",
+  "- understand and use the model verb in context;",
+  "- distinguish this family from a related form;",
+  "- check the accuracy of your own Arabic sentences.",
+  "Return in a few days and repeat the self-check. Learn the next form only when you are ready.",
+  "Back to all ten forms · Optional morphology reference"
+ ]
+}

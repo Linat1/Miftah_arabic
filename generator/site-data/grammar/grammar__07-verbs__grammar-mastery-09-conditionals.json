@@ -1,0 +1,531 @@
+{
+ "path": "lessons/grammar/07-verbs/grammar-mastery-09-conditionals.php",
+ "title": "Basic Conditional Structures",
+ "arabic": "أَسَالِيبُ الشَّرْطِ الْأَسَاسِيَّةُ",
+ "lede": "Use إذا for real, expected and repeated conditions, and لو for hypothetical or counterfactual alternatives, with coherent result clauses.",
+ "nav": [
+  [
+   "GM-V-08",
+   "Negating Past and Present Actions"
+  ]
+ ],
+ "quizzes": [
+  {
+   "title": "🔎 Entry Check",
+   "items": [
+    {
+     "prompt": "Choose the likely/real condition.",
+     "options": [
+      "إِذَا دَرَسْتَ، سَتَنْجَحُ.",
+      "لَوْ كُنْتُ طَائِرًا، لَطِرْتُ.",
+      "لَنْ تَدْرُسَ."
+     ],
+     "answer": 0,
+     "feedback": "إذا commonly presents a real, expected or repeated condition."
+    },
+    {
+     "prompt": "Choose the hypothetical condition.",
+     "options": [
+      "لَوْ كَانَ عِنْدِي وَقْتٌ، لَسَافَرْتُ.",
+      "إِذَا يَأْتِي غَدًا only",
+      "لَا تُسَافِرْ."
+     ],
+     "answer": 0,
+     "feedback": "لو introduces an unreal or imagined condition."
+    },
+    {
+     "prompt": "Which often means “when” as well as “if”?",
+     "options": [
+      "إِذَا",
+      "لَوْ",
+      "لَنْ"
+     ],
+     "answer": 0,
+     "feedback": "إذا can introduce an expected future or recurring event."
+    },
+    {
+     "prompt": "Complete: إِذَا وَصَلْتَ، ___ بِي.",
+     "options": [
+      "فَاتَّصِلْ",
+      "لَنْ تَتَّصِلَ",
+      "مَا اتَّصَلْتَ"
+     ],
+     "answer": 0,
+     "feedback": "The result may be an instruction; فـ can link it clearly."
+    },
+    {
+     "prompt": "Complete: لَوْ كُنْتُ غَنِيًّا، ___ حَوْلَ الْعَالَمِ.",
+     "options": [
+      "لَسَافَرْتُ",
+      "سَافَرْتُ أَمْسِ",
+      "لَا أُسَافِرُ"
+     ],
+     "answer": 0,
+     "feedback": "لـ often marks the result of لو."
+    },
+    {
+     "prompt": "Best learning goal?",
+     "options": [
+      "Use basic condition-result patterns accurately in meaningful contexts.",
+      "Parse every classical conditional rule.",
+      "Treat إذا and لو as identical."
+     ],
+     "answer": 0,
+     "feedback": "Functional contrast is the IGCSE priority."
+    }
+   ]
+  },
+  {
+   "title": "🔀 Conditional Meaning Check",
+   "items": [
+    {
+     "prompt": "Expected weather result",
+     "options": [
+      "إِذَا أَمْطَرَتْ، سَنَبْقَى فِي الْبَيْتِ.",
+      "لَوْ كُنْتُ شَمْسًا، لَأَشْرَقْتُ.",
+      "لَنْ تُمْطِرَ أَمْسِ."
+     ],
+     "answer": 0,
+     "feedback": "A possible future condition."
+    },
+    {
+     "prompt": "Imagined ability",
+     "options": [
+      "لَوْ كُنْتُ أَسْتَطِيعُ الطَّيَرَانَ، لَزُرْتُ كُلَّ بَلَدٍ.",
+      "إِذَا أَسْتَيْقِظُ كُلَّ يَوْمٍ.",
+      "لَا تَطِرْ."
+     ],
+     "answer": 0,
+     "feedback": "Hypothetical."
+    },
+    {
+     "prompt": "Routine result",
+     "options": [
+      "إِذَا تَعِبْتُ، أَسْتَرِيحُ.",
+      "لَوْ تَعِبْتُ أَمْسِ فقط",
+      "لَنْ أَسْتَرِيحَ أَمْسِ."
+     ],
+     "answer": 0,
+     "feedback": "Recurring relation."
+    },
+    {
+     "prompt": "Which is more hypothetical?",
+     "options": [
+      "لَوْ",
+      "إِذَا",
+      "فِي"
+     ],
+     "answer": 0,
+     "feedback": "لو."
+    }
+   ]
+  },
+  {
+   "title": "✅ إِذَا Pattern Check",
+   "items": [
+    {
+     "prompt": "Best “When you arrive, call me.”",
+     "options": [
+      "إِذَا وَصَلْتَ، فَاتَّصِلْ بِي.",
+      "إِذَا سَوْفَ وَصَلْتَ، اتَّصَلْتَ.",
+      "لَوْ وَصَلْتَ أَمْسِ، لَنْ تَتَّصِلَ."
+     ],
+     "answer": 0,
+     "feedback": "Past-form condition + imperative result."
+    },
+    {
+     "prompt": "Best routine",
+     "options": [
+      "إِذَا جُعْتُ، آكُلُ.",
+      "إِذَا جُعْتُ غَدًا فقط",
+      "لَنْ أَجُوعُ، آكُلُ."
+     ],
+     "answer": 0,
+     "feedback": "Present recurring relation."
+    },
+    {
+     "prompt": "Best likely future",
+     "options": [
+      "إِذَا نَجَحْتُ، سَأَحْتَفِلُ.",
+      "لَوْ نَجَحْتُ، نَجَحْتُ أَمْسِ.",
+      "إِذَا لَنْ أَنْجَحَ."
+     ],
+     "answer": 0,
+     "feedback": "Possible future result."
+    },
+    {
+     "prompt": "Role of فـ",
+     "options": [
+      "can clearly introduce the result clause",
+      "always negates the verb",
+      "changes every verb to past"
+     ],
+     "answer": 0,
+     "feedback": "فـ links result, especially with commands/nominal clauses."
+    }
+   ]
+  },
+  {
+   "title": "💭 لَوْ Pattern Check",
+   "items": [
+    {
+     "prompt": "If I had time, I would read.",
+     "options": [
+      "لَوْ كَانَ عِنْدِي وَقْتٌ، لَقَرَأْتُ.",
+      "إِذَا عِنْدِي وَقْتٌ أَمْسِ.",
+      "لَنْ عِنْدِي وَقْتٌ."
+     ],
+     "answer": 0,
+     "feedback": "Hypothetical possession."
+    },
+    {
+     "prompt": "If I were a doctor…",
+     "options": [
+      "لَوْ كُنْتُ طَبِيبًا...",
+      "إِذَا كُنْتُ طَبِيبًا أَمْسِ فقط",
+      "لَا كُنْتُ طَبِيبًا"
+     ],
+     "answer": 0,
+     "feedback": "Imagined identity."
+    },
+    {
+     "prompt": "Common result signal after لو",
+     "options": [
+      "لَـ",
+      "لَنْ",
+      "الـ"
+     ],
+     "answer": 0,
+     "feedback": "Lam of result."
+    },
+    {
+     "prompt": "Which expresses regret/counterfactual past?",
+     "options": [
+      "لَوْ دَرَسْتُ أَكْثَرَ، لَنَجَحْتُ.",
+      "إِذَا أَدْرُسُ، أَنْجَحُ.",
+      "لَا تَدْرُسْ."
+     ],
+     "answer": 0,
+     "feedback": "Past unreal condition."
+    }
+   ]
+  },
+  {
+   "title": "🌍 Conditional Application",
+   "items": [
+    {
+     "prompt": "Best likely environmental outcome",
+     "options": [
+      "إِذَا زَرَعْنَا أَشْجَارًا، سَيَتَحَسَّنُ الْهَوَاءُ.",
+      "لَوْ زَرَعْنَا أَمْسِ فقط",
+      "لَنْ زَرَعْنَا."
+     ],
+     "answer": 0,
+     "feedback": "Realistic cause and effect."
+    },
+    {
+     "prompt": "Best dream job extension",
+     "options": [
+      "لَوْ كُنْتُ طَيَّارًا، لَسَافَرْتُ كَثِيرًا.",
+      "إِذَا كُنْتُ طَيَّارًا كُلَّ يَوْمٍ فقط",
+      "لَا أَكُونُ طَيَّارًا!"
+     ],
+     "answer": 0,
+     "feedback": "Hypothetical identity."
+    },
+    {
+     "prompt": "Best advice result",
+     "options": [
+      "إِذَا أَرَدْتَ النَّجَاحَ، فَادْرُسْ بِانْتِظَامٍ.",
+      "لَوْ أَرَدْتَ، لَنْ تَدْرُسْ.",
+      "إِذَا أَرَدْتَ، دَرَسْتُ أَنَا."
+     ],
+     "answer": 0,
+     "feedback": "Condition + command."
+    },
+    {
+     "prompt": "Best counterfactual reflection",
+     "options": [
+      "لَوْ خَرَجْنَا مُبَكِّرًا، لَمَا تَأَخَّرْنَا.",
+      "إِذَا نَخْرُجُ غَدًا، تَأَخَّرْنَا أَمْسِ.",
+      "لَنْ خَرَجْنَا."
+     ],
+     "answer": 0,
+     "feedback": "Imagined different past."
+    }
+   ]
+  },
+  {
+   "title": "⭐ Conditional Mastery",
+   "items": [
+    {
+     "prompt": "Likely condition connector",
+     "options": [
+      "إِذَا",
+      "لَوْ",
+      "لَنْ"
+     ],
+     "answer": 0,
+     "feedback": "إذا."
+    },
+    {
+     "prompt": "Hypothetical connector",
+     "options": [
+      "لَوْ",
+      "إِذَا",
+      "لَا"
+     ],
+     "answer": 0,
+     "feedback": "لو."
+    },
+    {
+     "prompt": "When you arrive, call me",
+     "options": [
+      "إِذَا وَصَلْتَ، فَاتَّصِلْ بِي.",
+      "لَوْ وَصَلْتَ، لَنْ تَتَّصِلَ.",
+      "إِذَا سَوْفَ وَصَلْتَ."
+     ],
+     "answer": 0,
+     "feedback": "Expected condition + command."
+    },
+    {
+     "prompt": "If I had time…",
+     "options": [
+      "لَوْ كَانَ عِنْدِي وَقْتٌ...",
+      "إِذَا عِنْدِي وَقْتٌ أَمْسِ...",
+      "لَنْ عِنْدِي وَقْتٌ..."
+     ],
+     "answer": 0,
+     "feedback": "Hypothetical possession."
+    },
+    {
+     "prompt": "If I were a doctor…",
+     "options": [
+      "لَوْ كُنْتُ طَبِيبًا...",
+      "إِذَا أَكُونُ طَبِيبًا أَمْسِ...",
+      "لَا كُنْتُ طَبِيبًا..."
+     ],
+     "answer": 0,
+     "feedback": "Hypothetical identity."
+    },
+    {
+     "prompt": "Likely result",
+     "options": [
+      "إِذَا دَرَسْتُ، سَأَنْجَحُ.",
+      "لَوْ دَرَسْتُ كُلَّ يَوْمٍ، أَنَا أَدْرُسُ.",
+      "لَنْ دَرَسْتُ."
+     ],
+     "answer": 0,
+     "feedback": "Real future condition."
+    },
+    {
+     "prompt": "Hypothetical result signal",
+     "options": [
+      "لَـ",
+      "سَوْفَ only",
+      "الـ"
+     ],
+     "answer": 0,
+     "feedback": "Lam of result."
+    },
+    {
+     "prompt": "Routine condition",
+     "options": [
+      "إِذَا جُعْتُ، آكُلُ.",
+      "لَوْ أَجُوعُ كُلَّ يَوْمٍ.",
+      "لَنْ أَجُوعُ."
+     ],
+     "answer": 0,
+     "feedback": "Repeated relation."
+    },
+    {
+     "prompt": "Counterfactual",
+     "options": [
+      "لَوْ دَرَسْتُ أَكْثَرَ، لَنَجَحْتُ.",
+      "إِذَا دَرَسْتُ غَدًا، سَأَنْجَحُ.",
+      "لَا تَدْرُسْ."
+     ],
+     "answer": 0,
+     "feedback": "Unreal past."
+    },
+    {
+     "prompt": "Main goal",
+     "options": [
+      "clear condition + coherent result",
+      "advanced parsing only",
+      "treat إذا and لو as synonyms"
+     ],
+     "answer": 0,
+     "feedback": "Functional accuracy."
+    }
+   ]
+  }
+ ],
+ "games": [
+  [
+   {
+    "p": "___ دَرَسْتَ، سَتَنْجَحُ.",
+    "a": "إِذَا",
+    "choices": [
+     "إِذَا",
+     "لَوْ",
+     "لَنْ"
+    ],
+    "e": "Likely outcome."
+   },
+   {
+    "p": "___ كُنْتُ طَائِرًا، لَطِرْتُ.",
+    "a": "لَوْ",
+    "choices": [
+     "لَوْ",
+     "إِذَا",
+     "لَا"
+    ],
+    "e": "Impossible/imagined identity."
+   },
+   {
+    "p": "___ وَصَلْتَ، فَاتَّصِلْ بِي.",
+    "a": "إِذَا",
+    "choices": [
+     "إِذَا",
+     "لَوْ",
+     "لَمْ"
+    ],
+    "e": "Expected arrival + command."
+   },
+   {
+    "p": "___ كَانَ عِنْدِي وَقْتٌ، لَقَرَأْتُ.",
+    "a": "لَوْ",
+    "choices": [
+     "لَوْ",
+     "إِذَا",
+     "مَا"
+    ],
+    "e": "Hypothetical possession."
+   },
+   {
+    "p": "___ تَعِبْتُ، أَسْتَرِيحُ.",
+    "a": "إِذَا",
+    "choices": [
+     "إِذَا",
+     "لَوْ",
+     "لَنْ"
+    ],
+    "e": "Routine."
+   },
+   {
+    "p": "___ دَرَسْتُ أَكْثَرَ، لَنَجَحْتُ.",
+    "a": "لَوْ",
+    "choices": [
+     "لَوْ",
+     "إِذَا",
+     "لَا"
+    ],
+    "e": "Counterfactual past."
+   },
+   {
+    "p": "إِذَا احْتَجْتَ مُسَاعَدَةً، ___ .",
+    "a": "فَاسْأَلْنِي",
+    "choices": [
+     "فَاسْأَلْنِي",
+     "لَسَأَلْتُكَ",
+     "لَنْ تَسْأَلَ"
+    ],
+    "e": "Instruction result."
+   },
+   {
+    "p": "لَوْ كُنْتُ مُدِيرًا، ___ الْقَوَاعِدَ.",
+    "a": "لَغَيَّرْتُ",
+    "choices": [
+     "لَغَيَّرْتُ",
+     "سَأُغَيِّرُ أَمْسِ",
+     "لَا تُغَيِّرْ"
+    ],
+    "e": "Hypothetical result."
+   }
+  ]
+ ],
+ "blocks": [
+  "## Why this matters لِمَاذَا نَسْتَعْمِلُ الشَّرْطَ؟",
+  "Conditionals connect an action to its consequence and let learners give advice, explain outcomes and imagine alternatives.",
+  "### Core",
+  "Use basic إذا condition-result sentences.",
+  "### Develop",
+  "Contrast likely إذا with hypothetical لو and use varied results.",
+  "### Stretch",
+  "Recognise formal إنْ and counterfactual patterns as Stretch.",
+  "[callout] Communication target: Extend a simple answer with a realistic consequence and a hypothetical alternative.",
+  "## Diagnostic start",
+  "Decide whether each condition is real or imagined.",
+  "## إِذَا and لَوْ: real versus imagined",
+  "The choice changes how the speaker presents the condition.",
+  "TABLE: Connector | Core meaning | Model | Communicative use // إِذَا | if / when; real, expected or repeated | إِذَا دَرَسْتَ، سَتَنْجَحُ. | advice, routines, likely outcomes // لَوْ | if; imagined, unlikely or contrary to fact | لَوْ كَانَ عِنْدِي وَقْتٌ، لَسَافَرْتُ. | dreams, hypotheses, regrets // إِنْ (Stretch) | if; formal open condition | إِنْ تَجْتَهِدْ تَنْجَحْ. | formal conditional pattern",
+  "[callout] Meaning contrast: إِذَا presents the condition as realistic or expected. لَوْ opens an imagined alternative.",
+  "## Functional patterns with إِذَا",
+  "Use a small set of reliable condition-result frames.",
+  "### Pattern A: past-form verbs, future/expected meaning",
+  "إِذَا وَصَلْتَ، سَأَتَّصِلُ بِكَ.",
+  "The past form after إذا does not necessarily refer to past time.",
+  "### Pattern B: completed-form condition with a habitual result",
+  "إِذَا شَعَرْتُ بِالتَّعَبِ، أَنَامُ مُبَكِّرًا.",
+  "The past-form condition can introduce what regularly happens whenever the condition is met.",
+  "### Pattern C: instruction result",
+  "إِذَا احْتَجْتَ إِلَى مُسَاعَدَةٍ، فَاسْأَلْنِي.",
+  "### Pattern D: nominal result",
+  "إِذَا كَانَ الْجَوُّ جَمِيلًا، فَالرِّحْلَةُ مُمْتِعَةٌ.",
+  "[callout/warning] Avoid rigid English tense transfer. Arabic often uses a past form after إذا for a future expected event: إِذَا وَصَلْتَ = when/if you arrive.",
+  "## Hypotheses with لَوْ",
+  "Use لو to imagine alternatives, express wishes and reflect on unreal past possibilities.",
+  "TABLE: Hypothetical frame | Model | Meaning // لَوْ + كَانَ | لَوْ كَانَ عِنْدِي مَالٌ، لَاشْتَرَيْتُ سَيَّارَةً. | If I had money, I would buy a car. // لَوْ + كُنْتُ | لَوْ كُنْتُ مُدِيرًا، لَغَيَّرْتُ الْقَوَاعِدَ. | If I were a manager… // لَوْ + past event | لَوْ دَرَسْتُ أَكْثَرَ، لَنَجَحْتُ. | If I had studied more, I would have succeeded. // لَوْلَا (Stretch) | لَوْلَا الْمَطَرُ، لَخَرَجْنَا. | If it were not for the rain…",
+  "[callout] Result marker: The لَـ on لَسَافَرْتُ، لَاشْتَرَيْتُ is a common signal of the result clause after لَوْ .",
+  "## Conditionals extend answers",
+  "A conditional adds cause, consequence, advice, imagination or reflection to simple statements.",
+  "[callout] Speaking ladder: fact → likely condition → hypothetical extension. أُحِبُّ السَّفَرَ. إِذَا سَافَرْتُ فِي الصَّيْفِ، سَأَزُورُ الْمَغْرِبَ. وَلَوْ كَانَ عِنْدِي وَقْتٌ أَطْوَلُ، لَزُرْتُ بِلَادًا أُخْرَى.",
+  "TABLE: Topic | Likely frame with إذا | Hypothetical frame with لو // study | إِذَا دَرَسْتُ بِجِدٍّ، سَأَنْجَحُ. | لَوْ كَانَ عِنْدِي وَقْتٌ أَكْثَرُ، لَدَرَسْتُ لُغَةً أُخْرَى. // travel | إِذَا سَافَرْنَا، سَنَسْتَعْمِلُ الْقِطَارَ. | لَوْ كُنْتُ غَنِيًّا، لَسَافَرْتُ حَوْلَ الْعَالَمِ. // environment | إِذَا قَلَّلْنَا النُّفَايَاتِ، سَنَحْمِي الْبِيئَةَ. | لَوْ كَانَتِ الطَّاقَةُ النَّظِيفَةُ أَرْخَصَ، لَاسْتَعْمَلَهَا الْجَمِيعُ.",
+  "## Conditional misconception clinic",
+  "A useful correction explains the form, not only the answer.",
+  "### إذا time",
+  "✗ إِذَا وَصَلْتَ أَمْسِ، سَأَتَّصِلُ بِكَ غَدًا دون سياق",
+  "✓ إِذَا وَصَلْتَ غَدًا، فَاتَّصِلْ بِي",
+  "Keep the condition and result time relationship coherent.",
+  "### Future marker inside condition",
+  "✗ إِذَا سَوْفَ تَدْرُسُ، سَتَنْجَحُ",
+  "✓ إِذَا دَرَسْتَ، سَتَنْجَحُ",
+  "A compact standard frame uses past-form condition plus future result.",
+  "### لو versus إذا",
+  "✗ لَوْ شَعَرْتُ بِالْجُوعِ كُلَّ يَوْمٍ، لَأَكَلْتُ",
+  "✓ إِذَا شَعَرْتُ بِالْجُوعِ، آكُلُ",
+  "Routine/repeated relation uses إذا.",
+  "### Result lam",
+  "✗ لَوْ كُنْتُ غَنِيًّا، سَافَرْتُ حَوْلَ الْعَالَمِ",
+  "✓ لَوْ كُنْتُ غَنِيًّا، لَسَافَرْتُ حَوْلَ الْعَالَمِ",
+  "The lam clearly signals the hypothetical result.",
+  "## Replayable conditional game",
+  "Match connector, condition and result.",
+  "## Apply the grammar across skills",
+  "Grammar becomes useful when it helps you understand and communicate.",
+  "### 📖 Reading workshop",
+  "Read advice posts and distinguish likely conditions from imagined alternatives. Identify the result in each sentence.",
+  "### 🎧 Listening workshop",
+  "Listen to eight condition-result pairs and decide whether the speaker expects the condition or is imagining it.",
+  "### 🗣️ Speaking workshop",
+  "Answer a topic question, then add one إذا consequence and one لو hypothetical extension.",
+  "### 🛠️ Editing workshop",
+  "Repair conditional sentences with incoherent time frames, mixed connectors and missing result markers.",
+  "### ✍️ Integrated production task",
+  "Write 120–140 words giving advice about study, health or the environment. Include three realistic إذا conditions and two hypothetical لو extensions.",
+  "[callout] Model: إِذَا نَظَّمْتَ وَقْتَكَ، سَتُكْمِلُ وَاجِبَاتِكَ بِسُهُولَةٍ. وَإِذَا شَعَرْتَ بِالتَّعَبِ، فَاسْتَرِحْ قَلِيلًا. وَلَوْ كَانَ عِنْدِي يَوْمٌ إِضَافِيٌّ، لَخَصَّصْتُهُ لِلْمُرَاجَعَةِ.",
+  "[callout] Success checklist: Use a future result, an imperative result, a nominal result and at least one لو + كان/كنت frame.",
+  "Save and mark complete Clear",
+  "Plan the verb changes as a timeline, root map or sentence flowchart. Label each form in Arabic.",
+  "Draw two columns headed “real/expected” and “imagined”. Draft each condition in the correct column before writing the final response.",
+  "## Final mastery check",
+  "Choose and build basic functional conditionals.",
+  "### Lesson mastery summary",
+  "- use إذا for real, expected and recurring conditions;",
+  "- use لو for imagined and counterfactual conditions;",
+  "- build coherent future, command and nominal results;",
+  "- extend speaking and writing with cause-and-consequence relationships.",
+  "Return in 3–7 days and repeat the final check without reviewing first. Retrieval, not recognition alone, builds secure verb control."
+ ]
+}

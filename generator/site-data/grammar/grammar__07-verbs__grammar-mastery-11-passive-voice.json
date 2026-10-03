@@ -1,0 +1,531 @@
+{
+ "path": "lessons/grammar/07-verbs/grammar-mastery-11-passive-voice.php",
+ "title": "Passive Voice in the Past and Present",
+ "arabic": "الْمَبْنِيُّ لِلْمَجْهُولِ فِي الْمَاضِي وَالْمُضَارِعِ",
+ "lede": "Form and use past and present passive verbs, promote the affected noun to نائب الفاعل and choose passive voice for a clear communicative reason.",
+ "nav": [
+  [
+   "GM-V-10",
+   "The Subjunctive after أَنْ، لَنْ، كَيْ and حَتَّى"
+  ]
+ ],
+ "quizzes": [
+  {
+   "title": "🔎 Entry Check",
+   "items": [
+    {
+     "prompt": "Choose the passive past “The letter was written”.",
+     "options": [
+      "كُتِبَتِ الرِّسَالَةُ",
+      "كَتَبَتِ الرِّسَالَةُ",
+      "تَكْتُبُ الرِّسَالَةُ"
+     ],
+     "answer": 0,
+     "feedback": "Form I passive past uses the فُعِلَ vowel pattern."
+    },
+    {
+     "prompt": "Choose the passive present “The letter is written”.",
+     "options": [
+      "تُكْتَبُ الرِّسَالَةُ",
+      "تَكْتُبُ الرِّسَالَةُ",
+      "كَتَبَ الرِّسَالَةَ"
+     ],
+     "answer": 0,
+     "feedback": "Passive present uses يُفْعَلُ / تُفْعَلُ."
+    },
+    {
+     "prompt": "Choose “Smoking is prohibited”.",
+     "options": [
+      "يُمْنَعُ التَّدْخِينُ",
+      "يَمْنَعُ التَّدْخِينُ",
+      "مَنَعَ التَّدْخِينُ نَفْسَهُ"
+     ],
+     "answer": 0,
+     "feedback": "The passive focuses on the rule, not the unnamed agent."
+    },
+    {
+     "prompt": "In a passive sentence, the former object…",
+     "options": [
+      "becomes the grammatical نائب الفاعل and is nominative",
+      "stays accusative automatically",
+      "must disappear"
+     ],
+     "answer": 0,
+     "feedback": "The affected noun takes the subject-like grammatical role."
+    },
+    {
+     "prompt": "Choose the passive present of فَتَحَ.",
+     "options": [
+      "يُفْتَحُ",
+      "يَفْتَحُ",
+      "فُتِحَ"
+     ],
+     "answer": 0,
+     "feedback": "Present passive: يُفْعَلُ."
+    },
+    {
+     "prompt": "Why use passive voice?",
+     "options": [
+      "To foreground the action/result when the agent is unknown, obvious or unimportant.",
+      "To make every sentence longer.",
+      "To avoid verb agreement."
+     ],
+     "answer": 0,
+     "feedback": "Passive is a meaning choice, not decoration."
+    }
+   ]
+  },
+  {
+   "title": "⏪ Passive Past Check",
+   "items": [
+    {
+     "prompt": "Passive of سَمِعَ",
+     "options": [
+      "سُمِعَ",
+      "سَمَعَ",
+      "يُسْمَعُ"
+     ],
+     "answer": 0,
+     "feedback": "Past passive pattern."
+    },
+    {
+     "prompt": "The door was opened",
+     "options": [
+      "فُتِحَ الْبَابُ.",
+      "فَتَحَ الْبَابُ.",
+      "فُتِحَ الْبَابَ."
+     ],
+     "answer": 0,
+     "feedback": "Passive verb + nominative deputy subject."
+    },
+    {
+     "prompt": "The books were read",
+     "options": [
+      "قُرِئَتِ الْكُتُبُ.",
+      "قَرَأَتِ الْكُتُبَ.",
+      "تُقْرَأُ الْكُتُبُ."
+     ],
+     "answer": 0,
+     "feedback": "Past passive and non-human plural feminine singular agreement."
+    },
+    {
+     "prompt": "The results were announced",
+     "options": [
+      "أُعْلِنَتِ النَّتَائِجُ.",
+      "أَعْلَنَتِ النَّتَائِجَ.",
+      "يُعْلِنُ النَّتَائِجُ."
+     ],
+     "answer": 0,
+     "feedback": "Passive derived form and non-human plural agreement."
+    }
+   ]
+  },
+  {
+   "title": "⏺️ Passive Present Check",
+   "items": [
+    {
+     "prompt": "The door is opened",
+     "options": [
+      "يُفْتَحُ الْبَابُ.",
+      "يَفْتَحُ الْبَابُ.",
+      "فُتِحَ الْبَابُ."
+     ],
+     "answer": 0,
+     "feedback": "Present passive."
+    },
+    {
+     "prompt": "The letter is written",
+     "options": [
+      "تُكْتَبُ الرِّسَالَةُ.",
+      "تَكْتُبُ الرِّسَالَةُ.",
+      "يُكْتَبُ الرِّسَالَةُ."
+     ],
+     "answer": 0,
+     "feedback": "Feminine agreement."
+    },
+    {
+     "prompt": "The cars are used",
+     "options": [
+      "تُسْتَعْمَلُ السَّيَّارَاتُ.",
+      "يَسْتَعْمِلُ السَّيَّارَاتُ.",
+      "تَسْتَعْمِلُ السَّيَّارَاتُ."
+     ],
+     "answer": 0,
+     "feedback": "Non-human plural takes feminine singular agreement."
+    },
+    {
+     "prompt": "It is said that…",
+     "options": [
+      "يُقَالُ إِنَّ...",
+      "يَقُولُ إِنَّ without agent",
+      "قِيلَ غَدًا only"
+     ],
+     "answer": 0,
+     "feedback": "Common impersonal passive expression."
+    }
+   ]
+  },
+  {
+   "title": "🎯 Why Passive? Check",
+   "items": [
+    {
+     "prompt": "Best for an unknown theft agent",
+     "options": [
+      "سُرِقَ الْهَاتِفُ.",
+      "سَرَقَ الشَّخْصُ الْهَاتِفَ without knowing person",
+      "يَسْرِقُ الْهَاتِفُ."
+     ],
+     "answer": 0,
+     "feedback": "Unknown agent."
+    },
+    {
+     "prompt": "Best for a rule",
+     "options": [
+      "يُمْنَعُ الدُّخُولُ.",
+      "يَمْنَعُ الدُّخُولُ نَفْسَهُ.",
+      "مَنَعْتُ الدُّخُولَ أَمْسِ."
+     ],
+     "answer": 0,
+     "feedback": "Impersonal notice."
+    },
+    {
+     "prompt": "Best when the teacher is important",
+     "options": [
+      "صَحَّحَتِ الْمُعَلِّمَةُ الْعَمَلَ.",
+      "صُحِّحَ الْعَمَلُ only",
+      "يُصَحَّحُ الْمُعَلِّمَةُ."
+     ],
+     "answer": 0,
+     "feedback": "Active foregrounds the agent."
+    },
+    {
+     "prompt": "Best process description",
+     "options": [
+      "تُغْسَلُ الْفَوَاكِهُ قَبْلَ الْأَكْلِ.",
+      "تَغْسِلُ الْفَوَاكِهُ نَفْسَهَا.",
+      "غَسَلَتْ الْفَوَاكِهُ."
+     ],
+     "answer": 0,
+     "feedback": "General process."
+    }
+   ]
+  },
+  {
+   "title": "🔁 Active-to-Passive Check",
+   "items": [
+    {
+     "prompt": "Transform: كَسَرَ الْوَلَدُ النَّافِذَةَ.",
+     "options": [
+      "كُسِرَتِ النَّافِذَةُ.",
+      "كَسَرَتِ النَّافِذَةُ.",
+      "كُسِرَ النَّافِذَةَ."
+     ],
+     "answer": 0,
+     "feedback": "Passive + feminine agreement + nominative."
+    },
+    {
+     "prompt": "Transform: يَقْرَأُ الطُّلَّابُ الْكُتُبَ.",
+     "options": [
+      "تُقْرَأُ الْكُتُبُ.",
+      "يَقْرَأُ الْكُتُبُ.",
+      "تُقْرَأُ الْكُتُبَ."
+     ],
+     "answer": 0,
+     "feedback": "Non-human plural feminine singular."
+    },
+    {
+     "prompt": "Transform: مَنَعَ الْقَانُونُ التَّدْخِينَ.",
+     "options": [
+      "مُنِعَ التَّدْخِينُ.",
+      "مَنَعَ التَّدْخِينُ.",
+      "يُمْنَعُ التَّدْخِينَ."
+     ],
+     "answer": 0,
+     "feedback": "Past passive."
+    },
+    {
+     "prompt": "Transform: يَسْتَعْمِلُ النَّاسُ الْهَوَاتِفَ.",
+     "options": [
+      "تُسْتَعْمَلُ الْهَوَاتِفُ.",
+      "يُسْتَعْمِلُ الْهَوَاتِفُ.",
+      "تَسْتَعْمِلُ الْهَوَاتِفَ."
+     ],
+     "answer": 0,
+     "feedback": "Derived passive and non-human plural agreement."
+    }
+   ]
+  },
+  {
+   "title": "⭐ Passive Voice Mastery",
+   "items": [
+    {
+     "prompt": "Past passive pattern",
+     "options": [
+      "فُعِلَ",
+      "فَعَلَ",
+      "يُفْعَلُ"
+     ],
+     "answer": 0,
+     "feedback": "Past."
+    },
+    {
+     "prompt": "Present passive pattern",
+     "options": [
+      "يُفْعَلُ",
+      "يَفْعَلُ",
+      "فُعِلَ"
+     ],
+     "answer": 0,
+     "feedback": "Present."
+    },
+    {
+     "prompt": "The door was opened",
+     "options": [
+      "فُتِحَ الْبَابُ",
+      "فَتَحَ الْبَابُ",
+      "فُتِحَ الْبَابَ"
+     ],
+     "answer": 0,
+     "feedback": "Passive + nominative."
+    },
+    {
+     "prompt": "The letter is written",
+     "options": [
+      "تُكْتَبُ الرِّسَالَةُ",
+      "تَكْتُبُ الرِّسَالَةُ",
+      "يُكْتَبُ الرِّسَالَةَ"
+     ],
+     "answer": 0,
+     "feedback": "Feminine passive."
+    },
+    {
+     "prompt": "Smoking is prohibited",
+     "options": [
+      "يُمْنَعُ التَّدْخِينُ",
+      "يَمْنَعُ التَّدْخِينُ",
+      "مَنَعَ التَّدْخِينُ"
+     ],
+     "answer": 0,
+     "feedback": "Rule."
+    },
+    {
+     "prompt": "The books are read",
+     "options": [
+      "تُقْرَأُ الْكُتُبُ",
+      "يَقْرَأُ الْكُتُبَ",
+      "تُقْرَأُ الْكُتُبَ"
+     ],
+     "answer": 0,
+     "feedback": "Non-human plural feminine + nominative."
+    },
+    {
+     "prompt": "It is said",
+     "options": [
+      "يُقَالُ",
+      "يَقُولُ بلا فاعل",
+      "قَالَتْ"
+     ],
+     "answer": 0,
+     "feedback": "Impersonal passive."
+    },
+    {
+     "prompt": "Former object becomes",
+     "options": [
+      "نَائِبُ الْفَاعِلِ",
+      "مَفْعُولًا بِهِ دائمًا",
+      "حَالًا"
+     ],
+     "answer": 0,
+     "feedback": "Deputy subject."
+    },
+    {
+     "prompt": "Use passive when",
+     "options": [
+      "agent is unknown/obvious/unimportant and result matters",
+      "agent is always important",
+      "you want no agreement"
+     ],
+     "answer": 0,
+     "feedback": "Information focus."
+    },
+    {
+     "prompt": "Active is clearer when",
+     "options": [
+      "who acted is central",
+      "the agent is unknown",
+      "writing a prohibition sign"
+     ],
+     "answer": 0,
+     "feedback": "Keep relevant agent."
+    }
+   ]
+  }
+ ],
+ "games": [
+  [
+   {
+    "p": "The door was opened.",
+    "a": "فُتِحَ الْبَابُ.",
+    "choices": [
+     "فُتِحَ الْبَابُ.",
+     "فَتَحَ الْبَابُ.",
+     "يُفْتَحُ الْبَابَ."
+    ],
+    "e": "Past passive."
+   },
+   {
+    "p": "The letter is written.",
+    "a": "تُكْتَبُ الرِّسَالَةُ.",
+    "choices": [
+     "تُكْتَبُ الرِّسَالَةُ.",
+     "تَكْتُبُ الرِّسَالَةُ.",
+     "يُكْتَبُ الرِّسَالَةَ."
+    ],
+    "e": "Present feminine passive."
+   },
+   {
+    "p": "Smoking is prohibited.",
+    "a": "يُمْنَعُ التَّدْخِينُ.",
+    "choices": [
+     "يُمْنَعُ التَّدْخِينُ.",
+     "يَمْنَعُ التَّدْخِينُ.",
+     "مَنَعَ التَّدْخِينُ."
+    ],
+    "e": "Rule."
+   },
+   {
+    "p": "The glass was broken.",
+    "a": "كُسِرَ الزُّجَاجُ.",
+    "choices": [
+     "كُسِرَ الزُّجَاجُ.",
+     "كَسَرَ الزُّجَاجُ.",
+     "يُكْسَرُ الزُّجَاجَ."
+    ],
+    "e": "Past passive."
+   },
+   {
+    "p": "The bags are checked.",
+    "a": "تُفْحَصُ الْحَقَائِبُ.",
+    "choices": [
+     "تُفْحَصُ الْحَقَائِبُ.",
+     "تَفْحَصُ الْحَقَائِبَ.",
+     "يُفْحَصُ الْحَقَائِبَ."
+    ],
+    "e": "Non-human plural feminine singular."
+   },
+   {
+    "p": "The results were announced.",
+    "a": "أُعْلِنَتِ النَّتَائِجُ.",
+    "choices": [
+     "أُعْلِنَتِ النَّتَائِجُ.",
+     "أَعْلَنَتِ النَّتَائِجَ.",
+     "يُعْلِنُ النَّتَائِجُ."
+    ],
+    "e": "Derived passive."
+   },
+   {
+    "p": "It is said that…",
+    "a": "يُقَالُ إِنَّ...",
+    "choices": [
+     "يُقَالُ إِنَّ...",
+     "يَقُولُ إِنَّ بلا فاعل",
+     "قَالَ إِنَّ غَدًا."
+    ],
+    "e": "Impersonal passive."
+   },
+   {
+    "p": "Technology is used.",
+    "a": "تُسْتَعْمَلُ التِّقْنِيَّةُ.",
+    "choices": [
+     "تُسْتَعْمَلُ التِّقْنِيَّةُ.",
+     "تَسْتَعْمِلُ التِّقْنِيَّةَ.",
+     "يُسْتَعْمِلُ التِّقْنِيَّةُ."
+    ],
+    "e": "Derived passive feminine agreement."
+   }
+  ]
+ ],
+ "blocks": [
+  "## Why this matters لِمَاذَا نَسْتَعْمِلُ الْمَبْنِيَّ لِلْمَجْهُولِ؟",
+  "Passive voice foregrounds what happened or what is done when the agent is unknown, obvious or less important.",
+  "### Core",
+  "Recognise core Form I past and present passive patterns.",
+  "### Develop",
+  "Transform active sentences and apply gender/non-human plural agreement.",
+  "### Stretch",
+  "Use derived passive forms and explain information focus and case role.",
+  "[callout] Communication target: Write a clear notice, report or process using passive forms purposefully.",
+  "## Diagnostic start",
+  "Distinguish active and passive vowels and roles.",
+  "## Passive past: فُعِلَ",
+  "Change the internal vowels and make the affected noun the grammatical focus.",
+  "TABLE: Active past | Passive past | Meaning shift // كَتَبَ الطَّالِبُ الرِّسَالَةَ. | كُتِبَتِ الرِّسَالَةُ. | The letter/result is foregrounded. // فَتَحَ الْمُوَظَّفُ الْبَابَ. | فُتِحَ الْبَابُ. | The agent is omitted. // كَسَرَ الْوَلَدُ الزُّجَاجَ. | كُسِرَ الزُّجَاجُ. | The affected item becomes نائب الفاعل. // أَعْلَنَتِ الْمَدْرَسَةُ النَّتِيجَةَ. | أُعْلِنَتِ النَّتِيجَةُ. | Derived forms have their own passive vowel pattern.",
+  "[callout] Form I pattern: Active فَعَلَ becomes passive فُعِلَ : كَتَبَ ← كُتِبَ، فَتَحَ ← فُتِحَ .",
+  "## Passive present: يُفْعَلُ",
+  "The passive present is common in notices, processes, formal reports and general statements.",
+  "TABLE: Active present | Passive present | Use // يَكْتُبُ الطَّالِبُ الرِّسَالَةَ. | تُكْتَبُ الرِّسَالَةُ. | process/general practice // يَفْتَحُ الْمُوَظَّفُ الْبَابَ. | يُفْتَحُ الْبَابُ. | what happens to the door // يَمْنَعُ الْقَانُونُ التَّدْخِينَ. | يُمْنَعُ التَّدْخِينُ. | rule/sign // يَسْتَعْمِلُ النَّاسُ التِّقْنِيَّةَ. | تُسْتَعْمَلُ التِّقْنِيَّةُ. | formal description",
+  "[callout] Form I pattern: Active يَفْعَلُ becomes passive يُفْعَلُ . The subject agreement prefix still matches the affected noun: تُكْتَبُ الرِّسَالَةُ .",
+  "## Choose passive for a reason",
+  "The passive changes information focus: action and result move forward; agent moves out.",
+  "### Unknown agent",
+  "سُرِقَتِ الدَّرَّاجَةُ.",
+  "The speaker does not know who stole it.",
+  "### Obvious agent",
+  "أُعْلِنَتِ النَّتِيجَةُ.",
+  "The institution is obvious or not important.",
+  "### Rule or process",
+  "تُفْحَصُ الْحَقَائِبُ عِنْدَ الْمَدْخَلِ.",
+  "### Formal reporting",
+  "يُعْتَقَدُ أَنَّ التِّقْنِيَّةَ سَتَتَطَوَّرُ.",
+  "[callout/warning] Do not use passive to hide a relevant agent. If who performed the action matters, the active sentence may be clearer.",
+  "## Transform active into passive",
+  "A reliable transformation protects verb pattern, agreement and case role.",
+  "TABLE: Active sentence | Transformation step | Passive result // كَتَبَ الطَّالِبُ الرِّسَالَةَ. | 1 change verb vowels; 2 remove agent; 3 raise object | كُتِبَتِ الرِّسَالَةُ. // يَفْتَحُ الْحَارِسُ الْبَابَ. | 1 يُفْعَلُ; 2 remove agent; 3 match الباب | يُفْتَحُ الْبَابُ. // تَسْتَعْمِلُ الشَّرِكَةُ الآلَةَ. | Use derived-form passive stem and feminine agreement | تُسْتَعْمَلُ الآلَةُ. // أَعْلَنَ الْمُدِيرُ النَّتَائِجَ. | Passive past + non-human plural agreement | أُعْلِنَتِ النَّتَائِجُ.",
+  "[callout] Case awareness: The former object is no longer accusative. As نَائِبُ الْفَاعِلِ , it is nominative in fully marked Arabic.",
+  "## Passive misconception clinic",
+  "A useful correction explains the form, not only the answer.",
+  "### Vowels",
+  "✗ كَتَبَتِ الرِّسَالَةُ بمعنى was written",
+  "✓ كُتِبَتِ الرِّسَالَةُ",
+  "Passive past needs internal vowel change.",
+  "### Present prefix",
+  "✗ يَفْتَحُ الْبَابُ بمعنى is opened",
+  "✓ يُفْتَحُ الْبَابُ",
+  "Passive present begins with ḍamma.",
+  "### Case role",
+  "✗ كُسِرَ الزُّجَاجَ",
+  "✓ كُسِرَ الزُّجَاجُ",
+  "The deputy subject is nominative.",
+  "### Agreement",
+  "✗ يُكْتَبُ الرِّسَالَةُ",
+  "✓ تُكْتَبُ الرِّسَالَةُ",
+  "The passive verb agrees with the feminine affected noun.",
+  "## Replayable passive game",
+  "Choose passive forms with accurate agreement.",
+  "## Apply the grammar across skills",
+  "Grammar becomes useful when it helps you understand and communicate.",
+  "### 📖 Reading workshop",
+  "Read notices and reports; underline passive verbs and identify the affected noun that follows.",
+  "### 🎧 Listening workshop",
+  "Listen to paired active/passive sentences and decide which information the speaker foregrounds.",
+  "### 🗣️ Speaking workshop",
+  "Explain a school process using at least three present passives, then answer who performs one step using an active sentence.",
+  "### 🛠️ Editing workshop",
+  "Repair passive sentences with active vowels, wrong gender prefix and accusative former objects.",
+  "### ✍️ Integrated production task",
+  "Write a 120–140-word news report, process description or school notice. Include at least five passive verbs and explain one event with an active sentence where the agent matters.",
+  "[callout] Model: أُعْلِنَتِ النَّتَائِجُ صَبَاحَ الْيَوْمِ، وَنُشِرَتْ عَلَى مَوْقِعِ الْمَدْرَسَةِ. تُسْتَعْمَلُ هَذِهِ الطَّرِيقَةُ لِكَيْ يَطَّلِعَ جَمِيعُ الطُّلَّابِ عَلَيْهَا.",
+  "[callout] Success checklist: Use two past passives, three present passives, one feminine subject, one non-human plural and correct نائب الفاعل endings where shown.",
+  "Save and mark complete Clear",
+  "Plan the verb changes as a timeline, root map or sentence flowchart. Label each form in Arabic.",
+  "Draw arrows showing object → نائب الفاعل for each transformed sentence. Write the omitted agent only when it is logically recoverable.",
+  "## Final mastery check",
+  "Recognise and form past and present passives.",
+  "### Lesson mastery summary",
+  "- form the core past passive pattern فُعِلَ;",
+  "- form the core present passive pattern يُفْعَلُ;",
+  "- identify and agree with نائب الفاعل;",
+  "- choose passive or active according to information focus.",
+  "Return in 3–7 days and repeat the final check without reviewing first. Retrieval, not recognition alone, builds secure verb control."
+ ]
+}

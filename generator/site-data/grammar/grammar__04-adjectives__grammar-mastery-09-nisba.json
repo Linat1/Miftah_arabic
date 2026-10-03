@@ -1,0 +1,260 @@
+{
+ "path": "lessons/grammar/04-adjectives/grammar-mastery-09-nisba.php",
+ "title": "Nisba Adjectives",
+ "arabic": "صِفَاتُ النِّسْبَةِ",
+ "lede": "Form and apply nisba adjectives for nationality, geography, fields, materials and cultural association with accurate shadda and agreement.",
+ "nav": [
+  [
+   "GM-ADJ-08",
+   "Defective Adjectives such as غَالٍ and رَاضٍ"
+  ]
+ ],
+ "quizzes": [
+  {
+   "title": "🔎 Entry Check",
+   "items": [
+    {
+     "prompt": "Choose feminine of مِصْرِيٌّ",
+     "options": [
+      "مِصْرِيَةٌ",
+      "مِصْرِيَّةٌ",
+      "مِصْرَاوِيَّةٌ"
+     ],
+     "answer": 1,
+     "feedback": "Nisba feminine has يّة."
+    },
+    {
+     "prompt": "Complete طَالِبٌ ...",
+     "options": [
+      "سُورِيٌّ",
+      "سُورِيَّةٌ",
+      "سُورِيَا"
+     ],
+     "answer": 0,
+     "feedback": "Masculine singular nisba."
+    },
+    {
+     "prompt": "Complete مُوسِيقَى ...",
+     "options": [
+      "عَرَبِيٌّ",
+      "عَرَبِيَّةٌ",
+      "عَرَبٌ"
+     ],
+     "answer": 1,
+     "feedback": "Music is feminine."
+    },
+    {
+     "prompt": "Choose “the northern region”",
+     "options": [
+      "الْمَنْطِقَةُ الشَّمَالِيُّ",
+      "مَنْطِقَةٌ الشَّمَالِيَّةُ",
+      "الْمَنْطِقَةُ الشَّمَالِيَّةُ"
+     ],
+     "answer": 2,
+     "feedback": "Gender and definiteness agree."
+    },
+    {
+     "prompt": "Which principle best supports this lesson?",
+     "options": [
+      "Check the noun first",
+      "Translate word by word from English",
+      "Ignore definiteness"
+     ],
+     "answer": 0,
+     "feedback": "The noun controls adjective agreement."
+    }
+   ]
+  },
+  {
+   "title": "🧩 Guided check",
+   "items": [
+    {
+     "prompt": "Choose feminine of مِصْرِيٌّ",
+     "options": [
+      "مِصْرِيَةٌ",
+      "مِصْرِيَّةٌ",
+      "مِصْرَاوِيَّةٌ"
+     ],
+     "answer": 1,
+     "feedback": "Nisba feminine has يّة."
+    },
+    {
+     "prompt": "Complete طَالِبٌ ...",
+     "options": [
+      "سُورِيٌّ",
+      "سُورِيَّةٌ",
+      "سُورِيَا"
+     ],
+     "answer": 0,
+     "feedback": "Masculine singular nisba."
+    },
+    {
+     "prompt": "Complete مُوسِيقَى ...",
+     "options": [
+      "عَرَبِيٌّ",
+      "عَرَبِيَّةٌ",
+      "عَرَبٌ"
+     ],
+     "answer": 1,
+     "feedback": "Music is feminine."
+    },
+    {
+     "prompt": "Choose “the northern region”",
+     "options": [
+      "الْمَنْطِقَةُ الشَّمَالِيُّ",
+      "مَنْطِقَةٌ الشَّمَالِيَّةُ",
+      "الْمَنْطِقَةُ الشَّمَالِيَّةُ"
+     ],
+     "answer": 2,
+     "feedback": "Gender and definiteness agree."
+    }
+   ]
+  },
+  {
+   "title": "⭐ Mastery Check",
+   "items": [
+    {
+     "prompt": "Choose feminine of مِصْرِيٌّ",
+     "options": [
+      "مِصْرِيَةٌ",
+      "مِصْرِيَّةٌ",
+      "مِصْرَاوِيَّةٌ"
+     ],
+     "answer": 1,
+     "feedback": "Nisba feminine has يّة."
+    },
+    {
+     "prompt": "Complete طَالِبٌ ...",
+     "options": [
+      "سُورِيٌّ",
+      "سُورِيَّةٌ",
+      "سُورِيَا"
+     ],
+     "answer": 0,
+     "feedback": "Masculine singular nisba."
+    },
+    {
+     "prompt": "Complete مُوسِيقَى ...",
+     "options": [
+      "عَرَبِيٌّ",
+      "عَرَبِيَّةٌ",
+      "عَرَبٌ"
+     ],
+     "answer": 1,
+     "feedback": "Music is feminine."
+    },
+    {
+     "prompt": "Choose “the northern region”",
+     "options": [
+      "الْمَنْطِقَةُ الشَّمَالِيُّ",
+      "مَنْطِقَةٌ الشَّمَالِيَّةُ",
+      "الْمَنْطِقَةُ الشَّمَالِيَّةُ"
+     ],
+     "answer": 2,
+     "feedback": "Gender and definiteness agree."
+    },
+    {
+     "prompt": "Choose feminine of مِصْرِيٌّ",
+     "options": [
+      "مِصْرِيَةٌ",
+      "مِصْرِيَّةٌ",
+      "مِصْرَاوِيَّةٌ"
+     ],
+     "answer": 1,
+     "feedback": "Nisba feminine has يّة."
+    },
+    {
+     "prompt": "Complete طَالِبٌ ...",
+     "options": [
+      "سُورِيٌّ",
+      "سُورِيَّةٌ",
+      "سُورِيَا"
+     ],
+     "answer": 0,
+     "feedback": "Masculine singular nisba."
+    },
+    {
+     "prompt": "Complete مُوسِيقَى ...",
+     "options": [
+      "عَرَبِيٌّ",
+      "عَرَبِيَّةٌ",
+      "عَرَبٌ"
+     ],
+     "answer": 1,
+     "feedback": "Music is feminine."
+    },
+    {
+     "prompt": "Choose “the northern region”",
+     "options": [
+      "الْمَنْطِقَةُ الشَّمَالِيُّ",
+      "مَنْطِقَةٌ الشَّمَالِيَّةُ",
+      "الْمَنْطِقَةُ الشَّمَالِيَّةُ"
+     ],
+     "answer": 2,
+     "feedback": "Gender and definiteness agree."
+    }
+   ]
+  }
+ ],
+ "games": [],
+ "blocks": [
+  "## Why this matters لِمَاذَا هَذَا مُهِمٌّ؟",
+  "Adjective control affects the accuracy of descriptions in every Cambridge topic: people, clothes, homes, school, travel, weather, work and opinions.",
+  "### Core",
+  "Recognise masculine ـِيٌّ and feminine ـِيَّةٌ nisba endings.",
+  "### Develop",
+  "Form common nationality, regional and subject adjectives.",
+  "### Stretch",
+  "Apply spelling adjustments and case endings in longer phrases.",
+  "## Diagnostic start",
+  "Try this short check before reading the explanations. Incorrect answers are information, not failure.",
+  "## Learn the system step by step",
+  "Read one explanation, study the worked examples, then pause for the mini-check.",
+  "### 1. The core ending",
+  "A nisba adjective links a person or thing to a place, field, material or concept. The masculine ending is usually ـِيٌّ with a doubled yāʾ; the feminine is ـِيَّةٌ .",
+  "[callout] مِصْرِيٌّ / مِصْرِيَّةٌ عَرَبِيٌّ / عَرَبِيَّةٌ شَمَالِيٌّ / شَمَالِيَّةٌ مُوسِيقِيٌّ / مُوسِيقِيَّةٌ",
+  "### 2. Agreement and meaning",
+  "The nisba adjective behaves like other adjectives: it follows and agrees with its noun.",
+  "[callout] طَالِبٌ مِصْرِيٌّ طَالِبَةٌ مِصْرِيَّةٌ مُوسِيقَى عَرَبِيَّةٌ مَنْطِقَةٌ شَمَالِيَّةٌ",
+  "### 3. Spelling awareness",
+  "Some source nouns change slightly before the nisba ending, so frequent forms should be learned as whole words. Always preserve the shadda on the nisba yāʾ in fully supported teaching forms.",
+  "[callout] لُبْنَانُ ← لُبْنَانِيٌّ سُورِيَا ← سُورِيٌّ فَرَنْسَا ← فَرَنْسِيٌّ",
+  "### High-frequency model bank",
+  "- طَالِبٌ مِصْرِيٌّ",
+  "- طَالِبَةٌ سُورِيَّةٌ",
+  "- مُوسِيقَى عَرَبِيَّةٌ",
+  "- الْمَنْطِقَةُ الشَّمَالِيَّةُ",
+  "### Misconception clinic",
+  "- Writing one plain ي without the nisba shadda in fully vowelled teaching forms.",
+  "- Forgetting feminine agreement ـيّة.",
+  "- Assuming every country name takes the ending without spelling adjustment.",
+  "## Guided practice and transformation",
+  "Do not only recognise the answer. Say what changed and why.",
+  "### Transformation drill",
+  "- Copy each model from the lesson.",
+  "- Change the noun’s gender, number or definiteness as appropriate.",
+  "- Change every adjective feature controlled by that noun.",
+  "- Translate the new phrase or sentence accurately.",
+  "- Explain one change using the grammar vocabulary from this lesson.",
+  "## Apply through four skills",
+  "### 📖 Reading and noticing",
+  "فِي مَدِينَتِي أَمَاكِنُ جَمِيلَةٌ وَشَوَارِعُ وَاسِعَةٌ. هَذِهِ الْمَدْرَسَةُ الْجَدِيدَةُ قَرِيبَةٌ، وَذَلِكَ الْمَتْحَفُ الْقَدِيمُ مُثِيرٌ لِلِاهْتِمَامِ.",
+  "Underline each adjective, draw an arrow to its noun, and label the agreement feature that made the form correct.",
+  "### 🎧 Listening without audio",
+  "Ask a partner or teacher to read the model paragraph twice. First record the nouns; second record the adjectives. Reconstruct the correct pairs and explain the agreement.",
+  "### 🗣️ Speaking",
+  "Describe two people, places or objects for 45–60 seconds. Include at least six accurate adjective structures from this lesson.",
+  "### 🛠️ Editing clinic",
+  "Write four deliberately incorrect adjective phrases, exchange them with a partner, then correct and explain every error.",
+  "### ✍️ Extended writing workshop",
+  "Write 90–120 words describing a person, place, object or experience. Include at least eight target adjective structures from this lesson and underline them after writing.",
+  "[callout] Quality check: identify the head noun first, then check gender, number, definiteness and any lesson-specific form.",
+  "Save and mark complete Clear",
+  "Create a labelled grammar map or handwritten draft. Connect every adjective to its noun.",
+  "Complete the task on paper. Underline the target forms and annotate the rule used.",
+  "## Final mastery check اِخْتِبَارُ الْإِتْقَانِ",
+  "Complete this without reopening the teaching cards.",
+  "### Interpret your result",
+  "Below 70%: revisit the misconception clinic and guided check. 70–89%: replay the transformation game and improve one paragraph. 90–100%: continue, then complete a spaced retrieval check in 3–7 days."
+ ]
+}

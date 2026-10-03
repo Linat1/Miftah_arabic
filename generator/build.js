@@ -24,6 +24,7 @@ async function build(key, outDir) {
     if (i === 0 || i === total - 1) return;
     s.addText(`${i + 1} / ${total}`, { x: 11.33, y: 7.06, w: 1.5, h: 0.24, isTextBox: true, margin: 0, align: 'right', valign: 'middle', fontFace: 'Calibri', fontSize: 8.5, color: C.muted });
   });
+  if (lesson.meta.outDir && !build.explicitOut) outDir = path.join(__dirname, '..', lesson.meta.outDir);
   fs.mkdirSync(outDir, { recursive: true });
   const file = path.join(outDir, `${lesson.meta.file}.pptx`);
   await pres.writeFile({ fileName: file });
@@ -33,6 +34,7 @@ async function build(key, outDir) {
 
 if (require.main === module) {
   const [key, out] = process.argv.slice(2);
+  build.explicitOut = !!out;
   const unit = key.split('-')[0].toUpperCase();
   const dir = { TC: 'Topic_C', TA: 'Topic_A', TB: 'Topic_B', TD: 'Topic_D', TE: 'Topic_E' }[unit]
     || `${{ F: 'Foundation', D: 'Development', P: 'Progression' }[unit[0]]}_${unit}`;

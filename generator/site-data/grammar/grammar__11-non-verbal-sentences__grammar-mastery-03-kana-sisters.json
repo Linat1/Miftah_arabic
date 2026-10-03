@@ -1,0 +1,363 @@
+{
+ "path": "lessons/grammar/11-non-verbal-sentences/grammar-mastery-03-kana-sisters.php",
+ "title": "كَانَ and Its Sisters",
+ "arabic": "كَانَ وَأَخَوَاتُهَا",
+ "lede": "Move nominal sentences into a past frame, describe past habits and show how situations became or remained.",
+ "nav": [
+  [
+   "GM-NVS-02",
+   "إِنَّ and Its Sisters"
+  ]
+ ],
+ "quizzes": [
+  {
+   "title": "🔎 Entry Check",
+   "items": [
+    {
+     "prompt": "Transform “The weather is beautiful” into the past.",
+     "options": [
+      "كَانَ الطَّقْسُ جَمِيلًا.",
+      "كَانَ الطَّقْسَ جَمِيلٌ.",
+      "الطَّقْسُ كَانَ جَمِيلٌ."
+     ],
+     "answer": 0,
+     "feedback": "كَانَ keeps its noun nominative and makes a single-word predicate accusative."
+    },
+    {
+     "prompt": "Choose “I was at home.”",
+     "options": [
+      "كُنْتُ فِي الْبَيْتِ.",
+      "كَانَ أَنَا فِي الْبَيْتِ.",
+      "كُنْتَ فِي الْبَيْتِ."
+     ],
+     "answer": 0,
+     "feedback": "كُنْتُ is the first-person singular form."
+    },
+    {
+     "prompt": "Choose “She was tired.”",
+     "options": [
+      "كَانَتْ مُتْعَبَةً.",
+      "كَانَ مُتْعَبَةٌ.",
+      "كُنْتِ مُتْعَبًا."
+     ],
+     "answer": 0,
+     "feedback": "The feminine form is كَانَتْ and the predicate is accusative."
+    },
+    {
+     "prompt": "Which expresses a repeated past habit?",
+     "options": [
+      "كُنْتُ أَقْرَأُ كُلَّ يَوْمٍ.",
+      "كُنْتُ قَرَأْتُ كُلَّ يَوْمٍ.",
+      "أَنَا قَرَأَ كُلَّ يَوْمٍ."
+     ],
+     "answer": 0,
+     "feedback": "كَانَ + present commonly expresses an ongoing or habitual past action."
+    },
+    {
+     "prompt": "Which means “The city became crowded”?",
+     "options": [
+      "صَارَتِ الْمَدِينَةُ مُزْدَحِمَةً.",
+      "صَارَ الْمَدِينَةَ مُزْدَحِمَةٌ.",
+      "إِنَّ الْمَدِينَةَ مُزْدَحِمَةً."
+     ],
+     "answer": 0,
+     "feedback": "صَارَ works like كَانَ and expresses becoming."
+    },
+    {
+     "prompt": "Which means “The problem is still difficult”?",
+     "options": [
+      "مَا زَالَتِ الْمُشْكِلَةُ صَعْبَةً.",
+      "زَالَتِ الْمُشْكِلَةُ صَعْبَةٌ.",
+      "كَانَتِ الْمُشْكِلَةَ صَعْبَةٌ."
+     ],
+     "answer": 0,
+     "feedback": "مَا زَالَ expresses continuation: still."
+    }
+   ]
+  },
+  {
+   "title": "Conjugation Check",
+   "items": [
+    {
+     "prompt": "Choose “We were ready.”",
+     "options": [
+      "كُنَّا مُسْتَعِدِّينَ.",
+      "كَانُوا مُسْتَعِدُونَ.",
+      "كُنَّا مُسْتَعِدُونَ."
+     ],
+     "answer": 0,
+     "feedback": "كُنَّا is “we were”; human masculine/mixed plural predicate is accusative ـين."
+    },
+    {
+     "prompt": "Choose “The teachers (f.) were in the hall.”",
+     "options": [
+      "كَانَتِ الْمُعَلِّمَاتُ فِي الْقَاعَةِ.",
+      "كَانُوا الْمُعَلِّمَاتُ فِي الْقَاعَةِ.",
+      "كَانَتِ الْمُعَلِّمَاتَ فِي الْقَاعَةُ."
+     ],
+     "answer": 0,
+     "feedback": "Verb-first formal agreement is singular feminine before the overt plural subject; prepositional predicate is unchanged."
+    },
+    {
+     "prompt": "Choose the subject-first form.",
+     "options": [
+      "الْمُعَلِّمَاتُ كُنَّ فِي الْقَاعَةِ.",
+      "الْمُعَلِّمَاتُ كَانَتْ فِي الْقَاعَةِ.",
+      "الْمُعَلِّمَاتُ كَانُوا فِي الْقَاعَةِ."
+     ],
+     "answer": 0,
+     "feedback": "Subject-first human feminine plural takes full agreement: كُنَّ."
+    },
+    {
+     "prompt": "Choose “He continued to be calm.”",
+     "options": [
+      "ظَلَّ هَادِئًا.",
+      "ظَلَّ هَادِئٌ.",
+      "إِنَّهُ ظَلَّ هَادِئٌ."
+     ],
+     "answer": 0,
+     "feedback": "ظَلَّ takes an accusative single-word predicate."
+    }
+   ]
+  },
+  {
+   "title": "🏁 Final Mastery",
+   "items": [
+    {
+     "prompt": "What does كَانَ add to a present nominal sentence?",
+     "options": [
+      "A past state or past frame",
+      "A future command",
+      "A question"
+     ],
+     "answer": 0,
+     "feedback": "كَانَ places the state in the past."
+    },
+    {
+     "prompt": "Choose the correct case-aware model.",
+     "options": [
+      "كَانَ الْبَيْتُ هَادِئًا.",
+      "كَانَ الْبَيْتَ هَادِئٌ.",
+      "كَانَ الْبَيْتِ هَادِئًا."
+     ],
+     "answer": 0,
+     "feedback": "Ism kāna nominative; single-word khabar accusative."
+    },
+    {
+     "prompt": "Choose “I was a student.”",
+     "options": [
+      "كُنْتُ طَالِبًا.",
+      "كَانَ أَنَا طَالِبٌ.",
+      "كُنْتَ طَالِبًا."
+     ],
+     "answer": 0,
+     "feedback": "First-person singular is كُنْتُ."
+    },
+    {
+     "prompt": "Choose “They were tired.” (masculine/mixed)",
+     "options": [
+      "كَانُوا مُتْعَبِينَ.",
+      "كَانُوا مُتْعَبُونَ.",
+      "كُنَّ مُتْعَبَاتٌ."
+     ],
+     "answer": 0,
+     "feedback": "كَانُوا + accusative human plural predicate."
+    },
+    {
+     "prompt": "Choose the past location sentence.",
+     "options": [
+      "كَانَ أَحْمَدُ فِي الْمَكْتَبَةِ.",
+      "كَانَ أَحْمَدَ فِي الْمَكْتَبَةَ.",
+      "إِنَّ أَحْمَدُ فِي الْمَكْتَبَةِ."
+     ],
+     "answer": 0,
+     "feedback": "The prepositional predicate remains governed by فِي."
+    },
+    {
+     "prompt": "Which means “I used to study in the evening”?",
+     "options": [
+      "كُنْتُ أَدْرُسُ فِي الْمَسَاءِ.",
+      "كُنْتُ دَرَسْتُ فِي الْمَسَاءِ.",
+      "سَأَدْرُسُ فِي الْمَسَاءِ."
+     ],
+     "answer": 0,
+     "feedback": "كَانَ + present gives a past habitual/ongoing frame."
+    },
+    {
+     "prompt": "Which means “The room became quiet”?",
+     "options": [
+      "صَارَتِ الْغُرْفَةُ هَادِئَةً.",
+      "صَارَتِ الْغُرْفَةَ هَادِئَةٌ.",
+      "كَأَنَّ الْغُرْفَةَ هَادِئَةٌ."
+     ],
+     "answer": 0,
+     "feedback": "صَارَ expresses change into a new state."
+    },
+    {
+     "prompt": "Which means “The student remained active”?",
+     "options": [
+      "ظَلَّ الطَّالِبُ نَشِيطًا.",
+      "ظَلَّ الطَّالِبَ نَشِيطٌ.",
+      "لَعَلَّ الطَّالِبَ نَشِيطٌ."
+     ],
+     "answer": 0,
+     "feedback": "ظَلَّ expresses continuation and follows the kāna pattern."
+    },
+    {
+     "prompt": "Which means “The school is still open”?",
+     "options": [
+      "مَا زَالَتِ الْمَدْرَسَةُ مَفْتُوحَةً.",
+      "زَالَتِ الْمَدْرَسَةُ مَفْتُوحَةٌ.",
+      "مَا زَالَتِ الْمَدْرَسَةَ مَفْتُوحَةٌ."
+     ],
+     "answer": 0,
+     "feedback": "مَا زَالَ needs مَا and follows the kāna pattern."
+    },
+    {
+     "prompt": "Best question when editing كَانَ?",
+     "options": [
+      "Is the state in the correct time frame, and is the predicate formed correctly?",
+      "Did I make every following word accusative?",
+      "Did I add ال to the predicate?"
+     ],
+     "answer": 0,
+     "feedback": "Only the relevant noun/predicate relationship changes; prepositional phrases keep their own government."
+    }
+   ]
+  }
+ ],
+ "games": [
+  [
+   {
+    "p": "The weather was beautiful.",
+    "a": "كَانَ الطَّقْسُ جَمِيلًا.",
+    "choices": [
+     "كَانَ الطَّقْسُ جَمِيلًا.",
+     "كَانَ الطَّقْسَ جَمِيلٌ.",
+     "إِنَّ الطَّقْسَ جَمِيلٌ."
+    ],
+    "e": "Past state: noun nominative, predicate accusative."
+   },
+   {
+    "p": "I was at school.",
+    "a": "كُنْتُ فِي الْمَدْرَسَةِ.",
+    "choices": [
+     "كُنْتُ فِي الْمَدْرَسَةِ.",
+     "كَانَ أَنَا فِي الْمَدْرَسَةِ.",
+     "كُنْتَ فِي الْمَدْرَسَةِ."
+    ],
+    "e": "First-person singular conjugation."
+   },
+   {
+    "p": "She was happy.",
+    "a": "كَانَتْ سَعِيدَةً.",
+    "choices": [
+     "كَانَتْ سَعِيدَةً.",
+     "كَانَ سَعِيدَةٌ.",
+     "كُنْتِ سَعِيدًا."
+    ],
+    "e": "Feminine verb + accusative feminine predicate."
+   },
+   {
+    "p": "We used to play after school.",
+    "a": "كُنَّا نَلْعَبُ بَعْدَ الْمَدْرَسَةِ.",
+    "choices": [
+     "كُنَّا نَلْعَبُ بَعْدَ الْمَدْرَسَةِ.",
+     "كُنَّا لَعِبْنَا بَعْدَ الْمَدْرَسَةِ.",
+     "سَنَلْعَبُ بَعْدَ الْمَدْرَسَةِ."
+    ],
+    "e": "كَانَ + present creates a past habitual frame."
+   },
+   {
+    "p": "The street became crowded.",
+    "a": "صَارَ الشَّارِعُ مُزْدَحِمًا.",
+    "choices": [
+     "صَارَ الشَّارِعُ مُزْدَحِمًا.",
+     "صَارَ الشَّارِعَ مُزْدَحِمٌ.",
+     "إِنَّ الشَّارِعَ مُزْدَحِمٌ."
+    ],
+    "e": "صَارَ expresses becoming."
+   },
+   {
+    "p": "The child remained quiet.",
+    "a": "ظَلَّ الطِّفْلُ هَادِئًا.",
+    "choices": [
+     "ظَلَّ الطِّفْلُ هَادِئًا.",
+     "ظَلَّ الطِّفْلَ هَادِئٌ.",
+     "لَيْتَ الطِّفْلَ هَادِئٌ."
+    ],
+    "e": "ظَلَّ expresses continued state."
+   },
+   {
+    "p": "The problem is still serious.",
+    "a": "مَا زَالَتِ الْمُشْكِلَةُ خَطِيرَةً.",
+    "choices": [
+     "مَا زَالَتِ الْمُشْكِلَةُ خَطِيرَةً.",
+     "زَالَتِ الْمُشْكِلَةُ خَطِيرَةٌ.",
+     "مَا زَالَتِ الْمُشْكِلَةَ خَطِيرٌ."
+    ],
+    "e": "مَا زَالَ expresses “still”."
+   },
+   {
+    "p": "The students were in the library.",
+    "a": "كَانَ الطُّلَّابُ فِي الْمَكْتَبَةِ.",
+    "choices": [
+     "كَانَ الطُّلَّابُ فِي الْمَكْتَبَةِ.",
+     "كَانُوا الطُّلَّابُ فِي الْمَكْتَبَةِ.",
+     "كَانَ الطُّلَّابَ فِي الْمَكْتَبَةَ."
+    ],
+    "e": "Formal verb-first agreement is singular before an overt plural subject."
+   }
+  ]
+ ],
+ "blocks": [
+  "## Why this matters لِمَاذَا نَسْتَعْمِلُ كَانَ وَأَخَوَاتِهَا؟",
+  "These verbs move a nominal sentence into the past or show becoming and continuing states.",
+  "### Core",
+  "Use كَانَ with identity, description and location.",
+  "### Develop",
+  "Conjugate كَانَ and use it with a present verb for past habits.",
+  "### Stretch",
+  "Use صَارَ, ظَلَّ and مَا زَالَ with case-aware control.",
+  "[callout] Communication target: describe how people, places and routines were in the past and how situations changed or continued.",
+  "## Diagnostic start",
+  "Test meaning, conjugation and the core case pattern.",
+  "## From present state to past state",
+  "كَانَ enters the nominal sentence and places it in a past frame.",
+  "TABLE: Present | Past with كَانَ | Meaning // الْجَوُّ بَارِدٌ. | كَانَ الْجَوُّ بَارِدًا. | The weather was cold. // أَحْمَدُ طَالِبٌ. | كَانَ أَحْمَدُ طَالِبًا. | Ahmad was a student. // مَرْيَمُ فِي الْبَيْتِ. | كَانَتْ مَرْيَمُ فِي الْبَيْتِ. | Maryam was at home.",
+  "[callout] Case-aware pattern: كَانَ + اسْمُهَا الْمَرْفُوعُ + خَبَرُهَا الْمَنْصُوبُ . A prepositional predicate keeps the case required by its preposition.",
+  "## Conjugating كَانَ",
+  "The form changes with the person, gender and number of the subject.",
+  "TABLE: Subject | Form | Model // أنا | كُنْتُ | كُنْتُ مُتْعَبَةً. // أنتَ / أنتِ | كُنْتَ / كُنْتِ | كُنْتِ فِي الْمَدْرَسَةِ. // هو | كَانَ | كَانَ مُسْتَعِدًّا. // هي | كَانَتْ | كَانَتْ مُسْتَعِدَّةً. // نحن | كُنَّا | كُنَّا فِي الْمَكْتَبَةِ. // هم | كَانُوا | كَانُوا مُجْتَهِدِينَ. // هنّ | كُنَّ | كُنَّ مُجْتَهِدَاتٍ.",
+  "[callout/warning] Word-order link: كَانَ الطُّلَّابُ مُسْتَعِدِّينَ is formal verb-first order; الطُّلَّابُ كَانُوا مُسْتَعِدِّينَ is subject-first full agreement.",
+  "## كَانَ + present for past habit or ongoing action",
+  "This frame is extremely useful for narrating routines and background actions.",
+  "TABLE: Frame | Model | Meaning // past habit | كُنْتُ أَقْرَأُ كُلَّ يَوْمٍ. | I used to read every day. // past ongoing | كَانَتْ تَدْرُسُ عِنْدَمَا اتَّصَلْتُ. | She was studying when I called. // past description + action | كَانَ الْجَوُّ جَمِيلًا، وَكَانَ الْأَطْفَالُ يَلْعَبُونَ. | The weather was beautiful and the children were playing.",
+  "[callout/warning] Do not mechanically double the past: كُنْتُ دَرَسْتُ كُلَّ يَوْمٍ does not normally express a simple repeated habit. Use كُنْتُ أَدْرُسُ .",
+  "## Core sisters for change and continuation",
+  "Each verb adds a specific meaning while keeping the kāna-style relationship.",
+  "TABLE: Verb | Meaning | Model // أَصْبَحَ | became / came to be, often morning context | أَصْبَحَ الْجَوُّ دَافِئًا. // صَارَ | became / changed into | صَارَ الطَّرِيقُ مُزْدَحِمًا. // ظَلَّ | remained / continued | ظَلَّ الْبَابُ مَفْتُوحًا. // مَا زَالَ | is still / continues to be | مَا زَالَتِ الْمَدْرَسَةُ مَفْتُوحَةً.",
+  "[callout] Meaning first: choose the sister because it expresses past state, change or continuation—not merely to make the sentence look advanced.",
+  "## Misconception clinic",
+  "Repair one feature at a time.",
+  "TABLE: Draft | Improved version | Reason // كَانَ الطَّقْسَ جَمِيلٌ. | كَانَ الطَّقْسُ جَمِيلًا. | Noun nominative; single-word predicate accusative. // كَانَ هِيَ مُتْعَبَةٌ. | كَانَتْ مُتْعَبَةً. | Conjugate كَانَ; the pronoun may be omitted. // كُنْتُ دَرَسْتُ كُلَّ يَوْمٍ. | كُنْتُ أَدْرُسُ كُلَّ يَوْمٍ. | Past habitual frame uses present after كَانَ. // صَارَتِ الْمَدِينَةَ مُزْدَحِمَةٌ. | صَارَتِ الْمَدِينَةُ مُزْدَحِمَةً. | Same kāna-family case pattern. // زَالَتِ الْمُشْكِلَةُ صَعْبَةً. | مَا زَالَتِ الْمُشْكِلَةُ صَعْبَةً. | مَا is required in the common “still” construction.",
+  "## Game: Rebuild the time frame",
+  "Choose the form that expresses past state, habit, change or continuation.",
+  "## Skills workshop",
+  "Build a past description with background, change and continuing consequences.",
+  "[ar] عِنْدَمَا كُنْتُ صَغِيرَةً، كُنْتُ أَسْكُنُ قُرْبَ الْمَدْرَسَةِ، وَكَانَ الطَّرِيقُ هَادِئًا.",
+  "[ar] بَعْدَ بِنَاءِ الْمَحَطَّةِ، صَارَ الْحَيُّ مُزْدَحِمًا، وَلَكِنَّهُ مَا زَالَ جَمِيلًا.",
+  "### Then and now",
+  "Write 110–130 Arabic words comparing a place, routine or period in your life in the past and now.",
+  "[callout] Success checklist: Use four forms of كَانَ, one كَانَ + present habit, one صَارَ or أَصْبَحَ, one مَا زَالَ, and accurate time expressions.",
+  "[callout] Paper route: Draw a two-column “then/now” plan, write the paragraph, then underline every form from the kāna family.",
+  "## Final mastery check",
+  "Control past state, conjugation, habit and the main sisters.",
+  "### What you can now do",
+  "- Transform a present nominal sentence into a past state.",
+  "- Conjugate كَانَ for common persons and groups.",
+  "- Use كَانَ + present for past habits and ongoing actions.",
+  "- Express becoming and continuation with selected sisters.",
+  "Spaced revisit: record a one-minute “then and now” comparison without reading your paragraph."
+ ]
+}

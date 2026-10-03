@@ -1,0 +1,114 @@
+{
+ "path": "lessons/grammar/07a-verb-forms/form-10.php",
+ "title": "Form X: Seeking, Using and Considering",
+ "arabic": "الْوَزْنُ الْعَاشِرُ",
+ "lede": "Form X often expresses seeking, requesting, considering or using something. Many high-frequency verbs in technology, daily life and formal language belong to this family.",
+ "nav": [
+  [
+   "GM-VF-09",
+   "Form IX: Colours and Physical States"
+  ]
+ ],
+ "quizzes": [
+  {
+   "title": "Quick pattern check",
+   "items": [
+    {
+     "prompt": "Which pair is Form X?",
+     "options": [
+      "اِسْتَعْمَلَ / يَسْتَعْمِلُ",
+      "عَمِلَ / يَعْمَلُ",
+      "تَعَامَلَ / يَتَعَامَلُ"
+     ],
+     "answer": 0,
+     "feedback": "The regular Form X pattern begins اِسْتَـ in the past and يَسْتَـ in the present."
+    }
+   ]
+  },
+  {
+   "title": "Form X · Self-check",
+   "items": [
+    {
+     "prompt": "Which pair is Form X?",
+     "options": [
+      "اِسْتَعْمَلَ / يَسْتَعْمِلُ",
+      "تَعَامَلَ / يَتَعَامَلُ",
+      "عَمِلَ / يَعْمَلُ"
+     ],
+     "answer": 0,
+     "feedback": "The regular Form X pattern begins اِسْتَـ in the past and يَسْتَـ in the present."
+    },
+    {
+     "prompt": "Choose the verbal noun of اِسْتَخْدَمَ.",
+     "options": [
+      "اِسْتِخْدَامٌ",
+      "خِدْمَةٌ",
+      "مُسْتَخْدِمٌ"
+     ],
+     "answer": 0,
+     "feedback": "اِسْتِخْدَامٌ names the act of using."
+    },
+    {
+     "prompt": "Which statement is accurate?",
+     "options": [
+      "Form X has several lexical meanings, including seeking and using.",
+      "Every Form X verb means to ask for something.",
+      "Form X is the future tense of Form I."
+     ],
+     "answer": 0,
+     "feedback": "Learn the lexical meaning alongside the pattern."
+    }
+   ]
+  }
+ ],
+ "games": [],
+ "blocks": [
+  "## Why this matters",
+  "Learn the meaning before memorising the pattern.",
+  "### Core",
+  "Recognise the pattern and understand the model verb in a sentence.",
+  "### Develop",
+  "Use two or three verbs from this family in accurate past and present sentences.",
+  "[callout] Your goal: Form X often expresses seeking, requesting, considering or using something. Many high-frequency verbs in technology, daily life and formal language belong to this family.",
+  "## Discover the pattern",
+  "Notice what changes and what stays connected to the root.",
+  "### Root and pattern",
+  "The regular past pattern begins اِسْتَـ and the present commonly begins يَسْتَـ. The verbal noun often follows اِسْتِفْعَالٌ, subject to root-specific changes.",
+  "TABLE: Past | Present | Meaning // اِسْتَعْمَلَ | يَسْتَعْمِلُ | to use",
+  "[callout] Notice the relationship: عَمِلَ means to work; اِسْتَعْمَلَ means to use. اِسْتَغْفَرَ means to seek forgiveness. These show different lexical uses of the same derivational family.",
+  "## Learn the family",
+  "Read each pair aloud, then use the verbs in meaningful sentences.",
+  "TABLE: Past | Present | Meaning // اِسْتَخْدَمَ | يَسْتَخْدِمُ | to use // اِسْتَغْفَرَ | يَسْتَغْفِرُ | to seek forgiveness // اِسْتَقْبَلَ | يَسْتَقْبِلُ | to receive or welcome",
+  "أَسْتَعْمِلُ الْحَاسُوبَ لِلدِّرَاسَةِ.",
+  "I use the computer for studying.",
+  "اِسْتَخْدَمَتْ سَلْمَى التَّطْبِيقَ أَمْسِ.",
+  "Salma used the application yesterday.",
+  "يَسْتَقْبِلُ الْمُوَظَّفُ الزُّوَّارَ فِي الْمَكْتَبِ.",
+  "The employee receives visitors in the office.",
+  "[callout] Look closely: Compare اِسْتَعْمَلَ / يَسْتَعْمِلُ with اِسْتَخْدَمَ / يَسْتَخْدِمُ. Both share the Form X pattern but have different roots and must be learned as separate vocabulary.",
+  "## Practise and apply",
+  "Move from recognising the pattern to using the language yourself.",
+  "### Misconception clinic",
+  "Do not translate اِسْتَـ as “ask for” in every verb. اِسْتَعْمَلَ and اِسْتَخْدَمَ mean to use, not to ask for work or service.",
+  "I use the computer. The meaning is lexical, not a mechanical translation of the prefix.",
+  "### Apply the form",
+  "Write a short explanation of how you use technology for learning. Include two Form X verbs, a reason and a past-time expression.",
+  "[callout] Success checklist: Use the correct verb form and person; check the past/present vowels; use a natural sentence and reread your Arabic.",
+  "Complete your own response first. This is one possible answer, not the only correct response.",
+  "أَسْتَعْمِلُ الْحَاسُوبَ لِلدِّرَاسَةِ، وَأَسْتَخْدِمُ تَطْبِيقًا لِتَعَلُّمِ الْعَرَبِيَّةِ. أَمْسِ اِسْتَخْدَمْتُ التَّطْبِيقَ لِمُرَاجَعَةِ الْكَلِمَاتِ، لِأَنَّ الْمُمَارَسَةَ مُفِيدَةٌ.",
+  "I use the computer for studying, and I use an application to learn Arabic. Yesterday I used the application to review words because practice is useful.",
+  "Compare اِسْتَعْمَلَ, اِسْتَخْدَمَ and اِسْتَغْفَرَ. Explain why a shared pattern does not guarantee a shared English translation.",
+  "Use the optional morphology reference if you need a pattern reminder.",
+  "## Final self-check",
+  "Try the questions without looking back. Your feedback explains the key feature.",
+  "## What you can now do",
+  "Review the essentials before moving to the next form.",
+  "### Lesson mastery summary",
+  "- recognise Form X and its characteristic pattern;",
+  "- understand and use the model verb in context;",
+  "- distinguish this family from a related form;",
+  "- check the accuracy of your own Arabic sentences.",
+  "Return in a few days and repeat the self-check. Learn the next form only when you are ready.",
+  "Back to all ten forms · Optional morphology reference"
+ ]
+}

@@ -1,0 +1,527 @@
+{
+ "path": "lessons/grammar/07-verbs/grammar-mastery-08-negation.php",
+ "title": "Negating Past and Present Actions",
+ "arabic": "نَفْيُ الْمَاضِي وَالْمُضَارِعِ",
+ "lede": "Choose accurately among ما، لم، لا and لن, control the jussive after لم and distinguish present statements from negative commands.",
+ "nav": [
+  [
+   "GM-V-07",
+   "Imperatives and Negative Commands"
+  ]
+ ],
+ "quizzes": [
+  {
+   "title": "🔎 Entry Check",
+   "items": [
+    {
+     "prompt": "Choose “I did not travel” with a perfect verb.",
+     "options": [
+      "مَا سَافَرْتُ",
+      "لَا سَافَرْتُ",
+      "لَنْ سَافَرْتُ"
+     ],
+     "answer": 0,
+     "feedback": "مَا can negate the past/perfect directly."
+    },
+    {
+     "prompt": "Choose another standard “I did not travel”.",
+     "options": [
+      "لَمْ أُسَافِرْ",
+      "لَمْ سَافَرْتُ",
+      "لَمْ أُسَافِرُ"
+     ],
+     "answer": 0,
+     "feedback": "لَمْ + jussive present has past negative meaning."
+    },
+    {
+     "prompt": "Choose “I do not travel every week”.",
+     "options": [
+      "لَا أُسَافِرُ كُلَّ أُسْبُوعٍ",
+      "لَمْ أُسَافِرْ كُلَّ أُسْبُوعٍ",
+      "لَنْ أُسَافِرَ أَمْسِ"
+     ],
+     "answer": 0,
+     "feedback": "لَا + indicative present negates habit/general present."
+    },
+    {
+     "prompt": "Choose “They did not write” with لم.",
+     "options": [
+      "لَمْ يَكْتُبُوا",
+      "لَمْ يَكْتُبُونَ",
+      "لَمْ كَتَبُوا"
+     ],
+     "answer": 0,
+     "feedback": "The five-verb nūn drops after لم."
+    },
+    {
+     "prompt": "Choose “I did not see”.",
+     "options": [
+      "لَمْ أَرَ",
+      "لَمْ أَرَى",
+      "مَا أَرَى أَمْسِ"
+     ],
+     "answer": 0,
+     "feedback": "The jussive of أَرَى is أَرَ."
+    },
+    {
+     "prompt": "Which particle is for future negation?",
+     "options": [
+      "لَنْ",
+      "لَمْ",
+      "مَا + past"
+     ],
+     "answer": 0,
+     "feedback": "لن belongs to the future system."
+    }
+   ]
+  },
+  {
+   "title": "🗺️ Negation Map Check",
+   "items": [
+    {
+     "prompt": "Completed past action",
+     "options": [
+      "مَا كَتَبْتُ.",
+      "لَا كَتَبْتُ.",
+      "لَنْ كَتَبْتُ."
+     ],
+     "answer": 0,
+     "feedback": "ما + past."
+    },
+    {
+     "prompt": "Past negative with jussive",
+     "options": [
+      "لَمْ أَكْتُبْ.",
+      "لَمْ أَكْتُبُ.",
+      "لَمْ كَتَبْتُ."
+     ],
+     "answer": 0,
+     "feedback": "لم + jussive."
+    },
+    {
+     "prompt": "Present habit",
+     "options": [
+      "لَا أَكْتُبُ كُلَّ يَوْمٍ.",
+      "لَمْ أَكْتُبْ غَدًا.",
+      "مَا كَتَبْتُ عَادَةً."
+     ],
+     "answer": 0,
+     "feedback": "لا + present."
+    },
+    {
+     "prompt": "Future negative",
+     "options": [
+      "لَنْ أَكْتُبَ غَدًا.",
+      "لَمْ أَكْتُبْ غَدًا as future plan",
+      "لَا كَتَبْتُ غَدًا."
+     ],
+     "answer": 0,
+     "feedback": "لن + subjunctive."
+    }
+   ]
+  },
+  {
+   "title": "⏪ Past Negation Check",
+   "items": [
+    {
+     "prompt": "“She did not arrive” with ما",
+     "options": [
+      "مَا وَصَلَتْ",
+      "مَا تَصِلُ",
+      "لَا وَصَلَتْ"
+     ],
+     "answer": 0,
+     "feedback": "Past remains conjugated."
+    },
+    {
+     "prompt": "“She did not arrive” with لم",
+     "options": [
+      "لَمْ تَصِلْ",
+      "لَمْ تَصِلُ",
+      "لَمْ وَصَلَتْ"
+     ],
+     "answer": 0,
+     "feedback": "Jussive present form."
+    },
+    {
+     "prompt": "“They did not travel” with لم",
+     "options": [
+      "لَمْ يُسَافِرُوا",
+      "لَمْ يُسَافِرُونَ",
+      "لَمْ سَافَرُوا"
+     ],
+     "answer": 0,
+     "feedback": "Nūn drops."
+    },
+    {
+     "prompt": "“You f. did not write” with لم",
+     "options": [
+      "لَمْ تَكْتُبِي",
+      "لَمْ تَكْتُبِينَ",
+      "لَمْ كَتَبْتِ"
+     ],
+     "answer": 0,
+     "feedback": "Jussive five-verb form."
+    }
+   ]
+  },
+  {
+   "title": "⏺️ Present Negation Check",
+   "items": [
+    {
+     "prompt": "Statement: “He does not play.”",
+     "options": [
+      "هُوَ لَا يَلْعَبُ.",
+      "هُوَ لَا يَلْعَبْ!",
+      "هُوَ لَمْ يَلْعَبُ."
+     ],
+     "answer": 0,
+     "feedback": "Indicative present statement."
+    },
+    {
+     "prompt": "Command: “Do not play!”",
+     "options": [
+      "لَا تَلْعَبْ!",
+      "لَا تَلْعَبُ.",
+      "لَنْ تَلْعَبَ!"
+     ],
+     "answer": 0,
+     "feedback": "Prohibition."
+    },
+    {
+     "prompt": "General fact negative",
+     "options": [
+      "لَا تَنْبُتُ النَّبَاتَاتُ بِلَا مَاءٍ.",
+      "مَا نَبَتَتْ كُلَّ يَوْمٍ.",
+      "لَنْ تَنْبُتْ أَمْسِ."
+     ],
+     "answer": 0,
+     "feedback": "Present general truth."
+    },
+    {
+     "prompt": "Present feminine subject",
+     "options": [
+      "هِيَ لَا تَذْهَبُ.",
+      "هِيَ لَا يَذْهَبُ.",
+      "هِيَ مَا تَذْهَبْ."
+     ],
+     "answer": 0,
+     "feedback": "Correct subject agreement and لا."
+    }
+   ]
+  },
+  {
+   "title": "🧬 Jussive Change Check",
+   "items": [
+    {
+     "prompt": "“He did not walk”",
+     "options": [
+      "لَمْ يَمْشِ",
+      "لَمْ يَمْشِي",
+      "مَا يَمْشِ"
+     ],
+     "answer": 0,
+     "feedback": "Final weak jussive."
+    },
+    {
+     "prompt": "“He did not call”",
+     "options": [
+      "لَمْ يَدْعُ",
+      "لَمْ يَدْعُو",
+      "لَنْ يَدْعُ"
+     ],
+     "answer": 0,
+     "feedback": "Final wāw drops."
+    },
+    {
+     "prompt": "“He did not see”",
+     "options": [
+      "لَمْ يَرَ",
+      "لَمْ يَرَى",
+      "مَا يَرَ"
+     ],
+     "answer": 0,
+     "feedback": "Jussive of يرى."
+    },
+    {
+     "prompt": "“They did not come” with يأتي",
+     "options": [
+      "لَمْ يَأْتُوا",
+      "لَمْ يَأْتُونَ",
+      "لَمْ أَتَوْا"
+     ],
+     "answer": 0,
+     "feedback": "Five-verb nūn drops."
+    }
+   ]
+  },
+  {
+   "title": "⭐ Negation Mastery",
+   "items": [
+    {
+     "prompt": "Past with ما",
+     "options": [
+      "مَا كَتَبْتُ",
+      "مَا أَكْتُبُ",
+      "لَا كَتَبْتُ"
+     ],
+     "answer": 0,
+     "feedback": "Direct perfect negation."
+    },
+    {
+     "prompt": "Past with لم",
+     "options": [
+      "لَمْ أَكْتُبْ",
+      "لَمْ أَكْتُبُ",
+      "لَمْ كَتَبْتُ"
+     ],
+     "answer": 0,
+     "feedback": "Jussive."
+    },
+    {
+     "prompt": "Present habit",
+     "options": [
+      "لَا أَكْتُبُ كَثِيرًا",
+      "لَا أَكْتُبْ كَثِيرًا!",
+      "لَمْ أَكْتُبَ كَثِيرًا"
+     ],
+     "answer": 0,
+     "feedback": "Indicative present."
+    },
+    {
+     "prompt": "Future negative",
+     "options": [
+      "لَنْ أَكْتُبَ",
+      "لَمْ أَكْتُبْ",
+      "مَا كَتَبْتُ"
+     ],
+     "answer": 0,
+     "feedback": "لن."
+    },
+    {
+     "prompt": "They did not write",
+     "options": [
+      "لَمْ يَكْتُبُوا",
+      "لَمْ يَكْتُبُونَ",
+      "مَا يَكْتُبُوا"
+     ],
+     "answer": 0,
+     "feedback": "Nūn drops."
+    },
+    {
+     "prompt": "You f. did not write",
+     "options": [
+      "لَمْ تَكْتُبِي",
+      "لَمْ تَكْتُبِينَ",
+      "لَا تَكْتُبِي!"
+     ],
+     "answer": 0,
+     "feedback": "Jussive five verb."
+    },
+    {
+     "prompt": "He did not walk",
+     "options": [
+      "لَمْ يَمْشِ",
+      "لَمْ يَمْشِي",
+      "لَنْ يَمْشِ"
+     ],
+     "answer": 0,
+     "feedback": "Weak jussive."
+    },
+    {
+     "prompt": "He did not see",
+     "options": [
+      "لَمْ يَرَ",
+      "لَمْ يَرَى",
+      "لَا يَرَ"
+     ],
+     "answer": 0,
+     "feedback": "Jussive يرى."
+    },
+    {
+     "prompt": "Present statement",
+     "options": [
+      "هُوَ لَا يَلْعَبُ.",
+      "لَا تَلْعَبْ!",
+      "هُوَ لَا يَلْعَبْ."
+     ],
+     "answer": 0,
+     "feedback": "Indicative."
+    },
+    {
+     "prompt": "Negative command",
+     "options": [
+      "لَا تَلْعَبْ!",
+      "لَنْ تَلْعَبَ!",
+      "لَا تَلْعَبُ."
+     ],
+     "answer": 0,
+     "feedback": "Prohibition."
+    }
+   ]
+  }
+ ],
+ "games": [
+  [
+   {
+    "p": "I did not travel yesterday.",
+    "a": "مَا سَافَرْتُ أَمْسِ.",
+    "choices": [
+     "مَا سَافَرْتُ أَمْسِ.",
+     "لَا سَافَرْتُ أَمْسِ.",
+     "لَنْ أُسَافِرَ أَمْسِ."
+    ],
+    "e": "Past + ما."
+   },
+   {
+    "p": "I did not travel yesterday (لم).",
+    "a": "لَمْ أُسَافِرْ أَمْسِ.",
+    "choices": [
+     "لَمْ أُسَافِرْ أَمْسِ.",
+     "لَمْ أُسَافِرُ أَمْسِ.",
+     "لَمْ سَافَرْتُ."
+    ],
+    "e": "لم + jussive."
+   },
+   {
+    "p": "I do not travel often.",
+    "a": "لَا أُسَافِرُ غَالِبًا.",
+    "choices": [
+     "لَا أُسَافِرُ غَالِبًا.",
+     "لَمْ أُسَافِرْ غَالِبًا.",
+     "مَا سَافَرْتُ غَدًا."
+    ],
+    "e": "Present habit."
+   },
+   {
+    "p": "I will not travel tomorrow.",
+    "a": "لَنْ أُسَافِرَ غَدًا.",
+    "choices": [
+     "لَنْ أُسَافِرَ غَدًا.",
+     "لَمْ أُسَافِرْ غَدًا.",
+     "لَا سَافَرْتُ غَدًا."
+    ],
+    "e": "Future negative."
+   },
+   {
+    "p": "They did not write.",
+    "a": "لَمْ يَكْتُبُوا.",
+    "choices": [
+     "لَمْ يَكْتُبُوا.",
+     "لَمْ يَكْتُبُونَ.",
+     "مَا يَكْتُبُوا."
+    ],
+    "e": "Jussive plural."
+   },
+   {
+    "p": "He did not walk.",
+    "a": "لَمْ يَمْشِ.",
+    "choices": [
+     "لَمْ يَمْشِ.",
+     "لَمْ يَمْشِي.",
+     "لَنْ يَمْشِ."
+    ],
+    "e": "Weak jussive."
+   },
+   {
+    "p": "He does not play.",
+    "a": "لَا يَلْعَبُ.",
+    "choices": [
+     "لَا يَلْعَبُ.",
+     "لَا يَلْعَبْ!",
+     "لَمْ يَلْعَبُ."
+    ],
+    "e": "Indicative statement."
+   },
+   {
+    "p": "Do not play!",
+    "a": "لَا تَلْعَبْ!",
+    "choices": [
+     "لَا تَلْعَبْ!",
+     "لَا تَلْعَبُ.",
+     "لَنْ تَلْعَبَ!"
+    ],
+    "e": "Prohibition."
+   }
+  ]
+ ],
+ "blocks": [
+  "## Why this matters لِمَاذَا تَتَعَدَّدُ أَدَوَاتُ النَّفْيِ؟",
+  "Arabic negation is precise: different particles connect non-occurrence to past, present, future or prohibition.",
+  "### Core",
+  "Use ما with past and لا with present.",
+  "### Develop",
+  "Use لم with the jussive and لن with the subjunctive.",
+  "### Stretch",
+  "Control five-verb and weak-verb mood changes and distinguish statement from prohibition.",
+  "[callout] Communication target: Express what did not, does not and will not happen without time-frame ambiguity.",
+  "## Diagnostic start",
+  "Choose the negative system that fits each meaning.",
+  "## A four-part negation map",
+  "Time frame determines the particle and often the verb mood.",
+  "TABLE: Structure | Model | What it does // مَا + past | مَا ذَهَبْتُ. | Negates a completed past action directly. // لَمْ + jussive present | لَمْ أَذْهَبْ. | Also means “I did not go”; the following form is morphologically present/jussive. // لَا + indicative present | لَا أَذْهَبُ عَادَةً. | Negates a habit, general action or current intention according to context. // لَنْ + subjunctive present | لَنْ أَذْهَبَ غَدًا. | Negates future action.",
+  "[callout] One English “not” maps to several Arabic systems. Choose the particle from the intended time frame and sentence type.",
+  "## Past negation: مَا and لَمْ",
+  "The two structures share a past meaning but use different verb forms.",
+  "### مَا + perfect",
+  "مَا زُرْنَا الْمَتْحَفَ أَمْسِ.",
+  "The past verb keeps its normal conjugation.",
+  "### لَمْ + jussive imperfect",
+  "لَمْ نَزُرِ الْمَتْحَفَ أَمْسِ.",
+  "The form after لم is jussive but the meaning is past negative.",
+  "[callout] Style and emphasis: Both are standard. لَمْ is especially common in formal written MSA and connects the negation to the jussive system.",
+  "## Present negation with لَا",
+  "Use لا for present habits, general facts and contextually current non-actions.",
+  "TABLE: Use | Model | Comment // habitual non-action | لَا أَشْرَبُ الْقَهْوَةَ. | I do not drink coffee. // current refusal/intention from context | لَا أُرِيدُ أَنْ أَذْهَبَ الآنَ. | I do not want to go now. // general fact | لَا تَطِيرُ الْأَسْمَاكُ. | Fish do not fly. // not a prohibition | هُوَ لَا يَكْتُبُ. | Statement about him, not a command.",
+  "[callout/warning] Compare: لَا تَكْتُبُ can state “you do not write”; لَا تَكْتُبْ! with jussive is “do not write!” The final vowel and context distinguish statement from prohibition.",
+  "## Visible jussive changes after لَمْ",
+  "Regular, five-verb and weak forms respond differently.",
+  "TABLE: Positive | After لَمْ | What changes // يَكْتُبُ | لَمْ يَكْتُبْ | final ḍamma → sukūn // يَكْتُبُونَ | لَمْ يَكْتُبُوا | nūn drops // تَكْتُبِينَ | لَمْ تَكْتُبِي | nūn drops // يَمْشِي | لَمْ يَمْشِ | final weak letter shortens/drops // يَدْعُو | لَمْ يَدْعُ | final weak letter shortens/drops // يَرَى | لَمْ يَرَ | final alif maqṣūra drops in the jussive form",
+  "[callout] Stretch focus: Weak verbs make the jussive especially visible. Learn high-frequency pairs: يَمْشِي / لَمْ يَمْشِ، يَدْعُو / لَمْ يَدْعُ، يَرَى / لَمْ يَرَ .",
+  "## Negation misconception clinic",
+  "A useful correction explains the form, not only the answer.",
+  "### Particle + tense",
+  "✗ لَا ذَهَبْتُ أَمْسِ",
+  "✓ مَا ذَهَبْتُ أَمْسِ",
+  "Use ما with a past verb, or لم + jussive.",
+  "### After لم",
+  "✗ لَمْ أَذْهَبُ",
+  "✓ لَمْ أَذْهَبْ",
+  "The following verb is jussive.",
+  "### Plural after لم",
+  "✗ لَمْ يَكْتُبُونَ",
+  "✓ لَمْ يَكْتُبُوا",
+  "The nūn drops.",
+  "### Statement versus command",
+  "✗ هُوَ لَا يَكْتُبْ",
+  "✓ هُوَ لَا يَكْتُبُ",
+  "A present negative statement remains indicative; sukūn would suggest a prohibition context.",
+  "## Replayable negation game",
+  "Link time, particle and mood.",
+  "## Apply the grammar across skills",
+  "Grammar becomes useful when it helps you understand and communicate.",
+  "### 📖 Reading workshop",
+  "Read a diary and classify every negative sentence by time frame and particle. Explain why each verb form follows.",
+  "### 🎧 Listening workshop",
+  "Listen for minimal contrasts such as لم يكتبْ / لا يكتبُ / لن يكتبَ and identify the intended time.",
+  "### 🗣️ Speaking workshop",
+  "Answer four questions using a different negative system each time: past action, past with لم, current habit and future plan.",
+  "### 🛠️ Editing workshop",
+  "Repair a mixed-time paragraph containing wrong particles, missing jussive changes and confusion between statements and prohibitions.",
+  "### ✍️ Integrated production task",
+  "Write a 120–140-word reflection comparing what you did not do last week, what you do not usually do, and what you will not do next week.",
+  "[callout] Model: فِي الأُسْبُوعِ الْمَاضِي مَا ذَهَبْتُ إِلَى النَّادِي، وَلَمْ أَلْعَبْ كُرَةَ الْقَدَمِ. أَنَا لَا أَتَدَرَّبُ كُلَّ يَوْمٍ، وَلَكِنَّنِي لَنْ أَتَوَقَّفَ عَنِ الرِّيَاضَةِ.",
+  "[callout] Success checklist: Use ما + past, لم + jussive, لا + present and لن + subjunctive at least twice each; include one weak jussive and one five-verb form.",
+  "Save and mark complete Clear",
+  "Plan the verb changes as a timeline, root map or sentence flowchart. Label each form in Arabic.",
+  "Create four headings—past with ما, past with لم, present with لا, future with لن—and place each sentence under the correct heading before combining them.",
+  "## Final mastery check",
+  "Select the correct particle and verb form.",
+  "### Lesson mastery summary",
+  "- negate past actions with ما + past;",
+  "- use لم + jussive for formal past negation;",
+  "- use لا for present negative statements;",
+  "- distinguish future negation and negative commands.",
+  "Return in 3–7 days and repeat the final check without reviewing first. Retrieval, not recognition alone, builds secure verb control."
+ ]
+}

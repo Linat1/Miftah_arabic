@@ -1,0 +1,255 @@
+{
+ "path": "lessons/grammar/04-adjectives/grammar-mastery-01-gender-agreement.php",
+ "title": "Masculine and Feminine Singular",
+ "arabic": "مُطَابَقَةُ الصِّفَةِ فِي الْمُذَكَّرِ وَالْمُؤَنَّثِ",
+ "lede": "Build accurate masculine and feminine adjective agreement, recognise regular and less predictable feminine forms, and apply them in descriptions.",
+ "nav": [],
+ "quizzes": [
+  {
+   "title": "🔎 Entry Check",
+   "items": [
+    {
+     "prompt": "Choose agreement for بِنْتٌ",
+     "options": [
+      "ذَكِيٌّ",
+      "ذَكِيَّةٌ",
+      "أَذْكِيَاءُ"
+     ],
+     "answer": 1,
+     "feedback": "بنت is feminine singular."
+    },
+    {
+     "prompt": "Choose agreement for كِتَابٌ",
+     "options": [
+      "مُفِيدٌ",
+      "مُفِيدَةٌ",
+      "مُفِيدُونَ"
+     ],
+     "answer": 0,
+     "feedback": "كتاب is masculine singular."
+    },
+    {
+     "prompt": "Complete السَّيَّارَةُ ...",
+     "options": [
+      "جَدِيدٌ",
+      "جَدِيدَةٌ",
+      "جُدُدٌ"
+     ],
+     "answer": 1,
+     "feedback": "The predicate agrees with the feminine noun."
+    },
+    {
+     "prompt": "Choose “the small school”",
+     "options": [
+      "الْمَدْرَسَةُ صَغِيرَةٌ",
+      "الْمَدْرَسَةُ الصَّغِيرَةُ",
+      "الْمَدْرَسَةُ الصَّغِيرُ"
+     ],
+     "answer": 1,
+     "feedback": "Both words are definite in the phrase."
+    },
+    {
+     "prompt": "Which principle best supports this lesson?",
+     "options": [
+      "Check the noun first",
+      "Translate word by word from English",
+      "Ignore definiteness"
+     ],
+     "answer": 0,
+     "feedback": "The noun controls adjective agreement."
+    }
+   ]
+  },
+  {
+   "title": "🧩 Guided check",
+   "items": [
+    {
+     "prompt": "Choose agreement for بِنْتٌ",
+     "options": [
+      "ذَكِيٌّ",
+      "ذَكِيَّةٌ",
+      "أَذْكِيَاءُ"
+     ],
+     "answer": 1,
+     "feedback": "بنت is feminine singular."
+    },
+    {
+     "prompt": "Choose agreement for كِتَابٌ",
+     "options": [
+      "مُفِيدٌ",
+      "مُفِيدَةٌ",
+      "مُفِيدُونَ"
+     ],
+     "answer": 0,
+     "feedback": "كتاب is masculine singular."
+    },
+    {
+     "prompt": "Complete السَّيَّارَةُ ...",
+     "options": [
+      "جَدِيدٌ",
+      "جَدِيدَةٌ",
+      "جُدُدٌ"
+     ],
+     "answer": 1,
+     "feedback": "The predicate agrees with the feminine noun."
+    },
+    {
+     "prompt": "Choose “the small school”",
+     "options": [
+      "الْمَدْرَسَةُ صَغِيرَةٌ",
+      "الْمَدْرَسَةُ الصَّغِيرَةُ",
+      "الْمَدْرَسَةُ الصَّغِيرُ"
+     ],
+     "answer": 1,
+     "feedback": "Both words are definite in the phrase."
+    }
+   ]
+  },
+  {
+   "title": "⭐ Mastery Check",
+   "items": [
+    {
+     "prompt": "Choose agreement for بِنْتٌ",
+     "options": [
+      "ذَكِيٌّ",
+      "ذَكِيَّةٌ",
+      "أَذْكِيَاءُ"
+     ],
+     "answer": 1,
+     "feedback": "بنت is feminine singular."
+    },
+    {
+     "prompt": "Choose agreement for كِتَابٌ",
+     "options": [
+      "مُفِيدٌ",
+      "مُفِيدَةٌ",
+      "مُفِيدُونَ"
+     ],
+     "answer": 0,
+     "feedback": "كتاب is masculine singular."
+    },
+    {
+     "prompt": "Complete السَّيَّارَةُ ...",
+     "options": [
+      "جَدِيدٌ",
+      "جَدِيدَةٌ",
+      "جُدُدٌ"
+     ],
+     "answer": 1,
+     "feedback": "The predicate agrees with the feminine noun."
+    },
+    {
+     "prompt": "Choose “the small school”",
+     "options": [
+      "الْمَدْرَسَةُ صَغِيرَةٌ",
+      "الْمَدْرَسَةُ الصَّغِيرَةُ",
+      "الْمَدْرَسَةُ الصَّغِيرُ"
+     ],
+     "answer": 1,
+     "feedback": "Both words are definite in the phrase."
+    },
+    {
+     "prompt": "Choose agreement for بِنْتٌ",
+     "options": [
+      "ذَكِيٌّ",
+      "ذَكِيَّةٌ",
+      "أَذْكِيَاءُ"
+     ],
+     "answer": 1,
+     "feedback": "بنت is feminine singular."
+    },
+    {
+     "prompt": "Choose agreement for كِتَابٌ",
+     "options": [
+      "مُفِيدٌ",
+      "مُفِيدَةٌ",
+      "مُفِيدُونَ"
+     ],
+     "answer": 0,
+     "feedback": "كتاب is masculine singular."
+    },
+    {
+     "prompt": "Complete السَّيَّارَةُ ...",
+     "options": [
+      "جَدِيدٌ",
+      "جَدِيدَةٌ",
+      "جُدُدٌ"
+     ],
+     "answer": 1,
+     "feedback": "The predicate agrees with the feminine noun."
+    },
+    {
+     "prompt": "Choose “the small school”",
+     "options": [
+      "الْمَدْرَسَةُ صَغِيرَةٌ",
+      "الْمَدْرَسَةُ الصَّغِيرَةُ",
+      "الْمَدْرَسَةُ الصَّغِيرُ"
+     ],
+     "answer": 1,
+     "feedback": "Both words are definite in the phrase."
+    }
+   ]
+  }
+ ],
+ "games": [],
+ "blocks": [
+  "## Why this matters لِمَاذَا هَذَا مُهِمٌّ؟",
+  "Adjective control affects the accuracy of descriptions in every Cambridge topic: people, clothes, homes, school, travel, weather, work and opinions.",
+  "### Core",
+  "Match a singular adjective to a masculine or feminine noun.",
+  "### Develop",
+  "Use agreement accurately in noun phrases and nominal sentences.",
+  "### Stretch",
+  "Handle adjectives whose feminine form involves more than simply adding ة.",
+  "## Diagnostic start",
+  "Try this short check before reading the explanations. Incorrect answers are information, not failure.",
+  "## Learn the system step by step",
+  "Read one explanation, study the worked examples, then pause for the mini-check.",
+  "### 1. The agreement principle",
+  "An Arabic adjective describes a noun and normally agrees with it in gender. The common classroom shortcut is useful: many feminine adjectives add ـَةٌ to the masculine form.",
+  "[callout] وَلَدٌ صَغِيرٌ ← بِنْتٌ صَغِيرَةٌ بَيْتٌ كَبِيرٌ ← مَدْرَسَةٌ كَبِيرَةٌ طَالِبٌ مُجْتَهِدٌ ← طَالِبَةٌ مُجْتَهِدَةٌ",
+  "### 2. Do not add ة mechanically",
+  "The base rule works often, but learners must notice the actual feminine form. Some adjectives alter their shape or belong to special patterns.",
+  "[callout] جَمِيلٌ / جَمِيلَةٌ · سَرِيعٌ / سَرِيعَةٌ · أَحْمَرُ / حَمْرَاءُ The colour pair is taught fully in Lesson 3.",
+  "### 3. Phrase or sentence?",
+  "Agreement is the same, but meaning changes according to definiteness. An indefinite noun followed by an indefinite adjective usually forms “a … noun”. A definite noun followed by an indefinite adjective normally forms a sentence.",
+  "[callout] بَيْتٌ كَبِيرٌ = a big house الْبَيْتُ كَبِيرٌ = the house is big الْبَيْتُ الْكَبِيرُ = the big house",
+  "### High-frequency model bank",
+  "- وَلَدٌ ذَكِيٌّ",
+  "- بِنْتٌ ذَكِيَّةٌ",
+  "- سَيَّارَةٌ سَرِيعَةٌ",
+  "- طَعَامٌ لَذِيذٌ",
+  "### Misconception clinic",
+  "- Adding ة to the noun rather than the adjective.",
+  "- Using masculine agreement after a feminine noun such as شَمْسٌ.",
+  "- Confusing a noun phrase with a full nominal sentence.",
+  "## Guided practice and transformation",
+  "Do not only recognise the answer. Say what changed and why.",
+  "### Transformation drill",
+  "- Copy each model from the lesson.",
+  "- Change the noun’s gender, number or definiteness as appropriate.",
+  "- Change every adjective feature controlled by that noun.",
+  "- Translate the new phrase or sentence accurately.",
+  "- Explain one change using the grammar vocabulary from this lesson.",
+  "## Apply through four skills",
+  "### 📖 Reading and noticing",
+  "فِي مَدِينَتِي أَمَاكِنُ جَمِيلَةٌ وَشَوَارِعُ وَاسِعَةٌ. هَذِهِ الْمَدْرَسَةُ الْجَدِيدَةُ قَرِيبَةٌ، وَذَلِكَ الْمَتْحَفُ الْقَدِيمُ مُثِيرٌ لِلِاهْتِمَامِ.",
+  "Underline each adjective, draw an arrow to its noun, and label the agreement feature that made the form correct.",
+  "### 🎧 Listening without audio",
+  "Ask a partner or teacher to read the model paragraph twice. First record the nouns; second record the adjectives. Reconstruct the correct pairs and explain the agreement.",
+  "### 🗣️ Speaking",
+  "Describe two people, places or objects for 45–60 seconds. Include at least six accurate adjective structures from this lesson.",
+  "### 🛠️ Editing clinic",
+  "Write four deliberately incorrect adjective phrases, exchange them with a partner, then correct and explain every error.",
+  "### ✍️ Extended writing workshop",
+  "Write 90–120 words describing a person, place, object or experience. Include at least eight target adjective structures from this lesson and underline them after writing.",
+  "[callout] Quality check: identify the head noun first, then check gender, number, definiteness and any lesson-specific form.",
+  "Save and mark complete Clear",
+  "Create a labelled grammar map or handwritten draft. Connect every adjective to its noun.",
+  "Complete the task on paper. Underline the target forms and annotate the rule used.",
+  "## Final mastery check اِخْتِبَارُ الْإِتْقَانِ",
+  "Complete this without reopening the teaching cards.",
+  "### Interpret your result",
+  "Below 70%: revisit the misconception clinic and guided check. 70–89%: replay the transformation game and improve one paragraph. 90–100%: continue, then complete a spaced retrieval check in 3–7 days."
+ ]
+}

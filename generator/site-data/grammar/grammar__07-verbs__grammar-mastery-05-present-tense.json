@@ -1,0 +1,522 @@
+{
+ "path": "lessons/grammar/07-verbs/grammar-mastery-05-present-tense.php",
+ "title": "Present Tense: Prefixes, Suffixes and Meaning",
+ "arabic": "الْفِعْلُ الْمُضَارِعُ: السَّوَابِقُ وَاللَّوَاحِقُ وَالدَّلَالَةُ",
+ "lede": "Master the أ، ت، ي، ن prefix system, the complete person endings and the contextual meanings of the Arabic present tense.",
+ "nav": [
+  [
+   "GM-V-04",
+   "Past Tense: Complete Conjugation and Narration"
+  ]
+ ],
+ "quizzes": [
+  {
+   "title": "🔎 Entry Check",
+   "items": [
+    {
+     "prompt": "Choose “I write”.",
+     "options": [
+      "أَكْتُبُ",
+      "يَكْتُبُ",
+      "تَكْتُبِينَ"
+     ],
+     "answer": 0,
+     "feedback": "أَـ marks first-person singular."
+    },
+    {
+     "prompt": "Choose “we write”.",
+     "options": [
+      "نَكْتُبُ",
+      "يَكْتُبُونَ",
+      "تَكْتُبَانِ"
+     ],
+     "answer": 0,
+     "feedback": "نَـ marks first-person plural."
+    },
+    {
+     "prompt": "Choose “you (f.s.) write”.",
+     "options": [
+      "تَكْتُبِينَ",
+      "تَكْتُبُ",
+      "يَكْتُبْنَ"
+     ],
+     "answer": 0,
+     "feedback": "Second-person feminine singular takes تـ...ـين."
+    },
+    {
+     "prompt": "Choose “they two write”.",
+     "options": [
+      "يَكْتُبَانِ",
+      "يَكْتُبُونَ",
+      "تَكْتُبَانِ only"
+     ],
+     "answer": 0,
+     "feedback": "Masculine dual third person uses يـ...ـان; feminine dual uses تـ...ـان."
+    },
+    {
+     "prompt": "Choose “they (f.) write”.",
+     "options": [
+      "يَكْتُبْنَ",
+      "يَكْتُبُونَ",
+      "تَكْتُبْنَ"
+     ],
+     "answer": 0,
+     "feedback": "Third-person feminine plural uses يـ...ـن."
+    },
+    {
+     "prompt": "Present tense can express…",
+     "options": [
+      "habit, current action or general fact depending on context",
+      "past only",
+      "future only and never habit"
+     ],
+     "answer": 0,
+     "feedback": "Time expressions and context determine the reading."
+    }
+   ]
+  },
+  {
+   "title": "🔤 Prefix Check",
+   "items": [
+    {
+     "prompt": "“I study”",
+     "options": [
+      "أَدْرُسُ",
+      "يَدْرُسُ",
+      "نَدْرُسُ"
+     ],
+     "answer": 0,
+     "feedback": "أ = I."
+    },
+    {
+     "prompt": "“We travel”",
+     "options": [
+      "نُسَافِرُ",
+      "يُسَافِرُونَ",
+      "تُسَافِرِينَ"
+     ],
+     "answer": 0,
+     "feedback": "ن = we."
+    },
+    {
+     "prompt": "“He plays”",
+     "options": [
+      "يَلْعَبُ",
+      "تَلْعَبُ",
+      "أَلْعَبُ"
+     ],
+     "answer": 0,
+     "feedback": "ي = he."
+    },
+    {
+     "prompt": "Which can mean “she writes”?",
+     "options": [
+      "تَكْتُبُ",
+      "يَكْتُبُ",
+      "أَكْتُبُ"
+     ],
+     "answer": 0,
+     "feedback": "تـ can mark she."
+    }
+   ]
+  },
+  {
+   "title": "🧷 Present Ending Check",
+   "items": [
+    {
+     "prompt": "“You f.s. study”",
+     "options": [
+      "تَدْرُسِينَ",
+      "تَدْرُسُ",
+      "يَدْرُسْنَ"
+     ],
+     "answer": 0,
+     "feedback": "ـين marks second-person feminine singular."
+    },
+    {
+     "prompt": "“You two study”",
+     "options": [
+      "تَدْرُسَانِ",
+      "يَدْرُسَانِ",
+      "تَدْرُسُونَ"
+     ],
+     "answer": 0,
+     "feedback": "Second-person dual."
+    },
+    {
+     "prompt": "“They m./mixed study”",
+     "options": [
+      "يَدْرُسُونَ",
+      "تَدْرُسُونَ",
+      "يَدْرُسْنَ"
+     ],
+     "answer": 0,
+     "feedback": "يـ...ـون."
+    },
+    {
+     "prompt": "“They f. study”",
+     "options": [
+      "يَدْرُسْنَ",
+      "تَدْرُسْنَ",
+      "يَدْرُسُونَ"
+     ],
+     "answer": 0,
+     "feedback": "Third-person feminine plural uses يـ."
+    }
+   ]
+  },
+  {
+   "title": "🕰️ Meaning in Context",
+   "items": [
+    {
+     "prompt": "أَدْرُسُ الآنَ means…",
+     "options": [
+      "I am studying now.",
+      "I studied yesterday.",
+      "I will never study."
+     ],
+     "answer": 0,
+     "feedback": "الآن signals current action."
+    },
+    {
+     "prompt": "أَمْشِي كُلَّ صَبَاحٍ means…",
+     "options": [
+      "I walk every morning.",
+      "I walked once.",
+      "Walk!"
+     ],
+     "answer": 0,
+     "feedback": "Routine expression."
+    },
+    {
+     "prompt": "تَشْرُقُ الشَّمْسُ means…",
+     "options": [
+      "The sun rises/shines.",
+      "The sun rose only yesterday.",
+      "Do not let the sun rise."
+     ],
+     "answer": 0,
+     "feedback": "General or recurring fact."
+    },
+    {
+     "prompt": "For an unambiguous future plan, prefer…",
+     "options": [
+      "سَأُسَافِرُ غَدًا.",
+      "أُسَافِرُ أَمْسِ.",
+      "سَافَرْتُ غَدًا."
+     ],
+     "answer": 0,
+     "feedback": "Future marker plus time phrase."
+    }
+   ]
+  },
+  {
+   "title": "🌱 Present Weak Verb Check",
+   "items": [
+    {
+     "prompt": "“I say”",
+     "options": [
+      "أَقُولُ",
+      "أَقَالُ",
+      "قُلْتُ"
+     ],
+     "answer": 0,
+     "feedback": "Hollow present stem."
+    },
+    {
+     "prompt": "“She arrives”",
+     "options": [
+      "تَصِلُ",
+      "تَوْصَلُ",
+      "يَصِلُ"
+     ],
+     "answer": 0,
+     "feedback": "Initial weak pair."
+    },
+    {
+     "prompt": "“They walk”",
+     "options": [
+      "يَمْشُونَ",
+      "يَمْشِيُونَ",
+      "يَمْشَوْنَ"
+     ],
+     "answer": 0,
+     "feedback": "Final y present plural."
+    },
+    {
+     "prompt": "“You f.s. call/invite”",
+     "options": [
+      "تَدْعِينَ",
+      "تَدْعُوينَ",
+      "تَدْعُو"
+     ],
+     "answer": 0,
+     "feedback": "Final w changes before ـين."
+    }
+   ]
+  },
+  {
+   "title": "⭐ Present Tense Mastery",
+   "items": [
+    {
+     "prompt": "I write",
+     "options": [
+      "أَكْتُبُ",
+      "يَكْتُبُ",
+      "نَكْتُبُ"
+     ],
+     "answer": 0,
+     "feedback": "أ."
+    },
+    {
+     "prompt": "We write",
+     "options": [
+      "نَكْتُبُ",
+      "أَكْتُبُ",
+      "يَكْتُبُونَ"
+     ],
+     "answer": 0,
+     "feedback": "ن."
+    },
+    {
+     "prompt": "You f.s. write",
+     "options": [
+      "تَكْتُبِينَ",
+      "تَكْتُبُ",
+      "تَكْتُبْنَ"
+     ],
+     "answer": 0,
+     "feedback": "ت...ين."
+    },
+    {
+     "prompt": "You two write",
+     "options": [
+      "تَكْتُبَانِ",
+      "يَكْتُبَانِ",
+      "تَكْتُبُونَ"
+     ],
+     "answer": 0,
+     "feedback": "Second-person dual."
+    },
+    {
+     "prompt": "They two m. write",
+     "options": [
+      "يَكْتُبَانِ",
+      "تَكْتُبَانِ",
+      "يَكْتُبُونَ"
+     ],
+     "answer": 0,
+     "feedback": "Third-person masculine dual."
+    },
+    {
+     "prompt": "They m. write",
+     "options": [
+      "يَكْتُبُونَ",
+      "تَكْتُبُونَ",
+      "يَكْتُبْنَ"
+     ],
+     "answer": 0,
+     "feedback": "ي...ون."
+    },
+    {
+     "prompt": "They f. write",
+     "options": [
+      "يَكْتُبْنَ",
+      "تَكْتُبْنَ",
+      "يَكْتُبُونَ"
+     ],
+     "answer": 0,
+     "feedback": "ي...ن."
+    },
+    {
+     "prompt": "I say",
+     "options": [
+      "أَقُولُ",
+      "أَقَالُ",
+      "قُلْتُ"
+     ],
+     "answer": 0,
+     "feedback": "Hollow present."
+    },
+    {
+     "prompt": "They walk",
+     "options": [
+      "يَمْشُونَ",
+      "يَمْشِيُونَ",
+      "تَمْشُونَ"
+     ],
+     "answer": 0,
+     "feedback": "Final weak plural."
+    },
+    {
+     "prompt": "Present meaning",
+     "options": [
+      "depends on context and time expressions",
+      "is always English continuous",
+      "is always future"
+     ],
+     "answer": 0,
+     "feedback": "Functional interpretation."
+    }
+   ]
+  }
+ ],
+ "games": [
+  [
+   {
+    "p": "أَنَا + كَتَبَ",
+    "a": "أَكْتُبُ",
+    "choices": [
+     "أَكْتُبُ",
+     "يَكْتُبُ",
+     "نَكْتُبُ"
+    ],
+    "e": "I write."
+   },
+   {
+    "p": "أَنْتِ + دَرَسَ",
+    "a": "تَدْرُسِينَ",
+    "choices": [
+     "تَدْرُسِينَ",
+     "تَدْرُسُ",
+     "يَدْرُسْنَ"
+    ],
+    "e": "You f. study."
+   },
+   {
+    "p": "هُمَا (m.) + لَعِبَ",
+    "a": "يَلْعَبَانِ",
+    "choices": [
+     "يَلْعَبَانِ",
+     "تَلْعَبَانِ",
+     "يَلْعَبُونَ"
+    ],
+    "e": "They two m."
+   },
+   {
+    "p": "هُمَا (f.) + سَافَرَ",
+    "a": "تُسَافِرَانِ",
+    "choices": [
+     "تُسَافِرَانِ",
+     "يُسَافِرَانِ",
+     "تُسَافِرُونَ"
+    ],
+    "e": "They two f."
+   },
+   {
+    "p": "هُمْ + قَالَ",
+    "a": "يَقُولُونَ",
+    "choices": [
+     "يَقُولُونَ",
+     "تَقُولُونَ",
+     "يَقُلْنَ"
+    ],
+    "e": "They say."
+   },
+   {
+    "p": "هُنَّ + كَتَبَ",
+    "a": "يَكْتُبْنَ",
+    "choices": [
+     "يَكْتُبْنَ",
+     "تَكْتُبْنَ",
+     "يَكْتُبُونَ"
+    ],
+    "e": "They f. write."
+   },
+   {
+    "p": "أَنْتُمْ + وَصَلَ",
+    "a": "تَصِلُونَ",
+    "choices": [
+     "تَصِلُونَ",
+     "يَصِلُونَ",
+     "تَوْصَلُونَ"
+    ],
+    "e": "You all arrive."
+   },
+   {
+    "p": "نَحْنُ + مَشَى",
+    "a": "نَمْشِي",
+    "choices": [
+     "نَمْشِي",
+     "نَمْشُونَ",
+     "يَمْشِي"
+    ],
+    "e": "We walk."
+   }
+  ]
+ ],
+ "blocks": [
+  "## Why this matters لِمَاذَا نُتْقِنُ الْمُضَارِعَ؟",
+  "Present forms power routines, descriptions, opinions, general facts and many future and modal structures.",
+  "### Core",
+  "Use the main singular forms and recognise أ، ت، ي، ن.",
+  "### Develop",
+  "Produce dual, masculine plural and feminine plural forms.",
+  "### Stretch",
+  "Explain context-dependent meaning and apply weak-verb changes.",
+  "[callout] Communication target: Respond accurately about what people do, are doing and regularly experience.",
+  "## Diagnostic start",
+  "Identify what the front and end of each verb tell you.",
+  "## The أ، ت، ي، ن prefix family",
+  "Present conjugation begins at the front of the verb.",
+  "TABLE: Prefix | Core person | Example // أَـ | أَنَا | أَكْتُبُ // نَـ | نَحْنُ | نَكْتُبُ // يَـ | هُوَ and many third-person forms | يَكْتُبُ // تَـ | أَنْتَ, هِيَ and several dual/plural forms | تَكْتُبُ",
+  "[callout] تَكْتُبُ is ambiguous without context: it can mean “you m.s. write” or “she writes”. The surrounding pronoun, noun or conversation resolves the subject.",
+  "## The complete present paradigm",
+  "The same suffix families recur across many verbs.",
+  "TABLE: Pronoun | Present form of كَتَبَ / يَكْتُبُ // أَنَا | أَكْتُبُ // نَحْنُ | نَكْتُبُ // أَنْتَ | تَكْتُبُ // أَنْتِ | تَكْتُبِينَ // أَنْتُمَا | تَكْتُبَانِ // أَنْتُمْ | تَكْتُبُونَ // أَنْتُنَّ | تَكْتُبْنَ // هُوَ | يَكْتُبُ // هِيَ | تَكْتُبُ // هُمَا (m.) | يَكْتُبَانِ // هُمَا (f.) | تَكْتُبَانِ // هُمْ | يَكْتُبُونَ // هُنَّ | يَكْتُبْنَ",
+  "[callout] Prefix + suffix: Dual, masculine plural, feminine singular addressee and feminine plural forms need information at both ends.",
+  "## Habit, current action and general truth",
+  "Time words and communicative context determine the intended time frame.",
+  "TABLE: Meaning | Arabic model | Context clue // habit | أَقْرَأُ كُلَّ يَوْمٍ. | كُلَّ يَوْمٍ // current action | أَقْرَأُ الآنَ. | الآنَ // general fact | تَدُورُ الْأَرْضُ حَوْلَ الشَّمْسِ. | general knowledge // arranged future | أُسَافِرُ غَدًا. | غَدًا; often strengthened with سـ",
+  "[callout/warning] Arabic present is not identical to one English tense. It can correspond to “I write”, “I am writing” or an arranged “I travel tomorrow”, depending on context.",
+  "## Present forms of weak verbs",
+  "The person framework remains stable while the weak stem adapts.",
+  "TABLE: Verb family | Past / present | Forms to notice // sound | كَتَبَ / يَكْتُبُ | أَكْتُبُ، تَكْتُبِينَ، يَكْتُبُونَ // hollow | قَالَ / يَقُولُ | أَقُولُ، تَقُولِينَ، يَقُولُونَ // initial weak | وَصَلَ / يَصِلُ | أَصِلُ، تَصِلِينَ، يَصِلُونَ // final weak y | مَشَى / يَمْشِي | أَمْشِي، تَمْشِينَ، يَمْشُونَ // final weak w | دَعَا / يَدْعُو | أَدْعُو، تَدْعِينَ، يَدْعُونَ",
+  "[callout] Watch plural spellings: يَمْشُونَ and يَدْعُونَ do not preserve every visible letter of the singular stem in the same way.",
+  "## Present-tense misconception clinic",
+  "A useful correction explains the form, not only the answer.",
+  "### Prefix ambiguity",
+  "✗ هِيَ يَكْتُبُ",
+  "✓ هِيَ تَكْتُبُ",
+  "Feminine third-person singular uses تـ.",
+  "### Feminine addressee",
+  "✗ أَنْتِ تَكْتُبُ",
+  "✓ أَنْتِ تَكْتُبِينَ",
+  "Add ـين for you feminine singular.",
+  "### Feminine plural",
+  "✗ هُنَّ تَكْتُبْنَ",
+  "✓ هُنَّ يَكْتُبْنَ",
+  "Third-person feminine plural begins with يـ.",
+  "### English tense transfer",
+  "✗ أَقْرَأُ = I am reading only",
+  "✓ أَقْرَأُ = I read / I am reading, according to context",
+  "Arabic present covers more than one English present construction.",
+  "## Replayable person builder",
+  "Build complete present forms rapidly.",
+  "## Apply the grammar across skills",
+  "Grammar becomes useful when it helps you understand and communicate.",
+  "### 📖 Reading workshop",
+  "Read a school profile and use prefixes/suffixes to identify speakers, addressees and reported people.",
+  "### 🎧 Listening workshop",
+  "Listen for minimal contrasts such as تَكْتُبُ / تَكْتُبِينَ / يَكْتُبُونَ / يَكْتُبْنَ.",
+  "### 🗣️ Speaking workshop",
+  "Give a one-minute routine answer, then change the subject from “I” to “we” and from a male friend to a female friend.",
+  "### 🛠️ Editing workshop",
+  "Correct present forms with wrong prefixes, missing plural endings and over-literal English tense interpretations.",
+  "### ✍️ Integrated production task",
+  "Write 120–140 words about your routine, current priorities and one general fact about your school or community. Use at least eight present verbs and six different persons.",
+  "[callout] Model: أَسْتَيْقِظُ مُبَكِّرًا، وَتَسْتَيْقِظُ أُخْتِي بَعْدِي. نَذْهَبُ إِلَى الْمَدْرَسَةِ مَعًا، وَيَدْرُسُ أَصْدِقَائِي مَوَادَّ مُخْتَلِفَةً.",
+  "[callout] Success checklist: Include a habit, a current action, a general fact, one hollow verb, one final-weak verb and a feminine plural or dual form.",
+  "Save and mark complete Clear",
+  "Plan the verb changes as a timeline, root map or sentence flowchart. Label each form in Arabic.",
+  "Colour-code prefixes and box suffixes. Add the time/context clue beside each sentence.",
+  "## Final mastery check",
+  "Build the complete present form from the subject.",
+  "### Lesson mastery summary",
+  "- use the أ، ت، ي، ن prefixes accurately;",
+  "- add present suffixes for feminine, dual and plural persons;",
+  "- interpret habitual and current meanings from context;",
+  "- conjugate common weak verbs in the present.",
+  "Return in 3–7 days and repeat the final check without reviewing first. Retrieval, not recognition alone, builds secure verb control."
+ ]
+}

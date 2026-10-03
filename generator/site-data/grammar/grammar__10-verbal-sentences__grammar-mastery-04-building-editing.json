@@ -1,0 +1,477 @@
+{
+ "path": "lessons/grammar/10-verbal-sentences/grammar-mastery-04-building-editing.php",
+ "title": "Building and Editing Verbal Sentences",
+ "arabic": "بِنَاءُ الْجُمَلِ الْفِعْلِيَّةِ وَمُرَاجَعَتُهَا",
+ "lede": "Turn a correct three-part core into fluent, varied Arabic—then use a reliable editing routine to protect word order, agreement, tense and meaning.",
+ "nav": [
+  [
+   "GM-VS-03",
+   "Verb-First Agreement"
+  ]
+ ],
+ "quizzes": [
+  {
+   "title": "🔎 Entry Check",
+   "items": [
+    {
+     "prompt": "Best VSO core for “The students completed the project.”",
+     "options": [
+      "أَكْمَلَ الطُّلَّابُ الْمَشْرُوعَ.",
+      "أَكْمَلُوا الطُّلَّابُ الْمَشْرُوعَ.",
+      "الْمَشْرُوعُ أَكْمَلَ الطُّلَّابَ."
+     ],
+     "answer": 0,
+     "feedback": "Verb first before an overt human plural → singular masculine."
+    },
+    {
+     "prompt": "Best SVO core for the same meaning.",
+     "options": [
+      "الطُّلَّابُ أَكْمَلُوا الْمَشْرُوعَ.",
+      "الطُّلَّابُ أَكْمَلَ الْمَشْرُوعَ.",
+      "الطُّلَّابَ أَكْمَلُوا الْمَشْرُوعُ."
+     ],
+     "answer": 0,
+     "feedback": "Human plural subject first → full plural agreement."
+    },
+    {
+     "prompt": "Add a manner phrase to كَتَبَتْ لَيْلَى الرِّسَالَةَ.",
+     "options": [
+      "كَتَبَتْ لَيْلَى الرِّسَالَةَ بِعِنَايَةٍ.",
+      "كَتَبَتْ بِعِنَايَةٌ لَيْلَى الرِّسَالَةُ.",
+      "لَيْلَى بِعِنَايَةٍ الرِّسَالَةَ."
+     ],
+     "answer": 0,
+     "feedback": "Add the manner after a secure core."
+    },
+    {
+     "prompt": "Negate the past event with لَمْ.",
+     "options": [
+      "لَمْ يَكْتُبِ الطَّالِبُ الرِّسَالَةَ.",
+      "لَمْ كَتَبَ الطَّالِبُ الرِّسَالَةَ.",
+      "لَنْ يَكْتُبُ الطَّالِبُ الرِّسَالَةَ."
+     ],
+     "answer": 0,
+     "feedback": "لَمْ takes a jussive present form but refers to the past."
+    },
+    {
+     "prompt": "Ask a yes/no question about the event.",
+     "options": [
+      "هَلْ كَتَبَ الطَّالِبُ الرِّسَالَةَ؟",
+      "مَاذَا الطَّالِبُ الرِّسَالَةَ؟",
+      "هَلْ الرِّسَالَةَ الطَّالِبُ؟"
+     ],
+     "answer": 0,
+     "feedback": "هَلْ can precede the complete verbal sentence."
+    },
+    {
+     "prompt": "First editing pass?",
+     "options": [
+      "Find the verb and identify the intended subject.",
+      "Count connectors before checking meaning.",
+      "Add more adjectives immediately."
+     ],
+     "answer": 0,
+     "feedback": "Agreement and roles must be secure before stylistic expansion."
+    }
+   ]
+  },
+  {
+   "title": "Order Choice Check",
+   "items": [
+    {
+     "prompt": "You have already mentioned the girls and now say what they did.",
+     "options": [
+      "الطَّالِبَاتُ قَدَّمْنَ الْعَرْضَ.",
+      "قَدَّمَتِ الطَّالِبَاتُ الْعَرْضَ.",
+      "قَدَّمْنَ الطَّالِبَاتُ الْعَرْضَ."
+     ],
+     "answer": 0,
+     "feedback": "Subject-first keeps the known girls as topic and requires full agreement."
+    },
+    {
+     "prompt": "Open a report with the event “The train arrived.”",
+     "options": [
+      "وَصَلَ الْقِطَارُ.",
+      "الْقِطَارُ وَصَلَ.",
+      "الْقِطَارُ وَاصِلٌ only"
+     ],
+     "answer": 0,
+     "feedback": "Verb-first is a neutral event-reporting choice."
+    },
+    {
+     "prompt": "Contrast Ali and Maryam.",
+     "options": [
+      "عَلِيٌّ كَتَبَ، أَمَّا مَرْيَمُ فَقَرَأَتْ.",
+      "كَتَبَ عَلِيٌّ مَرْيَمُ قَرَأَتْ.",
+      "عَلِيًّا كَتَبَ مَرْيَمَ."
+     ],
+     "answer": 0,
+     "feedback": "Subject-first topics create a clear contrast."
+    }
+   ]
+  },
+  {
+   "title": "Sentence Ladder Check",
+   "items": [
+    {
+     "prompt": "Which addition gives a reason?",
+     "options": [
+      "لِأَنَّهُ كَانَ مَرِيضًا",
+      "فِي الْمَدْرَسَةِ",
+      "بِسُرْعَةٍ"
+     ],
+     "answer": 0,
+     "feedback": "لِأَنَّ introduces the reason."
+    },
+    {
+     "prompt": "Which addition gives manner?",
+     "options": [
+      "بِوُضُوحٍ",
+      "غَدًا",
+      "أَمَامَ الْمَدْرَسَةِ"
+     ],
+     "answer": 0,
+     "feedback": "بوضوح answers how."
+    },
+    {
+     "prompt": "Which expanded sentence remains accurate?",
+     "options": [
+      "قَرَأَتْ سَلْمَى الْمَقَالَةَ أَمْسِ بِعِنَايَةٍ.",
+      "قَرَأَ سَلْمَى الْمَقَالَةُ أَمْسِ.",
+      "سَلْمَى قَرَأُوا الْمَقَالَةَ."
+     ],
+     "answer": 0,
+     "feedback": "The core and added details remain clear."
+    },
+    {
+     "prompt": "What should be checked after adding a clause?",
+     "options": [
+      "The original subject–verb agreement still holds.",
+      "Every sentence now begins with وَ.",
+      "The object becomes nominative."
+     ],
+     "answer": 0,
+     "feedback": "Expansion must not damage the core grammar."
+    }
+   ]
+  },
+  {
+   "title": "Editor Check",
+   "items": [
+    {
+     "prompt": "Repair: كَتَبُوا الطُّلَّابُ الْإِجَابَاتِ.",
+     "options": [
+      "كَتَبَ الطُّلَّابُ الْإِجَابَاتِ.",
+      "الطُّلَّابُ كَتَبَ الْإِجَابَاتِ.",
+      "كَتَبْنَ الطُّلَّابُ الْإِجَابَاتِ."
+     ],
+     "answer": 0,
+     "feedback": "Verb-first with overt human plural → singular masculine."
+    },
+    {
+     "prompt": "Repair: الطَّالِبَاتُ قَدَّمَتِ الْعَرْضَ.",
+     "options": [
+      "الطَّالِبَاتُ قَدَّمْنَ الْعَرْضَ.",
+      "قَدَّمْنَ الطَّالِبَاتُ الْعَرْضَ.",
+      "الطَّالِبَاتُ قَدَّمُوا الْعَرْضَ."
+     ],
+     "answer": 0,
+     "feedback": "Subject-first human feminine plural → feminine plural verb."
+    },
+    {
+     "prompt": "Repair: لَمْ ذَهَبَ الطُّلَّابُ.",
+     "options": [
+      "لَمْ يَذْهَبِ الطُّلَّابُ.",
+      "لَنْ ذَهَبَ الطُّلَّابُ.",
+      "مَا يَذْهَبُ الطُّلَّابُ أَمْسِ."
+     ],
+     "answer": 0,
+     "feedback": "لَمْ requires the jussive present form and expresses past negation."
+    },
+    {
+     "prompt": "Repair unclear pronoun: قَرَأَتْ مَرْيَمُ الرِّسَالَةَ ثُمَّ أَرْسَلَهُ.",
+     "options": [
+      "قَرَأَتْ مَرْيَمُ الرِّسَالَةَ ثُمَّ أَرْسَلَتْهَا.",
+      "قَرَأَ مَرْيَمُ الرِّسَالَةَ ثُمَّ أَرْسَلَهُ.",
+      "الرِّسَالَةُ قَرَأَتْ مَرْيَمَ."
+     ],
+     "answer": 0,
+     "feedback": "The subject remains Maryam and the feminine object pronoun refers to الرسالة."
+    }
+   ]
+  },
+  {
+   "title": "🏁 Final Mastery",
+   "items": [
+    {
+     "prompt": "Choose the accurate VSO report.",
+     "options": [
+      "فَازَ الطُّلَّابُ بِالْمُسَابَقَةِ.",
+      "فَازُوا الطُّلَّابُ بِالْمُسَابَقَةِ.",
+      "فَازَتِ الطُّلَّابُ بِالْمُسَابَقَةِ."
+     ],
+     "answer": 0,
+     "feedback": "Singular masculine verb before overt masculine/mixed plural."
+    },
+    {
+     "prompt": "Choose the accurate SVO report.",
+     "options": [
+      "الطَّالِبَاتُ فُزْنَ بِالْمُسَابَقَةِ.",
+      "الطَّالِبَاتُ فَازَتْ بِالْمُسَابَقَةِ.",
+      "فُزْنَ الطَّالِبَاتُ بِالْمُسَابَقَةِ."
+     ],
+     "answer": 0,
+     "feedback": "Human feminine plural subject first requires feminine plural verb فُزْنَ."
+    },
+    {
+     "prompt": "Choose the accurate non-human plural sentence.",
+     "options": [
+      "الْحَافِلَاتُ وَصَلَتْ مُبَكِّرًا.",
+      "الْحَافِلَاتُ وَصَلْنَ مُبَكِّرًا.",
+      "الْحَافِلَاتُ وَصَلُوا مُبَكِّرًا."
+     ],
+     "answer": 0,
+     "feedback": "Non-human plural → feminine singular agreement."
+    },
+    {
+     "prompt": "Transform to VSO: الْمُعَلِّمَتَانِ شَرَحَتَا الدَّرْسَ.",
+     "options": [
+      "شَرَحَتِ الْمُعَلِّمَتَانِ الدَّرْسَ.",
+      "شَرَحَتَا الْمُعَلِّمَتَانِ الدَّرْسَ.",
+      "شَرَحَ الْمُعَلِّمَتَانِ الدَّرْسَ."
+     ],
+     "answer": 0,
+     "feedback": "Singular feminine verb before feminine dual."
+    },
+    {
+     "prompt": "Transform to SVO: يَكْتُبُ الطُّلَّابُ الْإِجَابَاتِ.",
+     "options": [
+      "الطُّلَّابُ يَكْتُبُونَ الْإِجَابَاتِ.",
+      "الطُّلَّابُ يَكْتُبُ الْإِجَابَاتِ.",
+      "الطُّلَّابُ تَكْتُبُ الْإِجَابَاتِ."
+     ],
+     "answer": 0,
+     "feedback": "Human plural subject first → full plural present."
+    },
+    {
+     "prompt": "Choose the accurate past negation.",
+     "options": [
+      "لَمْ يَكْتُبِ الطُّلَّابُ التَّقْرِيرَ.",
+      "لَمْ كَتَبَ الطُّلَّابُ التَّقْرِيرَ.",
+      "لَنْ يَكْتُبُ الطُّلَّابُ التَّقْرِيرَ أَمْسِ."
+     ],
+     "answer": 0,
+     "feedback": "لَمْ + jussive present, past meaning."
+    },
+    {
+     "prompt": "Choose the accurate future SVO.",
+     "options": [
+      "الطَّالِبَاتُ سَيَقْرَأْنَ الْمَقَالَةَ.",
+      "الطَّالِبَاتُ سَتَقْرَأُ الْمَقَالَةَ.",
+      "سَيَقْرَأْنَ الطَّالِبَاتُ الْمَقَالَةَ."
+     ],
+     "answer": 0,
+     "feedback": "Subject-first human feminine plural → full future agreement."
+    },
+    {
+     "prompt": "Which sentence has clear pronoun reference?",
+     "options": [
+      "قَرَأَتْ لَيْلَى الرِّسَالَةَ ثُمَّ أَرْسَلَتْهَا.",
+      "قَرَأَتْ لَيْلَى الرِّسَالَةَ ثُمَّ أَرْسَلَهُ.",
+      "قَرَأَ لَيْلَى الرِّسَالَةُ."
+     ],
+     "answer": 0,
+     "feedback": "ـها refers clearly to the feminine noun الرسالة."
+    },
+    {
+     "prompt": "Best reason to choose SVO?",
+     "options": [
+      "To keep a known subject as the topic or create contrast.",
+      "Because VSO is ungrammatical.",
+      "To avoid agreement endings."
+     ],
+     "answer": 0,
+     "feedback": "Word-order choice serves information focus."
+    },
+    {
+     "prompt": "Best editing sequence?",
+     "options": [
+      "Roles → order → verb form → expansion/reference",
+      "Connectors → word count → decoration → roles",
+      "Object → font colour → title → tense"
+     ],
+     "answer": 0,
+     "feedback": "The four-pass routine protects the core before style."
+    }
+   ]
+  }
+ ],
+ "games": [
+  [
+   {
+    "p": "Repair formal VSO: كَتَبُوا الطُّلَّابُ التَّقْرِيرَ.",
+    "a": "كَتَبَ الطُّلَّابُ التَّقْرِيرَ.",
+    "choices": [
+     "كَتَبَ الطُّلَّابُ التَّقْرِيرَ.",
+     "الطُّلَّابُ كَتَبَ التَّقْرِيرَ.",
+     "كَتَبْنَ الطُّلَّابُ التَّقْرِيرَ."
+    ],
+    "e": "Verb first before overt human plural."
+   },
+   {
+    "p": "Repair SVO: الطَّالِبَاتُ كَتَبَتِ التَّقْرِيرَ.",
+    "a": "الطَّالِبَاتُ كَتَبْنَ التَّقْرِيرَ.",
+    "choices": [
+     "الطَّالِبَاتُ كَتَبْنَ التَّقْرِيرَ.",
+     "كَتَبْنَ الطَّالِبَاتُ التَّقْرِيرَ.",
+     "الطَّالِبَاتُ كَتَبُوا التَّقْرِيرَ."
+    ],
+    "e": "Human feminine plural subject first."
+   },
+   {
+    "p": "Add time to the clear core.",
+    "a": "زَارَ عَلِيٌّ الْمَتْحَفَ أَمْسِ.",
+    "choices": [
+     "زَارَ عَلِيٌّ الْمَتْحَفَ أَمْسِ.",
+     "زَارَ أَمْسُ عَلِيًّا الْمَتْحَفُ.",
+     "أَمْسِ الْمَتْحَفَ عَلِيٌّ."
+    ],
+    "e": "Time expands the complete core."
+   },
+   {
+    "p": "Add manner accurately.",
+    "a": "قَرَأَتْ مَرْيَمُ النَّصَّ بِوُضُوحٍ.",
+    "choices": [
+     "قَرَأَتْ مَرْيَمُ النَّصَّ بِوُضُوحٍ.",
+     "قَرَأَتِ الْوُضُوحُ مَرْيَمَ.",
+     "مَرْيَمُ بِوُضُوحٌ النَّصَّ."
+    ],
+    "e": "The manner phrase answers how."
+   },
+   {
+    "p": "Negate the past with لَمْ.",
+    "a": "لَمْ يَكْتُبِ الطَّالِبُ.",
+    "choices": [
+     "لَمْ يَكْتُبِ الطَّالِبُ.",
+     "لَمْ كَتَبَ الطَّالِبُ.",
+     "لَنْ يَكْتُبُ الطَّالِبُ."
+    ],
+    "e": "لَمْ + jussive present, past meaning."
+   },
+   {
+    "p": "Ask a yes/no question.",
+    "a": "هَلْ وَصَلَ الْقِطَارُ؟",
+    "choices": [
+     "هَلْ وَصَلَ الْقِطَارُ؟",
+     "مَاذَا الْقِطَارُ؟",
+     "هَلْ الْقِطَارَ وَصَلُوا؟"
+    ],
+    "e": "هل precedes a complete clause."
+   },
+   {
+    "p": "Transform to SVO: قَدَّمَ الطُّلَّابُ الْعَرْضَ.",
+    "a": "الطُّلَّابُ قَدَّمُوا الْعَرْضَ.",
+    "choices": [
+     "الطُّلَّابُ قَدَّمُوا الْعَرْضَ.",
+     "الطُّلَّابُ قَدَّمَ الْعَرْضَ.",
+     "قَدَّمُوا الطُّلَّابُ الْعَرْضَ."
+    ],
+    "e": "Moving a human plural subject first triggers full agreement."
+   },
+   {
+    "p": "Transform to VSO: الطَّالِبَاتُ سَيَكْتُبْنَ.",
+    "a": "سَتَكْتُبُ الطَّالِبَاتُ.",
+    "choices": [
+     "سَتَكْتُبُ الطَّالِبَاتُ.",
+     "سَيَكْتُبْنَ الطَّالِبَاتُ.",
+     "سَيَكْتُبُ الطَّالِبَاتُ."
+    ],
+    "e": "Singular feminine future before overt feminine plural."
+   },
+   {
+    "p": "Repair the non-human plural.",
+    "a": "الْكُتُبُ وَصَلَتْ.",
+    "choices": [
+     "الْكُتُبُ وَصَلَتْ.",
+     "الْكُتُبُ وَصَلْنَ.",
+     "الْكُتُبُ وَصَلُوا."
+    ],
+    "e": "Non-human plural is feminine singular."
+   },
+   {
+    "p": "Best first editing move.",
+    "a": "Identify verb and intended subject.",
+    "choices": [
+     "Identify verb and intended subject.",
+     "Add three connectors.",
+     "Count words only."
+    ],
+    "e": "Roles and agreement come before decoration."
+   }
+  ]
+ ],
+ "blocks": [
+  "## Why this matters مِنَ الْقَاعِدَةِ إِلَى التَّوَاصُلِ",
+  "Cambridge performance depends on using structures accurately in meaningful answers, not naming rules in isolation.",
+  "### Core",
+  "Build clear VSO and SVO cores.",
+  "### Develop",
+  "Expand and transform sentences across time frames.",
+  "### Stretch",
+  "Edit sustained writing for focus, agreement and cohesion.",
+  "[callout] Final performance: produce a connected account containing deliberate VSO/SVO variety and explain two of your agreement choices.",
+  "## Diagnostic start",
+  "This check combines the previous three lessons.",
+  "## Choose the order for a reason",
+  "Both patterns are useful. The best choice depends on what the listener already knows and what you want to foreground.",
+  "TABLE: Communicative purpose | Preferred opening | Model // Report a new event | Verb first | فَازَ الْفَرِيقُ بِالْمُبَارَاةِ. // Continue talking about a known person/group | Subject first | الْفَرِيقُ لَعِبَ بِمَهَارَةٍ. // Contrast two topics | Subject first | عَلِيٌّ دَرَسَ، أَمَّا أَخُوهُ فَلَعِبَ. // Narrate a sequence | Often verb first | وَصَلَ الطُّلَّابُ، ثُمَّ بَدَأَ الدَّرْسُ. // Answer “What did they do?” | Subject first can be natural | الطُّلَّابُ أَكْمَلُوا الْمَشْرُوعَ.",
+  "[callout] Variety is not random: Do not alternate VSO and SVO merely to appear advanced. Change order when it improves focus, contrast or flow.",
+  "## The sentence-building ladder",
+  "Build one secure layer at a time and recheck the core after every addition.",
+  "TABLE: Step | Sentence | Added information // 1 Core event | كَتَبَ الطَّالِبُ الرِّسَالَةَ. | V + S + O // 2 Time | كَتَبَ الطَّالِبُ الرِّسَالَةَ أَمْسِ. | when // 3 Place | كَتَبَ الطَّالِبُ الرِّسَالَةَ أَمْسِ فِي الْمَكْتَبَةِ. | where // 4 Manner | كَتَبَ الطَّالِبُ الرِّسَالَةَ أَمْسِ فِي الْمَكْتَبَةِ بِعِنَايَةٍ. | how // 5 Reason | كَتَبَ الطَّالِبُ الرِّسَالَةَ ... لِأَنَّهُ أَرَادَ الِاعْتِذَارَ. | why // 6 Link | ثُمَّ أَرْسَلَهَا إِلَى صَدِيقِهِ. | next event + object pronoun",
+  "[callout] Object control: In أَرْسَلَهَا , the attached pronoun refers to الرِّسَالَةَ . Make every pronoun reference clear.",
+  "## Transform across past, present and future",
+  "Keep the order and roles stable while changing the verb system and time expression.",
+  "TABLE: Time frame | VSO | SVO // Past | زَارَ الطُّلَّابُ الْمَتْحَفَ أَمْسِ. | الطُّلَّابُ زَارُوا الْمَتْحَفَ أَمْسِ. // Present/habitual | يَزُورُ الطُّلَّابُ الْمَتْحَفَ كُلَّ سَنَةٍ. | الطُّلَّابُ يَزُورُونَ الْمَتْحَفَ كُلَّ سَنَةٍ. // Future | سَيَزُورُ الطُّلَّابُ الْمَتْحَفَ غَدًا. | الطُّلَّابُ سَيَزُورُونَ الْمَتْحَفَ غَدًا. // Future negative | لَنْ يَزُورَ الطُّلَّابُ الْمَتْحَفَ غَدًا. | الطُّلَّابُ لَنْ يَزُورُوا الْمَتْحَفَ غَدًا.",
+  "[callout] Editing question: Did you change only the time marker, or did you also rebuild the verb form required by the order and subject?",
+  "## Questions and negation preserve the core roles",
+  "Particles may come before the verbal sentence, but the subject and agreement rules remain visible.",
+  "TABLE: Function | VSO model | SVO model // Yes/no question | هَلْ كَتَبَ الطُّلَّابُ التَّقْرِيرَ؟ | هَلِ الطُّلَّابُ كَتَبُوا التَّقْرِيرَ؟ // Past negative with مَا | مَا كَتَبَ الطُّلَّابُ التَّقْرِيرَ. | الطُّلَّابُ مَا كَتَبُوا التَّقْرِيرَ. // Past negative with لَمْ | لَمْ يَكْتُبِ الطُّلَّابُ التَّقْرِيرَ. | الطُّلَّابُ لَمْ يَكْتُبُوا التَّقْرِيرَ. // Present negative | لَا يَكْتُبُ الطُّلَّابُ الآنَ. | الطُّلَّابُ لَا يَكْتُبُونَ الآنَ. // Future negative | لَنْ يَكْتُبَ الطُّلَّابُ غَدًا. | الطُّلَّابُ لَنْ يَكْتُبُوا غَدًا.",
+  "[callout/warning] Do not mix systems: لَمْ كَتَبَ is incorrect because لَمْ requires a jussive present form.",
+  "## A four-pass editing routine",
+  "Edit one feature at a time so that a long paragraph does not hide a small but important agreement error.",
+  "TABLE: Pass | Question | Action // 1 Roles | What is the verb? Who is the intended subject? Is there an object? | mark V, S and O // 2 Order | Does the subject come before or after the verb? | select full or singular-number agreement // 3 Verb form | Does person, gender, number, tense and mood fit? | repair prefix/suffix/end vowel // 4 Expansion | Are pronouns, prepositions, time words and connectors clear? | check reference and logical flow",
+  "[callout] Read backwards for agreement: Start at the end of a sentence, find the subject and return to the verb. This interrupts the habit of reading only for meaning.",
+  "## Cambridge application without turning grammar into a drill",
+  "Sentence control supports comprehension and production across all four papers.",
+  "### Reading and listening",
+  "Use verb endings and word order to track who performed an action, especially when several people or groups are mentioned.",
+  "### Speaking and writing",
+  "Use accurate agreement across past, present and future, then link sentences naturally. Range helps only when communication remains clear.",
+  "[callout] Original exam-style task: Describe a school event in 90 words. Include what happened, what two groups did, what did not happen and what will happen next. This tests communication, not rule recitation.",
+  "## Integrated misconception clinic",
+  "Use the four-pass routine and state the reason for each repair.",
+  "TABLE: Draft | Improved version | Reason // وَصَلُوا الطُّلَّابُ ثُمَّ بَدَأُوا الدَّرْسُ. | وَصَلَ الطُّلَّابُ، ثُمَّ بَدَأُوا الدَّرْسَ. | First clause VSO singular verb; second subject is encoded plural; object accusative. // الطَّالِبَاتُ سَيَقْرَأُ الْمَقَالَةَ. | الطَّالِبَاتُ سَيَقْرَأْنَ الْمَقَالَةَ. | Subject-first feminine plural future agreement. // لَمْ كَتَبَ الْوَلَدَانِ الْوَاجِبَ. | لَمْ يَكْتُبِ الْوَلَدَانِ الْوَاجِبَ. | لَمْ + jussive; VSO singular masculine before dual. // الْحَافِلَاتُ وَصَلْنَ وَهُمْ سَرِيعُونَ. | الْحَافِلَاتُ وَصَلَتْ وَهِيَ سَرِيعَةٌ. | Non-human plural takes feminine singular agreement.",
+  "## Grammar game",
+  "Repair or extend each sentence while preserving its roles and agreement.",
+  "## Skills workshop التَّطْبِيقُ الْعَمَلِيُّ",
+  "Use the complete system in reading, speaking, writing and proofreading.",
+  "### 📖 Reading audit",
+  "Read a short event report. Underline every verb, box each explicit subject and draw a line to any attached object pronoun.",
+  "### 🗣️ Speaking transformation",
+  "Say one event first in VSO, then retell it with the subject first. Explain aloud how the verb changed.",
+  "### Final verbal-sentence performance",
+  "Write 120–140 Arabic words about a memorable day, school event, journey or community activity. Use deliberate sentence-order variety and accurate agreement.",
+  "[callout] Model: بَدَأَ الْيَوْمُ مُبَكِّرًا، وَوَصَلَ الطُّلَّابُ إِلَى الْمَدْرَسَةِ فِي السَّاعَةِ الثَّامِنَةِ. الطَّالِبَاتُ جَهَّزْنَ الْقَاعَةَ، أَمَّا الْمُعَلِّمُونَ فَرَاجَعُوا الْخُطَّةَ. لَمْ تَصِلِ الْحَافِلَاتُ فِي الْمَوْعِدِ، وَلَكِنَّهَا سَتَصِلُ قَرِيبًا.",
+  "[callout] Success checklist: Use at least six VSO sentences and four SVO sentences; include human masculine and feminine plurals, one dual, one non-human plural, past/present/future, one question or reported question, and two negative structures. Complete the four-pass edit before saving.",
+  "[callout] Paper route: Use two pen colours: one for VSO, one for SVO. Label agreement above every dual/plural sentence and rewrite any sentence whose order and verb form do not match.",
+  "## Final mastery check",
+  "Integrate order, agreement, tense, expansion and editing.",
+  "### What you can now do",
+  "- Choose VSO or SVO for a communicative reason.",
+  "- Expand a secure core with time, place, manner and cause.",
+  "- Maintain agreement through tense, question and negation changes.",
+  "- Edit verbal sentences using a repeatable four-pass routine.",
+  "Spaced revisit: Return in two or three days and complete the final check again without looking at the tables."
+ ]
+}

@@ -1,0 +1,594 @@
+{
+ "path": "lessons/grammar/02-articles/grammar-mastery-01-definite-article.php",
+ "title": "The Definite Article",
+ "arabic": "أَدَاةُ التَّعْرِيفِ «الـ»",
+ "lede": "A complete revision chapter for deciding whether a noun is definite or indefinite, pronouncing الـ accurately with sun and moon letters, connecting words naturally, and preserving correct spelling in Cambridge IGCSE reading and writing.",
+ "nav": [],
+ "quizzes": [
+  {
+   "title": "🔎 Entry Check",
+   "items": [
+    {
+     "prompt": "Which means “the book”?",
+     "options": [
+      "كِتَابٌ",
+      "الْكِتَابُ",
+      "كِتَابُ"
+     ],
+     "answer": 1,
+     "feedback": "✔ الْكِتَابُ is definite because it begins with الـ ."
+    },
+    {
+     "prompt": "Arabic normally expresses “a/an” by:",
+     "options": [
+      "using no separate article",
+      "adding الـ",
+      "adding بِـ"
+     ],
+     "answer": 0,
+     "feedback": "✔ Arabic has no separate equivalent of English “a/an”. In a fully supported model, tanwīn may also signal indefiniteness."
+    },
+    {
+     "prompt": "Which begins with a sun letter?",
+     "options": [
+      "الْقَلَمُ",
+      "الشَّمْسُ",
+      "الْبَيْتُ"
+     ],
+     "answer": 1,
+     "feedback": "✔ ش is a sun letter. The lām sound assimilates and ش is pronounced with shadda."
+    },
+    {
+     "prompt": "How should “in the house” be written?",
+     "options": [
+      "فِي الْبَيْتِ",
+      "فِلْبَيْتِ",
+      "فِي لْبَيْتِ"
+     ],
+     "answer": 0,
+     "feedback": "✔ Write every word fully. Connected pronunciation never licenses phonetic spelling in formal writing."
+    },
+    {
+     "prompt": "Which means “the new school” as one noun phrase?",
+     "options": [
+      "الْمَدْرَسَةُ الْجَدِيدَةُ",
+      "الْمَدْرَسَةُ جَدِيدَةٌ",
+      "مَدْرَسَةٌ الْجَدِيدَةُ"
+     ],
+     "answer": 0,
+     "feedback": "✔ An attributive adjective matches its noun in definiteness: both words take الـ ."
+    },
+    {
+     "prompt": "Which statement is accurate?",
+     "options": [
+      "No proper name may contain ال.",
+      "Do not add ال randomly; some established names contain it.",
+      "Every place name needs ال."
+     ],
+     "answer": 1,
+     "feedback": "✔ Names such as الْقَاهِرَةُ and الْجَزَائِرُ conventionally contain the article, while personal names such as مَرْيَمُ do not."
+    }
+   ]
+  },
+  {
+   "title": "🧩 Mini-check — meaning and structure",
+   "items": [
+    {
+     "prompt": "Choose “a large city”.",
+     "options": [
+      "مَدِينَةٌ كَبِيرَةٌ",
+      "الْمَدِينَةُ الْكَبِيرَةُ",
+      "الْمَدِينَةُ كَبِيرَةٌ"
+     ],
+     "answer": 0,
+     "feedback": "Both words are indefinite and agree in gender."
+    },
+    {
+     "prompt": "Choose “the large city”.",
+     "options": [
+      "مَدِينَةٌ كَبِيرَةٌ",
+      "الْمَدِينَةُ الْكَبِيرَةُ",
+      "الْمَدِينَةُ كَبِيرَةٌ"
+     ],
+     "answer": 1,
+     "feedback": "The adjective describes the noun inside one definite phrase, so both take الـ ."
+    },
+    {
+     "prompt": "Choose “The city is large.”",
+     "options": [
+      "الْمَدِينَةُ كَبِيرَةٌ.",
+      "الْمَدِينَةُ الْكَبِيرَةُ.",
+      "مَدِينَةٌ الْكَبِيرَةُ."
+     ],
+     "answer": 0,
+     "feedback": "The indefinite adjective is the predicate: it tells us something about the definite subject."
+    },
+    {
+     "prompt": "Which statement is true?",
+     "options": [
+      "Arabic has no separate word for a/an.",
+      "Tanwīn is always written in normal unvowelled prose.",
+      "Every indefinite noun must begin with بِـ."
+     ],
+     "answer": 0,
+     "feedback": "Indefiniteness is principally the absence of a definiteness marker; tanwīn is shown when vowel endings are supplied."
+    },
+    {
+     "prompt": "Which is one complete noun phrase?",
+     "options": [
+      "الطَّالِبُ الْمُجْتَهِدُ",
+      "الطَّالِبُ مُجْتَهِدٌ",
+      "طَالِبٌ الْمُجْتَهِدُ"
+     ],
+     "answer": 0,
+     "feedback": "The first is “the hardworking student”; the second is the sentence “The student is hardworking.”"
+    }
+   ]
+  },
+  {
+   "title": "⚡ Mini-check — pronunciation detective",
+   "items": [
+    {
+     "prompt": "Which is pronounced al-baytu?",
+     "options": [
+      "الْبَيْتُ",
+      "التُّفَّاحُ",
+      "النَّهْرُ"
+     ],
+     "answer": 0,
+     "feedback": "ب is a moon letter, so the lām is pronounced."
+    },
+    {
+     "prompt": "Which is pronounced ar-rajulu?",
+     "options": [
+      "الرَّجُلُ",
+      "الْوَلَدُ",
+      "الْجَمَلُ"
+     ],
+     "answer": 0,
+     "feedback": "ر is a sun letter; lām assimilates into ر."
+    },
+    {
+     "prompt": "Why is there a shadda in السَّاعَةُ ?",
+     "options": [
+      "The sun letter س is pronounced doubled.",
+      "The alif becomes long.",
+      "The word is indefinite."
+     ],
+     "answer": 0,
+     "feedback": "The shadda represents assimilation of the lām to the following sun letter."
+    },
+    {
+     "prompt": "Which list contains only moon letters?",
+     "options": [
+      "ب ق م",
+      "ت ش ن",
+      "ر ك س"
+     ],
+     "answer": 0,
+     "feedback": "ب، ق، م are all moon letters."
+    },
+    {
+     "prompt": "Which list contains only sun letters?",
+     "options": [
+      "ع غ ف",
+      "د ز ص",
+      "ج ح خ"
+     ],
+     "answer": 1,
+     "feedback": "د، ز، ص are all sun letters."
+    },
+    {
+     "prompt": "Does assimilation change formal spelling?",
+     "options": [
+      "Yes, delete ل.",
+      "No, write ال completely.",
+      "Only in exams."
+     ],
+     "answer": 1,
+     "feedback": "Pronunciation changes; standard spelling remains stable."
+    }
+   ]
+  },
+  {
+   "title": "🔗 Mini-check — connect but do not respell",
+   "items": [
+    {
+     "prompt": "Select the correct formal spelling.",
+     "options": [
+      "إِلَى الْمَطْعَمِ",
+      "إِلَلْمَطْعَمِ",
+      "إِلَى لْمَطْعَمِ"
+     ],
+     "answer": 0,
+     "feedback": "The words remain fully written even though the vowel of hamzat al-waṣl is not pronounced in connection."
+    },
+    {
+     "prompt": "What is elided in connected speech?",
+     "options": [
+      "the initial vowel of hamzat al-waṣl",
+      "the entire article",
+      "the final letter of the preceding word"
+     ],
+     "answer": 0,
+     "feedback": "The article remains grammatically present; only the initial helping vowel is not pronounced."
+    },
+    {
+     "prompt": "In فِي الشَّارِعِ , what happens?",
+     "options": [
+      "vowel elision and sun-letter assimilation",
+      "only spelling deletion",
+      "nothing changes in pronunciation"
+     ],
+     "answer": 0,
+     "feedback": "Connected speech removes the article's initial vowel; ش also triggers lām assimilation."
+    },
+    {
+     "prompt": "Which transcription is the most precise for فِي الْبَيْتِ ?",
+     "options": [
+      "fī l-bayti",
+      "fil-bayti",
+      "fī al-bayti only"
+     ],
+     "answer": 0,
+     "feedback": "The long vowel in فِي remains long: fī l-bayti."
+    },
+    {
+     "prompt": "Which principle should guide IGCSE writing?",
+     "options": [
+      "Pronounce naturally; spell conventionally.",
+      "Spell exactly as connected speech sounds.",
+      "Remove ال after every preposition."
+     ],
+     "answer": 0,
+     "feedback": "Cambridge expects standard written Arabic, not phonetic respelling."
+    }
+   ]
+  },
+  {
+   "title": "🧱 Mini-check — article boundaries",
+   "items": [
+    {
+     "prompt": "Choose “my book”.",
+     "options": [
+      "كِتَابِي",
+      "الْكِتَابِي",
+      "كِتَابٌ ي"
+     ],
+     "answer": 0,
+     "feedback": "The possessive suffix already makes the noun definite."
+    },
+    {
+     "prompt": "Choose “the school door”.",
+     "options": [
+      "بَابُ الْمَدْرَسَةِ",
+      "الْبَابُ الْمَدْرَسَةِ",
+      "بَابٌ الْمَدْرَسَةِ"
+     ],
+     "answer": 0,
+     "feedback": "Idāfa: no article or tanwīn on the first noun."
+    },
+    {
+     "prompt": "Which established name is correctly written?",
+     "options": [
+      "الْجَزَائِرُ",
+      "الْمَرْيَمُ",
+      "الْيُوسُفُ"
+     ],
+     "answer": 0,
+     "feedback": "الْجَزَائِرُ conventionally contains the article."
+    },
+    {
+     "prompt": "Choose “a school door”.",
+     "options": [
+      "بَابُ مَدْرَسَةٍ",
+      "الْبَابُ مَدْرَسَةٍ",
+      "بَابٌ مَدْرَسَةٌ"
+     ],
+     "answer": 0,
+     "feedback": "The whole idāfa is indefinite because the second noun is indefinite."
+    },
+    {
+     "prompt": "Which principle is safest?",
+     "options": [
+      "Choose Arabic definiteness from structure and meaning.",
+      "Copy every English “the” mechanically.",
+      "Never use ال in names."
+     ],
+     "answer": 0,
+     "feedback": "Arabic and English do not mark definiteness in identical places."
+    }
+   ]
+  },
+  {
+   "title": "📚 Reading check",
+   "items": [
+    {
+     "prompt": "Why is مَدِينَةٍ indefinite at first?",
+     "options": [
+      "The city is being introduced for the first time.",
+      "Cities can never be definite.",
+      "It follows فِي."
+     ],
+     "answer": 0,
+     "feedback": "New, non-specific information is often introduced indefinitely."
+    },
+    {
+     "prompt": "Why does the text later say الْمَدِينَةِ ?",
+     "options": [
+      "It now refers back to the city already introduced.",
+      "Every repeated noun must be plural.",
+      "The article means “in”."
+     ],
+     "answer": 0,
+     "feedback": "The reader now knows which city is meant."
+    },
+    {
+     "prompt": "Which phrase means “a new school”?",
+     "options": [
+      "مَدْرَسَةٌ جَدِيدَةٌ",
+      "الْمَدْرَسَةُ قَرِيبَةٌ",
+      "الْكُتُبُ الْعَرَبِيَّةُ"
+     ],
+     "answer": 0,
+     "feedback": "Both noun and adjective are indefinite."
+    },
+    {
+     "prompt": "Which phrase contains sun-letter assimilation?",
+     "options": [
+      "يَوْمَ السَّبْتِ",
+      "فِي الْمَدِينَةِ",
+      "إِلَى الْمَكْتَبَةِ"
+     ],
+     "answer": 0,
+     "feedback": "س is a sun letter: as-sabti."
+    },
+    {
+     "prompt": "Why is كُتُبِي not used in the final phrase?",
+     "options": [
+      "The meaning is “the Arabic books”, not “my books”.",
+      "Possessive suffixes cannot attach to nouns.",
+      "The article means “my”."
+     ],
+     "answer": 0,
+     "feedback": "الْكُتُبَ الْعَرَبِيَّةَ is a definite noun–adjective phrase."
+    }
+   ]
+  },
+  {
+   "title": "⭐ Mastery Check",
+   "items": [
+    {
+     "prompt": "Choose “a beautiful garden”.",
+     "options": [
+      "حَدِيقَةٌ جَمِيلَةٌ",
+      "الْحَدِيقَةُ الْجَمِيلَةُ",
+      "الْحَدِيقَةُ جَمِيلَةٌ"
+     ],
+     "answer": 0,
+     "feedback": "Indefinite noun phrase: neither word takes الـ ."
+    },
+    {
+     "prompt": "Choose “the beautiful garden”.",
+     "options": [
+      "حَدِيقَةٌ جَمِيلَةٌ",
+      "الْحَدِيقَةُ الْجَمِيلَةُ",
+      "الْحَدِيقَةُ جَمِيلَةٌ"
+     ],
+     "answer": 1,
+     "feedback": "Definite attributive phrase: both words are definite."
+    },
+    {
+     "prompt": "Choose “The garden is beautiful.”",
+     "options": [
+      "الْحَدِيقَةُ جَمِيلَةٌ.",
+      "الْحَدِيقَةُ الْجَمِيلَةُ.",
+      "حَدِيقَةٌ الْجَمِيلَةُ."
+     ],
+     "answer": 0,
+     "feedback": "Definite subject + indefinite predicate creates a complete nominal sentence."
+    },
+    {
+     "prompt": "Which begins with a sun letter?",
+     "options": [
+      "النَّهْرُ",
+      "الْهَوَاءُ",
+      "الْجَبَلُ"
+     ],
+     "answer": 0,
+     "feedback": "ن is a sun letter: an-nahru."
+    },
+    {
+     "prompt": "Which begins with a moon letter?",
+     "options": [
+      "السَّمَكُ",
+      "الْهَوَاءُ",
+      "الطَّعَامُ"
+     ],
+     "answer": 1,
+     "feedback": "هـ is a moon letter: al-hawāʾu."
+    },
+    {
+     "prompt": "Correct writing after مَعَ :",
+     "options": [
+      "مَعَ الْمُعَلِّمَةِ",
+      "مَعَلْمُعَلِّمَةِ",
+      "مَعَ لْمُعَلِّمَةِ"
+     ],
+     "answer": 0,
+     "feedback": "Write the article fully; pronounce it in connection."
+    },
+    {
+     "prompt": "What does hamzat al-waṣl do?",
+     "options": [
+      "Its initial vowel is heard at a start but not in connected speech.",
+      "It deletes the whole article after every vowel.",
+      "It makes every following letter a sun letter."
+     ],
+     "answer": 0,
+     "feedback": "The helping vowel enables a start and drops in connection."
+    },
+    {
+     "prompt": "Choose “the student's book”.",
+     "options": [
+      "كِتَابُ الطَّالِبِ",
+      "الْكِتَابُ الطَّالِبِ",
+      "كِتَابٌ الطَّالِبُ"
+     ],
+     "answer": 0,
+     "feedback": "Idāfa: no الـ or tanwīn on the first noun."
+    },
+    {
+     "prompt": "Choose the accurate principle for names.",
+     "options": [
+      "Use the established form; some names contain ال.",
+      "Add ال to every city and person.",
+      "Delete ال from every proper noun."
+     ],
+     "answer": 0,
+     "feedback": "Definiteness in names is lexical and conventional."
+    },
+    {
+     "prompt": "Which sentence is correctly written and pronounced with two connected processes?",
+     "options": [
+      "فِي الشَّارِعِ",
+      "فِشَّارِعِ",
+      "فِي اَلشَّارِعِ"
+     ],
+     "answer": 0,
+     "feedback": "Write فِي الشَّارِعِ ; in connected speech, hamzat al-waṣl is not heard and ش assimilates the lām."
+    }
+   ]
+  }
+ ],
+ "games": [],
+ "blocks": [
+  "## Why this matters لِمَاذَا هَذَا مُهِمٌّ؟",
+  "The article changes meaning, pronunciation and agreement. One small prefix can decide whether you mean any school, a particular school, a noun phrase or a complete sentence.",
+  "### 📖 Read precisely",
+  "مَدْرَسَةٌ means “a school”; الْمَدْرَسَةُ means “the school”. The difference can identify the correct person, place or answer.",
+  "### 👂 Hear word boundaries",
+  "In connected speech, the initial vowel of الـ may not be heard, and the lām assimilates before a sun letter. The written article remains present.",
+  "### ✍️ Write accurately",
+  "Cambridge writing rewards control. Do not spell connected pronunciation phonetically, and do not add or remove الـ randomly.",
+  "[callout] The central decision: Are you naming something generally, or referring to a particular, known or already identified noun?",
+  "## Choose your route اِخْتَرْ مَسَارَكَ",
+  "Complete the Core route first. Use Develop and Stretch to deepen accuracy rather than rushing through every section at once.",
+  "### Recognise and pronounce",
+  "- Distinguish definite and indefinite nouns.",
+  "- Identify sun and moon letters.",
+  "- Keep spelling unchanged in connected speech.",
+  "### Build accurate phrases",
+  "- Match noun and adjective definiteness.",
+  "- Distinguish a phrase from a sentence.",
+  "- Apply the article in short texts.",
+  "### Control the boundaries",
+  "- Recognise article behaviour in idāfa.",
+  "- Handle established names containing الـ .",
+  "- Explain hamzat al-waṣl precisely.",
+  "## Diagnostic start اِخْتِبَارُ الْبِدَايَةِ",
+  "Answer before reading the explanations. Your first attempt shows which decisions need attention.",
+  "## Definite or indefinite? مَعْرِفَةٌ أَمْ نَكِرَةٌ؟",
+  "Start with meaning. The article is not decoration: it tells the reader whether the noun is specific or non-specific.",
+  "### Indefinite: one non-specific member",
+  "كِتَابٌ = a book / a book of some kind.",
+  "There is no separate Arabic word equivalent to English “a” or “an”. In fully vowelled teaching examples, the noun often carries tanwīn.",
+  "### Definite: a known or specific noun",
+  "الْكِتَابُ = the book.",
+  "Add الـ directly to the beginning of the noun. In normal Arabic script it is not separated by a space or hyphen.",
+  "[example] بَيْتٌ → a house non-specific",
+  "[ar] بَيْتٌ",
+  "[example] الْبَيْتُ → the house specific or known",
+  "[ar] الْبَيْتُ",
+  "[callout] Do not overtranslate tanwīn. Tanwīn is a grammatical ending, not a separate written article. At later stages, final case endings may be omitted in ordinary unvowelled writing even though the noun remains indefinite.",
+  "### From noun to noun phrase",
+  "TABLE: Meaning | Arabic | What to notice // a new school | مَدْرَسَةٌ جَدِيدَةٌ | Both noun and adjective are indefinite. // the new school | الْمَدْرَسَةُ الْجَدِيدَةُ | Both noun and adjective are definite. // The school is new. | الْمَدْرَسَةُ جَدِيدَةٌ. | Definite subject + indefinite predicate creates a sentence.",
+  "## Sun and moon letters الْحُرُوفُ الشَّمْسِيَّةُ وَالْقَمَرِيَّةُ",
+  "The spelling of الـ stays the same. What changes is the pronunciation of its lām before the following letter.",
+  "### ☀️ Sun letters: the lām assimilates",
+  "ت ث د ذ ر ز س ش ص ض ط ظ ل ن",
+  "The lām is not pronounced separately. The following consonant is doubled and written with shadda in fully supported text.",
+  "الشَّمْسُ → ash-shamsu النَّاسُ → an-nāsu",
+  "### 🌙 Moon letters: pronounce al- clearly",
+  "ا ب ج ح خ ع غ ف ق ك م هـ و ي",
+  "The lām remains audible. In fully supported text it normally carries sukūn.",
+  "الْقَمَرُ → al-qamaru الْبَيْتُ → al-baytu",
+  "[callout/warning] Important correction: الشَّمْسُ is pronounced approximately ash-shamsu , not “āsh-shams”. The opening vowel is short, and the word is still written with the complete article.",
+  "### What exactly changes?",
+  "TABLE: Feature | Moon letter | Sun letter // Example | الْقَلَمُ | الطَّالِبُ // Pronunciation | al-qalamu | aṭ-ṭālibu // Lām sound | heard | assimilated // Following letter | normal | doubled; shadda shown when vowelled // Spelling of الـ | unchanged | unchanged",
+  "## Hamzat al-waṣl and connected speech هَمْزَةُ الْوَصْلِ وَالْكَلَامُ الْمُتَّصِلُ",
+  "The alif at the beginning of the article carries hamzat al-waṣl. It helps start the word, but its vowel is not pronounced when speech connects from the preceding word.",
+  "### Start after a pause",
+  "At the beginning of speech, pronounce the initial vowel:",
+  "الْبَيْتُ كَبِيرٌ.",
+  "al-baytu kabīrun — The house is large.",
+  "### Connect after another word",
+  "After a word ending in a vowel sound, the initial vowel of the article is not pronounced:",
+  "فِي الْبَيْتِ",
+  "fī l-bayti , not a careful word-by-word *fī al-bayti*.",
+  "إِلَى الْمَدْرَسَةِ",
+  "ilā l-madrasati .",
+  "[callout] Writing rule: Connected pronunciation is never an instruction to delete letters. Always write فِي الْبَيْتِ , not فِلْبَيْتِ and not فِي لْبَيْتِ .",
+  "[callout] Two processes may occur together. In فِي الشَّارِعِ , the initial vowel of the article is elided because speech is connected, and the lām assimilates because ش is a sun letter: approximately fī sh-shāriʿi .",
+  "TABLE: Written form | Careful start | Connected after a vowel | Spelling change? // الْبَيْتُ | al-baytu | فِي الْبَيْتِ — fī l-bayti | No // الشَّمْسُ | ash-shamsu | وَالشَّمْسُ — wa-sh-shamsu | No // الْمَدْرَسَةُ | al-madrasatu | إِلَى الْمَدْرَسَةِ — ilā l-madrasati | No",
+  "## Where the article does—and does not—belong مَوَاضِعُ «الـ» وَحُدُودُهَا",
+  "The safest rule is not “add الـ whenever English has the”. Arabic definiteness is a system involving articles, names, pronoun suffixes and idāfa.",
+  "### Use الـ",
+  "- for a specific common noun: الْكِتَابُ",
+  "- for a previously identified noun",
+  "- on both noun and attributive adjective: الْبَيْتُ الْكَبِيرُ",
+  "- inside established names that conventionally contain it: الْقَاهِرَةُ",
+  "### Do not add it mechanically",
+  "- to an ordinary personal name: مَرْيَمُ , not * الْمَرْيَمُ",
+  "- before a noun with an attached possessive suffix: كِتَابِي , not * الْكِتَابِي for “my book”",
+  "- to the first noun of an idāfa: بَابُ الْمَدْرَسَةِ",
+  "- to an indefinite noun phrase",
+  "[callout/warning] Idāfa preview: The first noun does not take الـ or tanwīn. The second term determines definiteness: بَابُ مَدْرَسَةٍ = a school door; بَابُ الْمَدْرَسَةِ = the school door.",
+  "[callout] Proper-name precision: “Do not use الـ with proper nouns” is too broad. The correct teaching point is: do not invent an article. Learn the established form of the name.",
+  "## Four-skills application الْمَهَارَاتُ الْأَرْبَعُ",
+  "Grammar becomes secure when it carries meaning across reading, listening, speaking and writing.",
+  "### 📖 Reading workshop — track known and new nouns",
+  "أَسْكُنُ فِي مَدِينَةٍ كَبِيرَةٍ. فِي الْمَدِينَةِ مَدْرَسَةٌ جَدِيدَةٌ وَمَكْتَبَةٌ عَامَّةٌ. الْمَدْرَسَةُ قَرِيبَةٌ مِنْ بَيْتِي، وَالْمَكْتَبَةُ فِي وَسَطِ الْمَدِينَةِ. أَذْهَبُ إِلَى الْمَكْتَبَةِ يَوْمَ السَّبْتِ لِأَقْرَأَ الْكُتُبَ الْعَرَبِيَّةَ.",
+  "Notice the information flow: a noun may first appear indefinitely because it is new, then return with الـ because it is now known.",
+  "### 👂 Listening studio — hear the article",
+  "Teacher/browser transcript:",
+  "فِي الْحَيِّ سُوقٌ صَغِيرٌ. السُّوقُ قَرِيبٌ مِنَ الْمَحَطَّةِ. أَشْتَرِي مِنَ السُّوقِ الْخُبْزَ وَالْفَاكِهَةَ.",
+  "Read it aloud twice: first slowly, then with connected pronunciation. Track moon letters, sun letters and hamzat al-waṣl.",
+  "### 💬 Speaking studio — introduce, then refer back",
+  "Describe a place near you. Introduce three nouns indefinitely, then refer back to each with الـ .",
+  "فِي حَيِّي مَكْتَبَةٌ... الْمَكْتَبَةُ...",
+  "- Use one sun-letter noun.",
+  "- Use one moon-letter noun.",
+  "- Connect a preposition naturally.",
+  "- Answer: أَيْنَ الْمَكَانُ؟",
+  "### ✍️ Writing workshop — My local area",
+  "Write 7–10 connected sentences. Introduce at least three places indefinitely, then refer back to them definitely. Include one definite noun–adjective phrase and one complete nominal sentence.",
+  "Save and mark complete Clear",
+  "Sketch a local-area map and label at least six places in Arabic. Introduce each place once without الـ , then add a second sentence using the definite form.",
+  "On paper, write the heading حَيِّي . Draw or write your response, underline indefinite first mentions once, and circle definite references. Use the checklist above before marking the activity complete.",
+  "## Grammar Playground مَلْعَبُ الْقَوَاعِدِ",
+  "The games test real grammatical decisions. Replay until the explanation becomes more memorable than the error.",
+  "### Misconception 1",
+  "Wrong idea: “A sun letter removes الـ .”",
+  "Repair: It changes pronunciation only. The article remains written.",
+  "### Misconception 2",
+  "Wrong idea: “After a vowel, write the article as it sounds.”",
+  "Repair: Hamzat al-waṣl affects connected speech; standard spelling is unchanged.",
+  "### Misconception 3",
+  "Wrong idea: “An adjective never needs الـ .”",
+  "Repair: An attributive adjective matches the noun in definiteness.",
+  "### Misconception 4",
+  "Wrong idea: “Proper nouns never contain الـ .”",
+  "Repair: Learn each established name; do not add or remove the article by guesswork.",
+  "## Final mastery check اِخْتِبَارُ الْإِتْقَانِ",
+  "This check revisits every major decision: meaning, agreement, sun/moon pronunciation, connected speech, spelling and article boundaries.",
+  "### Today you can… الْآنَ تَسْتَطِيعُ أَنْ...",
+  "- distinguish a non-specific noun from a specific definite noun;",
+  "- pronounce الـ with all sun and moon letters;",
+  "- explain why the spelling remains unchanged in connected speech;",
+  "- match a noun and adjective in definiteness;",
+  "- avoid adding the article inside possessive suffixes and the first term of idāfa.",
+  "Personal next step: Score below 7/10 — revisit Sections 1–3. Score 7–8 — replay the repair game. Score 9–10 — continue to Articles Lesson 2 on definiteness and adjective agreement.",
+  "Spaced revisit: Return in 3–7 days and complete the final check without rereading the lesson first."
+ ]
+}

@@ -1,0 +1,529 @@
+{
+ "path": "lessons/grammar/07-verbs/grammar-mastery-10-subjunctive.php",
+ "title": "The Subjunctive after أَنْ، لَنْ، كَيْ and حَتَّى",
+ "arabic": "الْمُضَارِعُ الْمَنْصُوبُ",
+ "lede": "Control regular, five-verb and weak-verb subjunctive forms after the main particles of intention, negation, purpose and endpoint.",
+ "nav": [
+  [
+   "GM-V-09",
+   "Basic Conditional Structures"
+  ]
+ ],
+ "quizzes": [
+  {
+   "title": "🔎 Entry Check",
+   "items": [
+    {
+     "prompt": "Choose “I want to study”.",
+     "options": [
+      "أُرِيدُ أَنْ أَدْرُسَ",
+      "أُرِيدُ أَنْ أَدْرُسُ",
+      "أُرِيدُ دَرَسْتُ"
+     ],
+     "answer": 0,
+     "feedback": "أَنْ governs the subjunctive present."
+    },
+    {
+     "prompt": "Choose “I will not go”.",
+     "options": [
+      "لَنْ أَذْهَبَ",
+      "لَنْ أَذْهَبُ",
+      "لَمْ أَذْهَبَ"
+     ],
+     "answer": 0,
+     "feedback": "لَنْ governs the subjunctive."
+    },
+    {
+     "prompt": "Choose “I study in order to succeed”.",
+     "options": [
+      "أَدْرُسُ لِكَيْ أَنْجَحَ",
+      "أَدْرُسُ لِكَيْ أَنْجَحُ",
+      "أَدْرُسُ لِكَيْ نَجَحْتُ"
+     ],
+     "answer": 0,
+     "feedback": "لِكَيْ introduces purpose and a subjunctive verb."
+    },
+    {
+     "prompt": "Choose “I wait until the bus arrives”.",
+     "options": [
+      "أَنْتَظِرُ حَتَّى تَصِلَ الْحَافِلَةُ",
+      "أَنْتَظِرُ حَتَّى تَصِلُ الْحَافِلَةُ only",
+      "أَنْتَظِرُ حَتَّى وَصَلَتْ"
+     ],
+     "answer": 0,
+     "feedback": "Purpose/endpoint حَتَّى can govern the subjunctive."
+    },
+    {
+     "prompt": "Choose “I want you (f.) to write”.",
+     "options": [
+      "أُرِيدُكِ أَنْ تَكْتُبِي",
+      "أُرِيدُكِ أَنْ تَكْتُبِينَ",
+      "أُرِيدُكِ أَنْ كَتَبْتِ"
+     ],
+     "answer": 0,
+     "feedback": "The nūn drops from the five-verb form after أَنْ."
+    },
+    {
+     "prompt": "Which statement is accurate?",
+     "options": [
+      "Not every حَتَّى automatically creates the same analysis; teach clear purpose/endpoint examples.",
+      "Every word after حتى is past.",
+      "The subjunctive never changes plural forms."
+     ],
+     "answer": 0,
+     "feedback": "Meaning and syntax determine the structure."
+    }
+   ]
+  },
+  {
+   "title": "🎯 Particle and Purpose Check",
+   "items": [
+    {
+     "prompt": "I like to read",
+     "options": [
+      "أُحِبُّ أَنْ أَقْرَأَ.",
+      "أُحِبُّ أَنْ أَقْرَأُ.",
+      "أُحِبُّ قَرَأْتُ."
+     ],
+     "answer": 0,
+     "feedback": "أَنْ + subjunctive."
+    },
+    {
+     "prompt": "I train so that I improve",
+     "options": [
+      "أَتَدَرَّبُ لِكَيْ أَتَحَسَّنَ.",
+      "أَتَدَرَّبُ لِكَيْ أَتَحَسَّنُ.",
+      "أَتَدَرَّبُ لِكَيْ تَحَسَّنْتُ."
+     ],
+     "answer": 0,
+     "feedback": "Purpose."
+    },
+    {
+     "prompt": "We will not be late",
+     "options": [
+      "لَنْ نَتَأَخَّرَ.",
+      "لَنْ نَتَأَخَّرُ.",
+      "لَمْ نَتَأَخَّرَ."
+     ],
+     "answer": 0,
+     "feedback": "Future negation."
+    },
+    {
+     "prompt": "Wait until he arrives",
+     "options": [
+      "اِنْتَظِرْ حَتَّى يَصِلَ.",
+      "اِنْتَظِرْ حَتَّى يَصِلُ only",
+      "اِنْتَظِرْ حَتَّى وَصَلَ."
+     ],
+     "answer": 0,
+     "feedback": "Endpoint relation."
+    }
+   ]
+  },
+  {
+   "title": "5️⃣ Five-Verb Check",
+   "items": [
+    {
+     "prompt": "I want you f. to study",
+     "options": [
+      "أُرِيدُكِ أَنْ تَدْرُسِي.",
+      "أُرِيدُكِ أَنْ تَدْرُسِينَ.",
+      "أُرِيدُكِ أَنْ دَرَسْتِ."
+     ],
+     "answer": 0,
+     "feedback": "Nūn drops."
+    },
+    {
+     "prompt": "We want them to write",
+     "options": [
+      "نُرِيدُهُمْ أَنْ يَكْتُبُوا.",
+      "نُرِيدُهُمْ أَنْ يَكْتُبُونَ.",
+      "نُرِيدُهُمْ أَنْ كَتَبُوا."
+     ],
+     "answer": 0,
+     "feedback": "Plural nūn drops."
+    },
+    {
+     "prompt": "I want the two students to arrive",
+     "options": [
+      "أُرِيدُ الطَّالِبَيْنِ أَنْ يَصِلَا.",
+      "أُرِيدُ الطَّالِبَيْنِ أَنْ يَصِلَانِ.",
+      "أُرِيدُ الطَّالِبَيْنِ أَنْ وَصَلَا."
+     ],
+     "answer": 0,
+     "feedback": "Dual nūn drops."
+    },
+    {
+     "prompt": "I want the girls to write",
+     "options": [
+      "أُرِيدُهُنَّ أَنْ يَكْتُبْنَ.",
+      "أُرِيدُهُنَّ أَنْ يَكْتُبْ.",
+      "أُرِيدُهُنَّ أَنْ يَكْتُبِينَ."
+     ],
+     "answer": 0,
+     "feedback": "Feminine plural remains يكتبن."
+    }
+   ]
+  },
+  {
+   "title": "🌱 Weak Subjunctive Check",
+   "items": [
+    {
+     "prompt": "He will not throw",
+     "options": [
+      "لَنْ يَرْمِيَ.",
+      "لَنْ يَرْمِ.",
+      "لَمْ يَرْمِيَ."
+     ],
+     "answer": 0,
+     "feedback": "Subjunctive retains y."
+    },
+    {
+     "prompt": "He will not call",
+     "options": [
+      "لَنْ يَدْعُوَ.",
+      "لَنْ يَدْعُ.",
+      "لَمْ يَدْعُوَ."
+     ],
+     "answer": 0,
+     "feedback": "Subjunctive retains wāw."
+    },
+    {
+     "prompt": "I want to see",
+     "options": [
+      "أُرِيدُ أَنْ أَرَى.",
+      "أُرِيدُ أَنْ أَرَ.",
+      "أُرِيدُ أَنْ رَأَيْتُ."
+     ],
+     "answer": 0,
+     "feedback": "Subjunctive written like indicative for final alif maqṣūra."
+    },
+    {
+     "prompt": "He studies so that he may come",
+     "options": [
+      "يَدْرُسُ لِكَيْ يَأْتِيَ.",
+      "يَدْرُسُ لِكَيْ يَأْتِ.",
+      "يَدْرُسُ لِكَيْ أَتَى."
+     ],
+     "answer": 0,
+     "feedback": "Final y + fatḥa."
+    }
+   ]
+  },
+  {
+   "title": "💬 Functional Subjunctive Check",
+   "items": [
+    {
+     "prompt": "Ambition",
+     "options": [
+      "أَطْمَحُ إِلَى أَنْ أُصْبِحَ طَبِيبَةً.",
+      "أَطْمَحُ إِلَى أَنْ أُصْبِحُ.",
+      "أَطْمَحُ أَصْبَحْتُ."
+     ],
+     "answer": 0,
+     "feedback": "Intention + أن."
+    },
+    {
+     "prompt": "Necessity",
+     "options": [
+      "مِنَ الْمُهِمِّ أَنْ نَحْتَرِمَ الْبِيئَةَ.",
+      "مِنَ الْمُهِمِّ أَنْ نَحْتَرِمُ.",
+      "مِنَ الْمُهِمِّ احْتَرَمْنَا."
+     ],
+     "answer": 0,
+     "feedback": "Subjunctive."
+    },
+    {
+     "prompt": "Purpose",
+     "options": [
+      "أُوَفِّرُ الْمَالَ لِكَيْ أُسَافِرَ.",
+      "أُوَفِّرُ الْمَالَ لِكَيْ أُسَافِرُ.",
+      "أُوَفِّرُ الْمَالَ لِكَيْ سَافَرْتُ."
+     ],
+     "answer": 0,
+     "feedback": "Purpose clause."
+    },
+    {
+     "prompt": "Endpoint",
+     "options": [
+      "سَأَبْقَى هُنَا حَتَّى تَعُودَ.",
+      "سَأَبْقَى هُنَا حَتَّى تَعُودُ only",
+      "سَأَبْقَى هُنَا حَتَّى عَادَتْ."
+     ],
+     "answer": 0,
+     "feedback": "Future endpoint."
+    }
+   ]
+  },
+  {
+   "title": "⭐ Subjunctive Mastery",
+   "items": [
+    {
+     "prompt": "After أن",
+     "options": [
+      "أَنْ أَدْرُسَ",
+      "أَنْ أَدْرُسُ",
+      "أَنْ أَدْرُسْ"
+     ],
+     "answer": 0,
+     "feedback": "Fatḥa."
+    },
+    {
+     "prompt": "After لن",
+     "options": [
+      "لَنْ أَذْهَبَ",
+      "لَنْ أَذْهَبُ",
+      "لَمْ أَذْهَبَ"
+     ],
+     "answer": 0,
+     "feedback": "Subjunctive."
+    },
+    {
+     "prompt": "Purpose",
+     "options": [
+      "لِكَيْ أَنْجَحَ",
+      "لِكَيْ أَنْجَحُ",
+      "لِكَيْ نَجَحْتُ"
+     ],
+     "answer": 0,
+     "feedback": "Subjunctive."
+    },
+    {
+     "prompt": "You f. after أن",
+     "options": [
+      "أَنْ تَكْتُبِي",
+      "أَنْ تَكْتُبِينَ",
+      "أَنْ تَكْتُبْ"
+     ],
+     "answer": 0,
+     "feedback": "Nūn drops."
+    },
+    {
+     "prompt": "They after أن",
+     "options": [
+      "أَنْ يَكْتُبُوا",
+      "أَنْ يَكْتُبُونَ",
+      "أَنْ يَكْتُبْنَ"
+     ],
+     "answer": 0,
+     "feedback": "Nūn drops."
+    },
+    {
+     "prompt": "Dual after أن",
+     "options": [
+      "أَنْ يَكْتُبَا",
+      "أَنْ يَكْتُبَانِ",
+      "أَنْ يَكْتُبُوا"
+     ],
+     "answer": 0,
+     "feedback": "Nūn drops."
+    },
+    {
+     "prompt": "Feminine plural after أن",
+     "options": [
+      "أَنْ يَكْتُبْنَ",
+      "أَنْ يَكْتُبِي",
+      "أَنْ يَكْتُبُوا"
+     ],
+     "answer": 0,
+     "feedback": "Built form remains."
+    },
+    {
+     "prompt": "Weak y after لن",
+     "options": [
+      "لَنْ يَرْمِيَ",
+      "لَنْ يَرْمِ",
+      "لَمْ يَرْمِيَ"
+     ],
+     "answer": 0,
+     "feedback": "Subjunctive retains y."
+    },
+    {
+     "prompt": "Weak w after لن",
+     "options": [
+      "لَنْ يَدْعُوَ",
+      "لَنْ يَدْعُ",
+      "لَمْ يَدْعُوَ"
+     ],
+     "answer": 0,
+     "feedback": "Subjunctive retains w."
+    },
+    {
+     "prompt": "Endpoint",
+     "options": [
+      "حَتَّى يَصِلَ",
+      "حَتَّى يَصِلُ only",
+      "حَتَّى وَصَلَ always"
+     ],
+     "answer": 0,
+     "feedback": "Clear endpoint/purpose use."
+    }
+   ]
+  }
+ ],
+ "games": [
+  [
+   {
+    "p": "أُرِيدُ أَنْ ___ . (أَدْرُسُ)",
+    "a": "أَدْرُسَ",
+    "choices": [
+     "أَدْرُسَ",
+     "أَدْرُسُ",
+     "دَرَسْتُ"
+    ],
+    "e": "Regular subjunctive."
+   },
+   {
+    "p": "لَنْ ___ غَدًا. (أَذْهَبُ)",
+    "a": "أَذْهَبَ",
+    "choices": [
+     "أَذْهَبَ",
+     "أَذْهَبُ",
+     "أَذْهَبْ"
+    ],
+    "e": "Future negative."
+   },
+   {
+    "p": "لِكَيْ ___ . (أَنْجَحُ)",
+    "a": "أَنْجَحَ",
+    "choices": [
+     "أَنْجَحَ",
+     "أَنْجَحُ",
+     "نَجَحْتُ"
+    ],
+    "e": "Purpose."
+   },
+   {
+    "p": "أُرِيدُكِ أَنْ ___ . (تَكْتُبِينَ)",
+    "a": "تَكْتُبِي",
+    "choices": [
+     "تَكْتُبِي",
+     "تَكْتُبِينَ",
+     "تَكْتُبْ"
+    ],
+    "e": "Nūn drops."
+   },
+   {
+    "p": "أُرِيدُهُمْ أَنْ ___ . (يَصِلُونَ)",
+    "a": "يَصِلُوا",
+    "choices": [
+     "يَصِلُوا",
+     "يَصِلُونَ",
+     "يَصِلْنَ"
+    ],
+    "e": "Plural nūn drops."
+   },
+   {
+    "p": "لَنْ ___ . (يَرْمِي)",
+    "a": "يَرْمِيَ",
+    "choices": [
+     "يَرْمِيَ",
+     "يَرْمِ",
+     "يَرْمِي"
+    ],
+    "e": "Weak subjunctive."
+   },
+   {
+    "p": "لَنْ ___ . (يَدْعُو)",
+    "a": "يَدْعُوَ",
+    "choices": [
+     "يَدْعُوَ",
+     "يَدْعُ",
+     "يَدْعُو"
+    ],
+    "e": "Weak subjunctive."
+   },
+   {
+    "p": "حَتَّى ___ الْقِطَارُ. (يَصِلُ)",
+    "a": "يَصِلَ",
+    "choices": [
+     "يَصِلَ",
+     "يَصِلُ",
+     "وَصَلَ"
+    ],
+    "e": "Endpoint subjunctive."
+   }
+  ]
+ ],
+ "blocks": [
+  "## Why this matters لِمَاذَا نَسْتَعْمِلُ الْمَنْصُوبَ؟",
+  "The subjunctive lets learners express what they want, need, intend, refuse and act in order to achieve.",
+  "### Core",
+  "Use أن and لن with common singular forms.",
+  "### Develop",
+  "Apply nūn deletion to the five verbs and use purpose clauses.",
+  "### Stretch",
+  "Contrast weak subjunctive and jussive forms and analyse endpoint structures.",
+  "[callout] Communication target: Build extended answers with intention, necessity, purpose and future negation.",
+  "## Diagnostic start",
+  "Identify the form required by each trigger.",
+  "## The main subjunctive triggers",
+  "Learn the particle together with its communicative function and model sentence.",
+  "TABLE: Particle | Function | Model // أَنْ | that / to after wanting, liking, needing, trying | أُرِيدُ أَنْ أَدْرُسَ. // لَنْ | future negation | لَنْ أَتَأَخَّرَ. // كَيْ / لِكَيْ | so that / in order to | أَتَدَرَّبُ لِكَيْ أَتَحَسَّنَ. // حَتَّى | until / so that in a clear endpoint or purpose relation | أَنْتَظِرُ حَتَّى يَصِلَ الْقِطَارُ.",
+  "[callout] Core visible sign: In fully supported regular singular forms, final ـُ changes to ـَ : أَدْرُسُ ← أَنْ أَدْرُسَ .",
+  "## Regular and five-verb endings",
+  "Subjunctive changes are especially visible in dual and masculine/feminine addressee plural forms.",
+  "TABLE: Indicative | Subjunctive | Reason // يَكْتُبُ | أَنْ يَكْتُبَ | regular singular final vowel // تَكْتُبِينَ | أَنْ تَكْتُبِي | five-verb nūn drops // يَكْتُبَانِ | أَنْ يَكْتُبَا | dual nūn drops // يَكْتُبُونَ | أَنْ يَكْتُبُوا | plural nūn drops // تَكْتُبْنَ | أَنْ تَكْتُبْنَ | feminine plural remains built on sukūn",
+  "[callout/warning] The “five verbs”: forms ending in ـانِ، ـونَ، ـينَ lose the nūn in the subjunctive. Do not remove the nūn from feminine plural تَكْتُبْنَ / يَكْتُبْنَ .",
+  "## Weak verbs in the subjunctive",
+  "Subjunctive and jussive weak forms must not be confused.",
+  "TABLE: Indicative | Subjunctive model | Note // يَرْمِي | لَنْ يَرْمِيَ | final y remains and takes visible fatḥa // يَدْعُو | لَنْ يَدْعُوَ | final wāw remains and takes visible fatḥa // يَسْعَى | لَنْ يَسْعَى | written form unchanged; the ending is estimated // يَرَى | أُرِيدُ أَنْ أَرَى | written alif maqṣūra remains // يَأْتِي | لِكَيْ يَأْتِيَ | final y takes fatḥa",
+  "[callout] Do not copy the jussive rule into the subjunctive. Compare لَمْ يَرْمِ (jussive) with لَنْ يَرْمِيَ (subjunctive).",
+  "## Subjunctive clauses express purpose and intention",
+  "These structures are productive tools for extended answers across topic areas.",
+  "### Want / intend",
+  "أُرِيدُ أَنْ أَعْمَلَ فِي الطِّبِّ.",
+  "### Need / obligation",
+  "يَجِبُ أَنْ نَحْمِيَ الْبِيئَةَ.",
+  "### Purpose",
+  "أَتَعَلَّمُ الْعَرَبِيَّةَ لِكَيْ أَتَوَاصَلَ مَعَ الْآخَرِينَ.",
+  "### Endpoint",
+  "سَأَنْتَظِرُ حَتَّى تَنْتَهِيَ الْحِصَّةُ.",
+  "[callout] Range without decoration: Subjunctive clauses add purpose, intention and necessity. Use them because the meaning requires them, not merely to appear complex.",
+  "## Subjunctive misconception clinic",
+  "A useful correction explains the form, not only the answer.",
+  "### After أن",
+  "✗ أُرِيدُ أَنْ أَدْرُسُ",
+  "✓ أُرِيدُ أَنْ أَدْرُسَ",
+  "Regular singular takes final fatḥa in the fully supported model.",
+  "### Five-verb nūn",
+  "✗ أُرِيدُكِ أَنْ تَكْتُبِينَ",
+  "✓ أُرِيدُكِ أَنْ تَكْتُبِي",
+  "The nūn drops.",
+  "### Jussive versus subjunctive",
+  "✗ لَنْ يَمْشِ",
+  "✓ لَنْ يَمْشِيَ",
+  "The subjunctive retains final y; the jussive drops it.",
+  "### Purpose structure",
+  "✗ أَدْرُسُ لِكَيْ نَجَحْتُ",
+  "✓ أَدْرُسُ لِكَيْ أَنْجَحَ",
+  "Purpose refers to the intended result, so use the subjunctive present.",
+  "## Replayable transformer",
+  "Change indicative forms into accurate subjunctives.",
+  "## Apply the grammar across skills",
+  "Grammar becomes useful when it helps you understand and communicate.",
+  "### 📖 Reading workshop",
+  "Read ambition profiles and underline triggers. Match each subordinate verb to the word that governs it.",
+  "### 🎧 Listening workshop",
+  "Listen for the difference between يكتبون / أن يكتبوا and يمشي / لن يمشيَ.",
+  "### 🗣️ Speaking workshop",
+  "Give a one-minute answer about a goal using أريد أن، يجب أن، لكي، لن and حتى.",
+  "### 🛠️ Editing workshop",
+  "Repair a paragraph with retained nūn, indicative endings after triggers and jussive forms used after لن.",
+  "### ✍️ Integrated production task",
+  "Write 130–140 words about your ambitions and what you do to achieve them. Include intention, necessity, purpose, future negation and an endpoint.",
+  "[callout] Model: أُرِيدُ أَنْ أُصْبِحَ مُهَنْدِسَةً، وَلِذَلِكَ يَجِبُ أَنْ أَدْرُسَ الرِّيَاضِيَّاتِ بِجِدٍّ. أَتَدَرَّبُ كُلَّ يَوْمٍ لِكَيْ أَتَحَسَّنَ، وَلَنْ أَتَوَقَّفَ حَتَّى أَحْقِّقَ هَدَفِي.",
+  "[callout] Success checklist: Use four different triggers, two five-verb forms and one weak verb; check the ending after every trigger.",
+  "Save and mark complete Clear",
+  "Plan the verb changes as a timeline, root map or sentence flowchart. Label each form in Arabic.",
+  "Make a trigger-to-verb arrow for every subjunctive clause. Label whether the visible change is fatḥa, nūn deletion or a weak-verb form.",
+  "## Final mastery check",
+  "Apply the subjunctive after its main triggers.",
+  "### Lesson mastery summary",
+  "- recognise the main subjunctive triggers;",
+  "- change regular and five-verb endings accurately;",
+  "- distinguish weak subjunctive forms from jussive forms;",
+  "- use purpose, intention and necessity clauses in connected language.",
+  "Return in 3–7 days and repeat the final check without reviewing first. Retrieval, not recognition alone, builds secure verb control."
+ ]
+}

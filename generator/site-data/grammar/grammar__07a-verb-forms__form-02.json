@@ -1,0 +1,114 @@
+{
+ "path": "lessons/grammar/07a-verb-forms/form-02.php",
+ "title": "Form II: Teaching and Intensifying",
+ "arabic": "الْوَزْنُ الثَّانِي",
+ "lede": "Form II often makes an action causative, intensive or repeated. It is common in education, communication and everyday activities.",
+ "nav": [
+  [
+   "GM-VF-01",
+   "Form I: The Basic Verb"
+  ]
+ ],
+ "quizzes": [
+  {
+   "title": "Quick pattern check",
+   "items": [
+    {
+     "prompt": "Which verb means “to teach”?",
+     "options": [
+      "عَلِمَ",
+      "تَعَلَّمَ",
+      "عَلَّمَ"
+     ],
+     "answer": 2,
+     "feedback": "عَلَّمَ is Form II, with a doubled middle radical."
+    }
+   ]
+  },
+  {
+   "title": "Form II · Self-check",
+   "items": [
+    {
+     "prompt": "Which verb means “to teach”?",
+     "options": [
+      "عَلِمَ",
+      "عَلَّمَ",
+      "تَعَلَّمَ"
+     ],
+     "answer": 1,
+     "feedback": "عَلَّمَ is Form II, with a doubled middle radical."
+    },
+    {
+     "prompt": "Choose the correct present of نَظَّمَ.",
+     "options": [
+      "يُنَظِّمُ",
+      "يَنْظُمُ",
+      "يَتَنَظَّمُ"
+     ],
+     "answer": 0,
+     "feedback": "The Form II present pattern is normally يُفَعِّلُ."
+    },
+    {
+     "prompt": "Which statement is correct?",
+     "options": [
+      "Every verb with shadda is Form II.",
+      "Form II often has a causative or intensive sense, but meanings must be learned.",
+      "Form II always means that two people act together."
+     ],
+     "answer": 1,
+     "feedback": "Patterns provide clues, not a complete dictionary."
+    }
+   ]
+  }
+ ],
+ "games": [],
+ "blocks": [
+  "## Why this matters",
+  "Learn the meaning before memorising the pattern.",
+  "### Core",
+  "Recognise the pattern and understand the model verb in a sentence.",
+  "### Develop",
+  "Use two or three verbs from this family in accurate past and present sentences.",
+  "[callout] Your goal: Form II often makes an action causative, intensive or repeated. It is common in education, communication and everyday activities.",
+  "## Discover the pattern",
+  "Notice what changes and what stays connected to the root.",
+  "### Root and pattern",
+  "The middle root consonant is doubled, written with shadda. In the present tense, the usual pattern is يُفَعِّلُ. The shadda is part of the verb stem, not decoration.",
+  "TABLE: Past | Present | Meaning // عَلَّمَ | يُعَلِّمُ | to teach",
+  "[callout] Notice the relationship: عَلِمَ means to know, while عَلَّمَ means to teach or make someone know. This is a useful causative relationship, but not every Form II verb has a predictable meaning.",
+  "## Learn the family",
+  "Read each pair aloud, then use the verbs in meaningful sentences.",
+  "TABLE: Past | Present | Meaning // دَرَّسَ | يُدَرِّسُ | to teach a subject // نَظَّمَ | يُنَظِّمُ | to organise // حَضَّرَ | يُحَضِّرُ | to prepare",
+  "تُعَلِّمُ الْمُعَلِّمَةُ الطُّلَّابَ الْعَرَبِيَّةَ.",
+  "The teacher teaches the students Arabic.",
+  "نَظَّمْنَا وَقْتَنَا قَبْلَ الِامْتِحَانِ.",
+  "We organised our time before the examination.",
+  "أُحَضِّرُ وَجْبَةَ الْغَدَاءِ.",
+  "I am preparing lunch.",
+  "[callout] Look closely: In عَلَّمَ, the shadda represents two ل consonants. The present يَعْلَمُ belongs to Form I, whereas يُعَلِّمُ belongs to Form II.",
+  "## Practise and apply",
+  "Move from recognising the pattern to using the language yourself.",
+  "### Misconception clinic",
+  "A shadda does not automatically mean Form II. Doubled Form I verbs such as مَرَّ also contain shadda. Identify the root and the complete pattern.",
+  "The doubled middle radical and the present vowels identify this Form II pair.",
+  "### Apply the form",
+  "Write a short instruction to a new student. Explain how you organise your study and who teaches you. Include two Form II verbs and one time expression.",
+  "[callout] Success checklist: Use the correct verb form and person; check the past/present vowels; use a natural sentence and reread your Arabic.",
+  "Complete your own response first. This is one possible answer, not the only correct response.",
+  "أُنَظِّمُ وَقْتِي كُلَّ مَسَاءٍ، وَتُعَلِّمُنِي الْمُعَلِّمَةُ الْعَرَبِيَّةَ. أُحَضِّرُ دُرُوسِي قَبْلَ النَّوْمِ.",
+  "I organise my time every evening, and the teacher teaches me Arabic. I prepare my lessons before sleeping.",
+  "Compare عَلِمَ, عَلَّمَ and تَعَلَّمَ. Explain the different roles of knowing, teaching and learning.",
+  "Use the optional morphology reference if you need a pattern reminder.",
+  "## Final self-check",
+  "Try the questions without looking back. Your feedback explains the key feature.",
+  "## What you can now do",
+  "Review the essentials before moving to the next form.",
+  "### Lesson mastery summary",
+  "- recognise Form II and its characteristic pattern;",
+  "- understand and use the model verb in context;",
+  "- distinguish this family from a related form;",
+  "- check the accuracy of your own Arabic sentences.",
+  "Return in a few days and repeat the self-check. Learn the next form only when you are ready.",
+  "Back to all ten forms · Optional morphology reference"
+ ]
+}

@@ -1,0 +1,531 @@
+{
+ "path": "lessons/grammar/07-verbs/grammar-mastery-03-unusual-verbs.php",
+ "title": "Unusual High-Frequency Verbs",
+ "arabic": "أَفْعَالٌ شَائِعَةٌ غَيْرُ مَأْلُوفَةٍ",
+ "lede": "Learn the essential mini-paradigms and spelling changes of رَأَى، جَاءَ، أَتَى، أَخَذَ، أَعْطَى and other high-frequency unusual verbs.",
+ "nav": [
+  [
+   "GM-V-02",
+   "Hollow, Doubled and Weak Verb Patterns"
+  ]
+ ],
+ "quizzes": [
+  {
+   "title": "🔎 Entry Check",
+   "items": [
+    {
+     "prompt": "Choose “I saw”.",
+     "options": [
+      "رَأَيْتُ",
+      "رَأَتُ",
+      "رَيْتُ"
+     ],
+     "answer": 0,
+     "feedback": "رَأَى changes to رَأَيْـ before the suffix."
+    },
+    {
+     "prompt": "Choose “he sees”.",
+     "options": [
+      "يَرَى",
+      "يَرْأَى",
+      "يَرَأُ"
+     ],
+     "answer": 0,
+     "feedback": "The high-frequency present form is يَرَى."
+    },
+    {
+     "prompt": "Choose “I came”.",
+     "options": [
+      "جِئْتُ",
+      "جَاءْتُ",
+      "جِيئْتُ"
+     ],
+     "answer": 0,
+     "feedback": "جَاءَ changes to جِئْـ before ـتُ."
+    },
+    {
+     "prompt": "Choose “they came”.",
+     "options": [
+      "جَاءُوا",
+      "جِئُوا",
+      "جَاؤوا"
+     ],
+     "answer": 0,
+     "feedback": "The standard spelling is جَاءُوا."
+    },
+    {
+     "prompt": "Choose “I take”.",
+     "options": [
+      "آخُذُ",
+      "أَأْخُذُ",
+      "يَأْخُذُ"
+     ],
+     "answer": 0,
+     "feedback": "First-person present contracts to آخُذُ."
+    },
+    {
+     "prompt": "Best approach?",
+     "options": [
+      "Memorise high-frequency unusual verbs as complete mini-paradigms.",
+      "Force every verb into كتب.",
+      "Avoid them in speaking."
+     ],
+     "answer": 0,
+     "feedback": "Small, repeated paradigms build reliable control."
+    }
+   ]
+  },
+  {
+   "title": "👁️ رَأَى / يَرَى Check",
+   "items": [
+    {
+     "prompt": "“We saw”",
+     "options": [
+      "رَأَيْنَا",
+      "رَآنَا",
+      "رَأَوْنَا"
+     ],
+     "answer": 0,
+     "feedback": "Stem رَأَيْـ before ـنا."
+    },
+    {
+     "prompt": "“She sees”",
+     "options": [
+      "تَرَى",
+      "تَرْأَى",
+      "يَرَى"
+     ],
+     "answer": 0,
+     "feedback": "تَرَى matches هي."
+    },
+    {
+     "prompt": "“I will see”",
+     "options": [
+      "سَأَرَى",
+      "سَيَرَى",
+      "سَرَأَيْتُ"
+     ],
+     "answer": 0,
+     "feedback": "Future prefix attaches to أَرَى."
+    },
+    {
+     "prompt": "“They see”",
+     "options": [
+      "يَرَوْنَ",
+      "يَرَيُونَ",
+      "يَرَىونَ"
+     ],
+     "answer": 0,
+     "feedback": "Plural present is يَرَوْنَ."
+    }
+   ]
+  },
+  {
+   "title": "🚶 Coming Verb Check",
+   "items": [
+    {
+     "prompt": "“I came” with جاء",
+     "options": [
+      "جِئْتُ",
+      "جَاءْتُ",
+      "جَئْتُ"
+     ],
+     "answer": 0,
+     "feedback": "The established form is جِئْتُ."
+    },
+    {
+     "prompt": "“We come” with جاء",
+     "options": [
+      "نَجِيءُ",
+      "نَجَاءُ",
+      "نَجْيَأُ"
+     ],
+     "answer": 0,
+     "feedback": "Present stem جِيء."
+    },
+    {
+     "prompt": "“He comes” with أتى",
+     "options": [
+      "يَأْتِي",
+      "يَأَتِي",
+      "يَتِي"
+     ],
+     "answer": 0,
+     "feedback": "Keep the medial hamza."
+    },
+    {
+     "prompt": "“They came” with جاء",
+     "options": [
+      "جَاءُوا",
+      "جِئُوا",
+      "جَاءَوْا"
+     ],
+     "answer": 0,
+     "feedback": "Base long form before ـوا."
+    }
+   ]
+  },
+  {
+   "title": "🧰 High-Frequency Irregular Check",
+   "items": [
+    {
+     "prompt": "“I take”",
+     "options": [
+      "آخُذُ",
+      "أَخُذُ",
+      "أَأْخُذُ"
+     ],
+     "answer": 0,
+     "feedback": "Madda spelling."
+    },
+    {
+     "prompt": "“Take!” m.s.",
+     "options": [
+      "خُذْ",
+      "اِأْخُذْ",
+      "أَخَذْ"
+     ],
+     "answer": 0,
+     "feedback": "Irregular imperative خُذْ."
+    },
+    {
+     "prompt": "“I give”",
+     "options": [
+      "أُعْطِي",
+      "أَعْطَى",
+      "يُعْطِي"
+     ],
+     "answer": 0,
+     "feedback": "First-person present."
+    },
+    {
+     "prompt": "“I wanted”",
+     "options": [
+      "أَرَدْتُ",
+      "أَرَادْتُ",
+      "أُرِيدُ"
+     ],
+     "answer": 0,
+     "feedback": "Hollow-like short past stem before ـتُ."
+    }
+   ]
+  },
+  {
+   "title": "⚡ Mini-Paradigm Check",
+   "items": [
+    {
+     "prompt": "Complete: رَأَى، رَأَتْ، ___، يَرَى",
+     "options": [
+      "رَأَيْتُ",
+      "رَأَتُ",
+      "رَآيْتُ"
+     ],
+     "answer": 0,
+     "feedback": "Past first-person."
+    },
+    {
+     "prompt": "Complete: جَاءَ، جَاءَتْ، ___، يَجِيءُ",
+     "options": [
+      "جِئْتُ",
+      "جَاءْتُ",
+      "جِيئَتُ"
+     ],
+     "answer": 0,
+     "feedback": "Past first-person."
+    },
+    {
+     "prompt": "Complete: أَخَذَ، أَخَذْتُ، ___",
+     "options": [
+      "يَأْخُذُ",
+      "يَخُذُ",
+      "يَأَخَذُ"
+     ],
+     "answer": 0,
+     "feedback": "Present pair."
+    },
+    {
+     "prompt": "Complete: أَرَادَ، أَرَدْتُ، ___",
+     "options": [
+      "يُرِيدُ",
+      "يَرَادُ",
+      "يُرَادُ"
+     ],
+     "answer": 0,
+     "feedback": "Active present of want."
+    }
+   ]
+  },
+  {
+   "title": "⭐ Unusual Verb Mastery",
+   "items": [
+    {
+     "prompt": "I saw",
+     "options": [
+      "رَأَيْتُ",
+      "رَيْتُ",
+      "رَأَتُ"
+     ],
+     "answer": 0,
+     "feedback": "Correct hamza and stem."
+    },
+    {
+     "prompt": "He sees",
+     "options": [
+      "يَرَى",
+      "يَرْأَى",
+      "يَرَأُ"
+     ],
+     "answer": 0,
+     "feedback": "High-frequency form."
+    },
+    {
+     "prompt": "They see",
+     "options": [
+      "يَرَوْنَ",
+      "يَرَيُونَ",
+      "يَرُونَ"
+     ],
+     "answer": 0,
+     "feedback": "Correct plural."
+    },
+    {
+     "prompt": "I came",
+     "options": [
+      "جِئْتُ",
+      "جَاءْتُ",
+      "جِيتُ"
+     ],
+     "answer": 0,
+     "feedback": "Correct stem and hamza."
+    },
+    {
+     "prompt": "We come",
+     "options": [
+      "نَجِيءُ",
+      "نَجَاءُ",
+      "نَجِئُ"
+     ],
+     "answer": 0,
+     "feedback": "Present form."
+    },
+    {
+     "prompt": "I take",
+     "options": [
+      "آخُذُ",
+      "أَأْخُذُ",
+      "أَخُذُ"
+     ],
+     "answer": 0,
+     "feedback": "Madda."
+    },
+    {
+     "prompt": "Take!",
+     "options": [
+      "خُذْ",
+      "اُؤْخُذْ",
+      "أَخَذْ"
+     ],
+     "answer": 0,
+     "feedback": "Irregular imperative."
+    },
+    {
+     "prompt": "I gave",
+     "options": [
+      "أَعْطَيْتُ",
+      "أَعْطَاتُ",
+      "أُعْطِي"
+     ],
+     "answer": 0,
+     "feedback": "Past first-person."
+    },
+    {
+     "prompt": "I want",
+     "options": [
+      "أُرِيدُ",
+      "أَرَادَ",
+      "يُرَادُ"
+     ],
+     "answer": 0,
+     "feedback": "Present active."
+    },
+    {
+     "prompt": "Best strategy",
+     "options": [
+      "small paradigms in context",
+      "force every verb into one pattern",
+      "avoid irregular verbs"
+     ],
+     "answer": 0,
+     "feedback": "Retrieval and meaningful use."
+    }
+   ]
+  }
+ ],
+ "games": [
+  [
+   {
+    "p": "أَمْسِ أَنَا ___ الْمُبَارَاةَ.",
+    "a": "رَأَيْتُ",
+    "choices": [
+     "رَأَيْتُ",
+     "أَرَى",
+     "رَأَى"
+    ],
+    "e": "Past I."
+   },
+   {
+    "p": "الآنَ هُوَ ___ الْجَبَلَ.",
+    "a": "يَرَى",
+    "choices": [
+     "يَرَى",
+     "رَأَى",
+     "تَرَى"
+    ],
+    "e": "Present he."
+   },
+   {
+    "p": "غَدًا نَحْنُ ___ النَّتِيجَةَ.",
+    "a": "سَنَرَى",
+    "choices": [
+     "سَنَرَى",
+     "رَأَيْنَا",
+     "نَرَأُ"
+    ],
+    "e": "Future we."
+   },
+   {
+    "p": "أَمْسِ أَنَا ___ مُبَكِّرًا.",
+    "a": "جِئْتُ",
+    "choices": [
+     "جِئْتُ",
+     "جَاءْتُ",
+     "أَجِيءُ"
+    ],
+    "e": "Past I came."
+   },
+   {
+    "p": "هُوَ ___ كُلَّ يَوْمٍ.",
+    "a": "يَجِيءُ",
+    "choices": [
+     "يَجِيءُ",
+     "جِئْتُ",
+     "جَاءَتْ"
+    ],
+    "e": "Present he."
+   },
+   {
+    "p": "أَنَا ___ الْحَافِلَةَ.",
+    "a": "آخُذُ",
+    "choices": [
+     "آخُذُ",
+     "يَأْخُذُ",
+     "أَخَذْتُ"
+    ],
+    "e": "Present I."
+   },
+   {
+    "p": "أَنَا ___ هَدِيَّةً لِأُخْتِي.",
+    "a": "أَعْطَيْتُ",
+    "choices": [
+     "أَعْطَيْتُ",
+     "أُعْطِي",
+     "يُعْطِي"
+    ],
+    "e": "Past I gave."
+   },
+   {
+    "p": "أَنَا ___ أَنْ أَنْجَحَ.",
+    "a": "أُرِيدُ",
+    "choices": [
+     "أُرِيدُ",
+     "أَرَدْتُ",
+     "يُرَادُ"
+    ],
+    "e": "Present I want."
+   }
+  ]
+ ],
+ "blocks": [
+  "## Why this matters لِمَاذَا نَحْفَظُ بَعْضَ الْأَفْعَالِ كَعَائِلَاتٍ؟",
+  "Some extremely common verbs preserve old or irregular-looking changes. Accurate use comes from understanding what can be explained and retrieving what must be learned.",
+  "### Core",
+  "Use core forms of رَأَى، جَاءَ، أَخَذَ and أَعْطَى.",
+  "### Develop",
+  "Move the same verb across persons and time frames.",
+  "### Stretch",
+  "Compare alternative verbs such as جَاءَ / أَتَى and analyse orthographic changes.",
+  "[callout] Communication target: Use unusual verbs naturally in descriptions, plans and narratives.",
+  "## Diagnostic start",
+  "Check the forms you already recognise.",
+  "## The verb رَأَى / يَرَى",
+  "This essential verb shifts visibly between past and present and preserves a written hamza in several past forms.",
+  "TABLE: Function | رَأَى / يَرَى | Model // past he | رَأَى | رَأَى الْفِيلْمَ. // past she | رَأَتْ | رَأَتْ صَدِيقَتَهَا. // past I/we | رَأَيْتُ / رَأَيْنَا | رَأَيْنَا الْبَحْرَ. // present I/he/we | أَرَى / يَرَى / نَرَى | نَرَى الْجَبَلَ. // future | سَأَرَى | سَأَرَى النَّتِيجَةَ غَدًا.",
+  "[callout] Spelling alert: Keep the hamza in رَأَيْتُ . The present يَرَى is a high-frequency irregular form best learned whole.",
+  "## Coming: جَاءَ / يَجِيءُ and أَتَى / يَأْتِي",
+  "Hamza placement and stem changes make these forms worth deliberate retrieval.",
+  "TABLE: Function | جَاءَ / يَجِيءُ | Alternative high-frequency pair // past he/she | جَاءَ / جَاءَتْ | أَتَى / أَتَتْ // past I/we | جِئْتُ / جِئْنَا | أَتَيْتُ / أَتَيْنَا // present I/he | أَجِيءُ / يَجِيءُ | آتِي / يَأْتِي // present we/they | نَجِيءُ / يَجِيئُونَ | نَأْتِي / يَأْتُونَ",
+  "[callout] House approach: Learn both جَاءَ / يَجِيءُ and the very common أَتَى / يَأْتِي . Use one consistently within a sentence rather than mixing stems.",
+  "## Other high-frequency unusual verbs",
+  "These verbs appear constantly in everyday communication and deserve compact reference families.",
+  "TABLE: Verb family | Key forms | Meaning // أَخَذَ / يَأْخُذُ | أَخَذْتُ، آخُذُ، خُذْ | take // أَكَلَ / يَأْكُلُ | أَكَلْتُ، آكُلُ، كُلْ | eat // أَعْطَى / يُعْطِي | أَعْطَيْتُ، أُعْطِي، أَعْطِ | give // بَقِيَ / يَبْقَى | بَقِيتُ، أَبْقَى | remain // أَرَادَ / يُرِيدُ | أَرَدْتُ، أُرِيدُ | want",
+  "[callout/warning] First-person hamza: آخُذُ and آكُلُ are not written with two separate hamzas. The madda represents the contraction.",
+  "## Memorise intelligently",
+  "Small paradigms and recurring sentence frames are more durable than long unconnected lists.",
+  "### Mini-paradigm method",
+  "Say five forms in one rhythm:",
+  "رَأَى — رَأَتْ — رَأَيْتُ — يَرَى — أَرَى",
+  "### Sentence-frame method",
+  "أَرَى ... / رَأَيْتُ ... / سَأَرَى ...",
+  "Change the time expression and object, not only the isolated verb.",
+  "### Contrast similar meanings",
+  "جَاءَ / أَتَى، يَجِيءُ / يَأْتِي",
+  "Recognise both; choose one accurately for production.",
+  "### Orthography audit",
+  "Check hamza, madda, alif maqṣūra and suffix attachment.",
+  "## Unusual-verb spelling clinic",
+  "A useful correction explains the form, not only the answer.",
+  "### Seeing",
+  "✗ أَنَا رَيْتُ الْمُبَارَاةَ",
+  "✓ أَنَا رَأَيْتُ الْمُبَارَاةَ",
+  "Keep the hamza and the full رَأَيْـ stem.",
+  "### Coming",
+  "✗ أَنَا جَاءْتُ مُبَكِّرًا",
+  "✓ أَنَا جِئْتُ مُبَكِّرًا",
+  "The first-person past is جِئْتُ.",
+  "### Taking",
+  "✗ أَنَا أَأْخُذُ الْحَافِلَةَ",
+  "✓ أَنَا آخُذُ الْحَافِلَةَ",
+  "Use madda in the first-person present.",
+  "### Wanting",
+  "✗ أَنَا أَرَادْتُ أَنْ أَدْرُسَ",
+  "✓ أَنَا أَرَدْتُ أَنْ أَدْرُسَ",
+  "The hollow stem shortens before ـتُ.",
+  "## Replayable retrieval game",
+  "Strengthen accurate high-frequency forms.",
+  "## Apply the grammar across skills",
+  "Grammar becomes useful when it helps you understand and communicate.",
+  "### 📖 Reading workshop",
+  "Read a personal message containing رأى، جاء، أخذ، أعطى and أراد. Identify the subject and time of each form, then infer any unfamiliar form from context.",
+  "### 🎧 Listening workshop",
+  "Listen to a short account and distinguish جِئْتُ, جَاءَتْ, جَاءُوا, أَجِيءُ and يَجِيئُونَ.",
+  "### 🗣️ Speaking workshop",
+  "Answer “What did you see?”, “How did you come?”, “What did you take?” and “What do you want to do next?” in connected Arabic.",
+  "### 🛠️ Editing workshop",
+  "Correct a message with misplaced hamzas, a missing madda and three wrong stem choices.",
+  "### ✍️ Integrated production task",
+  "Write a 100–120-word description of an event you attended or saw. Use at least five unusual high-frequency verbs across two or three time frames.",
+  "[callout] Model: أَمْسِ جِئْتُ إِلَى الْمَدْرَسَةِ مُبَكِّرًا، وَرَأَيْتُ مَعْرِضًا جَمِيلًا. أَخَذْتُ بَعْضَ الصُّوَرِ، وَأَعْطَيْتُ صَدِيقَتِي نُسْخَةً مِنْهَا.",
+  "[callout] Success checklist: Include forms from رأى، جاء/أتى، أخذ، أعطى and أراد; check every hamza and weak ending.",
+  "Save and mark complete Clear",
+  "Plan the verb changes as a timeline, root map or sentence flowchart. Label each form in Arabic.",
+  "Create a margin checklist for hamza, madda, alif maqṣūra and subject agreement.",
+  "## Final mastery check",
+  "Retrieve the mini-paradigms accurately.",
+  "### Lesson mastery summary",
+  "- use رَأَى / يَرَى across common persons and time frames;",
+  "- use جَاءَ / يَجِيءُ and recognise أَتَى / يَأْتِي;",
+  "- spell high-frequency hamza and madda forms accurately;",
+  "- retrieve unusual verbs inside meaningful sentences.",
+  "Return in 3–7 days and repeat the final check without reviewing first. Retrieval, not recognition alone, builds secure verb control."
+ ]
+}

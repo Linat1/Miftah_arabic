@@ -1,0 +1,259 @@
+{
+ "path": "lessons/grammar/03-nouns/grammar-mastery-04-sound-feminine-plural.php",
+ "title": "Sound Feminine Plural",
+ "arabic": "جَمْعُ الْمُؤَنَّثِ السَّالِمُ",
+ "lede": "Build sound feminine plurals, distinguish case endings, and apply human feminine plural agreement.",
+ "nav": [
+  [
+   "GM-N-03",
+   "Sound Masculine Plural"
+  ]
+ ],
+ "quizzes": [
+  {
+   "title": "🔎 Entry Check",
+   "items": [
+    {
+     "prompt": "Plural of طَالِبَةٌ.",
+     "options": [
+      "طَالِبُونَ",
+      "طَالِبَاتٌ",
+      "طُلَّابٌ"
+     ],
+     "answer": 1,
+     "feedback": "Remove ة and add ات."
+    },
+    {
+     "prompt": "Nominative definite plural.",
+     "options": [
+      "الطَّالِبَاتُ",
+      "الطَّالِبَاتِ",
+      "الطَّالِبَاتَ"
+     ],
+     "answer": 0,
+     "feedback": "ḍamma in nominative."
+    },
+    {
+     "prompt": "After مَعَ.",
+     "options": [
+      "الْمُعَلِّمَاتُ",
+      "الْمُعَلِّمَاتِ",
+      "الْمُعَلِّمَاتَ"
+     ],
+     "answer": 1,
+     "feedback": "Kasra in genitive."
+    },
+    {
+     "prompt": "Accusative sound feminine plural usually takes:",
+     "options": [
+      "fatḥa",
+      "kasra",
+      "sukūn"
+     ],
+     "answer": 1,
+     "feedback": "This plural is accusative with kasra."
+    },
+    {
+     "prompt": "Choose human plural agreement.",
+     "options": [
+      "الطَّالِبَاتُ مُجْتَهِدَاتٌ",
+      "الطَّالِبَاتُ مُجْتَهِدَةٌ",
+      "الطَّالِبَاتُ مُجْتَهِدُونَ"
+     ],
+     "answer": 0,
+     "feedback": "Female persons take feminine plural adjective."
+    },
+    {
+     "prompt": "Plural of سَيَّارَةٌ.",
+     "options": [
+      "سَيَّارَتَانِ",
+      "سَيَّارَاتٌ",
+      "سَيَائِرُ"
+     ],
+     "answer": 1,
+     "feedback": "Regular feminine plural."
+    }
+   ]
+  },
+  {
+   "title": "🧠 Guided mini-check",
+   "items": [
+    {
+     "prompt": "Plural of مُدَرِّسَةٌ.",
+     "options": [
+      "مُدَرِّسُونَ",
+      "مُدَرِّسَاتٌ",
+      "مَدَارِسُ"
+     ],
+     "answer": 1,
+     "feedback": "Regular."
+    },
+    {
+     "prompt": "Subject ending.",
+     "options": [
+      "ـاتُ",
+      "ـاتِ",
+      "ـاتَ"
+     ],
+     "answer": 0,
+     "feedback": "Nominative."
+    },
+    {
+     "prompt": "Object ending.",
+     "options": [
+      "ـاتُ",
+      "ـاتِ",
+      "ـاتَ"
+     ],
+     "answer": 1,
+     "feedback": "Accusative with kasra."
+    },
+    {
+     "prompt": "After فِي.",
+     "options": [
+      "الْجَامِعَاتُ",
+      "الْجَامِعَاتِ",
+      "الْجَامِعَاتَ"
+     ],
+     "answer": 1,
+     "feedback": "Genitive."
+    },
+    {
+     "prompt": "Agreement for female students.",
+     "options": [
+      "نَشِيطَاتٌ",
+      "نَشِيطَةٌ",
+      "نَشِيطُونَ"
+     ],
+     "answer": 0,
+     "feedback": "Human feminine plural."
+    }
+   ]
+  },
+  {
+   "title": "⭐ Mastery Check",
+   "items": [
+    {
+     "prompt": "Plural of مُدَرِّسَةٌ.",
+     "options": [
+      "مُدَرِّسُونَ",
+      "مُدَرِّسَاتٌ",
+      "مَدَارِسُ"
+     ],
+     "answer": 1,
+     "feedback": "Regular."
+    },
+    {
+     "prompt": "Subject ending.",
+     "options": [
+      "ـاتُ",
+      "ـاتِ",
+      "ـاتَ"
+     ],
+     "answer": 0,
+     "feedback": "Nominative."
+    },
+    {
+     "prompt": "Object ending.",
+     "options": [
+      "ـاتُ",
+      "ـاتِ",
+      "ـاتَ"
+     ],
+     "answer": 1,
+     "feedback": "Accusative with kasra."
+    },
+    {
+     "prompt": "After فِي.",
+     "options": [
+      "الْجَامِعَاتُ",
+      "الْجَامِعَاتِ",
+      "الْجَامِعَاتَ"
+     ],
+     "answer": 1,
+     "feedback": "Genitive."
+    },
+    {
+     "prompt": "Agreement for female students.",
+     "options": [
+      "نَشِيطَاتٌ",
+      "نَشِيطَةٌ",
+      "نَشِيطُونَ"
+     ],
+     "answer": 0,
+     "feedback": "Human feminine plural."
+    },
+    {
+     "prompt": "Which has a broken plural?",
+     "options": [
+      "طَالِبَةٌ",
+      "مَدْرَسَةٌ",
+      "مُعَلِّمَةٌ"
+     ],
+     "answer": 1,
+     "feedback": "مدارس."
+    },
+    {
+     "prompt": "Choose correct sentence.",
+     "options": [
+      "رَأَيْتُ الْمُعَلِّمَاتُ",
+      "رَأَيْتُ الْمُعَلِّمَاتِ",
+      "رَأَيْتُ الْمُعَلِّمَاتَ"
+     ],
+     "answer": 1,
+     "feedback": "Accusative with kasra."
+    },
+    {
+     "prompt": "Indefinite nominative plural.",
+     "options": [
+      "طَالِبَاتٌ",
+      "طَالِبَاتٍ",
+      "الطَّالِبَاتُ"
+     ],
+     "answer": 0,
+     "feedback": "Tanwīn ḍamm."
+    }
+   ]
+  }
+ ],
+ "games": [],
+ "blocks": [
+  "## Why this matters لِمَاذَا هَذَا مُهِمٌّ؟",
+  "Build sound feminine plurals, distinguish case endings, and apply human feminine plural agreement.",
+  "### Core",
+  "Recognise and build the core form.",
+  "### Develop",
+  "Use the form accurately in sentence roles and agreement.",
+  "### Stretch",
+  "Explain case, exceptions and interaction with iḍāfa.",
+  "## Diagnostic start اِخْتِبَارُ الْبِدَايَةِ",
+  "Answer first; then use the explanations to repair uncertainty.",
+  "## From ة to ات",
+  "### Regular process",
+  "طَالِبَةٌ ← طَالِبَاتٌ مُعَلِّمَةٌ ← مُعَلِّمَاتٌ سَيَّارَةٌ ← سَيَّارَاتٌ",
+  "Remove the tāʾ marbūṭa and attach ات .",
+  "### Not every feminine noun follows it",
+  "مَدْرَسَةٌ ← مَدَارِسُ مَدِينَةٌ ← مُدُنٌ",
+  "Some feminine nouns have broken plurals and must be learned as vocabulary families.",
+  "## Case pattern: ـاتُ / ـاتِ",
+  "TABLE: Role | Example | Ending // Subject | حَضَرَتِ الطَّالِبَاتُ. | ـاتُ // Object | رَأَيْتُ الطَّالِبَاتِ. | ـاتِ // After preposition | تَحَدَّثْتُ مَعَ الطَّالِبَاتِ. | ـاتِ",
+  "[callout] Important contrast: ordinary singular nouns commonly show fatḥa in the accusative, but the sound feminine plural uses kasra: رَأَيْتُ الطَّالِبَاتِ .",
+  "## Four-skills application",
+  "Use the noun system to extract and communicate real information.",
+  "### 📖 Read and notice",
+  "فِي مَدْرَسَتِنَا طَالِبَانِ جَدِيدَانِ وَمُعَلِّمَاتٌ خَبِيرَاتٌ. الْفُصُولُ وَاسِعَةٌ، وَمَكْتَبُ مُدِيرِ الْمَدْرَسَةِ قَرِيبٌ مِنَ الْمَدْخَلِ.",
+  "Underline every noun relevant to this lesson and explain its form.",
+  "### 🗣️ Speak and transform",
+  "Choose five nouns. Say the singular, dual and/or plural form required by this lesson, then use each in a complete sentence.",
+  "### ✍️ Writing workshop",
+  "Write 8–12 connected sentences about your school, home or local area. Use at least six target noun forms from this lesson and underline them.",
+  "[callout] Model: فِي حَيِّي مَدْرَسَتَانِ كَبِيرَتَانِ، وَمَكْتَبَةُ الْحَيِّ مُفِيدَةٌ لِلطُّلَّابِ.",
+  "Save and mark complete Clear",
+  "Plan visually, label your examples in Arabic, then check each target form.",
+  "Complete the same task on paper. Underline the target noun forms and annotate the rule used.",
+  "## Final mastery check اِخْتِبَارُ الْإِتْقَانِ",
+  "Apply the rules without relying on the explanation panels.",
+  "### Consolidate and revisit",
+  "Below 70%: repeat the mini-check linked to your errors. 70–89%: replay the repair game. 90–100%: continue, then revisit this lesson in 3–7 days."
+ ]
+}

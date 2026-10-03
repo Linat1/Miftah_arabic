@@ -1,0 +1,477 @@
+{
+ "path": "lessons/grammar/08-conjunctions-prepositions/grammar-mastery-05-clause-linkers-cohesion.php",
+ "title": "Clause Linkers and Paragraph Cohesion",
+ "arabic": "رَوَابِطُ الْجُمَلِ وَتَمَاسُكُ الْفِقْرَةِ",
+ "lede": "Move from sentence linking to paragraph architecture: introduce beliefs, exceptions, topic shifts, place clauses, time clauses and cohesive consequences.",
+ "nav": [
+  [
+   "GM-CP-04",
+   "Core Conjunctions and Logical Links"
+  ]
+ ],
+ "quizzes": [
+  {
+   "title": "🔎 Entry Check",
+   "items": [
+    {
+     "prompt": "Complete: أَعْتَقِدُ ___ التَّعَلُّمَ مُهِمٌّ.",
+     "options": [
+      "أَنَّ",
+      "لِذَلِكَ",
+      "إِلَّا"
+     ],
+     "answer": 0,
+     "feedback": "أنّ introduces the content of the belief."
+    },
+    {
+     "prompt": "Choose a topic-shift frame.",
+     "options": [
+      "أَمَّا السَّفَرُ بِالْقِطَارِ فَهُوَ مُرِيحٌ.",
+      "لِأَنَّ السَّفَرُ بِالْقِطَارِ فَهُوَ.",
+      "إِلَّا السَّفَرُ فَهُوَ."
+     ],
+     "answer": 0,
+     "feedback": "أمّا introduces a topic and فـ introduces the comment."
+    },
+    {
+     "prompt": "Choose “after I finished”.",
+     "options": [
+      "بَعْدَمَا أَنْهَيْتُ",
+      "قَبْلَ أَنْ أَنْهَيْتُ",
+      "مُنْذُ أَنْ أَنْهَيْتُ only"
+     ],
+     "answer": 0,
+     "feedback": "بعدما introduces a completed earlier action."
+    },
+    {
+     "prompt": "Choose formal “before I leave”.",
+     "options": [
+      "قَبْلَ أَنْ أَخْرُجَ",
+      "قَبْلَ مَا أَخْرُجُ only",
+      "بَعْدَ أَنْ أَخْرُجَ"
+     ],
+     "answer": 0,
+     "feedback": "Miftah uses قبل أن as the formal MSA house form."
+    },
+    {
+     "prompt": "Choose “since I began studying”.",
+     "options": [
+      "مُنْذُ أَنْ بَدَأْتُ الدِّرَاسَةَ",
+      "إِلَّا أَنْ بَدَأْتُ",
+      "حَيْثُ بَدَأْتُ only"
+     ],
+     "answer": 0,
+     "feedback": "منذ أن introduces a starting clause."
+    },
+    {
+     "prompt": "Do less common connectors earn automatic marks?",
+     "options": [
+      "No; range and accuracy are judged in the whole response.",
+      "Yes; each rare connector guarantees one mark.",
+      "Only if written in English too."
+     ],
+     "answer": 0,
+     "feedback": "Assessment rewards well-linked sentences and controlled range, not a connector checklist."
+    }
+   ]
+  },
+  {
+   "title": "Content Clause Check",
+   "items": [
+    {
+     "prompt": "I believe that sport is important.",
+     "options": [
+      "أَعْتَقِدُ أَنَّ الرِّيَاضَةَ مُهِمَّةٌ.",
+      "أَعْتَقِدُ لِذَلِكَ الرِّيَاضَةُ.",
+      "أَعْتَقِدُ إِلَّا الرِّيَاضَةَ."
+     ],
+     "answer": 0,
+     "feedback": "أنّ introduces the content of the belief."
+    },
+    {
+     "prompt": "It is clear that prices increased.",
+     "options": [
+      "مِنَ الْوَاضِحِ أَنَّ الْأَسْعَارَ ارْتَفَعَتْ.",
+      "مِنَ الْوَاضِحِ لِأَنَّ الْأَسْعَارُ.",
+      "مِنَ الْوَاضِحِ إِلَّا الْأَسْعَارَ."
+     ],
+     "answer": 0,
+     "feedback": "من الواضح أن is a useful formal frame."
+    },
+    {
+     "prompt": "Which follows أنَّ in this pattern?",
+     "options": [
+      "the subject/content clause",
+      "only an imperative",
+      "only a preposition"
+     ],
+     "answer": 0,
+     "feedback": "أنّ connects the reporting frame to its content."
+    },
+    {
+     "prompt": "Choose the supported form.",
+     "options": [
+      "أَظُنُّ أَنَّ الطَّقْسَ جَمِيلٌ.",
+      "أَظُنُّ أَنَّ الطَّقْسُ جَمِيلٌ.",
+      "أَظُنُّ أَنَّ الطَّقْسِ جَمِيلٌ."
+     ],
+     "answer": 0,
+     "feedback": "أنّ makes its subject accusative in a fully marked model."
+    }
+   ]
+  },
+  {
+   "title": "Specific Link Check",
+   "items": [
+    {
+     "prompt": "As for online learning, it is flexible.",
+     "options": [
+      "أَمَّا التَّعَلُّمُ عَنْ بُعْدٍ فَهُوَ مَرِنٌ.",
+      "حَيْثُ التَّعَلُّمُ عَنْ بُعْدٍ مَرِنٌ.",
+      "إِلَّا التَّعَلُّمُ عَنْ بُعْدٍ مَرِنٌ."
+     ],
+     "answer": 0,
+     "feedback": "أمّا…فـ organises a topic and comment."
+    },
+    {
+     "prompt": "I live where services are available.",
+     "options": [
+      "أَسْكُنُ حَيْثُ تَتَوَفَّرُ الْخِدْمَاتُ.",
+      "أَسْكُنُ إِلَّا تَتَوَفَّرُ الْخِدْمَاتُ.",
+      "أَسْكُنُ لِذَلِكَ تَتَوَفَّرُ الْخِدْمَاتُ."
+     ],
+     "answer": 0,
+     "feedback": "حيث = where/in the place where."
+    },
+    {
+     "prompt": "I eat all fruit except bananas.",
+     "options": [
+      "آكُلُ كُلَّ الْفَوَاكِهِ إِلَّا الْمَوْزَ.",
+      "آكُلُ كُلَّ الْفَوَاكِهِ حَيْثُ الْمَوْزَ.",
+      "آكُلُ كُلَّ الْفَوَاكِهِ لِذَلِكَ الْمَوْزَ."
+     ],
+     "answer": 0,
+     "feedback": "إلا introduces the exception."
+    },
+    {
+     "prompt": "I prefer the city, whereas my brother prefers the countryside.",
+     "options": [
+      "أُفَضِّلُ الْمَدِينَةَ، بَيْنَمَا يُفَضِّلُ أَخِي الرِّيفَ.",
+      "أُفَضِّلُ الْمَدِينَةَ حَيْثُ يُفَضِّلُ أَخِي الرِّيفَ.",
+      "أُفَضِّلُ الْمَدِينَةَ إِلَّا أَخِي الرِّيفَ."
+     ],
+     "answer": 0,
+     "feedback": "بينما clearly expresses the contrast."
+    }
+   ]
+  },
+  {
+   "title": "Time Clause Check",
+   "items": [
+    {
+     "prompt": "After I arrived, I called my family.",
+     "options": [
+      "بَعْدَمَا وَصَلْتُ، اتَّصَلْتُ بِأُسْرَتِي.",
+      "قَبْلَ أَنْ وَصَلْتُ، اتَّصَلْتُ.",
+      "مُنْذُ أَنْ وَصَلْتُ، اتَّصَلْتُ مرة واحدة."
+     ],
+     "answer": 0,
+     "feedback": "بعدما introduces the completed earlier action."
+    },
+    {
+     "prompt": "Check the answer before you submit it.",
+     "options": [
+      "رَاجِعِ الْإِجَابَةَ قَبْلَ أَنْ تُسَلِّمَهَا.",
+      "رَاجِعِ الْإِجَابَةَ بَعْدَمَا تُسَلِّمُهَا.",
+      "رَاجِعِ الْإِجَابَةَ إِلَّا تُسَلِّمَهَا."
+     ],
+     "answer": 0,
+     "feedback": "قبل أن introduces the action not yet completed."
+    },
+    {
+     "prompt": "My Arabic has improved since I started practising.",
+     "options": [
+      "تَحَسَّنَتْ عَرَبِيَّتِي مُنْذُ أَنْ بَدَأْتُ التَّدَرُّبَ.",
+      "تَحَسَّنَتْ عَرَبِيَّتِي إِلَّا أَنْ بَدَأْتُ.",
+      "تَحَسَّنَتْ عَرَبِيَّتِي حَيْثُ بَدَأْتُ فقط."
+     ],
+     "answer": 0,
+     "feedback": "منذ أن links the present result to its starting event."
+    },
+    {
+     "prompt": "Formal Miftah house form for “before I leave”.",
+     "options": [
+      "قَبْلَ أَنْ أَخْرُجَ",
+      "قَبْلَ مَا أَخْرُجُ",
+      "قَبْلَ أَنَّ أَخْرُجَ"
+     ],
+     "answer": 0,
+     "feedback": "قبل أن + subjunctive is the formal target."
+    }
+   ]
+  },
+  {
+   "title": "🏁 Final Mastery",
+   "items": [
+    {
+     "prompt": "Complete: أَعْرِفُ ___ الْعَمَلَ صَعْبٌ.",
+     "options": [
+      "أَنَّ",
+      "إِلَّا",
+      "لِذَلِكَ"
+     ],
+     "answer": 0,
+     "feedback": "أنّ introduces the content."
+    },
+    {
+     "prompt": "Complete the pair: أَمَّا الْحَافِلَةُ ___هِيَ أَرْخَصُ.",
+     "options": [
+      "فَـ",
+      "لِأَنَّ",
+      "إِلَّا"
+     ],
+     "answer": 0,
+     "feedback": "أمّا pairs with فـ."
+    },
+    {
+     "prompt": "Choose “where services exist”.",
+     "options": [
+      "حَيْثُ تُوجَدُ الْخِدْمَاتُ",
+      "إِلَّا تُوجَدُ الْخِدْمَاتُ",
+      "لِذَلِكَ تُوجَدُ الْخِدْمَاتُ"
+     ],
+     "answer": 0,
+     "feedback": "حيث introduces a place clause."
+    },
+    {
+     "prompt": "Choose an exception.",
+     "options": [
+      "كُلُّ شَيْءٍ إِلَّا هَذَا",
+      "كُلُّ شَيْءٍ حَيْثُ هَذَا",
+      "كُلُّ شَيْءٍ لِذَلِكَ هَذَا"
+     ],
+     "answer": 0,
+     "feedback": "إلا = except."
+    },
+    {
+     "prompt": "Formal: before I travel.",
+     "options": [
+      "قَبْلَ أَنْ أُسَافِرَ",
+      "قَبْلَ أَنَّ أُسَافِرُ",
+      "قَبْلَ مَا أُسَافِرُ as house form"
+     ],
+     "answer": 0,
+     "feedback": "قبل أن + subjunctive."
+    },
+    {
+     "prompt": "After we arrived.",
+     "options": [
+      "بَعْدَمَا وَصَلْنَا",
+      "قَبْلَ أَنْ وَصَلْنَا",
+      "إِلَّا وَصَلْنَا"
+     ],
+     "answer": 0,
+     "feedback": "بعدما introduces the completed earlier action."
+    },
+    {
+     "prompt": "Since I started learning.",
+     "options": [
+      "مُنْذُ أَنْ بَدَأْتُ التَّعَلُّمَ",
+      "حَيْثُ بَدَأْتُ التَّعَلُّمَ only",
+      "إِلَّا أَنْ بَدَأْتُ"
+     ],
+     "answer": 0,
+     "feedback": "منذ أن marks a starting event."
+    },
+    {
+     "prompt": "Clear “whereas” contrast.",
+     "options": [
+      "بَيْنَمَا",
+      "حَيْثُ",
+      "إِلَّا"
+     ],
+     "answer": 0,
+     "feedback": "بينما is the clearer contrast linker."
+    },
+    {
+     "prompt": "Does using لذلك guarantee a higher mark?",
+     "options": [
+      "No; it must serve accurate, coherent writing.",
+      "Yes, automatically.",
+      "Only if repeated three times."
+     ],
+     "answer": 0,
+     "feedback": "Descriptors judge linkage, range and control across the response."
+    },
+    {
+     "prompt": "Best final editing question?",
+     "options": [
+      "Does each connector express the relationship I intend?",
+      "Have I used the longest possible word?",
+      "Have I removed all simple connectors?"
+     ],
+     "answer": 0,
+     "feedback": "Logical accuracy is the foundation of cohesion."
+    }
+   ]
+  }
+ ],
+ "games": [
+  [
+   {
+    "p": "Complete: أَعْتَقِدُ ___ الدِّرَاسَةَ مُفِيدَةٌ.",
+    "a": "أَنَّ",
+    "choices": [
+     "أَنَّ",
+     "إِلَّا",
+     "لِذَلِكَ"
+    ],
+    "e": "أنّ introduces content."
+   },
+   {
+    "p": "Topic frame: ___ الْقِطَارُ ___ هُوَ مُرِيحٌ.",
+    "a": "أَمَّا … فَـ",
+    "choices": [
+     "أَمَّا … فَـ",
+     "حَيْثُ … إِلَّا",
+     "لِأَنَّ … لِذَلِكَ"
+    ],
+    "e": "أمّا pairs with فـ."
+   },
+   {
+    "p": "Place clause: أَسْكُنُ ___ تَتَوَفَّرُ الْخِدْمَاتُ.",
+    "a": "حَيْثُ",
+    "choices": [
+     "حَيْثُ",
+     "إِلَّا",
+     "بَعْدَمَا"
+    ],
+    "e": "حيث = where."
+   },
+   {
+    "p": "Exception: أُحِبُّ كُلَّ الْمَوَادِّ ___ الرِّيَاضِيَّاتِ.",
+    "a": "إِلَّا",
+    "choices": [
+     "إِلَّا",
+     "حَيْثُ",
+     "لِذَلِكَ"
+    ],
+    "e": "إلا introduces an exception."
+   },
+   {
+    "p": "After I finished…",
+    "a": "بَعْدَمَا أَنْهَيْتُ",
+    "choices": [
+     "بَعْدَمَا أَنْهَيْتُ",
+     "قَبْلَ أَنْ أَنْهَيْتُ",
+     "مُنْذُ أَنْ أَنْهَيْتُ only"
+    ],
+    "e": "Completed earlier action = بعدما."
+   },
+   {
+    "p": "Before I leave…",
+    "a": "قَبْلَ أَنْ أَخْرُجَ",
+    "choices": [
+     "قَبْلَ أَنْ أَخْرُجَ",
+     "قَبْلَ أَنَّ أَخْرُجُ",
+     "بَعْدَمَا أَخْرُجُ"
+    ],
+    "e": "قبل أن + subjunctive."
+   },
+   {
+    "p": "Since I began…",
+    "a": "مُنْذُ أَنْ بَدَأْتُ",
+    "choices": [
+     "مُنْذُ أَنْ بَدَأْتُ",
+     "إِلَّا أَنْ بَدَأْتُ",
+     "حَيْثُ بَدَأْتُ only"
+    ],
+    "e": "Starting clause = منذ أن."
+   },
+   {
+    "p": "Clear contrast of preferences.",
+    "a": "بَيْنَمَا",
+    "choices": [
+     "بَيْنَمَا",
+     "حَيْثُ",
+     "إِلَّا"
+    ],
+    "e": "بينما can express whereas."
+   },
+   {
+    "p": "Cause → consequence.",
+    "a": "لِذَلِكَ",
+    "choices": [
+     "لِذَلِكَ",
+     "لِأَنَّ",
+     "أَمَّا"
+    ],
+    "e": "لذلك introduces consequence."
+   },
+   {
+    "p": "What earns range credit?",
+    "a": "Appropriate, well-linked and varied structures.",
+    "choices": [
+     "Appropriate, well-linked and varied structures.",
+     "A fixed point for every rare connector.",
+     "Length alone."
+    ],
+    "e": "Assessment is holistic within the published descriptors."
+   }
+  ]
+ ],
+ "blocks": [
+  "## Why this matters",
+  "Paragraph cohesion lets a reader follow the writer’s thinking across sentences. Advanced-looking linkers help only when they are structurally and logically accurate.",
+  "### Core",
+  "Use أعتقد أنَّ, بعدما, قبل أن and منذ أن.",
+  "### Develop",
+  "Use أمّا…فـ, حيث and إلا accurately.",
+  "### Stretch",
+  "Combine contrast, concession and topic organisation across a paragraph.",
+  "[callout] Cambridge link: The 2028 specimen Paper 4 mark scheme rewards a range of simple connectors in the shorter task and extended, well-linked sentences with varied structures in the longer task. It does not allocate automatic marks for named “advanced” linkers.",
+  "## Diagnostic start",
+  "Select the structure that matches the function and formal register.",
+  "## Content clauses with أَنَّ",
+  "أنَّ lets a verb of thinking, believing, knowing or saying carry a complete idea.",
+  "TABLE: Frame | Model | Meaning // أَعْتَقِدُ أَنَّ | أَعْتَقِدُ أَنَّ التَّعَلُّمَ عَنْ بُعْدٍ مُفِيدٌ. | I think that… // أَظُنُّ أَنَّ | أَظُنُّ أَنَّ الطَّقْسَ سَيَتَحَسَّنُ. | I think/suppose that… // أَعْرِفُ أَنَّ | أَعْرِفُ أَنَّ الِامْتِحَانَ صَعْبٌ. | I know that… // قَالَ إِنَّ / ذَكَرَ أَنَّ | ذَكَرَ الْكَاتِبُ أَنَّ التِّقْنِيَّةَ مُهِمَّةٌ. | The writer stated that… // مِنَ الْوَاضِحِ أَنَّ | مِنَ الْوَاضِحِ أَنَّ الْخِدْمَةَ تَحَسَّنَتْ. | It is clear that…",
+  "[callout] Supported case awareness: In fully marked models, the subject after أَنَّ is accusative: أَنَّ الطَّقْسَ , أَنَّ الدِّرَاسَةَ . Full إنّ-family analysis belongs in Nominal Sentences.",
+  "## Specific links: أَمَّا…فَـ، حَيْثُ، إِلَّا",
+  "These connectors are not interchangeable; each has a distinct discourse job.",
+  "TABLE: Structure | Function | Model // أَمَّا…فَـ | introduce a topic, then comment | أَمَّا الْقِطَارُ فَهُوَ أَسْرَعُ. // حَيْثُ | where / in the place where | أُفَضِّلُ السَّكَنَ حَيْثُ تُوجَدُ الْخِدْمَاتُ. // إِلَّا | except / excluding | أُحِبُّ كُلَّ الْمَوَادِّ إِلَّا الرِّيَاضِيَّاتِ. // بَيْنَمَا | while / whereas; contrast or simultaneous action | أُفَضِّلُ الْمَدِينَةَ، بَيْنَمَا يُفَضِّلُ أَخِي الرِّيفَ.",
+  "[callout/warning] Translation correction: حَيْثُ primarily means “where / in the place where” in this lesson. Do not use it mechanically for English “whereas”; بَيْنَمَا is the clearer contrast linker.",
+  "[callout] أَمَّا…فَـ is a pair: Do not leave the second half without فَـ : أَمَّا الْبَيْتُ فَهُوَ وَاسِعٌ .",
+  "## Time clauses: after, before and since",
+  "A time linker relates one action to another, not merely to a time noun.",
+  "TABLE: Structure | Core use | Model // بَعْدَمَا + past | after an action was completed | بَعْدَمَا أَنْهَيْتُ وَاجِبِي، خَرَجْتُ. // بَعْدَ أَنْ + verb | after doing / after an action | خَرَجْتُ بَعْدَ أَنْ أَنْهَيْتُ وَاجِبِي. // قَبْلَ أَنْ + subjunctive | before doing / before an action | رَاجِعْ عَمَلَكَ قَبْلَ أَنْ تُسَلِّمَهُ. // مُنْذُ + noun | since a point / for a period | أَعْمَلُ هُنَا مُنْذُ عَامٍ. // مُنْذُ أَنْ + past | since an action began/happened | تَحَسَّنَتْ لُغَتِي مُنْذُ أَنْ بَدَأْتُ التَّدَرُّبَ.",
+  "[callout] House form: The syllabus lists forms such as “بعد ما / قبل ما”. Miftah uses standard written MSA بَعْدَمَا or بَعْدَ أَنْ , and قَبْلَ أَنْ for formal examination writing.",
+  "[callout/warning] Subjunctive link: After قَبْلَ أَنْ , the present verb is subjunctive: قَبْلَ أَنْ أَذْهَبَ , not أَذْهَبُ in a fully marked model.",
+  "## Build a cohesive paragraph",
+  "Plan the relationship between sentences before selecting linkers.",
+  "[ar] أَعْتَقِدُ أَنَّ السَّفَرَ مُفِيدٌ لِأَنَّهُ يُعَرِّفُنَا بِثَقَافَاتٍ جَدِيدَةٍ. أَمَّا السَّفَرُ بِالطَّائِرَةِ فَهُوَ سَرِيعٌ، وَلَكِنَّهُ مُكْلِفٌ. لِذَلِكَ أُفَضِّلُ الْقِطَارَ عِنْدَمَا يَكُونُ ذَلِكَ مُمْكِنًا.",
+  "[ar] بَعْدَمَا وَصَلْنَا إِلَى الْمَدِينَةِ، ذَهَبْنَا إِلَى الْفُنْدُقِ. ثُمَّ خَرَجْنَا حَيْثُ تُوجَدُ الْمَطَاعِمُ الشَّهِيرَةُ.",
+  "[callout] Paper 4 principle: The longer writing task rewards extended, well-linked sentences and a range of structures used appropriately. One accurate complex sentence is stronger evidence than several memorised linkers placed unnaturally.",
+  "TABLE: Paragraph job | Useful signals // state view | أَعْتَقِدُ أَنَّ، مِنْ وَجْهَةِ نَظَرِي // give reason | لِأَنَّ، بِسَبَبِ // contrast / balance | لَكِنْ، بَيْنَمَا، عَلَى الرَّغْمِ مِنْ ذَلِكَ // add a developed point | بِالْإِضَافَةِ إِلَى ذَلِكَ، عِلَاوَةً عَلَى ذَلِكَ // show result | لِذَلِكَ، لِذَا، وَمِنْ ثَمَّ // organise topic | أَمَّا…فَـ، مِنْ نَاحِيَةٍ… وَمِنْ نَاحِيَةٍ أُخْرَى // sequence events | بَعْدَمَا، قَبْلَ أَنْ، ثُمَّ، أَخِيرًا",
+  "## Misconception and proofreading clinic",
+  "Remove automatic, colloquial or structurally incomplete links.",
+  "TABLE: Weak / inaccurate | Improved | Reason // أَعْتَقِدُ لِأَنَّ التَّعَلُّمُ مُهِمٌّ. | أَعْتَقِدُ أَنَّ التَّعَلُّمَ مُهِمٌّ. | belief content uses أنَّ // أَمَّا الْقِطَارُ هُوَ سَرِيعٌ. | أَمَّا الْقِطَارُ فَهُوَ سَرِيعٌ. | أمّا pairs with فـ // أُفَضِّلُ الْمَدِينَةَ حَيْثُ أَخِي يُفَضِّلُ الرِّيفَ. | أُفَضِّلُ الْمَدِينَةَ، بَيْنَمَا يُفَضِّلُ أَخِي الرِّيفَ. | contrast is بينما, not حيث // قَبْلَ مَا أَذْهَبُ في formal exam model | قَبْلَ أَنْ أَذْهَبَ | formal MSA house form // استخدمت لذلك لأن لذلك… | Choose one accurate cause/result chain. | more linkers do not automatically mean more range",
+  "## Grammar game",
+  "Choose the clause linker that makes the paragraph relationship precise.",
+  "## Skills workshop التَّطْبِيقُ الْعَمَلِيُّ",
+  "Read cohesion signals, reconstruct a paragraph and produce an extended well-linked response.",
+  "[ar] وَ وَ وَ وَ…",
+  "[ar] أَوَّلًا… ثُمَّ… لِأَنَّ… لِذَلِكَ… أَمَّا… فَـ… وَلَكِنْ…",
+  "### Write an extended cohesive response",
+  "Write 130–140 Arabic words on one topic: online learning, transport, holidays, technology or the environment. Organise the response into a clear sequence of ideas rather than a list of sentences.",
+  "[callout] Success checklist: Include أعتقد أنَّ; one reason and result chain; one أمّا…فـ topic shift; one contrast; one time clause with بعدما/قبل أن/منذ أن; one precise prepositional phrase.",
+  "[callout] Paper route: Plan five paragraph jobs in the margin. After writing, label each connector by function and replace any repeated or illogical link.",
+  "## Final mastery check",
+  "Check content clauses, exceptions, topic shifts, time links and paragraph organisation.",
+  "### What you can now do",
+  "- Use أَنَّ after high-frequency verbs of thought and reporting.",
+  "- Use أَمَّا…فَـ, حَيْثُ and إِلَّا for specific discourse functions.",
+  "- Build formal time links with بَعْدَمَا/بَعْدَ أَنْ, قَبْلَ أَنْ and مُنْذُ أَنْ.",
+  "- Edit a paragraph for logical, accurate and varied cohesion.",
+  "Spaced revisit: Return in two or three days and complete the final check again without looking at the tables."
+ ]
+}

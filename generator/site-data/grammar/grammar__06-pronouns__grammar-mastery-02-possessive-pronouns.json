@@ -1,0 +1,605 @@
+{
+ "path": "lessons/grammar/06-pronouns/grammar-mastery-02-possessive-pronouns.php",
+ "title": "",
+ "arabic": "الضَّمَائِرُ الْمُتَّصِلَةُ بِالْأَسْمَاءِ",
+ "lede": "",
+ "nav": [],
+ "quizzes": [
+  {
+   "title": "Pronoun Bridge Check 6 questions",
+   "items": [
+    {
+     "prompt": "أَنَا",
+     "options": [
+      "my",
+      "our",
+      "his"
+     ],
+     "answer": 0,
+     "feedback": "أَنَا becomes the possessive ending ـِي , meaning “my”."
+    },
+    {
+     "prompt": "أَنْتِ",
+     "options": [
+      "your, masculine singular",
+      "your, feminine singular",
+      "her"
+     ],
+     "answer": 0,
+     "feedback": "أَنْتِ corresponds to ـكِ ."
+    },
+    {
+     "prompt": "أَنْتُمَا",
+     "options": [
+      "their dual",
+      "your dual",
+      "your plural"
+     ],
+     "answer": 0,
+     "feedback": "Direct address + exactly two becomes ـكُمَا ."
+    },
+    {
+     "prompt": "هُوَ",
+     "options": [
+      "her",
+      "his",
+      "their"
+     ],
+     "answer": 0,
+     "feedback": "هُوَ corresponds to ـهُ , meaning “his”."
+    },
+    {
+     "prompt": "هُنَّ",
+     "options": [
+      "their, masculine or mixed plural",
+      "their, feminine plural",
+      "her"
+     ],
+     "answer": 0,
+     "feedback": "هُنَّ corresponds to ـهُنَّ ."
+    },
+    {
+     "prompt": "نَحْنُ",
+     "options": [
+      "our",
+      "my",
+      "their"
+     ],
+     "answer": 0,
+     "feedback": "نَحْنُ corresponds to ـنَا , meaning “our”."
+    }
+   ]
+  },
+  {
+   "title": "Suffix Recall 10 questions",
+   "items": []
+  },
+  {
+   "title": "Attachment Clinic 7 questions",
+   "items": [
+    {
+     "prompt": "my school",
+     "options": [
+      "مَدْرَسَةِي",
+      "مَدْرَسَتِي",
+      "الْمَدْرَسَتِي"
+     ],
+     "answer": 0,
+     "feedback": "ة changes to ت : مَدْرَسَتِي ."
+    },
+    {
+     "prompt": "our house",
+     "options": [
+      "بَيْتُنَا",
+      "الْبَيْتُنَا",
+      "بَيْتٌنَا"
+     ],
+     "answer": 0,
+     "feedback": "Attach ـنَا directly and remove tanwīn."
+    },
+    {
+     "prompt": "her bag",
+     "options": [
+      "حَقِيبَةُهَا",
+      "حَقِيبَتُهَا",
+      "حَقِيبَهَا"
+     ],
+     "answer": 0,
+     "feedback": "حَقِيبَة becomes حَقِيبَتـ before the suffix."
+    },
+    {
+     "prompt": "your book — two people",
+     "options": [
+      "كِتَابُكُمْ",
+      "كِتَابُكُمَا",
+      "كِتَابُهُمَا"
+     ],
+     "answer": 0,
+     "feedback": "Second person + dual = ـكُمَا ."
+    },
+    {
+     "prompt": "their room — female plural owners",
+     "options": [
+      "غُرْفَتُهُمْ",
+      "غُرْفَتُهُنَّ",
+      "غُرْفَتُكُنَّ"
+     ],
+     "answer": 0,
+     "feedback": "Third person + feminine plural = ـهُنَّ ."
+    },
+    {
+     "prompt": "my book",
+     "options": [
+      "الْكِتَابِي",
+      "كِتَابٌي",
+      "كِتَابِي"
+     ],
+     "answer": 0,
+     "feedback": "No definite article and no tanwīn: كِتَابِي ."
+    },
+    {
+     "prompt": "our family",
+     "options": [
+      "أُسْرَتُنَا",
+      "أُسْرَةُنَا",
+      "الْأُسْرَتُنَا"
+     ],
+     "answer": 0,
+     "feedback": "أُسْرَة changes to أُسْرَتـ before ـنَا ."
+    }
+   ]
+  },
+  {
+   "title": "Meaning and Agreement 7 questions",
+   "items": [
+    {
+     "prompt": "This is my book.",
+     "options": [
+      "هَذَا كِتَابِي.",
+      "هَذَا كِتَابُهُ.",
+      "هَذَا كِتَابُنَا."
+     ],
+     "answer": 0,
+     "feedback": "ـِي means “my”."
+    },
+    {
+     "prompt": "Where is your bag? — speaking to one female",
+     "options": [
+      "أَيْنَ حَقِيبَتُكَ؟",
+      "أَيْنَ حَقِيبَتُكِ؟",
+      "أَيْنَ حَقِيبَتُهَا؟"
+     ],
+     "answer": 0,
+     "feedback": "The female singular listener takes ـكِ ."
+    },
+    {
+     "prompt": "This is their house — two owners",
+     "options": [
+      "هَذَا بَيْتُهُمْ.",
+      "هَذَا بَيْتُهُمَا.",
+      "هَذَا بَيْتُكُمَا."
+     ],
+     "answer": 0,
+     "feedback": "Third person + dual = ـهُمَا ."
+    },
+    {
+     "prompt": "This is their school — female plural owners",
+     "options": [
+      "هَذِهِ مَدْرَسَتُهُنَّ.",
+      "هَذِهِ مَدْرَسَتُهُمْ.",
+      "هَذِهِ مَدْرَسَتُكُنَّ."
+     ],
+     "answer": 0,
+     "feedback": "The owners are a female group, so use ـهُنَّ ."
+    },
+    {
+     "prompt": "His new car is fast.",
+     "options": [
+      "سَيَّارَتُهُ الْجَدِيدُ سَرِيعٌ.",
+      "سَيَّارَتُهُ الْجَدِيدَةُ سَرِيعَةٌ.",
+      "سَيَّارَتُهَا الْجَدِيدَةُ سَرِيعَةٌ."
+     ],
+     "answer": 0,
+     "feedback": "The owner is male, but سَيَّارَة is feminine, so the adjectives are feminine."
+    },
+    {
+     "prompt": "What is her name?",
+     "options": [
+      "مَا اسْمُهُ؟",
+      "مَا اسْمُهَا؟",
+      "مَا اسْمُكِ؟"
+     ],
+     "answer": 0,
+     "feedback": "ـهَا means “her”."
+    },
+    {
+     "prompt": "Is this your classroom? — speaking to a mixed group",
+     "options": [
+      "هَلْ هَذَا فَصْلُكُمْ؟",
+      "هَلْ هَذَا فَصْلُهُمْ؟",
+      "هَلْ هَذَا فَصْلُكُنَّ؟"
+     ],
+     "answer": 0,
+     "feedback": "A mixed group being addressed takes ـكُمْ ."
+    }
+   ]
+  },
+  {
+   "title": "Reading Comprehension 8 questions",
+   "items": [
+    {
+     "prompt": "Whose name is mentioned in اِسْمِي ?",
+     "options": [
+      "سَلْمَى",
+      "خَالِد",
+      "مَرْيَم"
+     ],
+     "answer": 0,
+     "feedback": "ـِي means “my”, and Salma is the speaker."
+    },
+    {
+     "prompt": "Who does بَيْتُنَا belong to?",
+     "options": [
+      "Salma only",
+      "Salma and her family",
+      "Khalid only"
+     ],
+     "answer": 0,
+     "feedback": "ـنَا means “our”."
+    },
+    {
+     "prompt": "Whose room is غُرْفَتُهُ ?",
+     "options": [
+      "مَرْيَم",
+      "خَالِد",
+      "سَلْمَى"
+     ],
+     "answer": 0,
+     "feedback": "ـهُ means “his” and refers to Khalid."
+    },
+    {
+     "prompt": "Whose bag is blue?",
+     "options": [
+      "سَلْمَى",
+      "مَرْيَم",
+      "خَالِد"
+     ],
+     "answer": 0,
+     "feedback": "حَقِيبَتُهَا means “her bag” and refers to Maryam."
+    },
+    {
+     "prompt": "Who owns the school in مَدْرَسَتُهُمَا ?",
+     "options": [
+      "the two parents",
+      "the children",
+      "the girls"
+     ],
+     "answer": 0,
+     "feedback": "ـهُمَا marks two owners."
+    },
+    {
+     "prompt": "Why does مَدْرَسَة become مَدْرَسَتـ ?",
+     "options": [
+      "because ة becomes ت before a suffix",
+      "because it is plural",
+      "because it is masculine"
+     ],
+     "answer": 0,
+     "feedback": "The hidden ت appears before an attached ending."
+    },
+    {
+     "prompt": "What do the family love?",
+     "options": [
+      "their books",
+      "their house and garden",
+      "their school only"
+     ],
+     "answer": 0,
+     "feedback": "بَيْتَنَا وَحَدِيقَتَنَا means “our house and our garden”."
+    },
+    {
+     "prompt": "What does the ending in كُتُبُهَا mean?",
+     "options": [
+      "his",
+      "her",
+      "their"
+     ],
+     "answer": 0,
+     "feedback": "ـهَا means “her”."
+    }
+   ]
+  },
+  {
+   "title": "",
+   "items": []
+  },
+  {
+   "title": "Possessive Pronoun Mastery Check 12 questions",
+   "items": []
+  }
+ ],
+ "games": [],
+ "blocks": [
+  "## Ownership Is Everywhere in Real Communication",
+  "Possessive endings allow you to speak efficiently about people and the things connected to them. They are essential for personal information, family, home, school, travel and everyday descriptions.",
+  "### One Arabic word Noun + owner",
+  "The ending carries the meaning of the owner.",
+  "### Communication What you can express",
+  "- اِسْمِي لَيْلَى. — My name is Layla.",
+  "- هَذَا بَيْتُنَا. — This is our house.",
+  "- أَيْنَ حَقِيبَتُكَ؟ — Where is your bag?",
+  "- مَدْرَسَتُهَا كَبِيرَةٌ. — Her school is large.",
+  "[callout] Curriculum connection Possessive endings help you identify relationships and ownership in listening and reading, answer personal questions in speaking and add precision to writing.",
+  "## Use the chapter at the depth you need",
+  "Revise the Core route first, then continue into Develop and Stretch when you are ready. You do not need to complete the whole chapter in one sitting.",
+  "### Core",
+  "- Recognise the complete suffix family.",
+  "- Match each suffix to its owner.",
+  "- Attach common endings accurately.",
+  "### Develop",
+  "- Use suffixes in complete sentences.",
+  "- Apply the tāʾ marbūṭa rule.",
+  "- Track ownership in connected texts.",
+  "### Stretch",
+  "- Explain definiteness and adjective agreement.",
+  "- Notice case-vowel changes.",
+  "- Repair complex errors independently.",
+  "### Objectives",
+  "- Recognise every possessive suffix attached to a noun.",
+  "- Connect each subject pronoun to its possessive ending.",
+  "- Attach suffixes to regular nouns accurately.",
+  "- Change ة to ت before a suffix.",
+  "- Use possessive nouns in complete sentences.",
+  "- Maintain accurate noun and adjective agreement.",
+  "- Apply the forms in reading, speaking and writing.",
+  "### Success Criteria",
+  "- I can transform كِتَاب into “my, your, his, her and their book”.",
+  "- I can distinguish ـكَ from ـكِ .",
+  "- I can distinguish ـكُمْ from ـكُنَّ .",
+  "- I can write مَدْرَسَتِي , not مَدْرَسَةِي .",
+  "- I can explain why a possessed noun does not take الـ .",
+  "## Starter: Retrieve the Subject Pronouns",
+  "Possessive endings grow from the subject-pronoun family learned in Lesson 1.",
+  "## From an Independent Pronoun to an Attached Ending",
+  "The owner is not written as a separate subject pronoun after the noun. Instead, a short ending is attached directly to the noun.",
+  "[ar] أَنَا",
+  "[ar] ـِي",
+  "[ar] نَحْنُ",
+  "[ar] ـنَا",
+  "[ar] أَنْتَ",
+  "[ar] ـكَ",
+  "[ar] أَنْتِ",
+  "[ar] ـكِ",
+  "[ar] هُوَ",
+  "[ar] ـهُ",
+  "[ar] هِيَ",
+  "[ar] ـهَا",
+  "[ar] هُمْ",
+  "[ar] ـهُمْ",
+  "[ar] هُنَّ",
+  "[ar] ـهُنَّ",
+  "[callout] Do not translate word by word English uses a separate possessive word: my book . Arabic builds one grammatical unit: كِتَابِي . The ending cannot stand alone.",
+  "### Possession Builder",
+  "Choose a noun and an owner. The correct Arabic form will appear.",
+  "[ar] كِتَابِي",
+  "my book",
+  "[callout] Preview of later grammar The same attached-pronoun family will later appear with verbs and prepositions. In this lesson, focus only on ownership attached to nouns.",
+  "Related game practice",
+  "### Game 1: Match the Ending to Its Meaning",
+  "Select one Arabic ending and its English meaning.",
+  "### Game 2 Possession Factory",
+  "Generate a noun and an owner. Build the correct possessive form before revealing the answer.",
+  "## All Possessive Endings with كِتَاب",
+  "TABLE: Owner | Subject pronoun | Ending | Possessive form | Meaning // First singular | أَنَا | ـِي | كِتَابِي | my book // First plural | نَحْنُ | ـنَا | كِتَابُنَا | our book // Second masculine singular | أَنْتَ | ـكَ | كِتَابُكَ | your book // Second feminine singular | أَنْتِ | ـكِ | كِتَابُكِ | your book // Second dual | أَنْتُمَا | ـكُمَا | كِتَابُكُمَا | your book, two people // Second masculine/mixed plural | أَنْتُمْ | ـكُمْ | كِتَابُكُمْ | your book // Second feminine plural | أَنْتُنَّ | ـكُنَّ | كِتَابُكُنَّ | your book // Third masculine singular | هُوَ | ـهُ | كِتَابُهُ | his book // Third feminine singular | هِيَ | ـهَا | كِتَابُهَا | her book // Third dual | هُمَا | ـهُمَا | كِتَابُهُمَا | their book, two people // Third masculine/mixed plural | هُمْ | ـهُمْ | كِتَابُهُمْ | their book // Third feminine plural | هُنَّ | ـهُنَّ | كِتَابُهُنَّ | their book",
+  "### Pronunciation contrast ـكَ / ـكِ",
+  "[example] كِتَابُكَ your book — speaking to one male",
+  "[ar] كِتَابُكَ",
+  "[example] كِتَابُكِ your book — speaking to one female",
+  "[ar] كِتَابُكِ",
+  "The written consonants are the same. The final vowel carries the gender distinction.",
+  "### Pronunciation contrast Plural endings",
+  "[example] كِتَابُكُمْ / كِتَابُكُنَّ your book — male/mixed plural / female plural",
+  "[ar] كِتَابُكُمْ / كِتَابُكُنَّ",
+  "[example] كِتَابُهُمْ / كِتَابُهُنَّ their book — male/mixed plural / female plural",
+  "[ar] كِتَابُهُمْ / كِتَابُهُنَّ",
+  "Pronounce the doubled نّ clearly in feminine plural forms.",
+  "[callout] Pattern families Second-person endings begin with ك : ـكَ، ـكِ، ـكُمَا، ـكُمْ، ـكُنَّ . Third-person endings begin with ه : ـهُ، ـهَا، ـهُمَا، ـهُمْ، ـهُنَّ .",
+  "## Four Rules for Building Possessive Nouns",
+  "### Attach the ending directly",
+  "[ar] بَيْت",
+  "[ar] بَيْتُنَا",
+  "The suffix becomes part of the written word.",
+  "### Do not add الـ",
+  "[ar] كِتَابٌ",
+  "[ar] كِتَابِي",
+  "The possessive ending already makes the noun definite: a specific book belonging to someone.",
+  "### Remove tanwīn",
+  "[ar] كِتَابٌ",
+  "[ar] كِتَابُهُ",
+  "Tanwīn and a possessive suffix do not remain together.",
+  "### ة becomes ت",
+  "[ar] مَدْرَسَةٌ",
+  "[ar] مَدْرَسَتِي",
+  "The hidden ت appears when another ending is attached.",
+  "### Pattern lab Nouns ending in ة",
+  "TABLE: Base noun | Meaning | With suffix | Meaning // مَدْرَسَةٌ | school | مَدْرَسَتِي | my school // حَقِيبَةٌ | bag | حَقِيبَتُكِ | your bag, feminine singular // غُرْفَةٌ | room | غُرْفَتُهُ | his room // سَيَّارَةٌ | car | سَيَّارَتُهَا | her car // أُسْرَةٌ | family | أُسْرَتُنَا | our family",
+  "[callout] Stretch: the short vowel before the suffix The short case vowel before a suffix may change according to the noun’s role in the sentence: هَذَا كِتَابُهُ but فِي كِتَابِهِ . The possessive ending still identifies the same owner. At this stage, secure the suffix first.",
+  "Related game practice",
+  "### 🏗️ Game 7 — Attach the Ending",
+  "Choose the correctly formed possessive noun. Watch for tanwīn, الـ and ة ← ت .",
+  "### 🧩 Game 8 — Build the Possessive Sentence",
+  "Click the words in the correct Arabic order.",
+  "## Move from a Word to Meaningful Communication",
+  "### Pattern 1 This is my / your / his…",
+  "[example] هَذَا كِتَابِي. This is my book.",
+  "[ar] هَذَا كِتَابِي.",
+  "[example] هَذِهِ حَقِيبَتُكِ. This is your bag, speaking to one female.",
+  "[ar] هَذِهِ حَقِيبَتُكِ.",
+  "[example] هَذَا بَيْتُنَا. This is our house.",
+  "[ar] هَذَا بَيْتُنَا.",
+  "[example] هَذِهِ سَيَّارَتُهُ. This is his car.",
+  "[ar] هَذِهِ سَيَّارَتُهُ.",
+  "### Pattern 2 Ask about a possession",
+  "[example] أَيْنَ كِتَابُكَ؟ Where is your book? — one male",
+  "[ar] أَيْنَ كِتَابُكَ؟",
+  "[example] أَيْنَ حَقِيبَتُكِ؟ Where is your bag? — one female",
+  "[ar] أَيْنَ حَقِيبَتُكِ؟",
+  "[example] هَلْ هَذَا فَصْلُكُمْ؟ Is this your classroom? — male or mixed group",
+  "[ar] هَلْ هَذَا فَصْلُكُمْ؟",
+  "[example] مَا اسْمُهَا؟ What is her name?",
+  "[ar] مَا اسْمُهَا؟",
+  "### Pattern 3 Possessive noun + adjective",
+  "[example] كِتَابُهَا الْجَدِيدُ مُفِيدٌ. Her new book is useful.",
+  "[ar] كِتَابُهَا الْجَدِيدُ مُفِيدٌ.",
+  "[example] سَيَّارَتُهُ الْجَدِيدَةُ سَرِيعَةٌ. His new car is fast.",
+  "[ar] سَيَّارَتُهُ الْجَدِيدَةُ سَرِيعَةٌ.",
+  "[callout] Agreement insight The adjective agrees with the thing possessed , not the owner. سَيَّارَتُهُ takes a feminine adjective because سَيَّارَة is feminine, although the owner is male.",
+  "## My Family and Our Home",
+  "Read for ownership. Underline each attached ending and identify its owner.",
+  "[ar] اِسْمِي سَلْمَى، وَهَذِهِ أُسْرَتِي. بَيْتُنَا قَرِيبٌ مِنْ مَدْرَسَتِي. غُرْفَتِي صَغِيرَةٌ وَلَكِنَّهَا مُرَتَّبَةٌ. هَذَا أَخِي خَالِدٌ. غُرْفَتُهُ كَبِيرَةٌ، وَحَاسُوبُهُ جَدِيدٌ. هَذِهِ أُخْتِي مَرْيَمُ. حَقِيبَتُهَا زَرْقَاءُ، وَكُتُبُهَا فِي غُرْفَتِهَا. وَالِدَايَ مُعَلِّمَانِ، وَمَدْرَسَتُهُمَا قَرِيبَةٌ مِنْ بَيْتِنَا. نَحْنُ نُحِبُّ بَيْتَنَا وَحَدِيقَتَنَا.",
+  "### Pronoun detective Identify the owner",
+  "Write the independent subject pronoun that matches each ending.",
+  "[ar] هُوَ، هِيَ، هُمَا",
+  "Related game practice",
+  "### Game 3 Ownership Switch",
+  "Change only the owner. Keep the noun accurate.",
+  "[example] هَذَا كِتَابِي.",
+  "[ar] هَذَا كِتَابِي.",
+  "[ar] هَذَا كِتَابُهُ.",
+  "[ar] هَذَا كِتَابُنَا.",
+  "[ar] هَذَا كِتَابُهُنَّ.",
+  "### 🖼️ Game 5 — Whose Is It?",
+  "Read the possessive noun and choose the owner.",
+  "## Whose Is It?",
+  "### Model Dialogue",
+  "Notice the difference between direct address and third-person ownership.",
+  "[ar] هَلْ هَذَا كِتَابُكَ يَا خَالِدُ؟",
+  "[ar] نَعَمْ، هَذَا كِتَابِي.",
+  "[ar] وَهَلْ هَذِهِ حَقِيبَتُكَ؟",
+  "[ar] لَا، هَذِهِ حَقِيبَةُ مَرْيَمَ. هَذِهِ حَقِيبَتُهَا.",
+  "### Guided pair task Classroom objects",
+  "- Choose an object: book, bag, pen or notebook.",
+  "- Ask a partner: هَلْ هَذَا / هَذِهِ ...كَ / ...كِ؟",
+  "- Answer: نَعَمْ، هَذَا ...ي or لَا، هَذَا ...هُ / ...هَا .",
+  "- Change the owner and repeat.",
+  "### Develop Family and school",
+  "Ask and answer at least four questions:",
+  "### Final speaking performance My World",
+  "Give a short presentation using possessions connected to your life. Include:",
+  "- your name: اِسْمِي...",
+  "- your school or class: مَدْرَسَتِي / فَصْلِي...",
+  "- your family or home: أُسْرَتِي / بَيْتُنَا...",
+  "- one male person’s possession using ـهُ",
+  "- one female person’s possession using ـهَا",
+  "- one dual or plural owner.",
+  "[example] اِسْمِي لَيْلَى، وَهَذِهِ مَدْرَسَتِي. فَصْلِي كَبِيرٌ. هَذَا أَخِي، وَهَذَا كِتَابُهُ. هَذِهِ أُخْتِي، وَهَذِهِ حَقِيبَتُهَا. وَالِدَايَ مُعَلِّمَانِ، وَمَدْرَسَتُهُمَا قَرِيبَةٌ مِنْ بَيْتِنَا.",
+  "[ar] اِسْمِي لَيْلَى، وَهَذِهِ مَدْرَسَتِي. فَصْلِي كَبِيرٌ. هَذَا أَخِي، وَهَذَا كِتَابُهُ. هَذِهِ أُخْتِي، وَهَذِهِ حَقِيبَتُهَا. وَالِدَايَ مُعَلِّمَانِ، وَمَدْرَسَتُهُمَا قَرِيبَةٌ مِنْ بَيْتِنَا.",
+  "## Describe Your School Bag, Room or Home",
+  "Use possessive endings to connect objects to people without repeating names.",
+  "### Build it step by step",
+  "### Noun bank",
+  "### Description bank",
+  "### Your task Write 7–9 sentences",
+  "Describe a school bag, bedroom, classroom or family home. Include:",
+  "- at least six different possessive endings",
+  "- one noun ending in ة changed correctly before a suffix",
+  "- one dual or plural owner",
+  "- two adjectives agreeing with the possessed noun",
+  "- one question about ownership",
+  "Word count: 0",
+  "### Self-edit Possession accuracy",
+  "- I attached each suffix directly to the noun.",
+  "- I removed tanwīn.",
+  "- I did not add الـ to the possessed noun.",
+  "- I changed ة to ت before a suffix.",
+  "- My adjectives agree with the thing possessed.",
+  "- My suffix matches the intended owner.",
+  "Related game practice",
+  "### 🧑‍🏫 Game 10 — Find and Repair the Mistake",
+  "Choose the corrected sentence, then read the grammatical explanation.",
+  "## Apply Possessive Endings Across the Four Skills",
+  "These original tasks develop the language control required for confident secondary-level Arabic.",
+  "### Listening Hear the owner",
+  "Listen without looking. Ask a partner or reader to say each sentence twice, then identify the owner in order.",
+  "[ar] ١. حَقِيبَتُهُنَّ فِي الْفَصْلِ. ٢. كِتَابُهُ عَلَى الطَّاوِلَةِ. ٣. مَدْرَسَتُنَا كَبِيرَةٌ. ٤. بَيْتُكُمَا قَرِيبٌ.",
+  "1. their, female plural · 2. his · 3. our · 4. your, dual.",
+  "### Reading preparation Decode the suffix",
+  "Highlight each ending and write the independent pronoun above it.",
+  "[example] مَدْرَسَتُكُمْ قَرِيبَةٌ مِنْ بَيْتِنَا.",
+  "[ar] مَدْرَسَتُكُمْ قَرِيبَةٌ مِنْ بَيْتِنَا.",
+  "ـكُمْ ← أَنْتُمْ and ـنَا ← نَحْنُ .",
+  "### Speaking preparation Extend an answer",
+  "[example] مَا اسْمُ مَدْرَسَتِكَ؟",
+  "[ar] مَا اسْمُ مَدْرَسَتِكَ؟",
+  "Answer, then add location and an opinion about your school.",
+  "### Writing preparation Correct the form",
+  "[example] هَذِهِ الْحَقِيبَتُهَا الْجَدِيدُ.",
+  "[ar] هَذِهِ الْحَقِيبَتُهَا الْجَدِيدُ.",
+  "[ar] هَذِهِ حَقِيبَتُهَا الْجَدِيدَةُ.",
+  "Remove الـ from the possessed noun and make the adjective feminine to agree with حَقِيبَة .",
+  "Related game practice",
+  "### Game 4 Find the Owner",
+  "One student reads a possessive noun. The class holds up the matching subject-pronoun card.",
+  "### ⚡ Game 6 — Pronoun + Suffix Match",
+  "Select an independent pronoun, then match it to the possessive suffix that represents the same owner.",
+  "#### Subject pronouns",
+  "#### Possessive suffixes",
+  "### 📖 Game 9 — Missing-Suffix Reading",
+  "Use meaning and context to restore the correct possessive ending.",
+  "### 🚀 Game 11 — Possessive Suffix Speed Challenge",
+  "Answer as many owner clues as possible in 45 seconds. Accuracy matters.",
+  "## Learn by playing with ownership and attachment",
+  "Each game strengthens a different decision: identify the owner, choose the suffix, attach it accurately, use it in context and repair mistakes.",
+  "Each preserved game now appears beside the language point it practises.",
+  "## Common Mistakes and How to Repair Them",
+  "[ar] ✗ كِتَاب أَنَا",
+  "Arabic normally attaches the possessive ending to the noun.",
+  "[ar] ✓ كِتَابِي",
+  "ـِي means “my”.",
+  "[ar] ✗ الْكِتَابِي",
+  "The suffix already makes the noun definite.",
+  "[ar] ✓ كِتَابِي",
+  "No definite article is needed.",
+  "[ar] ✗ مَدْرَسَةِي",
+  "ة changes before an attached ending.",
+  "[ar] ✓ مَدْرَسَتِي",
+  "The hidden ت appears.",
+  "[ar] ✗ هَذِهِ حَقِيبَتُهُ. (her bag)",
+  "ـهُ means “his”.",
+  "[ar] ✓ هَذِهِ حَقِيبَتُهَا.",
+  "ـهَا means “her”.",
+  "[ar] ✗ سَيَّارَتُهُ الْجَدِيدُ",
+  "The adjective must describe the feminine noun سَيَّارَة .",
+  "[ar] ✓ سَيَّارَتُهُ الْجَدِيدَةُ",
+  "The adjective agrees with the possessed object.",
+  "[callout] Repair strategy Separate the decision into two parts: What is the noun? Then ask: Who owns it? Attach only the ending that represents that owner.",
+  "## Core, Develop and Stretch",
+  "### Core",
+  "- Match the twelve endings to meanings.",
+  "- Build possessive forms with كِتَاب and بَيْت .",
+  "- Practise ة ← ت with a visible model.",
+  "### Develop",
+  "- Use possessive nouns in questions and answers.",
+  "- Track owners in a short reading text.",
+  "- Use dual and feminine plural endings accurately.",
+  "### Stretch",
+  "- Explain definiteness and adjective agreement.",
+  "- Notice case-vowel changes before the same suffix.",
+  "- Write a connected paragraph with varied owners and precise reference.",
+  "## 🎮 The Lost Property Office — لِمَنْ هَذَا؟",
+  "Items keep arriving at the lost property office — and you're on duty. The card tells you the item and the owner; you pick the correct possessive form. Watch for the ة→ت rounds and the dual traps! Eight rounds. 👥 Breakout teams: fastest clerk wins.",
+  "## Final Review and Consolidation",
+  "### Summary Five checks",
+  "- Identify the noun.",
+  "- Identify the owner.",
+  "- Select the correct suffix.",
+  "- Remove tanwīn and do not add الـ .",
+  "- Change ة to ت where needed.",
+  "### Reflection How secure are you?",
+  "Select your current level.",
+  "Curriculum reference: secondary Arabic grammar and structures. This is an independently produced Miftah Arabic lesson.",
+  "### Exit Ticket Retrieval for Lesson 3",
+  "Write the possessive ending that matches each subject pronoun:",
+  "[ar] ـِي، ـكِ، ـكُمَا، ـهُ، ـهُمْ، ـهُنَّ"
+ ]
+}

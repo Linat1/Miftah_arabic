@@ -1,0 +1,507 @@
+{
+ "path": "lessons/grammar/14-interrogatives/grammar-mastery-04-kam.php",
+ "title": "How Many? The كَمْ Rule",
+ "arabic": "كَمْ وَالْمُفْرَدُ الْمَنْصُوبُ",
+ "lede": "Ask about quantity with a singular indefinite accusative noun, spell tanwīn fatḥ accurately and avoid replacing the counted noun with a plural.",
+ "nav": [
+  [
+   "GM-INT-03",
+   "Common Question Words"
+  ]
+ ],
+ "quizzes": [
+  {
+   "title": "🔎 كَمْ Starter",
+   "items": [
+    {
+     "prompt": "Choose “How many boys?”",
+     "options": [
+      "كَمْ وَلَدًا؟",
+      "كَمْ أَوْلَادٌ؟",
+      "كَمْ الْوَلَدَ؟"
+     ],
+     "answer": 0,
+     "feedback": "The counted noun is singular, indefinite and accusative."
+    },
+    {
+     "prompt": "Choose “How many cars?”",
+     "options": [
+      "كَمْ سَيَّارَةً؟",
+      "كَمْ سَيَّارَاتٍ؟",
+      "كَمْ السَّيَّارَةُ؟"
+     ],
+     "answer": 0,
+     "feedback": "Use singular سَيَّارَةً, not a plural."
+    },
+    {
+     "prompt": "Which ending is required on a regular counted noun?",
+     "options": [
+      "Accusative tanwīn fatḥ ـً",
+      "Nominative tanwīn ḍamm ـٌ",
+      "Genitive tanwīn kasr ـٍ"
+     ],
+     "answer": 0,
+     "feedback": "The distinguishing counted noun after interrogative كَمْ is accusative."
+    },
+    {
+     "prompt": "Which word is correctly spelled with the supporting alif?",
+     "options": [
+      "كِتَابًا",
+      "كِتَابً",
+      "كِتَابٌ"
+     ],
+     "answer": 0,
+     "feedback": "A regular noun such as كِتَاب takes an alif with tanwīn fatḥ."
+    },
+    {
+     "prompt": "Which feminine form is correct?",
+     "options": [
+      "مَدْرَسَةً",
+      "مَدْرَسَةًا",
+      "مَدْرَسَاتٍ"
+     ],
+     "answer": 0,
+     "feedback": "Do not add a second alif after tāʾ marbūṭa."
+    },
+    {
+     "prompt": "Choose the adjective pair.",
+     "options": [
+      "كَمْ كِتَابًا مُفِيدًا؟",
+      "كَمْ كِتَابًا مُفِيدٌ؟",
+      "كَمْ كُتُبٍ مُفِيدَةٍ؟"
+     ],
+     "answer": 0,
+     "feedback": "The adjective agrees with the singular accusative noun."
+    }
+   ]
+  },
+  {
+   "title": "✅ Mini-check: singular accusative",
+   "items": [
+    {
+     "prompt": "Choose “How many lessons?”",
+     "options": [
+      "كَمْ دَرْسًا؟",
+      "كَمْ دُرُوسٍ؟",
+      "كَمْ الدَّرْسُ؟"
+     ],
+     "answer": 0,
+     "feedback": "Use the singular accusative دَرْسًا."
+    },
+    {
+     "prompt": "Choose “How many female teachers?”",
+     "options": [
+      "كَمْ مُعَلِّمَةً؟",
+      "كَمْ مُعَلِّمَاتٍ؟",
+      "كَمْ الْمُعَلِّمَةَ؟"
+     ],
+     "answer": 0,
+     "feedback": "Use singular feminine مُعَلِّمَةً."
+    },
+    {
+     "prompt": "Choose “How many hours?”",
+     "options": [
+      "كَمْ سَاعَةً؟",
+      "كَمْ سَاعَاتٍ؟",
+      "كَمْ السَّاعَةُ؟"
+     ],
+     "answer": 0,
+     "feedback": "Use singular سَاعَةً."
+    },
+    {
+     "prompt": "Which description is accurate?",
+     "options": [
+      "The noun is singular, indefinite and accusative.",
+      "The noun is plural and genitive.",
+      "The noun must have الـ."
+     ],
+     "answer": 0,
+     "feedback": "These three properties form the core rule."
+    }
+   ]
+  },
+  {
+   "title": "✅ Mini-check: spelling",
+   "items": [
+    {
+     "prompt": "Choose the correct form after كَمْ.",
+     "options": [
+      "قَلَمًا",
+      "قَلَمً",
+      "قَلَمٌ"
+     ],
+     "answer": 0,
+     "feedback": "Regular قَلَم takes a supporting alif."
+    },
+    {
+     "prompt": "Choose the correct feminine form.",
+     "options": [
+      "حَقِيبَةً",
+      "حَقِيبَةًا",
+      "حَقَائِبٍ"
+     ],
+     "answer": 0,
+     "feedback": "No extra alif follows tāʾ marbūṭa."
+    },
+    {
+     "prompt": "Choose the correct form of “water” in the pattern.",
+     "options": [
+      "مَاءً",
+      "مَاءًا",
+      "مَاءٌ"
+     ],
+     "answer": 0,
+     "feedback": "The spelling is مَاءً without an extra alif."
+    },
+    {
+     "prompt": "Which question is fully accurate?",
+     "options": [
+      "كَمْ يَوْمًا بَقِيَ؟",
+      "كَمْ يَوْمً بَقِيَ؟",
+      "كَمْ أَيَّامٍ بَقِيَ؟"
+     ],
+     "answer": 0,
+     "feedback": "يَوْمًا is singular accusative with the supporting alif."
+    }
+   ]
+  },
+  {
+   "title": "🛠 Repair lab",
+   "items": [
+    {
+     "prompt": "Repair كَمْ طُلَّابٍ فِي الصَّفِّ؟",
+     "options": [
+      "كَمْ طَالِبًا فِي الصَّفِّ؟",
+      "كَمْ طَالِبٌ فِي الصَّفِّ؟",
+      "كَمْ الطَّالِبَ فِي الصَّفِّ؟"
+     ],
+     "answer": 0,
+     "feedback": "Replace the plural with singular indefinite accusative."
+    },
+    {
+     "prompt": "Repair كَمْ مَدْرَسَةًا فِي الْمَدِينَةِ؟",
+     "options": [
+      "كَمْ مَدْرَسَةً فِي الْمَدِينَةِ؟",
+      "كَمْ مَدَارِسٍ فِي الْمَدِينَةِ؟",
+      "كَمْ الْمَدْرَسَةَ فِي الْمَدِينَةِ؟"
+     ],
+     "answer": 0,
+     "feedback": "No additional alif follows tāʾ marbūṭa."
+    },
+    {
+     "prompt": "Repair كَمْ كِتَابًا مُفِيدٌ قَرَأْتَ؟",
+     "options": [
+      "كَمْ كِتَابًا مُفِيدًا قَرَأْتَ؟",
+      "كَمْ كُتُبٍ مُفِيدَةٍ قَرَأْتَ؟",
+      "كَمْ كِتَابٌ مُفِيدٌ قَرَأْتَ؟"
+     ],
+     "answer": 0,
+     "feedback": "The adjective agrees with the singular accusative noun."
+    },
+    {
+     "prompt": "Which is a fixed age question?",
+     "options": [
+      "كَمْ عُمْرُكِ؟",
+      "كَمْ عُمْرًا أَنْتِ only",
+      "كَمْ أَعْمَارٍ لَكِ؟"
+     ],
+     "answer": 0,
+     "feedback": "كَمْ عُمْرُكِ؟ is the standard practical pattern."
+    }
+   ]
+  },
+  {
+   "title": "🏁 كَمْ Mastery",
+   "items": [
+    {
+     "prompt": "Complete the rule: كَمْ + ...",
+     "options": [
+      "singular indefinite accusative noun",
+      "plural definite nominative noun",
+      "dual genitive noun only"
+     ],
+     "answer": 0,
+     "feedback": "The counted noun after interrogative كَمْ is singular, indefinite and accusative."
+    },
+    {
+     "prompt": "Choose “How many boys?”",
+     "options": [
+      "كَمْ وَلَدًا؟",
+      "كَمْ أَوْلَادٍ؟",
+      "كَمْ الْوَلَدُ؟"
+     ],
+     "answer": 0,
+     "feedback": "Use singular accusative وَلَدًا."
+    },
+    {
+     "prompt": "Choose “How many schools?”",
+     "options": [
+      "كَمْ مَدْرَسَةً؟",
+      "كَمْ مَدَارِسَ؟",
+      "كَمْ مَدْرَسَةًا؟"
+     ],
+     "answer": 0,
+     "feedback": "Use singular مَدْرَسَةً with no extra alif."
+    },
+    {
+     "prompt": "Choose the correctly spelled regular noun.",
+     "options": [
+      "كَمْ قَلَمًا؟",
+      "كَمْ قَلَمً؟",
+      "كَمْ قَلَمٌ؟"
+     ],
+     "answer": 0,
+     "feedback": "Regular قَلَم takes a supporting alif with tanwīn fatḥ."
+    },
+    {
+     "prompt": "Choose the correct adjective agreement.",
+     "options": [
+      "كَمْ كِتَابًا مُفِيدًا؟",
+      "كَمْ كِتَابًا مُفِيدٌ؟",
+      "كَمْ كُتُبٍ مُفِيدَةٍ؟"
+     ],
+     "answer": 0,
+     "feedback": "The adjective copies the singular accusative noun."
+    },
+    {
+     "prompt": "Choose the frequency question.",
+     "options": [
+      "كَمْ مَرَّةً تَذْهَبُ؟",
+      "كَمْ مَرَّاتٍ تَذْهَبُ؟",
+      "كَمْ الْمَرَّةَ تَذْهَبُ؟"
+     ],
+     "answer": 0,
+     "feedback": "مَرَّةً follows the core rule."
+    },
+    {
+     "prompt": "Which is the fixed age question?",
+     "options": [
+      "كَمْ عُمْرُكَ؟",
+      "كَمْ عُمْرًا لَكَ أَنْتَ؟",
+      "كَمْ أَعْمَارٍ أَنْتَ؟"
+     ],
+     "answer": 0,
+     "feedback": "كَمْ عُمْرُكَ؟ uses a possession-style nominal structure."
+    },
+    {
+     "prompt": "Which answer correctly changes to ordinary number grammar?",
+     "options": [
+      "قَرَأْتُ ثَلَاثَةَ كُتُبٍ.",
+      "قَرَأْتُ كَمْ كِتَابًا.",
+      "قَرَأْتُ ثَلَاثَةً كِتَابًا always."
+     ],
+     "answer": 0,
+     "feedback": "The answer uses the appropriate number–noun rule rather than repeating كَمْ structure."
+    },
+    {
+     "prompt": "Choose the natural quantity question.",
+     "options": [
+      "كَمْ كُوبًا مِنَ الْمَاءِ شَرِبْتَ؟",
+      "كَمْ مِيَاهٍ شَرِبْتَ؟",
+      "كَمْ الْمَاءَ شَرِبْتَ؟"
+     ],
+     "answer": 0,
+     "feedback": "Count a natural unit such as cups."
+    },
+    {
+     "prompt": "Best proofreading sequence?",
+     "options": [
+      "Check singular → indefiniteness → accusative/tanwīn spelling → adjective agreement.",
+      "Change every noun to a plural.",
+      "Add الـ and remove all endings."
+     ],
+     "answer": 0,
+     "feedback": "The sequence checks every part of the Cambridge rule."
+    }
+   ]
+  }
+ ],
+ "games": [
+  [
+   {
+    "p": "How many books?",
+    "a": "كَمْ كِتَابًا؟",
+    "choices": [
+     "كَمْ كِتَابًا؟",
+     "كَمْ كُتُبٍ؟",
+     "كَمْ الْكِتَابُ؟"
+    ],
+    "e": "Singular, indefinite, accusative."
+   },
+   {
+    "p": "How many girls?",
+    "a": "كَمْ بِنْتًا؟",
+    "choices": [
+     "كَمْ بِنْتًا؟",
+     "كَمْ بَنَاتٍ؟",
+     "كَمْ الْبِنْتَ؟"
+    ],
+    "e": "Use singular بِنْتًا."
+   },
+   {
+    "p": "How many cars?",
+    "a": "كَمْ سَيَّارَةً؟",
+    "choices": [
+     "كَمْ سَيَّارَةً؟",
+     "كَمْ سَيَّارَةًا؟",
+     "كَمْ سَيَّارَاتٍ؟"
+    ],
+    "e": "No extra alif after tāʾ marbūṭa."
+   },
+   {
+    "p": "How many days?",
+    "a": "كَمْ يَوْمًا؟",
+    "choices": [
+     "كَمْ يَوْمًا؟",
+     "كَمْ أَيَّامٍ؟",
+     "كَمْ يَوْمٌ؟"
+    ],
+    "e": "Use singular accusative يَوْمًا."
+   },
+   {
+    "p": "How many times?",
+    "a": "كَمْ مَرَّةً؟",
+    "choices": [
+     "كَمْ مَرَّةً؟",
+     "كَمْ مَرَّةًا؟",
+     "كَمْ مَرَّاتٍ؟"
+    ],
+    "e": "Singular مَرَّةً with no extra alif."
+   },
+   {
+    "p": "How many new books?",
+    "a": "كَمْ كِتَابًا جَدِيدًا؟",
+    "choices": [
+     "كَمْ كِتَابًا جَدِيدًا؟",
+     "كَمْ كِتَابًا جَدِيدٌ؟",
+     "كَمْ كُتُبٍ جَدِيدَةٍ؟"
+    ],
+    "e": "The adjective is singular accusative."
+   },
+   {
+    "p": "How many large schools?",
+    "a": "كَمْ مَدْرَسَةً كَبِيرَةً؟",
+    "choices": [
+     "كَمْ مَدْرَسَةً كَبِيرَةً؟",
+     "كَمْ مَدَارِسَ كَبِيرَةً؟",
+     "كَمْ مَدْرَسَةٌ كَبِيرَةٌ؟"
+    ],
+    "e": "Both noun and adjective are feminine singular accusative."
+   },
+   {
+    "p": "How many glasses of water?",
+    "a": "كَمْ كُوبًا مِنَ الْمَاءِ؟",
+    "choices": [
+     "كَمْ كُوبًا مِنَ الْمَاءِ؟",
+     "كَمْ مَاءً كُؤُوسٍ؟",
+     "كَمْ الْمَاءَ؟"
+    ],
+    "e": "Count a natural unit such as cups."
+   },
+   {
+    "p": "Ask age.",
+    "a": "كَمْ عُمْرُكَ؟",
+    "choices": [
+     "كَمْ عُمْرُكَ؟",
+     "كَمْ عُمْرًا أَنْتَ؟",
+     "كَمْ أَعْمَارٍ لَكَ؟"
+    ],
+    "e": "Use the fixed age expression."
+   },
+   {
+    "p": "Ask price.",
+    "a": "كَمْ ثَمَنُ هَذَا؟",
+    "choices": [
+     "كَمْ ثَمَنُ هَذَا؟",
+     "كَمْ ثَمَنًا هَذَا؟",
+     "كَمْ أَثْمَانٍ هَذَا؟"
+    ],
+    "e": "This fixed nominal question asks the price."
+   }
+  ]
+ ],
+ "blocks": [
+  "## The question is plural in meaning but singular in grammar",
+  "كَمْ asks for a number, while the following counted noun identifies the category in a fixed singular accusative form.",
+  "[ar] كَمْ وَلَدًا فِي الصَّفِّ؟",
+  "[ar] كَمْ سَيَّارَةً رَأَيْتَ؟",
+  "[ar] كَمْ كِتَابًا جَدِيدًا اشْتَرَيْتِ؟",
+  "[ar] كَمْ مَرَّةً تَتَدَرَّبُ فِي الْأُسْبُوعِ؟",
+  "[callout] Cambridge relevance: the rule appears in practical questions about people, items, days, hours, visits and frequency, and it is easy to check accurately in writing.",
+  "## Choose your route",
+  "Secure the fixed noun form, then add spelling, modifiers and response patterns.",
+  "### Core",
+  "- Use كَمْ + singular noun.",
+  "- Make the noun indefinite accusative.",
+  "- Use common forms such as كَمْ كِتَابًا and كَمْ مَرَّةً.",
+  "### Develop",
+  "- Spell tanwīn fatḥ and its supporting alif accurately.",
+  "- Add a matching adjective.",
+  "- Distinguish counted-noun questions from fixed questions such as كَمْ عُمْرُكَ؟",
+  "### Stretch",
+  "- Use كَمْ across tenses and complex sentences.",
+  "- Form natural survey and data questions.",
+  "- Edit both question and answer without mixing the two number systems.",
+  "## Starter diagnostic",
+  "Choose the noun form that follows interrogative كَمْ.",
+  "## The core formula",
+  "Treat the phrase as one dependable pattern before adding more complex number rules.",
+  "[callout] Formula: كَمْ + اِسْمٌ مُفْرَدٌ نَكِرَةٌ مَنْصُوبٌ",
+  "TABLE: Meaning | Correct question phrase | Not this // how many students | كَمْ طَالِبًا | كَمْ طُلَّابٍ // how many girls | كَمْ بِنْتًا | كَمْ بَنَاتٍ // how many schools | كَمْ مَدْرَسَةً | كَمْ مَدَارِسَ // how many days | كَمْ يَوْمًا | كَمْ أَيَّامٍ // how many times | كَمْ مَرَّةً | كَمْ مَرَّاتٍ",
+  "[callout] Memory phrase: the number is unknown, so the category noun appears once—in the singular—after كَمْ.",
+  "## Tanwīn fatḥ spelling",
+  "The accusative sound is consistent, but the written supporting alif depends on the noun ending.",
+  "TABLE: Noun type | Correct form | Spelling note // Regular consonant ending | كِتَابًا، قَلَمًا، يَوْمًا | Add the supporting alif. // Tāʾ marbūṭa | سَيَّارَةً، مَدْرَسَةً، مَرَّةً | No additional alif after ة. // Hamza after alif | مَاءً | No extra alif is added.",
+  "[callout/warning] Common visual error: سَيَّارَةًا is incorrect. The tāʾ marbūṭa already provides the written support for tanwīn fatḥ.",
+  "## Add adjectives and other modifiers",
+  "Any adjective describing the counted noun follows its singular accusative form.",
+  "[ar] كَمْ كِتَابًا جَدِيدًا اشْتَرَيْتَ؟",
+  "[ar] كَمْ سَيَّارَةً سَرِيعَةً رَأَيْتِ؟",
+  "[callout] Important: the answer may use a normal number expression with different noun rules. Do not copy the question’s singular accusative form mechanically into the answer.",
+  "## High-frequency كَمْ questions",
+  "Some practical questions use a counted noun; others are fixed possession, age, price or time expressions.",
+  "TABLE: Purpose | Question | Note // Number of people/items | كَمْ طَالِبًا فِي الصَّفِّ؟ | Core singular accusative rule // Frequency | كَمْ مَرَّةً تَتَدَرَّبُ؟ | مَرَّةً is counted // Duration | كَمْ يَوْمًا بَقِيتَ؟ | يَوْمًا is counted // Age | كَمْ عُمْرُكَ؟ | Fixed possession-style question; no counted noun follows immediately // Price | كَمْ ثَمَنُ هَذَا؟ / بِكَمْ هَذَا؟ | Ask the price rather than forcing a counted noun",
+  "[callout] Do not overapply one rule: the singular accusative rule governs the distinguishing counted noun after interrogative كَمْ. Fixed expressions such as كَمْ عُمْرُكَ؟ have their own structure.",
+  "## Answering كَمْ questions",
+  "The question tests كَمْ structure; the answer uses an appropriate number expression.",
+  "### Question",
+  "كَمْ كِتَابًا قَرَأْتَ؟",
+  "### Answer",
+  "قَرَأْتُ ثَلَاثَةَ كُتُبٍ.",
+  "The answer follows ordinary number–noun rules, not the كَمْ counted-noun form.",
+  "### Question",
+  "كَمْ مَرَّةً تَسْبَحِينَ فِي الْأُسْبُوعِ؟",
+  "### Answer",
+  "أَسْبَحُ مَرَّتَيْنِ فِي الْأُسْبُوعِ.",
+  "The answer uses the dual frequency expression.",
+  "[callout] Speaking strategy: answer the number, then add a time, reason or comparison so the response demonstrates wider language control.",
+  "## Misconception clinic",
+  "Repair plural nouns, definiteness, case and tanwīn spelling.",
+  "## كَمْ repair game",
+  "Choose the singular accusative form and accurate spelling.",
+  "## Four-skills application",
+  "Use كَمْ to collect, understand and report quantities.",
+  "### Listening: survey totals",
+  "Listen to a partner read five كَمْ questions and answers. Record the counted category and number, then check whether the question noun was singular accusative.",
+  "### Reading: class survey",
+  "كَمْ طَالِبًا يَمْشِي إِلَى الْمَدْرَسَةِ؟ كَمْ طَالِبَةً تَرْكَبُ الْحَافِلَةَ؟ كَمْ مَرَّةً يُمَارِسُونَ الرِّيَاضَةَ؟",
+  "Identify the category, tense and counted noun in each question.",
+  "### Speaking questionnaire",
+  "Ask about books, siblings, school subjects, weekly activities, journeys and screen time. Extend every answer.",
+  "### Data report",
+  "Convert answers into statements using ordinary number–noun patterns. Check that the answer does not simply repeat the question form.",
+  "### Create a class or family survey",
+  "Write eight كَمْ questions, collect or invent answers, then write a short report comparing the results.",
+  "[callout] Success checklist: Use eight singular accusative counted nouns, two feminine nouns, two adjectives, one duration question, one frequency question, one fixed age/price question and accurate answer-side number phrases.",
+  "## Final mastery check",
+  "Show that you can apply the singular accusative rule and recognise its limits.",
+  "### You can now",
+  "- Use كَمْ with a singular indefinite accusative counted noun.",
+  "- Spell tanwīn fatḥ with or without a supporting alif.",
+  "- Add matching singular accusative adjectives.",
+  "- Use high-frequency frequency and duration questions.",
+  "- Recognise fixed age and price questions.",
+  "- Answer with appropriate ordinary number grammar.",
+  "Spaced revisit: audit every كَمْ question in a previous worksheet or lesson and repair the counted noun form."
+ ]
+}

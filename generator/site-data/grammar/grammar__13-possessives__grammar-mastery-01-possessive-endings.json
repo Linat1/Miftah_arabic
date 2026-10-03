@@ -1,0 +1,542 @@
+{
+ "path": "lessons/grammar/13-possessives/grammar-mastery-01-possessive-endings.php",
+ "title": "Possessive Endings",
+ "arabic": "ضَمَائِرُ الْمِلْكِيَّةِ الْمُتَّصِلَةُ",
+ "lede": "Attach the owner directly to the noun, preserve the noun’s form and case, and use possession accurately in real communication.",
+ "nav": [],
+ "quizzes": [
+  {
+   "title": "🔎 Possession Starter",
+   "items": [
+    {
+     "prompt": "Which form means “my book”?",
+     "options": [
+      "كِتَابِي",
+      "كِتَابُكَ",
+      "كِتَابُهُ"
+     ],
+     "answer": 0,
+     "feedback": "The suffix ـِي means “my”."
+    },
+    {
+     "prompt": "Choose “your bag” when speaking to one female.",
+     "options": [
+      "حَقِيبَتُكِ",
+      "حَقِيبَتُكَ",
+      "حَقِيبَتُكُمْ"
+     ],
+     "answer": 0,
+     "feedback": "The feminine singular listener takes ـكِ."
+    },
+    {
+     "prompt": "What happens to ة before a suffix?",
+     "options": [
+      "It opens to ت",
+      "It disappears completely",
+      "It remains ة"
+     ],
+     "answer": 0,
+     "feedback": "Tāʾ marbūṭa is written as ت before an attached ending: مَدْرَسَة → مَدْرَسَتِي."
+    },
+    {
+     "prompt": "Which form means “our house”?",
+     "options": [
+      "بَيْتُنَا",
+      "بَيْتُهَا",
+      "بَيْتُهُمْ"
+     ],
+     "answer": 0,
+     "feedback": "The suffix ـنَا means “our”."
+    },
+    {
+     "prompt": "Choose “their school” for a masculine or mixed plural owner.",
+     "options": [
+      "مَدْرَسَتُهُمْ",
+      "مَدْرَسَتُهُنَّ",
+      "مَدْرَسَتُهُمَا"
+     ],
+     "answer": 0,
+     "feedback": "ـهُمْ refers to “their” for a masculine or mixed plural owner."
+    },
+    {
+     "prompt": "Can a noun with a possessive suffix also take الـ?",
+     "options": [
+      "No: the suffix already makes it definite",
+      "Yes, always",
+      "Only with ـِي"
+     ],
+     "answer": 0,
+     "feedback": "A possessive suffix makes the noun definite, so الـ is not added to the same noun."
+    }
+   ]
+  },
+  {
+   "title": "✅ Mini-check: match the owner",
+   "items": [
+    {
+     "prompt": "Choose “your book” to one male.",
+     "options": [
+      "كِتَابُكَ",
+      "كِتَابُكِ",
+      "كِتَابُكُمَا"
+     ],
+     "answer": 0,
+     "feedback": "ـكَ marks one masculine listener."
+    },
+    {
+     "prompt": "Choose “your book” to two people.",
+     "options": [
+      "كِتَابُكُمَا",
+      "كِتَابُكُمْ",
+      "كِتَابُكُنَّ"
+     ],
+     "answer": 0,
+     "feedback": "The dual owner/listener ending is ـكُمَا."
+    },
+    {
+     "prompt": "Choose “her book”.",
+     "options": [
+      "كِتَابُهَا",
+      "كِتَابُهُ",
+      "كِتَابُهُنَّ"
+     ],
+     "answer": 0,
+     "feedback": "ـهَا means “her/its” for a feminine owner."
+    },
+    {
+     "prompt": "Choose “their book” for a feminine plural owner.",
+     "options": [
+      "كِتَابُهُنَّ",
+      "كِتَابُهُمْ",
+      "كِتَابُهُمَا"
+     ],
+     "answer": 0,
+     "feedback": "ـهُنَّ is the feminine plural possessive ending."
+    }
+   ]
+  },
+  {
+   "title": "✅ Mini-check: open the tāʾ",
+   "items": [
+    {
+     "prompt": "Choose “my school”.",
+     "options": [
+      "مَدْرَسَتِي",
+      "مَدْرَسَةِي",
+      "الْمَدْرَسَتِي"
+     ],
+     "answer": 0,
+     "feedback": "Open ة to ت and attach ـِي; do not add الـ."
+    },
+    {
+     "prompt": "Choose “his room” as a nominative noun.",
+     "options": [
+      "غُرْفَتُهُ",
+      "غُرْفَةُهُ",
+      "غُرْفَتِهِ"
+     ],
+     "answer": 0,
+     "feedback": "The stem is غُرْفَتـ and the nominative case vowel precedes ـهُ."
+    },
+    {
+     "prompt": "Choose “I visited her school.”",
+     "options": [
+      "زُرْتُ مَدْرَسَتَهَا.",
+      "زُرْتُ مَدْرَسَتُهَا.",
+      "زُرْتُ مَدْرَسَةَهَا."
+     ],
+     "answer": 0,
+     "feedback": "The direct object is accusative: مَدْرَسَتَهَا."
+    },
+    {
+     "prompt": "Choose “in their house”.",
+     "options": [
+      "فِي بَيْتِهِمْ",
+      "فِي بَيْتُهُمْ",
+      "فِي الْبَيْتِهِمْ"
+     ],
+     "answer": 0,
+     "feedback": "After فِي, the noun is genitive; the suffix makes it definite without الـ."
+    }
+   ]
+  },
+  {
+   "title": "✅ Mini-check: remove the nūn",
+   "items": [
+    {
+     "prompt": "Choose the nominative form “his two books”.",
+     "options": [
+      "كِتَابَاهُ",
+      "كِتَابَانِهُ",
+      "كِتَابَيْهِ"
+     ],
+     "answer": 0,
+     "feedback": "The dual nūn drops before the suffix: كِتَابَا + هُ."
+    },
+    {
+     "prompt": "Choose “I read his two books.”",
+     "options": [
+      "قَرَأْتُ كِتَابَيْهِ.",
+      "قَرَأْتُ كِتَابَاهُ.",
+      "قَرَأْتُ كِتَابَيْنِهِ."
+     ],
+     "answer": 0,
+     "feedback": "Accusative dual uses ـَيْ and drops nūn before ـهِ."
+    },
+    {
+     "prompt": "Choose the nominative form “their teachers”.",
+     "options": [
+      "مُعَلِّمُوهُمْ",
+      "مُعَلِّمُونَهُمْ",
+      "مُعَلِّمِيهِمْ"
+     ],
+     "answer": 0,
+     "feedback": "Sound masculine plural nūn drops: مُعَلِّمُو + هُمْ."
+    },
+    {
+     "prompt": "Choose “I met their teachers.”",
+     "options": [
+      "قَابَلْتُ مُعَلِّمِيهِمْ.",
+      "قَابَلْتُ مُعَلِّمُوهُمْ.",
+      "قَابَلْتُ مُعَلِّمِينَهُمْ."
+     ],
+     "answer": 0,
+     "feedback": "Accusative sound masculine plural construct uses ـِي and drops nūn."
+    }
+   ]
+  },
+  {
+   "title": "✅ Mini-check: retain ـات",
+   "items": [
+    {
+     "prompt": "Choose “their cars” as the subject of a sentence (feminine plural owners).",
+     "options": [
+      "سَيَّارَاتُهُنَّ",
+      "سَيَّارَاتِهِنَّ",
+      "سَيَّارَاتَهُنَّ"
+     ],
+     "answer": 0,
+     "feedback": "The nominative sound feminine plural takes ḍamma before ـهُنَّ."
+    },
+    {
+     "prompt": "Choose “I saw their cars.”",
+     "options": [
+      "رَأَيْتُ سَيَّارَاتِهِنَّ.",
+      "رَأَيْتُ سَيَّارَاتُهُنَّ.",
+      "رَأَيْتُ سَيَّارَاتَهُنَّ."
+     ],
+     "answer": 0,
+     "feedback": "Sound feminine plurals use kasra in the accusative, so the form is سَيَّارَاتِهِنَّ."
+    },
+    {
+     "prompt": "Choose “in their cars”.",
+     "options": [
+      "فِي سَيَّارَاتِهِنَّ",
+      "فِي سَيَّارَاتُهُنَّ",
+      "فِي سَيَّارَاتَهُنَّ"
+     ],
+     "answer": 0,
+     "feedback": "The genitive also uses kasra: سَيَّارَاتِهِنَّ."
+    },
+    {
+     "prompt": "What remains unchanged when the suffix is attached to ـات?",
+     "options": [
+      "The long ā and the letters ات",
+      "The final ت disappears",
+      "The whole plural ending disappears"
+     ],
+     "answer": 0,
+     "feedback": "The plural stem ـات remains; the case vowel and pronoun suffix follow it."
+    }
+   ]
+  },
+  {
+   "title": "🏁 Possessive Endings Mastery",
+   "items": [
+    {
+     "prompt": "Choose “our new house”.",
+     "options": [
+      "بَيْتُنَا الْجَدِيدُ",
+      "الْبَيْتُنَا الْجَدِيدُ",
+      "بَيْتُنَا جَدِيدُ"
+     ],
+     "answer": 0,
+     "feedback": "The suffix makes بَيْتُنَا definite, so an attributive adjective also takes الـ."
+    },
+    {
+     "prompt": "Choose “our house is new”.",
+     "options": [
+      "بَيْتُنَا جَدِيدٌ",
+      "بَيْتُنَا الْجَدِيدُ",
+      "الْبَيْتُنَا جَدِيدٌ"
+     ],
+     "answer": 0,
+     "feedback": "A predicate adjective remains indefinite: “our house is new”."
+    },
+    {
+     "prompt": "Choose “your two bags” to one female, nominative.",
+     "options": [
+      "حَقِيبَتَاكِ",
+      "حَقِيبَتَانِكِ",
+      "حَقِيبَتَيْكِ"
+     ],
+     "answer": 0,
+     "feedback": "The dual nūn drops; nominative dual uses ـَا before ـكِ."
+    },
+    {
+     "prompt": "Choose “with your two bags” to one female.",
+     "options": [
+      "مَعَ حَقِيبَتَيْكِ",
+      "مَعَ حَقِيبَتَاكِ",
+      "مَعَ حَقِيبَتَيْنِكِ"
+     ],
+     "answer": 0,
+     "feedback": "After مَعَ the dual is genitive: ـَيْ, with nūn deleted before the suffix."
+    },
+    {
+     "prompt": "Choose “their female students” as a nominative subject.",
+     "options": [
+      "طَالِبَاتُهُمْ",
+      "طَالِبَاتِهِمْ",
+      "طَالِبَاتَهُمْ"
+     ],
+     "answer": 0,
+     "feedback": "Nominative sound feminine plural takes ḍamma before ـهُمْ."
+    },
+    {
+     "prompt": "Choose “I met their female students.”",
+     "options": [
+      "قَابَلْتُ طَالِبَاتِهِمْ.",
+      "قَابَلْتُ طَالِبَاتُهُمْ.",
+      "قَابَلْتُ طَالِبَاتَهُمْ."
+     ],
+     "answer": 0,
+     "feedback": "The sound feminine plural accusative uses kasra."
+    },
+    {
+     "prompt": "Which form correctly shows “his school”?",
+     "options": [
+      "مَدْرَسَتُهُ",
+      "مَدْرَسَةُهُ",
+      "الْمَدْرَسَتُهُ"
+     ],
+     "answer": 0,
+     "feedback": "Tāʾ marbūṭa opens to ت; no definite article is added."
+    },
+    {
+     "prompt": "Choose “I looked at his book.”",
+     "options": [
+      "نَظَرْتُ إِلَى كِتَابِهِ.",
+      "نَظَرْتُ إِلَى كِتَابُهُ.",
+      "نَظَرْتُ إِلَى الْكِتَابِهِ."
+     ],
+     "answer": 0,
+     "feedback": "After إِلَى the possessed noun is genitive: كِتَابِهِ."
+    },
+    {
+     "prompt": "Which owner does ـكُنَّ represent?",
+     "options": [
+      "you, feminine plural",
+      "they, feminine plural",
+      "you, dual"
+     ],
+     "answer": 0,
+     "feedback": "ـكُنَّ addresses a group of females."
+    },
+    {
+     "prompt": "Which statement is accurate?",
+     "options": [
+      "The noun’s case can change before the suffix",
+      "A suffix removes all case distinctions",
+      "Every suffix begins with ه"
+     ],
+     "answer": 0,
+     "feedback": "Case belongs to the noun’s role and appears immediately before the attached suffix when endings are shown."
+    }
+   ]
+  }
+ ],
+ "games": [
+  [
+   {
+    "prompt": "“my family”",
+    "choices": [
+     "عَائِلَتِي",
+     "عَائِلَةِي",
+     "الْعَائِلَتِي"
+    ],
+    "answer": 0,
+    "feedback": "Open ة to ت and attach ـِي."
+   },
+   {
+    "prompt": "“your school” — one male",
+    "choices": [
+     "مَدْرَسَتُكَ",
+     "مَدْرَسَتُكِ",
+     "مَدْرَسَتُكُمَا"
+    ],
+    "answer": 0,
+    "feedback": "ـكَ addresses one male."
+   },
+   {
+    "prompt": "“her room”",
+    "choices": [
+     "غُرْفَتُهَا",
+     "غُرْفَتُهُ",
+     "غُرْفَتُهُنَّ"
+    ],
+    "answer": 0,
+    "feedback": "ـهَا means her."
+   },
+   {
+    "prompt": "“our books”",
+    "choices": [
+     "كُتُبُنَا",
+     "كُتُبُهُمْ",
+     "كُتُبُكُمْ"
+    ],
+    "answer": 0,
+    "feedback": "ـنَا means our."
+   },
+   {
+    "prompt": "“his two sons” — nominative",
+    "choices": [
+     "اِبْنَاهُ",
+     "اِبْنَانِهُ",
+     "اِبْنَيْهِ"
+    ],
+    "answer": 0,
+    "feedback": "The dual nūn drops before ـهُ."
+   },
+   {
+    "prompt": "“I saw his two sons”",
+    "choices": [
+     "رَأَيْتُ اِبْنَيْهِ",
+     "رَأَيْتُ اِبْنَاهُ",
+     "رَأَيْتُ اِبْنَيْنِهِ"
+    ],
+    "answer": 0,
+    "feedback": "Accusative dual uses ـَيْ with nūn deleted."
+   },
+   {
+    "prompt": "“their teachers” — nominative",
+    "choices": [
+     "مُعَلِّمُوهُمْ",
+     "مُعَلِّمُونَهُمْ",
+     "مُعَلِّمِيهِمْ"
+    ],
+    "answer": 0,
+    "feedback": "Sound masculine plural nūn drops."
+   },
+   {
+    "prompt": "“in their cars” — feminine owners",
+    "choices": [
+     "فِي سَيَّارَاتِهِنَّ",
+     "فِي سَيَّارَاتُهُنَّ",
+     "فِي سَيَّارَاتَهُنَّ"
+    ],
+    "answer": 0,
+    "feedback": "Genitive sound feminine plural uses kasra."
+   },
+   {
+    "prompt": "“his new book”",
+    "choices": [
+     "كِتَابُهُ الْجَدِيدُ",
+     "كِتَابُهُ جَدِيدٌ",
+     "الْكِتَابُهُ الْجَدِيدُ"
+    ],
+    "answer": 0,
+    "feedback": "The suffix makes the noun definite; the attributive adjective matches."
+   },
+   {
+    "prompt": "“his book is new”",
+    "choices": [
+     "كِتَابُهُ جَدِيدٌ",
+     "كِتَابُهُ الْجَدِيدُ",
+     "الْكِتَابُهُ جَدِيدٌ"
+    ],
+    "answer": 0,
+    "feedback": "The predicate adjective is indefinite."
+   }
+  ]
+ ],
+ "blocks": [
+  "## One word can show the object and its owner",
+  "Possessive suffixes make personal information, family, home, school and belongings precise and economical.",
+  "[ar] هَذَا كِتَابِي.",
+  "[ar] أَيْنَ حَقِيبَتُكِ؟",
+  "[ar] مَدْرَسَتُهُمْ كَبِيرَةٌ.",
+  "[ar] زُرْتُ بَيْتَنَا أَمْسِ.",
+  "[callout] Cambridge relevance: Possessive endings help you decode relationships in listening and reading, answer personal questions in speaking, and avoid repetitive noun phrases in writing.",
+  "## Choose your route",
+  "Build the common forms first, then add number and case control.",
+  "### Core",
+  "- Match the main suffixes to their owners.",
+  "- Attach suffixes to regular nouns and tāʾ marbūṭa nouns.",
+  "- Use the forms in short sentences.",
+  "### Develop",
+  "- Control the complete dual and plural suffix family.",
+  "- Track case vowels before the suffix.",
+  "- Distinguish an attributive adjective from a predicate.",
+  "### Stretch",
+  "- Explain nūn deletion in dual and sound masculine plurals.",
+  "- Use sound feminine plural case forms accurately.",
+  "- Proofread connected writing independently.",
+  "## Readiness check",
+  "Use what you already know about pronouns, definiteness and noun endings.",
+  "## The complete possessive-suffix family",
+  "The ending identifies the owner—not the gender or number of the object owned.",
+  "TABLE: Owner | Subject pronoun | Possessive ending | Model with كِتَاب // my | أَنَا | ـِي | كِتَابِي // our | نَحْنُ | ـنَا | كِتَابُنَا // your — m. singular | أَنْتَ | ـكَ | كِتَابُكَ // your — f. singular | أَنْتِ | ـكِ | كِتَابُكِ // your — dual | أَنْتُمَا | ـكُمَا | كِتَابُكُمَا // your — m./mixed plural | أَنْتُمْ | ـكُمْ | كِتَابُكُمْ // your — f. plural | أَنْتُنَّ | ـكُنَّ | كِتَابُكُنَّ // his / its — m. | هُوَ | ـهُ | كِتَابُهُ // her / its — f. | هِيَ | ـهَا | كِتَابُهَا // their — dual | هُمَا | ـهُمَا | كِتَابُهُمَا // their — m./mixed plural | هُمْ | ـهُمْ | كِتَابُهُمْ // their — f. plural | هُنَّ | ـهُنَّ | كِتَابُهُنَّ",
+  "[callout] Do not confuse owner and object. سَيَّارَتُهُ is “his car”: the car is feminine, but the owner is masculine. كِتَابُهَا is “her book”: the book is masculine, but the owner is feminine.",
+  "## Regular nouns and case before the suffix",
+  "The possessive suffix does not erase the noun’s role in the sentence.",
+  "TABLE: Role | Full form | Meaning // Nominative subject/topic | كِتَابُهُ جَدِيدٌ. | His book is new. // Accusative object | قَرَأْتُ كِتَابَهُ. | I read his book. // Genitive after preposition | نَظَرْتُ إِلَى كِتَابِهِ. | I looked at his book.",
+  "When endings are shown, the case vowel comes immediately before the pronoun suffix: ـُهُ، ـَهُ، ـِهِ . In ordinary unvowelled writing the spelling may look identical, so sentence role still matters.",
+  "[callout/warning] Never add the article to the same noun: write كِتَابُهُ , not الْكِتَابُهُ . The suffix itself makes the noun definite.",
+  "## Tāʾ marbūṭa opens before a suffix",
+  "A final ة is pronounced and written as ت when another ending follows it.",
+  "[ar] مَدْرَسَةٌ ← مَدْرَسَتِي",
+  "[ar] حَقِيبَةٌ ← حَقِيبَتُكَ",
+  "[ar] زُرْتُ عَائِلَتَهَا.",
+  "[ar] فِي غُرْفَتِنَا",
+  "[callout] Three-step method: remove tanwīn or the pause ending, change ة to ت, then attach the owner ending. Do not write مَدْرَسَةِي .",
+  "## Dual and sound masculine plural: delete the nūn",
+  "Before an attached possessive suffix, the final ن of the dual and sound masculine plural disappears.",
+  "TABLE: Base form | Possessed form | What changed // كِتَابَانِ | كِتَابَاهُ | nominative dual: ـَانِ → ـَا + هُ // كِتَابَيْنِ | كِتَابَيْهِ | accusative/genitive dual: ـَيْنِ → ـَيْ + هِ // مُعَلِّمُونَ | مُعَلِّمُوهُمْ | nominative sound masculine plural: ـُونَ → ـُو + هُمْ // مُعَلِّمِينَ | مُعَلِّمِيهِمْ | accusative/genitive: ـِينَ → ـِي + هِمْ",
+  "[callout] Why? An attached pronoun places the noun in a construct relationship. Dual and sound masculine plural construct forms drop their nūn, just as they do before a following possessor noun in iḍāfa.",
+  "## Sound feminine plurals keep ـات",
+  "The long ā and ت remain; case is shown by the vowel before the suffix.",
+  "TABLE: Case | Model | Meaning // Nominative | سَيَّارَاتُهُنَّ جَدِيدَةٌ. | Their cars are new. // Accusative | رَأَيْتُ سَيَّارَاتِهِنَّ. | I saw their cars. // Genitive | جَلَسْنَ فِي سَيَّارَاتِهِنَّ. | They sat in their cars.",
+  "Sound feminine plurals use kasra in both accusative and genitive. This is why سَيَّارَاتِهِنَّ can be either an object or a noun after a preposition; the wider sentence identifies the role.",
+  "## Possession makes the noun definite",
+  "An attached suffix affects adjective definiteness and helps distinguish a phrase from a sentence.",
+  "TABLE: Meaning | Arabic | Grammar decision // his new book | كِتَابُهُ الْجَدِيدُ | attributive adjective: definite and nominative // I read his new book | قَرَأْتُ كِتَابَهُ الْجَدِيدَ | noun and adjective accusative // in his new book | فِي كِتَابِهِ الْجَدِيدِ | noun and adjective genitive // his book is new | كِتَابُهُ جَدِيدٌ | predicate adjective is indefinite",
+  "[callout/warning] Meaning changes with definiteness: كِتَابُهُ الْجَدِيدُ is one noun phrase, “his new book”. كِتَابُهُ جَدِيدٌ is a complete statement, “his book is new”.",
+  "## Proofreading clinic",
+  "Repair the stem, suffix, case and adjective as separate decisions.",
+  "TABLE: Draft | Improved version | Reason // هَذِهِ مَدْرَسَةِي. | هَذِهِ مَدْرَسَتِي. | Open ة to ت. // هَذَا الْكِتَابُهُ. | هَذَا كِتَابُهُ. | Do not combine الـ with a possessive suffix. // قَرَأْتُ كِتَابُهُ. | قَرَأْتُ كِتَابَهُ. | The direct object is accusative. // هَذَانِ كِتَابَانِهِ. | هَذَانِ كِتَابَاهُ. | Drop dual nūn before the suffix. // هَؤُلَاءِ مُعَلِّمُونَهُمْ. | هَؤُلَاءِ مُعَلِّمُوهُمْ. | Drop sound masculine plural nūn. // زُرْتُ سَيَّارَاتَهُنَّ. | زُرْتُ سَيَّارَاتِهِنَّ. | Sound feminine plural accusative uses kasra. // كِتَابُهُ جَدِيدُ. | كِتَابُهُ جَدِيدٌ. | A predicate adjective is indefinite nominative.",
+  "## Game: Build the possession word",
+  "Choose the form that preserves the noun stem, number and owner.",
+  "## Skills workshop",
+  "Use suffixes to track people, belongings and reference across a connected text.",
+  "### Reading and reference",
+  "زَارَتْ لَيْلَى صَدِيقَتَهَا سَلْمَى. بَيْتُهَا قَرِيبٌ مِنْ مَدْرَسَتِهِمَا، وَغُرْفَتُهَا مُرَتَّبَةٌ. وَضَعَتْ لَيْلَى حَقِيبَتَهَا بِجَانِبِ كُتُبِ سَلْمَى.",
+  "For each suffix, identify the owner. Explain why مَدْرَسَتِهِمَا refers to two people.",
+  "### Speaking: whose is it?",
+  "Describe six classroom or home objects. Change the owner each time: mine, yours, hers, ours, theirs. Include one dual object and one sound feminine plural.",
+  "### Belongings and relationships profile",
+  "Write 100–120 Arabic words describing a family, group of friends, classroom or fictional household and their belongings.",
+  "[callout] Success checklist: Use at least eight different possessive endings, three tāʾ marbūṭa nouns, one dual possessed form, one sound plural possessed form and two adjective contrasts.",
+  "[callout] Paper route: Make an owner key first. Underline each noun stem, circle its suffix and mark whether it is subject, object or genitive.",
+  "## Final mastery check",
+  "Show that you can attach endings across regular, feminine, dual and plural nouns.",
+  "### You can now",
+  "- Use the complete possessive-suffix family.",
+  "- Open tāʾ marbūṭa before a suffix.",
+  "- Retain noun case before the ending.",
+  "- Delete dual and sound masculine plural nūn correctly.",
+  "- Attach suffixes to sound feminine plurals.",
+  "- Distinguish “his new book” from “his book is new”.",
+  "Spaced revisit: choose five nouns from another topic and write my, her, our and their forms in complete sentences."
+ ]
+}

@@ -1,0 +1,260 @@
+{
+ "path": "lessons/grammar/04-adjectives/grammar-mastery-02-plural-agreement.php",
+ "title": "Adjective Agreement with Plurals",
+ "arabic": "مُطَابَقَةُ الصِّفَةِ مَعَ الْجُمُوعِ",
+ "lede": "Distinguish human and non-human plural agreement and choose accurate adjective forms in descriptions and sentences.",
+ "nav": [
+  [
+   "GM-ADJ-01",
+   "Masculine and Feminine Singular"
+  ]
+ ],
+ "quizzes": [
+  {
+   "title": "🔎 Entry Check",
+   "items": [
+    {
+     "prompt": "Complete الطُّلَّابُ ...",
+     "options": [
+      "مُجْتَهِدُونَ",
+      "مُجْتَهِدَةٌ",
+      "مُجْتَهِدَاتٌ"
+     ],
+     "answer": 0,
+     "feedback": "Human masculine plural."
+    },
+    {
+     "prompt": "Complete الطَّالِبَاتُ ...",
+     "options": [
+      "مُجْتَهِدُونَ",
+      "مُجْتَهِدَةٌ",
+      "مُجْتَهِدَاتٌ"
+     ],
+     "answer": 2,
+     "feedback": "Human feminine plural."
+    },
+    {
+     "prompt": "Complete الْكُتُبُ ...",
+     "options": [
+      "جَدِيدُونَ",
+      "جَدِيدَةٌ",
+      "جَدِيدَاتٌ"
+     ],
+     "answer": 1,
+     "feedback": "Non-human plural takes feminine singular."
+    },
+    {
+     "prompt": "Complete الْكِلَابُ ...",
+     "options": [
+      "صَغِيرُونَ",
+      "صَغِيرَةٌ",
+      "صَغِيرَاتٌ"
+     ],
+     "answer": 1,
+     "feedback": "Animal plural is grammatically non-human."
+    },
+    {
+     "prompt": "Which principle best supports this lesson?",
+     "options": [
+      "Check the noun first",
+      "Translate word by word from English",
+      "Ignore definiteness"
+     ],
+     "answer": 0,
+     "feedback": "The noun controls adjective agreement."
+    }
+   ]
+  },
+  {
+   "title": "🧩 Guided check",
+   "items": [
+    {
+     "prompt": "Complete الطُّلَّابُ ...",
+     "options": [
+      "مُجْتَهِدُونَ",
+      "مُجْتَهِدَةٌ",
+      "مُجْتَهِدَاتٌ"
+     ],
+     "answer": 0,
+     "feedback": "Human masculine plural."
+    },
+    {
+     "prompt": "Complete الطَّالِبَاتُ ...",
+     "options": [
+      "مُجْتَهِدُونَ",
+      "مُجْتَهِدَةٌ",
+      "مُجْتَهِدَاتٌ"
+     ],
+     "answer": 2,
+     "feedback": "Human feminine plural."
+    },
+    {
+     "prompt": "Complete الْكُتُبُ ...",
+     "options": [
+      "جَدِيدُونَ",
+      "جَدِيدَةٌ",
+      "جَدِيدَاتٌ"
+     ],
+     "answer": 1,
+     "feedback": "Non-human plural takes feminine singular."
+    },
+    {
+     "prompt": "Complete الْكِلَابُ ...",
+     "options": [
+      "صَغِيرُونَ",
+      "صَغِيرَةٌ",
+      "صَغِيرَاتٌ"
+     ],
+     "answer": 1,
+     "feedback": "Animal plural is grammatically non-human."
+    }
+   ]
+  },
+  {
+   "title": "⭐ Mastery Check",
+   "items": [
+    {
+     "prompt": "Complete الطُّلَّابُ ...",
+     "options": [
+      "مُجْتَهِدُونَ",
+      "مُجْتَهِدَةٌ",
+      "مُجْتَهِدَاتٌ"
+     ],
+     "answer": 0,
+     "feedback": "Human masculine plural."
+    },
+    {
+     "prompt": "Complete الطَّالِبَاتُ ...",
+     "options": [
+      "مُجْتَهِدُونَ",
+      "مُجْتَهِدَةٌ",
+      "مُجْتَهِدَاتٌ"
+     ],
+     "answer": 2,
+     "feedback": "Human feminine plural."
+    },
+    {
+     "prompt": "Complete الْكُتُبُ ...",
+     "options": [
+      "جَدِيدُونَ",
+      "جَدِيدَةٌ",
+      "جَدِيدَاتٌ"
+     ],
+     "answer": 1,
+     "feedback": "Non-human plural takes feminine singular."
+    },
+    {
+     "prompt": "Complete الْكِلَابُ ...",
+     "options": [
+      "صَغِيرُونَ",
+      "صَغِيرَةٌ",
+      "صَغِيرَاتٌ"
+     ],
+     "answer": 1,
+     "feedback": "Animal plural is grammatically non-human."
+    },
+    {
+     "prompt": "Complete الطُّلَّابُ ...",
+     "options": [
+      "مُجْتَهِدُونَ",
+      "مُجْتَهِدَةٌ",
+      "مُجْتَهِدَاتٌ"
+     ],
+     "answer": 0,
+     "feedback": "Human masculine plural."
+    },
+    {
+     "prompt": "Complete الطَّالِبَاتُ ...",
+     "options": [
+      "مُجْتَهِدُونَ",
+      "مُجْتَهِدَةٌ",
+      "مُجْتَهِدَاتٌ"
+     ],
+     "answer": 2,
+     "feedback": "Human feminine plural."
+    },
+    {
+     "prompt": "Complete الْكُتُبُ ...",
+     "options": [
+      "جَدِيدُونَ",
+      "جَدِيدَةٌ",
+      "جَدِيدَاتٌ"
+     ],
+     "answer": 1,
+     "feedback": "Non-human plural takes feminine singular."
+    },
+    {
+     "prompt": "Complete الْكِلَابُ ...",
+     "options": [
+      "صَغِيرُونَ",
+      "صَغِيرَةٌ",
+      "صَغِيرَاتٌ"
+     ],
+     "answer": 1,
+     "feedback": "Animal plural is grammatically non-human."
+    }
+   ]
+  }
+ ],
+ "games": [],
+ "blocks": [
+  "## Why this matters لِمَاذَا هَذَا مُهِمٌّ؟",
+  "Adjective control affects the accuracy of descriptions in every Cambridge topic: people, clothes, homes, school, travel, weather, work and opinions.",
+  "### Core",
+  "Recognise human plural versus non-human plural agreement.",
+  "### Develop",
+  "Apply plural agreement with adjectives, demonstratives and predicates.",
+  "### Stretch",
+  "Handle mixed plural types and repair agreement across longer sentences.",
+  "## Diagnostic start",
+  "Try this short check before reading the explanations. Incorrect answers are information, not failure.",
+  "## Learn the system step by step",
+  "Read one explanation, study the worked examples, then pause for the mini-check.",
+  "### 1. Human plurals",
+  "Human plurals normally take plural agreement that reflects gender. Masculine human plurals use masculine plural adjectives; feminine human plurals use feminine plural adjectives.",
+  "[callout] طُلَّابٌ ذَكِيُّونَ مُعَلِّمُونَ مُخْلِصُونَ طَالِبَاتٌ مُجْتَهِدَاتٌ",
+  "### 2. Non-human plurals",
+  "A plural referring to things, animals or abstract items is normally treated as feminine singular for adjective agreement.",
+  "[callout] كُتُبٌ جَدِيدَةٌ مَدَارِسُ كَبِيرَةٌ حَقَائِبُ ثَقِيلَةٌ كِلَابٌ صَغِيرَةٌ",
+  "### 3. Correcting a dangerous misconception",
+  "Human plurals do not generally take feminine singular agreement. Therefore طُلَّابٌ كَسُولَةٌ is incorrect for “lazy male students”. Use طُلَّابٌ كُسَالَى or another suitable human-plural adjective form.",
+  "[callout] Use the decision: human or non-human first; then select gender and number.",
+  "### High-frequency model bank",
+  "- الطُّلَّابُ مُجْتَهِدُونَ",
+  "- الطَّالِبَاتُ مُجْتَهِدَاتٌ",
+  "- الْكُتُبُ مُفِيدَةٌ",
+  "- السَّيَّارَاتُ سَرِيعَةٌ",
+  "### Misconception clinic",
+  "- Treating every plural as masculine plural.",
+  "- Treating human plurals as feminine singular.",
+  "- Forgetting that animal plurals normally follow non-human agreement.",
+  "## Guided practice and transformation",
+  "Do not only recognise the answer. Say what changed and why.",
+  "### Transformation drill",
+  "- Copy each model from the lesson.",
+  "- Change the noun’s gender, number or definiteness as appropriate.",
+  "- Change every adjective feature controlled by that noun.",
+  "- Translate the new phrase or sentence accurately.",
+  "- Explain one change using the grammar vocabulary from this lesson.",
+  "## Apply through four skills",
+  "### 📖 Reading and noticing",
+  "فِي مَدِينَتِي أَمَاكِنُ جَمِيلَةٌ وَشَوَارِعُ وَاسِعَةٌ. هَذِهِ الْمَدْرَسَةُ الْجَدِيدَةُ قَرِيبَةٌ، وَذَلِكَ الْمَتْحَفُ الْقَدِيمُ مُثِيرٌ لِلِاهْتِمَامِ.",
+  "Underline each adjective, draw an arrow to its noun, and label the agreement feature that made the form correct.",
+  "### 🎧 Listening without audio",
+  "Ask a partner or teacher to read the model paragraph twice. First record the nouns; second record the adjectives. Reconstruct the correct pairs and explain the agreement.",
+  "### 🗣️ Speaking",
+  "Describe two people, places or objects for 45–60 seconds. Include at least six accurate adjective structures from this lesson.",
+  "### 🛠️ Editing clinic",
+  "Write four deliberately incorrect adjective phrases, exchange them with a partner, then correct and explain every error.",
+  "### ✍️ Extended writing workshop",
+  "Write 90–120 words describing a person, place, object or experience. Include at least eight target adjective structures from this lesson and underline them after writing.",
+  "[callout] Quality check: identify the head noun first, then check gender, number, definiteness and any lesson-specific form.",
+  "Save and mark complete Clear",
+  "Create a labelled grammar map or handwritten draft. Connect every adjective to its noun.",
+  "Complete the task on paper. Underline the target forms and annotate the rule used.",
+  "## Final mastery check اِخْتِبَارُ الْإِتْقَانِ",
+  "Complete this without reopening the teaching cards.",
+  "### Interpret your result",
+  "Below 70%: revisit the misconception clinic and guided check. 70–89%: replay the transformation game and improve one paragraph. 90–100%: continue, then complete a spaced retrieval check in 3–7 days."
+ ]
+}

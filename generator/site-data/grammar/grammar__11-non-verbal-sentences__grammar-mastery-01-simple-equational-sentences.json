@@ -1,0 +1,351 @@
+{
+ "path": "lessons/grammar/11-non-verbal-sentences/grammar-mastery-01-simple-equational-sentences.php",
+ "title": "Simple Non-Verbal Sentences",
+ "arabic": "الْجُمَلُ الِاسْمِيَّةُ الْبَسِيطَةُ",
+ "lede": "Build clear present-time statements of identity, description and location without inserting an English-style “to be” verb.",
+ "nav": [],
+ "quizzes": [
+  {
+   "title": "🔎 Entry Check",
+   "items": [
+    {
+     "prompt": "Which Arabic sentence means “He is an engineer”?",
+     "options": [
+      "هُوَ مُهَنْدِسٌ.",
+      "هُوَ يَكُونُ مُهَنْدِسًا.",
+      "مُهَنْدِسٌ هُوَ يَكُونُ."
+     ],
+     "answer": 0,
+     "feedback": "In a present-time equational sentence, Arabic normally uses no separate “is”."
+    },
+    {
+     "prompt": "Which is a complete sentence meaning “The house is large”?",
+     "options": [
+      "الْبَيْتُ كَبِيرٌ.",
+      "الْبَيْتُ الْكَبِيرُ.",
+      "بَيْتٌ الْكَبِيرُ."
+     ],
+     "answer": 0,
+     "feedback": "A definite subject followed by an indefinite predicate forms a complete statement."
+    },
+    {
+     "prompt": "Choose the correct feminine form.",
+     "options": [
+      "هِيَ طَبِيبَةٌ.",
+      "هِيَ طَبِيبٌ.",
+      "هُوَ طَبِيبَةٌ."
+     ],
+     "answer": 0,
+     "feedback": "The predicate noun matches the female person in gender."
+    },
+    {
+     "prompt": "Which means “I am in the bank”?",
+     "options": [
+      "أَنَا فِي الْبَنْكِ.",
+      "أَنَا الْبَنْكُ.",
+      "فِي أَنَا الْبَنْكُ."
+     ],
+     "answer": 0,
+     "feedback": "The prepositional phrase functions as the predicate."
+    },
+    {
+     "prompt": "Which demonstrative matches سَيَّارَةٌ?",
+     "options": [
+      "هَذِهِ",
+      "هَذَا",
+      "هَؤُلَاءِ"
+     ],
+     "answer": 0,
+     "feedback": "سَيَّارَةٌ is feminine singular."
+    },
+    {
+     "prompt": "Which is an adjective phrase rather than a complete sentence?",
+     "options": [
+      "الْفَصْلُ الْكَبِيرُ",
+      "الْفَصْلُ كَبِيرٌ",
+      "الطَّالِبُ فِي الْفَصْلِ"
+     ],
+     "answer": 0,
+     "feedback": "Both words are definite, so they form “the large classroom”, not “The classroom is large”."
+    }
+   ]
+  },
+  {
+   "title": "Agreement Check",
+   "items": [
+    {
+     "prompt": "Choose “The teacher (f.) is active.”",
+     "options": [
+      "الْمُعَلِّمَةُ نَشِيطَةٌ.",
+      "الْمُعَلِّمَةُ نَشِيطٌ.",
+      "الْمُعَلِّمَةُ النَّشِيطَةُ."
+     ],
+     "answer": 0,
+     "feedback": "The predicate agrees in gender and remains indefinite."
+    },
+    {
+     "prompt": "Choose “The two boys are ready.”",
+     "options": [
+      "الْوَلَدَانِ مُسْتَعِدَّانِ.",
+      "الْوَلَدَانِ مُسْتَعِدٌ.",
+      "الْوَلَدَانِ الْمُسْتَعِدَّانِ."
+     ],
+     "answer": 0,
+     "feedback": "A dual human subject takes a dual predicate."
+    },
+    {
+     "prompt": "Choose “The books are useful.”",
+     "options": [
+      "الْكُتُبُ مُفِيدَةٌ.",
+      "الْكُتُبُ مُفِيدَاتٌ.",
+      "الْكُتُبُ الْمُفِيدَةُ."
+     ],
+     "answer": 0,
+     "feedback": "A non-human plural normally takes feminine singular agreement."
+    },
+    {
+     "prompt": "Choose the location sentence.",
+     "options": [
+      "الطَّالِبُ فِي الْمَكْتَبَةِ.",
+      "الطَّالِبُ الْمَكْتَبَةُ.",
+      "فِي الطَّالِبُ الْمَكْتَبَةِ."
+     ],
+     "answer": 0,
+     "feedback": "The prepositional phrase is the predicate."
+    }
+   ]
+  },
+  {
+   "title": "🏁 Final Mastery",
+   "items": [
+    {
+     "prompt": "Which statement contains no present-tense copula?",
+     "options": [
+      "هُوَ مُعَلِّمٌ.",
+      "هُوَ يَكُونُ مُعَلِّمًا.",
+      "هُوَ كَانَ مُعَلِّمًا."
+     ],
+     "answer": 0,
+     "feedback": "Present equational Arabic normally joins subject and predicate directly."
+    },
+    {
+     "prompt": "Identify the predicate in الْجَوُّ جَمِيلٌ.",
+     "options": [
+      "جَمِيلٌ",
+      "الْجَوُّ",
+      "الْجَوُّ جَمِيلٌ"
+     ],
+     "answer": 0,
+     "feedback": "جَمِيلٌ tells us something about the subject."
+    },
+    {
+     "prompt": "Choose “This is a new car.”",
+     "options": [
+      "هَذِهِ سَيَّارَةٌ جَدِيدَةٌ.",
+      "هَذَا سَيَّارَةٌ جَدِيدٌ.",
+      "هَذِهِ السَّيَّارَةُ الْجَدِيدَةُ."
+     ],
+     "answer": 0,
+     "feedback": "The demonstrative and adjective match the feminine singular noun."
+    },
+    {
+     "prompt": "Choose the complete sentence.",
+     "options": [
+      "الْمَدْرَسَةُ قَرِيبَةٌ.",
+      "الْمَدْرَسَةُ الْقَرِيبَةُ.",
+      "مَدْرَسَةٌ الْقَرِيبَةُ."
+     ],
+     "answer": 0,
+     "feedback": "Definite subject + indefinite predicate."
+    },
+    {
+     "prompt": "Choose “We are at home.”",
+     "options": [
+      "نَحْنُ فِي الْبَيْتِ.",
+      "نَحْنُ الْبَيْتُ.",
+      "نَحْنُ فِي الْبَيْتُ."
+     ],
+     "answer": 0,
+     "feedback": "The noun after فِي is genitive."
+    },
+    {
+     "prompt": "Which human plural agreement is correct?",
+     "options": [
+      "الطُّلَّابُ مُجْتَهِدُونَ.",
+      "الطُّلَّابُ مُجْتَهِدٌ.",
+      "الطُّلَّابُ مُجْتَهِدَةٌ."
+     ],
+     "answer": 0,
+     "feedback": "Human masculine plural uses plural agreement."
+    },
+    {
+     "prompt": "Which non-human plural agreement is correct?",
+     "options": [
+      "السَّيَّارَاتُ سَرِيعَةٌ.",
+      "السَّيَّارَاتُ سَرِيعَاتٌ.",
+      "السَّيَّارَاتُ سَرِيعُونَ."
+     ],
+     "answer": 0,
+     "feedback": "Non-human plurals normally take feminine singular agreement."
+    },
+    {
+     "prompt": "Which phrase is not yet a full statement?",
+     "options": [
+      "الْكِتَابُ الْمُفِيدُ",
+      "الْكِتَابُ مُفِيدٌ",
+      "الْكِتَابُ فِي الْحَقِيبَةِ"
+     ],
+     "answer": 0,
+     "feedback": "Matching definiteness makes an adjective phrase."
+    },
+    {
+     "prompt": "Choose “The children are in the garden.”",
+     "options": [
+      "الْأَطْفَالُ فِي الْحَدِيقَةِ.",
+      "الْأَطْفَالُ الْحَدِيقَةُ.",
+      "فِي الْأَطْفَالِ الْحَدِيقَةُ."
+     ],
+     "answer": 0,
+     "feedback": "A prepositional phrase can be the predicate."
+    },
+    {
+     "prompt": "Best editing question?",
+     "options": [
+      "Is the subject clear, and does a single-word predicate agree with it?",
+      "Does every sentence contain كَانَ?",
+      "Does every predicate begin with ال?"
+     ],
+     "answer": 0,
+     "feedback": "Present nominal sentences need clarity and agreement, not an inserted copula."
+    }
+   ]
+  }
+ ],
+ "games": [
+  [
+   {
+    "p": "الْبَيْتُ الْكَبِيرُ",
+    "a": "phrase",
+    "choices": [
+     "phrase",
+     "sentence"
+    ],
+    "e": "Both words are definite: “the large house”."
+   },
+   {
+    "p": "الْبَيْتُ كَبِيرٌ.",
+    "a": "sentence",
+    "choices": [
+     "phrase",
+     "sentence"
+    ],
+    "e": "Definite subject + indefinite predicate: “The house is large.”"
+   },
+   {
+    "p": "الطَّالِبَةُ فِي الْفَصْلِ.",
+    "a": "sentence",
+    "choices": [
+     "phrase",
+     "sentence"
+    ],
+    "e": "The prepositional phrase is the predicate."
+   },
+   {
+    "p": "السَّيَّارَةُ الْجَدِيدَةُ",
+    "a": "phrase",
+    "choices": [
+     "phrase",
+     "sentence"
+    ],
+    "e": "The definite adjective stays inside the noun phrase."
+   },
+   {
+    "p": "السَّيَّارَةُ جَدِيدَةٌ.",
+    "a": "sentence",
+    "choices": [
+     "phrase",
+     "sentence"
+    ],
+    "e": "The indefinite adjective is the predicate."
+   },
+   {
+    "p": "هَذَا كِتَابٌ مُفِيدٌ.",
+    "a": "sentence",
+    "choices": [
+     "phrase",
+     "sentence"
+    ],
+    "e": "A complete demonstrative equational sentence."
+   },
+   {
+    "p": "الْكُتُبُ الْمُفِيدَةُ",
+    "a": "phrase",
+    "choices": [
+     "phrase",
+     "sentence"
+    ],
+    "e": "The feminine singular adjective is definite and attributive."
+   },
+   {
+    "p": "الْكُتُبُ مُفِيدَةٌ.",
+    "a": "sentence",
+    "choices": [
+     "phrase",
+     "sentence"
+    ],
+    "e": "Non-human plural subject + feminine singular predicate."
+   }
+  ]
+ ],
+ "blocks": [
+  "## Why this matters لِمَاذَا تَهُمُّ الْجُمْلَةُ الِاسْمِيَّةُ؟",
+  "Arabic can state identity, description and location without a present-tense form of “to be”.",
+  "### Core",
+  "Build a clear subject + predicate sentence without adding an unnecessary verb.",
+  "### Develop",
+  "Control gender, number, definiteness and prepositional predicates.",
+  "### Stretch",
+  "Recognise case-aware models and distinguish several predicate types.",
+  "[callout] Communication target: identify people and things, describe them and say where they are in natural Modern Standard Arabic.",
+  "## Diagnostic start",
+  "Use this as a low-stakes readiness check, not as a final test.",
+  "## The present equational sentence",
+  "Arabic normally places the subject and predicate beside one another; English supplies am/is/are in translation.",
+  "[callout] Core pattern: الْمُبْتَدَأُ + الْخَبَرُ — subject/topic + information about it.",
+  "TABLE: Function | Arabic model | Meaning // Identity | هُوَ مُهَنْدِسٌ. | He is an engineer. // Description | الْجَوُّ جَمِيلٌ. | The weather is beautiful. // Classification | هَذَا كِتَابٌ. | This is a book. // Location | أَنَا فِي الْبَنْكِ. | I am in the bank.",
+  "[callout/warning] Common transfer error: Do not insert يَكُونُ simply because English contains “is”. هُوَ مُهَنْدِسٌ is the natural present statement.",
+  "## Agreement in single-word predicates",
+  "A noun or adjective predicate should fit the intended person or noun in gender and number.",
+  "TABLE: Subject type | Model | Decision // masculine singular | هُوَ طَالِبٌ مُجْتَهِدٌ. | masculine singular // feminine singular | هِيَ طَالِبَةٌ مُجْتَهِدَةٌ. | feminine singular // masculine dual | الطَّالِبَانِ مُسْتَعِدَّانِ. | dual // human masculine plural | الطُّلَّابُ مُجْتَهِدُونَ. | human plural // human feminine plural | الطَّالِبَاتُ مُجْتَهِدَاتٌ. | human feminine plural // non-human plural | الْكُتُبُ مُفِيدَةٌ. | feminine singular",
+  "[callout] Boundary: full case endings help explain the structure, but communicative control comes first. The later Case Endings package will analyse them systematically.",
+  "## Phrase or complete sentence?",
+  "Definiteness often reveals whether the adjective belongs inside a noun phrase or acts as the predicate.",
+  "TABLE: Form | Meaning | Analysis // الْبَيْتُ الْكَبِيرُ | the large house | definite noun phrase // الْبَيْتُ كَبِيرٌ. | The house is large. | complete nominal sentence // مَدْرَسَةٌ جَدِيدَةٌ | a new school | indefinite noun phrase // الْمَدْرَسَةُ جَدِيدَةٌ. | The school is new. | complete nominal sentence",
+  "[callout/warning] Do not confuse: الطَّالِبُ الْمُجْتَهِدُ names “the hardworking student”; الطَّالِبُ مُجْتَهِدٌ states “The student is hardworking.”",
+  "## Three practical predicate types",
+  "A predicate may be one word, a prepositional phrase or a locator/adverbial expression.",
+  "TABLE: Predicate type | Model | What it tells us // single noun/adjective | أَخِي طَبِيبٌ. | identity or description // prepositional phrase | أَخِي فِي الْمُسْتَشْفَى. | location // locator phrase | الْمَدْرَسَةُ أَمَامَ الْمَسْجِدِ. | relative position // time expression | الِامْتِحَانُ غَدًا. | when",
+  "[callout] Useful feature: a prepositional predicate does not change for masculine/feminine agreement: هُوَ فِي الْبَيْتِ and هِيَ فِي الْبَيْتِ .",
+  "## Misconception clinic",
+  "Repair the structure, then explain the decision.",
+  "TABLE: Draft | Improved version | Reason // هُوَ يَكُونُ مُعَلِّمًا. | هُوَ مُعَلِّمٌ. | No present copula is needed. // هِيَ طَبِيبٌ. | هِيَ طَبِيبَةٌ. | Gender agreement. // الْبَيْتُ الْكَبِيرُ. | الْبَيْتُ كَبِيرٌ. | The intended meaning is a complete statement. // أَنَا فِي الْبَنْكُ. | أَنَا فِي الْبَنْكِ. | The noun after فِي is genitive. // السَّيَّارَاتُ سَرِيعَاتٌ. | السَّيَّارَاتُ سَرِيعَةٌ. | Non-human plural → feminine singular agreement.",
+  "## Game: Phrase or sentence?",
+  "Read for meaning and definiteness, not just word order.",
+  "## Skills workshop",
+  "Use nominal sentences to describe a person, place and everyday situation.",
+  "[ar] هَذِهِ مَدْرَسَتِي. هِيَ كَبِيرَةٌ وَحَدِيثَةٌ، وَالْمَكْتَبَةُ فِي الطَّابِقِ الْأَوَّلِ.",
+  "[ar] أَنَا طَالِبَةٌ. مَادَّتِي الْمُفَضَّلَةُ الْعَرَبِيَّةُ، وَصَفِّي قُرْبَ الْمَكْتَبَةِ.",
+  "### Describe a person and a place",
+  "Write 80–100 Arabic words introducing yourself or another person and describing a familiar place.",
+  "[callout] Success checklist: Use at least four single-word predicates, three prepositional/locator predicates, correct gender agreement and one non-human plural.",
+  "[callout] Paper route: Write the paragraph, underline each subject once and box each predicate. Label one predicate “word” and one “phrase”.",
+  "## Final mastery check",
+  "Apply the complete present-time nominal-sentence system.",
+  "### What you can now do",
+  "- Build present equational sentences without an unnecessary copula.",
+  "- Distinguish noun phrases from complete statements.",
+  "- Use noun, adjective, prepositional and locator predicates.",
+  "- Apply human and non-human agreement accurately.",
+  "Spaced revisit: describe the same room again in three days without looking at the models."
+ ]
+}

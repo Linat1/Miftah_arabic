@@ -1,0 +1,528 @@
+{
+ "path": "lessons/grammar/14-interrogatives/grammar-mastery-03-question-words.php",
+ "title": "Common Question Words",
+ "arabic": "أَدَوَاتُ الِاسْتِفْهَامِ الشَّائِعَةُ",
+ "lede": "Ask for exactly the missing information—person, thing, action, place, time, manner, reason or quantity—and shape the answer to match.",
+ "nav": [
+  [
+   "GM-INT-02",
+   "Gender and Case Agreement with أَيّ / أَيَّة"
+  ]
+ ],
+ "quizzes": [
+  {
+   "title": "🔎 Question-word Starter",
+   "items": [
+    {
+     "prompt": "Which word asks about a person?",
+     "options": [
+      "مَنْ",
+      "مَا",
+      "مَتَى"
+     ],
+     "answer": 0,
+     "feedback": "مَنْ asks who."
+    },
+    {
+     "prompt": "Which word asks about a location?",
+     "options": [
+      "أَيْنَ",
+      "كَيْفَ",
+      "لِمَاذَا"
+     ],
+     "answer": 0,
+     "feedback": "أَيْنَ asks where."
+    },
+    {
+     "prompt": "Which word commonly precedes a verb to ask about an action?",
+     "options": [
+      "مَاذَا",
+      "مَنْ",
+      "هَلْ"
+     ],
+     "answer": 0,
+     "feedback": "مَاذَا is a useful learner pattern before verbs."
+    },
+    {
+     "prompt": "Which word asks when?",
+     "options": [
+      "مَتَى",
+      "أَيْنَ",
+      "كَمْ"
+     ],
+     "answer": 0,
+     "feedback": "مَتَى requests time."
+    },
+    {
+     "prompt": "Which question expects a reason?",
+     "options": [
+      "لِمَاذَا تَدْرُسُ؟",
+      "أَيْنَ تَدْرُسُ؟",
+      "مَنْ يَدْرُسُ؟"
+     ],
+     "answer": 0,
+     "feedback": "لِمَاذَا asks why; answer with a reason such as لِأَنَّ."
+    },
+    {
+     "prompt": "Which phrase asks for destination?",
+     "options": [
+      "إِلَى أَيْنَ",
+      "مِنْ أَيْنَ",
+      "أَيْنَ only"
+     ],
+     "answer": 0,
+     "feedback": "إِلَى marks movement towards a destination."
+    }
+   ]
+  },
+  {
+   "title": "✅ Mini-check: مَا or مَاذَا",
+   "items": [
+    {
+     "prompt": "Ask “What is your name?”",
+     "options": [
+      "مَا اسْمُكَ؟",
+      "مَاذَا اسْمُكَ يَفْعَلُ؟",
+      "مَنْ اسْمُكَ؟"
+     ],
+     "answer": 0,
+     "feedback": "مَا requests nominal identity/name information."
+    },
+    {
+     "prompt": "Ask “What did you write?”",
+     "options": [
+      "مَاذَا كَتَبْتَ؟",
+      "مَا اسْمُكَ؟",
+      "أَيْنَ كَتَبْتَ ماذا؟"
+     ],
+     "answer": 0,
+     "feedback": "مَاذَا naturally precedes the action verb."
+    },
+    {
+     "prompt": "Ask “What colour is the bag?”",
+     "options": [
+      "مَا لَوْنُ الْحَقِيبَةِ؟",
+      "مَاذَا تَلْوَنُ الْحَقِيبَةَ؟",
+      "مَنْ لَوْنُ الْحَقِيبَةِ؟"
+     ],
+     "answer": 0,
+     "feedback": "The question asks for a noun/category: colour."
+    },
+    {
+     "prompt": "Ask “What will they buy?”",
+     "options": [
+      "مَاذَا سَيَشْتَرُونَ؟",
+      "مَتَى سَيَشْتَرُونَ؟",
+      "مَنْ سَيَشْتَرُونَ؟"
+     ],
+     "answer": 0,
+     "feedback": "مَاذَا asks for the object of the buying action."
+    }
+   ]
+  },
+  {
+   "title": "✅ Mini-check: place",
+   "items": [
+    {
+     "prompt": "Ask where someone lives.",
+     "options": [
+      "أَيْنَ تَسْكُنُ؟",
+      "مِنْ أَيْنَ تَسْكُنُ؟",
+      "إِلَى أَيْنَ أَنْتَ؟"
+     ],
+     "answer": 0,
+     "feedback": "أَيْنَ asks static/current location."
+    },
+    {
+     "prompt": "Ask where someone comes from.",
+     "options": [
+      "مِنْ أَيْنَ أَنْتِ؟",
+      "أَيْنَ سَتَذْهَبِينَ؟",
+      "إِلَى أَيْنَ وُلِدْتِ؟"
+     ],
+     "answer": 0,
+     "feedback": "مِنْ marks origin."
+    },
+    {
+     "prompt": "Ask where the bus is going.",
+     "options": [
+      "إِلَى أَيْنَ تَذْهَبُ الْحَافِلَةُ؟",
+      "مِنْ أَيْنَ تَقِفُ الْحَافِلَةُ؟",
+      "أَيْنَ جَاءَتْ إِلَى؟"
+     ],
+     "answer": 0,
+     "feedback": "إِلَى marks destination."
+    },
+    {
+     "prompt": "Choose the answer to مِنْ أَيْنَ أَنْتَ؟",
+     "options": [
+      "أَنَا مِنَ الْمَغْرِبِ.",
+      "سَأَذْهَبُ إِلَى الْمَغْرِبِ.",
+      "أَسْكُنُ هُنَا only."
+     ],
+     "answer": 0,
+     "feedback": "The answer preserves the origin preposition مِنْ."
+    }
+   ]
+  },
+  {
+   "title": "🛠 Repair lab",
+   "items": [
+    {
+     "prompt": "Repair أَيْنَ أَنْتَ مِنْ؟",
+     "options": [
+      "مِنْ أَيْنَ أَنْتَ؟",
+      "إِلَى أَيْنَ أَنْتَ مِنْ؟",
+      "أَيْنَ مِنْ تَذْهَبُ؟"
+     ],
+     "answer": 0,
+     "feedback": "Place the origin preposition before أَيْنَ."
+    },
+    {
+     "prompt": "Choose the answer category for كَيْفَ ذَهَبْتَ؟",
+     "options": [
+      "ذَهَبْتُ بِالْقِطَارِ.",
+      "ذَهَبْتُ أَمْسِ only",
+      "ذَهَبْتُ إِلَى لَنْدَنَ only"
+     ],
+     "answer": 0,
+     "feedback": "كَيْفَ asks manner/method."
+    },
+    {
+     "prompt": "Choose the question for the answer لِأَنَّنِي أُحِبُّ اللُّغَاتِ.",
+     "options": [
+      "لِمَاذَا تَتَعَلَّمُ الْعَرَبِيَّةَ؟",
+      "مَتَى تَتَعَلَّمُ الْعَرَبِيَّةَ؟",
+      "أَيْنَ تَتَعَلَّمُ الْعَرَبِيَّةَ؟"
+     ],
+     "answer": 0,
+     "feedback": "The answer is a reason, so the question is why."
+    },
+    {
+     "prompt": "Choose “What are you thinking about?”",
+     "options": [
+      "فِيمَ تُفَكِّرُ؟",
+      "مَنْ تُفَكِّرُ؟",
+      "مَتَى تُفَكِّرُ عَنْ؟"
+     ],
+     "answer": 0,
+     "feedback": "فِيمَ is the compact form of فِي مَاذَا."
+    }
+   ]
+  },
+  {
+   "title": "🏁 Question-word Mastery",
+   "items": [
+    {
+     "prompt": "Which word asks who?",
+     "options": [
+      "مَنْ",
+      "مَا",
+      "مَتَى"
+     ],
+     "answer": 0,
+     "feedback": "مَنْ requests a person."
+    },
+    {
+     "prompt": "Choose “What is this?”",
+     "options": [
+      "مَا هَذَا؟",
+      "مَنْ هَذَا؟",
+      "مَاذَا تَفْعَلُ؟"
+     ],
+     "answer": 0,
+     "feedback": "مَا asks for the identity/category of a thing."
+    },
+    {
+     "prompt": "Choose “What did she write?”",
+     "options": [
+      "مَاذَا كَتَبَتْ؟",
+      "مَتَى كَتَبَتْ؟",
+      "مَنْ كَتَبَتْ؟"
+     ],
+     "answer": 0,
+     "feedback": "مَاذَا asks for the object/action content."
+    },
+    {
+     "prompt": "Choose “Where do you live?”",
+     "options": [
+      "أَيْنَ تَسْكُنُ؟",
+      "مِنْ أَيْنَ أَنْتَ؟",
+      "إِلَى أَيْنَ تَذْهَبُ؟"
+     ],
+     "answer": 0,
+     "feedback": "أَيْنَ asks current/static place."
+    },
+    {
+     "prompt": "Choose “Where are you from?”",
+     "options": [
+      "مِنْ أَيْنَ أَنْتَ؟",
+      "أَيْنَ سَتَذْهَبُ؟",
+      "إِلَى أَيْنَ تَسْكُنُ؟"
+     ],
+     "answer": 0,
+     "feedback": "مِنْ marks origin."
+    },
+    {
+     "prompt": "Choose “When will the lesson begin?”",
+     "options": [
+      "مَتَى سَيَبْدَأُ الدَّرْسُ؟",
+      "أَيْنَ سَيَبْدَأُ الدَّرْسُ؟",
+      "كَيْفَ الدَّرْسُ سَيَبْدَأُ؟"
+     ],
+     "answer": 0,
+     "feedback": "مَتَى requests time."
+    },
+    {
+     "prompt": "Which answer fits كَيْفَ تَذْهَبُ؟",
+     "options": [
+      "أَذْهَبُ بِالْقِطَارِ.",
+      "أَذْهَبُ غَدًا only.",
+      "أَذْهَبُ إِلَى الْمَدْرَسَةِ only."
+     ],
+     "answer": 0,
+     "feedback": "كَيْفَ requests manner or method."
+    },
+    {
+     "prompt": "Which question expects لِأَنَّ... as an answer?",
+     "options": [
+      "لِمَاذَا تَدْرُسُ؟",
+      "مَتَى تَدْرُسُ؟",
+      "مَنْ يَدْرُسُ؟"
+     ],
+     "answer": 0,
+     "feedback": "لِمَاذَا asks for a reason."
+    },
+    {
+     "prompt": "Choose the accurate compact question.",
+     "options": [
+      "فِيمَ تُفَكِّرُ؟",
+      "فِي مَا تَفَكَّرَ؟",
+      "مَنْ تُفَكِّرُ فِي؟"
+     ],
+     "answer": 0,
+     "feedback": "فِيمَ is a compact formal form of فِي مَاذَا."
+    },
+    {
+     "prompt": "Best communication check?",
+     "options": [
+      "Ensure the answer supplies the category requested by the question word.",
+      "Answer every question with نَعَمْ.",
+      "Translate the question word but ignore the verb."
+     ],
+     "answer": 0,
+     "feedback": "Question and answer must align in information type, tense and agreement."
+    }
+   ]
+  }
+ ],
+ "games": [
+  [
+   {
+    "p": "Answer: هَذَا أَخِي.",
+    "a": "مَنْ هَذَا؟",
+    "choices": [
+     "مَنْ هَذَا؟",
+     "مَا هَذَا؟",
+     "مَتَى هَذَا؟"
+    ],
+    "e": "The answer identifies a person."
+   },
+   {
+    "p": "Answer: هَذَا هَاتِفٌ.",
+    "a": "مَا هَذَا؟",
+    "choices": [
+     "مَا هَذَا؟",
+     "مَنْ هَذَا؟",
+     "أَيْنَ هَذَا؟"
+    ],
+    "e": "The answer identifies a thing."
+   },
+   {
+    "p": "Answer: أَقْرَأُ رِوَايَةً.",
+    "a": "مَاذَا تَقْرَأُ؟",
+    "choices": [
+     "مَاذَا تَقْرَأُ؟",
+     "مَتَى تَقْرَأُ؟",
+     "مَنْ تَقْرَأُ؟"
+    ],
+    "e": "The answer supplies the object of reading."
+   },
+   {
+    "p": "Answer: أَسْكُنُ فِي لَنْدَنَ.",
+    "a": "أَيْنَ تَسْكُنُ؟",
+    "choices": [
+     "أَيْنَ تَسْكُنُ؟",
+     "مِنْ أَيْنَ أَنْتَ؟",
+     "إِلَى أَيْنَ سَتَذْهَبُ؟"
+    ],
+    "e": "The answer gives current residence."
+   },
+   {
+    "p": "Answer: أَنَا مِنْ سُورِيَا.",
+    "a": "مِنْ أَيْنَ أَنْتَ؟",
+    "choices": [
+     "مِنْ أَيْنَ أَنْتَ؟",
+     "أَيْنَ تَسْكُنُ؟",
+     "إِلَى أَيْنَ سَافَرْتَ؟"
+    ],
+    "e": "The answer gives origin."
+   },
+   {
+    "p": "Answer: سَأَذْهَبُ إِلَى الْمَطَارِ.",
+    "a": "إِلَى أَيْنَ سَتَذْهَبُ؟",
+    "choices": [
+     "إِلَى أَيْنَ سَتَذْهَبُ؟",
+     "مِنْ أَيْنَ أَنْتَ؟",
+     "كَيْفَ حَالُكَ؟"
+    ],
+    "e": "The answer gives destination."
+   },
+   {
+    "p": "Answer: فِي السَّاعَةِ الثَّامِنَةِ.",
+    "a": "مَتَى يَبْدَأُ؟",
+    "choices": [
+     "مَتَى يَبْدَأُ؟",
+     "أَيْنَ يَبْدَأُ؟",
+     "لِمَاذَا يَبْدَأُ؟"
+    ],
+    "e": "The answer gives time."
+   },
+   {
+    "p": "Answer: أَذْهَبُ بِالْحَافِلَةِ.",
+    "a": "كَيْفَ تَذْهَبُ؟",
+    "choices": [
+     "كَيْفَ تَذْهَبُ؟",
+     "مَتَى تَذْهَبُ؟",
+     "مَنْ يَذْهَبُ؟"
+    ],
+    "e": "The answer gives method."
+   },
+   {
+    "p": "Answer: لِأَنَّهُ مُفِيدٌ.",
+    "a": "لِمَاذَا تُحِبُّهُ؟",
+    "choices": [
+     "لِمَاذَا تُحِبُّهُ؟",
+     "أَيْنَ تُحِبُّهُ؟",
+     "كَمْ تُحِبُّهُ؟"
+    ],
+    "e": "The answer gives a reason."
+   },
+   {
+    "p": "Answer: خَمْسَةُ كُتُبٍ.",
+    "a": "كَمْ كِتَابًا عِنْدَكَ؟",
+    "choices": [
+     "كَمْ كِتَابًا عِنْدَكَ؟",
+     "مَا كِتَابًا عِنْدَكَ؟",
+     "مَنْ كِتَابًا عِنْدَكَ؟"
+    ],
+    "e": "The answer gives quantity."
+   }
+  ]
+ ],
+ "blocks": [
+  "## A question word creates an information gap",
+  "Good communication depends on asking for the right category of information and recognising what the answer must supply.",
+  "[ar] مَنْ هَذِهِ؟",
+  "[ar] مَاذَا تَفْعَلُ؟",
+  "[ar] إِلَى أَيْنَ سَتُسَافِرِينَ؟",
+  "[ar] لِمَاذَا تَتَعَلَّمُ الْعَرَبِيَّةَ؟",
+  "[callout] Cambridge relevance: question words drive role plays and topic conversations and help readers identify what information a message, notice or dialogue requests.",
+  "## Choose your route",
+  "Master the core words by meaning, then extend them with prepositions and natural follow-ups.",
+  "### Core",
+  "- Use مَنْ, مَا, مَاذَا, أَيْنَ and مَتَى.",
+  "- Match each question to an answer of the correct type.",
+  "- Keep tense and agreement accurate.",
+  "### Develop",
+  "- Add كَيْفَ, لِمَاذَا and كَمْ.",
+  "- Use مِنْ أَيْنَ and إِلَى أَيْنَ for origin and destination.",
+  "- Ask follow-up questions and report answers.",
+  "### Stretch",
+  "- Use question words after prepositions.",
+  "- Recognise compact forms such as بِمَ and فِيمَ.",
+  "- Edit an interview for precision, flow and answer alignment.",
+  "## Starter diagnostic",
+  "Identify the information category required by each question.",
+  "## The question-word map",
+  "Learn each word together with the answer shape it requires.",
+  "TABLE: Question word | Information requested | Model question | Answer shape // مَنْ | person | مَنْ هَذَا؟ | name, person or relationship // مَا | thing, identity, name/category | مَا اسْمُكَ؟ | noun or nominal information // مَاذَا | action or object | مَاذَا تَقْرَأُ؟ | verb phrase or object // أَيْنَ | place | أَيْنَ تَسْكُنُ؟ | place phrase // مَتَى | time | مَتَى تَبْدَأُ الْحِصَّةُ؟ | time/date expression // كَيْفَ | manner or state | كَيْفَ تَذْهَبُ؟ | method, description or state // لِمَاذَا | reason | لِمَاذَا تَتَعَلَّمُ؟ | لِأَنَّ... // كَمْ | quantity | كَمْ كِتَابًا قَرَأْتَ؟ | number or quantity phrase",
+  "[callout] Answer alignment: if the answer gives the wrong category, the communication fails even when every word is individually correct.",
+  "## مَا and مَاذَا",
+  "Both can mean “what”, but practical learner patterns make their main uses easier to control.",
+  "### مَا: identity, name and category",
+  "- مَا هَذَا؟",
+  "- مَا اسْمُكِ؟",
+  "- مَا لَوْنُ السَّيَّارَةِ؟",
+  "- مَا رَأْيُكَ؟",
+  "### مَاذَا: actions and direct objects",
+  "- مَاذَا تَفْعَلُ؟",
+  "- مَاذَا قَرَأْتِ؟",
+  "- مَاذَا سَتَشْتَرُونَ؟",
+  "- مَاذَا تُرِيدُ أَنْ تَأْكُلَ؟",
+  "[callout] Accuracy note: Arabic permits some overlap between مَا and مَاذَا. The house pattern above gives learners a reliable functional distinction without claiming that every alternative is impossible.",
+  "## مَنْ: people in different sentence roles",
+  "مَنْ can ask who performs an action, receives it, owns something or accompanies someone.",
+  "TABLE: Role | Question | Answer // Identity | مَنْ هَذِهِ؟ | هَذِهِ مُعَلِّمَتِي. // Subject/doer | مَنْ فَتَحَ الْبَابَ؟ | فَتَحَهُ الْمُدِيرُ. // Object | مَنْ زُرْتَ؟ | زُرْتُ جَدِّي. // With whom | مَعَ مَنْ ذَهَبْتِ؟ | ذَهَبْتُ مَعَ أُخْتِي. // Whose/for whom | لِمَنْ هَذَا الْكِتَابُ؟ | هُوَ لِي.",
+  "## أَيْنَ, مِنْ أَيْنَ and إِلَى أَيْنَ",
+  "Prepositions distinguish static location, origin and destination.",
+  "### Location",
+  "أَيْنَ تَسْكُنُ؟",
+  "أَسْكُنُ فِي لَنْدَنَ.",
+  "### Origin",
+  "مِنْ أَيْنَ أَنْتِ؟",
+  "أَنَا مِنْ سُورِيَا.",
+  "### Destination",
+  "إِلَى أَيْنَ سَتَذْهَبُ؟",
+  "سَأَذْهَبُ إِلَى الْمَطَارِ.",
+  "[callout/warning] Do not answer all three with the same bare place name. Keep the preposition that expresses the relationship.",
+  "## مَتَى and كَيْفَ",
+  "Ask when something happens, how someone feels or by what method an action occurs.",
+  "### مَتَى: time",
+  "مَتَى بَدَأَ الدَّرْسُ؟",
+  "بَدَأَ فِي السَّاعَةِ التَّاسِعَةِ.",
+  "مَتَى سَتَزُورُونَنَا؟",
+  "سَنَزُورُكُمْ يَوْمَ الْجُمُعَةِ.",
+  "### كَيْفَ: state or manner",
+  "كَيْفَ حَالُكِ؟",
+  "أَنَا بِخَيْرٍ.",
+  "كَيْفَ تَذْهَبُ إِلَى الْعَمَلِ؟",
+  "أَذْهَبُ بِالْحَافِلَةِ.",
+  "## لِمَاذَا: reason and explanation",
+  "A why-question should lead to a reason, not simply another fact.",
+  "[ar] لِمَاذَا تُحِبُّ السِّبَاحَةَ؟",
+  "[ar] لِمَاذَا لَمْ تَذْهَبْ؟",
+  "[callout] Extend further: reason + result creates cohesion: كُنْتُ مَرِيضًا، لِذَلِكَ بَقِيتُ فِي الْبَيْتِ.",
+  "## Question words with prepositions",
+  "Prepositions remain meaningful parts of the question and often shape the answer.",
+  "TABLE: Full form | Compact/formal form | Example // بِمَاذَا | بِمَ | بِمَاذَا / بِمَ تَكْتُبُ؟ // فِي مَاذَا | فِيمَ | فِيمَ تُفَكِّرُ؟ // لِمَاذَا | لِمَ | لِمَ تَأَخَّرْتَ؟ // مِنْ مَاذَا | مِمَّ | مِمَّ تَخَافُ؟ // عَنْ مَاذَا | عَمَّ | عَمَّ تَبْحَثُ؟",
+  "[callout] Core route: the full forms are clear and safe. Stretch: recognise the compact spellings in formal reading and use them when secure.",
+  "## Misconception clinic",
+  "Repair mismatched question words, missing prepositions and answers of the wrong type.",
+  "## Question-to-answer match",
+  "Select the question word that makes the answer relevant.",
+  "## Four-skills application",
+  "Build an interview that moves from factual questions to explanation and follow-up.",
+  "### Listening grid",
+  "Listen to a partner’s ten questions and tick the category you hear: person, thing, action, place, time, manner, reason or quantity.",
+  "### Reading: visitor form",
+  "مَا اسْمُكَ؟ مِنْ أَيْنَ أَنْتَ؟ أَيْنَ تَسْكُنُ؟ مَتَى وَصَلْتَ؟ كَيْفَ سَافَرْتَ؟ لِمَاذَا زُرْتَ الْمَدِينَةَ؟",
+  "Match each question to a field on a visitor form.",
+  "### Speaking follow-ups",
+  "Ask one question from each category. After every answer, ask a second question that develops the same topic.",
+  "### Report",
+  "Summarise your partner’s answers in the third person, checking pronouns and tense.",
+  "### Create and answer a topic interview",
+  "Write a twelve-question interview about daily life, family, school, leisure, travel and future plans, then provide model answers.",
+  "[callout] Success checklist: Use مَنْ, مَا, مَاذَا, أَيْنَ, مِنْ أَيْنَ, إِلَى أَيْنَ, مَتَى, كَيْفَ, لِمَاذَا and كَمْ; include past, present and future answers and at least four reasons.",
+  "## Final mastery check",
+  "Choose the question word and structure that match the missing information.",
+  "### You can now",
+  "- Ask about people, things, actions, places, time, manner, reason and quantity.",
+  "- Distinguish مَا from the reliable action pattern مَاذَا + verb.",
+  "- Use place prepositions with أَيْنَ.",
+  "- Align answers with the information requested.",
+  "- Recognise useful compact preposition + مَا forms.",
+  "Spaced revisit: take a paragraph from a previous topic and write eight different questions whose answers are found in the text."
+ ]
+}

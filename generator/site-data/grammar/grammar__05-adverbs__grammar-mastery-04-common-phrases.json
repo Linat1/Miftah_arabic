@@ -1,0 +1,490 @@
+{
+ "path": "lessons/grammar/05-adverbs/grammar-mastery-04-common-phrases.php",
+ "title": "Common Adverbial Phrases for Fluency",
+ "arabic": "عِبَارَاتٌ ظَرْفِيَّةٌ شَائِعَةٌ لِلطَّلَاقَةِ",
+ "lede": "Retrieve and apply common multi-word phrases for frequency, time, sequence, place and direction in sustained everyday communication.",
+ "nav": [
+  [
+   "GM-ADV-03",
+   "Adverb + Noun: Prepositional Phrases"
+  ]
+ ],
+ "quizzes": [
+  {
+   "title": "🔎 Entry Check",
+   "items": [
+    {
+     "prompt": "Choose “every day”.",
+     "options": [
+      "كُلَّ يَوْمٍ",
+      "كُلُّ يَوْمٌ",
+      "فِي يَوْمٌ"
+     ],
+     "answer": 0,
+     "feedback": "The supported adverbial phrase is كُلَّ يَوْمٍ."
+    },
+    {
+     "prompt": "Choose “in the future”.",
+     "options": [
+      "فِي الْمُسْتَقْبَلِ",
+      "فِي الْمَاضِي غَدًا",
+      "عَلَى الْيَمِينِ"
+     ],
+     "answer": 0,
+     "feedback": "في المستقبل is a set future phrase."
+    },
+    {
+     "prompt": "Choose “in the morning”.",
+     "options": [
+      "فِي الصَّبَاحِ",
+      "بَعْدَ ذَلِكَ",
+      "بِالْقُرْبِ مِنْ"
+     ],
+     "answer": 0,
+     "feedback": "This phrase locates an action within the morning."
+    },
+    {
+     "prompt": "Which phrase sequences the next event?",
+     "options": [
+      "بَعْدَ ذَلِكَ",
+      "فِي الْخَارِجِ",
+      "مِنْ وَقْتٍ لِآخَرَ"
+     ],
+     "answer": 0,
+     "feedback": "بعد ذلك moves the narrative forward."
+    },
+    {
+     "prompt": "Which phrase means “from time to time”?",
+     "options": [
+      "مِنْ وَقْتٍ لِآخَرَ",
+      "فِي الْوَقْتِ نَفْسِهِ",
+      "كُلَّ يَوْمٍ"
+     ],
+     "answer": 0,
+     "feedback": "It expresses occasional frequency."
+    },
+    {
+     "prompt": "Which is the best principle?",
+     "options": [
+      "Translate each word separately every time.",
+      "Learn useful phrases as complete chunks and place them in meaningful sentences.",
+      "Use ثم before every sentence."
+     ],
+     "answer": 1,
+     "feedback": "Chunk learning supports speed, fluency and accurate collocation."
+    }
+   ]
+  },
+  {
+   "title": "🔁 Frequency Check",
+   "items": [
+    {
+     "prompt": "Choose “twice a week”.",
+     "options": [
+      "مَرَّتَيْنِ فِي الأُسْبُوعِ",
+      "مَرَّتَانِ الأُسْبُوعُ",
+      "فِي مَرَّةٌ أُسْبُوعٌ"
+     ],
+     "answer": 0,
+     "feedback": "The dual form is accusative/genitive in this adverbial expression."
+    },
+    {
+     "prompt": "Choose “from time to time”.",
+     "options": [
+      "مِنْ وَقْتٍ لِآخَرَ",
+      "فِي الْوَقْتِ نَفْسِهِ",
+      "حَتَّى الآنَ"
+     ],
+     "answer": 0,
+     "feedback": "The fixed phrase describes occasional frequency."
+    },
+    {
+     "prompt": "Choose “every morning”.",
+     "options": [
+      "كُلَّ صَبَاحٍ",
+      "كُلُّ الصَّبَاحُ",
+      "فِي كُلٌّ صَبَاحَ"
+     ],
+     "answer": 0,
+     "feedback": "كلَّ + indefinite genitive noun."
+    },
+    {
+     "prompt": "Which phrase means “once a month”?",
+     "options": [
+      "مَرَّةً فِي الشَّهْرِ",
+      "مَرَّةٌ الشَّهْرُ",
+      "شَهْرًا مَرَّةٌ فِي"
+     ],
+     "answer": 0,
+     "feedback": "A common frequency chunk."
+    },
+    {
+     "prompt": "Choose a natural routine sentence.",
+     "options": [
+      "أَسْبَحُ مَرَّتَيْنِ فِي الأُسْبُوعِ.",
+      "أَسْبَحُ مَرَّتَانِ الأُسْبُوعُ.",
+      "أَسْبَحُ فِي مَرَّتَيْنِ أُسْبُوعٌ."
+     ],
+     "answer": 0,
+     "feedback": "The complete phrase follows the verb naturally."
+    }
+   ]
+  },
+  {
+   "title": "➡️ Sequence Check",
+   "items": [
+    {
+     "prompt": "Choose the best opening phrase.",
+     "options": [
+      "فِي الْبِدَايَةِ",
+      "أَخِيرًا",
+      "بَعْدَ ذَلِكَ فقط"
+     ],
+     "answer": 0,
+     "feedback": "في البداية introduces the first stage."
+    },
+    {
+     "prompt": "Choose the phrase for the final step.",
+     "options": [
+      "أَخِيرًا",
+      "فِي الْوَقْتِ نَفْسِهِ",
+      "عَلَى الْيَسَارِ"
+     ],
+     "answer": 0,
+     "feedback": "أخيرًا marks the final event."
+    },
+    {
+     "prompt": "Which phrase means “after that”?",
+     "options": [
+      "بَعْدَ ذَلِكَ",
+      "قَبْلَ ذَلِكَ",
+      "حَتَّى الآنَ"
+     ],
+     "answer": 0,
+     "feedback": "بعد ذلك advances the sequence."
+    },
+    {
+     "prompt": "Choose “at the same time”.",
+     "options": [
+      "فِي الْوَقْتِ نَفْسِهِ",
+      "فِي وَقْتٍ لَاحِقٍ",
+      "فِي الْمُسْتَقْبَلِ"
+     ],
+     "answer": 0,
+     "feedback": "The phrase links simultaneous events."
+    },
+    {
+     "prompt": "How should ثُمَّ be used?",
+     "options": [
+      "As the only connector in every sentence.",
+      "As one useful sequence link among several.",
+      "Only for place."
+     ],
+     "answer": 1,
+     "feedback": "Variety improves clarity and style."
+    }
+   ]
+  },
+  {
+   "title": "🗺️ Place Phrase Check",
+   "items": [
+    {
+     "prompt": "Choose “near the school”.",
+     "options": [
+      "بِالْقُرْبِ مِنَ الْمَدْرَسَةِ",
+      "بَعِيدًا عَنِ الْمَدْرَسَةِ",
+      "فِي الْمُسْتَقْبَلِ"
+     ],
+     "answer": 0,
+     "feedback": "بالقرب من expresses proximity."
+    },
+    {
+     "prompt": "Choose “far from the station”.",
+     "options": [
+      "بَعِيدًا عَنِ الْمَحَطَّةِ",
+      "عَلَى الْيَمِينِ مِنَ الْمَحَطَّةِ فقط",
+      "فِي الصَّبَاحِ"
+     ],
+     "answer": 0,
+     "feedback": "بعيدًا عن expresses distance."
+    },
+    {
+     "prompt": "Choose “on the right”.",
+     "options": [
+      "عَلَى الْيَمِينِ",
+      "عَلَى الْيَسَارِ",
+      "فِي الْخَارِجِ"
+     ],
+     "answer": 0,
+     "feedback": "على اليمين gives direction/location."
+    },
+    {
+     "prompt": "Choose “outside”.",
+     "options": [
+      "فِي الْخَارِجِ",
+      "فِي الدَّاخِلِ",
+      "فِي الْمَسَاءِ"
+     ],
+     "answer": 0,
+     "feedback": "في الخارج means outside."
+    },
+    {
+     "prompt": "Which sentence gives clear directions?",
+     "options": [
+      "الْمَكْتَبَةُ عَلَى الْيَسَارِ بِالْقُرْبِ مِنَ الْمَدْرَسَةِ.",
+      "الْمَكْتَبَةُ غَدًا بِسُرْعَةٍ فقط.",
+      "الْمَكْتَبَةُ كُلَّ يَوْمٍ أَخِيرًا."
+     ],
+     "answer": 0,
+     "feedback": "The two location phrases work together."
+    }
+   ]
+  },
+  {
+   "title": "⭐ Adverbial Phrase Mastery",
+   "items": [
+    {
+     "prompt": "Choose “every day”.",
+     "options": [
+      "كُلَّ يَوْمٍ",
+      "كُلُّ يَوْمٌ",
+      "يَوْمٌ كُلَّ"
+     ],
+     "answer": 0,
+     "feedback": "Fixed adverbial phrase."
+    },
+    {
+     "prompt": "Choose “in the morning”.",
+     "options": [
+      "فِي الصَّبَاحِ",
+      "فِي الصَّبَاحُ",
+      "بِصَبَاحٍ فقط"
+     ],
+     "answer": 0,
+     "feedback": "Genitive after في."
+    },
+    {
+     "prompt": "Choose “in the future”.",
+     "options": [
+      "فِي الْمُسْتَقْبَلِ",
+      "فِي الْمُسْتَقْبَلُ",
+      "غَدًا أَمْسِ"
+     ],
+     "answer": 0,
+     "feedback": "Set phrase."
+    },
+    {
+     "prompt": "Choose “until now”.",
+     "options": [
+      "حَتَّى الآنَ",
+      "بَعْدَ غَدٍ",
+      "أَوَّلَ أَمْسِ"
+     ],
+     "answer": 0,
+     "feedback": "حتى الآن reaches the current point."
+    },
+    {
+     "prompt": "Choose “later”.",
+     "options": [
+      "فِي وَقْتٍ لَاحِقٍ",
+      "فِي الْوَقْتِ نَفْسِهِ",
+      "كُلَّ صَبَاحٍ"
+     ],
+     "answer": 0,
+     "feedback": "The phrase means at a later time."
+    },
+    {
+     "prompt": "Choose “at the same time”.",
+     "options": [
+      "فِي الْوَقْتِ نَفْسِهِ",
+      "مِنْ وَقْتٍ لِآخَرَ",
+      "بِالْقُرْبِ مِنْ"
+     ],
+     "answer": 0,
+     "feedback": "Simultaneous timing."
+    },
+    {
+     "prompt": "Choose “from time to time”.",
+     "options": [
+      "مِنْ وَقْتٍ لِآخَرَ",
+      "فِي كُلِّ وَقْتٍ",
+      "فِي الْمُسْتَقْبَلِ"
+     ],
+     "answer": 0,
+     "feedback": "Occasional frequency."
+    },
+    {
+     "prompt": "Choose the best sequence.",
+     "options": [
+      "أَوَّلًا ... بَعْدَ ذَلِكَ ... أَخِيرًا",
+      "أَخِيرًا ... فِي الْبِدَايَةِ ... أَوَّلًا",
+      "هُنَا ... سَرِيعًا ... أَمْسِ فقط"
+     ],
+     "answer": 0,
+     "feedback": "The sequence moves logically from first to last."
+    },
+    {
+     "prompt": "Choose “near the park”.",
+     "options": [
+      "بِالْقُرْبِ مِنَ الْحَدِيقَةِ",
+      "بَعِيدًا عَنِ الْحَدِيقَةِ",
+      "فِي اللَّيْلِ"
+     ],
+     "answer": 0,
+     "feedback": "بالقرب من = near."
+    },
+    {
+     "prompt": "Best fluency strategy?",
+     "options": [
+      "Memorise isolated translations only.",
+      "Retrieve complete chunks, then adapt the noun or time to the situation.",
+      "Insert phrases randomly to make writing longer."
+     ],
+     "answer": 1,
+     "feedback": "Chunks must serve meaning and fit the sentence."
+    }
+   ]
+  }
+ ],
+ "games": [
+  [
+   {
+    "p": "___ استيقظتُ وغسلتُ وجهي.",
+    "a": "فِي الْبِدَايَةِ",
+    "choices": [
+     "فِي الْبِدَايَةِ",
+     "أَخِيرًا",
+     "بِالْقُرْبِ مِنْ"
+    ],
+    "e": "This is the opening stage."
+   },
+   {
+    "p": "تناولتُ الإفطار، و___ خرجتُ من البيت.",
+    "a": "بَعْدَ ذَلِكَ",
+    "choices": [
+     "بَعْدَ ذَلِكَ",
+     "حَتَّى الآنَ",
+     "عَلَى الْيَمِينِ"
+    ],
+    "e": "The next event follows."
+   },
+   {
+    "p": "كان أخي يدرس، و___ كنتُ أكتب.",
+    "a": "فِي الْوَقْتِ نَفْسِهِ",
+    "choices": [
+     "فِي الْوَقْتِ نَفْسِهِ",
+     "فِي الْمُسْتَقْبَلِ",
+     "مِنْ وَقْتٍ لِآخَرَ"
+    ],
+    "e": "The actions are simultaneous."
+   },
+   {
+    "p": "___ عدتُ إلى البيت ونمتُ.",
+    "a": "أَخِيرًا",
+    "choices": [
+     "أَخِيرًا",
+     "أَوَّلًا",
+     "فِي الصَّبَاحِ فقط"
+    ],
+    "e": "This is the final stage."
+   },
+   {
+    "p": "I exercise every morning.",
+    "a": "أَتَدَرَّبُ كُلَّ صَبَاحٍ.",
+    "choices": [
+     "أَتَدَرَّبُ كُلَّ صَبَاحٍ.",
+     "أَتَدَرَّبُ فِي الْمُسْتَقْبَلِ أَمْسِ.",
+     "أَتَدَرَّبُ عَلَى الْيَمِينِ."
+    ],
+    "e": "كل صباحٍ is a frequency chunk."
+   },
+   {
+    "p": "I will work abroad in the future.",
+    "a": "فِي الْمُسْتَقْبَلِ سَأَعْمَلُ فِي الْخَارِجِ.",
+    "choices": [
+     "فِي الْمُسْتَقْبَلِ سَأَعْمَلُ فِي الْخَارِجِ.",
+     "حَتَّى الآنَ عَمِلْتُ غَدًا.",
+     "مِنْ وَقْتٍ لِآخَرَ سَافَرْتُ أَمْسِ غَدًا."
+    ],
+    "e": "The future phrase matches the future verb."
+   },
+   {
+    "p": "I visit them from time to time.",
+    "a": "أَزُورُهُمْ مِنْ وَقْتٍ لِآخَرَ.",
+    "choices": [
+     "أَزُورُهُمْ مِنْ وَقْتٍ لِآخَرَ.",
+     "أَزُورُهُمْ فِي الْوَقْتِ نَفْسِهِ فقط.",
+     "أَزُورُهُمْ أَخِيرًا كُلُّ."
+    ],
+    "e": "The chunk expresses occasional frequency."
+   },
+   {
+    "p": "Later, I will send the message.",
+    "a": "فِي وَقْتٍ لَاحِقٍ سَأُرْسِلُ الرِّسَالَةَ.",
+    "choices": [
+     "فِي وَقْتٍ لَاحِقٍ سَأُرْسِلُ الرِّسَالَةَ.",
+     "أَوَّلَ أَمْسِ سَأُرْسِلُ غَدًا.",
+     "عَلَى الْيَسَارِ أَرْسَلْتُ قَرِيبًا."
+    ],
+    "e": "Later + future verb is coherent."
+   }
+  ]
+ ],
+ "blocks": [
+  "## Why common phrases matter",
+  "Fluent communication depends on retrieving useful chunks quickly. Phrases such as كُلَّ يَوْمٍ and فِي الْمُسْتَقْبَلِ help learners extend answers, organise narratives and give directions without building every expression word by word.",
+  "### Core",
+  "Use common time-of-day, frequency and future phrases.",
+  "### Develop",
+  "Sequence events and link ideas with varied chunks.",
+  "### Stretch",
+  "Layer time, place, frequency and sequence phrases in sustained speaking and writing.",
+  "## Diagnostic chunk check",
+  "## Frequency and routine chunks",
+  "Learn the whole phrase, including the form of the noun after it.",
+  "TABLE: Phrase | Meaning | Model // كُلَّ يَوْمٍ | every day | أَقْرَأُ كُلَّ يَوْمٍ. // كُلَّ صَبَاحٍ / كُلَّ مَسَاءٍ | every morning/evening | أَمْشِي كُلَّ صَبَاحٍ. // مَرَّةً فِي الأُسْبُوعِ | once a week | أَسْبَحُ مَرَّةً فِي الأُسْبُوعِ. // مَرَّتَيْنِ فِي الأُسْبُوعِ | twice a week | أَتَدَرَّبُ مَرَّتَيْنِ فِي الأُسْبُوعِ. // مِنْ وَقْتٍ لِآخَرَ | from time to time | أَزُورُ الْمَتْحَفَ مِنْ وَقْتٍ لِآخَرَ.",
+  "[callout] Why كُلَّ يَوْمٍ ? In this adverbial use, كُلَّ is accusative and the following noun is genitive. At IGCSE level, accurate use matters more than naming every case label.",
+  "## Parts of the day and time horizon",
+  "### Within the day",
+  "فِي الصَّبَاحِ بَعْدَ الظُّهْرِ فِي الْمَسَاءِ فِي اللَّيْلِ عِنْدَ مُنْتَصَفِ اللَّيْلِ",
+  "### Across a longer period",
+  "فِي الْوَقْتِ الْحَالِيِّ حَتَّى الآنَ فِي وَقْتٍ لَاحِقٍ فِي الْمُسْتَقْبَلِ يَوْمًا مَا",
+  "[example] فِي الْوَقْتِ الْحَالِيِّ أَدْرُسُ الْعَرَبِيَّةَ. → فِي الْمُسْتَقْبَلِ سَأَسْتَعْمِلُهَا فِي عَمَلِي.",
+  "[ar] فِي الْوَقْتِ الْحَالِيِّ أَدْرُسُ الْعَرَبِيَّةَ.",
+  "[ar] فِي الْمُسْتَقْبَلِ سَأَسْتَعْمِلُهَا فِي عَمَلِي.",
+  "## Sequence and fluency links",
+  "These expressions help a listener follow a routine, story, set of instructions or travel account.",
+  "TABLE: Stage | Useful phrases | Function // Opening | فِي الْبِدَايَةِ، أَوَّلًا | introduce the first stage // Continuation | ثُمَّ، بَعْدَ ذَلِكَ، فِي وَقْتٍ لَاحِقٍ | move forward // Simultaneous | فِي الْوَقْتِ نَفْسِهِ | show two things happening together // Ending | أَخِيرًا، فِي النِّهَايَةِ | close the sequence",
+  "[callout/warning] Avoid the “ثُمَّ chain”. Repeating ثُمَّ before every sentence makes writing mechanical. Vary sequence phrases only when the relationship between ideas is accurate.",
+  "## Place and direction chunks",
+  "These phrases are especially useful in role plays, travel, town and school contexts.",
+  "### Position",
+  "فِي الدَّاخِلِ / فِي الْخَارِجِ عَلَى الْيَمِينِ / عَلَى الْيَسَارِ فِي الْوَسَطِ",
+  "### Distance and relation",
+  "بِالْقُرْبِ مِنْ بَعِيدًا عَنْ أَمَامَ / خَلْفَ / بَيْنَ",
+  "## Cambridge-style functional application",
+  "### 📖 Reading organisation",
+  "فِي الْبِدَايَةِ وَصَلْنَا إِلَى الْمَحَطَّةِ فِي الصَّبَاحِ. بَعْدَ ذَلِكَ مَشَيْنَا إِلَى فُنْدُقٍ بِالْقُرْبِ مِنَ الْبَحْرِ. فِي الْمَسَاءِ خَرَجْنَا مِنْ وَقْتٍ لِآخَرَ لِزِيَارَةِ السُّوقِ، وَأَخِيرًا عُدْنَا إِلَى الْفُنْدُقِ.",
+  "Identify frequency, time-of-day, place and sequence phrases. Explain how each guides the reader.",
+  "### 🎧 Route listening",
+  "A partner gives directions using right, left, near and far. Draw the route, then repeat it back using the same chunks.",
+  "### 🗣️ Extended answer ladder",
+  "Answer a topic-conversation question in three stages: basic answer; add a frequency/time phrase; add sequence or future development.",
+  "### 🛠️ Chunk audit",
+  "Take an old paragraph. Replace repeated ثُمَّ , add two useful time phrases, and delete any phrase that does not contribute meaning.",
+  "### ✍️ Integrated fluency task",
+  "Write 120–140 words as an email, blog entry or short article about a routine, trip or future plan. Include at least ten different adverbial chunks from this lesson.",
+  "[callout] Model: فِي الْبِدَايَةِ سَأَصِفُ رُوتِينِي. أَسْتَيْقِظُ كُلَّ صَبَاحٍ، وَبَعْدَ ذَلِكَ أَذْهَبُ إِلَى مَدْرَسَتِي الَّتِي تَقَعُ بِالْقُرْبِ مِنْ بَيْتِي.",
+  "[callout] Success checklist: Use at least two frequency phrases, two time-of-day/horizon phrases, three sequence links and two place/direction phrases; keep the time frames coherent; use phrases to clarify meaning rather than pad the word count.",
+  "Save and mark complete Clear",
+  "Plan a timeline, place map or sentence flowchart, then label it in Arabic with the target adverbs.",
+  "Complete the same task on paper. Circle each adverb or adverbial phrase and draw an arrow to the verb or sentence it modifies.",
+  "## Final package mastery check",
+  "### You have completed Adverbs Grammar Mastery",
+  "- use common time, place and manner adverbs;",
+  "- control past, present and future time frames;",
+  "- build prepositional adverbial phrases accurately;",
+  "- retrieve common chunks for routine, sequence, direction and fluency.",
+  "Return in 3–7 days and complete the final check again without reviewing. Spaced retrieval is part of mastery."
+ ]
+}

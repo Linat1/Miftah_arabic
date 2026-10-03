@@ -1,0 +1,114 @@
+{
+ "path": "lessons/grammar/07a-verb-forms/form-09.php",
+ "title": "Form IX: Colours and Physical States",
+ "arabic": "الْوَزْنُ التَّاسِعُ",
+ "lede": "Form IX is a comparatively rare family associated especially with becoming a colour or acquiring certain physical characteristics. It is best approached through recognition rather than memorising a large paradigm.",
+ "nav": [
+  [
+   "GM-VF-08",
+   "Form VIII: Meeting, Choosing and Acquiring"
+  ]
+ ],
+ "quizzes": [
+  {
+   "title": "Quick pattern check",
+   "items": [
+    {
+     "prompt": "Which verb is Form IX?",
+     "options": [
+      "أَحْمَرُ",
+      "اِحْمَرَّ",
+      "حَمْرَاءُ"
+     ],
+     "answer": 1,
+     "feedback": "اِحْمَرَّ is a verb meaning to become red."
+    }
+   ]
+  },
+  {
+   "title": "Form IX · Self-check",
+   "items": [
+    {
+     "prompt": "Which verb is Form IX?",
+     "options": [
+      "أَحْمَرُ",
+      "حَمْرَاءُ",
+      "اِحْمَرَّ"
+     ],
+     "answer": 2,
+     "feedback": "اِحْمَرَّ is a verb meaning to become red."
+    },
+    {
+     "prompt": "Which form means “the land becomes green”?",
+     "options": [
+      "الْأَرْضُ خَضْرَاءُ",
+      "أَخْضَرُ الْأَرْضُ",
+      "تَخْضَرُّ الْأَرْضُ"
+     ],
+     "answer": 2,
+     "feedback": "تَخْضَرُّ describes a change of state; the adjective describes an existing state."
+    },
+    {
+     "prompt": "Which statement is accurate?",
+     "options": [
+      "Form IX is relatively rare and often concerns colours or physical characteristics.",
+      "Form IX is the grammatical passive of Form I.",
+      "Form IX is the usual form of every colour adjective."
+     ],
+     "answer": 0,
+     "feedback": "Learn Form IX as a recognisable, limited lexical family."
+    }
+   ]
+  }
+ ],
+ "games": [],
+ "blocks": [
+  "## Why this matters",
+  "Learn the meaning before memorising the pattern.",
+  "### Core",
+  "Recognise the pattern and understand the model verb in a sentence.",
+  "### Develop",
+  "Use two or three verbs from this family in accurate past and present sentences.",
+  "[callout] Your goal: Form IX is a comparatively rare family associated especially with becoming a colour or acquiring certain physical characteristics. It is best approached through recognition rather than memorising a large paradigm.",
+  "## Discover the pattern",
+  "Notice what changes and what stays connected to the root.",
+  "### Root and pattern",
+  "The pattern has a doubled final radical: اِفْعَلَّ / يَفْعَلُّ. The verbal noun commonly follows اِفْعِلَالٌ. This differs from a doubled Form I verb, where the second and third root consonants are identical.",
+  "TABLE: Past | Present | Meaning // اِحْمَرَّ | يَحْمَرُّ | to become red",
+  "[callout] Notice the relationship: أَحْمَرُ is an adjective meaning red, while اِحْمَرَّ means to become red. The adjective and verb are related, but they are different parts of speech.",
+  "## Learn the family",
+  "Read each pair aloud, then use the verbs in meaningful sentences.",
+  "TABLE: Past | Present | Meaning // اِصْفَرَّ | يَصْفَرُّ | to become yellow or pale // اِخْضَرَّ | يَخْضَرُّ | to become green // اِسْوَدَّ | يَسْوَدُّ | to become black",
+  "اِحْمَرَّ وَجْهُهُ مِنَ الْخَجَلِ.",
+  "His face became red with embarrassment.",
+  "تَخْضَرُّ الْأَرْضُ فِي الرَّبِيعِ.",
+  "The land becomes green in spring.",
+  "اِصْفَرَّتْ أَوْرَاقُ الشَّجَرِ فِي الْخَرِيفِ.",
+  "The leaves of the trees turned yellow in autumn.",
+  "[callout] Look closely: Compare أَحْمَرُ (red) with اِحْمَرَّ (became red). The latter is a verb and can take past and present person endings. The ordinary adjective does not become a verb merely by changing its final vowel.",
+  "## Practise and apply",
+  "Move from recognising the pattern to using the language yourself.",
+  "### Misconception clinic",
+  "Form IX is not the ordinary way to say that something is a colour. Use the adjective for a state: الْوَرَقَةُ صَفْرَاءُ. Use the verb to describe becoming: اِصْفَرَّتِ الْوَرَقَةُ.",
+  "The leaf is yellow. / The leaf turned yellow.",
+  "### Apply the form",
+  "Describe two seasonal changes and one change in a person’s appearance. Use one adjective and two Form IX verbs.",
+  "[callout] Success checklist: Use the correct verb form and person; check the past/present vowels; use a natural sentence and reread your Arabic.",
+  "Complete your own response first. This is one possible answer, not the only correct response.",
+  "فِي الرَّبِيعِ تَخْضَرُّ الْأَرْضُ، وَفِي الْخَرِيفِ تَصْفَرُّ الْأَوْرَاقُ. اِحْمَرَّ وَجْهُ الطَّالِبِ مِنَ الْخَجَلِ، وَكَانَتِ السَّمَاءُ زَرْقَاءَ.",
+  "In spring the land becomes green, and in autumn the leaves turn yellow. The student’s face became red with embarrassment, and the sky was blue.",
+  "Compare the root ح-م-ر in أَحْمَرُ, حَمْرَاءُ, اِحْمَرَّ and اِحْمِرَارٌ. Identify the adjective forms, verb and verbal noun.",
+  "Use the optional morphology reference if you need a pattern reminder.",
+  "## Final self-check",
+  "Try the questions without looking back. Your feedback explains the key feature.",
+  "## What you can now do",
+  "Review the essentials before moving to the next form.",
+  "### Lesson mastery summary",
+  "- recognise Form IX and its characteristic pattern;",
+  "- understand and use the model verb in context;",
+  "- distinguish this family from a related form;",
+  "- check the accuracy of your own Arabic sentences.",
+  "Return in a few days and repeat the self-check. Learn the next form only when you are ready.",
+  "Back to all ten forms · Optional morphology reference"
+ ]
+}

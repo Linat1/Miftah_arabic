@@ -1,0 +1,114 @@
+{
+ "path": "lessons/grammar/07a-verb-forms/form-04.php",
+ "title": "Form IV: Causing and Bringing About",
+ "arabic": "الْوَزْنُ الرَّابِعُ",
+ "lede": "Form IV often expresses causing, enabling or bringing about an action. Its verbs are common in messages, travel, work and formal communication.",
+ "nav": [
+  [
+   "GM-VF-03",
+   "Form III: Participation and Interaction"
+  ]
+ ],
+ "quizzes": [
+  {
+   "title": "Quick pattern check",
+   "items": [
+    {
+     "prompt": "Which pair is a Form IV past and present?",
+     "options": [
+      "رَاسَلَ / يُرَاسِلُ",
+      "أَرْسَلَ / يُرْسِلُ",
+      "أَرْسَلَ / يَأْرْسَلُ"
+     ],
+     "answer": 1,
+     "feedback": "The normal Form IV present is يُفْعِلُ."
+    }
+   ]
+  },
+  {
+   "title": "Form IV · Self-check",
+   "items": [
+    {
+     "prompt": "Which pair is a Form IV past and present?",
+     "options": [
+      "رَاسَلَ / يُرَاسِلُ",
+      "أَرْسَلَ / يَأْرْسَلُ",
+      "أَرْسَلَ / يُرْسِلُ"
+     ],
+     "answer": 2,
+     "feedback": "The normal Form IV present is يُفْعِلُ."
+    },
+    {
+     "prompt": "Which form means “I send”?",
+     "options": [
+      "يُرْسِلُ",
+      "أَرْسَلَ",
+      "أُرْسِلُ"
+     ],
+     "answer": 2,
+     "feedback": "أُرْسِلُ uses the first-person present prefix."
+    },
+    {
+     "prompt": "Why is أَكْتُبُ not Form IV?",
+     "options": [
+      "Every initial hamza creates Form IV.",
+      "It contains a doubled middle consonant.",
+      "It is the first-person present of Form I كَتَبَ."
+     ],
+     "answer": 2,
+     "feedback": "Identify the root, stem and person separately."
+    }
+   ]
+  }
+ ],
+ "games": [],
+ "blocks": [
+  "## Why this matters",
+  "Learn the meaning before memorising the pattern.",
+  "### Core",
+  "Recognise the pattern and understand the model verb in a sentence.",
+  "### Develop",
+  "Use two or three verbs from this family in accurate past and present sentences.",
+  "[callout] Your goal: Form IV often expresses causing, enabling or bringing about an action. Its verbs are common in messages, travel, work and formal communication.",
+  "## Discover the pattern",
+  "Notice what changes and what stays connected to the root.",
+  "### Root and pattern",
+  "A hamza prefix is added in the past: أَفْعَلَ. The common present is يُفْعِلُ. Notice that the past hamza is not retained as an extra أ after the present prefix.",
+  "TABLE: Past | Present | Meaning // أَرْسَلَ | يُرْسِلُ | to send",
+  "[callout] Notice the relationship: خَرَجَ means to go out; أَخْرَجَ can mean to take or bring something out. This demonstrates a common causative relationship, but many Form IV meanings are lexical.",
+  "## Learn the family",
+  "Read each pair aloud, then use the verbs in meaningful sentences.",
+  "TABLE: Past | Present | Meaning // أَدْخَلَ | يُدْخِلُ | to bring in or enter something // أَخْرَجَ | يُخْرِجُ | to take out // أَعْلَنَ | يُعْلِنُ | to announce",
+  "أُرْسِلُ رِسَالَةً إِلَى صَدِيقِي.",
+  "I am sending a message to my friend.",
+  "أَدْخَلَتِ الْمُعَلِّمَةُ الطُّلَّابَ إِلَى الْفَصْلِ.",
+  "The teacher brought the students into the classroom.",
+  "أَعْلَنَ الْمُدِيرُ مَوْعِدَ الِاجْتِمَاعِ.",
+  "The headteacher announced the meeting time.",
+  "[callout] Look closely: أَرْسَلَ → يُرْسِلُ → أُرْسِلُ. The last form means “I send”: the initial أ is the first-person present prefix, not the past Form IV hamza.",
+  "## Practise and apply",
+  "Move from recognising the pattern to using the language yourself.",
+  "### Misconception clinic",
+  "Do not assume that every verb beginning with أ is Form IV. A present verb such as أَكْتُبُ is Form I, first person.",
+  "Distinguish the past derivational hamza from the present person prefix.",
+  "### Apply the form",
+  "Write a short message about organising a meeting. Explain what you sent, what the headteacher announced and what you will send tomorrow.",
+  "[callout] Success checklist: Use the correct verb form and person; check the past/present vowels; use a natural sentence and reread your Arabic.",
+  "Complete your own response first. This is one possible answer, not the only correct response.",
+  "أَرْسَلْتُ رِسَالَةً إِلَى صَدِيقِي أَمْسِ. وَأَعْلَنَ الْمُدِيرُ مَوْعِدَ الِاجْتِمَاعِ. سَأُرْسِلُ الْمَعْلُومَاتِ غَدًا.",
+  "I sent a message to my friend yesterday. The headteacher announced the meeting time. I will send the information tomorrow.",
+  "Compare خَرَجَ and أَخْرَجَ, then give an example of an intransitive verb becoming transitive through Form IV.",
+  "Use the optional morphology reference if you need a pattern reminder.",
+  "## Final self-check",
+  "Try the questions without looking back. Your feedback explains the key feature.",
+  "## What you can now do",
+  "Review the essentials before moving to the next form.",
+  "### Lesson mastery summary",
+  "- recognise Form IV and its characteristic pattern;",
+  "- understand and use the model verb in context;",
+  "- distinguish this family from a related form;",
+  "- check the accuracy of your own Arabic sentences.",
+  "Return in a few days and repeat the self-check. Learn the next form only when you are ready.",
+  "Back to all ten forms · Optional morphology reference"
+ ]
+}

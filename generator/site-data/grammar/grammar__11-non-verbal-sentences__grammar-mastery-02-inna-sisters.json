@@ -1,0 +1,364 @@
+{
+ "path": "lessons/grammar/11-non-verbal-sentences/grammar-mastery-02-inna-sisters.php",
+ "title": "إِنَّ and Its Sisters",
+ "arabic": "إِنَّ وَأَخَوَاتُهَا",
+ "lede": "Modify a nominal sentence to express emphasis, reported thought, reason, contrast, hope, wish and resemblance.",
+ "nav": [
+  [
+   "GM-NVS-01",
+   "Simple Non-Verbal Sentences"
+  ]
+ ],
+ "quizzes": [
+  {
+   "title": "🔎 Entry Check",
+   "items": [
+    {
+     "prompt": "Choose the correct emphasis: “Indeed, the lesson is useful.”",
+     "options": [
+      "إِنَّ الدَّرْسَ مُفِيدٌ.",
+      "إِنَّ الدَّرْسُ مُفِيدًا.",
+      "الدَّرْسَ إِنَّ مُفِيدٌ."
+     ],
+     "answer": 0,
+     "feedback": "إِنَّ places its noun in the accusative and leaves the predicate nominative."
+    },
+    {
+     "prompt": "Complete: أَعْتَقِدُ ___ التَّعَلُّمَ مُهِمٌّ.",
+     "options": [
+      "أَنَّ",
+      "إِنَّ",
+      "كَانَ"
+     ],
+     "answer": 0,
+     "feedback": "أَنَّ links the reported idea after a verb such as أَعْتَقِدُ."
+    },
+    {
+     "prompt": "Choose “because it is useful”.",
+     "options": [
+      "لِأَنَّهُ مُفِيدٌ",
+      "لِأَنَّهُ مُفِيدًا",
+      "لِأَنُّهُ مُفِيدٌ"
+     ],
+     "answer": 0,
+     "feedback": "The attached pronoun is the noun of أَنَّ; the predicate remains nominative."
+    },
+    {
+     "prompt": "Which expresses hope/possibility?",
+     "options": [
+      "لَعَلَّ الطَّقْسَ جَمِيلٌ غَدًا.",
+      "لَيْتَ الطَّقْسَ جَمِيلٌ أَمْسِ.",
+      "كَأَنَّ الطَّقْسَ جَمِيلٌ."
+     ],
+     "answer": 0,
+     "feedback": "لَعَلَّ commonly expresses hope or possibility."
+    },
+    {
+     "prompt": "Which expresses a wish?",
+     "options": [
+      "لَيْتَ الْعُطْلَةَ طَوِيلَةٌ.",
+      "إِنَّ الْعُطْلَةَ طَوِيلَةٌ.",
+      "أَنَّ الْعُطْلَةَ طَوِيلَةٌ."
+     ],
+     "answer": 0,
+     "feedback": "لَيْتَ introduces a wished-for situation."
+    },
+    {
+     "prompt": "Which contrast form contains a pronoun?",
+     "options": [
+      "لَكِنَّهُ مُتْعَبٌ.",
+      "لَكِنْ هُوَ مُتْعَبٌ.",
+      "لَكِنُّهُ مُتْعَبًا."
+     ],
+     "answer": 0,
+     "feedback": "لَكِنَّ may take an attached pronoun: لَكِنَّهُ."
+    }
+   ]
+  },
+  {
+   "title": "إِنَّ / أَنَّ Check",
+   "items": [
+    {
+     "prompt": "Transform: الْمَدْرَسَةُ كَبِيرَةٌ.",
+     "options": [
+      "إِنَّ الْمَدْرَسَةَ كَبِيرَةٌ.",
+      "إِنَّ الْمَدْرَسَةُ كَبِيرَةً.",
+      "إِنَّ الْمَدْرَسَةِ كَبِيرَةٌ."
+     ],
+     "answer": 0,
+     "feedback": "The subject becomes accusative; the predicate remains nominative."
+    },
+    {
+     "prompt": "Choose the natural reported opinion.",
+     "options": [
+      "أَعْتَقِدُ أَنَّ الْمَدْرَسَةَ مُنَظَّمَةٌ.",
+      "أَعْتَقِدُ إِنَّ الْمَدْرَسَةَ مُنَظَّمَةٌ.",
+      "أَعْتَقِدُ كَانَتِ الْمَدْرَسَةُ."
+     ],
+     "answer": 0,
+     "feedback": "أَنَّ follows the reporting verb."
+    },
+    {
+     "prompt": "Choose “but she is busy”.",
+     "options": [
+      "لَكِنَّهَا مَشْغُولَةٌ.",
+      "لَكِنَّهَا مَشْغُولَةً.",
+      "لَكِنَّهُ مَشْغُولَةٌ."
+     ],
+     "answer": 0,
+     "feedback": "The attached feminine pronoun is the noun; predicate agrees and stays nominative."
+    },
+    {
+     "prompt": "Choose “It is as though the city is asleep.”",
+     "options": [
+      "كَأَنَّ الْمَدِينَةَ نَائِمَةٌ.",
+      "كَأَنَّ الْمَدِينَةُ نَائِمَةً.",
+      "لَعَلَّ الْمَدِينَةَ نَائِمَةً."
+     ],
+     "answer": 0,
+     "feedback": "كَأَنَّ introduces comparison or appearance."
+    }
+   ]
+  },
+  {
+   "title": "🏁 Final Mastery",
+   "items": [
+    {
+     "prompt": "Which particle adds emphasis at the start?",
+     "options": [
+      "إِنَّ",
+      "أَنَّ",
+      "لَيْسَ"
+     ],
+     "answer": 0,
+     "feedback": "إِنَّ commonly opens an emphatic statement."
+    },
+    {
+     "prompt": "Which follows أَعْرِفُ in “I know that…”?",
+     "options": [
+      "أَنَّ",
+      "إِنَّ",
+      "لَعَلَّ"
+     ],
+     "answer": 0,
+     "feedback": "أَنَّ connects the subordinate content."
+    },
+    {
+     "prompt": "Choose the correct case-aware model.",
+     "options": [
+      "إِنَّ الطَّالِبَ مُجْتَهِدٌ.",
+      "إِنَّ الطَّالِبُ مُجْتَهِدًا.",
+      "إِنَّ الطَّالِبِ مُجْتَهِدٌ."
+     ],
+     "answer": 0,
+     "feedback": "Ism inna accusative; khabar nominative."
+    },
+    {
+     "prompt": "Which means “because she is kind”?",
+     "options": [
+      "لِأَنَّهَا لَطِيفَةٌ",
+      "لِأَنَّهَا لَطِيفَةً",
+      "لِأَنَّهُ لَطِيفَةٌ"
+     ],
+     "answer": 0,
+     "feedback": "The attached pronoun is feminine; the predicate agrees."
+    },
+    {
+     "prompt": "Which means “perhaps the exam is easy”?",
+     "options": [
+      "لَعَلَّ الِامْتِحَانَ سَهْلٌ.",
+      "لَيْتَ الِامْتِحَانَ سَهْلٌ.",
+      "إِنَّ الِامْتِحَانَ سَهْلٌ."
+     ],
+     "answer": 0,
+     "feedback": "لَعَلَّ expresses hope/possibility."
+    },
+    {
+     "prompt": "Which means “I wish the holiday were longer”?",
+     "options": [
+      "لَيْتَ الْعُطْلَةَ أَطْوَلُ.",
+      "كَأَنَّ الْعُطْلَةَ أَطْوَلُ.",
+      "لَكِنَّ الْعُطْلَةَ أَطْوَلُ."
+     ],
+     "answer": 0,
+     "feedback": "لَيْتَ introduces a wish."
+    },
+    {
+     "prompt": "Which means “as though the sea is a mirror”?",
+     "options": [
+      "كَأَنَّ الْبَحْرَ مِرْآةٌ.",
+      "إِنَّ الْبَحْرَ مِرْآةٌ.",
+      "لَعَلَّ الْبَحْرَ مِرْآةٌ."
+     ],
+     "answer": 0,
+     "feedback": "كَأَنَّ expresses resemblance."
+    },
+    {
+     "prompt": "Choose the correct attached pronoun.",
+     "options": [
+      "إِنَّهُمْ مُسْتَعِدُّونَ.",
+      "إِنَّهُ مُسْتَعِدُّونَ.",
+      "إِنَّهُمْ مُسْتَعِدٌ."
+     ],
+     "answer": 0,
+     "feedback": "Plural pronoun and human plural predicate agree."
+    },
+    {
+     "prompt": "Which contrast is grammatically complete?",
+     "options": [
+      "الطَّرِيقُ طَوِيلٌ، لَكِنَّهُ آمِنٌ.",
+      "الطَّرِيقُ طَوِيلٌ، لَكِنَّهُ آمِنًا.",
+      "الطَّرِيقُ طَوِيلٌ، لَكِنُّهُ آمِنٌ."
+     ],
+     "answer": 0,
+     "feedback": "Correct spelling and nominative predicate."
+    },
+    {
+     "prompt": "Best learner strategy?",
+     "options": [
+      "Learn each particle with its meaning, sentence frame and one model.",
+      "Add إِنَّ to every paragraph sentence.",
+      "Memorise case labels without using the structures."
+     ],
+     "answer": 0,
+     "feedback": "Functional frames turn grammar into usable communication."
+    }
+   ]
+  }
+ ],
+ "games": [
+  [
+   {
+    "p": "Indeed, the city is beautiful.",
+    "a": "إِنَّ الْمَدِينَةَ جَمِيلَةٌ.",
+    "choices": [
+     "إِنَّ الْمَدِينَةَ جَمِيلَةٌ.",
+     "أَنَّ الْمَدِينَةُ جَمِيلَةً.",
+     "كَانَتِ الْمَدِينَةَ جَمِيلَةٌ."
+    ],
+    "e": "إِنَّ opens an emphatic statement."
+   },
+   {
+    "p": "I think that the plan is useful.",
+    "a": "أَعْتَقِدُ أَنَّ الْخُطَّةَ مُفِيدَةٌ.",
+    "choices": [
+     "أَعْتَقِدُ أَنَّ الْخُطَّةَ مُفِيدَةٌ.",
+     "أَعْتَقِدُ إِنَّ الْخُطَّةُ مُفِيدَةٌ.",
+     "أَعْتَقِدُ لَعَلَّ الْخُطَّةَ مُفِيدَةً."
+    ],
+    "e": "أَنَّ links the content after a reporting verb."
+   },
+   {
+    "p": "because he is tired",
+    "a": "لِأَنَّهُ مُتْعَبٌ",
+    "choices": [
+     "لِأَنَّهُ مُتْعَبٌ",
+     "لِأَنَّهُ مُتْعَبًا",
+     "لِأَنَّهَا مُتْعَبٌ"
+    ],
+    "e": "Attached masculine pronoun + nominative predicate."
+   },
+   {
+    "p": "but she is organised",
+    "a": "لَكِنَّهَا مُنَظَّمَةٌ",
+    "choices": [
+     "لَكِنَّهَا مُنَظَّمَةٌ",
+     "لَكِنَّهُ مُنَظَّمَةٌ",
+     "لَكِنَّهَا مُنَظَّمَةً"
+    ],
+    "e": "The attached feminine pronoun is the noun of لَكِنَّ."
+   },
+   {
+    "p": "perhaps the bus is late",
+    "a": "لَعَلَّ الْحَافِلَةَ مُتَأَخِّرَةٌ",
+    "choices": [
+     "لَعَلَّ الْحَافِلَةَ مُتَأَخِّرَةٌ",
+     "لَيْتَ الْحَافِلَةُ مُتَأَخِّرَةً",
+     "إِنَّ الْحَافِلَةَ مُتَأَخِّرَةً"
+    ],
+    "e": "لَعَلَّ expresses possibility or hope."
+   },
+   {
+    "p": "I wish the weekend were longer.",
+    "a": "لَيْتَ عُطْلَةَ نِهَايَةِ الْأُسْبُوعِ أَطْوَلُ.",
+    "choices": [
+     "لَيْتَ عُطْلَةَ نِهَايَةِ الْأُسْبُوعِ أَطْوَلُ.",
+     "إِنَّ عُطْلَةُ نِهَايَةِ الْأُسْبُوعِ أَطْوَلَ.",
+     "لَعَلَّ عُطْلَةِ نِهَايَةِ الْأُسْبُوعِ أَطْوَلُ."
+    ],
+    "e": "لَيْتَ introduces a wish."
+   },
+   {
+    "p": "as though the sky is a painting",
+    "a": "كَأَنَّ السَّمَاءَ لَوْحَةٌ",
+    "choices": [
+     "كَأَنَّ السَّمَاءَ لَوْحَةٌ",
+     "إِنَّ السَّمَاءُ لَوْحَةً",
+     "لَكِنَّ السَّمَاءَ لَوْحَةٌ"
+    ],
+    "e": "كَأَنَّ expresses resemblance."
+   },
+   {
+    "p": "Indeed, they are successful.",
+    "a": "إِنَّهُمْ نَاجِحُونَ.",
+    "choices": [
+     "إِنَّهُمْ نَاجِحُونَ.",
+     "إِنَّهُ نَاجِحُونَ.",
+     "إِنَّهُمْ نَاجِحٌ."
+    ],
+    "e": "Pronoun and human plural predicate agree."
+   }
+  ]
+ ],
+ "blocks": [
+  "## Why this matters لِمَاذَا نَسْتَعْمِلُ إِنَّ وَأَخَوَاتِهَا؟",
+  "These particles let you emphasise, report, contrast, hope, wish and compare ideas in connected speech and writing.",
+  "### Core",
+  "Use إِنَّ, أَنَّ and لِأَنَّ in accurate everyday frames.",
+  "### Develop",
+  "Add لَكِنَّ, لَعَلَّ and attached pronouns.",
+  "### Stretch",
+  "Use لَيْتَ and كَأَنَّ with case-aware control.",
+  "[callout] Communication target: move beyond separate basic sentences by showing emphasis, reason, reporting, contrast and attitude.",
+  "## Diagnostic start",
+  "Check which meanings and endings are already secure.",
+  "## The core change after إِنَّ",
+  "The underlying nominal sentence remains, but the first part changes case.",
+  "[callout] Pattern: إِنَّ + اسْمَهَا الْمَنْصُوبَ + خَبَرَهَا الْمَرْفُوعَ",
+  "TABLE: Before | After إِنَّ | Meaning // الطَّالِبُ مُجْتَهِدٌ. | إِنَّ الطَّالِبَ مُجْتَهِدٌ. | Indeed, the student is hardworking. // الْمَدْرَسَةُ كَبِيرَةٌ. | إِنَّ الْمَدْرَسَةَ كَبِيرَةٌ. | Indeed, the school is large. // الطُّلَّابُ مُسْتَعِدُّونَ. | إِنَّ الطُّلَّابَ مُسْتَعِدُّونَ. | Indeed, the students are ready.",
+  "[callout/warning] Do not move both endings: the predicate does not become accusative simply because إِنَّ appears.",
+  "## إِنَّ at the start; أَنَّ inside a larger sentence",
+  "The two particles share grammar but serve different linking roles.",
+  "TABLE: Use | Frame | Model // opening emphasis | إِنَّ... | إِنَّ التَّعَلُّمَ مُهِمٌّ. // reported thought | أَعْتَقِدُ أَنَّ... | أَعْتَقِدُ أَنَّ التَّعَلُّمَ مُهِمٌّ. // knowledge | أَعْرِفُ أَنَّ... | أَعْرِفُ أَنَّ الطَّرِيقَ طَوِيلٌ. // reason | لِأَنَّ... | أَدْرُسُ لِأَنَّ الِامْتِحَانَ قَرِيبٌ.",
+  "[callout] Practical distinction: start an independent emphatic statement with إِنَّ ; introduce the content after a reporting verb with أَنَّ .",
+  "## Attached pronouns make fluent clauses",
+  "The pronoun can serve as the noun of the particle.",
+  "TABLE: Person | Form | Model // I | إِنَّنِي / إِنِّي | إِنَّنِي مُسْتَعِدَّةٌ. // you m. | إِنَّكَ | إِنَّكَ مُجْتَهِدٌ. // you f. | إِنَّكِ | إِنَّكِ مُجْتَهِدَةٌ. // he/it m. | إِنَّهُ | إِنَّهُ مُفِيدٌ. // she/it f. | إِنَّهَا | إِنَّهَا مُفِيدَةٌ. // we | إِنَّنَا | إِنَّنَا مُسْتَعِدُّونَ. // they | إِنَّهُمْ / إِنَّهُنَّ | إِنَّهُمْ نَاجِحُونَ.",
+  "[callout] High-value frame: أُفَضِّلُ الْقِرَاءَةَ لِأَنَّهَا مُفِيدَةٌ وَمُمْتِعَةٌ.",
+  "## A functional map of the main sisters",
+  "Learn the communicative job of each particle before memorising labels.",
+  "TABLE: Particle | Communicative job | Model // لَكِنَّ | strong contrast | الطَّرِيقُ طَوِيلٌ، لَكِنَّهُ آمِنٌ. // لَعَلَّ | hope or possibility | لَعَلَّ الطَّقْسَ جَمِيلٌ غَدًا. // لَيْتَ | wish | لَيْتَ الْعُطْلَةَ أَطْوَلُ. // كَأَنَّ | resemblance / appearance | كَأَنَّ الْبَحْرَ مِرْآةٌ.",
+  "[callout/warning] لَكِنْ versus لَكِنَّ: لَكِنْ can link a new clause without governing a noun; لَكِنَّ follows the inna pattern and often appears with an attached pronoun: لَكِنَّهُ .",
+  "## Misconception clinic",
+  "Correct meaning, spelling and grammatical effect.",
+  "TABLE: Draft | Improved version | Reason // إِنَّ الطَّالِبُ مُجْتَهِدًا. | إِنَّ الطَّالِبَ مُجْتَهِدٌ. | Noun accusative; predicate nominative. // أَعْتَقِدُ إِنَّ الْخُطَّةَ جَيِّدَةٌ. | أَعْتَقِدُ أَنَّ الْخُطَّةَ جَيِّدَةٌ. | Reported content uses أَنَّ. // لِأَنَّهُ مُفِيدًا. | لِأَنَّهُ مُفِيدٌ. | Predicate remains nominative. // لَكِنُّهُ | لَكِنَّهُ | Correct vowel and spelling. // لَعَلَّ الطَّالِبُ نَاجِحًا. | لَعَلَّ الطَّالِبَ نَاجِحٌ. | Same inna-family case pattern.",
+  "## Game: Choose the particle",
+  "Select the particle that expresses the intended relationship.",
+  "## Skills workshop",
+  "Use particles to make a short opinion genuinely connected.",
+  "[ar] أَعْتَقِدُ أَنَّ التَّعَلُّمَ عَنْ بُعْدٍ مُفِيدٌ، لَكِنَّهُ يَحْتَاجُ إِلَى تَنْظِيمٍ جَيِّدٍ.",
+  "[ar] لَعَلَّ التِّقْنِيَّةَ تُسَاعِدُنَا أَكْثَرَ فِي الْمُسْتَقْبَلِ، لِأَنَّهَا تَتَطَوَّرُ بِسُرْعَةٍ.",
+  "### Write a connected opinion",
+  "Write 100–120 Arabic words about school, technology, travel or leisure.",
+  "[callout] Success checklist: Use أَعْتَقِدُ أَنَّ, one إِنَّ statement, لِأَنَّ or لِأَنَّهُ/هَا, one contrast with لَكِنَّ, and one hope/wish form.",
+  "[callout] Paper route: Write the paragraph and colour-code the noun and predicate after two particles.",
+  "## Final mastery check",
+  "Choose particles for meaning and preserve the inna-family structure.",
+  "### What you can now do",
+  "- Use إِنَّ for emphasis and أَنَّ after reporting verbs.",
+  "- Build reason and contrast clauses with attached pronouns.",
+  "- Use لَعَلَّ, لَيْتَ and كَأَنَّ for attitude and comparison.",
+  "- Protect the noun/predicate case pattern in supported writing.",
+  "Spaced revisit: rewrite one old paragraph by replacing repeated وَ with three purposeful particle frames."
+ ]
+}

@@ -1,0 +1,772 @@
+{
+ "path": "lessons/grammar/02-articles/grammar-mastery-03-article-boundaries.php",
+ "title": "Where the Article Belongs",
+ "arabic": "مَوَاضِعُ «الـ» وَحُدُودُ اسْتِعْمَالِهَا",
+ "lede": "Move beyond “add الـ for the”. Learn how Arabic marks definiteness through articles, names, possessive suffixes, idāfa and demonstratives—and where the article must not be added.",
+ "nav": [
+  [
+   "GM-ART-02",
+   "Definiteness and Adjective Agreement"
+  ]
+ ],
+ "quizzes": [
+  {
+   "title": "🔎 Boundary Entry Check",
+   "items": [
+    {
+     "prompt": "Choose “my book”.",
+     "options": [
+      "كِتَابِي",
+      "الْكِتَابِي",
+      "الْكِتَابُ ي"
+     ],
+     "answer": 0,
+     "feedback": "The possessive suffix ـي already identifies the owner and makes the noun definite."
+    },
+    {
+     "prompt": "Choose “the student’s book”.",
+     "options": [
+      "الْكِتَابُ الطَّالِبِ",
+      "كِتَابُ الطَّالِبِ",
+      "كِتَابٌ الطَّالِبُ"
+     ],
+     "answer": 1,
+     "feedback": "In idāfa, the first noun has neither الـ nor tanwīn."
+    },
+    {
+     "prompt": "Choose the standard spelling of “in the school”.",
+     "options": [
+      "فِي الْمَدْرَسَةِ",
+      "فِلْمَدْرَسَةِ",
+      "فِي لْمَدْرَسَةِ"
+     ],
+     "answer": 0,
+     "feedback": "Hamzat al-waṣl affects connected pronunciation, not normal word separation in writing."
+    },
+    {
+     "prompt": "Combine لِـ + الْبَيْتِ.",
+     "options": [
+      "لِالْبَيْتِ",
+      "لِلْبَيْتِ",
+      "لِ لْبَيْتِ"
+     ],
+     "answer": 1,
+     "feedback": "This is a genuine spelling contraction: the article’s alif is omitted after the prefixed lām."
+    },
+    {
+     "prompt": "Which proper name is conventionally written with الـ?",
+     "options": [
+      "مَرْيَمُ",
+      "أَحْمَدُ",
+      "الْقَاهِرَةُ"
+     ],
+     "answer": 2,
+     "feedback": "Use the established form of each name; do not create a universal rule for all names."
+    },
+    {
+     "prompt": "Which means “the school’s new door”?",
+     "options": [
+      "بَابُ الْمَدْرَسَةِ الْجَدِيدُ",
+      "بَابُ الْمَدْرَسَةِ الْجَدِيدَةِ",
+      "الْبَابُ الْمَدْرَسَةِ الْجَدِيدُ"
+     ],
+     "answer": 0,
+     "feedback": "Masculine الْجَدِيدُ describes بَابُ. The first idāfa noun remains without الـ."
+    }
+   ]
+  },
+  {
+   "title": "🧭 Mini-check 1 — Name the Route",
+   "items": [
+    {
+     "prompt": "What makes الْمَنْزِلُ definite?",
+     "options": [
+      "the article",
+      "a suffix",
+      "idāfa"
+     ],
+     "answer": 0,
+     "feedback": "The visible article الـ marks the noun as definite."
+    },
+    {
+     "prompt": "What makes مَدْرَسَتُنَا definite?",
+     "options": [
+      "the article",
+      "the possessive suffix",
+      "a proper name"
+     ],
+     "answer": 1,
+     "feedback": "The suffix ـنَا identifies the owner: our school."
+    },
+    {
+     "prompt": "What makes لَيْلَى definite?",
+     "options": [
+      "a proper name",
+      "the article",
+      "tanwīn"
+     ],
+     "answer": 0,
+     "feedback": "A proper name identifies a named person without needing the article."
+    },
+    {
+     "prompt": "What makes بَابُ الْفَصْلِ definite?",
+     "options": [
+      "the first noun has الـ",
+      "the final noun in idāfa is definite",
+      "the first noun has tanwīn"
+     ],
+     "answer": 1,
+     "feedback": "The definite second term makes the complete idāfa definite."
+    },
+    {
+     "prompt": "Which remains indefinite?",
+     "options": [
+      "كِتَابُ مُعَلِّمٍ",
+      "كِتَابُ الْمُعَلِّمِ",
+      "كِتَابُهُ"
+     ],
+     "answer": 0,
+     "feedback": "The second term مُعَلِّمٍ is indefinite, so the idāfa means a teacher’s book."
+    }
+   ]
+  },
+  {
+   "title": "🔐 Mini-check 2 — Possessive Boundary",
+   "items": [
+    {
+     "prompt": "Choose “her large room”.",
+     "options": [
+      "غُرْفَتُهَا الْكَبِيرَةُ",
+      "الْغُرْفَتُهَا الْكَبِيرَةُ",
+      "غُرْفَتُهَا كَبِيرَةٌ"
+     ],
+     "answer": 0,
+     "feedback": "The suffix makes the noun definite, and the attributive adjective is definite."
+    },
+    {
+     "prompt": "Choose “Her room is large.”",
+     "options": [
+      "غُرْفَتُهَا الْكَبِيرَةُ.",
+      "غُرْفَتُهَا كَبِيرَةٌ.",
+      "الْغُرْفَتُهَا كَبِيرَةٌ."
+     ],
+     "answer": 1,
+     "feedback": "The adjective is the indefinite predicate."
+    },
+    {
+     "prompt": "Repair: الْمَدْرَسَتُنَا الْحَدِيثَةُ",
+     "options": [
+      "مَدْرَسَتُنَا الْحَدِيثَةُ",
+      "الْمَدْرَسَةُ نَا الْحَدِيثَةُ",
+      "مَدْرَسَتُنَا حَدِيثَةٌ"
+     ],
+     "answer": 0,
+     "feedback": "Remove the article from the suffixed noun but keep it on the attributive adjective."
+    },
+    {
+     "prompt": "Choose “their clean houses”.",
+     "options": [
+      "بُيُوتُهُمْ النَّظِيفَةُ",
+      "الْبُيُوتُهُمْ النَّظِيفَةُ",
+      "بُيُوتُهُمْ النَّظِيفُونَ"
+     ],
+     "answer": 0,
+     "feedback": "The non-human plural adjective is feminine singular and definite."
+    },
+    {
+     "prompt": "Why is كِتَابُكَ definite?",
+     "options": [
+      "because كِتَاب always means the book",
+      "because the suffix identifies the owner",
+      "because every noun ending in ك is definite"
+     ],
+     "answer": 1,
+     "feedback": "The attached pronoun specifies whose book it is."
+    }
+   ]
+  },
+  {
+   "title": "🏛️ Mini-check 3 — Idāfa Architecture",
+   "items": [
+    {
+     "prompt": "Choose “a hotel room”.",
+     "options": [
+      "غُرْفَةُ فُنْدُقٍ",
+      "غُرْفَةٌ فُنْدُقٍ",
+      "الْغُرْفَةُ فُنْدُقٍ"
+     ],
+     "answer": 0,
+     "feedback": "The first noun has no article or tanwīn; the indefinite second term keeps the chain indefinite."
+    },
+    {
+     "prompt": "Choose “the hotel room”.",
+     "options": [
+      "غُرْفَةُ الْفُنْدُقِ",
+      "الْغُرْفَةُ الْفُنْدُقِ",
+      "غُرْفَةٌ الْفُنْدُقُ"
+     ],
+     "answer": 0,
+     "feedback": "The definite final term makes the idāfa definite."
+    },
+    {
+     "prompt": "Choose “the school library”.",
+     "options": [
+      "مَكْتَبَةُ الْمَدْرَسَةِ",
+      "الْمَكْتَبَةُ الْمَدْرَسَةِ",
+      "مَكْتَبَةٌ الْمَدْرَسَةُ"
+     ],
+     "answer": 0,
+     "feedback": "The first noun is protected from الـ and tanwīn."
+    },
+    {
+     "prompt": "Choose “the school’s large library”.",
+     "options": [
+      "مَكْتَبَةُ الْمَدْرَسَةِ الْكَبِيرَةُ",
+      "مَكْتَبَةُ الْمَدْرَسَةِ الْكَبِيرَةِ",
+      "الْمَكْتَبَةُ الْمَدْرَسَةِ الْكَبِيرَةُ"
+     ],
+     "answer": 0,
+     "feedback": "Here الْكَبِيرَةُ matches the first noun مَكْتَبَةُ in nominative case."
+    },
+    {
+     "prompt": "Which chain means “the school headteacher’s car”?",
+     "options": [
+      "سَيَّارَةُ مُدِيرِ الْمَدْرَسَةِ",
+      "الْسَيَّارَةُ مُدِيرِ الْمَدْرَسَةِ",
+      "سَيَّارَةٌ الْمُدِيرُ الْمَدْرَسَةِ"
+     ],
+     "answer": 0,
+     "feedback": "Only the final term takes the article in this three-noun chain."
+    },
+    {
+     "prompt": "What determines whether كِتَابُ طَالِبٍ is definite?",
+     "options": [
+      "the first noun",
+      "the final term of the idāfa",
+      "the number of words"
+     ],
+     "answer": 1,
+     "feedback": "The definiteness of the final term controls the chain."
+    }
+   ]
+  },
+  {
+   "title": "✒️ Mini-check 4 — Spelling or Pronunciation?",
+   "items": [
+    {
+     "prompt": "Combine وَ + الْمَدْرَسَةُ.",
+     "options": [
+      "وَالْمَدْرَسَةُ",
+      "وَلْمَدْرَسَةُ",
+      "وَ لْمَدْرَسَةُ"
+     ],
+     "answer": 0,
+     "feedback": "وَ attaches, but the article remains written."
+    },
+    {
+     "prompt": "Combine بِـ + الْحَافِلَةِ.",
+     "options": [
+      "بِالْحَافِلَةِ",
+      "بِلْحَافِلَةِ",
+      "بِ الْحَافِلَةِ"
+     ],
+     "answer": 0,
+     "feedback": "بِـ attaches directly before the fully written article."
+    },
+    {
+     "prompt": "Combine لِـ + الْمُعَلِّمِ.",
+     "options": [
+      "لِالْمُعَلِّمِ",
+      "لِلْمُعَلِّمِ",
+      "لِ الْمُعَلِّمِ"
+     ],
+     "answer": 1,
+     "feedback": "The prefixed lām triggers written omission of the article’s alif."
+    },
+    {
+     "prompt": "How should “with the teacher” be written?",
+     "options": [
+      "مَعَ الْمُعَلِّمِ",
+      "مَعَلْمُعَلِّمِ",
+      "مَعَ لْمُعَلِّمِ"
+     ],
+     "answer": 0,
+     "feedback": "The article vowel is not heard in connection, but both words remain fully written."
+    },
+    {
+     "prompt": "Which form may combine contraction and sun-letter assimilation?",
+     "options": [
+      "لِلشَّمْسِ",
+      "فِي الْبَيْتِ",
+      "وَالْقَلَمُ"
+     ],
+     "answer": 0,
+     "feedback": "لِـ contracts with the article in writing, and ش assimilates the lām in pronunciation."
+    }
+   ]
+  },
+  {
+   "title": "🗺️ Mini-check 5 — Names and Titles",
+   "items": [
+    {
+     "prompt": "Choose the standard personal name.",
+     "options": [
+      "مَرْيَمُ",
+      "الْمَرْيَمُ",
+      "مَرْيَمٌ الـ"
+     ],
+     "answer": 0,
+     "feedback": "The personal name Maryam does not take the article."
+    },
+    {
+     "prompt": "Choose the standard city name.",
+     "options": [
+      "قَاهِرَةُ",
+      "الْقَاهِرَةُ",
+      "قَاهِرَةٌ الـ"
+     ],
+     "answer": 1,
+     "feedback": "The established name of Cairo includes the article."
+    },
+    {
+     "prompt": "Choose “Dr Layla”.",
+     "options": [
+      "الدُّكْتُورَةُ لَيْلَى",
+      "دُكْتُورَةُ الْلَيْلَى",
+      "الْدُّكْتُورَةُ الْلَيْلَى"
+     ],
+     "answer": 0,
+     "feedback": "The title is definite; the personal name keeps its established form."
+    },
+    {
+     "prompt": "Which principle is safest?",
+     "options": [
+      "All places take الـ.",
+      "No name may contain الـ.",
+      "Use each name’s established form."
+     ],
+     "answer": 2,
+     "feedback": "Proper-name article use is conventional and lexical."
+    },
+    {
+     "prompt": "Repair: أَسْكُنُ فِي قَاهِرَةَ.",
+     "options": [
+      "أَسْكُنُ فِي الْقَاهِرَةِ.",
+      "أَسْكُنُ فِي الْقَاهِرَةُ.",
+      "أَسْكُنُ فِي الْقَاهِرَةَ."
+     ],
+     "answer": 0,
+     "feedback": "Use the established article and the genitive ending after فِي."
+    }
+   ]
+  },
+  {
+   "title": "🧠 Mini-check 6 — Conventional Use",
+   "items": [
+    {
+     "prompt": "Choose the common expression “I like reading.”",
+     "options": [
+      "أُحِبُّ الْقِرَاءَةَ.",
+      "أُحِبُّ قِرَاءَةً.",
+      "أُحِبُّ الْقِرَاءَتِي."
+     ],
+     "answer": 0,
+     "feedback": "The generic activity is conventionally expressed with the article."
+    },
+    {
+     "prompt": "Choose “I go to school in the morning.”",
+     "options": [
+      "أَذْهَبُ إِلَى الْمَدْرَسَةِ فِي الصَّبَاحِ.",
+      "أَذْهَبُ إِلَى مَدْرَسَةٍ فِي صَبَاحٍ.",
+      "أَذْهَبُ إِلَى الْمَدْرَسَتِي فِي الصَّبَاحِ."
+     ],
+     "answer": 0,
+     "feedback": "Both common expressions use the definite article."
+    },
+    {
+     "prompt": "Choose “Friday morning”.",
+     "options": [
+      "صَبَاحُ الْجُمُعَةِ",
+      "الصَّبَاحُ الْجُمُعَةِ",
+      "صَبَاحٌ الْجُمُعَةُ"
+     ],
+     "answer": 0,
+     "feedback": "This is an idāfa: first noun no article or tanwīn, final noun definite."
+    },
+    {
+     "prompt": "Choose “I speak Arabic.”",
+     "options": [
+      "أَتَكَلَّمُ الْعَرَبِيَّةَ.",
+      "أَتَكَلَّمُ عَرَبِيَّةٌ.",
+      "أَتَكَلَّمُ الْعَرَبِيَّتِي."
+     ],
+     "answer": 0,
+     "feedback": "The language name commonly appears with the article."
+    },
+    {
+     "prompt": "What is the best learning strategy for fixed article use?",
+     "options": [
+      "translate every English article literally",
+      "memorise every noun in isolation",
+      "learn frequent expressions as complete patterns"
+     ],
+     "answer": 2,
+     "feedback": "Chunks preserve the natural article choice and associated prepositions."
+    }
+   ]
+  },
+  {
+   "title": "📚 Reading and Listening Evidence",
+   "items": [
+    {
+     "prompt": "Why does بَيْتُنَا not begin with الـ?",
+     "options": [
+      "because it is indefinite",
+      "because the possessive suffix already makes it definite",
+      "because بَيْت never takes an article"
+     ],
+     "answer": 1,
+     "feedback": "The attached pronoun ـنَا identifies the owner."
+    },
+    {
+     "prompt": "Which is an idāfa in the reading?",
+     "options": [
+      "الْقَاهِرَةِ",
+      "مَحَطَّةِ الْحَافِلَاتِ",
+      "كُتُبٌ مُفِيدَةٌ"
+     ],
+     "answer": 1,
+     "feedback": "مَحَطَّةِ is the protected first noun; الْحَافِلَاتِ is the second term."
+    },
+    {
+     "prompt": "Why is الْحَيِّ definite?",
+     "options": [
+      "it ends an idāfa and carries the article",
+      "it has a possessive suffix",
+      "it is a personal name"
+     ],
+     "answer": 0,
+     "feedback": "In مَلْعَبِ الْحَيِّ, the final definite term makes the idāfa specific."
+    },
+    {
+     "prompt": "In the listening, حَقِيبَتِي الزَّرْقَاءُ means:",
+     "options": [
+      "my blue bag",
+      "My bag is blue.",
+      "the blue bag is mine"
+     ],
+     "answer": 0,
+     "feedback": "The suffix makes the noun definite; the attributive adjective therefore takes الـ."
+    },
+    {
+     "prompt": "In the listening, كِتَابُ الْعَرَبِيَّةِ means:",
+     "options": [
+      "the Arabic book / Arabic textbook",
+      "an Arabic book",
+      "my Arabic book"
+     ],
+     "answer": 0,
+     "feedback": "This definite idāfa literally means the book of Arabic."
+    },
+    {
+     "prompt": "Which expression contains a demonstrative plus a suffixed noun?",
+     "options": [
+      "هَذَا كِتَابُكِ",
+      "كِتَابِي الْجَدِيدُ",
+      "قَلَمُ صَدِيقَتِي"
+     ],
+     "answer": 0,
+     "feedback": "هَذَا points to the already definite suffixed noun كِتَابُكِ."
+    }
+   ]
+  },
+  {
+   "title": "⭐ Article Boundaries Mastery",
+   "items": [
+    {
+     "prompt": "Choose “our old school”.",
+     "options": [
+      "مَدْرَسَتُنَا الْقَدِيمَةُ",
+      "الْمَدْرَسَتُنَا الْقَدِيمَةُ",
+      "مَدْرَسَتُنَا قَدِيمَةٌ"
+     ],
+     "answer": 0,
+     "feedback": "Suffix on the noun; article on the attributive adjective."
+    },
+    {
+     "prompt": "Choose “Our school is old.”",
+     "options": [
+      "مَدْرَسَتُنَا الْقَدِيمَةُ.",
+      "مَدْرَسَتُنَا قَدِيمَةٌ.",
+      "الْمَدْرَسَتُنَا قَدِيمَةٌ."
+     ],
+     "answer": 1,
+     "feedback": "The predicate adjective is indefinite."
+    },
+    {
+     "prompt": "Choose “a university library”.",
+     "options": [
+      "مَكْتَبَةُ جَامِعَةٍ",
+      "مَكْتَبَةٌ جَامِعَةٍ",
+      "الْمَكْتَبَةُ جَامِعَةٍ"
+     ],
+     "answer": 0,
+     "feedback": "Indefinite idāfa: first noun no article or tanwīn; final term indefinite."
+    },
+    {
+     "prompt": "Choose “the university library”.",
+     "options": [
+      "مَكْتَبَةُ الْجَامِعَةِ",
+      "الْمَكْتَبَةُ الْجَامِعَةِ",
+      "مَكْتَبَةٌ الْجَامِعَةُ"
+     ],
+     "answer": 0,
+     "feedback": "The definite final term makes the idāfa definite."
+    },
+    {
+     "prompt": "Choose “the new university library”.",
+     "options": [
+      "مَكْتَبَةُ الْجَامِعَةِ الْجَدِيدَةُ",
+      "مَكْتَبَةُ الْجَامِعَةِ الْجَدِيدَةِ",
+      "الْمَكْتَبَةُ الْجَامِعَةِ الْجَدِيدَةُ"
+     ],
+     "answer": 0,
+     "feedback": "Nominative الْجَدِيدَةُ describes the first noun مَكْتَبَةُ."
+    },
+    {
+     "prompt": "Combine لِـ + الطَّالِبِ.",
+     "options": [
+      "لِالطَّالِبِ",
+      "لِلطَّالِبِ",
+      "لِ الطَّالِبِ"
+     ],
+     "answer": 1,
+     "feedback": "The article’s alif is omitted in the written contraction."
+    },
+    {
+     "prompt": "Choose the standard spelling after فِي.",
+     "options": [
+      "فِي الشَّارِعِ",
+      "فِشَّارِعِ",
+      "فِي لْشَّارِعِ"
+     ],
+     "answer": 0,
+     "feedback": "Write both words fully; connected pronunciation and sun-letter assimilation do not license phonetic spelling."
+    },
+    {
+     "prompt": "Which name should not lose its article?",
+     "options": [
+      "الْجَزَائِرُ",
+      "مَرْيَمُ",
+      "أَحْمَدُ"
+     ],
+     "answer": 0,
+     "feedback": "The established country name الْجَزَائِرُ includes the article."
+    },
+    {
+     "prompt": "Choose “Mr Ahmad”.",
+     "options": [
+      "الْأُسْتَاذُ أَحْمَدُ",
+      "أُسْتَاذُ الْأَحْمَدِ",
+      "الْأُسْتَاذُ الْأَحْمَدُ"
+     ],
+     "answer": 0,
+     "feedback": "The title is definite; the personal name keeps its established form."
+    },
+    {
+     "prompt": "Choose “I like sport and reading.”",
+     "options": [
+      "أُحِبُّ الرِّيَاضَةَ وَالْقِرَاءَةَ.",
+      "أُحِبُّ رِيَاضَةً وَقِرَاءَةً.",
+      "أُحِبُّ الرِّيَاضَتِي وَالْقِرَاءَتِي."
+     ],
+     "answer": 0,
+     "feedback": "These generic activities conventionally appear with the article."
+    },
+    {
+     "prompt": "What is the first idāfa noun forbidden from taking?",
+     "options": [
+      "both الـ and tanwīn",
+      "all adjectives",
+      "all case endings"
+     ],
+     "answer": 0,
+     "feedback": "The first term has no article and no tanwīn, but it still has a case role."
+    },
+    {
+     "prompt": "Which statement is most precise?",
+     "options": [
+      "After any vowel, delete الـ in writing.",
+      "Hamzat al-waṣl affects connected pronunciation; only specific prefixed structures such as لِلـ change the spelling.",
+      "Sun letters remove the article completely."
+     ],
+     "answer": 1,
+     "feedback": "This distinguishes pronunciation, assimilation and orthographic contraction."
+    }
+   ]
+  }
+ ],
+ "games": [],
+ "blocks": [
+  "## Why boundaries matter لِمَاذَا تَهُمُّ الْحُدُودُ؟",
+  "The article is only one way to make an expression definite. Adding it mechanically can produce forms that Arabic does not permit.",
+  "### Possession already identifies",
+  "كِتَابِي",
+  "my book is already specific. Do not write ✗ الْكِتَابِي .",
+  "### Idāfa has its own architecture",
+  "بَابُ الْمَدْرَسَةِ",
+  "the school door . The first noun cannot take الـ or tanwīn.",
+  "### Speech is not spelling",
+  "فِي الْبَيْتِ",
+  "Its connected pronunciation does not justify writing ✗ فِلْبَيْتِ .",
+  "[callout] Mastery question: What is making this expression definite, and does that route allow the visible article on this particular noun?",
+  "## Choose your route اِخْتَرْ مَسَارَكَ",
+  "Core secures article placement. Develop combines structures. Stretch explains spelling, ambiguity and case-sensitive adjective targets.",
+  "### Place or omit الـ",
+  "- Recognise nouns made definite by a suffix.",
+  "- Protect the first term of idāfa.",
+  "- Write connected speech in standard spelling.",
+  "### Build accurate expressions",
+  "- Construct two- and three-term idāfa chains.",
+  "- Attach common particles to the article.",
+  "- Use established proper names and titles.",
+  "### Edit with precision",
+  "- Distinguish pronunciation elision from written contraction.",
+  "- Track adjective targets after idāfa.",
+  "- Explain conventional article use in fixed expressions.",
+  "## Diagnostic starter اِخْتِبَارُ الْبِدَايَةِ",
+  "The questions deliberately mix correct forms that look different. Decide what creates definiteness before choosing.",
+  "## Five routes to a definite expression خَمْسُ طُرُقٍ إِلَى الْمَعْرِفَةِ",
+  "Do not ask only, “Can I see الـ ?” Ask, “How is the listener able to identify this noun?”",
+  "### 1 · The article",
+  "الْكِتَابُ",
+  "the book — visibly marked by الـ .",
+  "### 2 · A proper name",
+  "مَرْيَمُ",
+  "Maryam — definite because it identifies one named person.",
+  "### 3 · A possessive suffix",
+  "كِتَابُهَا",
+  "her book — definite because the owner is specified.",
+  "### 4 · Definite idāfa",
+  "كِتَابُ الطَّالِبَةِ",
+  "the female student’s book — the final definite term makes the whole chain definite.",
+  "### 5 · Demonstrative construction",
+  "هَذَا الْكِتَابُ",
+  "this book — the demonstrative points to a definite noun, which normally carries الـ .",
+  "### Not every noun is definite",
+  "كِتَابٌ · كِتَابُ طَالِبَةٍ · هَذَا كِتَابٌ",
+  "a book · a female student’s book · this is a book",
+  "[callout] Definiteness test: Can the expression identify a specific person, object, place or concept for the listener? Then identify which grammatical route creates that specificity.",
+  "## Possessive suffixes block the article الضَّمَائِرُ الْمُتَّصِلَةُ وَ«الـ»",
+  "A noun cannot normally carry both the definite article and a possessive suffix. The two devices compete for the same grammatical job.",
+  "### Correct possessive forms",
+  "كِتَابِي · كِتَابُكَ · كِتَابُهَا · كِتَابُنَا",
+  "my book · your book · her book · our book",
+  "The suffix is joined directly to the noun.",
+  "### Forms to reject",
+  "✗ الْكِتَابِي · ✗ الْبَيْتُنَا · ✗ الْمَدْرَسَتُهُمْ",
+  "Do not place الـ before a noun that already carries a possessive ending.",
+  "### The adjective still needs a decision",
+  "كِتَابِي الْجَدِيدُ",
+  "my new book . The suffix makes the noun definite, so its attributive adjective is definite.",
+  "كِتَابِي جَدِيدٌ.",
+  "My book is new. The indefinite adjective is a predicate, not part of the possessive noun phrase.",
+  "[callout/warning] Do not repair one error by creating another. Removing الـ from the noun does not mean removing it automatically from an attributive adjective.",
+  "## Idāfa has a protected first position الْمُضَافُ وَالْمُضَافُ إِلَيْهِ",
+  "An idāfa joins nouns to express possession, association or classification. Its first noun follows two essential restrictions.",
+  "### Rule 1 · No الـ on the first noun",
+  "بَابُ الْمَدْرَسَةِ",
+  "the school door",
+  "✗ الْبَابُ الْمَدْرَسَةِ",
+  "### Rule 2 · No tanwīn on the first noun",
+  "بَابُ مَدْرَسَةٍ",
+  "a school door / the door of a school",
+  "✗ بَابٌ مَدْرَسَةٍ",
+  "### The last term controls overall definiteness",
+  "[example] كِتَابُ طَالِبٍ → a student’s book final term indefinite → whole idāfa indefinite",
+  "[ar] كِتَابُ طَالِبٍ",
+  "[example] كِتَابُ الطَّالِبِ → the student’s book final term definite → whole idāfa definite",
+  "[ar] كِتَابُ الطَّالِبِ",
+  "### Longer chains",
+  "مَكْتَبُ مُدِيرِ الْمَدْرَسَةِ",
+  "the school headteacher’s office . Only the final noun carries the article. Each earlier noun is the first term of a relationship and therefore has no article or tanwīn.",
+  "### Adjective placement can change the meaning",
+  "بَابُ الْمَدْرَسَةِ الْجَدِيدُ",
+  "the school’s new door . Masculine الْجَدِيدُ describes بَابُ .",
+  "بَابُ الْمَدْرَسَةِ الْجَدِيدَةِ",
+  "the door of the new school . Feminine genitive الْجَدِيدَةِ describes الْمَدْرَسَةِ .",
+  "[callout] Editing sequence: locate the idāfa chain → protect the first noun → inspect the final noun for definiteness → identify the noun targeted by any following adjective.",
+  "## Attached particles, spelling and pronunciation الْحُرُوفُ الْمُتَّصِلَةُ وَالرَّسْمُ الْإِمْلَائِيُّ",
+  "Some one-letter particles attach in writing. Their spelling must be distinguished from the purely spoken elision of hamzat al-waṣl.",
+  "TABLE: Combination | Written form | Example meaning | What happens? // وَ + الْبَيْتُ | وَالْبَيْتُ | and the house | The conjunction attaches; the article remains fully written. // فَ + الْبَيْتُ | فَالْبَيْتُ | so/as for the house | The conjunction attaches; the article remains. // بِـ + الْبَيْتِ | بِالْبَيْتِ | with/by means of the house | The preposition attaches before the article. // كَـ + الْبَيْتِ | كَالْبَيْتِ | like the house | The comparison particle attaches before the article. // لِـ + الْبَيْتِ | لِلْبَيْتِ | for the house | Special spelling: the article’s alif is omitted.",
+  "### Pronunciation elision only",
+  "فِي الْبَيْتِ · مَعَ الْمُعَلِّمِ",
+  "In connected speech, the initial vowel of the article is not pronounced. The two words remain separately and fully written.",
+  "### True written contraction",
+  "لِلْبَيْتِ · لِلطَّالِبِ · لِلشَّمْسِ",
+  "With prefixed لِـ , the article’s alif is omitted in standard spelling. Sun-letter assimilation may then affect pronunciation as well.",
+  "[callout/warning] Three separate processes: (1) a particle may attach in writing; (2) hamzat al-waṣl may lose its vowel in connected pronunciation; (3) the lām may assimilate before a sun letter. Do not merge these into one vague “delete letters” rule.",
+  "## Proper names and titles use established forms الْأَعْلَامُ وَالْأَلْقَابُ",
+  "Proper nouns are definite by identity, but their written form is lexical and conventional. Learn the name rather than applying a mechanical article rule.",
+  "### Commonly without الـ",
+  "مَرْيَمُ · أَحْمَدُ · لَيْلَى · دِمَشْقُ · لَنْدَنُ",
+  "Do not invent forms such as ✗ الْمَرْيَمُ or ✗ الْأَحْمَدُ .",
+  "### Established with الـ",
+  "الْقَاهِرَةُ · الْجَزَائِرُ · الْمَغْرِبُ · السُّودَانُ",
+  "Do not remove the article from names whose standard form includes it.",
+  "### Titles can be definite while the personal name remains unchanged",
+  "[example] الْأُسْتَاذُ أَحْمَدُ → Mr/Teacher Ahmad definite title + unchanged personal name",
+  "[ar] الْأُسْتَاذُ أَحْمَدُ",
+  "[example] الدُّكْتُورَةُ لَيْلَى → Dr Layla the title carries the article; Layla does not",
+  "[ar] الدُّكْتُورَةُ لَيْلَى",
+  "[callout] Safe exam practice: reproduce the established spelling found in the question, vocabulary source or a form you have learned. Do not “correct” a proper name according to an invented universal rule.",
+  "## Generic and fixed expressions التَّعَابِيرُ الْعَامَّةُ وَالثَّابِتَةُ",
+  "English and Arabic do not always choose articles in the same places. Learn frequent expressions as complete patterns.",
+  "TABLE: Arabic pattern | Natural English | Why learners hesitate // أُحِبُّ الْقِرَاءَةَ. | I like reading. | English has no “the”, but Arabic commonly treats the activity generically with الـ . // أُمَارِسُ الرِّيَاضَةَ. | I do/play sport. | The activity is expressed as a known general category. // أَتَكَلَّمُ الْعَرَبِيَّةَ. | I speak Arabic. | Language names frequently appear with the article. // أَذْهَبُ إِلَى الْمَدْرَسَةِ. | I go to school. | Arabic normally uses the definite institution in this everyday pattern. // فِي الصَّبَاحِ · بَعْدَ الظُّهْرِ | in the morning · in the afternoon | Time expressions often have conventional article use. // يَوْمُ الْجُمُعَةِ | Friday / the day of Friday | This is an idāfa: the first noun has no article.",
+  "[callout/warning] Avoid word-for-word transfer. The English presence or absence of “the” is useful evidence, but it is not a complete Arabic rule. Store high-frequency expressions as grammatical chunks.",
+  "## Apply article boundaries across the four skills طَبِّقِ الْحُدُودَ فِي الْمَهَارَاتِ الْأَرْبَعِ",
+  "The tasks use familiar Cambridge contexts: personal information, home, school, travel and everyday routines.",
+  "### 📖 Reading workshop — A message from Cairo",
+  "اِسْمِي سَلْمَى، وَأَسْكُنُ فِي الْقَاهِرَةِ مَعَ أُسْرَتِي. بَيْتُنَا الْجَدِيدُ قَرِيبٌ مِنْ مَحَطَّةِ الْحَافِلَاتِ. فِي الصَّبَاحِ أَذْهَبُ إِلَى مَدْرَسَةِ الْبَنَاتِ مَعَ صَدِيقَتِي. أُحِبُّ مَكْتَبَةَ الْمَدْرَسَةِ؛ فَهِيَ هَادِئَةٌ وَفِيهَا كُتُبٌ مُفِيدَةٌ. بَعْدَ الدِّرَاسَةِ أُمَارِسُ الرِّيَاضَةَ فِي مَلْعَبِ الْحَيِّ.",
+  "Circle every visible article, box every possessive suffix, and bracket each idāfa chain.",
+  "### 👂 Listening workshop — At the lost-property office",
+  "الطَّالِبَةُ: هَذِهِ حَقِيبَتِي الزَّرْقَاءُ، وَلَكِنَّ كِتَابَ الْعَرَبِيَّةِ لَيْسَ فِيهَا. الْمُوَظَّفَةُ: هَلْ هَذَا كِتَابُكِ؟ الطَّالِبَةُ: نَعَمْ، هَذَا كِتَابِي الْجَدِيدُ. وَهَذَا قَلَمُ صَدِيقَتِي.",
+  "Listen for three different routes to definiteness: demonstrative, suffix and idāfa.",
+  "### 🗣️ Speaking studio — School property desk",
+  "Role-play finding and returning objects. Include:",
+  "- a demonstrative: هَذِهِ الْحَقِيبَةُ ;",
+  "- a possessive suffix: حَقِيبَتِي ;",
+  "- an idāfa: كِتَابُ الطَّالِبَةِ ;",
+  "- a question: هَلْ هَذَا قَلَمُكِ؟ ;",
+  "- one corrected misunderstanding.",
+  "### ✍️ Writing workshop — My day and my places",
+  "Write 80–90 words. Use at least:",
+  "- three ordinary nouns with الـ ;",
+  "- three possessive suffixes without الـ ;",
+  "- two idāfa constructions;",
+  "- one proper name with an established article and one without;",
+  "- one attached particle such as وَالـ , بِالـ or لِلـ ;",
+  "- two fixed expressions from Section 6.",
+  "[callout] Paper route: underline every noun and label its definiteness route: ART, NAME, SUFFIX, IDĀFA or DEMONSTRATIVE.",
+  "## Cambridge article editor مُرَاجِعُ «الـ»",
+  "Proofread meaning and structure before spelling. The passage below contains article, suffix, idāfa and connected-writing errors.",
+  "### Draft containing errors",
+  "اِسْمِي الْمَرْيَمُ، وَأَسْكُنُ فِي قَاهِرَةَ. هَذَا الْبَيْتِي الْجَدِيدُ. فِي الصَّبَاحِ أَذْهَبُ إِلَى لْمَدْرَسَةِ. أُحِبُّ الْمَكْتَبَةَ الْمَدْرَسَةِ الْكَبِيرَةُ، وَأَقْرَأُ فِيهَا الْكِتَابِي الْمُفَضَّلَ.",
+  "### Corrected version",
+  "اِسْمِي مَرْيَمُ، وَأَسْكُنُ فِي الْقَاهِرَةِ. هَذَا بَيْتِي الْجَدِيدُ. فِي الصَّبَاحِ أَذْهَبُ إِلَى الْمَدْرَسَةِ. أُحِبُّ مَكْتَبَةَ الْمَدْرَسَةِ الْكَبِيرَةَ، وَأَقْرَأُ فِيهَا كِتَابِي الْمُفَضَّلَ.",
+  "TABLE: Error | Repair | Reason // الْمَرْيَمُ | مَرْيَمُ | The personal name does not conventionally take the article. // قَاهِرَةَ | الْقَاهِرَةِ | The established city name includes the article; after فِي it is genitive. // الْبَيْتِي | بَيْتِي | A possessive suffix blocks the article on the same noun. // إِلَى لْمَدْرَسَةِ | إِلَى الْمَدْرَسَةِ | Connected pronunciation does not delete the written alif after a separate word. // الْمَكْتَبَةَ الْمَدْرَسَةِ | مَكْتَبَةَ الْمَدْرَسَةِ | The first noun of idāfa cannot take the article. // الْكِتَابِي | كِتَابِي | The suffix already makes the noun definite.",
+  "[callout] Five-question editing scan: Is this noun specific? → What makes it definite? → Is الـ allowed on this noun? → Does any adjective match? → Is the spelling standard rather than phonetic?",
+  "## Final mastery check اِخْتِبَارُ الْإِتْقَانِ",
+  "These questions complete the Articles area by combining all three lessons: meaning, pronunciation, agreement and boundaries.",
+  "### Articles area complete أَتْقَنْتَ بَابَ «الـ»",
+  "- identify several routes to definiteness;",
+  "- avoid the article on nouns with possessive suffixes;",
+  "- construct definite and indefinite idāfa accurately;",
+  "- attach particles using standard spelling;",
+  "- preserve established proper names and titles;",
+  "- use common generic and fixed expressions naturally;",
+  "- proofread article choices across connected writing.",
+  "Score guide: 0–7 — revisit suffixes and idāfa. 8–10 — replay Boundary Patrol and Article Editor. 11–12 — the Articles area is secure.",
+  "Spaced revisit: after one week, edit a paragraph from another Miftah lesson and label every definite noun by route."
+ ]
+}

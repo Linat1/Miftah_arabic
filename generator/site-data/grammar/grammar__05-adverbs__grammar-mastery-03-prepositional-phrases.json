@@ -1,0 +1,433 @@
+{
+ "path": "lessons/grammar/05-adverbs/grammar-mastery-03-prepositional-phrases.php",
+ "title": "Adverb + Noun: Prepositional Phrases",
+ "arabic": "التَّرَاكِيبُ الظَّرْفِيَّةُ بِالْجَارِّ وَالْمَجْرُورِ",
+ "lede": "Build practical adverbial meaning with بِـ or فِي plus a noun, using natural phrasing and accurate genitive forms.",
+ "nav": [
+  [
+   "GM-ADV-02",
+   "Time Frames with Adverbs"
+  ]
+ ],
+ "quizzes": [
+  {
+   "title": "🔎 Entry Check",
+   "items": [
+    {
+     "prompt": "Choose “quickly” as a prepositional phrase.",
+     "options": [
+      "بِسُرْعَةٍ",
+      "سَرِيعٌ",
+      "فِي سَرِيعٍ"
+     ],
+     "answer": 0,
+     "feedback": "بِ + سُرْعَةٍ forms a common manner phrase."
+    },
+    {
+     "prompt": "Choose “easily”.",
+     "options": [
+      "بِسُهُولَةٍ",
+      "سَهْلَةٌ",
+      "فِي سَهْلٍ"
+     ],
+     "answer": 0,
+     "feedback": "The noun سُهُولَةٌ becomes genitive after بِ."
+    },
+    {
+     "prompt": "Complete: أَدْرُسُ ___ الْمَدْرَسَةِ.",
+     "options": [
+      "فِي",
+      "بِسُرْعَةٍ",
+      "هُنَاكَ مِنْ"
+     ],
+     "answer": 0,
+     "feedback": "في + place noun creates a location phrase."
+    },
+    {
+     "prompt": "Which ending is expected in the supported indefinite model after بِ?",
+     "options": [
+      "ـٌ",
+      "ـٍ",
+      "ـَانِ"
+     ],
+     "answer": 1,
+     "feedback": "A preposition governs the genitive; indefinite nouns often show tanwīn kasr."
+    },
+    {
+     "prompt": "Repair: كَتَبْتُ بِعِنَايَةٌ.",
+     "options": [
+      "كَتَبْتُ بِعِنَايَةٍ.",
+      "كَتَبْتُ عِنَايَةٌ.",
+      "كَتَبْتُ بِعِنَايَةَ."
+     ],
+     "answer": 0,
+     "feedback": "The noun after بِ is genitive."
+    },
+    {
+     "prompt": "Which statement is accurate?",
+     "options": [
+      "Every English -ly word is formed by adding بِ to the Arabic adjective.",
+      "Many Arabic adverbial meanings use preposition + noun, but the phrase must be learned naturally.",
+      "في always means “quickly”."
+     ],
+     "answer": 1,
+     "feedback": "The pattern is productive, but natural lexical choices matter."
+    }
+   ]
+  },
+  {
+   "title": "🔗 بِـ Check",
+   "items": [
+    {
+     "prompt": "Choose “carefully”.",
+     "options": [
+      "بِعِنَايَةٍ",
+      "عِنَايَةٌ",
+      "بِعِنَايَةُ"
+     ],
+     "answer": 0,
+     "feedback": "بِ + genitive noun."
+    },
+    {
+     "prompt": "Choose “clearly”.",
+     "options": [
+      "بِوُضُوحٍ",
+      "وَاضِحٌ",
+      "فِي وَاضِحٍ"
+     ],
+     "answer": 0,
+     "feedback": "بوضوح is the common phrase."
+    },
+    {
+     "prompt": "Choose “with difficulty”.",
+     "options": [
+      "بِصُعُوبَةٍ",
+      "صَعْبٌ",
+      "بِصُعُوبَةٌ"
+     ],
+     "answer": 0,
+     "feedback": "The noun takes kasra/tanwīn kasr after بِ."
+    },
+    {
+     "prompt": "Choose “The student answered calmly.”",
+     "options": [
+      "أَجَابَ الطَّالِبُ بِهُدُوءٍ.",
+      "أَجَابَ الطَّالِبُ هَادِئٌ.",
+      "أَجَابَ الطَّالِبُ فِي هَادِئٍ."
+     ],
+     "answer": 0,
+     "feedback": "بهدوء describes the manner of answering."
+    },
+    {
+     "prompt": "Which phrase is safest for “safely”?",
+     "options": [
+      "بِأَمَانٍ",
+      "أَمِينٌ",
+      "بِآمِنٌ"
+     ],
+     "answer": 0,
+     "feedback": "بأمانٍ is a natural manner phrase."
+    }
+   ]
+  },
+  {
+   "title": "🏠 فِي Check",
+   "items": [
+    {
+     "prompt": "Choose “in the morning”.",
+     "options": [
+      "فِي الصَّبَاحِ",
+      "بِالصَّبَاحُ",
+      "الصَّبَاحَ فِي"
+     ],
+     "answer": 0,
+     "feedback": "في + definite genitive noun."
+    },
+    {
+     "prompt": "Choose “at school”.",
+     "options": [
+      "فِي الْمَدْرَسَةِ",
+      "فِي الْمَدْرَسَةُ",
+      "بِسُرْعَةِ الْمَدْرَسَةِ"
+     ],
+     "answer": 0,
+     "feedback": "The noun after في is genitive."
+    },
+    {
+     "prompt": "Which is a time phrase rather than a place phrase?",
+     "options": [
+      "فِي الْمَسَاءِ",
+      "فِي الْمَكْتَبَةِ",
+      "فِي الْحَدِيقَةِ"
+     ],
+     "answer": 0,
+     "feedback": "في المساء locates an action in time."
+    },
+    {
+     "prompt": "Choose “in winter”.",
+     "options": [
+      "فِي الشِّتَاءِ",
+      "فِي الشِّتَاءُ",
+      "بِشِتَاءٌ"
+     ],
+     "answer": 0,
+     "feedback": "في + genitive definite noun."
+    },
+    {
+     "prompt": "What happens when بِ meets ال?",
+     "options": [
+      "They remain separated in writing.",
+      "They attach: بِالْـ.",
+      "The ل disappears from spelling."
+     ],
+     "answer": 1,
+     "feedback": "The preposition attaches in writing: بِالْهُدُوءِ, بِالطَّرِيقَةِ."
+    }
+   ]
+  },
+  {
+   "title": "⭐ Phrase Mastery",
+   "items": [
+    {
+     "prompt": "Choose “quickly”.",
+     "options": [
+      "بِسُرْعَةٍ",
+      "بِسُرْعَةٌ",
+      "سَرِيعَةٌ"
+     ],
+     "answer": 0,
+     "feedback": "Correct preposition + genitive noun."
+    },
+    {
+     "prompt": "Choose “easily”.",
+     "options": [
+      "بِسُهُولَةٍ",
+      "سَهْلٌ",
+      "فِي سُهُولَةُ"
+     ],
+     "answer": 0,
+     "feedback": "سهولة is genitive after ب."
+    },
+    {
+     "prompt": "Choose “carefully”.",
+     "options": [
+      "بِعِنَايَةٍ",
+      "عِنَايَةً بِ",
+      "بِعِنَايَةٌ"
+     ],
+     "answer": 0,
+     "feedback": "The standard phrase is بعنايةٍ."
+    },
+    {
+     "prompt": "Choose “clearly”.",
+     "options": [
+      "بِوُضُوحٍ",
+      "وَاضِحَةٌ",
+      "فِي وَاضِحٍ"
+     ],
+     "answer": 0,
+     "feedback": "The manner phrase is بوضوحٍ."
+    },
+    {
+     "prompt": "Complete: نَلْعَبُ ___ الْحَدِيقَةِ.",
+     "options": [
+      "فِي",
+      "بِسُرْعَةٍ",
+      "تَحْتَ فقط"
+     ],
+     "answer": 0,
+     "feedback": "في introduces place."
+    },
+    {
+     "prompt": "Complete: أَقْرَأُ ___ اللَّيْلِ.",
+     "options": [
+      "فِي",
+      "بِسُهُولَةٍ الْـ",
+      "هُنَا مِنْ"
+     ],
+     "answer": 0,
+     "feedback": "في الليل is a time phrase."
+    },
+    {
+     "prompt": "Repair: سَافَرْنَا بِأَمَانٌ.",
+     "options": [
+      "سَافَرْنَا بِأَمَانٍ.",
+      "سَافَرْنَا أَمَانٌ.",
+      "سَافَرْنَا بِآمِنَةٌ."
+     ],
+     "answer": 0,
+     "feedback": "Genitive after ب."
+    },
+    {
+     "prompt": "Which phrase contains a definite genitive noun?",
+     "options": [
+      "فِي الْمَدْرَسَةِ",
+      "بِسُرْعَةٍ",
+      "هُنَا"
+     ],
+     "answer": 0,
+     "feedback": "المدرسة is definite and genitive after في."
+    },
+    {
+     "prompt": "Choose the natural sentence.",
+     "options": [
+      "فَهِمْتُ السُّؤَالَ بِسُهُولَةٍ.",
+      "فَهِمْتُ السُّؤَالَ بِسَهْلٌ.",
+      "فَهِمْتُ بِالسُّؤَالِ سُهُولَةٌ."
+     ],
+     "answer": 0,
+     "feedback": "The phrase naturally modifies the verb."
+    },
+    {
+     "prompt": "Best rule?",
+     "options": [
+      "Translate -ly mechanically.",
+      "Learn common phrase patterns and check the governed noun.",
+      "Use في before every manner word."
+     ],
+     "answer": 1,
+     "feedback": "Natural phrase choice and genitive form are both important."
+    }
+   ]
+  }
+ ],
+ "games": [
+  [
+   {
+    "p": "quickly",
+    "a": "بِسُرْعَةٍ",
+    "choices": [
+     "بِسُرْعَةٍ",
+     "سَرِيعٌ",
+     "بِسُرْعَةٌ"
+    ],
+    "e": "Use the noun سرعة in the genitive."
+   },
+   {
+    "p": "slowly",
+    "a": "بِبُطْءٍ",
+    "choices": [
+     "بِبُطْءٍ",
+     "بَطِيءٌ",
+     "فِي بَطِيءٍ"
+    ],
+    "e": "ببطءٍ is the common chunk."
+   },
+   {
+    "p": "easily",
+    "a": "بِسُهُولَةٍ",
+    "choices": [
+     "بِسُهُولَةٍ",
+     "سَهْلَةٌ",
+     "بِسُهُولَةٌ"
+    ],
+    "e": "Genitive after ب."
+   },
+   {
+    "p": "with difficulty",
+    "a": "بِصُعُوبَةٍ",
+    "choices": [
+     "بِصُعُوبَةٍ",
+     "صَعْبٌ",
+     "فِي صَعْبٍ"
+    ],
+    "e": "The noun is صعوبة."
+   },
+   {
+    "p": "calmly",
+    "a": "بِهُدُوءٍ",
+    "choices": [
+     "بِهُدُوءٍ",
+     "هَادِئٌ",
+     "بِهُدُوءٌ"
+    ],
+    "e": "بهدوءٍ."
+   },
+   {
+    "p": "clearly",
+    "a": "بِوُضُوحٍ",
+    "choices": [
+     "بِوُضُوحٍ",
+     "وَاضِحَةٌ",
+     "فِي وُضُوحُ"
+    ],
+    "e": "بوضوحٍ."
+   },
+   {
+    "p": "carefully",
+    "a": "بِعِنَايَةٍ",
+    "choices": [
+     "بِعِنَايَةٍ",
+     "عِنَايَةٌ",
+     "بِعِنَايَةُ"
+    ],
+    "e": "بعنايةٍ."
+   },
+   {
+    "p": "safely",
+    "a": "بِأَمَانٍ",
+    "choices": [
+     "بِأَمَانٍ",
+     "آمِنٌ",
+     "بِأَمَانٌ"
+    ],
+    "e": "بأمانٍ."
+   }
+  ]
+ ],
+ "blocks": [
+  "## Why phrase-based adverbs matter",
+  "Arabic often expresses English “-ly” meanings through a short prepositional phrase. These chunks are highly useful because they expand ordinary verbs without requiring complex syntax.",
+  "### Core",
+  "Use common بِ + noun manner phrases and فِي + noun time/place phrases.",
+  "### Develop",
+  "Apply genitive endings and attach the preposition correctly in writing.",
+  "### Stretch",
+  "Compare synonymous direct adverbs and phrase-based alternatives, choosing the natural form for context.",
+  "## Diagnostic start",
+  "## بِـ + اِسْمٍ : expressing manner",
+  "The attached preposition بِـ can mean “with/by/in a manner of”. The following noun is genitive.",
+  "TABLE: Phrase | Meaning | Natural model // بِسُرْعَةٍ | quickly | أَكْمَلْتُ الْعَمَلَ بِسُرْعَةٍ. // بِبُطْءٍ | slowly | تَحَدَّثَ بِبُطْءٍ. // بِسُهُولَةٍ | easily | فَهِمْتُ الدَّرْسَ بِسُهُولَةٍ. // بِصُعُوبَةٍ | with difficulty | وَجَدْنَا الْمَكَانَ بِصُعُوبَةٍ. // بِهُدُوءٍ | calmly/quietly | أَجَابَتْ بِهُدُوءٍ. // بِوُضُوحٍ | clearly | شَرَحَ الْمُعَلِّمُ الْقَاعِدَةَ بِوُضُوحٍ. // بِعِنَايَةٍ | carefully | اِقْرَأِ السُّؤَالَ بِعِنَايَةٍ. // بِأَمَانٍ | safely | وَصَلْنَا بِأَمَانٍ.",
+  "[example] سُرْعَةٌ بِـ + جَرّ بِسُرْعَةٍ",
+  "[ar] سُرْعَةٌ",
+  "[ar] بِسُرْعَةٍ",
+  "[callout/warning] Do not form phrases mechanically from any adjective. Learn the common noun-based chunk: بِسُرْعَةٍ , not بِسَرِيعٍ .",
+  "## فِي + اِسْمٍ : time and place",
+  "The same compact structure creates many everyday expressions for where and when an action happens.",
+  "### Place",
+  "فِي الْبَيْتِ فِي الْمَدْرَسَةِ فِي السُّوقِ فِي الْخَارِجِ فِي الدَّاخِلِ",
+  "### Time",
+  "فِي الصَّبَاحِ فِي الْمَسَاءِ فِي اللَّيْلِ فِي الشِّتَاءِ فِي الْمُسْتَقْبَلِ",
+  "[callout] Writing pattern: the preposition remains separate: فِي الْمَدْرَسَةِ . By contrast, بِـ attaches directly: بِسُرْعَةٍ , بِالْحَافِلَةِ .",
+  "## Position and sentence rhythm",
+  "A manner phrase usually follows the verb or its object. Time/place phrases can move for emphasis, but the sentence should remain clear.",
+  "[example] قَرَأْتُ النَّصَّ بِعِنَايَةٍ. natural I read the text carefully.",
+  "[ar] قَرَأْتُ النَّصَّ بِعِنَايَةٍ.",
+  "[example] فِي الصَّبَاحِ أَقْرَأُ فِي الْمَكْتَبَةِ. time first In the morning, I read in the library.",
+  "[ar] فِي الصَّبَاحِ أَقْرَأُ فِي الْمَكْتَبَةِ.",
+  "[callout] Layering information: أَكْمَلْتُ الْوَاجِبَ بِسُرْعَةٍ فِي الْمَكْتَبَةِ أَمْسِ. contains manner, place and time. Use only as much detail as the message needs.",
+  "## Apply and transform",
+  "### 📖 Reading",
+  "فِي الصَّبَاحِ ذَهَبْتُ إِلَى الْمَدْرَسَةِ بِالْحَافِلَةِ. أَجَبْتُ عَنِ الأَسْئِلَةِ بِعِنَايَةٍ، وَلَكِنِّي أَكْمَلْتُ التَّمْرِينَ الأَخِيرَ بِصُعُوبَةٍ.",
+  "Label each phrase as time, place, means or manner.",
+  "### 🎧 Listening cloze",
+  "Ask a partner to omit the phrase from each sentence. Supply the most natural phrase from a bank and justify your choice.",
+  "### 🗣️ Instruction challenge",
+  "Explain how to complete a school task using بِعِنَايَةٍ، بِوُضُوحٍ، بِسُرْعَةٍ and one time/place phrase.",
+  "### 🛠️ Transformation drill",
+  "Transform adjective ideas into natural adverbial phrases: سَرِيعٌ، سَهْلٌ، وَاضِحٌ، هَادِئٌ، آمِنٌ . Do not simply attach بِ to the adjective.",
+  "### ✍️ How I complete a task",
+  "Write 90–110 words explaining how you study, cook, travel, exercise or use technology. Include at least six بِـ manner phrases and four فِي time/place phrases.",
+  "[callout] Model: فِي الْمَسَاءِ أَدْرُسُ فِي غُرْفَتِي. أَقْرَأُ التَّعْلِيمَاتِ بِعِنَايَةٍ، وَأَكْتُبُ إِجَابَاتِي بِوُضُوحٍ.",
+  "[callout] Success checklist: Place the phrase naturally; use the genitive form after every preposition; distinguish means (بالحافلة) from manner (بسرعة); avoid literal English translation.",
+  "Save and mark complete Clear",
+  "Plan a timeline, place map or sentence flowchart, then label it in Arabic with the target adverbs.",
+  "Complete the same task on paper. Circle each adverb or adverbial phrase and draw an arrow to the verb or sentence it modifies.",
+  "## Final mastery check",
+  "### Today you can",
+  "- build high-frequency manner phrases with بِـ;",
+  "- use فِي phrases for time and place;",
+  "- apply genitive forms after prepositions;",
+  "- choose natural Arabic chunks instead of translating mechanically."
+ ]
+}

@@ -1,0 +1,261 @@
+{
+ "path": "lessons/grammar/03-nouns/grammar-mastery-06-non-human-plurals.php",
+ "title": "Non-Human Plural Agreement",
+ "arabic": "جَمْعُ غَيْرِ الْعَاقِلِ",
+ "lede": "Apply the feminine singular agreement rule to non-human plurals while preserving plural noun meaning.",
+ "nav": [
+  [
+   "GM-N-05",
+   "Broken Plurals"
+  ]
+ ],
+ "quizzes": [
+  {
+   "title": "🔎 Entry Check",
+   "items": [
+    {
+     "prompt": "Complete: الْكُتُبُ ...",
+     "options": [
+      "مُفِيدُونَ",
+      "مُفِيدَةٌ",
+      "مُفِيدَاتٌ"
+     ],
+     "answer": 1,
+     "feedback": "Non-human plural takes feminine singular adjective."
+    },
+    {
+     "prompt": "Demonstrative for الْمَدَارِسُ.",
+     "options": [
+      "هَذَا",
+      "هَذِهِ",
+      "هَؤُلَاءِ"
+     ],
+     "answer": 1,
+     "feedback": "Feminine singular reference."
+    },
+    {
+     "prompt": "Pronoun for السَّيَّارَاتُ.",
+     "options": [
+      "هُوَ",
+      "هِيَ",
+      "هُنَّ"
+     ],
+     "answer": 1,
+     "feedback": "Feminine singular pronoun."
+    },
+    {
+     "prompt": "Which keeps plural agreement?",
+     "options": [
+      "الطُّلَّابُ",
+      "الْكُتُبُ",
+      "الْمَدَارِسُ"
+     ],
+     "answer": 0,
+     "feedback": "Human plural."
+    },
+    {
+     "prompt": "Choose correct.",
+     "options": [
+      "الْبُيُوتُ كَبِيرُونَ",
+      "الْبُيُوتُ كَبِيرَةٌ",
+      "الْبُيُوتُ كَبِيرَاتٌ"
+     ],
+     "answer": 1,
+     "feedback": "Non-human plural."
+    },
+    {
+     "prompt": "Rule applies to:",
+     "options": [
+      "only broken plurals",
+      "all non-human plurals, sound or broken",
+      "only feminine nouns"
+     ],
+     "answer": 1,
+     "feedback": "Semantic humanness controls it."
+    }
+   ]
+  },
+  {
+   "title": "🧠 Guided mini-check",
+   "items": [
+    {
+     "prompt": "Complete: الْحَقَائِبُ ...",
+     "options": [
+      "ثَقِيلَةٌ",
+      "ثَقِيلَاتٌ",
+      "ثَقِيلُونَ"
+     ],
+     "answer": 0,
+     "feedback": "Feminine singular."
+    },
+    {
+     "prompt": "Choose “these books”.",
+     "options": [
+      "هَؤُلَاءِ الْكُتُبُ",
+      "هَذِهِ الْكُتُبُ",
+      "هَذَا الْكُتُبُ"
+     ],
+     "answer": 1,
+     "feedback": "Non-human demonstrative."
+    },
+    {
+     "prompt": "Pronoun for الجِبَالُ.",
+     "options": [
+      "هِيَ",
+      "هُمْ",
+      "هُنَّ"
+     ],
+     "answer": 0,
+     "feedback": "Feminine singular reference."
+    },
+    {
+     "prompt": "Verb with الطَّائِرَاتُ.",
+     "options": [
+      "وَصَلُوا",
+      "وَصَلْنَ",
+      "وَصَلَتْ"
+     ],
+     "answer": 2,
+     "feedback": "Non-human plural verb agreement."
+    },
+    {
+     "prompt": "Which uses plural adjective?",
+     "options": [
+      "الْمُعَلِّمُونَ",
+      "الْأَقْلَامُ",
+      "الْغُرَفُ"
+     ],
+     "answer": 0,
+     "feedback": "Human."
+    }
+   ]
+  },
+  {
+   "title": "⭐ Mastery Check",
+   "items": [
+    {
+     "prompt": "Complete: الْحَقَائِبُ ...",
+     "options": [
+      "ثَقِيلَةٌ",
+      "ثَقِيلَاتٌ",
+      "ثَقِيلُونَ"
+     ],
+     "answer": 0,
+     "feedback": "Feminine singular."
+    },
+    {
+     "prompt": "Choose “these books”.",
+     "options": [
+      "هَؤُلَاءِ الْكُتُبُ",
+      "هَذِهِ الْكُتُبُ",
+      "هَذَا الْكُتُبُ"
+     ],
+     "answer": 1,
+     "feedback": "Non-human demonstrative."
+    },
+    {
+     "prompt": "Pronoun for الجِبَالُ.",
+     "options": [
+      "هِيَ",
+      "هُمْ",
+      "هُنَّ"
+     ],
+     "answer": 0,
+     "feedback": "Feminine singular reference."
+    },
+    {
+     "prompt": "Verb with الطَّائِرَاتُ.",
+     "options": [
+      "وَصَلُوا",
+      "وَصَلْنَ",
+      "وَصَلَتْ"
+     ],
+     "answer": 2,
+     "feedback": "Non-human plural verb agreement."
+    },
+    {
+     "prompt": "Which uses plural adjective?",
+     "options": [
+      "الْمُعَلِّمُونَ",
+      "الْأَقْلَامُ",
+      "الْغُرَفُ"
+     ],
+     "answer": 0,
+     "feedback": "Human."
+    },
+    {
+     "prompt": "Complete: الْمَدَارِسُ ...",
+     "options": [
+      "كَبِيرَةٌ",
+      "كَبِيرَاتٌ",
+      "كَبِيرُونَ"
+     ],
+     "answer": 0,
+     "feedback": "Non-human."
+    },
+    {
+     "prompt": "Rule applies to السَّيَّارَاتُ because they are:",
+     "options": [
+      "sound plural",
+      "feminine nouns",
+      "non-human"
+     ],
+     "answer": 2,
+     "feedback": "Meaning controls agreement."
+    },
+    {
+     "prompt": "Best mental model.",
+     "options": [
+      "Plural everywhere",
+      "Plural noun + feminine singular agreement",
+      "Singular noun"
+     ],
+     "answer": 1,
+     "feedback": "Two-layer rule."
+    }
+   ]
+  }
+ ],
+ "games": [],
+ "blocks": [
+  "## Why this matters لِمَاذَا هَذَا مُهِمٌّ؟",
+  "Apply the feminine singular agreement rule to non-human plurals while preserving plural noun meaning.",
+  "### Core",
+  "Recognise and build the core form.",
+  "### Develop",
+  "Use the form accurately in sentence roles and agreement.",
+  "### Stretch",
+  "Explain case, exceptions and interaction with iḍāfa.",
+  "## Diagnostic start اِخْتِبَارُ الْبِدَايَةِ",
+  "Answer first; then use the explanations to repair uncertainty.",
+  "## The agreement switch",
+  "A non-human plural remains plural in meaning, but words agreeing with it normally take feminine singular form.",
+  "### Adjective",
+  "الْكُتُبُ مُفِيدَةٌ. السَّيَّارَاتُ سَرِيعَةٌ.",
+  "### Demonstrative / pronoun",
+  "هَذِهِ الْبُيُوتُ جَدِيدَةٌ. هِيَ جَمِيلَةٌ.",
+  "### Verb",
+  "وَصَلَتِ الْحَافِلَاتُ. فُتِحَتِ الْمَدَارِسُ.",
+  "[callout] Think in two layers: noun number = plural; agreement package = feminine singular.",
+  "## Human versus non-human",
+  "TABLE: Plural | Type | Correct agreement // الطُّلَّابُ | human | مُجْتَهِدُونَ / هَؤُلَاءِ / هُمْ // الطَّالِبَاتُ | human feminine | مُجْتَهِدَاتٌ / هَؤُلَاءِ / هُنَّ // الْكُتُبُ | non-human | مُفِيدَةٌ / هَذِهِ / هِيَ // السَّيَّارَاتُ | non-human | سَرِيعَةٌ / هَذِهِ / هِيَ",
+  "[callout/warning] Do not decide from the plural shape. Both مَدَارِسُ and سَيَّارَاتٌ take feminine singular agreement because both refer to non-human things.",
+  "## Four-skills application",
+  "Use the noun system to extract and communicate real information.",
+  "### 📖 Read and notice",
+  "فِي مَدْرَسَتِنَا طَالِبَانِ جَدِيدَانِ وَمُعَلِّمَاتٌ خَبِيرَاتٌ. الْفُصُولُ وَاسِعَةٌ، وَمَكْتَبُ مُدِيرِ الْمَدْرَسَةِ قَرِيبٌ مِنَ الْمَدْخَلِ.",
+  "Underline every noun relevant to this lesson and explain its form.",
+  "### 🗣️ Speak and transform",
+  "Choose five nouns. Say the singular, dual and/or plural form required by this lesson, then use each in a complete sentence.",
+  "### ✍️ Writing workshop",
+  "Write 8–12 connected sentences about your school, home or local area. Use at least six target noun forms from this lesson and underline them.",
+  "[callout] Model: فِي حَيِّي مَدْرَسَتَانِ كَبِيرَتَانِ، وَمَكْتَبَةُ الْحَيِّ مُفِيدَةٌ لِلطُّلَّابِ.",
+  "Save and mark complete Clear",
+  "Plan visually, label your examples in Arabic, then check each target form.",
+  "Complete the same task on paper. Underline the target noun forms and annotate the rule used.",
+  "## Final mastery check اِخْتِبَارُ الْإِتْقَانِ",
+  "Apply the rules without relying on the explanation panels.",
+  "### Consolidate and revisit",
+  "Below 70%: repeat the mini-check linked to your errors. 70–89%: replay the repair game. 90–100%: continue, then revisit this lesson in 3–7 days."
+ ]
+}

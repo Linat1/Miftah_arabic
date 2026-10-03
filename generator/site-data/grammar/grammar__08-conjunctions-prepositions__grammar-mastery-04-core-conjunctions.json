@@ -1,0 +1,481 @@
+{
+ "path": "lessons/grammar/08-conjunctions-prepositions/grammar-mastery-04-core-conjunctions.php",
+ "title": "Core Conjunctions and Logical Links",
+ "arabic": "حُرُوفُ الْعَطْفِ وَالرَّبْطِ",
+ "lede": "Stop joining every idea with وَ. Select the connector that shows the real logical relationship: addition, choice, sequence, contrast, reason or result.",
+ "nav": [
+  [
+   "GM-CP-03",
+   "Prepositions with Pronouns and Verb Collocations"
+  ]
+ ],
+ "quizzes": [
+  {
+   "title": "🔎 Entry Check",
+   "items": [
+    {
+     "prompt": "Choose the connector that adds equal information.",
+     "options": [
+      "وَ",
+      "لَكِنْ",
+      "لِأَنَّ"
+     ],
+     "answer": 0,
+     "feedback": "وَ adds or coordinates."
+    },
+    {
+     "prompt": "Choose the connector that presents an alternative.",
+     "options": [
+      "أَوْ",
+      "ثُمَّ",
+      "لِذَلِكَ"
+     ],
+     "answer": 0,
+     "feedback": "أَوْ means or."
+    },
+    {
+     "prompt": "Choose a sequence with a later next step.",
+     "options": [
+      "ثُمَّ",
+      "فَـ",
+      "لَكِنْ"
+     ],
+     "answer": 0,
+     "feedback": "ثُمَّ marks ordered succession, often with some interval."
+    },
+    {
+     "prompt": "Choose a contrast.",
+     "options": [
+      "لَكِنْ",
+      "لِأَنَّ",
+      "وَ"
+     ],
+     "answer": 0,
+     "feedback": "لكنْ turns to an opposing or limiting point."
+    },
+    {
+     "prompt": "Choose a reason.",
+     "options": [
+      "لِأَنَّ",
+      "لِذَلِكَ",
+      "أَوْ"
+     ],
+     "answer": 0,
+     "feedback": "لأنّ introduces the cause or explanation."
+    },
+    {
+     "prompt": "Choose a result.",
+     "options": [
+      "لِذَلِكَ",
+      "لِأَنَّ",
+      "إِلَّا"
+     ],
+     "answer": 0,
+     "feedback": "لذلك points back to a cause and introduces the consequence."
+    }
+   ]
+  },
+  {
+   "title": "Logic Check",
+   "items": [
+    {
+     "prompt": "The bus arrived; immediately I boarded it.",
+     "options": [
+      "وَصَلَتِ الْحَافِلَةُ فَرَكِبْتُهَا.",
+      "وَصَلَتِ الْحَافِلَةُ لَكِنْ رَكِبْتُهَا.",
+      "وَصَلَتِ الْحَافِلَةُ لِأَنَّ رَكِبْتُهَا."
+     ],
+     "answer": 0,
+     "feedback": "فـ expresses the immediate next action."
+    },
+    {
+     "prompt": "I like sport, but I do not play every day.",
+     "options": [
+      "أُحِبُّ الرِّيَاضَةَ، لَكِنْ لَا أُمَارِسُهَا كُلَّ يَوْمٍ.",
+      "أُحِبُّ الرِّيَاضَةَ، لِأَنَّ لَا أُمَارِسُهَا.",
+      "أُحِبُّ الرِّيَاضَةَ، لِذَلِكَ لَا أُمَارِسُهَا."
+     ],
+     "answer": 0,
+     "feedback": "The second idea limits/contrasts with the first."
+    },
+    {
+     "prompt": "I stayed home because I was ill.",
+     "options": [
+      "بَقِيتُ فِي الْبَيْتِ لِأَنَّنِي كُنْتُ مَرِيضًا.",
+      "بَقِيتُ فِي الْبَيْتِ لَكِنْ كُنْتُ مَرِيضًا.",
+      "بَقِيتُ فِي الْبَيْتِ أَوْ كُنْتُ مَرِيضًا."
+     ],
+     "answer": 0,
+     "feedback": "لأنني introduces the reason."
+    },
+    {
+     "prompt": "The train was cancelled; therefore we travelled by bus.",
+     "options": [
+      "أُلْغِيَ الْقِطَارُ، لِذَلِكَ سَافَرْنَا بِالْحَافِلَةِ.",
+      "أُلْغِيَ الْقِطَارُ لِأَنَّ سَافَرْنَا.",
+      "أُلْغِيَ الْقِطَارُ أَوْ سَافَرْنَا."
+     ],
+     "answer": 0,
+     "feedback": "لذلك introduces the consequence."
+    }
+   ]
+  },
+  {
+   "title": "Sequence Check",
+   "items": [
+    {
+     "prompt": "The alarm rang and I immediately woke up.",
+     "options": [
+      "رَنَّ الْمُنَبِّهُ فَاسْتَيْقَظْتُ.",
+      "رَنَّ الْمُنَبِّهُ لَكِنْ اسْتَيْقَظْتُ.",
+      "رَنَّ الْمُنَبِّهُ لِأَنَّنِي اسْتَيْقَظْتُ."
+     ],
+     "answer": 0,
+     "feedback": "Immediate response suits فـ."
+    },
+    {
+     "prompt": "First we visited the museum; later we ate.",
+     "options": [
+      "زُرْنَا الْمُتْحَفَ، ثُمَّ تَنَاوَلْنَا الطَّعَامَ.",
+      "زُرْنَا الْمُتْحَفَ لِأَنَّ تَنَاوَلْنَا الطَّعَامَ.",
+      "زُرْنَا الْمُتْحَفَ أَوْ تَنَاوَلْنَا الطَّعَامَ."
+     ],
+     "answer": 0,
+     "feedback": "Ordered stages suit ثم."
+    },
+    {
+     "prompt": "I trained hard, so I improved.",
+     "options": [
+      "تَدَرَّبْتُ بِجِدٍّ فَتَحَسَّنْتُ.",
+      "تَدَرَّبْتُ بِجِدٍّ لَكِنْ تَحَسَّنْتُ.",
+      "تَدَرَّبْتُ بِجِدٍّ أَوْ تَحَسَّنْتُ."
+     ],
+     "answer": 0,
+     "feedback": "The second clause is a result."
+    },
+    {
+     "prompt": "Which is most accurate?",
+     "options": [
+      "Connector choice depends on the relationship.",
+      "ثُمَّ and فَـ are always completely interchangeable.",
+      "فَـ always means because."
+     ],
+     "answer": 0,
+     "feedback": "Meaning determines the connector."
+    }
+   ]
+  },
+  {
+   "title": "Reason–Result Check",
+   "items": [
+    {
+     "prompt": "Choose a reason for studying Arabic.",
+     "options": [
+      "أَدْرُسُ الْعَرَبِيَّةَ لِأَنَّهَا لُغَةٌ جَمِيلَةٌ.",
+      "أَدْرُسُ الْعَرَبِيَّةَ لِذَلِكَ هِيَ جَمِيلَةٌ.",
+      "أَدْرُسُ الْعَرَبِيَّةَ أَوْ هِيَ جَمِيلَةٌ."
+     ],
+     "answer": 0,
+     "feedback": "لأنها introduces the reason."
+    },
+    {
+     "prompt": "Choose a result of heavy traffic.",
+     "options": [
+      "كَانَتْ حَرَكَةُ الْمُرُورِ شَدِيدَةً، لِذَلِكَ تَأَخَّرْنَا.",
+      "تَأَخَّرْنَا لِأَنَّ حَرَكَةُ الْمُرُورِ.",
+      "كَانَتْ حَرَكَةُ الْمُرُورِ أَوْ تَأَخَّرْنَا."
+     ],
+     "answer": 0,
+     "feedback": "Cause first, consequence after لذلك."
+    },
+    {
+     "prompt": "Complete: لَمْ أَخْرُجْ ___ الطَّقْسَ كَانَ سَيِّئًا.",
+     "options": [
+      "لِأَنَّ",
+      "لِذَلِكَ",
+      "ثُمَّ"
+     ],
+     "answer": 0,
+     "feedback": "The following clause explains why."
+    },
+    {
+     "prompt": "Complete: أَتْقَنْتُ الْمَهَارَةَ، ___ فُزْتُ بِالْمُسَابَقَةِ.",
+     "options": [
+      "لِذَلِكَ",
+      "لِأَنَّ",
+      "لَكِنْ"
+     ],
+     "answer": 0,
+     "feedback": "The second clause is a result."
+    }
+   ]
+  },
+  {
+   "title": "🏁 Final Mastery",
+   "items": [
+    {
+     "prompt": "Addition connector.",
+     "options": [
+      "وَ",
+      "لَكِنْ",
+      "لِأَنَّ"
+     ],
+     "answer": 0,
+     "feedback": "و adds."
+    },
+    {
+     "prompt": "Alternative connector.",
+     "options": [
+      "أَوْ",
+      "ثُمَّ",
+      "لِذَلِكَ"
+     ],
+     "answer": 0,
+     "feedback": "أو offers a choice."
+    },
+    {
+     "prompt": "Ordered later step.",
+     "options": [
+      "ثُمَّ",
+      "فَـ only",
+      "إِلَّا"
+     ],
+     "answer": 0,
+     "feedback": "ثم presents ordered succession."
+    },
+    {
+     "prompt": "Immediate next action/result.",
+     "options": [
+      "فَـ",
+      "لَكِنْ",
+      "حَيْثُ"
+     ],
+     "answer": 0,
+     "feedback": "فـ often signals immediacy or result."
+    },
+    {
+     "prompt": "Contrast connector.",
+     "options": [
+      "لَكِنْ",
+      "لِأَنَّ",
+      "لِذَلِكَ"
+     ],
+     "answer": 0,
+     "feedback": "لكن contrasts."
+    },
+    {
+     "prompt": "Reason connector.",
+     "options": [
+      "لِأَنَّ",
+      "لِذَلِكَ",
+      "أَوْ"
+     ],
+     "answer": 0,
+     "feedback": "لأنّ explains why."
+    },
+    {
+     "prompt": "Result connector.",
+     "options": [
+      "لِذَلِكَ",
+      "لِأَنَّ",
+      "وَ"
+     ],
+     "answer": 0,
+     "feedback": "لذلك introduces consequence."
+    },
+    {
+     "prompt": "Correct form: because I…",
+     "options": [
+      "لِأَنَّنِي",
+      "لِأَنَّ أَنَا",
+      "لِذَلِكَ أَنَا"
+     ],
+     "answer": 0,
+     "feedback": "Attach ـني to لأنّ."
+    },
+    {
+     "prompt": "Best use of connector range?",
+     "options": [
+      "Several accurate links serving different meanings.",
+      "Many rare connectors used incorrectly.",
+      "One memorised linker repeated in every sentence."
+     ],
+     "answer": 0,
+     "feedback": "Range must be appropriate and controlled."
+    },
+    {
+     "prompt": "Which is a well-linked sentence?",
+     "options": [
+      "كَانَ الْمَطَرُ غَزِيرًا، لِذَلِكَ بَقِينَا فِي الْبَيْتِ.",
+      "كَانَ الْمَطَرُ غَزِيرًا أَوْ بَقِينَا فِي الْبَيْتِ.",
+      "كَانَ الْمَطَرُ غَزِيرًا لَكِنْ بَقِينَا لأن المطر."
+     ],
+     "answer": 0,
+     "feedback": "The cause and result are explicit."
+    }
+   ]
+  }
+ ],
+ "games": [
+  [
+   {
+    "p": "Addition: أُحِبُّ الْقِرَاءَةَ ___ الْكِتَابَةَ.",
+    "a": "وَ",
+    "choices": [
+     "وَ",
+     "لَكِنْ",
+     "لِأَنَّ"
+    ],
+    "e": "Equal addition uses و."
+   },
+   {
+    "p": "Alternative: بِالْقِطَارِ ___ بِالْحَافِلَةِ؟",
+    "a": "أَوْ",
+    "choices": [
+     "أَوْ",
+     "ثُمَّ",
+     "لِذَلِكَ"
+    ],
+    "e": "Choice uses أو."
+   },
+   {
+    "p": "Ordered later step.",
+    "a": "ثُمَّ",
+    "choices": [
+     "ثُمَّ",
+     "لَكِنْ",
+     "لِأَنَّ"
+    ],
+    "e": "ثم marks ordered succession."
+   },
+   {
+    "p": "Immediate result.",
+    "a": "فَـ",
+    "choices": [
+     "فَـ",
+     "أَوْ",
+     "لَكِنْ"
+    ],
+    "e": "فـ links a close next action/result."
+   },
+   {
+    "p": "Contrast: الطَّقْسُ بَارِدٌ، ___ سَأَخْرُجُ.",
+    "a": "لَكِنْ",
+    "choices": [
+     "لَكِنْ",
+     "لِأَنَّ",
+     "لِذَلِكَ"
+    ],
+    "e": "The ideas contrast."
+   },
+   {
+    "p": "Reason: بَقِيتُ فِي الْبَيْتِ ___نِي مَرِيضٌ.",
+    "a": "لِأَنَّ",
+    "choices": [
+     "لِأَنَّ",
+     "لِذَلِكَ",
+     "ثُمَّ"
+    ],
+    "e": "لأنني gives the reason."
+   },
+   {
+    "p": "Result: كَانَ الطَّرِيقُ مُغْلَقًا، ___ تَأَخَّرْنَا.",
+    "a": "لِذَلِكَ",
+    "choices": [
+     "لِذَلِكَ",
+     "لِأَنَّ",
+     "أَوْ"
+    ],
+    "e": "لذلك introduces the result."
+   },
+   {
+    "p": "Choose the natural sentence.",
+    "a": "الْفِلْمُ طَوِيلٌ، وَلَكِنَّهُ مُثِيرٌ.",
+    "choices": [
+     "الْفِلْمُ طَوِيلٌ، وَلَكِنَّهُ مُثِيرٌ.",
+     "الْفِلْمُ طَوِيلٌ لِأَنَّهُ مُثِيرٌ.",
+     "الْفِلْمُ طَوِيلٌ أَوْ مُثِيرٌ."
+    ],
+    "e": "Length and excitement are contrasted."
+   },
+   {
+    "p": "Cause first, result second.",
+    "a": "دَرَسْتُ بِجِدٍّ، لِذَلِكَ نَجَحْتُ.",
+    "choices": [
+     "دَرَسْتُ بِجِدٍّ، لِذَلِكَ نَجَحْتُ.",
+     "نَجَحْتُ لِذَلِكَ دَرَسْتُ.",
+     "دَرَسْتُ أَوْ نَجَحْتُ."
+    ],
+    "e": "The consequence follows لذلك."
+   },
+   {
+    "p": "Best connector principle.",
+    "a": "Choose by logical relationship.",
+    "choices": [
+     "Choose by logical relationship.",
+     "Use the longest connector available.",
+     "Replace every وَ."
+    ],
+    "e": "Appropriateness demonstrates control."
+   }
+  ]
+ ],
+ "blocks": [
+  "## Why this matters",
+  "Connectors make the relationship between ideas visible. Without them, a reader must guess whether the next sentence adds, contrasts, explains or concludes.",
+  "### Core",
+  "Use وَ، أَوْ، ثُمَّ، لَكِنْ and لِأَنَّ.",
+  "### Develop",
+  "Distinguish ثُمَّ, فَـ and لِذَلِكَ by meaning.",
+  "### Stretch",
+  "Use وَلَكِنَّ accurately before a nominal clause.",
+  "[callout] Communication target: Give an opinion, reason, contrasting point and consequence in one connected answer.",
+  "## Diagnostic start",
+  "Name the relationship before choosing the Arabic word.",
+  "## The connector logic map",
+  "A varied paragraph is not a paragraph with many different linkers. It is a paragraph in which each linker expresses the intended relationship.",
+  "TABLE: Function | Core connector | Model // addition | وَ | أُحِبُّ الْقِرَاءَةَ وَالْكِتَابَةَ. // alternative | أَوْ | هَلْ تُفَضِّلُ الْقِطَارَ أَوِ الْحَافِلَةَ؟ // ordered next step | ثُمَّ | تَنَاوَلْتُ الْفَطُورَ، ثُمَّ خَرَجْتُ. // immediate next step / result | فَـ | وَصَلَتِ الْحَافِلَةُ فَرَكِبْتُهَا. // contrast | لَكِنْ | الطَّقْسُ بَارِدٌ، لَكِنْ سَأَخْرُجُ. // reason | لِأَنَّ | أَدْرُسُ الْعَرَبِيَّةَ لِأَنَّهَا مُهِمَّةٌ. // result | لِذَلِكَ / لِذَا | كَانَ الطَّرِيقُ مُغْلَقًا، لِذَلِكَ تَأَخَّرْنَا.",
+  "[callout/warning] Range is not random variety: Replacing every وَ with a more formal word can make the logic worse. Accuracy and appropriateness come first.",
+  "## Sequence: ثُمَّ versus فَـ",
+  "Both can translate as “then”, but they do not always present the timing in the same way.",
+  "[ar] غَسَلْتُ وَجْهِي، ثُمَّ تَنَاوَلْتُ الْفَطُورَ.",
+  "[ar] دَقَّ الْجَرَسُ فَدَخَلَ الطُّلَّابُ.",
+  "[ar] دَرَسْتُ بِجِدٍّ فَنَجَحْتُ.",
+  "[ar] أَوَّلًا خَطَّطْتُ، ثُمَّ كَتَبْتُ، وَأَخِيرًا رَاجَعْتُ.",
+  "[callout] Do not force the distinction: Natural usage has overlap. For learners, use ثُمَّ for a clearly ordered later step and فَـ when the next action or result follows closely.",
+  "## Contrast with لَكِنْ and وَلَكِنَّ",
+  "The simple linker لكنْ can introduce a contrasting clause. ولكنَّ belongs to the إنّ family and affects the following nominal structure.",
+  "[ar] الْمَدْرَسَةُ بَعِيدَةٌ، لَكِنْ أُحِبُّهَا.",
+  "[ar] الْفِلْمُ طَوِيلٌ، وَلَكِنَّهُ مُثِيرٌ.",
+  "[ar] الطَّقْسُ بَارِدٌ، وَلَكِنَّ الشَّمْسَ سَاطِعَةٌ.",
+  "[callout/warning] Do not confuse forms: Use لَكِنْ as the straightforward clause linker. Learn common attached forms such as وَلَكِنَّهُ، وَلَكِنَّهَا as useful chunks. Full إنّ-family case behaviour returns in Nominal Sentences.",
+  "## Reason and result: two directions",
+  "A reason answers “why?”. A result states what happened because of the earlier cause.",
+  "[ar] لَمْ أَذْهَبْ لِأَنَّنِي كُنْتُ مَرِيضًا.",
+  "[ar] كُنْتُ مَرِيضًا، لِذَلِكَ لَمْ أَذْهَبْ.",
+  "[ar] أُحِبُّ التَّعَلُّمَ عَنْ بُعْدٍ لِأَنَّهُ مَرِنٌ.",
+  "[ar] الطَّقْسُ جَمِيلٌ، لِذَا سَنَخْرُجُ.",
+  "[callout] After لِأَنَّ: Use a noun or attached pronoun as the clause subject: لِأَنَّ الطَّقْسَ... , لِأَنَّهُ... , لِأَنَّنِي... . Do not put a bare independent clause after it without building the structure.",
+  "## Misconception and proofreading clinic",
+  "Replace connector chains that obscure the logic.",
+  "TABLE: Weak / inaccurate | Improved | Reason // أُحِبُّ السَّفَرَ وَهُوَ مُكْلِفٌ. | أُحِبُّ السَّفَرَ، لَكِنَّهُ مُكْلِفٌ. | contrast, not simple addition // تَأَخَّرْتُ لِذَلِكَ فَاتَتْنِي الْحَافِلَةُ. | تَأَخَّرْتُ، لِذَلِكَ فَاتَتْنِي الْحَافِلَةُ. | clear cause → result boundary // لَمْ أَذْهَبْ لِأَنَّ كُنْتُ مَرِيضًا. | لَمْ أَذْهَبْ لِأَنَّنِي كُنْتُ مَرِيضًا. | build the لأنّ clause with its subject // دَخَلْتُ ثُمَّ وَجَدْتُهُ أَمَامِي فورًا. | دَخَلْتُ فَوَجَدْتُهُ أَمَامِي فَوْرًا. | immediate next event suits فـ",
+  "## Grammar game",
+  "Identify the logical relationship and choose the connector that expresses it.",
+  "## Skills workshop التَّطْبِيقُ الْعَمَلِيُّ",
+  "Improve a repetitive paragraph and extend spoken answers with precise links.",
+  "[ar] أُفَضِّلُ التَّعَلُّمَ فِي الْفَصْلِ لِأَنَّنِي أَتَفَاعَلُ مَعَ الْمُعَلِّمِ، لَكِنَّ التَّعَلُّمَ عَنْ بُعْدٍ أَكْثَرُ مَرُونَةً.",
+  "[ar] كَانَ الطَّقْسُ سَيِّئًا، لِذَلِكَ بَقِينَا فِي الْبَيْتِ، ثُمَّ شَاهَدْنَا فِلْمًا.",
+  "### Upgrade a simple paragraph",
+  "Write 90–110 Arabic words comparing two ways of travelling, learning, shopping or spending free time.",
+  "[callout] Success checklist: Use وَ and أَوْ only where logical; include ثُمَّ or فَـ; include لَكِنْ/ولكنّه; include a reason with لِأَنَّ and a consequence with لِذَلِكَ or لِذَا.",
+  "[callout] Paper route: Write a first draft using only short sentences. Then join the ideas with connectors and annotate the function above each connector.",
+  "## Final mastery check",
+  "Check addition, sequence, contrast, reason and result.",
+  "### What you can now do",
+  "- Choose a connector by logical function.",
+  "- Distinguish ثُمَّ from immediate فَـ.",
+  "- Build contrast with لَكِنْ and reason with لِأَنَّ.",
+  "- Link cause to consequence with لِذَلِكَ or لِذَا.",
+  "Spaced revisit: Return in two or three days and complete the final check again without looking at the tables."
+ ]
+}

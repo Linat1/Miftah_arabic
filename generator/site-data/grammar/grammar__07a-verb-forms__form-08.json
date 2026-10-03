@@ -1,0 +1,114 @@
+{
+ "path": "lessons/grammar/07a-verb-forms/form-08.php",
+ "title": "Form VIII: Meeting, Choosing and Acquiring",
+ "arabic": "الْوَزْنُ الثَّامِنُ",
+ "lede": "Form VIII is a widely used family whose verbs can express acquiring, engaging in an action, reflexive meaning or other lexical senses. The actual verb meaning is essential.",
+ "nav": [
+  [
+   "GM-VF-07",
+   "Form VII: Change of State"
+  ]
+ ],
+ "quizzes": [
+  {
+   "title": "Quick pattern check",
+   "items": [
+    {
+     "prompt": "Which pair is the regular Form VIII model?",
+     "options": [
+      "كَسَبَ / يَكْسِبُ",
+      "اِكْتَسَبَ / يَكْتَسِبُ",
+      "اِسْتَكْسَبَ / يَسْتَكْسِبُ"
+     ],
+     "answer": 1,
+     "feedback": "The regular Form VIII pattern inserts ت after the first root consonant."
+    }
+   ]
+  },
+  {
+   "title": "Form VIII · Self-check",
+   "items": [
+    {
+     "prompt": "Which pair is the regular Form VIII model?",
+     "options": [
+      "اِسْتَكْسَبَ / يَسْتَكْسِبُ",
+      "كَسَبَ / يَكْسِبُ",
+      "اِكْتَسَبَ / يَكْتَسِبُ"
+     ],
+     "answer": 2,
+     "feedback": "The regular Form VIII pattern inserts ت after the first root consonant."
+    },
+    {
+     "prompt": "Which form means “I choose”?",
+     "options": [
+      "أَخْتَارُ",
+      "أَخْتَرْتُ",
+      "أَخْتِيرُ"
+     ],
+     "answer": 0,
+     "feedback": "أَخْتَارُ is the first-person present; اِخْتَرْتُ is the past."
+    },
+    {
+     "prompt": "Why can اِهْتَمَّ be difficult to recognise?",
+     "options": [
+      "It has no root consonants.",
+      "It is a Form IX colour verb.",
+      "Assimilation and doubling can alter the visible pattern."
+     ],
+     "answer": 2,
+     "feedback": "Some Form VIII roots show changes; learn the complete lexical forms."
+    }
+   ]
+  }
+ ],
+ "games": [],
+ "blocks": [
+  "## Why this matters",
+  "Learn the meaning before memorising the pattern.",
+  "### Core",
+  "Recognise the pattern and understand the model verb in a sentence.",
+  "### Develop",
+  "Use two or three verbs from this family in accurate past and present sentences.",
+  "[callout] Your goal: Form VIII is a widely used family whose verbs can express acquiring, engaging in an action, reflexive meaning or other lexical senses. The actual verb meaning is essential.",
+  "## Discover the pattern",
+  "Notice what changes and what stays connected to the root.",
+  "### Root and pattern",
+  "For a regular sound root, Form VIII inserts ت after the first root consonant: اِفْتَعَلَ / يَفْتَعِلُ. Some roots show assimilation or weak-letter changes.",
+  "TABLE: Past | Present | Meaning // اِكْتَسَبَ | يَكْتَسِبُ | to acquire or gain",
+  "[callout] Notice the relationship: كَسَبَ means to earn or gain; اِكْتَسَبَ means to acquire or gain. The related meaning is useful, but the form cannot be translated by one fixed English prefix.",
+  "## Learn the family",
+  "Read each pair aloud, then use the verbs in meaningful sentences.",
+  "TABLE: Past | Present | Meaning // اِجْتَمَعَ | يَجْتَمِعُ | to meet or gather // اِخْتَارَ | يَخْتَارُ | to choose // اِهْتَمَّ | يَهْتَمُّ | to care or be interested",
+  "أَكْتَسِبُ مَهَارَاتٍ جَدِيدَةً مِنَ الْمُمَارَسَةِ.",
+  "I acquire new skills through practice.",
+  "اِجْتَمَعَ الطُّلَّابُ بَعْدَ الدَّرْسِ.",
+  "The students met after the lesson.",
+  "أَخْتَارُ كِتَابًا جَدِيدًا لِلْقِرَاءَةِ.",
+  "I choose a new book to read.",
+  "[callout] Look closely: The ت in اِكْتَسَبَ is clearly visible. In اِهْتَمَّ and اِخْتَارَ, root-specific changes make the surface form less transparent. Learn these as complete past–present pairs.",
+  "## Practise and apply",
+  "Move from recognising the pattern to using the language yourself.",
+  "### Misconception clinic",
+  "Do not classify every verb beginning with اِسْتَـ as Form VIII. اِسْتَعْمَلَ is Form X, while اِكْتَسَبَ is Form VIII.",
+  "The inserted ت follows the first root consonant ك.",
+  "### Apply the form",
+  "Write a short paragraph about choosing a course or activity. Explain your choice, the skills you acquire and why the subject interests you.",
+  "[callout] Success checklist: Use the correct verb form and person; check the past/present vowels; use a natural sentence and reread your Arabic.",
+  "Complete your own response first. This is one possible answer, not the only correct response.",
+  "أَخْتَارُ دَرْسَ الْعَرَبِيَّةِ لِأَنَّنِي أَهْتَمُّ بِاللُّغَاتِ. أَكْتَسِبُ مَهَارَاتٍ جَدِيدَةً مِنَ الْمُمَارَسَةِ، وَأَجْتَمِعُ مَعَ زُمَلَائِي كُلَّ أُسْبُوعٍ.",
+  "I choose Arabic lessons because I am interested in languages. I acquire new skills through practice, and I meet my classmates every week.",
+  "Compare اِكْتَسَبَ, اِخْتَارَ and اِهْتَمَّ. Identify the sound, hollow and assimilated/doubled features that make their surface patterns different.",
+  "Use the optional morphology reference if you need a pattern reminder.",
+  "## Final self-check",
+  "Try the questions without looking back. Your feedback explains the key feature.",
+  "## What you can now do",
+  "Review the essentials before moving to the next form.",
+  "### Lesson mastery summary",
+  "- recognise Form VIII and its characteristic pattern;",
+  "- understand and use the model verb in context;",
+  "- distinguish this family from a related form;",
+  "- check the accuracy of your own Arabic sentences.",
+  "Return in a few days and repeat the self-check. Learn the next form only when you are ready.",
+  "Back to all ten forms · Optional morphology reference"
+ ]
+}

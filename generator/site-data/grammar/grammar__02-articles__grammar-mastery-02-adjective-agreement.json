@@ -1,0 +1,718 @@
+{
+ "path": "lessons/grammar/02-articles/grammar-mastery-02-adjective-agreement.php",
+ "title": "Definiteness and Adjective Agreement",
+ "arabic": "مُطَابَقَةُ النَّعْتِ فِي التَّعْرِيفِ وَالتَّنْكِيرِ",
+ "lede": "Learn why Arabic adjectives do more than follow a noun. They mirror the noun in gender, number, definiteness and—when endings are shown—case. This control lets you distinguish the new school from the school is new .",
+ "nav": [
+  [
+   "GM-ART-01",
+   "Definite and Indefinite Nouns"
+  ]
+ ],
+ "quizzes": [
+  {
+   "title": "🔎 Agreement Entry Check",
+   "items": [
+    {
+     "prompt": "Choose “a small house”.",
+     "options": [
+      "بَيْتٌ صَغِيرٌ",
+      "الْبَيْتُ الصَّغِيرُ",
+      "الْبَيْتُ صَغِيرٌ"
+     ],
+     "answer": 0,
+     "feedback": "Both noun and attributive adjective are indefinite."
+    },
+    {
+     "prompt": "Choose “the small house”.",
+     "options": [
+      "بَيْتٌ صَغِيرٌ",
+      "الْبَيْتُ الصَّغِيرُ",
+      "الْبَيْتُ صَغِيرٌ"
+     ],
+     "answer": 1,
+     "feedback": "Both words are definite because they form one noun phrase."
+    },
+    {
+     "prompt": "Choose “The house is small.”",
+     "options": [
+      "الْبَيْتُ صَغِيرٌ.",
+      "الْبَيْتُ الصَّغِيرُ.",
+      "بَيْتٌ الصَّغِيرُ."
+     ],
+     "answer": 0,
+     "feedback": "The definite noun is the subject; the indefinite adjective is the predicate."
+    },
+    {
+     "prompt": "Choose “the new car”.",
+     "options": [
+      "السَّيَّارَةُ الْجَدِيدُ",
+      "السَّيَّارَةُ الْجَدِيدَةُ",
+      "سَيَّارَةٌ الْجَدِيدَةُ"
+     ],
+     "answer": 1,
+     "feedback": "سَيَّارَة is feminine, so its adjective is feminine and equally definite."
+    },
+    {
+     "prompt": "Which adjective correctly describes the non-human plural الْكُتُبُ?",
+     "options": [
+      "الْجَدِيدُونَ",
+      "الْجَدِيدَاتُ",
+      "الْجَدِيدَةُ"
+     ],
+     "answer": 2,
+     "feedback": "A non-human plural normally takes a feminine singular adjective."
+    },
+    {
+     "prompt": "Which means “my new book”?",
+     "options": [
+      "كِتَابِي جَدِيدٌ",
+      "كِتَابِي الْجَدِيدُ",
+      "الْكِتَابِي الْجَدِيدُ"
+     ],
+     "answer": 1,
+     "feedback": "The suffix makes كِتَابِي definite; its attributive adjective therefore takes الـ."
+    }
+   ]
+  },
+  {
+   "title": "🧩 Mini-check 1 — Make Every Feature Match",
+   "items": [
+    {
+     "prompt": "Complete: مَدْرَسَةٌ ...",
+     "options": [
+      "جَدِيدٌ",
+      "جَدِيدَةٌ",
+      "الْجَدِيدَةُ"
+     ],
+     "answer": 1,
+     "feedback": "The noun is feminine, singular and indefinite."
+    },
+    {
+     "prompt": "Complete: الْمُعَلِّمُ ...",
+     "options": [
+      "الْمَاهِرُ",
+      "مَاهِرٌ",
+      "الْمَاهِرَةُ"
+     ],
+     "answer": 0,
+     "feedback": "Inside one phrase, a masculine definite noun takes a masculine definite adjective."
+    },
+    {
+     "prompt": "Complete: طَالِبَتَانِ ...",
+     "options": [
+      "مُجْتَهِدَتَانِ",
+      "مُجْتَهِدَانِ",
+      "الْمُجْتَهِدَتَانِ"
+     ],
+     "answer": 0,
+     "feedback": "The noun is feminine dual and indefinite, so the adjective matches all three features."
+    },
+    {
+     "prompt": "Complete after فِي: فِي الْفَصْلِ ...",
+     "options": [
+      "الْكَبِيرُ",
+      "الْكَبِيرَ",
+      "الْكَبِيرِ"
+     ],
+     "answer": 2,
+     "feedback": "Stretch: فِي makes the noun genitive, and the adjective shares the genitive ending."
+    },
+    {
+     "prompt": "Which is internally inconsistent?",
+     "options": [
+      "سَيَّارَةٌ سَرِيعَةٌ",
+      "الْبَيْتُ الْجَمِيلُ",
+      "طَالِبٌ مُجْتَهِدَةٌ"
+     ],
+     "answer": 2,
+     "feedback": "طَالِب is masculine but مُجْتَهِدَة is feminine."
+    }
+   ]
+  },
+  {
+   "title": "⚖️ Mini-check 2 — Phrase or Sentence?",
+   "items": [
+    {
+     "prompt": "الْمَطْعَمُ الْجَدِيدُ",
+     "options": [
+      "the new restaurant",
+      "The restaurant is new.",
+      "a new restaurant"
+     ],
+     "answer": 0,
+     "feedback": "Both words are definite, so they form one definite noun phrase."
+    },
+    {
+     "prompt": "الْمَطْعَمُ جَدِيدٌ.",
+     "options": [
+      "the new restaurant",
+      "The restaurant is new.",
+      "a new restaurant"
+     ],
+     "answer": 1,
+     "feedback": "Definite subject + indefinite predicate adjective forms a nominal sentence."
+    },
+    {
+     "prompt": "مَطْعَمٌ جَدِيدٌ",
+     "options": [
+      "the new restaurant",
+      "The restaurant is new.",
+      "a new restaurant"
+     ],
+     "answer": 2,
+     "feedback": "Both words are indefinite and form an indefinite noun phrase."
+    },
+    {
+     "prompt": "Choose “the clean, quiet room”.",
+     "options": [
+      "الْغُرْفَةُ النَّظِيفَةُ الْهَادِئَةُ",
+      "الْغُرْفَةُ نَظِيفَةٌ وَهَادِئَةٌ",
+      "غُرْفَةٌ النَّظِيفَةُ الْهَادِئَةُ"
+     ],
+     "answer": 0,
+     "feedback": "Every attributive adjective matches the definite feminine noun."
+    },
+    {
+     "prompt": "Choose “The room is clean and quiet.”",
+     "options": [
+      "الْغُرْفَةُ النَّظِيفَةُ الْهَادِئَةُ.",
+      "الْغُرْفَةُ نَظِيفَةٌ وَهَادِئَةٌ.",
+      "غُرْفَةٌ نَظِيفَةٌ وَهَادِئَةٌ."
+     ],
+     "answer": 1,
+     "feedback": "The two indefinite adjectives act as coordinated predicates."
+    }
+   ]
+  },
+  {
+   "title": "👉 Mini-check 3 — This Is… or This Noun?",
+   "items": [
+    {
+     "prompt": "Translate: هَذَا كِتَابٌ.",
+     "options": [
+      "this book",
+      "This is a book.",
+      "This book is new."
+     ],
+     "answer": 1,
+     "feedback": "The noun is indefinite, so it is the predicate: This is a book."
+    },
+    {
+     "prompt": "Translate: هَذَا الْكِتَابُ",
+     "options": [
+      "this book",
+      "This is a book.",
+      "the book is this"
+     ],
+     "answer": 0,
+     "feedback": "The definite noun forms a demonstrative noun phrase: this book."
+    },
+    {
+     "prompt": "Choose “this useful book”.",
+     "options": [
+      "هَذَا كِتَابٌ مُفِيدٌ",
+      "هَذَا الْكِتَابُ الْمُفِيدُ",
+      "هَذَا الْكِتَابُ مُفِيدٌ"
+     ],
+     "answer": 1,
+     "feedback": "The noun and attributive adjective are both definite."
+    },
+    {
+     "prompt": "Choose “This book is useful.”",
+     "options": [
+      "هَذَا كِتَابٌ مُفِيدٌ",
+      "هَذَا الْكِتَابُ الْمُفِيدُ",
+      "هَذَا الْكِتَابُ مُفِيدٌ."
+     ],
+     "answer": 2,
+     "feedback": "هَذَا الْكِتَابُ is the subject phrase; مُفِيدٌ is the indefinite predicate."
+    },
+    {
+     "prompt": "Choose “This is a beautiful city.”",
+     "options": [
+      "هَذِهِ مَدِينَةٌ جَمِيلَةٌ.",
+      "هَذِهِ الْمَدِينَةُ الْجَمِيلَةُ.",
+      "هَذِهِ الْمَدِينَةُ جَمِيلَةٌ."
+     ],
+     "answer": 0,
+     "feedback": "The whole indefinite noun phrase مَدِينَةٌ جَمِيلَةٌ acts as the predicate."
+    }
+   ]
+  },
+  {
+   "title": "👥 Mini-check 4 — Plural Agreement",
+   "items": [
+    {
+     "prompt": "Complete: الْأَوْلَادُ ...",
+     "options": [
+      "الصَّغِيرُ",
+      "الصِّغَارُ",
+      "الصَّغِيرَةُ"
+     ],
+     "answer": 1,
+     "feedback": "أَوْلَاد refers to humans, so a common plural adjective is used."
+    },
+    {
+     "prompt": "Complete: الْبَنَاتُ ...",
+     "options": [
+      "الذَّكِيَّاتُ",
+      "الذَّكِيُّونَ",
+      "الذَّكِيَّةُ"
+     ],
+     "answer": 0,
+     "feedback": "A feminine human plural takes a feminine plural adjective."
+    },
+    {
+     "prompt": "Complete: الْحَقَائِبُ ...",
+     "options": [
+      "الثَّقِيلَاتُ",
+      "الثَّقِيلَةُ",
+      "الثَّقِيلُونَ"
+     ],
+     "answer": 1,
+     "feedback": "Non-human plural حَقَائِب takes a feminine singular adjective."
+    },
+    {
+     "prompt": "Choose “new schools”.",
+     "options": [
+      "مَدَارِسُ جَدِيدُونَ",
+      "مَدَارِسُ جَدِيدَاتٌ",
+      "مَدَارِسُ جَدِيدَةٌ"
+     ],
+     "answer": 2,
+     "feedback": "Non-human plural + feminine singular adjective."
+    },
+    {
+     "prompt": "Choose “the famous athletes” for a male or mixed group.",
+     "options": [
+      "الرِّيَاضِيُّونَ الْمَشْهُورُونَ",
+      "الرِّيَاضِيُّونَ الْمَشْهُورَةُ",
+      "الرِّيَاضِيَّاتُ الْمَشْهُورَاتُ"
+     ],
+     "answer": 0,
+     "feedback": "Both noun and adjective are masculine human plural and definite."
+    }
+   ]
+  },
+  {
+   "title": "🔗 Mini-check 5 — Definiteness Without the Article",
+   "items": [
+    {
+     "prompt": "Choose “our large house”.",
+     "options": [
+      "بَيْتُنَا كَبِيرٌ",
+      "بَيْتُنَا الْكَبِيرُ",
+      "الْبَيْتُنَا الْكَبِيرُ"
+     ],
+     "answer": 1,
+     "feedback": "The suffix makes بَيْتُنَا definite; the attributive adjective takes الـ."
+    },
+    {
+     "prompt": "Choose “Our house is large.”",
+     "options": [
+      "بَيْتُنَا كَبِيرٌ.",
+      "بَيْتُنَا الْكَبِيرُ.",
+      "الْبَيْتُنَا كَبِيرٌ."
+     ],
+     "answer": 0,
+     "feedback": "The predicate adjective is indefinite."
+    },
+    {
+     "prompt": "Choose “kind Layla / Layla the kind”.",
+     "options": [
+      "لَيْلَى الطَّيِّبَةُ",
+      "لَيْلَى طَيِّبَةٌ",
+      "اللَّيْلَى الطَّيِّبَةُ"
+     ],
+     "answer": 0,
+     "feedback": "The definite attributive adjective describes the proper name."
+    },
+    {
+     "prompt": "Translate: لَيْلَى طَيِّبَةٌ.",
+     "options": [
+      "kind Layla",
+      "Layla is kind.",
+      "the kind Layla is"
+     ],
+     "answer": 1,
+     "feedback": "The indefinite adjective is the predicate of the sentence."
+    },
+    {
+     "prompt": "Which means “the school’s new door”?",
+     "options": [
+      "بَابُ الْمَدْرَسَةِ الْجَدِيدُ",
+      "بَابُ الْمَدْرَسَةِ الْجَدِيدَةِ",
+      "الْبَابُ الْمَدْرَسَةِ الْجَدِيدُ"
+     ],
+     "answer": 0,
+     "feedback": "Masculine الْجَدِيدُ describes masculine بَابُ; the first idāfa noun does not take الـ."
+    }
+   ]
+  },
+  {
+   "title": "📚 Reading and Listening Evidence",
+   "items": [
+    {
+     "prompt": "In the reading, what does مَدْرَسَتِي الْجَدِيدَةُ mean?",
+     "options": [
+      "my new school",
+      "My school is new.",
+      "a new school"
+     ],
+     "answer": 0,
+     "feedback": "The possessive suffix makes the noun definite, and the attributive adjective takes الـ."
+    },
+    {
+     "prompt": "In the reading, which expression is a complete sentence?",
+     "options": [
+      "الْمَلْعَبُ الْكَبِيرُ",
+      "فُصُولٌ وَاسِعَةٌ",
+      "الْمَدْرَسَةُ كَبِيرَةٌ"
+     ],
+     "answer": 2,
+     "feedback": "Definite subject + indefinite predicate adjective forms a complete sentence."
+    },
+    {
+     "prompt": "Why is الْحَوَاسِيبَ followed by الْجَدِيدَةَ?",
+     "options": [
+      "because حواسيب is feminine singular",
+      "because non-human plurals take feminine singular agreement",
+      "because every plural adjective ends in ة"
+     ],
+     "answer": 1,
+     "feedback": "حَوَاسِيب is a non-human plural, so its adjective is feminine singular."
+    },
+    {
+     "prompt": "In the listening, شَقَّةٍ صَغِيرَةٍ means:",
+     "options": [
+      "a small flat",
+      "the small flat",
+      "The flat is small."
+     ],
+     "answer": 0,
+     "feedback": "Both words are indefinite and genitive after فِي."
+    },
+    {
+     "prompt": "In the listening, الشَّقَّةَ مُرِيحَةٌ means:",
+     "options": [
+      "the comfortable flat",
+      "The flat is comfortable.",
+      "a comfortable flat"
+     ],
+     "answer": 1,
+     "feedback": "The noun is definite; the adjective is an indefinite predicate."
+    },
+    {
+     "prompt": "What does نَوَافِذُهَا الْكَبِيرَةُ mean?",
+     "options": [
+      "her large windows",
+      "Her windows are large.",
+      "large windows"
+     ],
+     "answer": 0,
+     "feedback": "The suffix makes the plural noun definite; the non-human plural adjective is feminine singular and definite."
+    }
+   ]
+  },
+  {
+   "title": "⭐ Definiteness and Agreement Mastery",
+   "items": [
+    {
+     "prompt": "Choose “a modern city”.",
+     "options": [
+      "مَدِينَةٌ حَدِيثَةٌ",
+      "الْمَدِينَةُ الْحَدِيثَةُ",
+      "الْمَدِينَةُ حَدِيثَةٌ"
+     ],
+     "answer": 0,
+     "feedback": "Indefinite feminine singular noun phrase."
+    },
+    {
+     "prompt": "Choose “the modern city”.",
+     "options": [
+      "مَدِينَةٌ حَدِيثَةٌ",
+      "الْمَدِينَةُ الْحَدِيثَةُ",
+      "الْمَدِينَةُ حَدِيثَةٌ"
+     ],
+     "answer": 1,
+     "feedback": "Both noun and attributive adjective are definite."
+    },
+    {
+     "prompt": "Choose “The city is modern.”",
+     "options": [
+      "مَدِينَةٌ حَدِيثَةٌ.",
+      "الْمَدِينَةُ الْحَدِيثَةُ.",
+      "الْمَدِينَةُ حَدِيثَةٌ."
+     ],
+     "answer": 2,
+     "feedback": "Definite subject + indefinite predicate adjective."
+    },
+    {
+     "prompt": "Choose “these hardworking female students”.",
+     "options": [
+      "هَؤُلَاءِ الطَّالِبَاتُ الْمُجْتَهِدَاتُ",
+      "هَؤُلَاءِ طَالِبَاتٌ مُجْتَهِدَاتٌ",
+      "هَؤُلَاءِ الطَّالِبَاتُ مُجْتَهِدَةٌ"
+     ],
+     "answer": 0,
+     "feedback": "The demonstrative points to a definite human feminine plural phrase."
+    },
+    {
+     "prompt": "Choose “These female students are hardworking.”",
+     "options": [
+      "هَؤُلَاءِ الطَّالِبَاتُ الْمُجْتَهِدَاتُ.",
+      "هَؤُلَاءِ الطَّالِبَاتُ مُجْتَهِدَاتٌ.",
+      "هَؤُلَاءِ طَالِبَاتٌ الْمُجْتَهِدَاتُ."
+     ],
+     "answer": 1,
+     "feedback": "The predicate adjective is indefinite but remains feminine plural for people."
+    },
+    {
+     "prompt": "Complete: الْمَبَانِي ...",
+     "options": [
+      "الْعَالِيَةُ",
+      "الْعَالِيَاتُ",
+      "الْعَالُونَ"
+     ],
+     "answer": 0,
+     "feedback": "مَبَانِي is a non-human plural, so the adjective is feminine singular."
+    },
+    {
+     "prompt": "Choose “my old car”.",
+     "options": [
+      "سَيَّارَتِي الْقَدِيمَةُ",
+      "سَيَّارَتِي قَدِيمَةٌ",
+      "السَّيَّارَتِي الْقَدِيمَةُ"
+     ],
+     "answer": 0,
+     "feedback": "The suffix makes the noun definite, and the attributive adjective is definite."
+    },
+    {
+     "prompt": "Choose “My car is old.”",
+     "options": [
+      "سَيَّارَتِي الْقَدِيمَةُ.",
+      "سَيَّارَتِي قَدِيمَةٌ.",
+      "الْسَيَّارَتِي قَدِيمَةٌ."
+     ],
+     "answer": 1,
+     "feedback": "The predicate adjective is indefinite."
+    },
+    {
+     "prompt": "Which means “the hospital’s large entrance”?",
+     "options": [
+      "مَدْخَلُ الْمُسْتَشْفَى الْكَبِيرُ",
+      "مَدْخَلُ الْمُسْتَشْفَى الْكَبِيرَةُ",
+      "الْمَدْخَلُ الْمُسْتَشْفَى الْكَبِيرُ"
+     ],
+     "answer": 0,
+     "feedback": "Masculine adjective describes masculine مَدْخَل, while the first idāfa noun has no article."
+    },
+    {
+     "prompt": "After فِي, choose the fully matched form “in the large school”.",
+     "options": [
+      "فِي الْمَدْرَسَةُ الْكَبِيرَةُ",
+      "فِي الْمَدْرَسَةِ الْكَبِيرَةِ",
+      "فِي الْمَدْرَسَةِ كَبِيرَةٌ"
+     ],
+     "answer": 1,
+     "feedback": "Stretch: both noun and attributive adjective are genitive after فِي."
+    },
+    {
+     "prompt": "What is the best test for phrase versus sentence?",
+     "options": [
+      "count the words",
+      "compare the noun and adjective definiteness",
+      "look only for a full stop"
+     ],
+     "answer": 1,
+     "feedback": "Matching definiteness signals a phrase; definite subject plus indefinite predicate signals a sentence."
+    },
+    {
+     "prompt": "Which explanation is accurate?",
+     "options": [
+      "Every definite noun visibly starts with الـ.",
+      "An adjective matches grammatical definiteness, including names, suffixes and definite idāfa.",
+      "Predicate adjectives must always take الـ."
+     ],
+     "answer": 1,
+     "feedback": "Definiteness can come from more than the visible article."
+    }
+   ]
+  }
+ ],
+ "games": [],
+ "blocks": [
+  "## Why this matters لِمَاذَا تَهُمُّ الْمُطَابَقَةُ؟",
+  "A missing or unnecessary article can change the grammatical relationship between two words. Accurate agreement makes descriptions clear in every Cambridge topic area.",
+  "### One noun phrase",
+  "الْمَدْرَسَةُ الْجَدِيدَةُ",
+  "the new school . Both words are definite, so the adjective identifies which school.",
+  "### One complete sentence",
+  "الْمَدْرَسَةُ جَدِيدَةٌ.",
+  "The school is new. The noun is definite, but the predicate adjective is indefinite.",
+  "### A frequent error",
+  "✗ مَدْرَسَةٌ الْجَدِيدَةُ",
+  "The noun and its describing adjective cannot disagree randomly in definiteness.",
+  "[callout] Mastery question: Is the adjective attached to the noun inside one phrase, or is it saying something new about the noun as the predicate of a sentence?",
+  "## Choose your route اِخْتَرْ مَسَارَكَ",
+  "Secure Core before moving to longer phrases. Stretch introduces case endings only after the central meaning is clear.",
+  "### Match the essentials",
+  "- Recognise definite and indefinite noun phrases.",
+  "- Match masculine and feminine forms.",
+  "- Distinguish a phrase from a sentence.",
+  "### Extend descriptions",
+  "- Use demonstratives accurately.",
+  "- Handle human and non-human plurals.",
+  "- Stack two or three adjectives naturally.",
+  "### Track the whole system",
+  "- Recognise nouns definite without الـ .",
+  "- Identify which noun an adjective modifies in idāfa.",
+  "- Notice matching case endings.",
+  "## Diagnostic starter اِخْتِبَارُ الْبِدَايَةِ",
+  "Do not study the answers first. The explanations after each choice reveal exactly which agreement decision is secure.",
+  "## The four agreement decisions أَرْبَعَةُ أَوْجُهٍ لِلْمُطَابَقَةِ",
+  "An Arabic adjective normally follows its noun and reflects key information about it. Learn the decisions separately, then combine them.",
+  "### 1 · Gender الْجِنْسُ",
+  "وَلَدٌ مُجْتَهِدٌ · بِنْتٌ مُجْتَهِدَةٌ",
+  "The adjective changes to masculine or feminine according to the noun it describes.",
+  "### 2 · Number الْعَدَدُ",
+  "طَالِبٌ مُجْتَهِدٌ · طَالِبَانِ مُجْتَهِدَانِ · طُلَّابٌ مُجْتَهِدُونَ",
+  "For human nouns, the adjective normally matches singular, dual or plural number.",
+  "### 3 · Definiteness التَّعْرِيفُ",
+  "كِتَابٌ مُفِيدٌ · الْكِتَابُ الْمُفِيدُ",
+  "Inside an attributive phrase, an indefinite noun takes an indefinite adjective; a definite noun takes a definite adjective.",
+  "### 4 · Case الْإِعْرَابُ — Stretch",
+  "الْبَيْتُ الْكَبِيرُ · رَأَيْتُ الْبَيْتَ الْكَبِيرَ · فِي الْبَيْتِ الْكَبِيرِ",
+  "When final endings are shown, noun and adjective also share nominative, accusative or genitive case.",
+  "[callout] Order of thought: identify the noun → decide its meaning and form → make the adjective copy the relevant features.",
+  "TABLE: Meaning | Noun | Adjective | What matches? // a tall boy | وَلَدٌ | طَوِيلٌ | masculine, singular, indefinite // the tall girl | الْبِنْتُ | الطَّوِيلَةُ | feminine, singular, definite // two useful books | كِتَابَانِ | مُفِيدَانِ | masculine, dual, indefinite // the hardworking female students | الطَّالِبَاتُ | الْمُجْتَهِدَاتُ | feminine, human plural, definite",
+  "## Phrase or complete sentence? تَرْكِيبٌ أَمْ جُمْلَةٌ؟",
+  "Definiteness is the key signal. English often relies on word order and “is”; Arabic can create the contrast without writing a present-tense verb “to be”.",
+  "### Indefinite phrase",
+  "بَيْتٌ كَبِيرٌ",
+  "a large house . The adjective is part of the noun phrase.",
+  "### Definite phrase",
+  "الْبَيْتُ الْكَبِيرُ",
+  "the large house . Both words are definite.",
+  "### Nominal sentence",
+  "الْبَيْتُ كَبِيرٌ.",
+  "The house is large. The indefinite adjective tells us something new about the definite subject.",
+  "[callout/warning] Do not use punctuation as your only clue. First analyse definiteness. A phrase may appear inside a longer sentence, and an unpunctuated exercise may still contain a complete clause.",
+  "### More than one adjective",
+  "[example] بَيْتٌ كَبِيرٌ وَجَمِيلٌ → a large and beautiful house both adjectives are masculine, singular and indefinite",
+  "[ar] بَيْتٌ كَبِيرٌ وَجَمِيلٌ",
+  "[example] الْمَدْرَسَةُ الْجَدِيدَةُ الْكَبِيرَةُ → the large new school each adjective matches the feminine definite noun",
+  "[ar] الْمَدْرَسَةُ الْجَدِيدَةُ الْكَبِيرَةُ",
+  "[example] الْمَدْرَسَةُ جَدِيدَةٌ وَكَبِيرَةٌ. → The school is new and large. both predicate adjectives remain indefinite",
+  "[ar] الْمَدْرَسَةُ جَدِيدَةٌ وَكَبِيرَةٌ.",
+  "## Demonstratives change the pattern أَسْمَاءُ الْإِشَارَةِ وَالتَّعْرِيفُ",
+  "The same demonstrative can introduce a sentence or point to a definite noun. Watch what follows it.",
+  "### Demonstrative + indefinite noun",
+  "هَذَا بَيْتٌ.",
+  "This is a house. The noun is the indefinite predicate.",
+  "هَذِهِ مَدْرَسَةٌ.",
+  "This is a school.",
+  "### Demonstrative + definite noun",
+  "هَذَا الْبَيْتُ",
+  "this house . The demonstrative points to a particular noun, which takes الـ .",
+  "هَذِهِ الْمَدْرَسَةُ",
+  "this school .",
+  "### Demonstrative phrase + attributive adjective",
+  "هَذَا الْبَيْتُ الْكَبِيرُ",
+  "this large house . The adjective is inside the definite noun phrase.",
+  "### Demonstrative phrase + predicate adjective",
+  "هَذَا الْبَيْتُ كَبِيرٌ.",
+  "This house is large. The adjective tells us something new and remains indefinite.",
+  "[callout] Three-step reading strategy: find the demonstrative → check whether the noun has الـ → check whether the following adjective also has الـ .",
+  "## Human and non-human plurals جُمُوعُ الْعَاقِلِ وَغَيْرِ الْعَاقِلِ",
+  "Definiteness still matches, but number agreement depends on whether the plural refers to people or non-human things.",
+  "### Masculine human plural",
+  "طُلَّابٌ مُجْتَهِدُونَ",
+  "a group of hardworking male or mixed students",
+  "الطُّلَّابُ الْمُجْتَهِدُونَ",
+  "the hardworking students",
+  "### Feminine human plural",
+  "طَالِبَاتٌ مُجْتَهِدَاتٌ",
+  "hardworking female students",
+  "الطَّالِبَاتُ الْمُجْتَهِدَاتُ",
+  "the hardworking female students",
+  "### Non-human plural",
+  "كُتُبٌ جَدِيدَةٌ",
+  "new books",
+  "الْكُتُبُ الْجَدِيدَةُ",
+  "the new books — feminine singular adjective",
+  "[callout/warning] Do not confuse form with meaning. A broken plural such as أَطْفَالٌ refers to humans, so it can take a plural human adjective: أَطْفَالٌ صِغَارٌ . A plural such as مَدَارِسُ refers to things, so it normally takes feminine singular agreement: مَدَارِسُ كَبِيرَةٌ .",
+  "TABLE: Plural noun | Type | Correct adjective | Complete phrase // الْمُعَلِّمُونَ | human masculine/mixed | الْمَاهِرُونَ | الْمُعَلِّمُونَ الْمَاهِرُونَ // الْمُعَلِّمَاتُ | human feminine | الْمَاهِرَاتُ | الْمُعَلِّمَاتُ الْمَاهِرَاتُ // السَّيَّارَاتُ | non-human | السَّرِيعَةُ | السَّيَّارَاتُ السَّرِيعَةُ // الْمَدَارِسُ | non-human | الْحَدِيثَةُ | الْمَدَارِسُ الْحَدِيثَةُ",
+  "## A noun can be definite without الـ الْمَعْرِفَةُ بِغَيْرِ «الـ»",
+  "The adjective matches the noun’s grammatical definiteness, not merely the letters visible at its beginning.",
+  "### Possessive suffix",
+  "كِتَابِي الْجَدِيدُ",
+  "my new book . The suffix ـي makes the noun specific and definite, so the attributive adjective takes الـ .",
+  "كِتَابِي جَدِيدٌ.",
+  "My book is new. Predicate adjective: indefinite.",
+  "### Proper name",
+  "مَرْيَمُ الْمُجْتَهِدَةُ",
+  "hardworking Maryam / Maryam the hardworking . A name is definite by identity.",
+  "مَرْيَمُ مُجْتَهِدَةٌ.",
+  "Maryam is hardworking.",
+  "### Idāfa phrase",
+  "بَابُ الْمَدْرَسَةِ الْكَبِيرُ",
+  "the school’s large door . The whole idāfa is definite because its final noun is definite; الْكَبِيرُ describes masculine بَابُ .",
+  "### Which noun does the adjective describe?",
+  "بَابُ الْمَدْرَسَةِ الْجَدِيدُ",
+  "the school’s new door . Masculine الْجَدِيدُ points back to بَابُ .",
+  "بَابُ الْمَدْرَسَةِ الْجَدِيدَةِ",
+  "the door of the new school . Feminine الْجَدِيدَةِ describes الْمَدْرَسَةِ .",
+  "[callout] Stretch insight: gender helps here, and the final case ending confirms the relationship. An adjective describing the first noun shares its case; an adjective describing the second noun is genitive with that noun.",
+  "## Apply agreement across the four skills طَبِّقِ الْمُطَابَقَةَ فِي الْمَهَارَاتِ الْأَرْبَعِ",
+  "Grammar mastery becomes useful when it improves understanding and communication, not only isolated selection.",
+  "### 📖 Reading workshop — A new school",
+  "هَذِهِ مَدْرَسَتِي الْجَدِيدَةُ. الْمَدْرَسَةُ كَبِيرَةٌ وَحَدِيثَةٌ. فِيهَا فُصُولٌ وَاسِعَةٌ وَمَكْتَبَةٌ هَادِئَةٌ. أُحِبُّ الْمُعَلِّمَاتِ الْمُتَعَاوِنَاتِ، وَأَسْتَعْمِلُ الْحَوَاسِيبَ الْجَدِيدَةَ فِي دَرْسِ التِّقْنِيَةِ. هَذِهِ الْفُصُولُ نَظِيفَةٌ، وَالْمَلْعَبُ الْكَبِيرُ قَرِيبٌ مِنَ الْمَبْنَى الرَّئِيسِيِّ.",
+  "Underline complete noun phrases once and predicate adjectives twice before answering.",
+  "### 👂 Listening workshop — Hear the relationship",
+  "Read or listen to the script without looking at the options first:",
+  "أَسْكُنُ فِي شَقَّةٍ صَغِيرَةٍ، وَلَكِنَّ الشَّقَّةَ مُرِيحَةٌ. غُرْفَتِي الْجَدِيدَةُ مُضِيئَةٌ، وَنَوَافِذُهَا الْكَبِيرَةُ تُطِلُّ عَلَى حَدِيقَةٍ جَمِيلَةٍ. فِي الْحَدِيقَةِ أَشْجَارٌ طَوِيلَةٌ وَزُهُورٌ مُلَوَّنَةٌ.",
+  "Listen for whether the adjective identifies the noun or completes a statement about it.",
+  "### 🗣️ Speaking studio — Point, identify, describe",
+  "- Choose three objects or places.",
+  "- Identify each with a demonstrative: هَذَا الْكِتَابُ / هَذِهِ الْغُرْفَةُ .",
+  "- Add an attributive adjective: هَذَا الْكِتَابُ الْمُفِيدُ .",
+  "- Then make a sentence: هَذَا الْكِتَابُ مُفِيدٌ.",
+  "- Extend with a reason or opinion.",
+  "### ✍️ Writing workshop — Describe a place",
+  "Write 80–90 words about your school, home, town or an imagined place. Include:",
+  "- three definite noun–adjective phrases;",
+  "- three nominal sentences with indefinite predicate adjectives;",
+  "- one demonstrative contrast;",
+  "- one human plural and one non-human plural;",
+  "- one noun made definite by a suffix or idāfa.",
+  "[callout] Paper route: copy the checklist, write your paragraph by hand, underline nouns once and their adjectives twice, then mark the task complete.",
+  "## Common mistakes and how to repair them عِيَادَةُ الْأَخْطَاءِ",
+  "A correction is strongest when you can explain the grammatical decision rather than merely replace a word.",
+  "### Mismatch in definiteness",
+  "✗ الْمَدْرَسَةُ جَدِيدَةٌ = “the new school”",
+  "Repair: الْمَدْرَسَةُ الْجَدِيدَةُ . The original is a sentence: “The school is new.”",
+  "### Article added to a suffixed noun",
+  "✗ الْكِتَابِي الْمُفِيدُ",
+  "Repair: كِتَابِي الْمُفِيدُ . A possessive suffix and الـ do not occupy the same noun.",
+  "### Human agreement copied onto things",
+  "✗ الْكُتُبُ الْجَدِيدَاتُ",
+  "Repair: الْكُتُبُ الْجَدِيدَةُ . Non-human plurals normally take feminine singular agreement.",
+  "### Wrong adjective target in idāfa",
+  "بَابُ الْمَدْرَسَةِ الْجَدِيدَةِ",
+  "This is not automatically wrong: it means “the door of the new school.” To mean “the school’s new door,” use masculine الْجَدِيدُ .",
+  "[callout] Repair language: “The noun is ___, so the adjective must be ___.” / “These words form one phrase, so both are ___.” / “The adjective is a predicate, so it remains ___.”",
+  "## Final mastery check اِخْتِبَارُ الْإِتْقَانِ",
+  "The final questions mix the decisions instead of testing them in isolated blocks.",
+  "### Now you can… الْآنَ تَسْتَطِيعُ أَنْ...",
+  "- make an adjective agree in gender, number and definiteness;",
+  "- distinguish a noun phrase from a nominal sentence;",
+  "- use demonstratives without changing the intended relationship;",
+  "- apply human and non-human plural agreement;",
+  "- recognise definite nouns formed by names, suffixes and idāfa;",
+  "- explain which noun an adjective describes.",
+  "Score guide: 0–7 — revisit Sections 1–3. 8–10 — replay the plural and repair tasks. 11–12 — continue to Articles Lesson 3.",
+  "Spaced revisit: in 3–7 days, write three pairs such as الْبَيْتُ الْكَبِيرُ / الْبَيْتُ كَبِيرٌ without opening the lesson."
+ ]
+}

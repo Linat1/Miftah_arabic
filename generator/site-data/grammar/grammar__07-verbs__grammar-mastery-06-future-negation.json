@@ -1,0 +1,533 @@
+{
+ "path": "lessons/grammar/07-verbs/grammar-mastery-06-future-negation.php",
+ "title": "Future Tense and Future Negation",
+ "arabic": "زَمَنُ الْمُسْتَقْبَلِ وَنَفْيُهُ",
+ "lede": "Build clear future plans with سـ and سوف, negate them with لن, and control the visible subjunctive changes in singular and five-verb forms.",
+ "nav": [
+  [
+   "GM-V-05",
+   "Present Tense: Prefixes, Suffixes and Meaning"
+  ]
+ ],
+ "quizzes": [
+  {
+   "title": "🔎 Entry Check",
+   "items": [
+    {
+     "prompt": "Choose “I will travel”.",
+     "options": [
+      "سَأُسَافِرُ",
+      "سَافَرْتُ",
+      "لَنْ أُسَافِرَ"
+     ],
+     "answer": 0,
+     "feedback": "سـ attaches to the present form."
+    },
+    {
+     "prompt": "Choose the correctly written سوف construction.",
+     "options": [
+      "سَوْفَ أَدْرُسُ",
+      "سَوْفَأَدْرُسُ",
+      "سَوفُ دَرَسْتُ"
+     ],
+     "answer": 0,
+     "feedback": "سوف is a separate word followed by a present verb."
+    },
+    {
+     "prompt": "Choose “I will not go”.",
+     "options": [
+      "لَنْ أَذْهَبَ",
+      "لَا أَذْهَبُ غَدًا only",
+      "لَمْ أَذْهَبْ غَدًا"
+     ],
+     "answer": 0,
+     "feedback": "لن negates future and governs the subjunctive."
+    },
+    {
+     "prompt": "Choose “they will write”.",
+     "options": [
+      "سَيَكْتُبُونَ",
+      "سَكَتَبُوا",
+      "سَيَكْتُبُوا"
+     ],
+     "answer": 0,
+     "feedback": "In an affirmative future, the indicative plural ending keeps ن."
+    },
+    {
+     "prompt": "Choose “they will not write”.",
+     "options": [
+      "لَنْ يَكْتُبُوا",
+      "لَنْ يَكْتُبُونَ",
+      "لَمْ يَكْتُبُوا غَدًا"
+     ],
+     "answer": 0,
+     "feedback": "After لن, the five-verb nūn drops."
+    },
+    {
+     "prompt": "Which claim is safest?",
+     "options": [
+      "سـ and سوف both mark future; context matters more than a rigid near/distant rule.",
+      "سـ always means tomorrow and سوف always means ten years later.",
+      "سوف attaches to the verb."
+     ],
+     "answer": 0,
+     "feedback": "Distance is not a dependable absolute distinction."
+    }
+   ]
+  },
+  {
+   "title": "🚀 Future Marker Check",
+   "items": [
+    {
+     "prompt": "Correct attached form",
+     "options": [
+      "سَنَذْهَبُ",
+      "سَ نَذْهَبُ",
+      "سَوْفَنَذْهَبُ"
+     ],
+     "answer": 0,
+     "feedback": "سـ attaches directly."
+    },
+    {
+     "prompt": "Correct separate form",
+     "options": [
+      "سَوْفَ نَذْهَبُ",
+      "سَوْفَنَذْهَبُ",
+      "سَوفُ نَذْهَبَ"
+     ],
+     "answer": 0,
+     "feedback": "سوف is separate."
+    },
+    {
+     "prompt": "“She will study”",
+     "options": [
+      "سَتَدْرُسُ",
+      "سَيَدْرُسُ",
+      "دَرَسَتْ غَدًا"
+     ],
+     "answer": 0,
+     "feedback": "تـ matches she."
+    },
+    {
+     "prompt": "“We will see”",
+     "options": [
+      "سَنَرَى",
+      "سَنَرَأُ",
+      "سَرَأَيْنَا"
+     ],
+     "answer": 0,
+     "feedback": "Future of نَرَى."
+    }
+   ]
+  },
+  {
+   "title": "🚫 Future Negation Check",
+   "items": [
+    {
+     "prompt": "“She will not travel”",
+     "options": [
+      "لَنْ تُسَافِرَ",
+      "لَنْ تُسَافِرُ",
+      "لَمْ تُسَافِرْ غَدًا"
+     ],
+     "answer": 0,
+     "feedback": "Subjunctive after لن."
+    },
+    {
+     "prompt": "“You f. will not write”",
+     "options": [
+      "لَنْ تَكْتُبِي",
+      "لَنْ تَكْتُبِينَ",
+      "لَا تَكْتُبِي!"
+     ],
+     "answer": 0,
+     "feedback": "Nūn drops; this is not a prohibition."
+    },
+    {
+     "prompt": "“They will not arrive”",
+     "options": [
+      "لَنْ يَصِلُوا",
+      "لَنْ يَصِلُونَ",
+      "لَنْ وَصَلُوا"
+     ],
+     "answer": 0,
+     "feedback": "Present subjunctive after لن."
+    },
+    {
+     "prompt": "“We will not see”",
+     "options": [
+      "لَنْ نَرَى",
+      "لَنْ نَرَ",
+      "لَمْ نَرَى غَدًا"
+     ],
+     "answer": 0,
+     "feedback": "Final alif maqṣūra remains in writing; the mood vowel is not visible."
+    }
+   ]
+  },
+  {
+   "title": "💬 Communicative Function Check",
+   "items": [
+    {
+     "prompt": "Best future ambition",
+     "options": [
+      "سَأَعْمَلُ كَمُهَنْدِسَةٍ.",
+      "عَمِلْتُ غَدًا.",
+      "لَنْ أَعْمَلَ أَمْسِ."
+     ],
+     "answer": 0,
+     "feedback": "Future plan."
+    },
+    {
+     "prompt": "Best prediction",
+     "options": [
+      "سَوْفَ يَزْدَادُ اسْتِخْدَامُ التِّقْنِيَّةِ.",
+      "اِزْدَادَ الآنَ غَدًا.",
+      "لَا يَزْدَادْ!"
+     ],
+     "answer": 0,
+     "feedback": "Explicit prediction."
+    },
+    {
+     "prompt": "Best promise",
+     "options": [
+      "سَأَتَّصِلُ بِكَ مَسَاءً.",
+      "اتَّصَلْتُ بِكَ غَدًا.",
+      "لَنْ أَتَّصِلَ بِكَ means promise to call"
+     ],
+     "answer": 0,
+     "feedback": "Affirmative future."
+    },
+    {
+     "prompt": "Best negative intention",
+     "options": [
+      "لَنْ أَنْسَى وَاجِبِي.",
+      "لَمْ أَنْسَ غَدًا.",
+      "مَا أَنْسَى سَوْفَ."
+     ],
+     "answer": 0,
+     "feedback": "لن + subjunctive."
+    }
+   ]
+  },
+  {
+   "title": "📅 Future Time Check",
+   "items": [
+    {
+     "prompt": "Best coherent sentence",
+     "options": [
+      "سَأُسَافِرُ الأُسْبُوعَ الْقَادِمَ.",
+      "سَافَرْتُ الأُسْبُوعَ الْقَادِمَ.",
+      "لَمْ أُسَافِرْ غَدًا as a plan"
+     ],
+     "answer": 0,
+     "feedback": "Marker and phrase align."
+    },
+    {
+     "prompt": "Correct “after five years”",
+     "options": [
+      "بَعْدَ خَمْسِ سَنَوَاتٍ",
+      "بَعْدُ خَمْسَ سَنَوَاتٌ",
+      "فِي خَمْسٌ سَنَةً"
+     ],
+     "answer": 0,
+     "feedback": "Correct iḍāfa and case model."
+    },
+    {
+     "prompt": "Which makes a future plan clearest?",
+     "options": [
+      "سَأَدْرُسُ غَدًا.",
+      "أَدْرُسُ only",
+      "دَرَسْتُ غَدًا."
+     ],
+     "answer": 0,
+     "feedback": "Future marker plus time phrase."
+    },
+    {
+     "prompt": "Which is negative future?",
+     "options": [
+      "لَنْ نَتَأَخَّرَ غَدًا.",
+      "لَمْ نَتَأَخَّرْ أَمْسِ.",
+      "لَا نَتَأَخَّرُ عَادَةً."
+     ],
+     "answer": 0,
+     "feedback": "لن marks future negation."
+    }
+   ]
+  },
+  {
+   "title": "⭐ Future Mastery",
+   "items": [
+    {
+     "prompt": "I will write",
+     "options": [
+      "سَأَكْتُبُ",
+      "سَكَتَبْتُ",
+      "سَوْفَ كَتَبْتُ"
+     ],
+     "answer": 0,
+     "feedback": "سـ + present."
+    },
+    {
+     "prompt": "We will travel",
+     "options": [
+      "سَوْفَ نُسَافِرُ",
+      "سَوْفَنُسَافِرُ",
+      "سَنُسَافَرْنَا"
+     ],
+     "answer": 0,
+     "feedback": "Separate سوف."
+    },
+    {
+     "prompt": "She will not go",
+     "options": [
+      "لَنْ تَذْهَبَ",
+      "لَنْ تَذْهَبُ",
+      "لَمْ تَذْهَبْ غَدًا"
+     ],
+     "answer": 0,
+     "feedback": "Subjunctive."
+    },
+    {
+     "prompt": "You f. will not write",
+     "options": [
+      "لَنْ تَكْتُبِي",
+      "لَنْ تَكْتُبِينَ",
+      "لَا تَكْتُبِي"
+     ],
+     "answer": 0,
+     "feedback": "Nūn deletion."
+    },
+    {
+     "prompt": "They will not write",
+     "options": [
+      "لَنْ يَكْتُبُوا",
+      "لَنْ يَكْتُبُونَ",
+      "لَنْ كَتَبُوا"
+     ],
+     "answer": 0,
+     "feedback": "Nūn deletion."
+    },
+    {
+     "prompt": "We will see",
+     "options": [
+      "سَنَرَى",
+      "سَنَرَأُ",
+      "سَرَأَيْنَا"
+     ],
+     "answer": 0,
+     "feedback": "Future of نرى."
+    },
+    {
+     "prompt": "Correct claim",
+     "options": [
+      "Both سـ and سوف mark future; context guides nuance.",
+      "سـ is always exactly immediate.",
+      "سوف must attach."
+     ],
+     "answer": 0,
+     "feedback": "Flexible usage."
+    },
+    {
+     "prompt": "Clear time frame",
+     "options": [
+      "سَأَبْدَأُ غَدًا.",
+      "بَدَأْتُ غَدًا.",
+      "لَمْ أَبْدَأْ غَدًا as a positive plan"
+     ],
+     "answer": 0,
+     "feedback": "Future marker and phrase."
+    },
+    {
+     "prompt": "Negative plan",
+     "options": [
+      "لَنْ أَتَأَخَّرَ.",
+      "لَا تَتَأَخَّرْ!",
+      "مَا تَأَخَّرْتُ."
+     ],
+     "answer": 0,
+     "feedback": "Future negation."
+    },
+    {
+     "prompt": "Affirmative plural keeps…",
+     "options": [
+      "the nūn in يكتبون",
+      "no nūn in يكتبوا",
+      "a past suffix"
+     ],
+     "answer": 0,
+     "feedback": "Indicative affirmative future retains ن."
+    }
+   ]
+  }
+ ],
+ "games": [
+  [
+   {
+    "p": "I will study tomorrow.",
+    "a": "سَأَدْرُسُ غَدًا.",
+    "choices": [
+     "سَأَدْرُسُ غَدًا.",
+     "دَرَسْتُ غَدًا.",
+     "لَنْ أَدْرُسَ غَدًا."
+    ],
+    "e": "Affirmative future."
+   },
+   {
+    "p": "We will travel next week.",
+    "a": "سَوْفَ نُسَافِرُ الأُسْبُوعَ الْقَادِمَ.",
+    "choices": [
+     "سَوْفَ نُسَافِرُ الأُسْبُوعَ الْقَادِمَ.",
+     "سَوْفَنُسَافِرُ.",
+     "نُسَافِرْنَا غَدًا."
+    ],
+    "e": "Separate سوف + present."
+   },
+   {
+    "p": "She will not be late.",
+    "a": "لَنْ تَتَأَخَّرَ.",
+    "choices": [
+     "لَنْ تَتَأَخَّرَ.",
+     "لَنْ تَتَأَخَّرُ.",
+     "لَمْ تَتَأَخَّرْ غَدًا."
+    ],
+    "e": "Subjunctive after لن."
+   },
+   {
+    "p": "They will not write.",
+    "a": "لَنْ يَكْتُبُوا.",
+    "choices": [
+     "لَنْ يَكْتُبُوا.",
+     "لَنْ يَكْتُبُونَ.",
+     "لَا يَكْتُبُوا."
+    ],
+    "e": "Nūn drops."
+   },
+   {
+    "p": "You f. will not travel.",
+    "a": "لَنْ تُسَافِرِي.",
+    "choices": [
+     "لَنْ تُسَافِرِي.",
+     "لَنْ تُسَافِرِينَ.",
+     "لَا تُسَافِرِي!"
+    ],
+    "e": "Future negative, not prohibition."
+   },
+   {
+    "p": "We will see.",
+    "a": "سَنَرَى.",
+    "choices": [
+     "سَنَرَى.",
+     "سَنَرَأُ.",
+     "رَأَيْنَا غَدًا."
+    ],
+    "e": "Future weak verb."
+   },
+   {
+    "p": "I will take the bus.",
+    "a": "سَآخُذُ الْحَافِلَةَ.",
+    "choices": [
+     "سَآخُذُ الْحَافِلَةَ.",
+     "سَأَأْخُذُ.",
+     "أَخَذْتُ غَدًا."
+    ],
+    "e": "سـ + آخُذُ."
+   },
+   {
+    "p": "They will arrive soon.",
+    "a": "سَيَصِلُونَ قَرِيبًا.",
+    "choices": [
+     "سَيَصِلُونَ قَرِيبًا.",
+     "سَوْفَ وَصَلُوا.",
+     "لَنْ يَصِلُوا قَرِيبًا."
+    ],
+    "e": "Affirmative future plural."
+   }
+  ]
+ ],
+ "blocks": [
+  "## Why this matters لِمَاذَا نُعَبِّرُ عَنِ الْمُسْتَقْبَلِ بِدِقَّةٍ؟",
+  "Future control lets candidates discuss plans, ambitions, predictions and promises in connected speaking and writing.",
+  "### Core",
+  "Build affirmative future forms with سـ and سوف.",
+  "### Develop",
+  "Use لن accurately with common singular and plural forms.",
+  "### Stretch",
+  "Explain mood changes and avoid the oversimplified near/distant rule.",
+  "[callout] Communication target: Sustain a clear future-focused answer with reasons and time expressions.",
+  "## Diagnostic start",
+  "Test future markers and لن before studying the system.",
+  "## Build the affirmative future",
+  "Future markers precede a correctly conjugated present verb.",
+  "TABLE: Marker | Writing | Model | Typical use // سَـ | attached | سَأَدْرُسُ غَدًا. | compact, very common future // سَوْفَ | separate | سَوْفَ أَدْرُسُ غَدًا. | explicit future; often more deliberate or formal // present + future time | no marker | أُسَافِرُ غَدًا. | possible for a clear arrangement; less explicit for learners",
+  "[callout/warning] Important correction: Do not teach a rigid “سـ = near, سوف = distant” law. Speakers use both flexibly. Teach the spelling, register and communicative clarity first.",
+  "## Negate the future with لَنْ",
+  "Future negation changes the mood of the following present verb.",
+  "TABLE: Subject | Affirmative | Negative with لَنْ // أَنَا | سَأَكْتُبُ | لَنْ أَكْتُبَ // هِيَ | سَتَكْتُبُ | لَنْ تَكْتُبَ // نَحْنُ | سَنَكْتُبُ | لَنْ نَكْتُبَ // أَنْتِ | سَتَكْتُبِينَ | لَنْ تَكْتُبِي // هُمْ | سَيَكْتُبُونَ | لَنْ يَكْتُبُوا",
+  "[callout] Two visible changes after لَنْ: ordinary singular forms usually show a final fatḥa in fully supported teaching; the five verbs lose their final nūn: تَكْتُبِينَ ← لَنْ تَكْتُبِي , يَكْتُبُونَ ← لَنْ يَكْتُبُوا .",
+  "## Plans, predictions, promises and refusals",
+  "Future grammar supports the communicative purposes assessed in conversations and extended writing.",
+  "### Plan",
+  "سَأَدْرُسُ الطِّبَّ فِي الْمُسْتَقْبَلِ.",
+  "state an intended action",
+  "### Prediction",
+  "سَوْفَ تَتَغَيَّرُ التِّقْنِيَّةُ سَرِيعًا.",
+  "state what you think will happen",
+  "### Promise",
+  "سَأُسَاعِدُكَ غَدًا.",
+  "commit to an action",
+  "### Refusal / negative plan",
+  "لَنْ أَتَأَخَّرَ مَرَّةً أُخْرَى.",
+  "state what will not happen",
+  "[callout] Extend with reasons: سَأَتَعَلَّمُ الْعَرَبِيَّةَ لِأَنَّنِي أُرِيدُ أَنْ أَعْمَلَ فِي الْخَارِجِ.",
+  "## Future time expressions",
+  "Time phrases contextualise plans and prevent tense ambiguity.",
+  "TABLE: Time phrase | Model // غَدًا | سَأَذْهَبُ غَدًا. // الأُسْبُوعَ الْقَادِمَ | سَوْفَ نَبْدَأُ الأُسْبُوعَ الْقَادِمَ. // فِي الصَّيْفِ الْمُقْبِلِ | سَنُسَافِرُ فِي الصَّيْفِ الْمُقْبِلِ. // فِي الْمُسْتَقْبَلِ | سَأَتَعَلَّمُ مَهَارَاتٍ جَدِيدَةً فِي الْمُسْتَقْبَلِ. // بَعْدَ خَمْسِ سَنَوَاتٍ | سَوْفَ أَكُونُ فِي الْجَامِعَةِ بَعْدَ خَمْسِ سَنَوَاتٍ.",
+  "[callout] Double evidence: A future marker plus a future time phrase makes the intended time frame unmistakable.",
+  "## Future misconception clinic",
+  "A useful correction explains the form, not only the answer.",
+  "### Rigid distance rule",
+  "✗ سَـ لِلْمُسْتَقْبَلِ الْقَرِيبِ فَقَطْ، وَسَوْفَ لِلْبَعِيدِ فَقَطْ",
+  "✓ سَـ وَسَوْفَ كِلَاهُمَا لِلْمُسْتَقْبَلِ، وَالسِّيَاقُ يُحَدِّدُ الدَّلَالَةَ",
+  "The near/distant contrast is not an absolute rule.",
+  "### Writing سوف",
+  "✗ سَوْفَسَأَدْرُسُ",
+  "✓ سَوْفَ أَدْرُسُ",
+  "Do not combine both markers or attach سوف.",
+  "### After لن",
+  "✗ لَنْ يَذْهَبُونَ",
+  "✓ لَنْ يَذْهَبُوا",
+  "The nūn of the five verbs drops.",
+  "### Time mismatch",
+  "✗ سَافَرْتُ غَدًا",
+  "✓ سَأُسَافِرُ غَدًا",
+  "A future time phrase needs a future-compatible verb form.",
+  "## Replayable future game",
+  "Choose forms that match meaning and grammar.",
+  "## Apply the grammar across skills",
+  "Grammar becomes useful when it helps you understand and communicate.",
+  "### 📖 Reading workshop",
+  "Read four students’ future plans and match each prediction, intention and refusal to the correct person.",
+  "### 🎧 Listening workshop",
+  "Listen for the contrast between سَيَفْعَلُ and لَنْ يَفْعَلَ, especially in plural forms.",
+  "### 🗣️ Speaking workshop",
+  "Answer a topic-conversation question about education, work and travel in five linked future sentences.",
+  "### 🛠️ Editing workshop",
+  "Repair future paragraphs containing doubled markers, attached سوف, retained nūn after لن and past/future mismatches.",
+  "### ✍️ Integrated production task",
+  "Write 130–140 words about your plans, hopes and predictions for the next five years. Include one promise and two things you will not do.",
+  "[callout] Model: فِي الْمُسْتَقْبَلِ سَأَدْرُسُ فِي الْجَامِعَةِ، وَسَوْفَ أَتَعَلَّمُ مَهَارَاتٍ جَدِيدَةً. لَنْ أَتَوَقَّفَ عَنِ تَعَلُّمِ الْعَرَبِيَّةِ.",
+  "[callout] Success checklist: Use both سـ and سوف, at least three future time phrases, two لن structures and one five-verb form after لن.",
+  "Save and mark complete Clear",
+  "Plan the verb changes as a timeline, root map or sentence flowchart. Label each form in Arabic.",
+  "Underline future markers. Put a box around every verb after لن and check whether its nūn or final vowel changes.",
+  "## Final mastery check",
+  "Control affirmative and negative future forms.",
+  "### Lesson mastery summary",
+  "- write سـ attached and سوف separately;",
+  "- form clear affirmative future statements;",
+  "- negate future actions with لن and the subjunctive;",
+  "- use future language for plans, predictions, promises and refusals.",
+  "Return in 3–7 days and repeat the final check without reviewing first. Retrieval, not recognition alone, builds secure verb control."
+ ]
+}

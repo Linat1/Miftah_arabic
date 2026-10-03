@@ -1,0 +1,261 @@
+{
+ "path": "lessons/grammar/03-nouns/grammar-mastery-03-sound-masculine-plural.php",
+ "title": "Sound Masculine Plural",
+ "arabic": "جَمْعُ الْمُذَكَّرِ السَّالِمُ",
+ "lede": "Form and use the sound masculine plural with correct case endings and human agreement.",
+ "nav": [
+  [
+   "GM-N-02",
+   "Singular, Dual and Plural"
+  ]
+ ],
+ "quizzes": [
+  {
+   "title": "🔎 Entry Check",
+   "items": [
+    {
+     "prompt": "Choose nominative “teachers”.",
+     "options": [
+      "مُعَلِّمُونَ",
+      "مُعَلِّمِينَ",
+      "مُعَلِّمَاتٌ"
+     ],
+     "answer": 0,
+     "feedback": "-ūna nominative."
+    },
+    {
+     "prompt": "After مَعَ choose.",
+     "options": [
+      "مُهَنْدِسُونَ",
+      "مُهَنْدِسِينَ",
+      "مُهَنْدِسَاتٍ"
+     ],
+     "answer": 1,
+     "feedback": "Genitive after preposition."
+    },
+    {
+     "prompt": "This plural mainly refers to:",
+     "options": [
+      "human masculine groups",
+      "all objects",
+      "feminine nouns only"
+     ],
+     "answer": 0,
+     "feedback": "Productive with male persons/professions/adjectival nouns."
+    },
+    {
+     "prompt": "Choose agreement.",
+     "options": [
+      "الْمُعَلِّمُونَ مُجْتَهِدٌ",
+      "الْمُعَلِّمُونَ مُجْتَهِدُونَ",
+      "الْمُعَلِّمُونَ مُجْتَهِدَةٌ"
+     ],
+     "answer": 1,
+     "feedback": "Human plural agreement."
+    },
+    {
+     "prompt": "Which singular forms مُسْلِمُونَ?",
+     "options": [
+      "مُسْلِمٌ",
+      "مُسْلِمَةٌ",
+      "إِسْلَامٌ"
+     ],
+     "answer": 0,
+     "feedback": "Add sound masculine ending."
+    },
+    {
+     "prompt": "Which ending is shared by accusative and genitive?",
+     "options": [
+      "ـانِ",
+      "ـونَ",
+      "ـينَ"
+     ],
+     "answer": 2,
+     "feedback": "-īna."
+    }
+   ]
+  },
+  {
+   "title": "🧠 Guided mini-check",
+   "items": [
+    {
+     "prompt": "Subject: “The engineers arrived.”",
+     "options": [
+      "وَصَلَ الْمُهَنْدِسُونَ.",
+      "وَصَلَ الْمُهَنْدِسِينَ.",
+      "وَصَلَتِ الْمُهَنْدِسَاتُ."
+     ],
+     "answer": 0,
+     "feedback": "Nominative subject."
+    },
+    {
+     "prompt": "After إِلَى choose.",
+     "options": [
+      "الْمُوَظَّفُونَ",
+      "الْمُوَظَّفِينَ",
+      "الْمُوَظَّفَاتُ"
+     ],
+     "answer": 1,
+     "feedback": "Genitive."
+    },
+    {
+     "prompt": "Object: “I thanked the teachers.”",
+     "options": [
+      "شَكَرْتُ الْمُعَلِّمُونَ",
+      "شَكَرْتُ الْمُعَلِّمِينَ",
+      "شَكَرْتُ الْمُعَلِّمَاتِ"
+     ],
+     "answer": 1,
+     "feedback": "Accusative."
+    },
+    {
+     "prompt": "Choose agreement.",
+     "options": [
+      "الطُّلَّابُ نَشِيطُونَ",
+      "الطُّلَّابُ نَشِيطَةٌ",
+      "الطُّلَّابُ نَشِيطٌ"
+     ],
+     "answer": 0,
+     "feedback": "Human masculine plural."
+    },
+    {
+     "prompt": "Idāfa form “school teachers”.",
+     "options": [
+      "مُعَلِّمُونَ الْمَدْرَسَةِ",
+      "مُعَلِّمُو الْمَدْرَسَةِ",
+      "الْمُعَلِّمُونَ الْمَدْرَسَةِ"
+     ],
+     "answer": 1,
+     "feedback": "Nūn drops in idāfa."
+    }
+   ]
+  },
+  {
+   "title": "⭐ Mastery Check",
+   "items": [
+    {
+     "prompt": "Subject: “The engineers arrived.”",
+     "options": [
+      "وَصَلَ الْمُهَنْدِسُونَ.",
+      "وَصَلَ الْمُهَنْدِسِينَ.",
+      "وَصَلَتِ الْمُهَنْدِسَاتُ."
+     ],
+     "answer": 0,
+     "feedback": "Nominative subject."
+    },
+    {
+     "prompt": "After إِلَى choose.",
+     "options": [
+      "الْمُوَظَّفُونَ",
+      "الْمُوَظَّفِينَ",
+      "الْمُوَظَّفَاتُ"
+     ],
+     "answer": 1,
+     "feedback": "Genitive."
+    },
+    {
+     "prompt": "Object: “I thanked the teachers.”",
+     "options": [
+      "شَكَرْتُ الْمُعَلِّمُونَ",
+      "شَكَرْتُ الْمُعَلِّمِينَ",
+      "شَكَرْتُ الْمُعَلِّمَاتِ"
+     ],
+     "answer": 1,
+     "feedback": "Accusative."
+    },
+    {
+     "prompt": "Choose agreement.",
+     "options": [
+      "الطُّلَّابُ نَشِيطُونَ",
+      "الطُّلَّابُ نَشِيطَةٌ",
+      "الطُّلَّابُ نَشِيطٌ"
+     ],
+     "answer": 0,
+     "feedback": "Human masculine plural."
+    },
+    {
+     "prompt": "Idāfa form “school teachers”.",
+     "options": [
+      "مُعَلِّمُونَ الْمَدْرَسَةِ",
+      "مُعَلِّمُو الْمَدْرَسَةِ",
+      "الْمُعَلِّمُونَ الْمَدْرَسَةِ"
+     ],
+     "answer": 1,
+     "feedback": "Nūn drops in idāfa."
+    },
+    {
+     "prompt": "Sound masculine plural of مُجْتَهِدٌ.",
+     "options": [
+      "مُجْتَهِدُونَ",
+      "مُجْتَهِدَاتٌ",
+      "مَجَاهِدُ"
+     ],
+     "answer": 0,
+     "feedback": "Regular ending."
+    },
+    {
+     "prompt": "Which is not automatically sound masculine?",
+     "options": [
+      "مُعَلِّمٌ",
+      "مُهَنْدِسٌ",
+      "كِتَابٌ"
+     ],
+     "answer": 2,
+     "feedback": "Non-human objects often use other plural patterns."
+    },
+    {
+     "prompt": "ـينَ marks:",
+     "options": [
+      "only nominative",
+      "accusative/genitive",
+      "dual nominative"
+     ],
+     "answer": 1,
+     "feedback": "Case-sensitive plural ending."
+    }
+   ]
+  }
+ ],
+ "games": [],
+ "blocks": [
+  "## Why this matters لِمَاذَا هَذَا مُهِمٌّ؟",
+  "Form and use the sound masculine plural with correct case endings and human agreement.",
+  "### Core",
+  "Recognise and build the core form.",
+  "### Develop",
+  "Use the form accurately in sentence roles and agreement.",
+  "### Stretch",
+  "Explain case, exceptions and interaction with iḍāfa.",
+  "## Diagnostic start اِخْتِبَارُ الْبِدَايَةِ",
+  "Answer first; then use the explanations to repair uncertainty.",
+  "## Formation and meaning",
+  "The sound masculine plural keeps the singular stem recognisable and adds a case-sensitive ending.",
+  "TABLE: Singular | Nominative plural | Accusative/genitive plural | Meaning // مُعَلِّمٌ | مُعَلِّمُونَ | مُعَلِّمِينَ | male/mixed teachers // مُهَنْدِسٌ | مُهَنْدِسُونَ | مُهَنْدِسِينَ | engineers // مُجْتَهِدٌ | مُجْتَهِدُونَ | مُجْتَهِدِينَ | hard-working people",
+  "[callout] Sound means the stem remains substantially intact. It does not mean every masculine noun uses this plural.",
+  "## Choose ـونَ or ـينَ from the noun’s job",
+  "### Subject / nominative",
+  "حَضَرَ الْمُعَلِّمُونَ.",
+  "### Object / accusative",
+  "رَأَيْتُ الْمُعَلِّمِينَ.",
+  "### After preposition / genitive",
+  "تَحَدَّثْتُ مَعَ الْمُعَلِّمِينَ.",
+  "[callout/warning] Spelling alert: The nūn remains in ordinary use, but drops when the sound plural is the first term of an idāfa: مُعَلِّمُو الْمَدْرَسَةِ .",
+  "## Four-skills application",
+  "Use the noun system to extract and communicate real information.",
+  "### 📖 Read and notice",
+  "فِي مَدْرَسَتِنَا طَالِبَانِ جَدِيدَانِ وَمُعَلِّمَاتٌ خَبِيرَاتٌ. الْفُصُولُ وَاسِعَةٌ، وَمَكْتَبُ مُدِيرِ الْمَدْرَسَةِ قَرِيبٌ مِنَ الْمَدْخَلِ.",
+  "Underline every noun relevant to this lesson and explain its form.",
+  "### 🗣️ Speak and transform",
+  "Choose five nouns. Say the singular, dual and/or plural form required by this lesson, then use each in a complete sentence.",
+  "### ✍️ Writing workshop",
+  "Write 8–12 connected sentences about your school, home or local area. Use at least six target noun forms from this lesson and underline them.",
+  "[callout] Model: فِي حَيِّي مَدْرَسَتَانِ كَبِيرَتَانِ، وَمَكْتَبَةُ الْحَيِّ مُفِيدَةٌ لِلطُّلَّابِ.",
+  "Save and mark complete Clear",
+  "Plan visually, label your examples in Arabic, then check each target form.",
+  "Complete the same task on paper. Underline the target noun forms and annotate the rule used.",
+  "## Final mastery check اِخْتِبَارُ الْإِتْقَانِ",
+  "Apply the rules without relying on the explanation panels.",
+  "### Consolidate and revisit",
+  "Below 70%: repeat the mini-check linked to your errors. 70–89%: replay the repair game. 90–100%: continue, then revisit this lesson in 3–7 days."
+ ]
+}

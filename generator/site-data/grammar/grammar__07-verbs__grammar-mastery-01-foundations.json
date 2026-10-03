@@ -1,0 +1,525 @@
+{
+ "path": "lessons/grammar/07-verbs/grammar-mastery-01-foundations.php",
+ "title": "Verb Foundations and the Conjugation Map",
+ "arabic": "أُسُسُ الْأَفْعَالِ وَخَرِيطَةُ التَّصْرِيفِ",
+ "lede": "Understand roots, patterns, verb families and the information carried by Arabic conjugation before tackling detailed tense and weak-verb rules.",
+ "nav": [],
+ "quizzes": [
+  {
+   "title": "🔎 Entry Check",
+   "items": [
+    {
+     "prompt": "Which item is a verb?",
+     "options": [
+      "كِتَابٌ",
+      "كَتَبَ",
+      "جَمِيلٌ"
+     ],
+     "answer": 1,
+     "feedback": "كَتَبَ expresses an action and carries past-tense information."
+    },
+    {
+     "prompt": "What is the root of كَتَبَ / يَكْتُبُ?",
+     "options": [
+      "ك-ت-ب",
+      "ي-ك-ت",
+      "ك-ب-ت"
+     ],
+     "answer": 0,
+     "feedback": "The root consonants carry the central lexical meaning."
+    },
+    {
+     "prompt": "Which pair should be learned together?",
+     "options": [
+      "قَالَ / يَقُولُ",
+      "قَالَ / كِتَابٌ",
+      "يَقُولُ / جَمِيلٌ"
+     ],
+     "answer": 0,
+     "feedback": "Learning past and present together reveals the verb family."
+    },
+    {
+     "prompt": "Which verb is hollow?",
+     "options": [
+      "كَتَبَ",
+      "قَالَ",
+      "وَصَلَ"
+     ],
+     "answer": 1,
+     "feedback": "قَالَ has a weak middle radical."
+    },
+    {
+     "prompt": "Which verb is doubled?",
+     "options": [
+      "مَرَّ",
+      "مَشَى",
+      "زَارَ"
+     ],
+     "answer": 0,
+     "feedback": "The second and third radicals are both ر; the shadda represents two letters."
+    },
+    {
+     "prompt": "Best learning principle?",
+     "options": [
+      "Memorise one English meaning only.",
+      "Learn root, past, present and a useful sentence.",
+      "Assume all verbs take identical vowels."
+     ],
+     "answer": 1,
+     "feedback": "A verb entry is a family of related forms and uses."
+    }
+   ]
+  },
+  {
+   "title": "🧩 Root and Pattern Check",
+   "items": [
+    {
+     "prompt": "Choose the root of دَرَسَ / يَدْرُسُ.",
+     "options": [
+      "د-ر-س",
+      "ي-د-ر",
+      "د-س-ر"
+     ],
+     "answer": 0,
+     "feedback": "The prefixes and vowels change; د ر س remain."
+    },
+    {
+     "prompt": "Which form means “we wrote”?",
+     "options": [
+      "كَتَبَ",
+      "كَتَبْنَا",
+      "يَكْتُبُ"
+     ],
+     "answer": 1,
+     "feedback": "ـنَا marks first-person plural in the past."
+    },
+    {
+     "prompt": "Which pair shares one root?",
+     "options": [
+      "لَعِبَ / يَلْعَبُ",
+      "لَعِبَ / سَافَرَ",
+      "يَلْعَبُ / كِتَابٌ"
+     ],
+     "answer": 0,
+     "feedback": "Both forms belong to ل-ع-ب."
+    },
+    {
+     "prompt": "Why learn the present with the past?",
+     "options": [
+      "The middle vowel and weak-letter behaviour may differ.",
+      "Arabic has no present tense.",
+      "The forms are always identical."
+     ],
+     "answer": 0,
+     "feedback": "Past and present often reveal different stem shapes."
+    }
+   ]
+  },
+  {
+   "title": "🔬 Verb Family Check",
+   "items": [
+    {
+     "prompt": "Classify زَارَ.",
+     "options": [
+      "sound",
+      "hollow",
+      "doubled"
+     ],
+     "answer": 1,
+     "feedback": "Its middle radical is weak."
+    },
+    {
+     "prompt": "Classify مَشَى.",
+     "options": [
+      "final weak",
+      "initial weak",
+      "doubled"
+     ],
+     "answer": 0,
+     "feedback": "The final root radical is weak."
+    },
+    {
+     "prompt": "Classify وَصَلَ / يَصِلُ.",
+     "options": [
+      "initial weak",
+      "hollow",
+      "sound"
+     ],
+     "answer": 0,
+     "feedback": "The initial و is part of the root and drops in this present form."
+    },
+    {
+     "prompt": "What does the shadda in مَرَّ represent?",
+     "options": [
+      "A decorative mark",
+      "Two identical consonants pronounced together",
+      "A long vowel"
+     ],
+     "answer": 1,
+     "feedback": "رّ represents ر + ر."
+    }
+   ]
+  },
+  {
+   "title": "👤 Person Check",
+   "items": [
+    {
+     "prompt": "Choose “I write”.",
+     "options": [
+      "أَكْتُبُ",
+      "يَكْتُبُ",
+      "نَكْتُبُ"
+     ],
+     "answer": 0,
+     "feedback": "أَـ marks first-person singular."
+    },
+    {
+     "prompt": "Choose “she wrote”.",
+     "options": [
+      "كَتَبَتْ",
+      "كَتَبْتُ",
+      "كَتَبْنَا"
+     ],
+     "answer": 0,
+     "feedback": "ـتْ marks feminine third-person singular."
+    },
+    {
+     "prompt": "Choose “we study”.",
+     "options": [
+      "نَدْرُسُ",
+      "أَدْرُسُ",
+      "يَدْرُسُونَ"
+     ],
+     "answer": 0,
+     "feedback": "نَـ marks first-person plural."
+    },
+    {
+     "prompt": "Which form can stand without a separate pronoun?",
+     "options": [
+      "كَتَبْنَا",
+      "كِتَابٌ",
+      "سَرِيعٌ"
+     ],
+     "answer": 0,
+     "feedback": "The verb ending already identifies “we”."
+    }
+   ]
+  },
+  {
+   "title": "🧠 Learning Strategy Check",
+   "items": [
+    {
+     "prompt": "Best notebook entry for “to visit”?",
+     "options": [
+      "زَارَ / يَزُورُ / زِيَارَةٌ / زَارَ صَدِيقَهُ",
+      "visit = زار only",
+      "زَارَ / كَبِيرٌ"
+     ],
+     "answer": 0,
+     "feedback": "The richer entry supports recognition and production."
+    },
+    {
+     "prompt": "Which statement is safe?",
+     "options": [
+      "All weak verbs change identically.",
+      "Verb families show likely changes, but actual high-frequency forms must be learned.",
+      "The root never matters."
+     ],
+     "answer": 1,
+     "feedback": "Pattern awareness and lexical learning work together."
+    },
+    {
+     "prompt": "What should you check first in a sentence?",
+     "options": [
+      "Who acts and when?",
+      "Only the English translation",
+      "Only the final letter"
+     ],
+     "answer": 0,
+     "feedback": "Person and time frame determine the main verb form."
+    },
+    {
+     "prompt": "What should happen after explanation?",
+     "options": [
+      "Immediate short practice",
+      "A long unrelated story",
+      "No examples"
+     ],
+     "answer": 0,
+     "feedback": "Miftah teaching pauses for practice after each major idea."
+    }
+   ]
+  },
+  {
+   "title": "⭐ Verb Foundations Mastery",
+   "items": [
+    {
+     "prompt": "The root of قَالَ is…",
+     "options": [
+      "ق-و-ل",
+      "ق-ا-ل",
+      "ي-ق-و"
+     ],
+     "answer": 0,
+     "feedback": "The underlying weak radical is و."
+    },
+    {
+     "prompt": "مَرَّ is…",
+     "options": [
+      "doubled",
+      "hollow",
+      "initial weak"
+     ],
+     "answer": 0,
+     "feedback": "The last two radicals match."
+    },
+    {
+     "prompt": "مَشَى is…",
+     "options": [
+      "final weak",
+      "sound",
+      "doubled"
+     ],
+     "answer": 0,
+     "feedback": "The final radical is weak."
+    },
+    {
+     "prompt": "“We wrote” is…",
+     "options": [
+      "كَتَبْنَا",
+      "كَتَبْتُ",
+      "يَكْتُبُونَ"
+     ],
+     "answer": 0,
+     "feedback": "ـنا marks we in the past."
+    },
+    {
+     "prompt": "“I write” is…",
+     "options": [
+      "أَكْتُبُ",
+      "يَكْتُبُ",
+      "نَكْتُبُ"
+     ],
+     "answer": 0,
+     "feedback": "أ marks first-person singular."
+    },
+    {
+     "prompt": "Best pair for visit…",
+     "options": [
+      "زَارَ / يَزُورُ",
+      "زَارَ / يَزُورَةٌ",
+      "يَزُورُ / كَتَبَ"
+     ],
+     "answer": 0,
+     "feedback": "Past and present pair."
+    },
+    {
+     "prompt": "A shadda represents…",
+     "options": [
+      "two identical consonants",
+      "a long vowel",
+      "future time"
+     ],
+     "answer": 0,
+     "feedback": "It combines two consonants."
+    },
+    {
+     "prompt": "Present formation…",
+     "options": [
+      "uses prefixes and sometimes suffixes",
+      "uses suffixes only",
+      "never changes the stem"
+     ],
+     "answer": 0,
+     "feedback": "أ ت ي ن plus person endings."
+    },
+    {
+     "prompt": "A useful verb entry includes…",
+     "options": [
+      "forms and a sentence",
+      "English only",
+      "one isolated spelling"
+     ],
+     "answer": 0,
+     "feedback": "Connected retrieval supports use."
+    },
+    {
+     "prompt": "First sentence check…",
+     "options": [
+      "who acts and when",
+      "colour of the page",
+      "word count only"
+     ],
+     "answer": 0,
+     "feedback": "Person and time frame guide the verb."
+    }
+   ]
+  }
+ ],
+ "games": [
+  [
+   {
+    "p": "قَالَ",
+    "a": "hollow",
+    "choices": [
+     "sound",
+     "hollow",
+     "doubled"
+    ],
+    "e": "ق-و-ل has a weak middle radical."
+   },
+   {
+    "p": "مَرَّ",
+    "a": "doubled",
+    "choices": [
+     "doubled",
+     "final weak",
+     "sound"
+    ],
+    "e": "The second and third radicals are both ر."
+   },
+   {
+    "p": "مَشَى",
+    "a": "final weak",
+    "choices": [
+     "initial weak",
+     "final weak",
+     "hollow"
+    ],
+    "e": "The final root radical is weak."
+   },
+   {
+    "p": "وَصَلَ",
+    "a": "initial weak",
+    "choices": [
+     "initial weak",
+     "sound",
+     "doubled"
+    ],
+    "e": "The root begins with و."
+   },
+   {
+    "p": "كَتَبَ",
+    "a": "sound",
+    "choices": [
+     "sound",
+     "hollow",
+     "final weak"
+    ],
+    "e": "No weak radical or doubled final pair."
+   },
+   {
+    "p": "زَارَ",
+    "a": "hollow",
+    "choices": [
+     "hollow",
+     "initial weak",
+     "sound"
+    ],
+    "e": "ز-و-ر has a weak middle radical."
+   },
+   {
+    "p": "رَدَّ",
+    "a": "doubled",
+    "choices": [
+     "doubled",
+     "sound",
+     "final weak"
+    ],
+    "e": "د is repeated."
+   },
+   {
+    "p": "دَعَا",
+    "a": "final weak",
+    "choices": [
+     "final weak",
+     "hollow",
+     "initial weak"
+    ],
+    "e": "The final radical is و in the root د-ع-و."
+   }
+  ]
+ ],
+ "blocks": [
+  "## Why this matters لِمَاذَا نَدْرُسُ بِنْيَةَ الْفِعْلِ؟",
+  "Arabic verbs are compact information systems. Recognising their layers makes reading faster and production more accurate.",
+  "### Core",
+  "Identify roots, past/present forms and the acting person.",
+  "### Develop",
+  "Classify sound, initial-weak, hollow, final-weak and doubled verbs.",
+  "### Stretch",
+  "Explain why a visible form changes while the root meaning remains connected.",
+  "[callout] Communication target: Given a verb in context, identify its family, person and time frame.",
+  "## Diagnostic start",
+  "Try the system before the explanation.",
+  "## The five layers inside a verb",
+  "Start by seeing the system rather than memorising disconnected endings.",
+  "TABLE: Layer | Question | Example // Root | What core consonants carry the main meaning? | ك-ت-ب // Pattern/stem | How is the root shaped? | كَتَبَ / يَكْتُبُ // Tense/aspect | Is the action completed or ongoing/habitual? | كَتَبَ / يَكْتُبُ // Person | Who performs the action? | كَتَبْتُ / كَتَبْنَا // Context | What completes the meaning? | كَتَبْتُ رِسَالَةً.",
+  "[callout] Key idea: Arabic verbs package several pieces of information into one word. كَتَبْنَا already tells us “we wrote”.",
+  "## A map of sound and weak verb families",
+  "The labels help you predict what may change, but they do not replace learning actual forms.",
+  "TABLE: Family | Arabic term | Signal | Examples // Sound | السَّالِمُ | No weak radical and no doubled final pair | كَتَبَ، دَرَسَ // Initial weak | الْمِثَالُ | و or ي is the first radical | وَصَلَ / يَصِلُ // Hollow | الْأَجْوَفُ | و or ي is the middle radical | قَالَ، زَارَ، قَامَ // Final weak | النَّاقِصُ | و or ي is the final radical | دَعَا، مَشَى، رَمَى // Doubled | الْمُضَعَّفُ | Second and third radicals match | مَرَّ، رَدَّ",
+  "[callout] Do not guess from spelling alone. Learn a high-frequency verb as a pair: قَالَ / يَقُولُ , زَارَ / يَزُورُ , مَشَى / يَمْشِي .",
+  "## Person, number and gender",
+  "A correct verb must match who performs the action.",
+  "TABLE: Pronoun | Past with كَتَبَ | Present with يَكْتُبُ // أَنَا | كَتَبْتُ | أَكْتُبُ // أَنْتَ | كَتَبْتَ | تَكْتُبُ // هُوَ | كَتَبَ | يَكْتُبُ // هِيَ | كَتَبَتْ | تَكْتُبُ // نَحْنُ | كَتَبْنَا | نَكْتُبُ",
+  "Past tense usually identifies the person mainly through suffixes. Present tense uses the prefix family أ، ت، ي، ن and, for several persons, additional suffixes.",
+  "[example] أَنَا كَتَبْتُ أَمْسِ. ⇄ أَنَا أَكْتُبُ الآنَ.",
+  "[ar] أَنَا كَتَبْتُ أَمْسِ.",
+  "[ar] أَنَا أَكْتُبُ الآنَ.",
+  "## How to learn verbs efficiently",
+  "Strong retrieval stores connected forms and meaningful use.",
+  "### Learn as a four-part entry",
+  "قَالَ / يَقُولُ / قَوْلٌ / قُلْ",
+  "past · present · verbal noun · useful command, where appropriate",
+  "### Learn with a collocation",
+  "قَالَ الْحَقِيقَةَ، زَارَ الْمُتْحَفَ، مَرَّ بِالسُّوقِ",
+  "The surrounding words protect natural usage and prepositions.",
+  "[callout/warning] Scope: This lesson maps the territory. Lesson 2 teaches the actual shape changes in hollow, doubled, initial-weak and final-weak verbs.",
+  "## Foundation misconception clinic",
+  "A useful correction explains the form, not only the answer.",
+  "### The weak letter is not “extra”",
+  "✗ قَالَ ← الجذر ق-ل",
+  "✓ قَالَ ← الجذر ق-و-ل",
+  "The و is a root radical even when it is not visible as و in the past surface form.",
+  "### A shadda counts twice",
+  "✗ الجذر م-ر",
+  "✓ الجذر م-ر-ر",
+  "مَرَّ contains two root occurrences of ر.",
+  "### Present is not simply “add ي”",
+  "✗ ي + كَتَبَ = يَكَتَبَ",
+  "✓ كَتَبَ / يَكْتُبُ",
+  "The stem vowels may change and must be learned.",
+  "### One form is not a full verb entry",
+  "✗ قَالَ فقط",
+  "✓ قَالَ / يَقُولُ / قَوْلٌ",
+  "Connected learning prepares later tense and morphology work.",
+  "## Replayable pattern game",
+  "Use classification to strengthen later prediction.",
+  "## Apply the grammar across skills",
+  "Grammar becomes useful when it helps you understand and communicate.",
+  "### 📖 Reading workshop",
+  "Read a short daily-routine paragraph and circle all verbs. Sort them by past/present and by sound/weak/doubled family.",
+  "### 🎧 Listening workshop",
+  "A partner reads eight sentences. Record only the verb and identify who acts and whether the action is completed or ongoing.",
+  "### 🗣️ Speaking workshop",
+  "Give a 45-second answer about what you usually do and what you did yesterday. Use at least four different verbs.",
+  "### 🛠️ Editing workshop",
+  "Repair a paragraph containing one wrong person ending, one tense mismatch, one guessed weak-verb form and one missing preposition.",
+  "### ✍️ Integrated production task",
+  "Write 80–100 words introducing your daily routine and one past experience. Underline five verbs and annotate each with its root, time frame and subject.",
+  "[callout] Model: أَسْتَيْقِظُ مُبَكِّرًا كُلَّ يَوْمٍ، وَأَذْهَبُ إِلَى الْمَدْرَسَةِ. أَمْسِ زُرْتُ الْمَكْتَبَةَ وَقَرَأْتُ كِتَابًا.",
+  "[callout] Success checklist: Use at least one sound verb, one hollow or weak verb, two different persons and two time frames.",
+  "Save and mark complete Clear",
+  "Plan the verb changes as a timeline, root map or sentence flowchart. Label each form in Arabic.",
+  "Write the paragraph, then create a three-column audit: verb form · root/family · reason it matches the sentence.",
+  "## Final mastery check",
+  "Check whether you can see the system before studying the detailed changes.",
+  "### Lesson mastery summary",
+  "- identify the root and main conjugation layers;",
+  "- classify common sound, weak and doubled verb families;",
+  "- match basic past and present forms to their subjects;",
+  "- build a useful multi-form verb entry.",
+  "Return in 3–7 days and repeat the final check without reviewing first. Retrieval, not recognition alone, builds secure verb control."
+ ]
+}

@@ -1,0 +1,494 @@
+{
+ "path": "lessons/grammar/10-verbal-sentences/grammar-mastery-02-subject-first-agreement.php",
+ "title": "Subject-First Full Agreement",
+ "arabic": "الْمُطَابَقَةُ الْكَامِلَةُ عِنْدَ تَقَدُّمِ الْفَاعِلِ",
+ "lede": "When a human subject is named first, the following verb mirrors its person, gender and number. Learn the complete pattern—and the non-human plural exception.",
+ "nav": [
+  [
+   "GM-VS-01",
+   "Word Order and Sentence Roles"
+  ]
+ ],
+ "quizzes": [
+  {
+   "title": "🔎 Entry Check",
+   "items": [
+    {
+     "prompt": "Complete: الطَّالِبُ ___ الْوَاجِبَ.",
+     "options": [
+      "كَتَبَ",
+      "كَتَبُوا",
+      "كَتَبَتْ"
+     ],
+     "answer": 0,
+     "feedback": "Masculine singular subject → masculine singular verb."
+    },
+    {
+     "prompt": "Complete: الطَّالِبَةُ ___ الْوَاجِبَ.",
+     "options": [
+      "كَتَبَتْ",
+      "كَتَبَ",
+      "كَتَبْنَ"
+     ],
+     "answer": 0,
+     "feedback": "Feminine singular subject → feminine singular verb."
+    },
+    {
+     "prompt": "Complete: الطَّالِبَانِ ___ الْوَاجِبَ.",
+     "options": [
+      "كَتَبَا",
+      "كَتَبَ",
+      "كَتَبُوا"
+     ],
+     "answer": 0,
+     "feedback": "Human masculine dual subject first → dual verb."
+    },
+    {
+     "prompt": "Complete: الطَّالِبَاتُ ___ الْوَاجِبَ.",
+     "options": [
+      "كَتَبْنَ",
+      "كَتَبَتْ",
+      "كَتَبُوا"
+     ],
+     "answer": 0,
+     "feedback": "Human feminine plural subject first → feminine plural verb."
+    },
+    {
+     "prompt": "Complete: الْحَافِلَاتُ ___ مُبَكِّرًا.",
+     "options": [
+      "وَصَلَتْ",
+      "وَصَلْنَ",
+      "وَصَلُوا"
+     ],
+     "answer": 0,
+     "feedback": "A non-human plural takes feminine singular agreement."
+    },
+    {
+     "prompt": "What controls the verb after a subject-first human noun?",
+     "options": [
+      "Person, gender and number",
+      "Number only",
+      "The object"
+     ],
+     "answer": 0,
+     "feedback": "Full agreement means all three features are visible."
+    }
+   ]
+  },
+  {
+   "title": "Past Agreement Check",
+   "items": [
+    {
+     "prompt": "Complete: الْمُعَلِّمَانِ ___ الدَّرْسَ.",
+     "options": [
+      "شَرَحَا",
+      "شَرَحَ",
+      "شَرَحُوا"
+     ],
+     "answer": 0,
+     "feedback": "Masculine dual subject first → شَرَحَا."
+    },
+    {
+     "prompt": "Complete: الْمُعَلِّمَتَانِ ___ الدَّرْسَ.",
+     "options": [
+      "شَرَحَتَا",
+      "شَرَحَتْ",
+      "شَرَحْنَ"
+     ],
+     "answer": 0,
+     "feedback": "Feminine dual subject first → شَرَحَتَا."
+    },
+    {
+     "prompt": "Complete: الْأَوْلَادُ ___ إِلَى الْمَلْعَبِ.",
+     "options": [
+      "ذَهَبُوا",
+      "ذَهَبَ",
+      "ذَهَبْنَ"
+     ],
+     "answer": 0,
+     "feedback": "Human masculine plural subject first → plural verb."
+    },
+    {
+     "prompt": "Complete: الْبَنَاتُ ___ إِلَى الْمَلْعَبِ.",
+     "options": [
+      "ذَهَبْنَ",
+      "ذَهَبَتْ",
+      "ذَهَبُوا"
+     ],
+     "answer": 0,
+     "feedback": "Human feminine plural subject first → feminine plural verb."
+    }
+   ]
+  },
+  {
+   "title": "Present Agreement Check",
+   "items": [
+    {
+     "prompt": "Complete: الطَّالِبَتَانِ ___ الْعَرَبِيَّةَ.",
+     "options": [
+      "تَدْرُسَانِ",
+      "يَدْرُسَانِ",
+      "تَدْرُسْنَ"
+     ],
+     "answer": 0,
+     "feedback": "Feminine dual subject first → تـ + ـانِ."
+    },
+    {
+     "prompt": "Complete: الطُّلَّابُ ___ الْعَرَبِيَّةَ.",
+     "options": [
+      "يَدْرُسُونَ",
+      "يَدْرُسُ",
+      "تَدْرُسْنَ"
+     ],
+     "answer": 0,
+     "feedback": "Human masculine/mixed plural → يدرسون."
+    },
+    {
+     "prompt": "Complete: الطَّالِبَاتُ ___ الْعَرَبِيَّةَ.",
+     "options": [
+      "يَدْرُسْنَ",
+      "تَدْرُسُ",
+      "يَدْرُسُونَ"
+     ],
+     "answer": 0,
+     "feedback": "Third-person feminine plural present uses يـ + ـنَ."
+    },
+    {
+     "prompt": "Which is fully agreeing?",
+     "options": [
+      "الْمُعَلِّمُونَ يَشْرَحُونَ.",
+      "الْمُعَلِّمُونَ يَشْرَحُ.",
+      "الْمُعَلِّمُونَ تَشْرَحُ."
+     ],
+     "answer": 0,
+     "feedback": "Human plural subject first requires plural verb."
+    }
+   ]
+  },
+  {
+   "title": "Human or Non-Human?",
+   "items": [
+    {
+     "prompt": "Complete: الْمُعَلِّمَاتُ ___ الْفَصْلَ.",
+     "options": [
+      "دَخَلْنَ",
+      "دَخَلَتْ",
+      "دَخَلُوا"
+     ],
+     "answer": 0,
+     "feedback": "Human feminine plural → feminine plural verb."
+    },
+    {
+     "prompt": "Complete: السَّيَّارَاتُ ___ الْمَدِينَةَ.",
+     "options": [
+      "دَخَلَتْ",
+      "دَخَلْنَ",
+      "دَخَلُوا"
+     ],
+     "answer": 0,
+     "feedback": "Non-human plural → feminine singular."
+    },
+    {
+     "prompt": "Complete: الْأَطِبَّاءُ ___ فِي الْمُسْتَشْفَى.",
+     "options": [
+      "يَعْمَلُونَ",
+      "يَعْمَلُ",
+      "تَعْمَلُ"
+     ],
+     "answer": 0,
+     "feedback": "Human masculine/mixed plural → plural agreement."
+    },
+    {
+     "prompt": "Complete: الْحَوَاسِيبُ ___ بِسُرْعَةٍ.",
+     "options": [
+      "تَعْمَلُ",
+      "يَعْمَلُونَ",
+      "يَعْمَلْنَ"
+     ],
+     "answer": 0,
+     "feedback": "Non-human plural → feminine singular present."
+    }
+   ]
+  },
+  {
+   "title": "🏁 Final Mastery",
+   "items": [
+    {
+     "prompt": "Complete: الْبِنْتُ ___ الْبَابَ.",
+     "options": [
+      "فَتَحَتْ",
+      "فَتَحَ",
+      "فَتَحْنَ"
+     ],
+     "answer": 0,
+     "feedback": "Feminine singular full agreement."
+    },
+    {
+     "prompt": "Complete: الْوَلَدَانِ ___ الْبَابَ.",
+     "options": [
+      "فَتَحَا",
+      "فَتَحَ",
+      "فَتَحُوا"
+     ],
+     "answer": 0,
+     "feedback": "Masculine dual subject first."
+    },
+    {
+     "prompt": "Complete: الْبِنْتَانِ ___ الْبَابَ.",
+     "options": [
+      "فَتَحَتَا",
+      "فَتَحَتْ",
+      "فَتَحْنَ"
+     ],
+     "answer": 0,
+     "feedback": "Feminine dual subject first."
+    },
+    {
+     "prompt": "Complete: الْأَوْلَادُ ___ الْبَابَ.",
+     "options": [
+      "فَتَحُوا",
+      "فَتَحَ",
+      "فَتَحْنَ"
+     ],
+     "answer": 0,
+     "feedback": "Human masculine/mixed plural full agreement."
+    },
+    {
+     "prompt": "Complete: الْبَنَاتُ ___ الْبَابَ.",
+     "options": [
+      "فَتَحْنَ",
+      "فَتَحَتْ",
+      "فَتَحُوا"
+     ],
+     "answer": 0,
+     "feedback": "Human feminine plural full agreement."
+    },
+    {
+     "prompt": "Complete: الطَّالِبَتَانِ ___ الآنَ.",
+     "options": [
+      "تَكْتُبَانِ",
+      "يَكْتُبَانِ",
+      "يَكْتُبْنَ"
+     ],
+     "answer": 0,
+     "feedback": "Feminine dual present begins with تـ."
+    },
+    {
+     "prompt": "Complete: الطَّالِبَاتُ ___ غَدًا.",
+     "options": [
+      "سَيَكْتُبْنَ",
+      "سَتَكْتُبُ",
+      "سَيَكْتُبُونَ"
+     ],
+     "answer": 0,
+     "feedback": "Third-person feminine plural future retains يـ + ـنَ."
+    },
+    {
+     "prompt": "Complete: الْمَدَارِسُ ___ أَبْوَابَهَا.",
+     "options": [
+      "تَفْتَحُ",
+      "يَفْتَحُونَ",
+      "يَفْتَحْنَ"
+     ],
+     "answer": 0,
+     "feedback": "Non-human plural → feminine singular present."
+    },
+    {
+     "prompt": "Complete: الْمُعَلِّمُونَ وَالْمُعَلِّمَاتُ ___ فِي الِاجْتِمَاعِ.",
+     "options": [
+      "شَارَكُوا",
+      "شَارَكْنَ",
+      "شَارَكَ"
+     ],
+     "answer": 0,
+     "feedback": "Mixed human plural → masculine plural agreement."
+    },
+    {
+     "prompt": "Core rule?",
+     "options": [
+      "Human subject first → full person, gender and number agreement.",
+      "All plural subjects always take plural verbs.",
+      "Subject position never affects agreement."
+     ],
+     "answer": 0,
+     "feedback": "Remember the non-human plural exception."
+    }
+   ]
+  }
+ ],
+ "games": [
+  [
+   {
+    "p": "الطَّالِبُ ___ الدَّرْسَ.",
+    "a": "فَهِمَ",
+    "choices": [
+     "فَهِمَ",
+     "فَهِمُوا",
+     "فَهِمَتْ"
+    ],
+    "e": "Masculine singular subject first."
+   },
+   {
+    "p": "الطَّالِبَةُ ___ الدَّرْسَ.",
+    "a": "فَهِمَتْ",
+    "choices": [
+     "فَهِمَتْ",
+     "فَهِمَ",
+     "فَهِمْنَ"
+    ],
+    "e": "Feminine singular subject first."
+   },
+   {
+    "p": "الطَّالِبَانِ ___ الدَّرْسَ.",
+    "a": "فَهِمَا",
+    "choices": [
+     "فَهِمَا",
+     "فَهِمَ",
+     "فَهِمُوا"
+    ],
+    "e": "Masculine dual full agreement."
+   },
+   {
+    "p": "الطَّالِبَتَانِ ___ الدَّرْسَ.",
+    "a": "فَهِمَتَا",
+    "choices": [
+     "فَهِمَتَا",
+     "فَهِمَتْ",
+     "فَهِمْنَ"
+    ],
+    "e": "Feminine dual full agreement."
+   },
+   {
+    "p": "الطُّلَّابُ ___ الدَّرْسَ.",
+    "a": "فَهِمُوا",
+    "choices": [
+     "فَهِمُوا",
+     "فَهِمَ",
+     "فَهِمْنَ"
+    ],
+    "e": "Human masculine/mixed plural."
+   },
+   {
+    "p": "الطَّالِبَاتُ ___ الدَّرْسَ.",
+    "a": "فَهِمْنَ",
+    "choices": [
+     "فَهِمْنَ",
+     "فَهِمَتْ",
+     "فَهِمُوا"
+    ],
+    "e": "Human feminine plural."
+   },
+   {
+    "p": "الطُّلَّابُ ___ الآنَ.",
+    "a": "يَدْرُسُونَ",
+    "choices": [
+     "يَدْرُسُونَ",
+     "يَدْرُسُ",
+     "يَدْرُسْنَ"
+    ],
+    "e": "Human plural present full agreement."
+   },
+   {
+    "p": "الطَّالِبَاتُ ___ غَدًا.",
+    "a": "سَيَدْرُسْنَ",
+    "choices": [
+     "سَيَدْرُسْنَ",
+     "سَتَدْرُسُ",
+     "سَيَدْرُسُونَ"
+    ],
+    "e": "Third-person feminine plural uses يـ + ـنَ."
+   },
+   {
+    "p": "الْحَافِلَاتُ ___ مُبَكِّرًا.",
+    "a": "وَصَلَتْ",
+    "choices": [
+     "وَصَلَتْ",
+     "وَصَلْنَ",
+     "وَصَلُوا"
+    ],
+    "e": "Non-human plural takes feminine singular."
+   },
+   {
+    "p": "الْأَوْلَادُ وَالْبَنَاتُ ___ فِي النَّشَاطِ.",
+    "a": "شَارَكُوا",
+    "choices": [
+     "شَارَكُوا",
+     "شَارَكْنَ",
+     "شَارَكَ"
+    ],
+    "e": "Mixed human plural uses masculine plural agreement."
+   }
+  ]
+ ],
+ "blocks": [
+  "## Why this matters لِمَاذَا نُطَابِقُ الْفِعْلَ؟",
+  "A subject-first sentence places a person or group at the centre. The verb must then give accurate information about that subject.",
+  "### Core",
+  "Match singular masculine and feminine subjects.",
+  "### Develop",
+  "Control dual and human plural agreement in three time frames.",
+  "### Stretch",
+  "Handle non-human plurals and coordinated subjects accurately.",
+  "[callout] Communication target: describe what different people and groups did, do and will do without confusing singular and plural endings.",
+  "## Diagnostic start",
+  "Use the feedback to locate the agreement family that needs review.",
+  "## The core subject-first rule",
+  "With an explicit human subject before the verb, the verb normally shows full agreement.",
+  "[callout] Memory line: الْفَاعِلُ أَوَّلًا ← مُطَابَقَةٌ كَامِلَةٌ — subject first means full agreement.",
+  "TABLE: Subject feature | Question | Verb signal // Person | Who: I, you, he, she, we, they? | prefix and/or suffix // Gender | Masculine or feminine? | e.g. كَتَبَ / كَتَبَتْ // Number | Singular, dual or plural? | e.g. كَتَبَ / كَتَبَا / كَتَبُوا",
+  "[ar] أَنَا كَتَبْتُ الرِّسَالَةَ.",
+  "[ar] الطَّالِبَتَانِ كَتَبَتَا الرِّسَالَةَ.",
+  "[ar] الطَّالِبَاتُ كَتَبْنَ الرِّسَالَةَ.",
+  "[ar] الطُّلَّابُ كَتَبُوا الرِّسَالَةَ.",
+  "## Past-tense full agreement",
+  "Past-tense endings carry the subject information after the preposed noun.",
+  "TABLE: Subject first | Agreeing verb | Complete sentence // الطَّالِبُ | كَتَبَ | الطَّالِبُ كَتَبَ الْوَاجِبَ. // الطَّالِبَةُ | كَتَبَتْ | الطَّالِبَةُ كَتَبَتِ الْوَاجِبَ. // الطَّالِبَانِ | كَتَبَا | الطَّالِبَانِ كَتَبَا الْوَاجِبَ. // الطَّالِبَتَانِ | كَتَبَتَا | الطَّالِبَتَانِ كَتَبَتَا الْوَاجِبَ. // الطُّلَّابُ | كَتَبُوا | الطُّلَّابُ كَتَبُوا الْوَاجِبَ. // الطَّالِبَاتُ | كَتَبْنَ | الطَّالِبَاتُ كَتَبْنَ الْوَاجِبَ.",
+  "[callout] Connected reading: In الطَّالِبَةُ كَتَبَتِ الْوَاجِبَ , a helping kasra may be heard on the feminine تْ before the article. The underlying past ending remains feminine singular.",
+  "## Present-tense full agreement",
+  "The present uses person prefixes plus dual/plural suffixes.",
+  "TABLE: Subject first | Agreeing present | Meaning // الطَّالِبُ | يَكْتُبُ | he writes // الطَّالِبَةُ | تَكْتُبُ | she writes // الطَّالِبَانِ | يَكْتُبَانِ | the two male/mixed students write // الطَّالِبَتَانِ | تَكْتُبَانِ | the two female students write // الطُّلَّابُ | يَكْتُبُونَ | the male/mixed students write // الطَّالِبَاتُ | يَكْتُبْنَ | the female students write",
+  "[callout] Two jobs for تـ: تَكْتُبُ may mean “she writes” or “you (m.) write”. The explicit subject and context resolve the meaning.",
+  "## Future agreement follows the present form",
+  "The future markers attach to or precede an already agreeing present-tense verb.",
+  "[ar] الطَّالِبُ سَيَكْتُبُ غَدًا.",
+  "[ar] الطَّالِبَةُ سَتَكْتُبُ غَدًا.",
+  "[ar] الطَّالِبَانِ سَيَكْتُبَانِ غَدًا.",
+  "[ar] الطَّالِبَتَانِ سَتَكْتُبَانِ غَدًا.",
+  "[ar] الطُّلَّابُ سَيَكْتُبُونَ غَدًا.",
+  "[ar] الطَّالِبَاتُ سَيَكْتُبْنَ غَدًا.",
+  "[callout] With سَوْفَ: keep the same agreeing present form: الطَّالِبَاتُ سَوْفَ يَكْتُبْنَ .",
+  "## The essential exception: non-human plurals",
+  "A non-human plural is normally treated as feminine singular in agreement, even when it appears before the verb.",
+  "TABLE: Non-human plural subject | Correct verb | Complete model // الْحَافِلَاتُ | وَصَلَتْ | الْحَافِلَاتُ وَصَلَتْ مُبَكِّرًا. // الْكُتُبُ | وَصَلَتْ | الْكُتُبُ وَصَلَتْ أَمْسِ. // الْمَدَارِسُ | تَفْتَحُ | الْمَدَارِسُ تَفْتَحُ أَبْوَابَهَا صَبَاحًا. // السَّيَّارَاتُ | سَتَتَوَقَّفُ | السَّيَّارَاتُ سَتَتَوَقَّفُ هُنَا.",
+  "[callout/warning] Do not overapply full plural agreement: الْحَافِلَاتُ وَصَلْنَ treats buses as a human feminine group. The standard target is الْحَافِلَاتُ وَصَلَتْ .",
+  "## Stretch: coordinated human subjects",
+  "When two named human subjects are placed first, treat the complete group as plural.",
+  "[ar] عَلِيٌّ وَأَحْمَدُ ذَهَبَا إِلَى السُّوقِ.",
+  "[ar] مَرْيَمُ وَلَيْلَى ذَهَبَتَا إِلَى السُّوقِ.",
+  "[ar] الطُّلَّابُ وَالطَّالِبَاتُ شَارَكُوا فِي الْمَشْرُوعِ.",
+  "[ar] أَنَا وَأُخْتِي ذَهَبْنَا إِلَى الْمَكْتَبَةِ.",
+  "[callout] Exam-safe strategy: For a complex coordinated subject, place the full subject first and use clear full agreement. This avoids the subtler agreement choices of verb-first coordination.",
+  "## Misconception and proofreading clinic",
+  "Correct only the agreement signal that conflicts with the subject.",
+  "TABLE: Incorrect | Correct | Repair // الطُّلَّابُ كَتَبَ الْوَاجِبَ. | الطُّلَّابُ كَتَبُوا الْوَاجِبَ. | Human plural subject first → plural verb. // الطَّالِبَاتُ يَكْتُبُونَ. | الطَّالِبَاتُ يَكْتُبْنَ. | Human feminine plural needs ـنَ. // الطَّالِبَتَانِ سَيَكْتُبَانِ. | الطَّالِبَتَانِ سَتَكْتُبَانِ. | Feminine dual present/future begins with تـ. // الْكُتُبُ وَصَلْنَ. | الْكُتُبُ وَصَلَتْ. | Non-human plural → feminine singular agreement.",
+  "## Grammar game",
+  "Match each subject-first noun phrase with the only verb form that agrees fully.",
+  "## Skills workshop التَّطْبِيقُ الْعَمَلِيُّ",
+  "Transform profiles and reports from singular to dual and plural without losing agreement.",
+  "[ar] الطَّالِبُ قَدَّمَ عَرْضًا، وَالطَّالِبَانِ أَجَابَا عَنِ السُّؤَالَيْنِ.",
+  "[ar] الطَّالِبَاتُ سَيَكْتُبْنَ تَقْرِيرًا، أَمَّا الْحَوَاسِيبُ فَسَتَعْمَلُ بِسُرْعَةٍ.",
+  "### Write a group progress report",
+  "Write 80–100 Arabic words describing what one person, two people and several groups did, do and will do in a school project.",
+  "[callout] Model: الطَّالِبَةُ جَمَعَتِ الْمَعْلُومَاتِ، وَالطَّالِبَانِ كَتَبَا التَّقْرِيرَ. الطَّالِبَاتُ يُرَاجِعْنَ النَّصَّ الآنَ، وَالصُّوَرُ سَتَظْهَرُ فِي الْعَرْضِ.",
+  "[callout] Success checklist: Use one masculine singular, one feminine singular, one dual, one human masculine/mixed plural, one human feminine plural and two non-human plural subjects. Keep every subject before its verb.",
+  "[callout] Paper route: Draw three columns—past, present and future. Place each subject in a row and write the fully agreeing verb beside it.",
+  "## Final mastery check",
+  "Check full agreement and the non-human plural exception.",
+  "### What you can now do",
+  "- Apply full agreement after a singular, dual or human plural subject.",
+  "- Control past, present and future subject-first forms.",
+  "- Use feminine plural verbs accurately with human feminine groups.",
+  "- Apply feminine singular agreement to non-human plural subjects.",
+  "Spaced revisit: Return in two or three days and complete the final check again without looking at the tables."
+ ]
+}

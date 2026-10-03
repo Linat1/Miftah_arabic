@@ -1,0 +1,516 @@
+{
+ "path": "lessons/grammar/14-interrogatives/grammar-mastery-02-ayy-ayyah.php",
+ "title": "Which? Gender and Case Agreement",
+ "arabic": "أَيّ وَأَيَّة: التَّذْكِيرُ وَالتَّأْنِيثُ وَالْإِعْرَابُ",
+ "lede": "Ask a precise “which?” question by matching the noun’s gender, building the construct phrase and choosing the case required by the whole sentence.",
+ "nav": [
+  [
+   "GM-INT-01",
+   "Yes/No Questions with هَلْ and أَ"
+  ]
+ ],
+ "quizzes": [
+  {
+   "title": "🔎 Which? Starter",
+   "items": [
+    {
+     "prompt": "Choose “which day”.",
+     "options": [
+      "أَيُّ يَوْمٍ",
+      "أَيَّةُ يَوْمٍ",
+      "مَاذَا يَوْمٍ"
+     ],
+     "answer": 0,
+     "feedback": "يَوْمٌ is masculine, so use أَيّ."
+    },
+    {
+     "prompt": "Choose “which car”.",
+     "options": [
+      "أَيَّةُ سَيَّارَةٍ",
+      "أَيُّ سَيَّارَةٍ",
+      "مَنْ سَيَّارَةٍ"
+     ],
+     "answer": 0,
+     "feedback": "سَيَّارَةٌ is feminine, so use أَيَّة."
+    },
+    {
+     "prompt": "What case is the noun after basic أَيّ / أَيَّة?",
+     "options": [
+      "Genitive as the second term of an iḍāfa",
+      "Always accusative",
+      "Always nominative"
+     ],
+     "answer": 0,
+     "feedback": "أَيّ / أَيَّة is the first term of a construct phrase; the following noun is genitive."
+    },
+    {
+     "prompt": "Choose “Which book did you read?”",
+     "options": [
+      "أَيَّ كِتَابٍ قَرَأْتَ؟",
+      "أَيُّ كِتَابٌ قَرَأْتَ؟",
+      "أَيِّ كِتَابٍ قَرَأْتَ؟"
+     ],
+     "answer": 0,
+     "feedback": "The phrase is the direct object, so أَيَّ is accusative; كِتَابٍ remains genitive in the construct."
+    },
+    {
+     "prompt": "Choose “In which class?”",
+     "options": [
+      "فِي أَيِّ فَصْلٍ؟",
+      "فِي أَيُّ فَصْلٌ؟",
+      "فِي أَيَّ فَصْلًا؟"
+     ],
+     "answer": 0,
+     "feedback": "فِي makes أَيِّ genitive; فَصْلٍ completes the construct."
+    },
+    {
+     "prompt": "Which word asks for a selection from known options?",
+     "options": [
+      "أَيّ / أَيَّة",
+      "مَا only",
+      "هَلْ only"
+     ],
+     "answer": 0,
+     "feedback": "أَيّ / أَيَّة narrows the question to a choice."
+    }
+   ]
+  },
+  {
+   "title": "✅ Mini-check: gender",
+   "items": [
+    {
+     "prompt": "Choose “which language”.",
+     "options": [
+      "أَيَّةُ لُغَةٍ",
+      "أَيُّ لُغَةٍ",
+      "أَيَّ لُغَةً"
+     ],
+     "answer": 0,
+     "feedback": "لُغَةٌ is feminine; the nominative model is أَيَّةُ لُغَةٍ."
+    },
+    {
+     "prompt": "Choose “which route/road”.",
+     "options": [
+      "أَيُّ طَرِيقٍ",
+      "أَيَّةُ طَرِيقٍ",
+      "أَيَّ طَرِيقًا"
+     ],
+     "answer": 0,
+     "feedback": "طَرِيقٌ is masculine."
+    },
+    {
+     "prompt": "Choose “which sport” as the direct object.",
+     "options": [
+      "أَيَّةَ رِيَاضَةٍ تُفَضِّلُ؟",
+      "أَيَّ رِيَاضَةٍ تُفَضِّلُ؟",
+      "أَيَّةُ رِيَاضَةٌ تُفَضِّلُ؟"
+     ],
+     "answer": 0,
+     "feedback": "رِيَاضَةٌ is feminine, and the phrase is accusative as the direct object."
+    },
+    {
+     "prompt": "Choose “which colour suits you?”",
+     "options": [
+      "أَيُّ لَوْنٍ يُنَاسِبُكَ؟",
+      "أَيَّةُ لَوْنٍ يُنَاسِبُكَ؟",
+      "أَيَّ لَوْنًا يُنَاسِبُكَ؟"
+     ],
+     "answer": 0,
+     "feedback": "لَوْنٌ is masculine and the phrase is the nominative subject of يُنَاسِبُ."
+    }
+   ]
+  },
+  {
+   "title": "✅ Mini-check: case",
+   "items": [
+    {
+     "prompt": "Choose “Which teacher arrived?”",
+     "options": [
+      "أَيُّ مُعَلِّمٍ وَصَلَ؟",
+      "أَيَّ مُعَلِّمٍ وَصَلَ؟",
+      "أَيِّ مُعَلِّمٍ وَصَلَ؟"
+     ],
+     "answer": 0,
+     "feedback": "The “which teacher” phrase is the subject, so أَيُّ is nominative."
+    },
+    {
+     "prompt": "Choose “Which film did you watch?”",
+     "options": [
+      "أَيَّ فِلْمٍ شَاهَدْتَ؟",
+      "أَيُّ فِلْمٍ شَاهَدْتَ؟",
+      "فِي أَيِّ فِلْمٍ شَاهَدْتَ؟"
+     ],
+     "answer": 0,
+     "feedback": "The film is the direct object, so أَيَّ is accusative."
+    },
+    {
+     "prompt": "Choose “From which city?”",
+     "options": [
+      "مِنْ أَيَّةِ مَدِينَةٍ؟",
+      "مِنْ أَيَّةُ مَدِينَةٌ؟",
+      "مِنْ أَيَّةَ مَدِينَةً؟"
+     ],
+     "answer": 0,
+     "feedback": "مِنْ requires the genitive: أَيَّةِ مَدِينَةٍ."
+    },
+    {
+     "prompt": "Which part stays genitive in all three basic models?",
+     "options": [
+      "The noun after أَيّ / أَيَّة",
+      "أَيّ itself",
+      "The verb"
+     ],
+     "answer": 0,
+     "feedback": "The following noun is the second term of the iḍāfa."
+    }
+   ]
+  },
+  {
+   "title": "🛠 Repair lab",
+   "items": [
+    {
+     "prompt": "Repair أَيَّةُ يَوْمٍ يُنَاسِبُكِ؟",
+     "options": [
+      "أَيُّ يَوْمٍ يُنَاسِبُكِ؟",
+      "أَيَّةُ يَوْمٍ يُنَاسِبُكِ؟",
+      "أَيَّ يَوْمًا يُنَاسِبُكِ؟"
+     ],
+     "answer": 0,
+     "feedback": "يَوْمٌ is masculine and the phrase is the subject."
+    },
+    {
+     "prompt": "Repair أَيُّ حَقِيبَةٍ اشْتَرَيْتِ؟",
+     "options": [
+      "أَيَّةَ حَقِيبَةٍ اشْتَرَيْتِ؟",
+      "أَيَّةُ حَقِيبَةٌ اشْتَرَيْتِ؟",
+      "أَيَّ حَقِيبَةً اشْتَرَيْتِ؟"
+     ],
+     "answer": 0,
+     "feedback": "Use feminine أَيَّةَ; the whole phrase is accusative while حَقِيبَةٍ is genitive."
+    },
+    {
+     "prompt": "Repair مِنْ أَيَّةُ دَوْلَةٌ أَنْتَ؟",
+     "options": [
+      "مِنْ أَيَّةِ دَوْلَةٍ أَنْتَ؟",
+      "مِنْ أَيَّةَ دَوْلَةً أَنْتَ؟",
+      "مِنْ أَيُّ دَوْلَةٍ أَنْتَ؟"
+     ],
+     "answer": 0,
+     "feedback": "مِنْ governs the genitive and دَوْلَةٌ is feminine."
+    },
+    {
+     "prompt": "Choose the best question for a known list of subjects.",
+     "options": [
+      "أَيَّةَ مَادَّةٍ تُفَضِّلُ؟",
+      "مَا تُفَضِّلُ مَادَّةٍ؟",
+      "هَلْ مَادَّةٌ تُفَضِّلُ؟"
+     ],
+     "answer": 0,
+     "feedback": "أَيَّةَ asks for one chosen subject and matches the feminine noun."
+    }
+   ]
+  },
+  {
+   "title": "🏁 أَيّ / أَيَّة Mastery",
+   "items": [
+    {
+     "prompt": "Choose “which day”.",
+     "options": [
+      "أَيُّ يَوْمٍ",
+      "أَيَّةُ يَوْمٍ",
+      "أَيَّ يَوْمًا"
+     ],
+     "answer": 0,
+     "feedback": "يَوْمٌ is masculine; the basic isolated model is nominative."
+    },
+    {
+     "prompt": "Choose “which hour”.",
+     "options": [
+      "أَيَّةُ سَاعَةٍ",
+      "أَيُّ سَاعَةٍ",
+      "أَيَّةَ سَاعَةً"
+     ],
+     "answer": 0,
+     "feedback": "سَاعَةٌ is feminine."
+    },
+    {
+     "prompt": "Why is the noun after أَيّ genitive?",
+     "options": [
+      "It completes an iḍāfa/construct phrase.",
+      "It is always a direct object.",
+      "Question words force every noun accusative."
+     ],
+     "answer": 0,
+     "feedback": "أَيّ / أَيَّة is the first term of the construct."
+    },
+    {
+     "prompt": "Choose “Which student arrived?”",
+     "options": [
+      "أَيُّ طَالِبٍ وَصَلَ؟",
+      "أَيَّ طَالِبٍ وَصَلَ؟",
+      "أَيِّ طَالِبٍ وَصَلَ؟"
+     ],
+     "answer": 0,
+     "feedback": "The choice phrase is the nominative subject."
+    },
+    {
+     "prompt": "Choose “Which car did you buy?”",
+     "options": [
+      "أَيَّةَ سَيَّارَةٍ اشْتَرَيْتَ؟",
+      "أَيَّةُ سَيَّارَةٌ اشْتَرَيْتَ؟",
+      "أَيَّ سَيَّارَةٍ اشْتَرَيْتَ؟"
+     ],
+     "answer": 0,
+     "feedback": "Feminine and accusative as the direct object."
+    },
+    {
+     "prompt": "Choose “In which school?”",
+     "options": [
+      "فِي أَيَّةِ مَدْرَسَةٍ؟",
+      "فِي أَيَّةُ مَدْرَسَةٌ؟",
+      "فِي أَيَّ مَدْرَسَةٍ؟"
+     ],
+     "answer": 0,
+     "feedback": "Feminine and genitive after فِي."
+    },
+    {
+     "prompt": "Which question asks for a known selection?",
+     "options": [
+      "أَيَّ كِتَابٍ تُرِيدُ؟",
+      "مَا هَذَا؟",
+      "هَلْ هَذَا كِتَابٌ؟"
+     ],
+     "answer": 0,
+     "feedback": "أَيّ narrows the question to one option."
+    },
+    {
+     "prompt": "Choose the accurate construct.",
+     "options": [
+      "أَيُّ لَوْنٍ",
+      "أَيُّ لَوْنٌ",
+      "أَيٌّ لَوْنًا"
+     ],
+     "answer": 0,
+     "feedback": "أَيُّ is the first term; لَوْنٍ is genitive."
+    },
+    {
+     "prompt": "Choose the accurate prepositional question.",
+     "options": [
+      "إِلَى أَيَّةِ مَدِينَةٍ سَتَذْهَبِينَ؟",
+      "إِلَى أَيَّةَ مَدِينَةً سَتَذْهَبِينَ؟",
+      "أَيَّةُ مَدِينَةٍ إِلَى تَذْهَبِينَ؟"
+     ],
+     "answer": 0,
+     "feedback": "إِلَى governs the entire choice phrase."
+    },
+    {
+     "prompt": "Best editing sequence?",
+     "options": [
+      "Gender → sentence role/case → genitive following noun.",
+      "Translate into English first and ignore case.",
+      "Use أَيُّ for every noun."
+     ],
+     "answer": 0,
+     "feedback": "The three-step sequence protects all required agreements."
+    }
+   ]
+  }
+ ],
+ "games": [
+  [
+   {
+    "p": "Which day suits you?",
+    "a": "أَيُّ يَوْمٍ يُنَاسِبُكَ؟",
+    "choices": [
+     "أَيُّ يَوْمٍ يُنَاسِبُكَ؟",
+     "أَيَّ يَوْمًا يُنَاسِبُكَ؟",
+     "أَيَّةُ يَوْمٍ يُنَاسِبُكَ؟"
+    ],
+    "e": "Masculine and nominative subject; noun genitive."
+   },
+   {
+    "p": "Which hour suits you?",
+    "a": "أَيَّةُ سَاعَةٍ تُنَاسِبُكِ؟",
+    "choices": [
+     "أَيَّةُ سَاعَةٍ تُنَاسِبُكِ؟",
+     "أَيُّ سَاعَةٍ تُنَاسِبُكِ؟",
+     "أَيَّةَ سَاعَةً تُنَاسِبُكِ؟"
+    ],
+    "e": "Feminine and nominative subject; noun genitive."
+   },
+   {
+    "p": "Which book did you buy?",
+    "a": "أَيَّ كِتَابٍ اشْتَرَيْتَ؟",
+    "choices": [
+     "أَيَّ كِتَابٍ اشْتَرَيْتَ؟",
+     "أَيُّ كِتَابٌ اشْتَرَيْتَ؟",
+     "أَيِّ كِتَابٍ اشْتَرَيْتَ؟"
+    ],
+    "e": "The phrase is the accusative object."
+   },
+   {
+    "p": "Which bag did she choose?",
+    "a": "أَيَّةَ حَقِيبَةٍ اخْتَارَتْ؟",
+    "choices": [
+     "أَيَّةَ حَقِيبَةٍ اخْتَارَتْ؟",
+     "أَيَّةُ حَقِيبَةٌ اخْتَارَتْ؟",
+     "أَيَّ حَقِيبَةٍ اخْتَارَتْ؟"
+    ],
+    "e": "Feminine and accusative."
+   },
+   {
+    "p": "In which class?",
+    "a": "فِي أَيِّ فَصْلٍ؟",
+    "choices": [
+     "فِي أَيِّ فَصْلٍ؟",
+     "فِي أَيُّ فَصْلٌ؟",
+     "فِي أَيَّ فَصْلًا؟"
+    ],
+    "e": "The preposition governs the genitive."
+   },
+   {
+    "p": "From which city?",
+    "a": "مِنْ أَيَّةِ مَدِينَةٍ؟",
+    "choices": [
+     "مِنْ أَيَّةِ مَدِينَةٍ؟",
+     "مِنْ أَيَّةُ مَدِينَةٌ؟",
+     "مِنْ أَيِّ مَدِينَةٍ؟"
+    ],
+    "e": "Feminine and genitive after مِنْ."
+   },
+   {
+    "p": "Which colour do you prefer?",
+    "a": "أَيَّ لَوْنٍ تُفَضِّلُ؟",
+    "choices": [
+     "أَيَّ لَوْنٍ تُفَضِّلُ؟",
+     "أَيُّ لَوْنٌ تُفَضِّلُ؟",
+     "أَيَّةَ لَوْنٍ تُفَضِّلُ؟"
+    ],
+    "e": "Masculine direct object."
+   },
+   {
+    "p": "Which language is easier?",
+    "a": "أَيَّةُ لُغَةٍ أَسْهَلُ؟",
+    "choices": [
+     "أَيَّةُ لُغَةٍ أَسْهَلُ؟",
+     "أَيَّ لُغَةً أَسْهَلُ؟",
+     "أَيُّ لُغَةٍ أَسْهَلُ؟"
+    ],
+    "e": "Feminine nominative subject."
+   },
+   {
+    "p": "To which country will you travel?",
+    "a": "إِلَى أَيَّةِ دَوْلَةٍ سَتُسَافِرُ؟",
+    "choices": [
+     "إِلَى أَيَّةِ دَوْلَةٍ سَتُسَافِرُ؟",
+     "إِلَى أَيَّةَ دَوْلَةً سَتُسَافِرُ؟",
+     "أَيَّةُ دَوْلَةٍ إِلَى سَتُسَافِرُ؟"
+    ],
+    "e": "إِلَى governs the genitive."
+   },
+   {
+    "p": "Which of the two?",
+    "a": "أَيُّهُمَا؟",
+    "choices": [
+     "أَيُّهُمَا؟",
+     "مَاذَاهُمَا؟",
+     "هَلْهُمَا؟"
+    ],
+    "e": "أَيُّهُمَا is a useful Stretch form for two known choices."
+   }
+  ]
+ ],
+ "blocks": [
+  "## “Which?” asks for a choice from a known set",
+  "Unlike a broad “what?”, أَيّ / أَيَّة points to one item, person, time or option among possibilities.",
+  "[ar] أَيُّ يَوْمٍ يُنَاسِبُكَ؟",
+  "[ar] أَيَّةُ سَاعَةٍ تُنَاسِبُكِ؟",
+  "[ar] أَيَّ كِتَابٍ قَرَأْتَ؟",
+  "[ar] فِي أَيَّةِ مَدْرَسَةٍ تَدْرُسِينَ؟",
+  "[callout] Cambridge relevance: precise choice questions occur naturally in timetables, travel, shopping, preferences and role-play follow-ups.",
+  "## Choose your route",
+  "Secure gender agreement first, then add construct and case control.",
+  "### Core",
+  "- Use أَيّ with masculine nouns.",
+  "- Use أَيَّة with feminine nouns.",
+  "- Keep the following noun singular and genitive in the basic model.",
+  "### Develop",
+  "- Use أَيُّ / أَيَّ / أَيِّ according to sentence role.",
+  "- Use feminine أَيَّةُ / أَيَّةَ / أَيَّةِ.",
+  "- Distinguish “which?” from broader مَا / مَاذَا questions.",
+  "### Stretch",
+  "- Use known plural/dual sets and forms such as أَيُّهُمَا.",
+  "- Explain the iḍāfa relationship.",
+  "- Edit complex questions for gender, case and prepositions.",
+  "## Starter diagnostic",
+  "Choose the form that matches the noun before analysing case.",
+  "## أَيّ / أَيَّة versus “what?”",
+  "Choose أَيّ when the listener can select or identify one option from a set.",
+  "TABLE: Question type | Arabic model | Expected answer // Open identity: What is this? | مَا هَذَا؟ | هَذَا جِهَازٌ. // Known choice: Which device? | أَيُّ جِهَازٍ تُرِيدُ؟ | أُرِيدُ الْحَاسُوبَ. // Open action: What are you reading? | مَاذَا تَقْرَأُ؟ | أَقْرَأُ قِصَّةً. // Known choice: Which story? | أَيَّةَ قِصَّةٍ تَقْرَأُ؟ | أَقْرَأُ الْقِصَّةَ الْأُولَى.",
+  "[callout] Meaning test: can the listener reasonably point to one option, day, route, subject or item? If yes, “which?” is likely appropriate.",
+  "## Gender agreement: أَيّ or أَيَّة",
+  "The interrogative form follows the grammatical gender of the noun—not the gender of the person speaking.",
+  "### Masculine nouns",
+  "- أَيُّ يَوْمٍ؟",
+  "- أَيُّ كِتَابٍ؟",
+  "- أَيُّ فِلْمٍ؟",
+  "- أَيُّ طَرِيقٍ؟",
+  "- أَيُّ لَوْنٍ؟",
+  "### Feminine nouns",
+  "- أَيَّةُ سَاعَةٍ؟",
+  "- أَيَّةُ مَدْرَسَةٍ؟",
+  "- أَيَّةُ حَقِيبَةٍ؟",
+  "- أَيَّةُ رِيَاضَةٍ؟",
+  "- أَيَّةُ لُغَةٍ؟",
+  "[callout/warning] Do not guess from meaning alone. Learn the grammatical gender with the noun. For example, طَرِيقٌ is masculine; سَاعَةٌ is feminine.",
+  "## The construct structure",
+  "أَيّ / أَيَّة is the first term of an iḍāfa; the following noun completes its meaning and is genitive.",
+  "TABLE: First term | Second term | Whole meaning // أَيُّ | يَوْمٍ | which day // أَيَّةُ | سَاعَةٍ | which hour/time // أَيَّ | كِتَابٍ | which book // أَيَّةِ | مَدْرَسَةٍ | which school (after a preposition)",
+  "[callout] Two endings, two jobs: the ending on أَيّ / أَيَّة follows the phrase’s role in the sentence. The following noun is genitive because it is the second term of the construct.",
+  "## Case on أَيّ / أَيَّة",
+  "Ask what role the whole “which + noun” phrase performs.",
+  "TABLE: Role | Masculine | Feminine | Why? // Nominative subject | أَيُّ يَوْمٍ يُنَاسِبُكَ؟ | أَيَّةُ سَاعَةٍ تُنَاسِبُكِ؟ | The choice itself performs/supplies the subject role. // Accusative object | أَيَّ كِتَابٍ قَرَأْتَ؟ | أَيَّةَ رِيَاضَةٍ تُفَضِّلِينَ؟ | The choice receives the action. // After a preposition | فِي أَيِّ فَصْلٍ تَدْرُسُ؟ | فِي أَيَّةِ مَدْرَسَةٍ تَدْرُسِينَ؟ | فِي requires the genitive.",
+  "[callout] Three-step decision: identify gender → identify the whole phrase’s role → keep the following noun genitive.",
+  "## Known choices, answers and follow-ups",
+  "A strong question identifies the category; a strong answer identifies the selected item and explains why.",
+  "### Timetable",
+  "أَيُّ يَوْمٍ تُفَضِّلُ؟",
+  "أُفَضِّلُ يَوْمَ السَّبْتِ لِأَنَّنِي مُتَفَرِّغٌ.",
+  "### Travel",
+  "إِلَى أَيَّةِ مَدِينَةٍ سَتُسَافِرِينَ؟",
+  "سَأُسَافِرُ إِلَى الْقَاهِرَةِ.",
+  "### School subject",
+  "أَيَّةَ مَادَّةٍ تُحِبُّ؟",
+  "أُحِبُّ عِلْمَ الْأَحْيَاءِ لِأَنَّهُ مُثِيرٌ.",
+  "### Stretch: two options",
+  "أَيُّهُمَا أَفْضَلُ لَكَ؟",
+  "Which of the two is better for you?",
+  "## Misconception clinic",
+  "Repair gender, construct and case errors systematically.",
+  "## Which-form challenge",
+  "Choose gender and case together before the explanation appears.",
+  "## Four-skills application",
+  "Use “which?” to navigate choices in schedules, shopping, travel and preferences.",
+  "### Reading: course choices",
+  "أَيَّةَ مَادَّةٍ سَتَخْتَارُ؟ أَيُّ يَوْمٍ يُنَاسِبُكَ؟ فِي أَيَّةِ قَاعَةٍ سَتَكُونُ الْحِصَّةُ؟",
+  "Identify the gender and case evidence in each question.",
+  "### Listening sort",
+  "Have a partner read eight questions. Sort them into masculine أَيّ and feminine أَيَّة, then identify whether each form is nominative, accusative or genitive.",
+  "### Speaking choice ladder",
+  "Ask about a day, subject, city, sport, colour and book. Give a full answer and one reason each time.",
+  "### Transformation",
+  "Change broad questions with مَا / مَاذَا into precise “which?” questions for a known list.",
+  "### Plan a choice-based conversation",
+  "Write a dialogue in which one person chooses a course, journey, item or activity from several options.",
+  "[callout] Success checklist: Include three masculine and three feminine أَيّ/أَيَّة questions, all three cases, two prepositions, one أَيُّهُمَا stretch form and complete reasoned answers.",
+  "## Final mastery check",
+  "Show that you can coordinate meaning, gender, construct and case.",
+  "### You can now",
+  "- Use masculine أَيّ and feminine أَيَّة.",
+  "- Build the construct phrase with a genitive noun.",
+  "- Inflect the interrogative form for nominative, accusative and genitive roles.",
+  "- Distinguish “which?” from open مَا / مَاذَا questions.",
+  "- Ask and answer choice questions in practical contexts.",
+  "Spaced revisit: select six nouns from different Cambridge topics and build one nominative, accusative or prepositional “which?” question for each."
+ ]
+}

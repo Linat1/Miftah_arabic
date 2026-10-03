@@ -1,0 +1,260 @@
+{
+ "path": "lessons/grammar/04-adjectives/grammar-mastery-05-ghayr.php",
+ "title": "Negative Description with غَيْر",
+ "arabic": "النَّفْيُ الوَصْفِيُّ بِـ«غَيْر»",
+ "lede": "Use غَيْر to create precise negative descriptions, understand its iḍāfa-like grammar, and avoid common article and case errors.",
+ "nav": [
+  [
+   "GM-ADJ-04",
+   "Position and Full Adjective Agreement"
+  ]
+ ],
+ "quizzes": [
+  {
+   "title": "🔎 Entry Check",
+   "items": [
+    {
+     "prompt": "Complete غَيْرُ ...",
+     "options": [
+      "مُمْكِنٌ",
+      "مُمْكِنٍ",
+      "مُمْكِنًا"
+     ],
+     "answer": 1,
+     "feedback": "The following word is genitive."
+    },
+    {
+     "prompt": "Choose “an unsuitable idea”",
+     "options": [
+      "فِكْرَةٌ غَيْرُ مُنَاسِبَةٍ",
+      "فِكْرَةٌ غَيْرَ مُنَاسِبَةٌ",
+      "غَيْرٌ فِكْرَةٌ مُنَاسِبَةٌ"
+     ],
+     "answer": 0,
+     "feedback": "غير begins an iḍāfa-like negative descriptor."
+    },
+    {
+     "prompt": "After فِي, choose correct غَيْر form",
+     "options": [
+      "غَيْرُ",
+      "غَيْرَ",
+      "غَيْرِ"
+     ],
+     "answer": 2,
+     "feedback": "The whole descriptor is genitive."
+    },
+    {
+     "prompt": "Meaning of غَيْرُ صَحِيحٍ",
+     "options": [
+      "very correct",
+      "incorrect",
+      "not yet read"
+     ],
+     "answer": 1,
+     "feedback": "It negates the following description."
+    },
+    {
+     "prompt": "Which principle best supports this lesson?",
+     "options": [
+      "Check the noun first",
+      "Translate word by word from English",
+      "Ignore definiteness"
+     ],
+     "answer": 0,
+     "feedback": "The noun controls adjective agreement."
+    }
+   ]
+  },
+  {
+   "title": "🧩 Guided check",
+   "items": [
+    {
+     "prompt": "Complete غَيْرُ ...",
+     "options": [
+      "مُمْكِنٌ",
+      "مُمْكِنٍ",
+      "مُمْكِنًا"
+     ],
+     "answer": 1,
+     "feedback": "The following word is genitive."
+    },
+    {
+     "prompt": "Choose “an unsuitable idea”",
+     "options": [
+      "فِكْرَةٌ غَيْرُ مُنَاسِبَةٍ",
+      "فِكْرَةٌ غَيْرَ مُنَاسِبَةٌ",
+      "غَيْرٌ فِكْرَةٌ مُنَاسِبَةٌ"
+     ],
+     "answer": 0,
+     "feedback": "غير begins an iḍāfa-like negative descriptor."
+    },
+    {
+     "prompt": "After فِي, choose correct غَيْر form",
+     "options": [
+      "غَيْرُ",
+      "غَيْرَ",
+      "غَيْرِ"
+     ],
+     "answer": 2,
+     "feedback": "The whole descriptor is genitive."
+    },
+    {
+     "prompt": "Meaning of غَيْرُ صَحِيحٍ",
+     "options": [
+      "very correct",
+      "incorrect",
+      "not yet read"
+     ],
+     "answer": 1,
+     "feedback": "It negates the following description."
+    }
+   ]
+  },
+  {
+   "title": "⭐ Mastery Check",
+   "items": [
+    {
+     "prompt": "Complete غَيْرُ ...",
+     "options": [
+      "مُمْكِنٌ",
+      "مُمْكِنٍ",
+      "مُمْكِنًا"
+     ],
+     "answer": 1,
+     "feedback": "The following word is genitive."
+    },
+    {
+     "prompt": "Choose “an unsuitable idea”",
+     "options": [
+      "فِكْرَةٌ غَيْرُ مُنَاسِبَةٍ",
+      "فِكْرَةٌ غَيْرَ مُنَاسِبَةٌ",
+      "غَيْرٌ فِكْرَةٌ مُنَاسِبَةٌ"
+     ],
+     "answer": 0,
+     "feedback": "غير begins an iḍāfa-like negative descriptor."
+    },
+    {
+     "prompt": "After فِي, choose correct غَيْر form",
+     "options": [
+      "غَيْرُ",
+      "غَيْرَ",
+      "غَيْرِ"
+     ],
+     "answer": 2,
+     "feedback": "The whole descriptor is genitive."
+    },
+    {
+     "prompt": "Meaning of غَيْرُ صَحِيحٍ",
+     "options": [
+      "very correct",
+      "incorrect",
+      "not yet read"
+     ],
+     "answer": 1,
+     "feedback": "It negates the following description."
+    },
+    {
+     "prompt": "Complete غَيْرُ ...",
+     "options": [
+      "مُمْكِنٌ",
+      "مُمْكِنٍ",
+      "مُمْكِنًا"
+     ],
+     "answer": 1,
+     "feedback": "The following word is genitive."
+    },
+    {
+     "prompt": "Choose “an unsuitable idea”",
+     "options": [
+      "فِكْرَةٌ غَيْرُ مُنَاسِبَةٍ",
+      "فِكْرَةٌ غَيْرَ مُنَاسِبَةٌ",
+      "غَيْرٌ فِكْرَةٌ مُنَاسِبَةٌ"
+     ],
+     "answer": 0,
+     "feedback": "غير begins an iḍāfa-like negative descriptor."
+    },
+    {
+     "prompt": "After فِي, choose correct غَيْر form",
+     "options": [
+      "غَيْرُ",
+      "غَيْرَ",
+      "غَيْرِ"
+     ],
+     "answer": 2,
+     "feedback": "The whole descriptor is genitive."
+    },
+    {
+     "prompt": "Meaning of غَيْرُ صَحِيحٍ",
+     "options": [
+      "very correct",
+      "incorrect",
+      "not yet read"
+     ],
+     "answer": 1,
+     "feedback": "It negates the following description."
+    }
+   ]
+  }
+ ],
+ "games": [],
+ "blocks": [
+  "## Why this matters لِمَاذَا هَذَا مُهِمٌّ؟",
+  "Adjective control affects the accuracy of descriptions in every Cambridge topic: people, clothes, homes, school, travel, weather, work and opinions.",
+  "### Core",
+  "Build common expressions such as غير ممكن and غير مناسب.",
+  "### Develop",
+  "Use غَيْر as the first term of an iḍāfa-like construction.",
+  "### Stretch",
+  "Control definiteness and case in connected phrases.",
+  "## Diagnostic start",
+  "Try this short check before reading the explanations. Incorrect answers are information, not failure.",
+  "## Learn the system step by step",
+  "Read one explanation, study the worked examples, then pause for the mini-check.",
+  "### 1. Meaning and structure",
+  "غَيْر means “other than”, “not” or “non-” in many adjective-like expressions. It is followed by a genitive word because the structure behaves like an iḍāfa.",
+  "[callout] غَيْرُ مُمْكِنٍ = impossible / not possible غَيْرُ مُنَاسِبٍ = unsuitable غَيْرُ صَحِيحٍ = incorrect",
+  "### 2. Definiteness",
+  "The complete expression can become definite through the following adjective or participle. In a definite context, one common form is غَيْرُ الْمُمْكِنِ , though many communicative sentences use غَيْر as a predicate or adverbial descriptor without forcing a literal English article.",
+  "[callout] هَذَا الْحَلُّ غَيْرُ مُنَاسِبٍ. قَرَأْتُ الْخَبَرَ غَيْرَ الصَّحِيحِ.",
+  "### 3. Case belongs to غَيْر",
+  "The grammatical position changes the ending on غَيْر ; the word after it remains genitive.",
+  "[callout] هَذَا جَوَابٌ غَيْرُ صَحِيحٍ. رَأَيْتُ جَوَابًا غَيْرَ صَحِيحٍ. فَكَّرْتُ فِي جَوَابٍ غَيْرِ صَحِيحٍ.",
+  "### High-frequency model bank",
+  "- غَيْرُ مُمْكِنٍ",
+  "- غَيْرُ مُنَاسِبٍ",
+  "- طَعَامٌ غَيْرُ صِحِّيٍّ",
+  "- فِكْرَةٌ غَيْرُ وَاضِحَةٍ",
+  "### Misconception clinic",
+  "- Treating غير as an unchanging particle in advanced case-marked work.",
+  "- Putting the following word in nominative instead of genitive.",
+  "- Assuming غير always translates naturally as English “un-” in every context.",
+  "## Guided practice and transformation",
+  "Do not only recognise the answer. Say what changed and why.",
+  "### Transformation drill",
+  "- Copy each model from the lesson.",
+  "- Change the noun’s gender, number or definiteness as appropriate.",
+  "- Change every adjective feature controlled by that noun.",
+  "- Translate the new phrase or sentence accurately.",
+  "- Explain one change using the grammar vocabulary from this lesson.",
+  "## Apply through four skills",
+  "### 📖 Reading and noticing",
+  "فِي مَدِينَتِي أَمَاكِنُ جَمِيلَةٌ وَشَوَارِعُ وَاسِعَةٌ. هَذِهِ الْمَدْرَسَةُ الْجَدِيدَةُ قَرِيبَةٌ، وَذَلِكَ الْمَتْحَفُ الْقَدِيمُ مُثِيرٌ لِلِاهْتِمَامِ.",
+  "Underline each adjective, draw an arrow to its noun, and label the agreement feature that made the form correct.",
+  "### 🎧 Listening without audio",
+  "Ask a partner or teacher to read the model paragraph twice. First record the nouns; second record the adjectives. Reconstruct the correct pairs and explain the agreement.",
+  "### 🗣️ Speaking",
+  "Describe two people, places or objects for 45–60 seconds. Include at least six accurate adjective structures from this lesson.",
+  "### 🛠️ Editing clinic",
+  "Write four deliberately incorrect adjective phrases, exchange them with a partner, then correct and explain every error.",
+  "### ✍️ Extended writing workshop",
+  "Write 90–120 words describing a person, place, object or experience. Include at least eight target adjective structures from this lesson and underline them after writing.",
+  "[callout] Quality check: identify the head noun first, then check gender, number, definiteness and any lesson-specific form.",
+  "Save and mark complete Clear",
+  "Create a labelled grammar map or handwritten draft. Connect every adjective to its noun.",
+  "Complete the task on paper. Underline the target forms and annotate the rule used.",
+  "## Final mastery check اِخْتِبَارُ الْإِتْقَانِ",
+  "Complete this without reopening the teaching cards.",
+  "### Interpret your result",
+  "Below 70%: revisit the misconception clinic and guided check. 70–89%: replay the transformation game and improve one paragraph. 90–100%: continue, then complete a spaced retrieval check in 3–7 days."
+ ]
+}

@@ -1,0 +1,447 @@
+{
+ "path": "lessons/grammar/10-verbal-sentences/grammar-mastery-03-verb-first-agreement.php",
+ "title": "Verb-First Agreement",
+ "arabic": "الْمُطَابَقَةُ عِنْدَ تَقَدُّمِ الْفِعْلِ",
+ "lede": "When the verb comes before an explicit dual or plural subject, formal MSA normally keeps the verb singular in number while matching the subject’s gender.",
+ "nav": [
+  [
+   "GM-VS-02",
+   "Subject-First Full Agreement"
+  ]
+ ],
+ "quizzes": [
+  {
+   "title": "🔎 Entry Check",
+   "items": [
+    {
+     "prompt": "Complete formal VSO: ___ الطُّلَّابُ الْوَاجِبَ.",
+     "options": [
+      "كَتَبَ",
+      "كَتَبُوا",
+      "كَتَبْنَ"
+     ],
+     "answer": 0,
+     "feedback": "The overt human plural follows the verb, so the verb is singular masculine."
+    },
+    {
+     "prompt": "Complete formal VSO: ___ الطَّالِبَاتُ الْوَاجِبَ.",
+     "options": [
+      "كَتَبَتْ",
+      "كَتَبْنَ",
+      "كَتَبُوا"
+     ],
+     "answer": 0,
+     "feedback": "Singular in number, feminine in gender."
+    },
+    {
+     "prompt": "Complete formal VSO: ___ الطَّالِبَانِ الْوَاجِبَ.",
+     "options": [
+      "كَتَبَ",
+      "كَتَبَا",
+      "كَتَبُوا"
+     ],
+     "answer": 0,
+     "feedback": "The following dual subject takes a singular verb in standard VSO."
+    },
+    {
+     "prompt": "Complete formal VSO: ___ الطَّالِبَتَانِ الْوَاجِبَ.",
+     "options": [
+      "كَتَبَتْ",
+      "كَتَبَتَا",
+      "كَتَبْنَ"
+     ],
+     "answer": 0,
+     "feedback": "Singular feminine verb before a feminine dual subject."
+    },
+    {
+     "prompt": "Which order requires full plural agreement?",
+     "options": [
+      "الطُّلَّابُ كَتَبُوا.",
+      "كَتَبَ الطُّلَّابُ.",
+      "كَتَبَتِ الطَّالِبَاتُ."
+     ],
+     "answer": 0,
+     "feedback": "The human plural subject comes first."
+    },
+    {
+     "prompt": "What remains matched in verb-first order?",
+     "options": [
+      "Gender",
+      "Plural number only",
+      "The object’s definiteness"
+     ],
+     "answer": 0,
+     "feedback": "The verb stays singular in number but agrees with subject gender."
+    }
+   ]
+  },
+  {
+   "title": "Past VSO Check",
+   "items": [
+    {
+     "prompt": "Complete: ___ الْمُعَلِّمُونَ الدَّرْسَ.",
+     "options": [
+      "شَرَحَ",
+      "شَرَحُوا",
+      "شَرَحْنَ"
+     ],
+     "answer": 0,
+     "feedback": "Masculine plural subject after verb → singular masculine."
+    },
+    {
+     "prompt": "Complete: ___ الْمُعَلِّمَاتُ الدَّرْسَ.",
+     "options": [
+      "شَرَحَتْ",
+      "شَرَحْنَ",
+      "شَرَحُوا"
+     ],
+     "answer": 0,
+     "feedback": "Feminine plural subject after verb → singular feminine."
+    },
+    {
+     "prompt": "Complete: ___ الْوَلَدَانِ الْبَابَ.",
+     "options": [
+      "فَتَحَ",
+      "فَتَحَا",
+      "فَتَحُوا"
+     ],
+     "answer": 0,
+     "feedback": "Masculine dual after verb → singular masculine."
+    },
+    {
+     "prompt": "Complete: ___ الْبِنْتَانِ الْبَابَ.",
+     "options": [
+      "فَتَحَتْ",
+      "فَتَحَتَا",
+      "فَتَحْنَ"
+     ],
+     "answer": 0,
+     "feedback": "Feminine dual after verb → singular feminine."
+    }
+   ]
+  },
+  {
+   "title": "Present VSO Check",
+   "items": [
+    {
+     "prompt": "Complete: ___ الطُّلَّابُ فِي الْمَكْتَبَةِ.",
+     "options": [
+      "يَدْرُسُ",
+      "يَدْرُسُونَ",
+      "تَدْرُسُ"
+     ],
+     "answer": 0,
+     "feedback": "Masculine plural subject follows → singular masculine present."
+    },
+    {
+     "prompt": "Complete: ___ الطَّالِبَاتُ فِي الْمَكْتَبَةِ.",
+     "options": [
+      "تَدْرُسُ",
+      "يَدْرُسْنَ",
+      "يَدْرُسُونَ"
+     ],
+     "answer": 0,
+     "feedback": "Feminine plural subject follows → singular feminine present."
+    },
+    {
+     "prompt": "Complete: ___ الْمُعَلِّمَتَانِ الْعَرَبِيَّةَ.",
+     "options": [
+      "تُدَرِّسُ",
+      "تُدَرِّسَانِ",
+      "يُدَرِّسُ"
+     ],
+     "answer": 0,
+     "feedback": "Feminine dual follows → singular feminine present."
+    },
+    {
+     "prompt": "Which is formal VSO?",
+     "options": [
+      "يَعْمَلُ الْمُهَنْدِسُونَ هُنَا.",
+      "يَعْمَلُونَ الْمُهَنْدِسُونَ هُنَا.",
+      "تَعْمَلُ الْمُهَنْدِسُونَ هُنَا."
+     ],
+     "answer": 0,
+     "feedback": "Singular masculine verb before masculine human plural."
+    }
+   ]
+  },
+  {
+   "title": "🏁 Final Mastery",
+   "items": [
+    {
+     "prompt": "Complete: ___ الْأَوْلَادُ إِلَى الْمَدْرَسَةِ.",
+     "options": [
+      "ذَهَبَ",
+      "ذَهَبُوا",
+      "ذَهَبْنَ"
+     ],
+     "answer": 0,
+     "feedback": "Masculine plural follows → singular masculine."
+    },
+    {
+     "prompt": "Complete: ___ الْبَنَاتُ إِلَى الْمَدْرَسَةِ.",
+     "options": [
+      "ذَهَبَتْ",
+      "ذَهَبْنَ",
+      "ذَهَبُوا"
+     ],
+     "answer": 0,
+     "feedback": "Feminine plural follows → singular feminine."
+    },
+    {
+     "prompt": "Complete: ___ الْوَلَدَانِ إِلَى الْمَدْرَسَةِ.",
+     "options": [
+      "ذَهَبَ",
+      "ذَهَبَا",
+      "ذَهَبُوا"
+     ],
+     "answer": 0,
+     "feedback": "Dual follows → singular masculine."
+    },
+    {
+     "prompt": "Complete: ___ الْبِنْتَانِ إِلَى الْمَدْرَسَةِ.",
+     "options": [
+      "ذَهَبَتْ",
+      "ذَهَبَتَا",
+      "ذَهَبْنَ"
+     ],
+     "answer": 0,
+     "feedback": "Feminine dual follows → singular feminine."
+    },
+    {
+     "prompt": "Complete: ___ الطُّلَّابُ الآنَ.",
+     "options": [
+      "يَكْتُبُ",
+      "يَكْتُبُونَ",
+      "تَكْتُبُ"
+     ],
+     "answer": 0,
+     "feedback": "Singular masculine present before plural subject."
+    },
+    {
+     "prompt": "Complete: ___ الطَّالِبَاتُ الآنَ.",
+     "options": [
+      "تَكْتُبُ",
+      "يَكْتُبْنَ",
+      "يَكْتُبُونَ"
+     ],
+     "answer": 0,
+     "feedback": "Singular feminine present before plural subject."
+    },
+    {
+     "prompt": "Complete: ___ الطَّالِبَاتُ غَدًا.",
+     "options": [
+      "سَتَكْتُبُ",
+      "سَيَكْتُبْنَ",
+      "سَيَكْتُبُونَ"
+     ],
+     "answer": 0,
+     "feedback": "Future VSO uses singular feminine."
+    },
+    {
+     "prompt": "Transform to VSO: الطُّلَّابُ فَازُوا بِالْمُبَارَاةِ.",
+     "options": [
+      "فَازَ الطُّلَّابُ بِالْمُبَارَاةِ.",
+      "فَازُوا الطُّلَّابُ بِالْمُبَارَاةِ.",
+      "فَازَتِ الطُّلَّابُ بِالْمُبَارَاةِ."
+     ],
+     "answer": 0,
+     "feedback": "Move the subject and recalculate the verb as singular masculine."
+    },
+    {
+     "prompt": "Transform to SVO: شَارَكَتِ الطَّالِبَاتُ.",
+     "options": [
+      "الطَّالِبَاتُ شَارَكْنَ.",
+      "الطَّالِبَاتُ شَارَكَتْ.",
+      "الطَّالِبَاتُ شَارَكُوا."
+     ],
+     "answer": 0,
+     "feedback": "Human feminine plural subject first → feminine plural verb."
+    },
+    {
+     "prompt": "Core VSO rule?",
+     "options": [
+      "Singular in number, matching subject gender.",
+      "Always masculine singular.",
+      "Full plural agreement before every plural noun."
+     ],
+     "answer": 0,
+     "feedback": "Gender remains; dual/plural number is not marked on the preposed verb."
+    }
+   ]
+  }
+ ],
+ "games": [
+  [
+   {
+    "p": "___ الطُّلَّابُ الْوَاجِبَ.",
+    "a": "كَتَبَ",
+    "choices": [
+     "كَتَبَ",
+     "كَتَبُوا",
+     "كَتَبْنَ"
+    ],
+    "e": "Verb first before masculine human plural."
+   },
+   {
+    "p": "___ الطَّالِبَاتُ الْوَاجِبَ.",
+    "a": "كَتَبَتْ",
+    "choices": [
+     "كَتَبَتْ",
+     "كَتَبْنَ",
+     "كَتَبُوا"
+    ],
+    "e": "Verb first before feminine human plural."
+   },
+   {
+    "p": "___ الطَّالِبَانِ الْوَاجِبَ.",
+    "a": "كَتَبَ",
+    "choices": [
+     "كَتَبَ",
+     "كَتَبَا",
+     "كَتَبُوا"
+    ],
+    "e": "Verb first before dual → singular."
+   },
+   {
+    "p": "___ الطَّالِبَتَانِ الْوَاجِبَ.",
+    "a": "كَتَبَتْ",
+    "choices": [
+     "كَتَبَتْ",
+     "كَتَبَتَا",
+     "كَتَبْنَ"
+    ],
+    "e": "Verb first before feminine dual."
+   },
+   {
+    "p": "___ الْمُعَلِّمُونَ الآنَ.",
+    "a": "يَشْرَحُ",
+    "choices": [
+     "يَشْرَحُ",
+     "يَشْرَحُونَ",
+     "تَشْرَحُ"
+    ],
+    "e": "Singular masculine present."
+   },
+   {
+    "p": "___ الْمُعَلِّمَاتُ الآنَ.",
+    "a": "تَشْرَحُ",
+    "choices": [
+     "تَشْرَحُ",
+     "يَشْرَحْنَ",
+     "يَشْرَحُونَ"
+    ],
+    "e": "Singular feminine present."
+   },
+   {
+    "p": "___ الطُّلَّابُ غَدًا.",
+    "a": "سَيَسَافِرُ",
+    "choices": [
+     "سَيَسَافِرُ",
+     "سَيُسَافِرُونَ",
+     "سَتُسَافِرُ"
+    ],
+    "e": "Singular masculine future before plural subject."
+   },
+   {
+    "p": "___ الطَّالِبَاتُ غَدًا.",
+    "a": "سَتُسَافِرُ",
+    "choices": [
+     "سَتُسَافِرُ",
+     "سَيُسَافِرْنَ",
+     "سَيُسَافِرُونَ"
+    ],
+    "e": "Singular feminine future."
+   },
+   {
+    "p": "Choose the SVO form.",
+    "a": "الطُّلَّابُ كَتَبُوا.",
+    "choices": [
+     "الطُّلَّابُ كَتَبُوا.",
+     "كَتَبَ الطُّلَّابُ.",
+     "كَتَبُوا الطُّلَّابُ."
+    ],
+    "e": "Subject first requires full plural agreement."
+   },
+   {
+    "p": "Choose the non-human VSO form.",
+    "a": "وَصَلَتِ الْحَافِلَاتُ.",
+    "choices": [
+     "وَصَلَتِ الْحَافِلَاتُ.",
+     "وَصَلْنَ الْحَافِلَاتُ.",
+     "وَصَلُوا الْحَافِلَاتُ."
+    ],
+    "e": "Non-human plural is feminine singular."
+   }
+  ]
+ ],
+ "blocks": [
+  "## Why this matters لِمَاذَا يَتَغَيَّرُ الْعَدَدُ؟",
+  "The VSO rule is one of the most frequent agreement points in formal Arabic reading and writing.",
+  "### Core",
+  "Use singular masculine/feminine verbs before overt plural subjects.",
+  "### Develop",
+  "Control dual, plural and time-frame contrasts.",
+  "### Stretch",
+  "Handle feminine connected pronunciation and coordinated-subject choices.",
+  "[callout] Communication target: narrate events in formal VSO without copying the plural ending from a subject that follows the verb.",
+  "## Diagnostic start",
+  "This check targets the exact error that commonly appears when learners move between SVO and VSO.",
+  "## The formal VSO agreement rule",
+  "With an explicit noun subject after the verb, the verb normally agrees in gender but remains singular in number.",
+  "[callout] Memory line: الْفِعْلُ أَوَّلًا ← مُفْرَدٌ فِي الْعَدَدِ، مُطَابِقٌ فِي الْجِنْسِ .",
+  "TABLE: Following subject | Verb before it | Model // masculine singular | masculine singular | كَتَبَ الطَّالِبُ. // masculine dual | masculine singular | كَتَبَ الطَّالِبَانِ. // masculine/mixed plural | masculine singular | كَتَبَ الطُّلَّابُ. // feminine singular | feminine singular | كَتَبَتِ الطَّالِبَةُ. // feminine dual | feminine singular | كَتَبَتِ الطَّالِبَتَانِ. // feminine plural | feminine singular | كَتَبَتِ الطَّالِبَاتُ.",
+  "[callout/warning] Register note: Full-agreement VSO can occur in some modern usage and dialect-influenced styles, but the syllabus target and safest formal examination pattern is singular agreement before an overt dual/plural subject.",
+  "## Past-tense VSO",
+  "Remove dual or plural number endings from the verb, but keep the correct gender.",
+  "TABLE: Subject-first SVO | Verb-first VSO | Change // الطَّالِبَانِ كَتَبَا. | كَتَبَ الطَّالِبَانِ. | dual → singular masculine verb // الطَّالِبَتَانِ كَتَبَتَا. | كَتَبَتِ الطَّالِبَتَانِ. | dual → singular feminine verb // الطُّلَّابُ كَتَبُوا. | كَتَبَ الطُّلَّابُ. | plural → singular masculine verb // الطَّالِبَاتُ كَتَبْنَ. | كَتَبَتِ الطَّالِبَاتُ. | plural → singular feminine verb",
+  "## Present-tense VSO",
+  "The present prefix shows gender; the dual/plural suffix disappears before the overt subject.",
+  "TABLE: Subject-first SVO | Verb-first VSO | What to notice // الطَّالِبَانِ يَكْتُبَانِ. | يَكْتُبُ الطَّالِبَانِ. | remove ـانِ // الطَّالِبَتَانِ تَكْتُبَانِ. | تَكْتُبُ الطَّالِبَتَانِ. | keep feminine تـ; remove ـانِ // الطُّلَّابُ يَكْتُبُونَ. | يَكْتُبُ الطُّلَّابُ. | remove ـونَ // الطَّالِبَاتُ يَكْتُبْنَ. | تَكْتُبُ الطَّالِبَاتُ. | change to singular feminine تكتب",
+  "[callout] Important: Before a feminine plural noun, use third-person feminine singular تَكْتُبُ , not feminine plural يَكْتُبْنَ .",
+  "## Future VSO",
+  "The future marker does not change the agreement rule; it attaches to the singular present form.",
+  "[ar] سَيَكْتُبُ الطَّالِبَانِ غَدًا.",
+  "[ar] سَتَكْتُبُ الطَّالِبَتَانِ غَدًا.",
+  "[ar] سَيَكْتُبُ الطُّلَّابُ غَدًا.",
+  "[ar] سَتَكْتُبُ الطَّالِبَاتُ غَدًا.",
+  "[callout] With لَنْ: لَنْ يَكْتُبَ الطُّلَّابُ and لَنْ تَكْتُبَ الطَّالِبَاتُ retain singular gender agreement before the overt plural subject.",
+  "## Reading feminine VSO accurately",
+  "A feminine singular past verb ends in silent تْ. In connected speech before a word beginning with hamzat al-waṣl, a helping kasra may be pronounced.",
+  "[ar] كَتَبَتِ الطَّالِبَةُ الرِّسَالَةَ.",
+  "[ar] كَتَبَتِ الطَّالِبَتَانِ الرِّسَالَةَ.",
+  "[ar] كَتَبَتِ الطَّالِبَاتُ الرِّسَالَةَ.",
+  "[ar] الطَّالِبَاتُ كَتَبْنَ الرِّسَالَةَ.",
+  "[callout] Writing principle: Do not invent a new suffix. The helping vowel supports connected pronunciation; the agreement rule remains unchanged.",
+  "## Non-human plurals: the two rules point to the same form",
+  "A non-human plural is feminine singular in agreement, and a verb before any overt plural subject is singular in number.",
+  "TABLE: Order | Model | Why // VSO | وَصَلَتِ الْحَافِلَاتُ مُبَكِّرًا. | verb-first singular + non-human feminine singular // SVO | الْحَافِلَاتُ وَصَلَتْ مُبَكِّرًا. | non-human plural remains feminine singular even subject-first // VSO present | تَعْمَلُ الْحَوَاسِيبُ بِسُرْعَةٍ. | singular feminine present // SVO present | الْحَوَاسِيبُ تَعْمَلُ بِسُرْعَةٍ. | same feminine singular agreement",
+  "[callout] Useful contrast: Human plural order changes number agreement; non-human plural order normally does not.",
+  "## The contrast at a glance",
+  "Use this transformation table whenever you move the subject.",
+  "TABLE: Meaning | Subject first | Verb first // The two boys arrived. | الْوَلَدَانِ وَصَلَا. | وَصَلَ الْوَلَدَانِ. // The two girls arrived. | الْبِنْتَانِ وَصَلَتَا. | وَصَلَتِ الْبِنْتَانِ. // The boys arrived. | الْأَوْلَادُ وَصَلُوا. | وَصَلَ الْأَوْلَادُ. // The girls arrived. | الْبَنَاتُ وَصَلْنَ. | وَصَلَتِ الْبَنَاتُ. // The buses arrived. | الْحَافِلَاتُ وَصَلَتْ. | وَصَلَتِ الْحَافِلَاتُ.",
+  "[callout/warning] Do not transform by moving words only: Recalculate the verb after changing the order.",
+  "## Misconception and proofreading clinic",
+  "Name the order first, then apply its agreement rule.",
+  "TABLE: Incorrect for formal target | Correct | Why // كَتَبُوا الطُّلَّابُ الْوَاجِبَ. | كَتَبَ الطُّلَّابُ الْوَاجِبَ. | VSO with overt plural subject → singular verb. // كَتَبْنَ الطَّالِبَاتُ الْوَاجِبَ. | كَتَبَتِ الطَّالِبَاتُ الْوَاجِبَ. | VSO → singular feminine. // يَدْرُسْنَ الطَّالِبَاتُ الآنَ. | تَدْرُسُ الطَّالِبَاتُ الآنَ. | VSO present → singular feminine. // الطُّلَّابُ كَتَبَ الْوَاجِبَ. | الطُّلَّابُ كَتَبُوا الْوَاجِبَ. | SVO human plural → full agreement.",
+  "## Grammar game",
+  "Choose the exam-safe formal MSA verb before each explicit subject.",
+  "## Skills workshop التَّطْبِيقُ الْعَمَلِيُّ",
+  "Convert subject-first reports into event-first narration and explain each agreement change.",
+  "[ar] بَدَأَ الطُّلَّابُ الْمَشْرُوعَ، ثُمَّ جَمَعَتِ الطَّالِبَاتُ الْمَعْلُومَاتِ.",
+  "[ar] غَدًا سَيُقَدِّمُ الطُّلَّابُ الْعَرْضَ، وَسَتَطْرَحُ الطَّالِبَاتُ الْأَسْئِلَةَ.",
+  "### Write an event-first report",
+  "Write 80–100 Arabic words reporting a school event, match, trip or celebration. Begin at least six sentences with a verb.",
+  "[callout] Model: بَدَأَ الطُّلَّابُ النَّشَاطَ مُبَكِّرًا، وَجَهَّزَتِ الطَّالِبَاتُ الْقَاعَةَ. وَصَلَتِ الْحَافِلَاتُ فِي السَّاعَةِ التَّاسِعَةِ، وَسَيُقَدِّمُ الْمُعَلِّمُونَ الْجَوَائِزَ لَاحِقًا.",
+  "[callout] Success checklist: Use two masculine plural subjects after verbs, two feminine plural subjects after verbs, one dual subject, one non-human plural and at least two time frames. Check that every verb-first form is singular in number.",
+  "[callout] Paper route: Write six subject-first sentences first. Then move each subject after the verb and alter the agreement. Draw an arrow showing every removed dual/plural ending.",
+  "## Final mastery check",
+  "Check the VSO singular-verb rule across gender and time frames.",
+  "### What you can now do",
+  "- Use a singular verb before an overt human dual or plural subject.",
+  "- Preserve masculine/feminine gender agreement in VSO.",
+  "- Apply the rule in past, present and future forms.",
+  "- Contrast VSO partial agreement with SVO full agreement.",
+  "Spaced revisit: Return in two or three days and complete the final check again without looking at the tables."
+ ]
+}

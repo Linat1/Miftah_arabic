@@ -1,0 +1,260 @@
+{
+ "path": "lessons/grammar/04-adjectives/grammar-mastery-08-defective-adjectives.php",
+ "title": "Defective Adjectives such as غَالٍ and رَاضٍ",
+ "arabic": "الصِّفَاتُ الْمَنْقُوصَةُ مِثْلُ غَالٍ وَرَاضٍ",
+ "lede": "Understand why the final yāʾ disappears in certain indefinite forms and returns in definite, accusative and attached forms.",
+ "nav": [
+  [
+   "GM-ADJ-07",
+   "Demonstratives and Agreement"
+  ]
+ ],
+ "quizzes": [
+  {
+   "title": "🔎 Entry Check",
+   "items": [
+    {
+     "prompt": "Complete كِتَابٌ ...",
+     "options": [
+      "غَالِيٌ",
+      "غَالٍ",
+      "غَالِيًا"
+     ],
+     "answer": 1,
+     "feedback": "Indefinite nominative drops yāʾ."
+    },
+    {
+     "prompt": "Complete الْكِتَابُ ...",
+     "options": [
+      "الْغَالِ",
+      "الْغَالِي",
+      "غَالٍ"
+     ],
+     "answer": 1,
+     "feedback": "Definite form restores yāʾ."
+    },
+    {
+     "prompt": "Complete اشْتَرَيْتُ كِتَابًا ...",
+     "options": [
+      "غَالٍ",
+      "غَالِيًا",
+      "الْغَالِي"
+     ],
+     "answer": 1,
+     "feedback": "Indefinite accusative keeps yāʾ."
+    },
+    {
+     "prompt": "Choose feminine form",
+     "options": [
+      "غَالٍ",
+      "غَالِيَةٌ",
+      "غَالِيُونَ"
+     ],
+     "answer": 1,
+     "feedback": "Feminine suffix follows the yāʾ."
+    },
+    {
+     "prompt": "Which principle best supports this lesson?",
+     "options": [
+      "Check the noun first",
+      "Translate word by word from English",
+      "Ignore definiteness"
+     ],
+     "answer": 0,
+     "feedback": "The noun controls adjective agreement."
+    }
+   ]
+  },
+  {
+   "title": "🧩 Guided check",
+   "items": [
+    {
+     "prompt": "Complete كِتَابٌ ...",
+     "options": [
+      "غَالِيٌ",
+      "غَالٍ",
+      "غَالِيًا"
+     ],
+     "answer": 1,
+     "feedback": "Indefinite nominative drops yāʾ."
+    },
+    {
+     "prompt": "Complete الْكِتَابُ ...",
+     "options": [
+      "الْغَالِ",
+      "الْغَالِي",
+      "غَالٍ"
+     ],
+     "answer": 1,
+     "feedback": "Definite form restores yāʾ."
+    },
+    {
+     "prompt": "Complete اشْتَرَيْتُ كِتَابًا ...",
+     "options": [
+      "غَالٍ",
+      "غَالِيًا",
+      "الْغَالِي"
+     ],
+     "answer": 1,
+     "feedback": "Indefinite accusative keeps yāʾ."
+    },
+    {
+     "prompt": "Choose feminine form",
+     "options": [
+      "غَالٍ",
+      "غَالِيَةٌ",
+      "غَالِيُونَ"
+     ],
+     "answer": 1,
+     "feedback": "Feminine suffix follows the yāʾ."
+    }
+   ]
+  },
+  {
+   "title": "⭐ Mastery Check",
+   "items": [
+    {
+     "prompt": "Complete كِتَابٌ ...",
+     "options": [
+      "غَالِيٌ",
+      "غَالٍ",
+      "غَالِيًا"
+     ],
+     "answer": 1,
+     "feedback": "Indefinite nominative drops yāʾ."
+    },
+    {
+     "prompt": "Complete الْكِتَابُ ...",
+     "options": [
+      "الْغَالِ",
+      "الْغَالِي",
+      "غَالٍ"
+     ],
+     "answer": 1,
+     "feedback": "Definite form restores yāʾ."
+    },
+    {
+     "prompt": "Complete اشْتَرَيْتُ كِتَابًا ...",
+     "options": [
+      "غَالٍ",
+      "غَالِيًا",
+      "الْغَالِي"
+     ],
+     "answer": 1,
+     "feedback": "Indefinite accusative keeps yāʾ."
+    },
+    {
+     "prompt": "Choose feminine form",
+     "options": [
+      "غَالٍ",
+      "غَالِيَةٌ",
+      "غَالِيُونَ"
+     ],
+     "answer": 1,
+     "feedback": "Feminine suffix follows the yāʾ."
+    },
+    {
+     "prompt": "Complete كِتَابٌ ...",
+     "options": [
+      "غَالِيٌ",
+      "غَالٍ",
+      "غَالِيًا"
+     ],
+     "answer": 1,
+     "feedback": "Indefinite nominative drops yāʾ."
+    },
+    {
+     "prompt": "Complete الْكِتَابُ ...",
+     "options": [
+      "الْغَالِ",
+      "الْغَالِي",
+      "غَالٍ"
+     ],
+     "answer": 1,
+     "feedback": "Definite form restores yāʾ."
+    },
+    {
+     "prompt": "Complete اشْتَرَيْتُ كِتَابًا ...",
+     "options": [
+      "غَالٍ",
+      "غَالِيًا",
+      "الْغَالِي"
+     ],
+     "answer": 1,
+     "feedback": "Indefinite accusative keeps yāʾ."
+    },
+    {
+     "prompt": "Choose feminine form",
+     "options": [
+      "غَالٍ",
+      "غَالِيَةٌ",
+      "غَالِيُونَ"
+     ],
+     "answer": 1,
+     "feedback": "Feminine suffix follows the yāʾ."
+    }
+   ]
+  }
+ ],
+ "games": [],
+ "blocks": [
+  "## Why this matters لِمَاذَا هَذَا مُهِمٌّ؟",
+  "Adjective control affects the accuracy of descriptions in every Cambridge topic: people, clothes, homes, school, travel, weather, work and opinions.",
+  "### Core",
+  "Recognise common indefinite forms such as غالٍ and راضٍ.",
+  "### Develop",
+  "Restore ي in definite and accusative forms.",
+  "### Stretch",
+  "Apply case-sensitive forms in phrases and sentences.",
+  "## Diagnostic start",
+  "Try this short check before reading the explanations. Incorrect answers are information, not failure.",
+  "## Learn the system step by step",
+  "Read one explanation, study the worked examples, then pause for the mini-check.",
+  "### 1. What is a defective adjective?",
+  "Some adjectives end historically in an unstressed yāʾ. In the indefinite nominative and genitive singular, the final ي is omitted in writing and pronunciation, and kasra tanwīn remains.",
+  "[callout] هَذَا كِتَابٌ غَالٍ. مَرَرْتُ بِكِتَابٍ غَالٍ. هُوَ رَاضٍ عَنِ النَّتِيجَةِ.",
+  "### 2. When the yāʾ returns",
+  "The yāʾ appears in the definite form and in the indefinite accusative.",
+  "[callout] هَذَا الْكِتَابُ الْغَالِي. اشْتَرَيْتُ كِتَابًا غَالِيًا. رَأَيْتُ رَجُلًا رَاضِيًا.",
+  "### 3. Feminine forms",
+  "The feminine form normally shows the yāʾ clearly before tāʾ marbūṭa.",
+  "[callout] حَقِيبَةٌ غَالِيَةٌ · طَالِبَةٌ رَاضِيَةٌ",
+  "### High-frequency model bank",
+  "- كِتَابٌ غَالٍ",
+  "- الْكِتَابُ الْغَالِي",
+  "- كِتَابًا غَالِيًا",
+  "- حَقِيبَةٌ غَالِيَةٌ",
+  "### Misconception clinic",
+  "- Writing غاليٌ in the indefinite nominative when teaching full formal inflection.",
+  "- Dropping ي in the definite form.",
+  "- Confusing the masculine defective form with the feminine form.",
+  "## Guided practice and transformation",
+  "Do not only recognise the answer. Say what changed and why.",
+  "### Transformation drill",
+  "- Copy each model from the lesson.",
+  "- Change the noun’s gender, number or definiteness as appropriate.",
+  "- Change every adjective feature controlled by that noun.",
+  "- Translate the new phrase or sentence accurately.",
+  "- Explain one change using the grammar vocabulary from this lesson.",
+  "## Apply through four skills",
+  "### 📖 Reading and noticing",
+  "فِي مَدِينَتِي أَمَاكِنُ جَمِيلَةٌ وَشَوَارِعُ وَاسِعَةٌ. هَذِهِ الْمَدْرَسَةُ الْجَدِيدَةُ قَرِيبَةٌ، وَذَلِكَ الْمَتْحَفُ الْقَدِيمُ مُثِيرٌ لِلِاهْتِمَامِ.",
+  "Underline each adjective, draw an arrow to its noun, and label the agreement feature that made the form correct.",
+  "### 🎧 Listening without audio",
+  "Ask a partner or teacher to read the model paragraph twice. First record the nouns; second record the adjectives. Reconstruct the correct pairs and explain the agreement.",
+  "### 🗣️ Speaking",
+  "Describe two people, places or objects for 45–60 seconds. Include at least six accurate adjective structures from this lesson.",
+  "### 🛠️ Editing clinic",
+  "Write four deliberately incorrect adjective phrases, exchange them with a partner, then correct and explain every error.",
+  "### ✍️ Extended writing workshop",
+  "Write 90–120 words describing a person, place, object or experience. Include at least eight target adjective structures from this lesson and underline them after writing.",
+  "[callout] Quality check: identify the head noun first, then check gender, number, definiteness and any lesson-specific form.",
+  "Save and mark complete Clear",
+  "Create a labelled grammar map or handwritten draft. Connect every adjective to its noun.",
+  "Complete the task on paper. Underline the target forms and annotate the rule used.",
+  "## Final mastery check اِخْتِبَارُ الْإِتْقَانِ",
+  "Complete this without reopening the teaching cards.",
+  "### Interpret your result",
+  "Below 70%: revisit the misconception clinic and guided check. 70–89%: replay the transformation game and improve one paragraph. 90–100%: continue, then complete a spaced retrieval check in 3–7 days."
+ ]
+}

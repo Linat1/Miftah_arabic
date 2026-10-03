@@ -1,0 +1,260 @@
+{
+ "path": "lessons/grammar/04-adjectives/grammar-mastery-04-position-definiteness.php",
+ "title": "Position and Full Adjective Agreement",
+ "arabic": "مَوْقِعُ الصِّفَةِ وَالْمُطَابَقَةُ الْكَامِلَةُ",
+ "lede": "Understand why Arabic adjectives follow their nouns and agree in gender, number, definiteness and case.",
+ "nav": [
+  [
+   "GM-ADJ-03",
+   "Colour Adjectives: أَفْعَل / فَعْلَاء"
+  ]
+ ],
+ "quizzes": [
+  {
+   "title": "🔎 Entry Check",
+   "items": [
+    {
+     "prompt": "Choose “the new school”",
+     "options": [
+      "الْجَدِيدَةُ الْمَدْرَسَةُ",
+      "الْمَدْرَسَةُ الْجَدِيدَةُ",
+      "الْمَدْرَسَةُ جَدِيدَةٌ"
+     ],
+     "answer": 1,
+     "feedback": "Definite noun and adjective."
+    },
+    {
+     "prompt": "Choose “the school is new”",
+     "options": [
+      "الْمَدْرَسَةُ الْجَدِيدَةُ",
+      "الْمَدْرَسَةُ جَدِيدَةٌ",
+      "جَدِيدَةٌ الْمَدْرَسَةُ"
+     ],
+     "answer": 1,
+     "feedback": "Indefinite predicate makes a sentence."
+    },
+    {
+     "prompt": "Where does adjective normally stand?",
+     "options": [
+      "Before the noun",
+      "After the noun",
+      "Always at sentence end"
+     ],
+     "answer": 1,
+     "feedback": "Arabic descriptive adjective follows its noun."
+    },
+    {
+     "prompt": "Complete “with the diligent student”",
+     "options": [
+      "مَعَ الطَّالِبُ الْمُجْتَهِدُ",
+      "مَعَ الطَّالِبِ الْمُجْتَهِدِ",
+      "مَعَ الطَّالِبَ الْمُجْتَهِدَ"
+     ],
+     "answer": 1,
+     "feedback": "Both noun and adjective are genitive after مع."
+    },
+    {
+     "prompt": "Which principle best supports this lesson?",
+     "options": [
+      "Check the noun first",
+      "Translate word by word from English",
+      "Ignore definiteness"
+     ],
+     "answer": 0,
+     "feedback": "The noun controls adjective agreement."
+    }
+   ]
+  },
+  {
+   "title": "🧩 Guided check",
+   "items": [
+    {
+     "prompt": "Choose “the new school”",
+     "options": [
+      "الْجَدِيدَةُ الْمَدْرَسَةُ",
+      "الْمَدْرَسَةُ الْجَدِيدَةُ",
+      "الْمَدْرَسَةُ جَدِيدَةٌ"
+     ],
+     "answer": 1,
+     "feedback": "Definite noun and adjective."
+    },
+    {
+     "prompt": "Choose “the school is new”",
+     "options": [
+      "الْمَدْرَسَةُ الْجَدِيدَةُ",
+      "الْمَدْرَسَةُ جَدِيدَةٌ",
+      "جَدِيدَةٌ الْمَدْرَسَةُ"
+     ],
+     "answer": 1,
+     "feedback": "Indefinite predicate makes a sentence."
+    },
+    {
+     "prompt": "Where does adjective normally stand?",
+     "options": [
+      "Before the noun",
+      "After the noun",
+      "Always at sentence end"
+     ],
+     "answer": 1,
+     "feedback": "Arabic descriptive adjective follows its noun."
+    },
+    {
+     "prompt": "Complete “with the diligent student”",
+     "options": [
+      "مَعَ الطَّالِبُ الْمُجْتَهِدُ",
+      "مَعَ الطَّالِبِ الْمُجْتَهِدِ",
+      "مَعَ الطَّالِبَ الْمُجْتَهِدَ"
+     ],
+     "answer": 1,
+     "feedback": "Both noun and adjective are genitive after مع."
+    }
+   ]
+  },
+  {
+   "title": "⭐ Mastery Check",
+   "items": [
+    {
+     "prompt": "Choose “the new school”",
+     "options": [
+      "الْجَدِيدَةُ الْمَدْرَسَةُ",
+      "الْمَدْرَسَةُ الْجَدِيدَةُ",
+      "الْمَدْرَسَةُ جَدِيدَةٌ"
+     ],
+     "answer": 1,
+     "feedback": "Definite noun and adjective."
+    },
+    {
+     "prompt": "Choose “the school is new”",
+     "options": [
+      "الْمَدْرَسَةُ الْجَدِيدَةُ",
+      "الْمَدْرَسَةُ جَدِيدَةٌ",
+      "جَدِيدَةٌ الْمَدْرَسَةُ"
+     ],
+     "answer": 1,
+     "feedback": "Indefinite predicate makes a sentence."
+    },
+    {
+     "prompt": "Where does adjective normally stand?",
+     "options": [
+      "Before the noun",
+      "After the noun",
+      "Always at sentence end"
+     ],
+     "answer": 1,
+     "feedback": "Arabic descriptive adjective follows its noun."
+    },
+    {
+     "prompt": "Complete “with the diligent student”",
+     "options": [
+      "مَعَ الطَّالِبُ الْمُجْتَهِدُ",
+      "مَعَ الطَّالِبِ الْمُجْتَهِدِ",
+      "مَعَ الطَّالِبَ الْمُجْتَهِدَ"
+     ],
+     "answer": 1,
+     "feedback": "Both noun and adjective are genitive after مع."
+    },
+    {
+     "prompt": "Choose “the new school”",
+     "options": [
+      "الْجَدِيدَةُ الْمَدْرَسَةُ",
+      "الْمَدْرَسَةُ الْجَدِيدَةُ",
+      "الْمَدْرَسَةُ جَدِيدَةٌ"
+     ],
+     "answer": 1,
+     "feedback": "Definite noun and adjective."
+    },
+    {
+     "prompt": "Choose “the school is new”",
+     "options": [
+      "الْمَدْرَسَةُ الْجَدِيدَةُ",
+      "الْمَدْرَسَةُ جَدِيدَةٌ",
+      "جَدِيدَةٌ الْمَدْرَسَةُ"
+     ],
+     "answer": 1,
+     "feedback": "Indefinite predicate makes a sentence."
+    },
+    {
+     "prompt": "Where does adjective normally stand?",
+     "options": [
+      "Before the noun",
+      "After the noun",
+      "Always at sentence end"
+     ],
+     "answer": 1,
+     "feedback": "Arabic descriptive adjective follows its noun."
+    },
+    {
+     "prompt": "Complete “with the diligent student”",
+     "options": [
+      "مَعَ الطَّالِبُ الْمُجْتَهِدُ",
+      "مَعَ الطَّالِبِ الْمُجْتَهِدِ",
+      "مَعَ الطَّالِبَ الْمُجْتَهِدَ"
+     ],
+     "answer": 1,
+     "feedback": "Both noun and adjective are genitive after مع."
+    }
+   ]
+  }
+ ],
+ "games": [],
+ "blocks": [
+  "## Why this matters لِمَاذَا هَذَا مُهِمٌّ؟",
+  "Adjective control affects the accuracy of descriptions in every Cambridge topic: people, clothes, homes, school, travel, weather, work and opinions.",
+  "### Core",
+  "Place the adjective after the noun and match gender and definiteness.",
+  "### Develop",
+  "Distinguish noun phrases from nominal sentences.",
+  "### Stretch",
+  "Track all four agreement features, including case-sensitive endings.",
+  "## Diagnostic start",
+  "Try this short check before reading the explanations. Incorrect answers are information, not failure.",
+  "## Learn the system step by step",
+  "Read one explanation, study the worked examples, then pause for the mini-check.",
+  "### 1. Adjective after noun",
+  "In the ordinary descriptive phrase, the adjective comes after the noun it describes.",
+  "[callout] بَيْتٌ كَبِيرٌ · مَدْرَسَةٌ جَدِيدَةٌ · شَارِعٌ طَوِيلٌ",
+  "### 2. Four-part agreement",
+  "A true adjective normally agrees with its noun in gender, number, definiteness and case. For Core work, focus first on gender, number and definiteness; case endings are developed in Stretch.",
+  "[callout] الطَّالِبُ الْمُجْتَهِدُ رَأَيْتُ الطَّالِبَ الْمُجْتَهِدَ تَحَدَّثْتُ مَعَ الطَّالِبِ الْمُجْتَهِدِ",
+  "### 3. Phrase versus sentence",
+  "Definiteness changes the structure.",
+  "[callout] الْوَلَدُ الصَّغِيرُ = the small boy الْوَلَدُ صَغِيرٌ = the boy is small وَلَدٌ صَغِيرٌ = a small boy",
+  "### High-frequency model bank",
+  "- الْبَيْتُ الْكَبِيرُ",
+  "- الْبَيْتُ كَبِيرٌ",
+  "- مَدْرَسَةٌ جَدِيدَةٌ",
+  "- رَأَيْتُ السَّيَّارَةَ السَّرِيعَةَ",
+  "### Misconception clinic",
+  "- Putting the adjective before the noun by copying English word order.",
+  "- Adding الـ to the noun but not the adjective in a definite phrase.",
+  "- Assuming every noun + adjective sequence has the same meaning.",
+  "## Guided practice and transformation",
+  "Do not only recognise the answer. Say what changed and why.",
+  "### Transformation drill",
+  "- Copy each model from the lesson.",
+  "- Change the noun’s gender, number or definiteness as appropriate.",
+  "- Change every adjective feature controlled by that noun.",
+  "- Translate the new phrase or sentence accurately.",
+  "- Explain one change using the grammar vocabulary from this lesson.",
+  "## Apply through four skills",
+  "### 📖 Reading and noticing",
+  "فِي مَدِينَتِي أَمَاكِنُ جَمِيلَةٌ وَشَوَارِعُ وَاسِعَةٌ. هَذِهِ الْمَدْرَسَةُ الْجَدِيدَةُ قَرِيبَةٌ، وَذَلِكَ الْمَتْحَفُ الْقَدِيمُ مُثِيرٌ لِلِاهْتِمَامِ.",
+  "Underline each adjective, draw an arrow to its noun, and label the agreement feature that made the form correct.",
+  "### 🎧 Listening without audio",
+  "Ask a partner or teacher to read the model paragraph twice. First record the nouns; second record the adjectives. Reconstruct the correct pairs and explain the agreement.",
+  "### 🗣️ Speaking",
+  "Describe two people, places or objects for 45–60 seconds. Include at least six accurate adjective structures from this lesson.",
+  "### 🛠️ Editing clinic",
+  "Write four deliberately incorrect adjective phrases, exchange them with a partner, then correct and explain every error.",
+  "### ✍️ Extended writing workshop",
+  "Write 90–120 words describing a person, place, object or experience. Include at least eight target adjective structures from this lesson and underline them after writing.",
+  "[callout] Quality check: identify the head noun first, then check gender, number, definiteness and any lesson-specific form.",
+  "Save and mark complete Clear",
+  "Create a labelled grammar map or handwritten draft. Connect every adjective to its noun.",
+  "Complete the task on paper. Underline the target forms and annotate the rule used.",
+  "## Final mastery check اِخْتِبَارُ الْإِتْقَانِ",
+  "Complete this without reopening the teaching cards.",
+  "### Interpret your result",
+  "Below 70%: revisit the misconception clinic and guided check. 70–89%: replay the transformation game and improve one paragraph. 90–100%: continue, then complete a spaced retrieval check in 3–7 days."
+ ]
+}

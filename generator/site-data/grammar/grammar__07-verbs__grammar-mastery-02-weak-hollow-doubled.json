@@ -1,0 +1,535 @@
+{
+ "path": "lessons/grammar/07-verbs/grammar-mastery-02-weak-hollow-doubled.php",
+ "title": "Hollow, Doubled and Weak Verb Patterns",
+ "arabic": "الْأَفْعَالُ الْجَوْفَاءُ وَالْمُضَعَّفَةُ وَالْمُعْتَلَّةُ",
+ "lede": "Master the high-frequency shape changes in hollow, doubled, initial-weak and final-weak verbs across useful past and present forms.",
+ "nav": [
+  [
+   "GM-V-01",
+   "Verb Foundations and the Conjugation Map"
+  ]
+ ],
+ "quizzes": [
+  {
+   "title": "🔎 Entry Check",
+   "items": [
+    {
+     "prompt": "Choose the correct “I said”.",
+     "options": [
+      "قَالْتُ",
+      "قُلْتُ",
+      "قَالَتْ"
+     ],
+     "answer": 1,
+     "feedback": "With a consonant-initial suffix, the hollow stem shortens: قُلْتُ."
+    },
+    {
+     "prompt": "Choose “we visited”.",
+     "options": [
+      "زُرْنَا",
+      "زَارْنَا",
+      "زَارُوا"
+     ],
+     "answer": 0,
+     "feedback": "The long middle vowel shortens before ـنا."
+    },
+    {
+     "prompt": "Choose “I passed”.",
+     "options": [
+      "مَرَّتُ",
+      "مَرَرْتُ",
+      "مَرْتُ"
+     ],
+     "answer": 1,
+     "feedback": "The doubled consonants separate before the consonant-initial suffix ـتُ."
+    },
+    {
+     "prompt": "Choose “I walked”.",
+     "options": [
+      "مَشَتُ",
+      "مَشَيْتُ",
+      "مَشَوْتُ"
+     ],
+     "answer": 1,
+     "feedback": "Final ى appears as ي before the suffix."
+    },
+    {
+     "prompt": "Choose the present of وَصَلَ.",
+     "options": [
+      "يَوْصَلُ",
+      "يَصِلُ",
+      "يَوَصِلُ"
+     ],
+     "answer": 1,
+     "feedback": "The initial و drops in this common Form I present pattern."
+    },
+    {
+     "prompt": "Best principle?",
+     "options": [
+      "All weak verbs follow one single repair rule.",
+      "Learn common weak verbs in small pattern families.",
+      "Ignore the root."
+     ],
+     "answer": 1,
+     "feedback": "The families are systematic, but not identical."
+    }
+   ]
+  },
+  {
+   "title": "🕳️ Hollow Verb Check",
+   "items": [
+    {
+     "prompt": "“You (m.) said”",
+     "options": [
+      "قُلْتَ",
+      "قَالْتَ",
+      "قَالَتْ"
+     ],
+     "answer": 0,
+     "feedback": "The short stem قُلْ precedes ـتَ."
+    },
+    {
+     "prompt": "“They visited”",
+     "options": [
+      "زَارُوا",
+      "زُرُوا",
+      "زُرْتُمْ"
+     ],
+     "answer": 0,
+     "feedback": "The long vowel remains before ـوا in the past."
+    },
+    {
+     "prompt": "“We stood”",
+     "options": [
+      "قُمْنَا",
+      "قَامْنَا",
+      "قَامُوا"
+     ],
+     "answer": 0,
+     "feedback": "قَامَ shortens to قُمْـ before ـنا."
+    },
+    {
+     "prompt": "Present “I say”",
+     "options": [
+      "أَقُولُ",
+      "أَقَالُ",
+      "قُلْتُ"
+     ],
+     "answer": 0,
+     "feedback": "The present stem is ـقُولـ."
+    }
+   ]
+  },
+  {
+   "title": "➿ Doubled Verb Check",
+   "items": [
+    {
+     "prompt": "“I returned/replied” from رَدَّ",
+     "options": [
+      "رَدَدْتُ",
+      "رَدَّتُ",
+      "رَدْتُ"
+     ],
+     "answer": 0,
+     "feedback": "The doubled د separates before ـتُ."
+    },
+    {
+     "prompt": "“She passed”",
+     "options": [
+      "مَرَّتْ",
+      "مَرَرَتْ",
+      "مَرْتْ"
+     ],
+     "answer": 0,
+     "feedback": "The shadda remains before the vowel-beginning feminine ending."
+    },
+    {
+     "prompt": "“We loved”",
+     "options": [
+      "أَحْبَبْنَا",
+      "أَحَبَّنَا",
+      "أُحِبُّنَا"
+     ],
+     "answer": 0,
+     "feedback": "The doubled root ب-ب is visible before ـنا."
+    },
+    {
+     "prompt": "Present “he passes”",
+     "options": [
+      "يَمُرُّ",
+      "يَمْرُرُ",
+      "مَرَّ"
+     ],
+     "answer": 0,
+     "feedback": "The common present form keeps the shadda."
+    }
+   ]
+  },
+  {
+   "title": "🌿 Initial and Final Weak Check",
+   "items": [
+    {
+     "prompt": "Present of وَجَدَ in the common pair",
+     "options": [
+      "يَجِدُ",
+      "يَوْجَدُ",
+      "يُوجِدُ"
+     ],
+     "answer": 0,
+     "feedback": "The initial و drops in وَجَدَ / يَجِدُ."
+    },
+    {
+     "prompt": "“We walked”",
+     "options": [
+      "مَشَيْنَا",
+      "مَشَانَا",
+      "مَشَوْنَا"
+     ],
+     "answer": 0,
+     "feedback": "The final ى becomes ي before ـنا."
+    },
+    {
+     "prompt": "“I invited/called” from دَعَا",
+     "options": [
+      "دَعَوْتُ",
+      "دَعَيْتُ",
+      "دَعَاتُ"
+     ],
+     "answer": 0,
+     "feedback": "The underlying final و appears."
+    },
+    {
+     "prompt": "“They threw” from رَمَى",
+     "options": [
+      "رَمَوْا",
+      "رَمَيُوا",
+      "رَمَىوا"
+     ],
+     "answer": 0,
+     "feedback": "The plural past is رَمَوْا."
+    }
+   ]
+  },
+  {
+   "title": "🔄 Mixed Pattern Check",
+   "items": [
+    {
+     "prompt": "Correct “I visited”",
+     "options": [
+      "زُرْتُ",
+      "زَارْتُ",
+      "زَوَرْتُ"
+     ],
+     "answer": 0,
+     "feedback": "Hollow short stem."
+    },
+    {
+     "prompt": "Correct “we passed”",
+     "options": [
+      "مَرَرْنَا",
+      "مَرَّنَا",
+      "مَرْنَا"
+     ],
+     "answer": 0,
+     "feedback": "Doubled consonants separate."
+    },
+    {
+     "prompt": "Correct “I walked”",
+     "options": [
+      "مَشَيْتُ",
+      "مَشَوْتُ",
+      "مَشَتُ"
+     ],
+     "answer": 0,
+     "feedback": "Final y-family."
+    },
+    {
+     "prompt": "Correct “he arrives”",
+     "options": [
+      "يَصِلُ",
+      "يَوْصِلُ",
+      "وَصَلَ"
+     ],
+     "answer": 0,
+     "feedback": "Common initial-weak pair."
+    }
+   ]
+  },
+  {
+   "title": "⭐ Weak and Doubled Verb Mastery",
+   "items": [
+    {
+     "prompt": "I said",
+     "options": [
+      "قُلْتُ",
+      "قَالْتُ",
+      "قَوَلْتُ"
+     ],
+     "answer": 0,
+     "feedback": "Hollow shortening."
+    },
+    {
+     "prompt": "We visited",
+     "options": [
+      "زُرْنَا",
+      "زَارْنَا",
+      "زِرْنَا"
+     ],
+     "answer": 0,
+     "feedback": "Short stem زُرْ."
+    },
+    {
+     "prompt": "She passed",
+     "options": [
+      "مَرَّتْ",
+      "مَرَرْتْ",
+      "مَرْتْ"
+     ],
+     "answer": 0,
+     "feedback": "Shadda remains."
+    },
+    {
+     "prompt": "I passed",
+     "options": [
+      "مَرَرْتُ",
+      "مَرَّتُ",
+      "مَرَرَتُ"
+     ],
+     "answer": 0,
+     "feedback": "Two consonants open."
+    },
+    {
+     "prompt": "We walked",
+     "options": [
+      "مَشَيْنَا",
+      "مَشَوْنَا",
+      "مَشَانَا"
+     ],
+     "answer": 0,
+     "feedback": "Final y-family."
+    },
+    {
+     "prompt": "I called/invited",
+     "options": [
+      "دَعَوْتُ",
+      "دَعَيْتُ",
+      "دَعَتُ"
+     ],
+     "answer": 0,
+     "feedback": "Final w-family."
+    },
+    {
+     "prompt": "He arrives",
+     "options": [
+      "يَصِلُ",
+      "يَوْصَلُ",
+      "يُوصَلُ"
+     ],
+     "answer": 0,
+     "feedback": "Initial و drops in the active present pair."
+    },
+    {
+     "prompt": "They threw",
+     "options": [
+      "رَمَوْا",
+      "رَمَيُوا",
+      "رَمُووا"
+     ],
+     "answer": 0,
+     "feedback": "Correct plural past."
+    },
+    {
+     "prompt": "Best study unit",
+     "options": [
+      "past/present pair plus sentence",
+      "English gloss only",
+      "root label only"
+     ],
+     "answer": 0,
+     "feedback": "Connected forms."
+    },
+    {
+     "prompt": "A safe rule",
+     "options": [
+      "Patterns guide; high-frequency forms still need retrieval.",
+      "Every weak verb is identical.",
+      "Weak letters are not roots."
+     ],
+     "answer": 0,
+     "feedback": "Pattern and lexical learning combine."
+    }
+   ]
+  }
+ ],
+ "games": [
+  [
+   {
+    "p": "أَنَا ___ الْحَقَّ. (قَالَ)",
+    "a": "قُلْتُ",
+    "choices": [
+     "قُلْتُ",
+     "قَالْتُ",
+     "قَوَلْتُ"
+    ],
+    "e": "Consonant-led suffix: قُلْتُ."
+   },
+   {
+    "p": "نَحْنُ ___ الْمُتْحَفَ. (زَارَ)",
+    "a": "زُرْنَا",
+    "choices": [
+     "زُرْنَا",
+     "زَارْنَا",
+     "زُورْنَا"
+    ],
+    "e": "Hollow short stem before ـنا."
+   },
+   {
+    "p": "أَنَا ___ بِالسُّوقِ. (مَرَّ)",
+    "a": "مَرَرْتُ",
+    "choices": [
+     "مَرَرْتُ",
+     "مَرَّتُ",
+     "مَرْتُ"
+    ],
+    "e": "The doubled root opens."
+   },
+   {
+    "p": "هِيَ ___ بِالسُّوقِ. (مَرَّ)",
+    "a": "مَرَّتْ",
+    "choices": [
+     "مَرَّتْ",
+     "مَرَرَتْ",
+     "مَرْتْ"
+    ],
+    "e": "The shadda remains."
+   },
+   {
+    "p": "نَحْنُ ___ إِلَى الْحَدِيقَةِ. (مَشَى)",
+    "a": "مَشَيْنَا",
+    "choices": [
+     "مَشَيْنَا",
+     "مَشَانَا",
+     "مَشَوْنَا"
+    ],
+    "e": "Final ى becomes ي."
+   },
+   {
+    "p": "أَنَا ___ صَدِيقِي. (دَعَا)",
+    "a": "دَعَوْتُ",
+    "choices": [
+     "دَعَوْتُ",
+     "دَعَيْتُ",
+     "دَعَاتُ"
+    ],
+    "e": "Underlying و returns."
+   },
+   {
+    "p": "هُوَ ___ مُبَكِّرًا. (وَصَلَ)",
+    "a": "يَصِلُ",
+    "choices": [
+     "يَصِلُ",
+     "يَوْصَلُ",
+     "يَوصِلُ"
+    ],
+    "e": "Common initial-weak present."
+   },
+   {
+    "p": "هُمْ ___ الْكُرَةَ. (رَمَى)",
+    "a": "رَمَوْا",
+    "choices": [
+     "رَمَوْا",
+     "رَمَيُوا",
+     "رَمَىوا"
+    ],
+    "e": "Correct plural past."
+   }
+  ]
+ ],
+ "blocks": [
+  "## Why this matters لِمَاذَا تَتَغَيَّرُ الْأَفْعَالُ الْمُعْتَلَّةُ؟",
+  "Weak and doubled roots remain connected to one meaning, but their visible stems adapt to pronunciation and suffixes.",
+  "### Core",
+  "Produce core forms such as قُلْتُ، زُرْنَا، مَرَرْتُ and مَشَيْتُ.",
+  "### Develop",
+  "Explain when a long vowel shortens or a shadda opens.",
+  "### Stretch",
+  "Compare initial-weak and final-weak families without overgeneralising.",
+  "[callout] Communication target: Use weak verbs accurately in a connected account rather than only in tables.",
+  "## Diagnostic start",
+  "Use what you already notice, then study the full patterns.",
+  "## Hollow verbs: the middle changes shape",
+  "The middle weak radical may surface as a long vowel or as a short vowel, depending on the attached ending.",
+  "TABLE: Hollow pair | Past base | Past with suffix | Present // ق-و-ل | قَالَ | قُلْتُ / قُلْنَا | يَقُولُ // ز-و-ر | زَارَ | زُرْتُ / زُرْنَا | يَزُورُ // ق-و-م | قَامَ | قُمْتُ / قُمْنَا | يَقُومُ",
+  "[callout] Two stem shapes: the long vowel appears in forms such as قَالَ، قَالَتْ، قَالُوا . It shortens in forms whose suffix begins with a consonant: قُلْتُ، قُلْنَا، قُلْتُمْ .",
+  "[example] هُوَ قَالَ الْحَقَّ. → نَحْنُ قُلْنَا الْحَقَّ.",
+  "[ar] هُوَ قَالَ الْحَقَّ.",
+  "[ar] نَحْنُ قُلْنَا الْحَقَّ.",
+  "## Doubled verbs: merge and separate",
+  "The shadda remains in some forms and opens into two consonants in others.",
+  "TABLE: Base form | With vowel-beginning ending | With consonant-beginning ending | Present // مَرَّ | مَرَّتْ / مَرُّوا | مَرَرْتُ / مَرَرْنَا | يَمُرُّ // رَدَّ | رَدَّتْ / رَدُّوا | رَدَدْتُ / رَدَدْنَا | يَرُدُّ // أَحَبَّ | أَحَبَّتْ / أَحَبُّوا | أَحْبَبْتُ / أَحْبَبْنَا | يُحِبُّ",
+  "[callout] Why the letters separate: a shadda represents two consonants. Before a consonant-initial suffix, Arabic reveals both consonants: مَرَرْتُ , not مَرَّتُ .",
+  "## Initial and final weak verbs",
+  "A weak radical at the edge of the root can drop, return or change its written form.",
+  "TABLE: Type | Past / present | Key change | Useful forms // Initial weak | وَصَلَ / يَصِلُ | Initial و drops in many common Form I present verbs | وَصَلْتُ، نَصِلُ // Final ي-family | مَشَى / يَمْشِي | ى becomes ي before past suffixes | مَشَيْتُ، مَشَيْنَا // Final و-family | دَعَا / يَدْعُو | ا returns as و before suffixes | دَعَوْتُ، دَعَوْنَا // Final ي-family | رَمَى / يَرْمِي | ى becomes ي before suffixes | رَمَيْتُ، رَمَيْنَا",
+  "[callout/warning] Do not turn the rule into guessing. Some initial-wāw verbs keep the weak letter in other patterns. Learn the actual past/present pair used in your vocabulary.",
+  "## Pattern retrieval lines",
+  "Short oral chains make the alternations automatic without hiding the reasons.",
+  "### Hollow memory line",
+  "قَالَ — قَالَتْ — قَالُوا — قُلْتُ — قُلْنَا",
+  "Long with vowel-led endings; short before consonant-led endings.",
+  "### Doubled memory line",
+  "مَرَّ — مَرَّتْ — مَرُّوا — مَرَرْتُ — مَرَرْنَا",
+  "Shadda opens before consonant-led suffixes.",
+  "### Final weak memory line",
+  "مَشَى — مَشَتْ — مَشَوْا — مَشَيْتُ — مَشَيْنَا",
+  "The stem changes according to the ending.",
+  "### Dictionary pair rule",
+  "وَصَلَ / يَصِلُ، دَعَا / يَدْعُو",
+  "Store both tenses, not a guessed formula.",
+  "## Weak-verb misconception clinic",
+  "A useful correction explains the form, not only the answer.",
+  "### Hollow past",
+  "✗ أَنَا قَالْتُ",
+  "✓ أَنَا قُلْتُ",
+  "The middle long vowel shortens before ـتُ.",
+  "### Doubled past",
+  "✗ نَحْنُ مَرَّنَا",
+  "✓ نَحْنُ مَرَرْنَا",
+  "The two ر consonants separate before ـنا.",
+  "### Final weak past",
+  "✗ أَنَا مَشَتُ",
+  "✓ أَنَا مَشَيْتُ",
+  "The ى becomes ي before the suffix.",
+  "### Initial weak present",
+  "✗ هُوَ يَوْصَلُ إِلَى الْمَدْرَسَةِ",
+  "✓ هُوَ يَصِلُ إِلَى الْمَدْرَسَةِ",
+  "The common pair is وَصَلَ / يَصِلُ; do not preserve و by guesswork.",
+  "## Replayable repair game",
+  "Retrieve the correct stem under time pressure, then read the explanation.",
+  "## Apply the grammar across skills",
+  "Grammar becomes useful when it helps you understand and communicate.",
+  "### 📖 Reading workshop",
+  "Read a journey blog and highlight every hollow, doubled, initial-weak and final-weak verb. Reconstruct the dictionary pair for each.",
+  "### 🎧 Listening workshop",
+  "Listen to a short group story. Each time the speaker changes from “I” to “we” or “they”, record the new verb form.",
+  "### 🗣️ Speaking workshop",
+  "Retell a past journey using قَالَ، زَارَ، مَرَّ، مَشَى and وَصَلَ. Then retell it with a different subject.",
+  "### 🛠️ Editing workshop",
+  "Correct eight weak-verb forms. For each correction, name whether the issue is shortening, shadda separation, weak-letter return or initial-letter loss.",
+  "### ✍️ Integrated production task",
+  "Write a 100–120-word account of a visit or journey. Use at least six weak or doubled verbs and include singular and plural subjects.",
+  "[callout] Model: أَمْسِ زُرْنَا مَدِينَةً قَرِيبَةً. قُلْنَا إِنَّنَا سَنَمْشِي إِلَى الْمَتْحَفِ، وَلَكِنَّنَا مَرَرْنَا بِسُوقٍ جَمِيلٍ أَوَّلًا.",
+  "[callout] Success checklist: Include two hollow verbs, one doubled verb, two final-weak forms and one initial-weak present or past pair.",
+  "Save and mark complete Clear",
+  "Plan the verb changes as a timeline, root map or sentence flowchart. Label each form in Arabic.",
+  "Underline each target verb. Beside it, write the dictionary pair and explain the visible stem change.",
+  "## Final mastery check",
+  "Apply the patterns without relying on the table.",
+  "### Lesson mastery summary",
+  "- shorten common hollow stems before consonant-led suffixes;",
+  "- open doubled consonants where the suffix requires it;",
+  "- form common initial-weak and final-weak verbs accurately;",
+  "- use several weak-verb families in connected communication.",
+  "Return in 3–7 days and repeat the final check without reviewing first. Retrieval, not recognition alone, builds secure verb control."
+ ]
+}

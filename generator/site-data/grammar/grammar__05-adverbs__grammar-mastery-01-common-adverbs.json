@@ -1,0 +1,493 @@
+{
+ "path": "lessons/grammar/05-adverbs/grammar-mastery-01-common-adverbs.php",
+ "title": "Common Adverbs of Time, Place and Manner",
+ "arabic": "ظُرُوفُ الزَّمَانِ وَالْمَكَانِ وَالْحَالِ",
+ "lede": "Recognise and use high-frequency adverbs to say when, where and how everyday actions happen.",
+ "nav": [],
+ "quizzes": [
+  {
+   "title": "🔎 Entry Check",
+   "items": [
+    {
+     "prompt": "Which word tells us when the action happens? سَأَزُورُ جَدَّتِي غَدًا.",
+     "options": [
+      "سَأَزُورُ",
+      "جَدَّتِي",
+      "غَدًا"
+     ],
+     "answer": 2,
+     "feedback": "غَدًا locates the visit in future time."
+    },
+    {
+     "prompt": "Choose “here”.",
+     "options": [
+      "هُنَا",
+      "هُنَاكَ",
+      "تَحْتَ"
+     ],
+     "answer": 0,
+     "feedback": "هُنَا means here; هُنَاكَ means there."
+    },
+    {
+     "prompt": "Choose the correct sentence for “The train moves quickly.”",
+     "options": [
+      "الْقِطَارُ سَرِيعٌ.",
+      "يَسِيرُ الْقِطَارُ سَرِيعًا.",
+      "يَسِيرُ الْقِطَارُ سَرِيعَةٌ."
+     ],
+     "answer": 1,
+     "feedback": "سَرِيعًا describes how the train moves, so it functions adverbially."
+    },
+    {
+     "prompt": "Complete: الْكِتَابُ ___ الطَّاوِلَةِ.",
+     "options": [
+      "فَوْقَ",
+      "غَدًا",
+      "جَيِّدًا"
+     ],
+     "answer": 0,
+     "feedback": "فَوْقَ expresses place and the following noun is genitive."
+    },
+    {
+     "prompt": "Which sentence uses an adjective rather than an adverb?",
+     "options": [
+      "هُوَ يَكْتُبُ جَيِّدًا.",
+      "هَذَا كِتَابٌ جَيِّدٌ.",
+      "تَحَدَّثَ جَيِّدًا."
+     ],
+     "answer": 1,
+     "feedback": "جَيِّدٌ agrees with كِتَابٌ; it describes a noun."
+    },
+    {
+     "prompt": "Which statement is accurate?",
+     "options": [
+      "Every Arabic adverb ends in ـًا.",
+      "Arabic expresses adverbial meaning through single words and phrases.",
+      "Adverbs must always begin the sentence."
+     ],
+     "answer": 1,
+     "feedback": "Arabic uses words such as هنا and غدًا, place expressions such as فوق الطاولة, and prepositional phrases such as بسرعة."
+    }
+   ]
+  },
+  {
+   "title": "⏳ Time Check",
+   "items": [
+    {
+     "prompt": "Choose “I am studying now.”",
+     "options": [
+      "أَدْرُسُ الآنَ.",
+      "دَرَسْتُ غَدًا.",
+      "سَأَدْرُسُ أَمْسِ."
+     ],
+     "answer": 0,
+     "feedback": "الآنَ locates a present action."
+    },
+    {
+     "prompt": "Choose “We travelled yesterday.”",
+     "options": [
+      "سَنُسَافِرُ أَمْسِ.",
+      "سَافَرْنَا أَمْسِ.",
+      "نُسَافِرُ غَدًا."
+     ],
+     "answer": 1,
+     "feedback": "أَمْسِ combines naturally with the past tense here."
+    },
+    {
+     "prompt": "Which word means “soon”?",
+     "options": [
+      "قَرِيبًا",
+      "تَحْتَ",
+      "بِبُطْءٍ"
+     ],
+     "answer": 0,
+     "feedback": "قَرِيبًا means soon in a time context."
+    },
+    {
+     "prompt": "Move the time word without changing the core meaning.",
+     "options": [
+      "الْيَوْمَ أَذْهَبُ إِلَى السُّوقِ.",
+      "الْيَوْمُ أَذْهَبُ إِلَى السُّوقِ.",
+      "أَذْهَبُ الْيَوْمُ إِلَى السُّوقِ."
+     ],
+     "answer": 0,
+     "feedback": "A time expression can be fronted for emphasis; الْيَوْمَ is the supported adverbial model."
+    },
+    {
+     "prompt": "Choose the frequency adverb meaning “sometimes”.",
+     "options": [
+      "دَائِمًا",
+      "أَحْيَانًا",
+      "أَبَدًا"
+     ],
+     "answer": 1,
+     "feedback": "أَحْيَانًا means sometimes."
+    }
+   ]
+  },
+  {
+   "title": "📍 Place Check",
+   "items": [
+    {
+     "prompt": "Complete: الْحَقِيبَةُ ___ الْكُرْسِيِّ.",
+     "options": [
+      "تَحْتَ",
+      "أَمْسِ",
+      "سَرِيعًا"
+     ],
+     "answer": 0,
+     "feedback": "تَحْتَ gives the location; الْكُرْسِيِّ is genitive after it."
+    },
+    {
+     "prompt": "Choose “The school is there.”",
+     "options": [
+      "الْمَدْرَسَةُ هُنَا.",
+      "الْمَدْرَسَةُ هُنَاكَ.",
+      "الْمَدْرَسَةُ غَدًا."
+     ],
+     "answer": 1,
+     "feedback": "هُنَاكَ indicates a more distant place."
+    },
+    {
+     "prompt": "Choose “in front of the house”.",
+     "options": [
+      "أَمَامَ الْبَيْتِ",
+      "قَرِيبًا الْبَيْتَ",
+      "جَيِّدًا الْبَيْتِ"
+     ],
+     "answer": 0,
+     "feedback": "أَمَامَ functions as a place expression and governs the following genitive noun."
+    },
+    {
+     "prompt": "Which sentence is meaningful?",
+     "options": [
+      "أَسْكُنُ هُنَا.",
+      "أَسْكُنُ سَرِيعًا الطَّاوِلَةِ.",
+      "أَسْكُنُ غَدًا جَيِّدٌ."
+     ],
+     "answer": 0,
+     "feedback": "هُنَا answers where I live."
+    },
+    {
+     "prompt": "Choose the correct pair.",
+     "options": [
+      "هُنَا = there",
+      "هُنَاكَ = there",
+      "فَوْقَ = tomorrow"
+     ],
+     "answer": 1,
+     "feedback": "هُنَاكَ means there; هُنَا means here."
+    }
+   ]
+  },
+  {
+   "title": "⚙️ Manner Check",
+   "items": [
+    {
+     "prompt": "Choose “She reads well.”",
+     "options": [
+      "هِيَ قَارِئَةٌ جَيِّدَةٌ.",
+      "تَقْرَأُ جَيِّدًا.",
+      "تَقْرَأُ جَيِّدَةٌ."
+     ],
+     "answer": 1,
+     "feedback": "جَيِّدًا modifies the reading action."
+    },
+    {
+     "prompt": "Choose the adjective phrase “a fast car”.",
+     "options": [
+      "سَيَّارَةٌ سَرِيعَةٌ",
+      "تَسِيرُ سَرِيعًا",
+      "سَرِيعًا سَيَّارَةٌ"
+     ],
+     "answer": 0,
+     "feedback": "سَرِيعَةٌ agrees with the feminine noun سَيَّارَةٌ."
+    },
+    {
+     "prompt": "Choose “They worked together.”",
+     "options": [
+      "عَمِلُوا مَعًا.",
+      "عَمِلُوا هُنَاكَ غَدًا فقط.",
+      "عَمِلُوا جَيِّدُونَ."
+     ],
+     "answer": 0,
+     "feedback": "مَعًا describes how the group worked."
+    },
+    {
+     "prompt": "Which expression means “slowly”?",
+     "options": [
+      "بِبُطْءٍ",
+      "فَوْقَ",
+      "قَرِيبًا"
+     ],
+     "answer": 0,
+     "feedback": "بِبُطْءٍ is a common manner phrase."
+    },
+    {
+     "prompt": "Best editing question for manner?",
+     "options": [
+      "What colour is the noun?",
+      "How did the action happen?",
+      "Which article begins the word?"
+     ],
+     "answer": 1,
+     "feedback": "A manner adverb answers how."
+    }
+   ]
+  },
+  {
+   "title": "⭐ Mastery Check",
+   "items": [
+    {
+     "prompt": "Identify the time adverb: سَنَبْدَأُ قَرِيبًا.",
+     "options": [
+      "سَنَبْدَأُ",
+      "قَرِيبًا",
+      "نَحْنُ"
+     ],
+     "answer": 1,
+     "feedback": "قَرِيبًا means soon."
+    },
+    {
+     "prompt": "Identify the place expression: الْمِفْتَاحُ تَحْتَ الْكِتَابِ.",
+     "options": [
+      "الْمِفْتَاحُ",
+      "تَحْتَ الْكِتَابِ",
+      "الْكِتَابِ فقط"
+     ],
+     "answer": 1,
+     "feedback": "The whole expression tells where the key is."
+    },
+    {
+     "prompt": "Identify the manner adverb: تَكَلَّمَتْ بِوُضُوحٍ.",
+     "options": [
+      "تَكَلَّمَتْ",
+      "بِوُضُوحٍ",
+      "هِيَ"
+     ],
+     "answer": 1,
+     "feedback": "بِوُضُوحٍ tells how she spoke."
+    },
+    {
+     "prompt": "Choose “The child runs quickly.”",
+     "options": [
+      "الطِّفْلُ سَرِيعٌ.",
+      "يَرْكُضُ الطِّفْلُ سَرِيعًا.",
+      "يَرْكُضُ الطِّفْلُ سَرِيعَةٌ."
+     ],
+     "answer": 1,
+     "feedback": "Use the manner form سَرِيعًا."
+    },
+    {
+     "prompt": "Choose “The fast child”.",
+     "options": [
+      "الطِّفْلُ السَّرِيعُ",
+      "الطِّفْلُ سَرِيعًا",
+      "يَرْكُضُ سَرِيعٌ"
+     ],
+     "answer": 0,
+     "feedback": "The adjective follows and agrees with the noun."
+    },
+    {
+     "prompt": "Complete: أَنْتَظِرُكَ ___.",
+     "options": [
+      "هُنَا",
+      "فَوْقَ الْمَكْتَبِ فقط",
+      "سَرِيعٌ"
+     ],
+     "answer": 0,
+     "feedback": "هُنَا can stand alone as a place adverb."
+    },
+    {
+     "prompt": "Complete: الصُّورَةُ ___ الْمَكْتَبِ.",
+     "options": [
+      "فَوْقَ",
+      "جَيِّدًا",
+      "أَمْسِ"
+     ],
+     "answer": 0,
+     "feedback": "فَوْقَ gives location."
+    },
+    {
+     "prompt": "Which phrase is correctly constructed?",
+     "options": [
+      "تَحْتَ الطَّاوِلَةُ",
+      "تَحْتَ الطَّاوِلَةِ",
+      "تَحْتُ الطَّاوِلَةَ"
+     ],
+     "answer": 1,
+     "feedback": "The noun after the place word is genitive."
+    },
+    {
+     "prompt": "Choose the accurate generalisation.",
+     "options": [
+      "Time words always come first.",
+      "Manner words always end in ـًا.",
+      "Adverbial meaning can be expressed by words, ظرف phrases and prepositional phrases."
+     ],
+     "answer": 2,
+     "feedback": "Arabic uses several practical structures."
+    },
+    {
+     "prompt": "Best strategy in a sentence?",
+     "options": [
+      "Ask when, where or how the action happens.",
+      "Translate every word separately and ignore the verb.",
+      "Add ـًا to any adjective."
+     ],
+     "answer": 0,
+     "feedback": "The meaning question identifies the adverbial role."
+    }
+   ]
+  }
+ ],
+ "games": [
+  [
+   {
+    "p": "When will we travel?",
+    "a": "غَدًا",
+    "choices": [
+     "غَدًا",
+     "هُنَا",
+     "بِهُدُوءٍ"
+    ],
+    "e": "غَدًا answers when."
+   },
+   {
+    "p": "Where is the bag?",
+    "a": "تَحْتَ الْكُرْسِيِّ",
+    "choices": [
+     "قَرِيبًا",
+     "تَحْتَ الْكُرْسِيِّ",
+     "جَيِّدًا"
+    ],
+    "e": "تَحْتَ الْكُرْسِيِّ answers where."
+   },
+   {
+    "p": "How did she speak?",
+    "a": "بِوُضُوحٍ",
+    "choices": [
+     "أَمْسِ",
+     "هُنَاكَ",
+     "بِوُضُوحٍ"
+    ],
+    "e": "بِوُضُوحٍ answers how."
+   },
+   {
+    "p": "Where do you live?",
+    "a": "هُنَا",
+    "choices": [
+     "هُنَا",
+     "الآنَ",
+     "سَرِيعًا"
+    ],
+    "e": "هُنَا is place."
+   },
+   {
+    "p": "When are you studying?",
+    "a": "الآنَ",
+    "choices": [
+     "فَوْقَ",
+     "الآنَ",
+     "مَعًا"
+    ],
+    "e": "الآنَ is current time."
+   },
+   {
+    "p": "How did they work?",
+    "a": "مَعًا",
+    "choices": [
+     "غَدًا",
+     "مَعًا",
+     "خَلْفَ الْبَيْتِ"
+    ],
+    "e": "مَعًا describes manner."
+   },
+   {
+    "p": "Where is the picture?",
+    "a": "فَوْقَ الْمَكْتَبِ",
+    "choices": [
+     "فَوْقَ الْمَكْتَبِ",
+     "قَرِيبًا",
+     "بِعِنَايَةٍ"
+    ],
+    "e": "The phrase locates the picture."
+   },
+   {
+    "p": "How does he write?",
+    "a": "جَيِّدًا",
+    "choices": [
+     "الْيَوْمَ",
+     "جَيِّدًا",
+     "هُنَاكَ"
+    ],
+    "e": "جَيِّدًا describes how he writes."
+   }
+  ]
+ ],
+ "blocks": [
+  "## Why adverbs matter لِمَاذَا تَهُمُّ الظُّرُوفُ؟",
+  "A verb tells us what happens. Adverbs and adverbial phrases add the practical information listeners and readers need: when, where and how.",
+  "### Core",
+  "Recognise and use high-frequency time, place and manner words.",
+  "### Develop",
+  "Place adverbs naturally and distinguish an adjective from an adverb.",
+  "### Stretch",
+  "Notice how place words govern a following genitive noun and how emphasis changes word order.",
+  "[callout] Communication test: after reading a sentence, can you answer when? , where? or how? in Arabic?",
+  "## Diagnostic start",
+  "Try first. The explanations will then repair any uncertainty.",
+  "## Adverbs of time ظُرُوفُ الزَّمَانِ",
+  "These words locate an action on a timeline. They may appear near the beginning or end of a sentence, depending on emphasis.",
+  "TABLE: Arabic | Meaning | Model in context // الْيَوْمَ | today | أَدْرُسُ الْعَرَبِيَّةَ الْيَوْمَ. // أَمْسِ | yesterday | زُرْتُ صَدِيقِي أَمْسِ. // غَدًا | tomorrow | سَأَعْمَلُ غَدًا. // الآنَ | now | أَقْرَأُ الآنَ. // قَرِيبًا | soon | سَنَبْدَأُ قَرِيبًا. // دَائِمًا / غَالِبًا / أَحْيَانًا / نَادِرًا | always / often / sometimes / rarely | أَذْهَبُ إِلَى النَّادِي أَحْيَانًا.",
+  "[example] غَدًا سَأَذْهَبُ إِلَى السُّوقِ. ⇄ سَأَذْهَبُ إِلَى السُّوقِ غَدًا.",
+  "[ar] غَدًا سَأَذْهَبُ إِلَى السُّوقِ.",
+  "[ar] سَأَذْهَبُ إِلَى السُّوقِ غَدًا.",
+  "[callout] Both orders are possible. Fronting غَدًا highlights the time. Placing it later keeps the verb first and often sounds neutral.",
+  "## Adverbs and expressions of place ظُرُوفُ الْمَكَانِ",
+  "Some place words stand alone; others are followed by a noun that completes the location.",
+  "### Stand-alone place words",
+  "هُنَا — here هُنَاكَ — there دَاخِلًا — inside خَارِجًا — outside",
+  "أَسْكُنُ هُنَا، وَلَكِنَّ مَدْرَسَتِي هُنَاكَ.",
+  "### Place word + noun",
+  "فَوْقَ الطَّاوِلَةِ تَحْتَ الْكُرْسِيِّ أَمَامَ الْمَدْرَسَةِ خَلْفَ الْبَيْتِ بَيْنَ الْمَكْتَبَيْنِ",
+  "The following noun is genitive because the phrase behaves like an iḍāfa-style location expression.",
+  "[callout/warning] Common error: not فَوْقَ الطَّاوِلَةُ , but فَوْقَ الطَّاوِلَةِ .",
+  "## Adverbs of manner كَيْفَ يَحْدُثُ الْفِعْلُ؟",
+  "Manner tells us how an action happens. Some common forms end in fatḥatayn; other meanings use a prepositional phrase.",
+  "### Single-word manner",
+  "جَيِّدًا — well سَرِيعًا — quickly فَجْأَةً — suddenly مَعًا — together وَحْدَهُ / وَحْدَهَا — alone",
+  "### Phrase-based manner",
+  "بِبُطْءٍ — slowly بِهُدُوءٍ — calmly بِوُضُوحٍ — clearly بِعِنَايَةٍ — carefully",
+  "Lesson 3 develops these phrases fully.",
+  "[example] سَيَّارَةٌ سَرِيعَةٌ ≠ تَسِيرُ السَّيَّارَةُ سَرِيعًا",
+  "[ar] سَيَّارَةٌ سَرِيعَةٌ",
+  "[ar] تَسِيرُ السَّيَّارَةُ سَرِيعًا",
+  "[callout] Adjective versus adverb: سَرِيعَةٌ describes the noun سَيَّارَةٌ ; سَرِيعًا describes the action تَسِيرُ .",
+  "## Apply through four skills",
+  "### 📖 Reading detective",
+  "أَسْتَيْقِظُ مُبَكِّرًا كُلَّ يَوْمٍ. أَدْرُسُ هُنَا فِي غُرْفَتِي، وَأَكْتُبُ وَاجِبِي بِعِنَايَةٍ. غَدًا سَأَدْرُسُ مَعَ صَدِيقَتِي هُنَاكَ فِي الْمَكْتَبَةِ.",
+  "Sort the highlighted ideas into time, place and manner. Then explain which verb each one modifies.",
+  "### 🎧 Listening reconstruction",
+  "Ask a partner to read the paragraph twice. On the first hearing, write only the verbs. On the second, add when, where and how.",
+  "### 🗣️ Speaking grid",
+  "Describe three actions. Each answer must include one time, one place and one manner expression.",
+  "### 🛠️ Misconception clinic",
+  "Repair: هَذَا قِطَارٌ سَرِيعًا , الْحَقِيبَةُ تَحْتَ الْكُرْسِيُّ , and تَكَلَّمَ جَيِّدٌ . Explain each correction.",
+  "### ✍️ Everyday action description",
+  "Write 80–100 words about one ordinary day. Include at least four time expressions, three place expressions and three manner expressions.",
+  "[callout] Model: الْيَوْمَ أَسْتَيْقِظُ مُبَكِّرًا، ثُمَّ أَدْرُسُ هُنَا فِي غُرْفَتِي. أَكْتُبُ بِعِنَايَةٍ وَأَقْرَأُ جَيِّدًا.",
+  "[callout] Success checklist: Use accurate verb forms; distinguish adjective and adverb; check genitive nouns after place expressions; vary the position of at least two time expressions.",
+  "Save and mark complete Clear",
+  "Plan a timeline, place map or sentence flowchart, then label it in Arabic with the target adverbs.",
+  "Complete the same task on paper. Circle each adverb or adverbial phrase and draw an arrow to the verb or sentence it modifies.",
+  "## Final mastery check اِخْتِبَارُ الْإِتْقَانِ",
+  "Complete without reopening the teaching tables.",
+  "### Today you can",
+  "- identify time, place and manner information;",
+  "- use common adverbs in meaningful sentences;",
+  "- distinguish an adjective from a manner adverb;",
+  "- build location phrases with correct genitive forms.",
+  "Below 70%: revisit the category that caused most errors. 70–89%: replay the game and rewrite three sentences. 90–100%: continue to time frames."
+ ]
+}

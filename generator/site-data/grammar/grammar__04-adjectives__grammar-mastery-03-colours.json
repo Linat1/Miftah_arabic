@@ -1,0 +1,260 @@
+{
+ "path": "lessons/grammar/04-adjectives/grammar-mastery-03-colours.php",
+ "title": "Colour Adjectives: أَفْعَل / فَعْلَاء",
+ "arabic": "أَلْوَانُ أَفْعَلَ وَفَعْلَاءَ",
+ "lede": "Master the principal colour pattern, masculine and feminine forms, agreement, and high-frequency exceptions used across Cambridge topics.",
+ "nav": [
+  [
+   "GM-ADJ-02",
+   "Adjective Agreement with Plurals"
+  ]
+ ],
+ "quizzes": [
+  {
+   "title": "🔎 Entry Check",
+   "items": [
+    {
+     "prompt": "Choose feminine of أَحْمَرُ",
+     "options": [
+      "أَحْمَرَةٌ",
+      "حَمْرَاءُ",
+      "حُمْرٌ"
+     ],
+     "answer": 1,
+     "feedback": "The feminine colour pattern is فعلاء."
+    },
+    {
+     "prompt": "Complete حَقِيبَةٌ ...",
+     "options": [
+      "أَزْرَقُ",
+      "زَرْقَاءُ",
+      "زَرْقَةٌ"
+     ],
+     "answer": 1,
+     "feedback": "Feminine singular noun."
+    },
+    {
+     "prompt": "Complete قَمِيصٌ ...",
+     "options": [
+      "أَبْيَضُ",
+      "بَيْضَاءُ",
+      "بَيَاضٌ"
+     ],
+     "answer": 0,
+     "feedback": "Masculine singular noun."
+    },
+    {
+     "prompt": "Complete سَيَّارَاتٌ ...",
+     "options": [
+      "أَحْمَرُونَ",
+      "حَمْرَاءُ",
+      "حَمْرَاوَاتٌ"
+     ],
+     "answer": 1,
+     "feedback": "Non-human plural agreement."
+    },
+    {
+     "prompt": "Which principle best supports this lesson?",
+     "options": [
+      "Check the noun first",
+      "Translate word by word from English",
+      "Ignore definiteness"
+     ],
+     "answer": 0,
+     "feedback": "The noun controls adjective agreement."
+    }
+   ]
+  },
+  {
+   "title": "🧩 Guided check",
+   "items": [
+    {
+     "prompt": "Choose feminine of أَحْمَرُ",
+     "options": [
+      "أَحْمَرَةٌ",
+      "حَمْرَاءُ",
+      "حُمْرٌ"
+     ],
+     "answer": 1,
+     "feedback": "The feminine colour pattern is فعلاء."
+    },
+    {
+     "prompt": "Complete حَقِيبَةٌ ...",
+     "options": [
+      "أَزْرَقُ",
+      "زَرْقَاءُ",
+      "زَرْقَةٌ"
+     ],
+     "answer": 1,
+     "feedback": "Feminine singular noun."
+    },
+    {
+     "prompt": "Complete قَمِيصٌ ...",
+     "options": [
+      "أَبْيَضُ",
+      "بَيْضَاءُ",
+      "بَيَاضٌ"
+     ],
+     "answer": 0,
+     "feedback": "Masculine singular noun."
+    },
+    {
+     "prompt": "Complete سَيَّارَاتٌ ...",
+     "options": [
+      "أَحْمَرُونَ",
+      "حَمْرَاءُ",
+      "حَمْرَاوَاتٌ"
+     ],
+     "answer": 1,
+     "feedback": "Non-human plural agreement."
+    }
+   ]
+  },
+  {
+   "title": "⭐ Mastery Check",
+   "items": [
+    {
+     "prompt": "Choose feminine of أَحْمَرُ",
+     "options": [
+      "أَحْمَرَةٌ",
+      "حَمْرَاءُ",
+      "حُمْرٌ"
+     ],
+     "answer": 1,
+     "feedback": "The feminine colour pattern is فعلاء."
+    },
+    {
+     "prompt": "Complete حَقِيبَةٌ ...",
+     "options": [
+      "أَزْرَقُ",
+      "زَرْقَاءُ",
+      "زَرْقَةٌ"
+     ],
+     "answer": 1,
+     "feedback": "Feminine singular noun."
+    },
+    {
+     "prompt": "Complete قَمِيصٌ ...",
+     "options": [
+      "أَبْيَضُ",
+      "بَيْضَاءُ",
+      "بَيَاضٌ"
+     ],
+     "answer": 0,
+     "feedback": "Masculine singular noun."
+    },
+    {
+     "prompt": "Complete سَيَّارَاتٌ ...",
+     "options": [
+      "أَحْمَرُونَ",
+      "حَمْرَاءُ",
+      "حَمْرَاوَاتٌ"
+     ],
+     "answer": 1,
+     "feedback": "Non-human plural agreement."
+    },
+    {
+     "prompt": "Choose feminine of أَحْمَرُ",
+     "options": [
+      "أَحْمَرَةٌ",
+      "حَمْرَاءُ",
+      "حُمْرٌ"
+     ],
+     "answer": 1,
+     "feedback": "The feminine colour pattern is فعلاء."
+    },
+    {
+     "prompt": "Complete حَقِيبَةٌ ...",
+     "options": [
+      "أَزْرَقُ",
+      "زَرْقَاءُ",
+      "زَرْقَةٌ"
+     ],
+     "answer": 1,
+     "feedback": "Feminine singular noun."
+    },
+    {
+     "prompt": "Complete قَمِيصٌ ...",
+     "options": [
+      "أَبْيَضُ",
+      "بَيْضَاءُ",
+      "بَيَاضٌ"
+     ],
+     "answer": 0,
+     "feedback": "Masculine singular noun."
+    },
+    {
+     "prompt": "Complete سَيَّارَاتٌ ...",
+     "options": [
+      "أَحْمَرُونَ",
+      "حَمْرَاءُ",
+      "حَمْرَاوَاتٌ"
+     ],
+     "answer": 1,
+     "feedback": "Non-human plural agreement."
+    }
+   ]
+  }
+ ],
+ "games": [],
+ "blocks": [
+  "## Why this matters لِمَاذَا هَذَا مُهِمٌّ؟",
+  "Adjective control affects the accuracy of descriptions in every Cambridge topic: people, clothes, homes, school, travel, weather, work and opinions.",
+  "### Core",
+  "Recognise and use common masculine and feminine colour pairs.",
+  "### Develop",
+  "Apply colours accurately with definite, indefinite and plural nouns.",
+  "### Stretch",
+  "Distinguish colour patterns from ordinary adjectives and use compound colour descriptions.",
+  "## Diagnostic start",
+  "Try this short check before reading the explanations. Incorrect answers are information, not failure.",
+  "## Learn the system step by step",
+  "Read one explanation, study the worked examples, then pause for the mini-check.",
+  "### 1. The colour pair",
+  "Many basic colours use the masculine pattern أَفْعَلُ and the feminine pattern فَعْلَاءُ . The feminine is not made by simply adding ة.",
+  "[callout] أَحْمَرُ / حَمْرَاءُ أَخْضَرُ / خَضْرَاءُ أَزْرَقُ / زَرْقَاءُ أَصْفَرُ / صَفْرَاءُ أَبْيَضُ / بَيْضَاءُ أَسْوَدُ / سَوْدَاءُ",
+  "### 2. Agreement in context",
+  "Choose the colour form from the gender of the singular noun.",
+  "[callout] قَلَمٌ أَحْمَرُ حَقِيبَةٌ حَمْرَاءُ قَمِيصٌ أَزْرَقُ سَيَّارَةٌ زَرْقَاءُ",
+  "### 3. Plural colour agreement",
+  "Human plurals follow human plural agreement; non-human plurals normally take feminine singular. In everyday descriptions, non-human plural nouns therefore often use the feminine singular colour.",
+  "[callout] سَيَّارَاتٌ حَمْرَاءُ حَقَائِبُ سَوْدَاءُ",
+  "### High-frequency model bank",
+  "- قَمِيصٌ أَبْيَضُ",
+  "- تَنُّورَةٌ بَيْضَاءُ",
+  "- أَشْجَارٌ خَضْرَاءُ",
+  "- حَقَائِبُ سَوْدَاءُ",
+  "### Misconception clinic",
+  "- Producing أَحْمَرَة instead of حَمْرَاء.",
+  "- Matching colour to the nearest word rather than the head noun.",
+  "- Using masculine plural colour agreement for non-human plurals.",
+  "## Guided practice and transformation",
+  "Do not only recognise the answer. Say what changed and why.",
+  "### Transformation drill",
+  "- Copy each model from the lesson.",
+  "- Change the noun’s gender, number or definiteness as appropriate.",
+  "- Change every adjective feature controlled by that noun.",
+  "- Translate the new phrase or sentence accurately.",
+  "- Explain one change using the grammar vocabulary from this lesson.",
+  "## Apply through four skills",
+  "### 📖 Reading and noticing",
+  "فِي مَدِينَتِي أَمَاكِنُ جَمِيلَةٌ وَشَوَارِعُ وَاسِعَةٌ. هَذِهِ الْمَدْرَسَةُ الْجَدِيدَةُ قَرِيبَةٌ، وَذَلِكَ الْمَتْحَفُ الْقَدِيمُ مُثِيرٌ لِلِاهْتِمَامِ.",
+  "Underline each adjective, draw an arrow to its noun, and label the agreement feature that made the form correct.",
+  "### 🎧 Listening without audio",
+  "Ask a partner or teacher to read the model paragraph twice. First record the nouns; second record the adjectives. Reconstruct the correct pairs and explain the agreement.",
+  "### 🗣️ Speaking",
+  "Describe two people, places or objects for 45–60 seconds. Include at least six accurate adjective structures from this lesson.",
+  "### 🛠️ Editing clinic",
+  "Write four deliberately incorrect adjective phrases, exchange them with a partner, then correct and explain every error.",
+  "### ✍️ Extended writing workshop",
+  "Write 90–120 words describing a person, place, object or experience. Include at least eight target adjective structures from this lesson and underline them after writing.",
+  "[callout] Quality check: identify the head noun first, then check gender, number, definiteness and any lesson-specific form.",
+  "Save and mark complete Clear",
+  "Create a labelled grammar map or handwritten draft. Connect every adjective to its noun.",
+  "Complete the task on paper. Underline the target forms and annotate the rule used.",
+  "## Final mastery check اِخْتِبَارُ الْإِتْقَانِ",
+  "Complete this without reopening the teaching cards.",
+  "### Interpret your result",
+  "Below 70%: revisit the misconception clinic and guided check. 70–89%: replay the transformation game and improve one paragraph. 90–100%: continue, then complete a spaced retrieval check in 3–7 days."
+ ]
+}

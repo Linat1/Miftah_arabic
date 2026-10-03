@@ -1,0 +1,268 @@
+{
+ "path": "lessons/grammar/03-nouns/grammar-mastery-07-idafa.php",
+ "title": "The Iḍāfa Possessive Structure",
+ "arabic": "تَرْكِيبُ الْإِضَافَةِ",
+ "lede": "Build two- and multi-noun iḍāfa chains, control definiteness, case, tāʾ marbūṭa and adjective placement.",
+ "nav": [
+  [
+   "GM-N-06",
+   "Non-Human Plural Agreement"
+  ]
+ ],
+ "quizzes": [
+  {
+   "title": "🔎 Entry Check",
+   "items": [
+    {
+     "prompt": "Choose “the teacher’s house”.",
+     "options": [
+      "الْبَيْتُ الْمُعَلِّمِ",
+      "بَيْتُ الْمُعَلِّمِ",
+      "بَيْتٌ الْمُعَلِّمُ"
+     ],
+     "answer": 1,
+     "feedback": "First noun has no article/tanwīn; second is genitive."
+    },
+    {
+     "prompt": "Which means “a teacher’s house”?",
+     "options": [
+      "بَيْتُ مُعَلِّمٍ",
+      "بَيْتُ الْمُعَلِّمِ",
+      "الْبَيْتُ مُعَلِّمٍ"
+     ],
+     "answer": 0,
+     "feedback": "Final indefinite noun makes chain indefinite."
+    },
+    {
+     "prompt": "What case is muḍāf ilayh?",
+     "options": [
+      "nominative",
+      "accusative",
+      "genitive"
+     ],
+     "answer": 2,
+     "feedback": "Always majrūr."
+    },
+    {
+     "prompt": "What happens to dual/plural nūn in idāfa?",
+     "options": [
+      "It doubles.",
+      "It drops.",
+      "It becomes tanwīn."
+     ],
+     "answer": 1,
+     "feedback": "مُعَلِّمُو المدرسة / طَالِبَا الصف."
+    },
+    {
+     "prompt": "Choose “my school’s door”.",
+     "options": [
+      "بَابُ مَدْرَسَتِي",
+      "الْبَابُ مَدْرَسَتِي",
+      "بَابٌ مَدْرَسَتِي"
+     ],
+     "answer": 0,
+     "feedback": "Suffix can be final definite term."
+    },
+    {
+     "prompt": "Which adjective describes door in بَابُ الْمَدْرَسَةِ الْجَدِيدُ?",
+     "options": [
+      "المدرسة",
+      "باب",
+      "both"
+     ],
+     "answer": 1,
+     "feedback": "Masculine adjective points to باب."
+    }
+   ]
+  },
+  {
+   "title": "🧠 Guided mini-check",
+   "items": [
+    {
+     "prompt": "Choose definite iḍāfa.",
+     "options": [
+      "غُرْفَةُ الْفُنْدُقِ",
+      "الْغُرْفَةُ الْفُنْدُقِ",
+      "غُرْفَةٌ الْفُنْدُقُ"
+     ],
+     "answer": 0,
+     "feedback": "Correct structure."
+    },
+    {
+     "prompt": "Choose indefinite iḍāfa.",
+     "options": [
+      "غُرْفَةُ فُنْدُقٍ",
+      "غُرْفَةٌ فُنْدُقٍ",
+      "الْغُرْفَةُ فُنْدُقٍ"
+     ],
+     "answer": 0,
+     "feedback": "Final indefinite term."
+    },
+    {
+     "prompt": "Muḍāf may take:",
+     "options": [
+      "ال and tanwīn",
+      "neither ال nor tanwīn",
+      "tanwīn only"
+     ],
+     "answer": 1,
+     "feedback": "Core rule."
+    },
+    {
+     "prompt": "Muḍāf ilayh is:",
+     "options": [
+      "always genitive",
+      "always nominative",
+      "always accusative"
+     ],
+     "answer": 0,
+     "feedback": "Majrūr."
+    },
+    {
+     "prompt": "Choose “school teachers”.",
+     "options": [
+      "مُعَلِّمُونَ الْمَدْرَسَةِ",
+      "مُعَلِّمُو الْمَدْرَسَةِ",
+      "الْمُعَلِّمُونَ الْمَدْرَسَةِ"
+     ],
+     "answer": 1,
+     "feedback": "Drop nūn."
+    }
+   ]
+  },
+  {
+   "title": "⭐ Mastery Check",
+   "items": [
+    {
+     "prompt": "Choose definite iḍāfa.",
+     "options": [
+      "غُرْفَةُ الْفُنْدُقِ",
+      "الْغُرْفَةُ الْفُنْدُقِ",
+      "غُرْفَةٌ الْفُنْدُقُ"
+     ],
+     "answer": 0,
+     "feedback": "Correct structure."
+    },
+    {
+     "prompt": "Choose indefinite iḍāfa.",
+     "options": [
+      "غُرْفَةُ فُنْدُقٍ",
+      "غُرْفَةٌ فُنْدُقٍ",
+      "الْغُرْفَةُ فُنْدُقٍ"
+     ],
+     "answer": 0,
+     "feedback": "Final indefinite term."
+    },
+    {
+     "prompt": "Muḍāf may take:",
+     "options": [
+      "ال and tanwīn",
+      "neither ال nor tanwīn",
+      "tanwīn only"
+     ],
+     "answer": 1,
+     "feedback": "Core rule."
+    },
+    {
+     "prompt": "Muḍāf ilayh is:",
+     "options": [
+      "always genitive",
+      "always nominative",
+      "always accusative"
+     ],
+     "answer": 0,
+     "feedback": "Majrūr."
+    },
+    {
+     "prompt": "Choose “school teachers”.",
+     "options": [
+      "مُعَلِّمُونَ الْمَدْرَسَةِ",
+      "مُعَلِّمُو الْمَدْرَسَةِ",
+      "الْمُعَلِّمُونَ الْمَدْرَسَةِ"
+     ],
+     "answer": 1,
+     "feedback": "Drop nūn."
+    },
+    {
+     "prompt": "Choose “two class books”.",
+     "options": [
+      "كِتَابَانِ الصَّفِّ",
+      "كِتَابَا الصَّفِّ",
+      "الْكِتَابَانِ الصَّفِّ"
+     ],
+     "answer": 1,
+     "feedback": "Dual nūn drops."
+    },
+    {
+     "prompt": "Adjective for “new door of the school”.",
+     "options": [
+      "بَابُ الْمَدْرَسَةِ الْجَدِيدُ",
+      "بَابُ الْمَدْرَسَةِ الْجَدِيدَةِ",
+      "الْبَابُ الْمَدْرَسَةِ الْجَدِيدُ"
+     ],
+     "answer": 0,
+     "feedback": "Modifies masculine باب."
+    },
+    {
+     "prompt": "Choose multi-chain.",
+     "options": [
+      "مَكْتَبُ مُدِيرِ الْمَدْرَسَةِ",
+      "الْمَكْتَبُ الْمُدِيرِ الْمَدْرَسَةِ",
+      "مَكْتَبٌ مُدِيرٌ الْمَدْرَسَةُ"
+     ],
+     "answer": 0,
+     "feedback": "Correct chain."
+    }
+   ]
+  }
+ ],
+ "games": [],
+ "blocks": [
+  "## Why this matters لِمَاذَا هَذَا مُهِمٌّ؟",
+  "Build two- and multi-noun iḍāfa chains, control definiteness, case, tāʾ marbūṭa and adjective placement.",
+  "### Core",
+  "Recognise and build the core form.",
+  "### Develop",
+  "Use the form accurately in sentence roles and agreement.",
+  "### Stretch",
+  "Explain case, exceptions and interaction with iḍāfa.",
+  "## Diagnostic start اِخْتِبَارُ الْبِدَايَةِ",
+  "Answer first; then use the explanations to repair uncertainty.",
+  "## The architecture of iḍāfa",
+  "Iḍāfa joins nouns into one possessive or associative unit. English often uses “of” or apostrophe-s; Arabic uses order and grammatical marking.",
+  "[example] بَيْتُ + الْمُعَلِّمِ the teacher’s house",
+  "[ar] بَيْتُ",
+  "[ar] الْمُعَلِّمِ",
+  "### Muḍāf — first noun",
+  "- comes first",
+  "- has no الـ",
+  "- has no tanwīn",
+  "- takes case from its sentence role",
+  "### Muḍāf ilayh — possessor",
+  "- comes immediately after",
+  "- is always genitive",
+  "- may be definite or indefinite",
+  "- controls the chain’s definiteness",
+  "[callout] Definiteness travels from the final term: بَابُ مَدْرَسَةٍ = a school door; بَابُ الْمَدْرَسَةِ = the school door; بَابُ مَدْرَسَتِي = my school’s door.",
+  "## Longer chains and special forms",
+  "TABLE: Meaning | Arabic | Notice // the school headteacher’s office | مَكْتَبُ مُدِيرِ الْمَدْرَسَةِ | Only final term takes article // the two class teachers | مُعَلِّمَا الصَّفِّ | dual nūn drops // the school teachers | مُعَلِّمُو الْمَدْرَسَةِ | sound plural nūn drops // the student’s bag | حَقِيبَةُ الطَّالِبِ | ة pronounced t in connection",
+  "[callout/warning] Do not insert an adjective blindly. Place it after the completed chain and make its gender reveal the noun it modifies: بَابُ الْمَدْرَسَةِ الْجَدِيدُ (new door) versus بَابُ الْمَدْرَسَةِ الْجَدِيدَةِ (new school).",
+  "## Four-skills application",
+  "Use the noun system to extract and communicate real information.",
+  "### 📖 Read and notice",
+  "فِي مَدْرَسَتِنَا طَالِبَانِ جَدِيدَانِ وَمُعَلِّمَاتٌ خَبِيرَاتٌ. الْفُصُولُ وَاسِعَةٌ، وَمَكْتَبُ مُدِيرِ الْمَدْرَسَةِ قَرِيبٌ مِنَ الْمَدْخَلِ.",
+  "Underline every noun relevant to this lesson and explain its form.",
+  "### 🗣️ Speak and transform",
+  "Choose five nouns. Say the singular, dual and/or plural form required by this lesson, then use each in a complete sentence.",
+  "### ✍️ Writing workshop",
+  "Write 8–12 connected sentences about your school, home or local area. Use at least six target noun forms from this lesson and underline them.",
+  "[callout] Model: فِي حَيِّي مَدْرَسَتَانِ كَبِيرَتَانِ، وَمَكْتَبَةُ الْحَيِّ مُفِيدَةٌ لِلطُّلَّابِ.",
+  "Save and mark complete Clear",
+  "Plan visually, label your examples in Arabic, then check each target form.",
+  "Complete the same task on paper. Underline the target noun forms and annotate the rule used.",
+  "## Final mastery check اِخْتِبَارُ الْإِتْقَانِ",
+  "Apply the rules without relying on the explanation panels.",
+  "### Consolidate and revisit",
+  "Below 70%: repeat the mini-check linked to your errors. 70–89%: replay the repair game. 90–100%: continue, then revisit this lesson in 3–7 days."
+ ]
+}

@@ -1,0 +1,533 @@
+{
+ "path": "lessons/grammar/07-verbs/grammar-mastery-04-past-tense.php",
+ "title": "Past Tense: Complete Conjugation and Narration",
+ "arabic": "الْفِعْلُ الْمَاضِي: التَّصْرِيفُ وَالسَّرْدُ",
+ "lede": "Conjugate the Arabic past tense for singular, dual and plural persons, integrate weak-verb stems and use completed actions in coherent narratives.",
+ "nav": [
+  [
+   "GM-V-03",
+   "Unusual High-Frequency Verbs"
+  ]
+ ],
+ "quizzes": [
+  {
+   "title": "🔎 Entry Check",
+   "items": [
+    {
+     "prompt": "Choose “I studied”.",
+     "options": [
+      "دَرَسْتُ",
+      "دَرَسَتْ",
+      "أَدْرُسُ"
+     ],
+     "answer": 0,
+     "feedback": "ـتُ marks first-person singular in the past."
+    },
+    {
+     "prompt": "Choose “you (f.s.) wrote”.",
+     "options": [
+      "كَتَبْتِ",
+      "كَتَبْتَ",
+      "كَتَبَتْ"
+     ],
+     "answer": 0,
+     "feedback": "The vowel on ـتِ distinguishes feminine singular “you”."
+    },
+    {
+     "prompt": "Choose “they travelled”.",
+     "options": [
+      "سَافَرُوا",
+      "سَافَرْنَ",
+      "يُسَافِرُونَ"
+     ],
+     "answer": 0,
+     "feedback": "ـوا marks masculine/mixed third-person plural in the past."
+    },
+    {
+     "prompt": "Choose “you two arrived”.",
+     "options": [
+      "وَصَلْتُمَا",
+      "وَصَلَا",
+      "وَصَلْنَا"
+     ],
+     "answer": 0,
+     "feedback": "ـتُمَا marks second-person dual."
+    },
+    {
+     "prompt": "Choose “they (f.) played”.",
+     "options": [
+      "لَعِبْنَ",
+      "لَعِبُوا",
+      "لَعِبْتُنَّ"
+     ],
+     "answer": 0,
+     "feedback": "ـنَ marks third-person feminine plural."
+    },
+    {
+     "prompt": "Which statement is accurate?",
+     "options": [
+      "Past forms must match person, number and gender.",
+      "Every past verb ends with ت.",
+      "Arabic always requires a separate subject pronoun."
+     ],
+     "answer": 0,
+     "feedback": "The verb ending often makes the subject clear."
+    }
+   ]
+  },
+  {
+   "title": "👥 Third-Person Past Check",
+   "items": [
+    {
+     "prompt": "“She arrived”",
+     "options": [
+      "وَصَلَتْ",
+      "وَصَلْتِ",
+      "وَصَلَ"
+     ],
+     "answer": 0,
+     "feedback": "ـتْ = she."
+    },
+    {
+     "prompt": "“They two (m.) played”",
+     "options": [
+      "لَعِبَا",
+      "لَعِبَتَا",
+      "لَعِبُوا"
+     ],
+     "answer": 0,
+     "feedback": "ـا = masculine dual third person."
+    },
+    {
+     "prompt": "“They two (f.) studied”",
+     "options": [
+      "دَرَسَتَا",
+      "دَرَسَا",
+      "دَرَسْتُمَا"
+     ],
+     "answer": 0,
+     "feedback": "ـتا = feminine dual third person."
+    },
+    {
+     "prompt": "“They (f.) wrote”",
+     "options": [
+      "كَتَبْنَ",
+      "كَتَبُوا",
+      "كَتَبْتُنَّ"
+     ],
+     "answer": 0,
+     "feedback": "ـنَ = feminine plural third person."
+    }
+   ]
+  },
+  {
+   "title": "🗣️ Speaker and Addressee Check",
+   "items": [
+    {
+     "prompt": "“We watched”",
+     "options": [
+      "شَاهَدْنَا",
+      "شَاهَدْتُ",
+      "شَاهَدُوا"
+     ],
+     "answer": 0,
+     "feedback": "ـنا = we."
+    },
+    {
+     "prompt": "“You (m.s.) cooked”",
+     "options": [
+      "طَبَخْتَ",
+      "طَبَخْتِ",
+      "طَبَخَتْ"
+     ],
+     "answer": 0,
+     "feedback": "ـتَ = you masculine singular."
+    },
+    {
+     "prompt": "“You (f.s.) read”",
+     "options": [
+      "قَرَأْتِ",
+      "قَرَأْتَ",
+      "قَرَأَتْ"
+     ],
+     "answer": 0,
+     "feedback": "ـتِ = you feminine singular."
+    },
+    {
+     "prompt": "“You all (f.) travelled”",
+     "options": [
+      "سَافَرْتُنَّ",
+      "سَافَرْنَ",
+      "سَافَرْتُمْ"
+     ],
+     "answer": 0,
+     "feedback": "ـتنّ = feminine plural addressee."
+    }
+   ]
+  },
+  {
+   "title": "🧬 Past Family Integration",
+   "items": [
+    {
+     "prompt": "“I said”",
+     "options": [
+      "قُلْتُ",
+      "قَالْتُ",
+      "قَالَتْ"
+     ],
+     "answer": 0,
+     "feedback": "Hollow short stem."
+    },
+    {
+     "prompt": "“We passed”",
+     "options": [
+      "مَرَرْنَا",
+      "مَرَّنَا",
+      "مَرْنَا"
+     ],
+     "answer": 0,
+     "feedback": "Doubled stem opens."
+    },
+    {
+     "prompt": "“You (f.s.) walked”",
+     "options": [
+      "مَشَيْتِ",
+      "مَشَاتِ",
+      "مَشَوْتِ"
+     ],
+     "answer": 0,
+     "feedback": "Final y-family plus ـتِ."
+    },
+    {
+     "prompt": "“They visited”",
+     "options": [
+      "زَارُوا",
+      "زُرْتُمْ",
+      "زُرُوا"
+     ],
+     "answer": 0,
+     "feedback": "Long hollow form before ـوا."
+    }
+   ]
+  },
+  {
+   "title": "📚 Narrative Check",
+   "items": [
+    {
+     "prompt": "Best opening for a completed event",
+     "options": [
+      "فِي الأُسْبُوعِ الْمَاضِي زُرْنَا الْمَتْحَفَ.",
+      "غَدًا زُرْنَا الْمَتْحَفَ.",
+      "كُلَّ يَوْمٍ زُرْنَا الآنَ."
+     ],
+     "answer": 0,
+     "feedback": "Past time phrase matches the completed action."
+    },
+    {
+     "prompt": "Choose a shared action",
+     "options": [
+      "لَعِبْنَا مَعًا.",
+      "لَعِبْتُ مَعًا.",
+      "يَلْعَبُونَ أَمْسِ."
+     ],
+     "answer": 0,
+     "feedback": "ـنا = we."
+    },
+    {
+     "prompt": "Choose a feminine plural report",
+     "options": [
+      "وَصَلْنَ مُبَكِّرًا.",
+      "وَصَلُوا مُبَكِّرًا.",
+      "وَصَلْتُنَّ مُبَكِّرًا."
+     ],
+     "answer": 0,
+     "feedback": "ـنَ = they feminine."
+    },
+    {
+     "prompt": "Best sequence ending",
+     "options": [
+      "أَخِيرًا رَجَعْنَا إِلَى الْبَيْتِ.",
+      "أَخِيرًا نَرْجِعُ أَمْسِ.",
+      "غَدًا رَجَعْنَا أَخِيرًا."
+     ],
+     "answer": 0,
+     "feedback": "Past form and time sequence agree."
+    }
+   ]
+  },
+  {
+   "title": "⭐ Past Tense Mastery",
+   "items": [
+    {
+     "prompt": "I wrote",
+     "options": [
+      "كَتَبْتُ",
+      "كَتَبْتَ",
+      "كَتَبَتْ"
+     ],
+     "answer": 0,
+     "feedback": "ـتُ."
+    },
+    {
+     "prompt": "You f. wrote",
+     "options": [
+      "كَتَبْتِ",
+      "كَتَبْتَ",
+      "كَتَبَتْ"
+     ],
+     "answer": 0,
+     "feedback": "ـتِ."
+    },
+    {
+     "prompt": "She wrote",
+     "options": [
+      "كَتَبَتْ",
+      "كَتَبْتِ",
+      "كَتَبْنَ"
+     ],
+     "answer": 0,
+     "feedback": "ـتْ."
+    },
+    {
+     "prompt": "We wrote",
+     "options": [
+      "كَتَبْنَا",
+      "كَتَبْتُنَّ",
+      "كَتَبَا"
+     ],
+     "answer": 0,
+     "feedback": "ـنا."
+    },
+    {
+     "prompt": "They two f. wrote",
+     "options": [
+      "كَتَبَتَا",
+      "كَتَبَا",
+      "كَتَبْتُمَا"
+     ],
+     "answer": 0,
+     "feedback": "ـتا."
+    },
+    {
+     "prompt": "They f. wrote",
+     "options": [
+      "كَتَبْنَ",
+      "كَتَبُوا",
+      "كَتَبْتُنَّ"
+     ],
+     "answer": 0,
+     "feedback": "ـنَ."
+    },
+    {
+     "prompt": "You all f. wrote",
+     "options": [
+      "كَتَبْتُنَّ",
+      "كَتَبْنَ",
+      "كَتَبْتُمْ"
+     ],
+     "answer": 0,
+     "feedback": "ـتنّ."
+    },
+    {
+     "prompt": "We said",
+     "options": [
+      "قُلْنَا",
+      "قَالْنَا",
+      "قَالُوا"
+     ],
+     "answer": 0,
+     "feedback": "Hollow short stem."
+    },
+    {
+     "prompt": "I passed",
+     "options": [
+      "مَرَرْتُ",
+      "مَرَّتُ",
+      "مَرْتُ"
+     ],
+     "answer": 0,
+     "feedback": "Doubled opening."
+    },
+    {
+     "prompt": "They walked",
+     "options": [
+      "مَشَوْا",
+      "مَشَيْنَ",
+      "مَشَىوا"
+     ],
+     "answer": 0,
+     "feedback": "Final weak plural."
+    }
+   ]
+  }
+ ],
+ "games": [
+  [
+   {
+    "p": "أَنَا",
+    "a": "كَتَبْتُ",
+    "choices": [
+     "كَتَبْتُ",
+     "كَتَبْتَ",
+     "كَتَبَتْ"
+    ],
+    "e": "I wrote."
+   },
+   {
+    "p": "أَنْتِ",
+    "a": "دَرَسْتِ",
+    "choices": [
+     "دَرَسْتِ",
+     "دَرَسْتَ",
+     "دَرَسَتْ"
+    ],
+    "e": "You f. studied."
+   },
+   {
+    "p": "هِيَ",
+    "a": "سَافَرَتْ",
+    "choices": [
+     "سَافَرَتْ",
+     "سَافَرْتِ",
+     "سَافَرُوا"
+    ],
+    "e": "She travelled."
+   },
+   {
+    "p": "نَحْنُ",
+    "a": "زُرْنَا",
+    "choices": [
+     "زُرْنَا",
+     "زَارْنَا",
+     "زُرْتُمْ"
+    ],
+    "e": "We visited."
+   },
+   {
+    "p": "هُمَا (f.)",
+    "a": "كَتَبَتَا",
+    "choices": [
+     "كَتَبَتَا",
+     "كَتَبَا",
+     "كَتَبْتُمَا"
+    ],
+    "e": "They two f. wrote."
+   },
+   {
+    "p": "هُمْ",
+    "a": "لَعِبُوا",
+    "choices": [
+     "لَعِبُوا",
+     "لَعِبْنَ",
+     "لَعِبْتُمْ"
+    ],
+    "e": "They m./mixed played."
+   },
+   {
+    "p": "هُنَّ",
+    "a": "وَصَلْنَ",
+    "choices": [
+     "وَصَلْنَ",
+     "وَصَلُوا",
+     "وَصَلْتُنَّ"
+    ],
+    "e": "They f. arrived."
+   },
+   {
+    "p": "أَنْتُمْ",
+    "a": "قُلْتُمْ",
+    "choices": [
+     "قُلْتُمْ",
+     "قَالُوا",
+     "قُلْنَا"
+    ],
+    "e": "You all m./mixed said."
+   }
+  ]
+ ],
+ "blocks": [
+  "## Why this matters لِمَاذَا نُتْقِنُ الْمَاضِي؟",
+  "Past tense lets learners describe experiences, journeys, achievements and events—essential content for speaking and writing.",
+  "### Core",
+  "Use the most frequent singular and plural endings.",
+  "### Develop",
+  "Conjugate all persons, including dual and feminine plural.",
+  "### Stretch",
+  "Integrate hollow, doubled and final-weak stems and analyse full agreement.",
+  "[callout] Communication target: Tell a connected account in which each past form clearly identifies its subject.",
+  "## Diagnostic start",
+  "Check your control of the main endings.",
+  "## Third-person past endings",
+  "Begin with who is being described, then choose the correct ending.",
+  "TABLE: Pronoun | Ending | كَتَبَ // هُوَ | — | كَتَبَ // هِيَ | ـَتْ | كَتَبَتْ // هُمَا (m.) | ـَا | كَتَبَا // هُمَا (f.) | ـَتَا | كَتَبَتَا // هُمْ | ـُوا | كَتَبُوا // هُنَّ | ـْنَ | كَتَبْنَ",
+  "[callout] Third person starts from the dictionary past form. The ending shows whether the subject is masculine, feminine, singular, dual or plural.",
+  "## First and second person",
+  "These endings let speakers narrate personal and shared experiences precisely.",
+  "TABLE: Pronoun | Ending | دَرَسَ // أَنَا | ـْتُ | دَرَسْتُ // نَحْنُ | ـْنَا | دَرَسْنَا // أَنْتَ | ـْتَ | دَرَسْتَ // أَنْتِ | ـْتِ | دَرَسْتِ // أَنْتُمَا | ـْتُمَا | دَرَسْتُمَا // أَنْتُمْ | ـْتُمْ | دَرَسْتُمْ // أَنْتُنَّ | ـْتُنَّ | دَرَسْتُنَّ",
+  "[callout] The three short vowels matter: دَرَسْتُ I studied, دَرَسْتَ you m. studied, دَرَسْتِ you f. studied.",
+  "## Past endings across verb families",
+  "The ending still marks the subject, but the stem may adapt.",
+  "### Regular stem",
+  "كَتَبَ ← كَتَبْتُ ← كَتَبْنَا",
+  "The core consonants stay visible.",
+  "### Hollow adjustment",
+  "قَالَ ← قُلْتُ ← قُلْنَا",
+  "The stem shortens before consonant-led endings.",
+  "### Doubled adjustment",
+  "مَرَّ ← مَرَرْتُ ← مَرَرْنَا",
+  "The shadda opens.",
+  "### Final-weak adjustment",
+  "مَشَى ← مَشَيْتُ ← مَشَيْنَا",
+  "The final weak letter changes shape.",
+  "[callout/warning] Ending + stem: Conjugation is not only adding a suffix. First identify the verb family, then attach the correct person ending to the appropriate stem.",
+  "## Use the past to tell events",
+  "Past tense becomes meaningful through time expressions, sequencing and varied subjects.",
+  "[callout] Narrative frame: فِي الْأُسْبُوعِ الْمَاضِي ... أَوَّلًا ... ثُمَّ ... بَعْدَ ذَلِكَ ... أَخِيرًا ...",
+  "TABLE: Purpose | Useful past forms | Model // Personal action | ذَهَبْتُ، شَاهَدْتُ، قَرَأْتُ | أَمْسِ قَرَأْتُ مَقَالًا. // Shared experience | زُرْنَا، لَعِبْنَا، رَجَعْنَا | فِي العُطْلَةِ زُرْنَا مِصْرَ. // Report others | فَازُوا، سَافَرَتْ، وَصَلْنَ | فَازُوا بِالْمُبَارَاةِ. // Reaction | أَعْجَبَنِي، فَرِحْتُ، تَعَلَّمْتُ | تَعَلَّمْتُ شَيْئًا جَدِيدًا.",
+  "## Past-tense misconception clinic",
+  "A useful correction explains the form, not only the answer.",
+  "### I / you vowel",
+  "✗ أَنَا دَرَسْتَ",
+  "✓ أَنَا دَرَسْتُ",
+  "The final short vowel identifies the person.",
+  "### She / you feminine",
+  "✗ هِيَ كَتَبْتِ",
+  "✓ هِيَ كَتَبَتْ",
+  "ـتْ is third-person feminine; ـتِ is second-person feminine.",
+  "### Feminine plural",
+  "✗ هُنَّ لَعِبُوا",
+  "✓ هُنَّ لَعِبْنَ",
+  "Human feminine plural requires ـنَ.",
+  "### Weak stem",
+  "✗ نَحْنُ قَالْنَا",
+  "✓ نَحْنُ قُلْنَا",
+  "Hollow verbs shorten before ـنا.",
+  "## Replayable person game",
+  "Match subjects and endings rapidly.",
+  "## Apply the grammar across skills",
+  "Grammar becomes useful when it helps you understand and communicate.",
+  "### 📖 Reading workshop",
+  "Read a short biography and identify who performed each action. Use the endings to resolve pronouns that are not written separately.",
+  "### 🎧 Listening workshop",
+  "Listen to a weekend account and create a timeline of completed actions. Record the exact past form used.",
+  "### 🗣️ Speaking workshop",
+  "Tell a one-minute story using first-person singular, first-person plural and a third-person report.",
+  "### 🛠️ Editing workshop",
+  "Repair a narrative with person-ending confusion, inconsistent past time expressions and two irregular stems.",
+  "### ✍️ Integrated production task",
+  "Write a 130–140-word blog entry about a memorable day. Use at least eight different past verbs and at least four different subject endings.",
+  "[callout] Model: فِي الأُسْبُوعِ الْمَاضِي ذَهَبْنَا إِلَى مَعْرِضٍ ثَقَافِيٍّ. رَأَيْنَا صُوَرًا جَمِيلَةً، وَقَالَ الْمُرْشِدُ إِنَّ الْمَعْرِضَ يَعْرِضُ تَارِيخَ الْمَدِينَةِ.",
+  "[callout] Success checklist: Use sequencing, past time expressions, one hollow verb, one weak verb and both singular and plural subjects.",
+  "Save and mark complete Clear",
+  "Plan the verb changes as a timeline, root map or sentence flowchart. Label each form in Arabic.",
+  "Underline every past ending and label the subject above it. Then circle any stem change caused by a weak or doubled root.",
+  "## Final mastery check",
+  "Use the full past system accurately.",
+  "### Lesson mastery summary",
+  "- conjugate regular past verbs for all main persons;",
+  "- distinguish similar endings such as ـتُ، ـتَ، ـتِ and ـتْ;",
+  "- apply past endings to weak and doubled stems;",
+  "- write and speak about completed events coherently.",
+  "Return in 3–7 days and repeat the final check without reviewing first. Retrieval, not recognition alone, builds secure verb control."
+ ]
+}

@@ -1,0 +1,545 @@
+{
+ "path": "lessons/grammar/07-verbs/grammar-mastery-12-verbal-nouns-participles.php",
+ "title": "Verbal Nouns and Active/Passive Participles",
+ "arabic": "الْمَصْدَرُ وَاسْمُ الْفَاعِلِ وَاسْمُ الْمَفْعُولِ",
+ "lede": "Distinguish action, doer and affected meaning through verbal nouns, active participles and passive participles, including high-frequency weak and derived forms.",
+ "nav": [
+  [
+   "GM-V-11",
+   "Passive Voice in the Past and Present"
+  ]
+ ],
+ "quizzes": [
+  {
+   "title": "🔎 Entry Check",
+   "items": [
+    {
+     "prompt": "Choose the verbal noun of كَتَبَ.",
+     "options": [
+      "كِتَابَةٌ",
+      "كَاتِبٌ",
+      "مَكْتُوبٌ"
+     ],
+     "answer": 0,
+     "feedback": "كِتَابَةٌ names the action of writing."
+    },
+    {
+     "prompt": "Choose the active participle of كَتَبَ.",
+     "options": [
+      "كَاتِبٌ",
+      "كِتَابَةٌ",
+      "مَكْتُوبٌ"
+     ],
+     "answer": 0,
+     "feedback": "كَاتِبٌ identifies the doer/writer."
+    },
+    {
+     "prompt": "Choose the passive participle of كَتَبَ.",
+     "options": [
+      "مَكْتُوبٌ",
+      "كَاتِبٌ",
+      "يَكْتُبُ"
+     ],
+     "answer": 0,
+     "feedback": "مَكْتُوبٌ describes what has been written."
+    },
+    {
+     "prompt": "Choose the verbal noun of زَارَ.",
+     "options": [
+      "زِيَارَةٌ",
+      "زَائِرٌ",
+      "مَزُورٌ"
+     ],
+     "answer": 0,
+     "feedback": "زِيَارَةٌ is the action noun “visit/visiting”."
+    },
+    {
+     "prompt": "Choose the active participle “player”.",
+     "options": [
+      "لَاعِبٌ",
+      "لَعِبٌ",
+      "مَلْعُوبٌ"
+     ],
+     "answer": 0,
+     "feedback": "Form I active participle normally follows فَاعِل."
+    },
+    {
+     "prompt": "Which statement is accurate?",
+     "options": [
+      "Form I verbal nouns are often lexical and should be learned with the verb.",
+      "Every Form I maṣdar is perfectly predictable.",
+      "Participles never behave like adjectives."
+     ],
+     "answer": 0,
+     "feedback": "Masdar learning requires vocabulary; participles often function as nouns/adjectives."
+    }
+   ]
+  },
+  {
+   "title": "📦 Verbal Noun Check",
+   "items": [
+    {
+     "prompt": "Reading",
+     "options": [
+      "قِرَاءَةٌ",
+      "قَارِئٌ",
+      "مَقْرُوءٌ"
+     ],
+     "answer": 0,
+     "feedback": "Action noun."
+    },
+    {
+     "prompt": "Learning",
+     "options": [
+      "تَعَلُّمٌ",
+      "مُتَعَلِّمٌ",
+      "مُتَعَلَّمٌ"
+     ],
+     "answer": 0,
+     "feedback": "Form V verbal noun."
+    },
+    {
+     "prompt": "Using / use",
+     "options": [
+      "اِسْتِعْمَالٌ",
+      "مُسْتَعْمِلٌ",
+      "مُسْتَعْمَلٌ"
+     ],
+     "answer": 0,
+     "feedback": "Form X verbal noun."
+    },
+    {
+     "prompt": "Best notebook pair",
+     "options": [
+      "زَارَ / يَزُورُ / زِيَارَةٌ",
+      "زَارَ / زَائِرٌ only",
+      "visit = one English word only"
+     ],
+     "answer": 0,
+     "feedback": "Store verb and maṣdar together."
+    }
+   ]
+  },
+  {
+   "title": "👤 Active Participle Check",
+   "items": [
+    {
+     "prompt": "Writer",
+     "options": [
+      "كَاتِبٌ",
+      "مَكْتُوبٌ",
+      "كِتَابَةٌ"
+     ],
+     "answer": 0,
+     "feedback": "Doer."
+    },
+    {
+     "prompt": "Reader",
+     "options": [
+      "قَارِئٌ",
+      "مَقْرُوءٌ",
+      "قِرَاءَةٌ"
+     ],
+     "answer": 0,
+     "feedback": "Doer."
+    },
+    {
+     "prompt": "One who says / speaker",
+     "options": [
+      "قَائِلٌ",
+      "مَقُولٌ",
+      "قَوْلٌ"
+     ],
+     "answer": 0,
+     "feedback": "Hollow active participle."
+    },
+    {
+     "prompt": "Female player",
+     "options": [
+      "لَاعِبَةٌ",
+      "مَلْعُوبَةٌ",
+      "لَعِبَةٌ"
+     ],
+     "answer": 0,
+     "feedback": "Active feminine."
+    }
+   ]
+  },
+  {
+   "title": "📄 Passive Participle Check",
+   "items": [
+    {
+     "prompt": "Broken",
+     "options": [
+      "مَكْسُورٌ",
+      "كَاسِرٌ",
+      "كَسْرٌ"
+     ],
+     "answer": 0,
+     "feedback": "Affected state."
+    },
+    {
+     "prompt": "Written letter",
+     "options": [
+      "رِسَالَةٌ مَكْتُوبَةٌ",
+      "رِسَالَةٌ كَاتِبَةٌ",
+      "رِسَالَةٌ كِتَابَةٌ"
+     ],
+     "answer": 0,
+     "feedback": "Feminine agreement."
+    },
+    {
+     "prompt": "The door is open",
+     "options": [
+      "الْبَابُ مَفْتُوحٌ",
+      "الْبَابُ فَاتِحٌ",
+      "الْبَابُ فَتْحٌ"
+     ],
+     "answer": 0,
+     "feedback": "Passive participle predicate."
+    },
+    {
+     "prompt": "The books are available/present",
+     "options": [
+      "الْكُتُبُ مَوْجُودَةٌ",
+      "الْكُتُبُ مَوْجُودُونَ",
+      "الْكُتُبُ وَاجِدَةٌ"
+     ],
+     "answer": 0,
+     "feedback": "Non-human plural feminine singular agreement."
+    }
+   ]
+  },
+  {
+   "title": "🧬 Derived Nominal Check",
+   "items": [
+    {
+     "prompt": "Verbal noun of تَعَلَّمَ",
+     "options": [
+      "تَعَلُّمٌ",
+      "مُتَعَلِّمٌ",
+      "مُتَعَلَّمٌ"
+     ],
+     "answer": 0,
+     "feedback": "Action noun."
+    },
+    {
+     "prompt": "Active participle of تَعَلَّمَ",
+     "options": [
+      "مُتَعَلِّمٌ",
+      "تَعَلُّمٌ",
+      "مُتَعَلَّمٌ"
+     ],
+     "answer": 0,
+     "feedback": "Learner."
+    },
+    {
+     "prompt": "Verbal noun of اِسْتَعْمَلَ",
+     "options": [
+      "اِسْتِعْمَالٌ",
+      "مُسْتَعْمِلٌ",
+      "مُسْتَعْمَلٌ"
+     ],
+     "answer": 0,
+     "feedback": "Use/using."
+    },
+    {
+     "prompt": "Passive participle of اِسْتَعْمَلَ",
+     "options": [
+      "مُسْتَعْمَلٌ",
+      "مُسْتَعْمِلٌ",
+      "اِسْتِعْمَالٌ"
+     ],
+     "answer": 0,
+     "feedback": "Used."
+    }
+   ]
+  },
+  {
+   "title": "⭐ Verbal Noun and Participle Mastery",
+   "items": [
+    {
+     "prompt": "Writing (activity)",
+     "options": [
+      "كِتَابَةٌ",
+      "كَاتِبٌ",
+      "مَكْتُوبٌ"
+     ],
+     "answer": 0,
+     "feedback": "Maṣdar."
+    },
+    {
+     "prompt": "Writer",
+     "options": [
+      "كَاتِبٌ",
+      "كِتَابَةٌ",
+      "مَكْتُوبٌ"
+     ],
+     "answer": 0,
+     "feedback": "Active participle."
+    },
+    {
+     "prompt": "Written",
+     "options": [
+      "مَكْتُوبٌ",
+      "كَاتِبٌ",
+      "كِتَابَةٌ"
+     ],
+     "answer": 0,
+     "feedback": "Passive participle."
+    },
+    {
+     "prompt": "Reading (activity)",
+     "options": [
+      "قِرَاءَةٌ",
+      "قَارِئٌ",
+      "مَقْرُوءٌ"
+     ],
+     "answer": 0,
+     "feedback": "Maṣdar."
+    },
+    {
+     "prompt": "Reader",
+     "options": [
+      "قَارِئٌ",
+      "قِرَاءَةٌ",
+      "مَقْرُوءٌ"
+     ],
+     "answer": 0,
+     "feedback": "Active participle."
+    },
+    {
+     "prompt": "Broken",
+     "options": [
+      "مَكْسُورٌ",
+      "كَاسِرٌ",
+      "كَسْرٌ"
+     ],
+     "answer": 0,
+     "feedback": "Passive participle."
+    },
+    {
+     "prompt": "Learning",
+     "options": [
+      "تَعَلُّمٌ",
+      "مُتَعَلِّمٌ",
+      "مُتَعَلَّمٌ"
+     ],
+     "answer": 0,
+     "feedback": "Maṣdar."
+    },
+    {
+     "prompt": "Learner",
+     "options": [
+      "مُتَعَلِّمٌ",
+      "تَعَلُّمٌ",
+      "مُتَعَلَّمٌ"
+     ],
+     "answer": 0,
+     "feedback": "Active participle."
+    },
+    {
+     "prompt": "Used",
+     "options": [
+      "مُسْتَعْمَلٌ",
+      "مُسْتَعْمِلٌ",
+      "اِسْتِعْمَالٌ"
+     ],
+     "answer": 0,
+     "feedback": "Passive participle."
+    },
+    {
+     "prompt": "Form I maṣdars",
+     "options": [
+      "often must be learned with the verb",
+      "always use one pattern",
+      "are all participles"
+     ],
+     "answer": 0,
+     "feedback": "Lexical variation."
+    }
+   ]
+  }
+ ],
+ "games": [
+  [
+   {
+    "p": "كِتَابَةٌ",
+    "a": "action",
+    "choices": [
+     "action",
+     "doer",
+     "affected"
+    ],
+    "e": "Verbal noun."
+   },
+   {
+    "p": "كَاتِبٌ",
+    "a": "doer",
+    "choices": [
+     "action",
+     "doer",
+     "affected"
+    ],
+    "e": "Active participle."
+   },
+   {
+    "p": "مَكْتُوبٌ",
+    "a": "affected",
+    "choices": [
+     "action",
+     "doer",
+     "affected"
+    ],
+    "e": "Passive participle."
+   },
+   {
+    "p": "قِرَاءَةٌ",
+    "a": "action",
+    "choices": [
+     "action",
+     "doer",
+     "affected"
+    ],
+    "e": "Reading as an activity."
+   },
+   {
+    "p": "قَارِئٌ",
+    "a": "doer",
+    "choices": [
+     "action",
+     "doer",
+     "affected"
+    ],
+    "e": "Reader."
+   },
+   {
+    "p": "مَقْرُوءٌ",
+    "a": "affected",
+    "choices": [
+     "action",
+     "doer",
+     "affected"
+    ],
+    "e": "Read/that which is read."
+   },
+   {
+    "p": "تَعَلُّمٌ",
+    "a": "action",
+    "choices": [
+     "action",
+     "doer",
+     "affected"
+    ],
+    "e": "Learning."
+   },
+   {
+    "p": "مُتَعَلِّمٌ",
+    "a": "doer",
+    "choices": [
+     "action",
+     "doer",
+     "affected"
+    ],
+    "e": "Learner."
+   },
+   {
+    "p": "اِسْتِعْمَالٌ",
+    "a": "action",
+    "choices": [
+     "action",
+     "doer",
+     "affected"
+    ],
+    "e": "Use/using."
+   },
+   {
+    "p": "مُسْتَعْمَلٌ",
+    "a": "affected",
+    "choices": [
+     "action",
+     "doer",
+     "affected"
+    ],
+    "e": "Used."
+   }
+  ]
+ ],
+ "blocks": [
+  "## Why this matters لِمَاذَا نُحَوِّلُ الْفِعْلَ إِلَى اسْمٍ؟",
+  "Nominal derivatives let learners discuss activities, people, roles, results and states with greater range and precision.",
+  "### Core",
+  "Recognise common verbal nouns and Form I participles.",
+  "### Develop",
+  "Form and agree active/passive participles and use maṣdars in phrases.",
+  "### Stretch",
+  "Recognise derived-form patterns and weak/hamzated spelling changes.",
+  "[callout] Communication target: Use action nouns and participles naturally in sustained description and explanation.",
+  "## Diagnostic start",
+  "Identify action, doer and affected forms.",
+  "## Verbal nouns: naming the action",
+  "The maṣdar turns an action into a noun that can be a subject, object or part of a prepositional/iḍāfa phrase.",
+  "TABLE: Verb | Verbal noun | Useful phrase // كَتَبَ / يَكْتُبُ | كِتَابَةٌ | أُحِبُّ الْكِتَابَةَ. // قَرَأَ / يَقْرَأُ | قِرَاءَةٌ | الْقِرَاءَةُ مُفِيدَةٌ. // دَرَسَ / يَدْرُسُ | دِرَاسَةٌ | بَعْدَ دِرَاسَةِ النَّصِّ... // سَافَرَ / يُسَافِرُ | سَفَرٌ | أَسْتَمْتِعُ بِالسَّفَرِ. // زَارَ / يَزُورُ | زِيَارَةٌ | قُمْنَا بِزِيَارَةٍ. // تَعَلَّمَ / يَتَعَلَّمُ | تَعَلُّمٌ | تَعَلُّمُ اللُّغَاتِ مُهِمٌّ. // اِسْتَعْمَلَ / يَسْتَعْمِلُ | اِسْتِعْمَالٌ | اِسْتِعْمَالُ التِّقْنِيَّةِ.",
+  "[callout] Form I caution: The verbal noun is often not fully predictable. Store قَرَأَ / قِرَاءَةٌ، كَتَبَ / كِتَابَةٌ، زَارَ / زِيَارَةٌ as lexical pairs.",
+  "## Active participles: naming or describing the doer",
+  "Active participles can function as nouns, professions, temporary states or adjective-like descriptions.",
+  "TABLE: Verb | Active participle | Meaning/use // كَتَبَ | كَاتِبٌ / كَاتِبَةٌ | writer / writing person // لَعِبَ | لَاعِبٌ / لَاعِبَةٌ | player // قَرَأَ | قَارِئٌ / قَارِئَةٌ | reader // ذَهَبَ | ذَاهِبٌ / ذَاهِبَةٌ | going / one who is going // قَالَ | قَائِلٌ / قَائِلَةٌ | speaker / one who says // قَامَ | قَائِمٌ / قَائِمَةٌ | standing / existing depending on context",
+  "[callout] Form I pattern: Active participles commonly follow فَاعِلٌ . Hollow and hamzated verbs show spelling adjustments: قَالَ ← قَائِلٌ، قَرَأَ ← قَارِئٌ .",
+  "## Passive participles: describing the affected thing",
+  "Passive participles connect verb meaning to noun description and state.",
+  "TABLE: Verb | Passive participle | Model // كَتَبَ | مَكْتُوبٌ | رِسَالَةٌ مَكْتُوبَةٌ بِوُضُوحٍ // كَسَرَ | مَكْسُورٌ | هَاتِفٌ مَكْسُورٌ // فَتَحَ | مَفْتُوحٌ | الْبَابُ مَفْتُوحٌ // أَغْلَقَ | مُغْلَقٌ | الْمَتْجَرُ مُغْلَقٌ // عَرَفَ | مَعْرُوفٌ | شَخْصٌ مَعْرُوفٌ // وَجَدَ | مَوْجُودٌ | الْكِتَابُ مَوْجُودٌ هُنَا // قَرَأَ | مَقْرُوءٌ | نَصٌّ مَقْرُوءٌ",
+  "[callout] Form I pattern: Passive participles commonly follow مَفْعُولٌ . Agreement works like adjectives: كِتَابٌ مَكْتُوبٌ، رِسَالَةٌ مَكْتُوبَةٌ .",
+  "## Derived forms: predictable families as Stretch",
+  "Recognise reusable nominal patterns without losing the communicative vocabulary focus.",
+  "TABLE: Form family | Verbal noun | Active participle | Passive participle // II فَعَّلَ | تَفْعِيلٌ | مُفَعِّلٌ | مُفَعَّلٌ // III فَاعَلَ | مُفَاعَلَةٌ | مُفَاعِلٌ | مُفَاعَلٌ // V تَفَعَّلَ | تَفَعُّلٌ | مُتَفَعِّلٌ | مُتَفَعَّلٌ // VIII اِفْتَعَلَ | اِفْتِعَالٌ | مُفْتَعِلٌ | مُفْتَعَلٌ // X اِسْتَفْعَلَ | اِسْتِفْعَالٌ | مُسْتَفْعِلٌ | مُسْتَفْعَلٌ",
+  "[callout/warning] Stretch, not a memorisation wall: Derived forms are more predictable than Form I, but learners should meet them through useful vocabulary: تَعَلُّمٌ، مُتَعَلِّمٌ، اِسْتِعْمَالٌ، مُسْتَعْمِلٌ، مُسْتَعْمَلٌ .",
+  "[example] يَسْتَعْمِلُ الطَّالِبُ الْحَاسُوبَ. → الطَّالِبُ مُسْتَعْمِلٌ، وَالْحَاسُوبُ مُسْتَعْمَلٌ.",
+  "[ar] يَسْتَعْمِلُ الطَّالِبُ الْحَاسُوبَ.",
+  "[ar] الطَّالِبُ مُسْتَعْمِلٌ، وَالْحَاسُوبُ مُسْتَعْمَلٌ.",
+  "## Nominal-form misconception clinic",
+  "A useful correction explains the form, not only the answer.",
+  "### Action versus doer",
+  "✗ أُحِبُّ الْكَاتِبَ بمعنى I love writing",
+  "✓ أُحِبُّ الْكِتَابَةَ",
+  "The maṣdar names the activity; الكاتب names a writer.",
+  "### Doer versus affected",
+  "✗ هَذَا رِسَالَةٌ كَاتِبَةٌ",
+  "✓ هَذِهِ رِسَالَةٌ مَكْتُوبَةٌ",
+  "The letter is affected by writing and requires feminine agreement.",
+  "### Form I prediction",
+  "✗ كُلُّ مَصْدَرٍ عَلَى وَزْنٍ وَاحِدٍ",
+  "✓ مَصَادِرُ الْبَابِ الْأَوَّلِ تُتَعَلَّمُ مَعَ الْفِعْلِ",
+  "Form I maṣdars are lexically varied.",
+  "### Non-human agreement",
+  "✗ الْكُتُبُ مَكْتُوبُونَ",
+  "✓ الْكُتُبُ مَكْتُوبَةٌ",
+  "Non-human plural takes feminine singular agreement.",
+  "## Replayable classification game",
+  "Sort each form by its grammatical meaning.",
+  "## Apply the grammar across skills",
+  "Grammar becomes useful when it helps you understand and communicate.",
+  "### 📖 Reading workshop",
+  "Read a profile and classify every nominal derivative as action, doer or affected state.",
+  "### 🎧 Listening workshop",
+  "Listen to pairs such as كتابة/كاتب/مكتوب and identify which meaning the speaker intends.",
+  "### 🗣️ Speaking workshop",
+  "Describe yourself as a learner and discuss activities you enjoy using verbal nouns and participles.",
+  "### 🛠️ Editing workshop",
+  "Repair confusion between maṣdar and participle, wrong feminine agreement and non-human plural agreement.",
+  "### ✍️ Integrated production task",
+  "Write 130–140 words about learning, reading, sport or technology. Use at least four verbal nouns, four active participles and four passive participles.",
+  "[callout] Model: تَعَلُّمُ اللُّغَاتِ نَشَاطٌ مُفِيدٌ. أَنَا مُتَعَلِّمَةٌ مُجْتَهِدَةٌ، وَأُحِبُّ الْقِرَاءَةَ وَالْكِتَابَةَ. فِي مَكْتَبَتِنَا كُتُبٌ مَعْرُوفَةٌ وَنُصُوصٌ مَقْرُوءَةٌ بِعِنَايَةٍ.",
+  "[callout] Success checklist: Distinguish action, doer and affected meaning; apply gender and non-human plural agreement; include one Form I and one derived-form family.",
+  "Save and mark complete Clear",
+  "Plan the verb changes as a timeline, root map or sentence flowchart. Label each form in Arabic.",
+  "Use three colours or symbols: circle verbal nouns, underline active participles, box passive participles. Add arrows to the nouns they describe.",
+  "## Final mastery check",
+  "Distinguish and form the three main nominal derivatives.",
+  "### Lesson mastery summary",
+  "- recognise and use common verbal nouns;",
+  "- form high-frequency Form I active participles;",
+  "- form and agree high-frequency passive participles;",
+  "- recognise useful derived-form nominal patterns.",
+  "Return in 3–7 days and repeat the final check without reviewing first. Retrieval, not recognition alone, builds secure verb control."
+ ]
+}

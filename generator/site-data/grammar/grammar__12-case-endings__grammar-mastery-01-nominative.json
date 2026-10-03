@@ -1,0 +1,435 @@
+{
+ "path": "lessons/grammar/12-case-endings/grammar-mastery-01-nominative.php",
+ "title": "The Nominative Case",
+ "arabic": "حَالَةُ الرَّفْعِ",
+ "lede": "Identify the doer, topic and simple predicate, then make the ending and adjective agreement show the role accurately.",
+ "nav": [],
+ "quizzes": [
+  {
+   "title": "🔎 Readiness Check",
+   "items": [
+    {
+     "prompt": "Which noun is the subject/doer in كَتَبَ الطَّالِبُ الرِّسَالَةَ؟",
+     "options": [
+      "الطَّالِبُ",
+      "الرِّسَالَةَ",
+      "كَتَبَ"
+     ],
+     "answer": 0,
+     "feedback": "The student performs the action, so الطَّالِبُ is the nominative subject."
+    },
+    {
+     "prompt": "Choose the correct nominal sentence.",
+     "options": [
+      "الْجَوُّ جَمِيلٌ.",
+      "الْجَوَّ جَمِيلًا.",
+      "الْجَوِّ جَمِيلٍ."
+     ],
+     "answer": 0,
+     "feedback": "The topic and simple predicate are nominative in a basic nominal sentence."
+    },
+    {
+     "prompt": "Which ending normally marks a definite singular nominative noun?",
+     "options": [
+      "ـُ",
+      "ـَ",
+      "ـِ"
+     ],
+     "answer": 0,
+     "feedback": "A single ḍamma is the usual nominative marker for a regular definite singular noun."
+    },
+    {
+     "prompt": "Which ending normally marks an indefinite singular nominative noun?",
+     "options": [
+      "ـٌ",
+      "ـً",
+      "ـٍ"
+     ],
+     "answer": 0,
+     "feedback": "Ḍammatan marks a regular indefinite singular noun in the nominative."
+    },
+    {
+     "prompt": "Choose the sentence with correct noun–adjective agreement.",
+     "options": [
+      "جَاءَ طَالِبٌ مُجْتَهِدٌ.",
+      "جَاءَ طَالِبٌ مُجْتَهِدًا.",
+      "جَاءَ طَالِبًا مُجْتَهِدٌ."
+     ],
+     "answer": 0,
+     "feedback": "The adjective follows the noun in case as well as gender, number and definiteness."
+    },
+    {
+     "prompt": "Which form is nominative dual?",
+     "options": [
+      "طَالِبَانِ",
+      "طَالِبَيْنِ",
+      "طَالِبُونَ"
+     ],
+     "answer": 0,
+     "feedback": "The regular dual nominative ending is ـَانِ."
+    }
+   ]
+  },
+  {
+   "title": "✅ Mini-check: subjects",
+   "items": [
+    {
+     "prompt": "Choose the correct VSO sentence.",
+     "options": [
+      "وَصَلَ الْمُعَلِّمُ.",
+      "وَصَلَ الْمُعَلِّمَ.",
+      "وَصَلَ الْمُعَلِّمِ."
+     ],
+     "answer": 0,
+     "feedback": "The explicit subject after the verb is nominative."
+    },
+    {
+     "prompt": "Choose the correct feminine subject.",
+     "options": [
+      "وَصَلَتِ الْمُعَلِّمَةُ.",
+      "وَصَلَتِ الْمُعَلِّمَةَ.",
+      "وَصَلَتِ الْمُعَلِّمَةِ."
+     ],
+     "answer": 0,
+     "feedback": "Gender affects the verb; the subject remains nominative."
+    },
+    {
+     "prompt": "Choose the correct indefinite subject.",
+     "options": [
+      "دَخَلَ طَالِبٌ.",
+      "دَخَلَ طَالِبًا.",
+      "دَخَلَ طَالِبٍ."
+     ],
+     "answer": 0,
+     "feedback": "An indefinite singular subject normally takes ḍammatan."
+    },
+    {
+     "prompt": "Choose the correct subject with its adjective.",
+     "options": [
+      "حَضَرَ طَالِبَانِ جَدِيدَانِ.",
+      "حَضَرَ طَالِبَيْنِ جَدِيدَيْنِ.",
+      "حَضَرَ طَالِبَانِ جَدِيدَيْنِ."
+     ],
+     "answer": 0,
+     "feedback": "Both the dual subject and its adjective are nominative."
+    }
+   ]
+  },
+  {
+   "title": "✅ Mini-check: nominal sentences",
+   "items": [
+    {
+     "prompt": "Choose the complete nominal sentence.",
+     "options": [
+      "الْمَدْرَسَةُ كَبِيرَةٌ.",
+      "الْمَدْرَسَةَ كَبِيرَةً.",
+      "الْمَدْرَسَةِ كَبِيرَةٍ."
+     ],
+     "answer": 0,
+     "feedback": "The basic topic and single-word predicate are nominative."
+    },
+    {
+     "prompt": "Choose the correct human masculine plural predicate.",
+     "options": [
+      "الطُّلَّابُ مُسْتَعِدُّونَ.",
+      "الطُّلَّابَ مُسْتَعِدِّينَ.",
+      "الطُّلَّابُ مُسْتَعِدِّينَ."
+     ],
+     "answer": 0,
+     "feedback": "Subject-first human masculine plural uses the nominative sound-plural ending ـُونَ."
+    },
+    {
+     "prompt": "Choose the correct sound feminine plural.",
+     "options": [
+      "الطَّالِبَاتُ مُجْتَهِدَاتٌ.",
+      "الطَّالِبَاتِ مُجْتَهِدَاتٍ.",
+      "الطَّالِبَاتُ مُجْتَهِدَاتٍ."
+     ],
+     "answer": 0,
+     "feedback": "Nominative sound feminine plurals normally show ـَاتُ / ـَاتٌ."
+    },
+    {
+     "prompt": "Choose the correct non-human plural statement.",
+     "options": [
+      "الْكُتُبُ مُفِيدَةٌ.",
+      "الْكُتُبَ مُفِيدَةً.",
+      "الْكُتُبُ مُفِيدَاتٌ."
+     ],
+     "answer": 0,
+     "feedback": "The subject is nominative; a non-human plural normally takes a feminine singular predicate."
+    }
+   ]
+  },
+  {
+   "title": "🏁 Final Mastery",
+   "items": [
+    {
+     "prompt": "What is the main communicative job of the nominative?",
+     "options": [
+      "Marking the subject/topic and basic predicate",
+      "Marking every noun after a preposition",
+      "Marking only direct objects"
+     ],
+     "answer": 0,
+     "feedback": "The nominative identifies central subjects/topics and simple predicates."
+    },
+    {
+     "prompt": "Choose the correct verbal sentence.",
+     "options": [
+      "قَرَأَ الطَّالِبُ الْكِتَابَ.",
+      "قَرَأَ الطَّالِبَ الْكِتَابُ.",
+      "قَرَأَ الطَّالِبِ الْكِتَابَ."
+     ],
+     "answer": 0,
+     "feedback": "The doer is nominative; the direct object is accusative."
+    },
+    {
+     "prompt": "Choose the correct nominal sentence.",
+     "options": [
+      "الطَّعَامُ لَذِيذٌ.",
+      "الطَّعَامَ لَذِيذًا.",
+      "الطَّعَامِ لَذِيذٍ."
+     ],
+     "answer": 0,
+     "feedback": "Topic and single-word predicate are nominative."
+    },
+    {
+     "prompt": "Choose the correct indefinite pair.",
+     "options": [
+      "وَلَدٌ صَغِيرٌ",
+      "وَلَدًا صَغِيرًا",
+      "وَلَدٍ صَغِيرٍ"
+     ],
+     "answer": 0,
+     "feedback": "Both noun and adjective are indefinite nominative."
+    },
+    {
+     "prompt": "Choose the correct dual subject.",
+     "options": [
+      "جَاءَ الْمُعَلِّمَانِ.",
+      "جَاءَ الْمُعَلِّمَيْنِ.",
+      "جَاءَ الْمُعَلِّمُونَ."
+     ],
+     "answer": 0,
+     "feedback": "The dual nominative ending is ـَانِ."
+    },
+    {
+     "prompt": "Choose the correct sound masculine plural subject.",
+     "options": [
+      "حَضَرَ الْمُهَنْدِسُونَ.",
+      "حَضَرَ الْمُهَنْدِسِينَ.",
+      "حَضَرَ الْمُهَنْدِسَاتُ."
+     ],
+     "answer": 0,
+     "feedback": "The sound masculine plural nominative ending is ـُونَ."
+    },
+    {
+     "prompt": "Choose the correct sound feminine plural subject.",
+     "options": [
+      "وَصَلَتِ الطَّالِبَاتُ.",
+      "وَصَلَتِ الطَّالِبَاتِ.",
+      "وَصَلَتِ الطَّالِبَاتَ."
+     ],
+     "answer": 0,
+     "feedback": "The sound feminine plural is nominative with ḍamma."
+    },
+    {
+     "prompt": "Which sentence shows adjective agreement in the nominative?",
+     "options": [
+      "هَذَا كِتَابٌ مُفِيدٌ.",
+      "هَذَا كِتَابٌ مُفِيدًا.",
+      "هَذَا كِتَابًا مُفِيدٌ."
+     ],
+     "answer": 0,
+     "feedback": "The adjective copies the noun’s nominative case."
+    },
+    {
+     "prompt": "After كَانَ, which element remains nominative?",
+     "options": [
+      "The noun/subject of كَانَ",
+      "The single-word predicate of كَانَ",
+      "Every word in the sentence"
+     ],
+     "answer": 0,
+     "feedback": "كَانَ keeps its noun nominative and makes a single-word predicate accusative."
+    },
+    {
+     "prompt": "Best editing strategy?",
+     "options": [
+      "Find the noun’s role first, then choose the ending.",
+      "Choose the ending by sound alone.",
+      "Put ḍamma on every noun at the start of a sentence."
+     ],
+     "answer": 0,
+     "feedback": "Case follows grammatical function, not position alone."
+    }
+   ]
+  }
+ ],
+ "games": [
+  [
+   {
+    "p": "The student arrived.",
+    "a": "وَصَلَ الطَّالِبُ.",
+    "choices": [
+     "وَصَلَ الطَّالِبُ.",
+     "وَصَلَ الطَّالِبَ.",
+     "وَصَلَ الطَّالِبِ."
+    ],
+    "e": "The explicit subject is nominative."
+   },
+   {
+    "p": "A new teacher entered.",
+    "a": "دَخَلَ مُعَلِّمٌ جَدِيدٌ.",
+    "choices": [
+     "دَخَلَ مُعَلِّمٌ جَدِيدٌ.",
+     "دَخَلَ مُعَلِّمًا جَدِيدًا.",
+     "دَخَلَ مُعَلِّمٌ جَدِيدًا."
+    ],
+    "e": "Subject and adjective are indefinite nominative."
+   },
+   {
+    "p": "The weather is beautiful.",
+    "a": "الْجَوُّ جَمِيلٌ.",
+    "choices": [
+     "الْجَوُّ جَمِيلٌ.",
+     "الْجَوَّ جَمِيلًا.",
+     "الْجَوِّ جَمِيلٍ."
+    ],
+    "e": "Topic and predicate are nominative."
+   },
+   {
+    "p": "The two pupils are ready.",
+    "a": "الطَّالِبَانِ مُسْتَعِدَّانِ.",
+    "choices": [
+     "الطَّالِبَانِ مُسْتَعِدَّانِ.",
+     "الطَّالِبَيْنِ مُسْتَعِدَّيْنِ.",
+     "الطَّالِبَانِ مُسْتَعِدَّيْنِ."
+    ],
+    "e": "Both dual forms are nominative."
+   },
+   {
+    "p": "The engineers arrived.",
+    "a": "وَصَلَ الْمُهَنْدِسُونَ.",
+    "choices": [
+     "وَصَلَ الْمُهَنْدِسُونَ.",
+     "وَصَلَ الْمُهَنْدِسِينَ.",
+     "وَصَلُوا الْمُهَنْدِسُونَ."
+    ],
+    "e": "Verb-first plural subject is nominative; formal VSO keeps the verb singular."
+   },
+   {
+    "p": "The female pupils are hardworking.",
+    "a": "الطَّالِبَاتُ مُجْتَهِدَاتٌ.",
+    "choices": [
+     "الطَّالِبَاتُ مُجْتَهِدَاتٌ.",
+     "الطَّالِبَاتِ مُجْتَهِدَاتٍ.",
+     "الطَّالِبَاتُ مُجْتَهِدَاتٍ."
+    ],
+    "e": "Nominative sound feminine plural."
+   },
+   {
+    "p": "The books are useful.",
+    "a": "الْكُتُبُ مُفِيدَةٌ.",
+    "choices": [
+     "الْكُتُبُ مُفِيدَةٌ.",
+     "الْكُتُبَ مُفِيدَةً.",
+     "الْكُتُبُ مُفِيدَاتٌ."
+    ],
+    "e": "Nominative non-human plural with feminine singular agreement."
+   },
+   {
+    "p": "The school was large.",
+    "a": "كَانَتِ الْمَدْرَسَةُ كَبِيرَةً.",
+    "choices": [
+     "كَانَتِ الْمَدْرَسَةُ كَبِيرَةً.",
+     "كَانَتِ الْمَدْرَسَةَ كَبِيرَةٌ.",
+     "كَانَتِ الْمَدْرَسَةُ كَبِيرَةٌ."
+    ],
+    "e": "The noun of كَانَ stays nominative; the predicate becomes accusative."
+   }
+  ]
+ ],
+ "blocks": [
+  "## Why case endings matter",
+  "Case endings are small signals that show what each noun is doing in the sentence.",
+  "[callout] The practical question: Who performs the action? What is the sentence about? What information is given about it? The nominative ending helps mark these central roles.",
+  "[ar] كَتَبَ الطَّالِبُ الرِّسَالَةَ.",
+  "[ar] الطَّالِبُ مُجْتَهِدٌ.",
+  "[ar] كَانَ الطَّالِبُ مُجْتَهِدًا.",
+  "[callout] Communication before parsing: you do not need to label every word in a long classical sentence. You do need to recognise the main role and keep endings and agreement consistent in supported grammar work.",
+  "## Choose your route",
+  "Build security first, then add the wider plural markers and editing decisions.",
+  "### Core",
+  "- Recognise the nominative subject in a verbal sentence.",
+  "- Build a basic nominal sentence with a nominative topic and predicate.",
+  "- Use ـُ and ـٌ accurately in supported examples.",
+  "### Develop",
+  "- Make adjectives match nominative nouns.",
+  "- Use dual and sound-plural nominative endings.",
+  "- Connect the rule to verbal and non-verbal sentence lessons.",
+  "### Stretch",
+  "- Explain what changes after كَانَ and إِنَّ.",
+  "- Read reduced-vowel text while mentally tracking grammatical roles.",
+  "- Edit a connected paragraph for role, case and agreement.",
+  "## Starter diagnostic",
+  "Retrieve sentence roles before learning the endings.",
+  "## The three-case map",
+  "Arabic case is a role system—not three decorative vowels.",
+  "TABLE: Case | Core question | Usual singular marker | High-frequency roles // الرَّفْعُ · nominative | Who/what is the subject or topic? | ـُ / ـٌ | فاعل، مبتدأ، خبر // النَّصْبُ · accusative | Who/what receives the action? | ـَ / ـً | مفعول به، some adverbials // الْجَرُّ · genitive | What follows a preposition or completes an iḍāfa? | ـِ / ـٍ | after حروف الجر، مضاف إليه",
+  "[callout/warning] Do not choose by word position alone. The first noun is not automatically nominative, and the last noun is not automatically genitive. First identify the relationship.",
+  "In ordinary unvowelled Arabic, these short final vowels are often not written. The grammar still controls agreement and becomes visible in fully supported examples, duals, sound plurals and many fixed structures.",
+  "## The subject of a verbal sentence",
+  "The doer of the action is nominative.",
+  "[ar] فَتَحَ الْحَارِسُ الْبَابَ.",
+  "[ar] وَصَلَتْ حَافِلَةٌ جَدِيدَةٌ.",
+  "[ar] حَضَرَ الطَّالِبَانِ الْجَدِيدَانِ.",
+  "TABLE: Noun type | Nominative form | Contrast to remember // Definite singular | الطَّالِبُ | single ḍamma // Indefinite singular | طَالِبٌ | ḍammatan // Dual | طَالِبَانِ | ـَانِ // Sound masculine plural | مُعَلِّمُونَ | ـُونَ // Sound feminine plural definite | طَالِبَاتُ | ـَاتُ // Sound feminine plural indefinite | طَالِبَاتٌ | ـَاتٌ",
+  "## Topic and predicate in a nominal sentence",
+  "A present equational sentence normally begins with a nominative topic and gives a nominative predicate.",
+  "[ar] الْمُدِيرُ مَشْغُولٌ.",
+  "[ar] هَذِهِ مَدْرَسَةٌ كَبِيرَةٌ.",
+  "[ar] الطُّلَّابُ مُسْتَعِدُّونَ.",
+  "[callout] Phrase or sentence? الْبَيْتُ الْكَبِيرُ means “the large house”; الْبَيْتُ كَبِيرٌ means “The house is large.” Definiteness and case work together to show the relationship.",
+  "## Noun–adjective case agreement",
+  "An adjective copies the noun’s case as well as its gender, number and definiteness.",
+  "TABLE: Noun role | Noun + adjective | Why // Nominative definite | الطَّالِبُ الْمُجْتَهِدُ | both definite, both nominative // Nominative indefinite | طَالِبٌ مُجْتَهِدٌ | both indefinite, both nominative // Dual nominative | طَالِبَانِ مُجْتَهِدَانِ | both carry ـَانِ // Human plural nominative | مُعَلِّمُونَ جَدِيدُونَ | both carry ـُونَ // Non-human plural nominative | كُتُبٌ جَدِيدَةٌ | noun nominative; adjective feminine singular nominative",
+  "[callout/warning] Common partial correction: changing the noun ending but leaving the adjective unchanged still produces an agreement error. Check the pair as one unit.",
+  "## Connections to كَانَ and إِنَّ",
+  "The basic nominal sentence is the reference point for later particles.",
+  "TABLE: Structure | Subject/topic | Predicate // الطَّالِبُ مُجْتَهِدٌ. | nominative | nominative // كَانَ الطَّالِبُ مُجْتَهِدًا. | nominative | accusative // إِنَّ الطَّالِبَ مُجْتَهِدٌ. | accusative | nominative",
+  "These contrasts are useful because they show that case changes for a reason. The noun has not changed meaning; the particle has changed its grammatical job.",
+  "[callout] Editing shortcut: circle كَانَ or one of its sisters, underline its noun, and box its predicate. With إِنَّ, reverse the two expected cases.",
+  "## Misconception clinic",
+  "Repair the role before repairing the vowel.",
+  "TABLE: Draft | Improved version | Reason // قَرَأَ الطَّالِبَ الْكِتَابُ. | قَرَأَ الطَّالِبُ الْكِتَابَ. | Doer nominative; receiver accusative. // الْمَدْرَسَةَ كَبِيرَةً. | الْمَدْرَسَةُ كَبِيرَةٌ. | Basic topic and predicate are nominative. // جَاءَ طَالِبٌ جَدِيدًا. | جَاءَ طَالِبٌ جَدِيدٌ. | The adjective copies the nominative subject. // حَضَرَ الْمُعَلِّمِينَ. | حَضَرَ الْمُعَلِّمُونَ. | Sound masculine plural subject uses ـُونَ. // كَانَ الْجَوَّ بَارِدٌ. | كَانَ الْجَوُّ بَارِدًا. | The noun of كَانَ remains nominative.",
+  "## Game: Find the nominative signal",
+  "Choose the sentence whose subject/topic and agreement are accurate.",
+  "## Skills workshop",
+  "Use nominative roles in a school update and a spoken description.",
+  "### Reading and noticing",
+  "وَصَلَ مُعَلِّمٌ جَدِيدٌ إِلَى الْمَدْرَسَةِ. الْمُعَلِّمُ خَبِيرٌ، وَالطُّلَّابُ سَعِيدُونَ.",
+  "- Underline every nominative subject or topic.",
+  "- Circle the predicates.",
+  "- Explain why جَدِيدٌ matches مُعَلِّمٌ.",
+  "### Speaking frame",
+  "Describe your class or school using four nominative patterns:",
+  "- وَصَلَ / حَضَرَ + فَاعِلٌ",
+  "- الْمَدْرَسَةُ + خَبَرٌ",
+  "- الطُّلَّابُ + خَبَرٌ جَمْعٌ",
+  "- الْكُتُبُ + صِفَةٌ مُؤَنَّثَةٌ مُفْرَدَةٌ",
+  "### Write a school update",
+  "Write 90–110 Arabic words describing a school day, new person or class event.",
+  "[callout] Success checklist: Include two verbal-sentence subjects, two nominal sentences, one dual or sound plural, and four noun–adjective pairs. Add final case endings to the target nouns only.",
+  "[callout] Paper route: Plan the target nouns in a table: role → number → ending. Write the paragraph and highlight the nominative forms.",
+  "## Final mastery check",
+  "Show that you can identify and build the main nominative structures.",
+  "### What you can now do",
+  "- Identify the subject of a verbal sentence.",
+  "- Build a basic nominal sentence with nominative topic and predicate.",
+  "- Use singular, dual and sound-plural nominative markers.",
+  "- Make adjectives agree in case.",
+  "- Explain what remains nominative after كَانَ.",
+  "Spaced revisit: add full endings to five target nouns in a paragraph you wrote earlier and justify each choice."
+ ]
+}

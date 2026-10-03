@@ -1,0 +1,363 @@
+{
+ "path": "lessons/grammar/11-non-verbal-sentences/grammar-mastery-04-laysa-negation.php",
+ "title": "Negation with لَيْسَ",
+ "arabic": "نَفْيُ الْجُمْلَةِ الِاسْمِيَّةِ بِـلَيْسَ",
+ "lede": "Say what a person, place or thing is not, then choose a different negative system when the time frame or sentence type changes.",
+ "nav": [
+  [
+   "GM-NVS-03",
+   "كَانَ and Its Sisters"
+  ]
+ ],
+ "quizzes": [
+  {
+   "title": "🔎 Entry Check",
+   "items": [
+    {
+     "prompt": "Choose “He is not a doctor.”",
+     "options": [
+      "لَيْسَ طَبِيبًا.",
+      "لَيْسَ طَبِيبٌ.",
+      "لَا طَبِيبًا."
+     ],
+     "answer": 0,
+     "feedback": "لَيْسَ negates identity/state and takes an accusative single-word predicate."
+    },
+    {
+     "prompt": "Choose “She is not tired.”",
+     "options": [
+      "لَيْسَتْ مُتْعَبَةً.",
+      "لَيْسَ مُتْعَبَةٌ.",
+      "لَسْتِ مُتْعَبًا."
+     ],
+     "answer": 0,
+     "feedback": "Feminine third-person singular is لَيْسَتْ."
+    },
+    {
+     "prompt": "Choose “I am not at home.”",
+     "options": [
+      "لَسْتُ فِي الْبَيْتِ.",
+      "لَيْسَ أَنَا فِي الْبَيْتِ.",
+      "لَسْتَ فِي الْبَيْتِ."
+     ],
+     "answer": 0,
+     "feedback": "First-person singular is لَسْتُ."
+    },
+    {
+     "prompt": "Choose “We are not ready.”",
+     "options": [
+      "لَسْنَا مُسْتَعِدِّينَ.",
+      "لَيْسُوا مُسْتَعِدُونَ.",
+      "لَسْنَا مُسْتَعِدُونَ."
+     ],
+     "answer": 0,
+     "feedback": "لَسْنَا + accusative human plural predicate."
+    },
+    {
+     "prompt": "Which negates a present action rather than a state?",
+     "options": [
+      "لَا أَذْهَبُ الْيَوْمَ.",
+      "لَسْتُ فِي الْمَدْرَسَةِ.",
+      "لَيْسَ الطَّقْسُ جَمِيلًا."
+     ],
+     "answer": 0,
+     "feedback": "لَا + present verb negates an action/habit; لَيْسَ negates a nominal state."
+    },
+    {
+     "prompt": "Choose “He was not at school.”",
+     "options": [
+      "لَمْ يَكُنْ فِي الْمَدْرَسَةِ.",
+      "لَيْسَ فِي الْمَدْرَسَةِ أَمْسِ.",
+      "لَنْ يَكُنْ فِي الْمَدْرَسَةِ."
+     ],
+     "answer": 0,
+     "feedback": "Past negation of a state is commonly لَمْ يَكُنْ."
+    }
+   ]
+  },
+  {
+   "title": "Agreement Check",
+   "items": [
+    {
+     "prompt": "Choose “The room is not large.”",
+     "options": [
+      "لَيْسَتِ الْغُرْفَةُ كَبِيرَةً.",
+      "لَيْسَتِ الْغُرْفَةَ كَبِيرَةٌ.",
+      "لَيْسَ الْغُرْفَةُ كَبِيرًا."
+     ],
+     "answer": 0,
+     "feedback": "Feminine agreement; predicate accusative."
+    },
+    {
+     "prompt": "Choose “The students are not in the classroom.”",
+     "options": [
+      "لَيْسَ الطُّلَّابُ فِي الْفَصْلِ.",
+      "لَيْسُوا الطُّلَّابُ فِي الْفَصْلِ.",
+      "لَيْسَ الطُّلَّابَ فِي الْفَصْلَ."
+     ],
+     "answer": 0,
+     "feedback": "Formal verb-first لَيْسَ may remain singular before an overt plural subject; the phrase after فِي stays genitive."
+    },
+    {
+     "prompt": "Choose subject-first full agreement.",
+     "options": [
+      "الطُّلَّابُ لَيْسُوا فِي الْفَصْلِ.",
+      "الطُّلَّابُ لَيْسَ فِي الْفَصْلِ.",
+      "الطُّلَّابُ لَسْنَ فِي الْفَصْلِ."
+     ],
+     "answer": 0,
+     "feedback": "Human plural subject first → full agreement."
+    },
+    {
+     "prompt": "Choose “You (f.) are not late.”",
+     "options": [
+      "لَسْتِ مُتَأَخِّرَةً.",
+      "لَسْتَ مُتَأَخِّرًا.",
+      "لَيْسَتْ مُتَأَخِّرَةٌ."
+     ],
+     "answer": 0,
+     "feedback": "Second-person feminine is لَسْتِ."
+    }
+   ]
+  },
+  {
+   "title": "🏁 Final Mastery",
+   "items": [
+    {
+     "prompt": "What does لَيْسَ normally negate?",
+     "options": [
+      "A present state, identity or description",
+      "A completed past action only",
+      "A direct command"
+     ],
+     "answer": 0,
+     "feedback": "لَيْسَ is the central negative of the nominal sentence."
+    },
+    {
+     "prompt": "Choose the correct masculine singular form.",
+     "options": [
+      "لَيْسَ الطَّعَامُ جَاهِزًا.",
+      "لَيْسَ الطَّعَامَ جَاهِزٌ.",
+      "لَيْسَ الطَّعَامُ جَاهِزٌ."
+     ],
+     "answer": 0,
+     "feedback": "Noun nominative; single-word predicate accusative."
+    },
+    {
+     "prompt": "Choose the correct feminine singular form.",
+     "options": [
+      "لَيْسَتِ السَّيَّارَةُ سَرِيعَةً.",
+      "لَيْسَ السَّيَّارَةُ سَرِيعًا.",
+      "لَيْسَتِ السَّيَّارَةَ سَرِيعَةٌ."
+     ],
+     "answer": 0,
+     "feedback": "Feminine agreement and correct case pattern."
+    },
+    {
+     "prompt": "Choose “I am not busy.”",
+     "options": [
+      "لَسْتُ مَشْغُولَةً.",
+      "لَيْسَ أَنَا مَشْغُولَةٌ.",
+      "لَسْتَ مَشْغُولًا."
+     ],
+     "answer": 0,
+     "feedback": "First-person form; feminine predicate if the speaker is female."
+    },
+    {
+     "prompt": "Choose “They (f.) are not ready.”",
+     "options": [
+      "لَسْنَ مُسْتَعِدَّاتٍ.",
+      "لَيْسُوا مُسْتَعِدَّاتٌ.",
+      "لَسْنَ مُسْتَعِدَّاتٌ."
+     ],
+     "answer": 0,
+     "feedback": "لَسْنَ + accusative feminine plural predicate."
+    },
+    {
+     "prompt": "Choose the location negation.",
+     "options": [
+      "لَيْسَ أَحْمَدُ فِي الْمَكْتَبِ.",
+      "لَيْسَ أَحْمَدَ فِي الْمَكْتَبَ.",
+      "لَا أَحْمَدُ فِي الْمَكْتَبِ."
+     ],
+     "answer": 0,
+     "feedback": "The prepositional predicate keeps its own genitive noun."
+    },
+    {
+     "prompt": "Which negates a present verb?",
+     "options": [
+      "لَا يَعْمَلُ الْمَكْتَبُ يَوْمَ الْجُمُعَةِ.",
+      "لَيْسَ الْمَكْتَبُ يَعْمَلُ.",
+      "لَمْ يَعْمَلُ الْمَكْتَبُ غَدًا."
+     ],
+     "answer": 0,
+     "feedback": "لَا + present negates present/habitual action."
+    },
+    {
+     "prompt": "Which negates a past state?",
+     "options": [
+      "لَمْ يَكُنِ الطَّرِيقُ مُزْدَحِمًا.",
+      "لَيْسَ الطَّرِيقُ مُزْدَحِمًا أَمْسِ.",
+      "لَنْ يَكُنِ الطَّرِيقُ مُزْدَحِمًا."
+     ],
+     "answer": 0,
+     "feedback": "لَمْ يَكُنْ places the negative state in the past."
+    },
+    {
+     "prompt": "Which negates a future state?",
+     "options": [
+      "لَنْ يَكُونَ الطَّقْسُ بَارِدًا غَدًا.",
+      "لَمْ يَكُنِ الطَّقْسُ بَارِدًا غَدًا.",
+      "لَيْسَ الطَّقْسُ بَارِدًا أَمْسِ."
+     ],
+     "answer": 0,
+     "feedback": "لَنْ يَكُونَ gives future negation."
+    },
+    {
+     "prompt": "Best editing decision?",
+     "options": [
+      "First decide whether you are negating a state or an action, then choose the particle and form.",
+      "Use لَيْسَ before every negative sentence.",
+      "Translate the English word “not” mechanically."
+     ],
+     "answer": 0,
+     "feedback": "Arabic negation depends on sentence type and time frame."
+    }
+   ]
+  }
+ ],
+ "games": [
+  [
+   {
+    "p": "He is not a doctor.",
+    "a": "لَيْسَ طَبِيبًا.",
+    "choices": [
+     "لَيْسَ طَبِيبًا.",
+     "لَيْسَ طَبِيبٌ.",
+     "لَا طَبِيبًا."
+    ],
+    "e": "لَيْسَ negates identity; predicate accusative."
+   },
+   {
+    "p": "She is not at home.",
+    "a": "لَيْسَتْ فِي الْبَيْتِ.",
+    "choices": [
+     "لَيْسَتْ فِي الْبَيْتِ.",
+     "لَيْسَ فِي الْبَيْتِ.",
+     "لَسْتِ فِي الْبَيْتِ."
+    ],
+    "e": "Third-person feminine singular."
+   },
+   {
+    "p": "I am not busy.",
+    "a": "لَسْتُ مَشْغُولَةً.",
+    "choices": [
+     "لَسْتُ مَشْغُولَةً.",
+     "لَيْسَ أَنَا مَشْغُولَةٌ.",
+     "لَسْتَ مَشْغُولًا."
+    ],
+    "e": "First-person singular form."
+   },
+   {
+    "p": "We are not late.",
+    "a": "لَسْنَا مُتَأَخِّرِينَ.",
+    "choices": [
+     "لَسْنَا مُتَأَخِّرِينَ.",
+     "لَيْسُوا مُتَأَخِّرُونَ.",
+     "لَسْنَا مُتَأَخِّرُونَ."
+    ],
+    "e": "We + accusative human plural predicate."
+   },
+   {
+    "p": "The students are not in the library.",
+    "a": "الطُّلَّابُ لَيْسُوا فِي الْمَكْتَبَةِ.",
+    "choices": [
+     "الطُّلَّابُ لَيْسُوا فِي الْمَكْتَبَةِ.",
+     "الطُّلَّابُ لَيْسَ فِي الْمَكْتَبَةِ.",
+     "الطُّلَّابُ لَسْنَ فِي الْمَكْتَبَةِ."
+    ],
+    "e": "Subject-first human plural takes full agreement."
+   },
+   {
+    "p": "The room is not large.",
+    "a": "لَيْسَتِ الْغُرْفَةُ كَبِيرَةً.",
+    "choices": [
+     "لَيْسَتِ الْغُرْفَةُ كَبِيرَةً.",
+     "لَيْسَتِ الْغُرْفَةَ كَبِيرَةٌ.",
+     "لَيْسَ الْغُرْفَةُ كَبِيرًا."
+    ],
+    "e": "Feminine subject and accusative predicate."
+   },
+   {
+    "p": "He was not tired.",
+    "a": "لَمْ يَكُنْ مُتْعَبًا.",
+    "choices": [
+     "لَمْ يَكُنْ مُتْعَبًا.",
+     "لَنْ يَكُونَ مُتْعَبًا.",
+     "لَيْسَ مُتْعَبًا أَمْسِ."
+    ],
+    "e": "Past state negation uses لَمْ يَكُنْ."
+   },
+   {
+    "p": "The weather will not be cold tomorrow.",
+    "a": "لَنْ يَكُونَ الطَّقْسُ بَارِدًا غَدًا.",
+    "choices": [
+     "لَنْ يَكُونَ الطَّقْسُ بَارِدًا غَدًا.",
+     "لَمْ يَكُنِ الطَّقْسُ بَارِدًا غَدًا.",
+     "لَيْسَ الطَّقْسُ بَارِدًا أَمْسِ."
+    ],
+    "e": "Future negative state uses لَنْ يَكُونَ."
+   }
+  ]
+ ],
+ "blocks": [
+  "## Why this matters لِمَاذَا نَسْتَعْمِلُ لَيْسَ؟",
+  "Accurate negation depends on whether you are denying a state, an action, a past fact or a future possibility.",
+  "### Core",
+  "Negate identity, description and location with لَيْسَ.",
+  "### Develop",
+  "Conjugate لَيْسَ and control human plural word order.",
+  "### Stretch",
+  "Contrast لَيْسَ with لَا, لَمْ يَكُنْ and لَنْ يَكُونَ.",
+  "[callout] Communication target: say clearly what someone or something is not, where it is not and how the negative state changes across time.",
+  "## Diagnostic start",
+  "Identify state negation, agreement and time-frame choices.",
+  "## Negating the present nominal sentence",
+  "لَيْسَ works like a negative member of the kāna family.",
+  "TABLE: Positive | Negative | Meaning // أَحْمَدُ طَبِيبٌ. | لَيْسَ أَحْمَدُ طَبِيبًا. | Ahmad is not a doctor. // الْغُرْفَةُ كَبِيرَةٌ. | لَيْسَتِ الْغُرْفَةُ كَبِيرَةً. | The room is not large. // مَرْيَمُ فِي الْبَيْتِ. | لَيْسَتْ مَرْيَمُ فِي الْبَيْتِ. | Maryam is not at home.",
+  "[callout] Case-aware pattern: لَيْسَ + اسْمُهَا الْمَرْفُوعُ + خَبَرُهَا الْمَنْصُوبُ . A prepositional predicate keeps its own case.",
+  "## Conjugating لَيْسَ",
+  "The form agrees with the person, gender and number.",
+  "TABLE: Subject | Form | Model // أنا | لَسْتُ | لَسْتُ مُتْعَبَةً. // أنتَ / أنتِ | لَسْتَ / لَسْتِ | لَسْتِ مُتَأَخِّرَةً. // هو | لَيْسَ | لَيْسَ مَشْغُولًا. // هي | لَيْسَتْ | لَيْسَتْ مَشْغُولَةً. // نحن | لَسْنَا | لَسْنَا فِي الْبَيْتِ. // هم | لَيْسُوا | لَيْسُوا مُسْتَعِدِّينَ. // هنّ | لَسْنَ | لَسْنَ مُسْتَعِدَّاتٍ.",
+  "[callout/warning] Order matters with human plurals: لَيْسَ الطُّلَّابُ فِي الْفَصْلِ is formal verb-first agreement; الطُّلَّابُ لَيْسُوا فِي الْفَصْلِ is subject-first full agreement.",
+  "## State negation versus action negation",
+  "Choose the negative system from the meaning and sentence type.",
+  "TABLE: What is negated? | Pattern | Model // present identity/description | لَيْسَ | لَيْسَ أَخِي طَبِيبًا. // present location | لَيْسَ | لَيْسَ أَخِي فِي الْمَكْتَبِ. // present/habitual action | لَا + present | لَا يَعْمَلُ أَخِي يَوْمَ الْجُمُعَةِ. // past action | مَا + past / لَمْ + jussive | لَمْ يَعْمَلْ أَخِي أَمْسِ. // future action | لَنْ + subjunctive | لَنْ يَعْمَلَ أَخِي غَدًا.",
+  "[callout/warning] Key contrast: لَيْسَ أَخِي فِي الْمَكْتَبِ denies a location; لَا يَعْمَلُ أَخِي فِي الْمَكْتَبِ denies an action or habitual fact.",
+  "## Negative states across time",
+  "Use يَكُونُ when the state must be placed in the past or future through verbal particles.",
+  "TABLE: Time | Model | Meaning // present | لَيْسَ الطَّرِيقُ مُزْدَحِمًا. | The road is not crowded. // past | لَمْ يَكُنِ الطَّرِيقُ مُزْدَحِمًا أَمْسِ. | The road was not crowded yesterday. // future | لَنْ يَكُونَ الطَّرِيقُ مُزْدَحِمًا غَدًا. | The road will not be crowded tomorrow.",
+  "[callout] Stretch: Formal Arabic may strengthen a negative predicate with an extra بِـ: لَيْسَ الْأَمْرُ بِصَعْبٍ . The core productive target remains لَيْسَ الْأَمْرُ صَعْبًا .",
+  "## Misconception clinic",
+  "Choose the negative tool before repairing endings.",
+  "TABLE: Draft | Improved version | Reason // لَيْسَ هِيَ مُتْعَبَةٌ. | لَيْسَتْ مُتْعَبَةً. | Conjugate لَيْسَ; predicate accusative. // لَسْتُ طَالِبٌ. | لَسْتُ طَالِبًا. | Single-word predicate accusative. // لَيْسَ أَذْهَبُ الْيَوْمَ. | لَا أَذْهَبُ الْيَوْمَ. | This negates a present action. // لَيْسَ الطَّقْسُ بَارِدًا أَمْسِ. | لَمْ يَكُنِ الطَّقْسُ بَارِدًا أَمْسِ. | Past negative state. // لَمْ يَكُنِ الطَّقْسُ بَارِدًا غَدًا. | لَنْ يَكُونَ الطَّقْسُ بَارِدًا غَدًا. | Future negative state.",
+  "## Game: Which negative system?",
+  "Choose the form that matches sentence type, person and time frame.",
+  "## Skills workshop",
+  "Correct misleading claims and write a balanced description.",
+  "[ar] يَظُنُّ بَعْضُ النَّاسِ أَنَّ الْمَدِينَةَ صَاخِبَةٌ دَائِمًا، وَلَكِنَّهَا لَيْسَتْ صَاخِبَةً فِي الصَّبَاحِ الْبَاكِرِ.",
+  "[ar] لَمْ يَكُنِ الطَّقْسُ جَمِيلًا أَمْسِ، وَلَكِنَّهُ لَنْ يَكُونَ بَارِدًا غَدًا.",
+  "### Correct three misconceptions",
+  "Write 100–120 Arabic words about a place, person or activity. State three things that are true and correct three things that are not true.",
+  "[callout] Success checklist: Use at least three forms of لَيْسَ, one present action negative, one لَمْ يَكُنْ past state and one لَنْ يَكُونَ future state.",
+  "[callout] Paper route: Make a truth/myth table first. Underline each negative form and label it state, action, past or future.",
+  "## Final mastery check",
+  "Select the correct negative system and maintain agreement.",
+  "### What you can now do",
+  "- Negate present identity, description and location with لَيْسَ.",
+  "- Conjugate لَيْسَ for common persons and groups.",
+  "- Distinguish state negation from action negation.",
+  "- Express negative states in present, past and future time frames.",
+  "Spaced revisit: take five positive statements from Lesson 1 and negate them without looking at this page."
+ ]
+}

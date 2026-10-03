@@ -1,0 +1,260 @@
+{
+ "path": "lessons/grammar/04-adjectives/grammar-mastery-06-comparative-superlative.php",
+ "title": "Comparative and Superlative",
+ "arabic": "اِسْمُ التَّفْضِيلِ: أَفْعَلُ وَالْأَفْعَلُ",
+ "lede": "Form and use common comparatives and superlatives, compare people and things with مِنْ, and express “the most” accurately.",
+ "nav": [
+  [
+   "GM-ADJ-05",
+   "Negative Description with غَيْر"
+  ]
+ ],
+ "quizzes": [
+  {
+   "title": "🔎 Entry Check",
+   "items": [
+    {
+     "prompt": "Complete القطار ... الحافلة",
+     "options": [
+      "أَسْرَعَ",
+      "أَسْرَعُ مِنَ",
+      "السَّرِيعُ مِنَ"
+     ],
+     "answer": 1,
+     "feedback": "Comparative + من."
+    },
+    {
+     "prompt": "Choose “Maryam is taller than Salma”",
+     "options": [
+      "مَرْيَمُ طَوِيلَةٌ مِنْ سَلْمَى",
+      "مَرْيَمُ أَطْوَلُ مِنْ سَلْمَى",
+      "مَرْيَمُ أَطْوَلَةُ مِنْ سَلْمَى"
+     ],
+     "answer": 1,
+     "feedback": "Comparative stays أفعل."
+    },
+    {
+     "prompt": "Choose “the best”",
+     "options": [
+      "أَفْضَلٌ مِنْ",
+      "الْأَفْضَلُ",
+      "فَاضِلٌ"
+     ],
+     "answer": 1,
+     "feedback": "Definite superlative."
+    },
+    {
+     "prompt": "Choose “the best book”",
+     "options": [
+      "الْأَفْضَلُ الْكِتَابُ",
+      "أَفْضَلُ كِتَابٍ",
+      "أَفْضَلٌ مِنْ كِتَابٍ"
+     ],
+     "answer": 1,
+     "feedback": "Iḍāfa superlative."
+    },
+    {
+     "prompt": "Which principle best supports this lesson?",
+     "options": [
+      "Check the noun first",
+      "Translate word by word from English",
+      "Ignore definiteness"
+     ],
+     "answer": 0,
+     "feedback": "The noun controls adjective agreement."
+    }
+   ]
+  },
+  {
+   "title": "🧩 Guided check",
+   "items": [
+    {
+     "prompt": "Complete القطار ... الحافلة",
+     "options": [
+      "أَسْرَعَ",
+      "أَسْرَعُ مِنَ",
+      "السَّرِيعُ مِنَ"
+     ],
+     "answer": 1,
+     "feedback": "Comparative + من."
+    },
+    {
+     "prompt": "Choose “Maryam is taller than Salma”",
+     "options": [
+      "مَرْيَمُ طَوِيلَةٌ مِنْ سَلْمَى",
+      "مَرْيَمُ أَطْوَلُ مِنْ سَلْمَى",
+      "مَرْيَمُ أَطْوَلَةُ مِنْ سَلْمَى"
+     ],
+     "answer": 1,
+     "feedback": "Comparative stays أفعل."
+    },
+    {
+     "prompt": "Choose “the best”",
+     "options": [
+      "أَفْضَلٌ مِنْ",
+      "الْأَفْضَلُ",
+      "فَاضِلٌ"
+     ],
+     "answer": 1,
+     "feedback": "Definite superlative."
+    },
+    {
+     "prompt": "Choose “the best book”",
+     "options": [
+      "الْأَفْضَلُ الْكِتَابُ",
+      "أَفْضَلُ كِتَابٍ",
+      "أَفْضَلٌ مِنْ كِتَابٍ"
+     ],
+     "answer": 1,
+     "feedback": "Iḍāfa superlative."
+    }
+   ]
+  },
+  {
+   "title": "⭐ Mastery Check",
+   "items": [
+    {
+     "prompt": "Complete القطار ... الحافلة",
+     "options": [
+      "أَسْرَعَ",
+      "أَسْرَعُ مِنَ",
+      "السَّرِيعُ مِنَ"
+     ],
+     "answer": 1,
+     "feedback": "Comparative + من."
+    },
+    {
+     "prompt": "Choose “Maryam is taller than Salma”",
+     "options": [
+      "مَرْيَمُ طَوِيلَةٌ مِنْ سَلْمَى",
+      "مَرْيَمُ أَطْوَلُ مِنْ سَلْمَى",
+      "مَرْيَمُ أَطْوَلَةُ مِنْ سَلْمَى"
+     ],
+     "answer": 1,
+     "feedback": "Comparative stays أفعل."
+    },
+    {
+     "prompt": "Choose “the best”",
+     "options": [
+      "أَفْضَلٌ مِنْ",
+      "الْأَفْضَلُ",
+      "فَاضِلٌ"
+     ],
+     "answer": 1,
+     "feedback": "Definite superlative."
+    },
+    {
+     "prompt": "Choose “the best book”",
+     "options": [
+      "الْأَفْضَلُ الْكِتَابُ",
+      "أَفْضَلُ كِتَابٍ",
+      "أَفْضَلٌ مِنْ كِتَابٍ"
+     ],
+     "answer": 1,
+     "feedback": "Iḍāfa superlative."
+    },
+    {
+     "prompt": "Complete القطار ... الحافلة",
+     "options": [
+      "أَسْرَعَ",
+      "أَسْرَعُ مِنَ",
+      "السَّرِيعُ مِنَ"
+     ],
+     "answer": 1,
+     "feedback": "Comparative + من."
+    },
+    {
+     "prompt": "Choose “Maryam is taller than Salma”",
+     "options": [
+      "مَرْيَمُ طَوِيلَةٌ مِنْ سَلْمَى",
+      "مَرْيَمُ أَطْوَلُ مِنْ سَلْمَى",
+      "مَرْيَمُ أَطْوَلَةُ مِنْ سَلْمَى"
+     ],
+     "answer": 1,
+     "feedback": "Comparative stays أفعل."
+    },
+    {
+     "prompt": "Choose “the best”",
+     "options": [
+      "أَفْضَلٌ مِنْ",
+      "الْأَفْضَلُ",
+      "فَاضِلٌ"
+     ],
+     "answer": 1,
+     "feedback": "Definite superlative."
+    },
+    {
+     "prompt": "Choose “the best book”",
+     "options": [
+      "الْأَفْضَلُ الْكِتَابُ",
+      "أَفْضَلُ كِتَابٍ",
+      "أَفْضَلٌ مِنْ كِتَابٍ"
+     ],
+     "answer": 1,
+     "feedback": "Iḍāfa superlative."
+    }
+   ]
+  }
+ ],
+ "games": [],
+ "blocks": [
+  "## Why this matters لِمَاذَا هَذَا مُهِمٌّ؟",
+  "Adjective control affects the accuracy of descriptions in every Cambridge topic: people, clothes, homes, school, travel, weather, work and opinions.",
+  "### Core",
+  "Use common أَفْعَل comparatives followed by مِنْ.",
+  "### Develop",
+  "Distinguish comparative, definite superlative and iḍāfa superlative structures.",
+  "### Stretch",
+  "Use analytical comparison when a direct أَفْعَل form is unsuitable.",
+  "## Diagnostic start",
+  "Try this short check before reading the explanations. Incorrect answers are information, not failure.",
+  "## Learn the system step by step",
+  "Read one explanation, study the worked examples, then pause for the mini-check.",
+  "### 1. Comparative with مِنْ",
+  "Many common comparisons use the pattern أَفْعَلُ followed by مِنْ . The comparative form is usually fixed rather than matching the gender of the first noun.",
+  "[callout] أَحْمَدُ أَطْوَلُ مِنْ عَلِيٍّ. مَرْيَمُ أَطْوَلُ مِنْ سَلْمَى. الْقِطَارُ أَسْرَعُ مِنَ الْحَافِلَةِ.",
+  "### 2. Superlative routes",
+  "The same form can express “the most / best” through context. A definite form can be used predicatively, or the form may head an iḍāfa.",
+  "[callout] هَذَا الْكِتَابُ هُوَ الْأَفْضَلُ. هَذَا أَفْضَلُ كِتَابٍ. هِيَ أَسْرَعُ طَالِبَةٍ فِي الْفَرِيقِ.",
+  "### 3. Analytical comparison",
+  "Not every adjective forms a simple direct أَفْعَل comparative. Use أَكْثَرُ / أَقَلُّ + مَصْدَرًا أو صِفَةً مُنَاسِبَةً where needed.",
+  "[callout] هَذَا الْعَمَلُ أَكْثَرُ أَهَمِّيَّةً. هِيَ أَكْثَرُ تَعَاوُنًا مِنْ زَمِيلَتِهَا.",
+  "### High-frequency model bank",
+  "- أَكْبَرُ مِنْ",
+  "- أَسْرَعُ مِنْ",
+  "- هُوَ الْأَفْضَلُ",
+  "- أَفْضَلُ طَالِبٍ",
+  "### Misconception clinic",
+  "- Adding feminine ة to the comparative because the subject is feminine.",
+  "- Forgetting مِنْ in a two-item comparison.",
+  "- Adding الـ to an iḍāfa superlative such as أفضلُ كتابٍ.",
+  "## Guided practice and transformation",
+  "Do not only recognise the answer. Say what changed and why.",
+  "### Transformation drill",
+  "- Copy each model from the lesson.",
+  "- Change the noun’s gender, number or definiteness as appropriate.",
+  "- Change every adjective feature controlled by that noun.",
+  "- Translate the new phrase or sentence accurately.",
+  "- Explain one change using the grammar vocabulary from this lesson.",
+  "## Apply through four skills",
+  "### 📖 Reading and noticing",
+  "فِي مَدِينَتِي أَمَاكِنُ جَمِيلَةٌ وَشَوَارِعُ وَاسِعَةٌ. هَذِهِ الْمَدْرَسَةُ الْجَدِيدَةُ قَرِيبَةٌ، وَذَلِكَ الْمَتْحَفُ الْقَدِيمُ مُثِيرٌ لِلِاهْتِمَامِ.",
+  "Underline each adjective, draw an arrow to its noun, and label the agreement feature that made the form correct.",
+  "### 🎧 Listening without audio",
+  "Ask a partner or teacher to read the model paragraph twice. First record the nouns; second record the adjectives. Reconstruct the correct pairs and explain the agreement.",
+  "### 🗣️ Speaking",
+  "Describe two people, places or objects for 45–60 seconds. Include at least six accurate adjective structures from this lesson.",
+  "### 🛠️ Editing clinic",
+  "Write four deliberately incorrect adjective phrases, exchange them with a partner, then correct and explain every error.",
+  "### ✍️ Extended writing workshop",
+  "Write 90–120 words describing a person, place, object or experience. Include at least eight target adjective structures from this lesson and underline them after writing.",
+  "[callout] Quality check: identify the head noun first, then check gender, number, definiteness and any lesson-specific form.",
+  "Save and mark complete Clear",
+  "Create a labelled grammar map or handwritten draft. Connect every adjective to its noun.",
+  "Complete the task on paper. Underline the target forms and annotate the rule used.",
+  "## Final mastery check اِخْتِبَارُ الْإِتْقَانِ",
+  "Complete this without reopening the teaching cards.",
+  "### Interpret your result",
+  "Below 70%: revisit the misconception clinic and guided check. 70–89%: replay the transformation game and improve one paragraph. 90–100%: continue, then complete a spaced retrieval check in 3–7 days."
+ ]
+}

@@ -1,0 +1,445 @@
+{
+ "path": "lessons/grammar/12-case-endings/grammar-mastery-03-genitive.php",
+ "title": "The Genitive Case",
+ "arabic": "حَالَةُ الْجَرِّ",
+ "lede": "Follow prepositions and iḍāfa relationships, then keep nouns and adjectives accurate across singular, dual and plural forms.",
+ "nav": [
+  [
+   "GM-CASE-02",
+   "The Accusative Case"
+  ]
+ ],
+ "quizzes": [
+  {
+   "title": "🔎 Readiness Check",
+   "items": [
+    {
+     "prompt": "Which noun is genitive in فِي الْمَدْرَسَةِ؟",
+     "options": [
+      "الْمَدْرَسَةِ",
+      "فِي",
+      "No word is genitive"
+     ],
+     "answer": 0,
+     "feedback": "The noun after the preposition فِي is genitive."
+    },
+    {
+     "prompt": "Which ending normally marks a definite singular genitive noun?",
+     "options": [
+      "ـِ",
+      "ـَ",
+      "ـُ"
+     ],
+     "answer": 0,
+     "feedback": "A single kasra is the normal marker for a regular definite singular noun in the genitive."
+    },
+    {
+     "prompt": "Choose the correct indefinite genitive form.",
+     "options": [
+      "كِتَابٍ",
+      "كِتَابٌ",
+      "كِتَابًا"
+     ],
+     "answer": 0,
+     "feedback": "Kasratan marks a regular indefinite singular genitive noun."
+    },
+    {
+     "prompt": "Which is the muḍāf ilayh in بَابُ الْمَدْرَسَةِ؟",
+     "options": [
+      "الْمَدْرَسَةِ",
+      "بَابُ",
+      "Both words"
+     ],
+     "answer": 0,
+     "feedback": "The second noun completes the iḍāfa and is genitive."
+    },
+    {
+     "prompt": "Choose the correct adjective agreement.",
+     "options": [
+      "فِي بَيْتٍ كَبِيرٍ",
+      "فِي بَيْتٍ كَبِيرٌ",
+      "فِي بَيْتٌ كَبِيرٍ"
+     ],
+     "answer": 0,
+     "feedback": "The adjective follows the genitive noun in case and definiteness."
+    },
+    {
+     "prompt": "Choose the genitive dual form.",
+     "options": [
+      "طَالِبَيْنِ",
+      "طَالِبَانِ",
+      "طَالِبُونَ"
+     ],
+     "answer": 0,
+     "feedback": "Dual genitive, like dual accusative, uses ـَيْنِ."
+    }
+   ]
+  },
+  {
+   "title": "✅ Mini-check: prepositions",
+   "items": [
+    {
+     "prompt": "Choose the correct prepositional phrase.",
+     "options": [
+      "إِلَى الْمَكْتَبَةِ",
+      "إِلَى الْمَكْتَبَةَ",
+      "إِلَى الْمَكْتَبَةُ"
+     ],
+     "answer": 0,
+     "feedback": "The noun after إِلَى is genitive."
+    },
+    {
+     "prompt": "Choose the correct indefinite phrase.",
+     "options": [
+      "مَعَ صَدِيقٍ قَدِيمٍ",
+      "مَعَ صَدِيقٌ قَدِيمٌ",
+      "مَعَ صَدِيقٍ قَدِيمٌ"
+     ],
+     "answer": 0,
+     "feedback": "The noun and adjective are indefinite genitive."
+    },
+    {
+     "prompt": "Choose the correct dual after a preposition.",
+     "options": [
+      "مَعَ طَالِبَيْنِ",
+      "مَعَ طَالِبَانِ",
+      "مَعَ طَالِبُونَ"
+     ],
+     "answer": 0,
+     "feedback": "Dual genitive uses ـَيْنِ."
+    },
+    {
+     "prompt": "Choose the correct sound masculine plural.",
+     "options": [
+      "لِلْمُعَلِّمِينَ",
+      "لِلْمُعَلِّمُونَ",
+      "لِلْمُعَلِّمَاتُ"
+     ],
+     "answer": 0,
+     "feedback": "Sound masculine plural genitive uses ـِينَ."
+    }
+   ]
+  },
+  {
+   "title": "✅ Mini-check: iḍāfa and scope",
+   "items": [
+    {
+     "prompt": "Choose “the school’s large door.”",
+     "options": [
+      "بَابُ الْمَدْرَسَةِ الْكَبِيرُ",
+      "بَابُ الْمَدْرَسَةِ الْكَبِيرَةِ",
+      "الْبَابُ الْمَدْرَسَةِ الْكَبِيرُ"
+     ],
+     "answer": 0,
+     "feedback": "الْكَبِيرُ describes بَابُ, so it is masculine nominative; the possessor remains genitive."
+    },
+    {
+     "prompt": "Choose “the door of the large school.”",
+     "options": [
+      "بَابُ الْمَدْرَسَةِ الْكَبِيرَةِ",
+      "بَابُ الْمَدْرَسَةِ الْكَبِيرُ",
+      "بَابَ الْمَدْرَسَةُ الْكَبِيرَةُ"
+     ],
+     "answer": 0,
+     "feedback": "The adjective describes the feminine genitive possessor."
+    },
+    {
+     "prompt": "Choose the correct iḍāfa with an indefinite possessor.",
+     "options": [
+      "بَابُ مَدْرَسَةٍ جَدِيدَةٍ",
+      "بَابٌ مَدْرَسَةٌ جَدِيدَةٌ",
+      "الْبَابُ مَدْرَسَةٍ جَدِيدَةٍ"
+     ],
+     "answer": 0,
+     "feedback": "The first noun has no article or tanwīn; the possessor and its adjective are genitive."
+    },
+    {
+     "prompt": "Choose the correct chain.",
+     "options": [
+      "مُدِيرُ مَدْرَسَةِ الْبَنَاتِ",
+      "مُدِيرٌ مَدْرَسَةُ الْبَنَاتُ",
+      "الْمُدِيرُ الْمَدْرَسَةِ الْبَنَاتِ"
+     ],
+     "answer": 0,
+     "feedback": "Each non-final noun is muḍāf; the following noun is genitive."
+    }
+   ]
+  },
+  {
+   "title": "🏁 Final Mastery",
+   "items": [
+    {
+     "prompt": "What are the two main genitive triggers in this package?",
+     "options": [
+      "A preposition and the second noun of an iḍāfa",
+      "A verb and a direct object",
+      "A topic and predicate"
+     ],
+     "answer": 0,
+     "feedback": "These are the essential practical genitive assignments."
+    },
+    {
+     "prompt": "Choose the correct phrase.",
+     "options": [
+      "فِي الْفَصْلِ الْكَبِيرِ",
+      "فِي الْفَصْلَ الْكَبِيرَ",
+      "فِي الْفَصْلِ الْكَبِيرُ"
+     ],
+     "answer": 0,
+     "feedback": "Noun and adjective are definite genitive."
+    },
+    {
+     "prompt": "Choose the correct indefinite phrase.",
+     "options": [
+      "مِنْ بَلَدٍ جَمِيلٍ",
+      "مِنْ بَلَدٌ جَمِيلٌ",
+      "مِنْ بَلَدًا جَمِيلًا"
+     ],
+     "answer": 0,
+     "feedback": "Noun and adjective take kasratan."
+    },
+    {
+     "prompt": "Choose the dual after a preposition.",
+     "options": [
+      "إِلَى مَدْرَسَتَيْنِ",
+      "إِلَى مَدْرَسَتَانِ",
+      "إِلَى مَدْرَسَاتٌ"
+     ],
+     "answer": 0,
+     "feedback": "Feminine dual genitive uses ـَتَيْنِ."
+    },
+    {
+     "prompt": "Choose the sound masculine plural genitive.",
+     "options": [
+      "مَعَ الْمُهَنْدِسِينَ",
+      "مَعَ الْمُهَنْدِسُونَ",
+      "مَعَ الْمُهَنْدِسَاتُ"
+     ],
+     "answer": 0,
+     "feedback": "The genitive sound masculine plural uses ـِينَ."
+    },
+    {
+     "prompt": "Choose the sound feminine plural genitive.",
+     "options": [
+      "فِي الْمَدْرَسَاتِ",
+      "فِي الْمَدْرَسَاتُ",
+      "فِي الْمَدْرَسَاتَ"
+     ],
+     "answer": 0,
+     "feedback": "Sound feminine plural genitive uses kasra."
+    },
+    {
+     "prompt": "Choose the correct definite iḍāfa.",
+     "options": [
+      "كِتَابُ الطَّالِبِ",
+      "الْكِتَابُ الطَّالِبِ",
+      "كِتَابٌ الطَّالِبُ"
+     ],
+     "answer": 0,
+     "feedback": "The first noun takes no article or tanwīn; the second noun is genitive."
+    },
+    {
+     "prompt": "Which adjective describes the possessor in بَابُ الْمَدْرَسَةِ الْجَدِيدَةِ؟",
+     "options": [
+      "الْجَدِيدَةِ",
+      "No adjective",
+      "بَابُ"
+     ],
+     "answer": 0,
+     "feedback": "Its feminine genitive form matches الْمَدْرَسَةِ."
+    },
+    {
+     "prompt": "In أَمَامَ الْمَسْجِدِ, why is الْمَسْجِدِ genitive?",
+     "options": [
+      "It completes the locator as an iḍāfa.",
+      "It is a direct object.",
+      "It is the subject."
+     ],
+     "answer": 0,
+     "feedback": "Many locators are nouns in an iḍāfa relationship with the following genitive noun."
+    },
+    {
+     "prompt": "Best editing strategy?",
+     "options": [
+      "Find the trigger, then follow the noun–adjective chain.",
+      "Put kasra on every noun near a preposition.",
+      "Treat every final noun as genitive."
+     ],
+     "answer": 0,
+     "feedback": "A preposition or iḍāfa relationship triggers the genitive; agreement then carries it forward."
+    }
+   ]
+  }
+ ],
+ "games": [
+  [
+   {
+    "p": "in the large school",
+    "a": "فِي الْمَدْرَسَةِ الْكَبِيرَةِ",
+    "choices": [
+     "فِي الْمَدْرَسَةِ الْكَبِيرَةِ",
+     "فِي الْمَدْرَسَةَ الْكَبِيرَةَ",
+     "فِي الْمَدْرَسَةِ الْكَبِيرَةُ"
+    ],
+    "e": "Preposition + genitive noun and adjective."
+   },
+   {
+    "p": "with an old friend",
+    "a": "مَعَ صَدِيقٍ قَدِيمٍ",
+    "choices": [
+     "مَعَ صَدِيقٍ قَدِيمٍ",
+     "مَعَ صَدِيقٌ قَدِيمٌ",
+     "مَعَ صَدِيقًا قَدِيمًا"
+    ],
+    "e": "Indefinite genitive pair."
+   },
+   {
+    "p": "to two schools",
+    "a": "إِلَى مَدْرَسَتَيْنِ",
+    "choices": [
+     "إِلَى مَدْرَسَتَيْنِ",
+     "إِلَى مَدْرَسَتَانِ",
+     "إِلَى مَدْرَسَاتٌ"
+    ],
+    "e": "Feminine dual genitive uses ـَتَيْنِ."
+   },
+   {
+    "p": "with the teachers",
+    "a": "مَعَ الْمُعَلِّمِينَ",
+    "choices": [
+     "مَعَ الْمُعَلِّمِينَ",
+     "مَعَ الْمُعَلِّمُونَ",
+     "مَعَ الْمُعَلِّمَاتُ"
+    ],
+    "e": "Sound masculine plural genitive uses ـِينَ."
+   },
+   {
+    "p": "in the new cars",
+    "a": "فِي السَّيَّارَاتِ الْجَدِيدَةِ",
+    "choices": [
+     "فِي السَّيَّارَاتِ الْجَدِيدَةِ",
+     "فِي السَّيَّارَاتُ الْجَدِيدَةُ",
+     "فِي السَّيَّارَاتِ الْجَدِيدَةَ"
+    ],
+    "e": "Sound feminine plural noun and feminine singular adjective are genitive."
+   },
+   {
+    "p": "the pupil’s book",
+    "a": "كِتَابُ الطَّالِبِ",
+    "choices": [
+     "كِتَابُ الطَّالِبِ",
+     "الْكِتَابُ الطَّالِبِ",
+     "كِتَابٌ الطَّالِبُ"
+    ],
+    "e": "Second noun of iḍāfa is genitive."
+   },
+   {
+    "p": "the door of the large school",
+    "a": "بَابُ الْمَدْرَسَةِ الْكَبِيرَةِ",
+    "choices": [
+     "بَابُ الْمَدْرَسَةِ الْكَبِيرَةِ",
+     "بَابُ الْمَدْرَسَةِ الْكَبِيرُ",
+     "الْبَابُ الْمَدْرَسَةِ الْكَبِيرَةِ"
+    ],
+    "e": "The adjective matches the feminine genitive possessor."
+   },
+   {
+    "p": "in front of the mosque",
+    "a": "أَمَامَ الْمَسْجِدِ",
+    "choices": [
+     "أَمَامَ الْمَسْجِدِ",
+     "أَمَامُ الْمَسْجِدُ",
+     "أَمَامِ الْمَسْجِدَ"
+    ],
+    "e": "Locator accusative + genitive complement."
+   }
+  ]
+ ],
+ "blocks": [
+  "## Why the genitive matters",
+  "It completes relationships: movement to a place, location in a place, and ownership or association between nouns.",
+  "[ar] ذَهَبْتُ إِلَى الْمَكْتَبَةِ.",
+  "[ar] هَذَا كِتَابُ الطَّالِبِ.",
+  "[ar] جَلَسْتُ أَمَامَ الْمَدْرَسَةِ.",
+  "[callout] Look left for the trigger: a true preposition or a preceding noun in an iḍāfa normally explains the genitive ending.",
+  "## Choose your route",
+  "Master common prepositions and iḍāfa, then extend the pattern through number and adjective agreement.",
+  "### Core",
+  "- Recognise the noun after a common preposition.",
+  "- Identify the muḍāf ilayh in a two-noun iḍāfa.",
+  "- Use ـِ and ـٍ accurately.",
+  "### Develop",
+  "- Make adjectives agree with genitive nouns.",
+  "- Use dual and sound-plural genitive endings.",
+  "- Build locators such as أَمَامَ الْمَدْرَسَةِ.",
+  "### Stretch",
+  "- Track adjective scope in longer iḍāfa phrases.",
+  "- Analyse attached pronouns as genitive complements without over-parsing.",
+  "- Edit a connected place description with several genitive triggers.",
+  "## Starter diagnostic",
+  "Find the trigger before choosing the ending.",
+  "## After prepositions",
+  "The noun governed by a preposition is genitive.",
+  "TABLE: Preposition | Meaning | Model // فِي | in | فِي الْبَيْتِ // إِلَى | to | إِلَى الْمَدْرَسَةِ // مِنْ | from | مِنَ الْمَكْتَبِ // عَلَى | on | عَلَى الطَّاوِلَةِ // عَنْ | about / away from | عَنِ الرِّحْلَةِ // بِـ | with / by | بِالْحَافِلَةِ // لِـ | for / to | لِلطَّالِبِ // مَعَ | with | مَعَ صَدِيقٍ",
+  "[ar] سَافَرْتُ مَعَ صَدِيقٍ قَدِيمٍ.",
+  "[ar] ذَهَبْنَا إِلَى مَدْرَسَتَيْنِ جَدِيدَتَيْنِ.",
+  "[ar] تَحَدَّثْتُ مَعَ الْمُعَلِّمِينَ.",
+  "## The second noun of an iḍāfa",
+  "The muḍāf ilayh completes possession or close association and is genitive.",
+  "[ar] بَابُ الْفَصْلِ",
+  "[ar] مَدِيرُ مَدْرَسَةٍ",
+  "[ar] مُدِيرُ مَدْرَسَةِ الْبَنَاتِ",
+  "[callout/warning] The first noun has restrictions: the muḍāf does not take the definite article or tanwīn. Definiteness comes from the final possessor.",
+  "TABLE: Meaning | Accurate iḍāfa | Error to avoid // the teacher's house | بَيْتُ الْمُعَلِّمِ | الْبَيْتُ الْمُعَلِّمِ // a teacher’s house | بَيْتُ مُعَلِّمٍ | بَيْتٌ مُعَلِّمٌ // the two pupils’ books | كُتُبُ الطَّالِبَيْنِ | كُتُبُ الطَّالِبَانِ // the female pupils’ classroom | فَصْلُ الطَّالِبَاتِ | فَصْلُ الطَّالِبَاتُ",
+  "## Adjective scope in an iḍāfa",
+  "The adjective’s form reveals which noun it describes.",
+  "[ar] بَابُ الْمَدْرَسَةِ الْكَبِيرُ",
+  "[ar] بَابُ الْمَدْرَسَةِ الْكَبِيرَةِ",
+  "[ar] سَاحَةُ الْمَدْرَسَةِ الْوَاسِعَةُ",
+  "[callout] Do not guess from proximity. Match gender, number, definiteness and case to identify the intended noun.",
+  "## Genitive markers across number types",
+  "The genitive meaning stays the same while the visible marker changes.",
+  "TABLE: Noun type | Definite genitive | Indefinite genitive // Singular | الطَّالِبِ | طَالِبٍ // Dual | الطَّالِبَيْنِ | طَالِبَيْنِ // Sound masculine plural | الْمُعَلِّمِينَ | مُعَلِّمِينَ // Sound feminine plural | الطَّالِبَاتِ | طَالِبَاتٍ",
+  "The dual and sound masculine plural share their accusative and genitive endings. The sound feminine plural also uses kasra in both cases. Identify the trigger to know the grammatical case.",
+  "[callout] Visible clues help: even when short vowels are omitted, endings such as ـَيْنِ and ـِينَ reveal that the form is not nominative.",
+  "## Locators contain two case decisions",
+  "Many place expressions combine an accusative locator with a genitive complement.",
+  "TABLE: Expression | Locator role | Complement // أَمَامَ الْمَسْجِدِ | أَمَامَ accusative adverbial | الْمَسْجِدِ genitive // خَلْفَ الْمَدْرَسَةِ | خَلْفَ accusative adverbial | الْمَدْرَسَةِ genitive // بَيْنَ الْبَيْتِ وَالْمَتْجَرِ | بَيْنَ accusative adverbial | both coordinated complements genitive // قُرْبَ مَحَطَّةٍ كَبِيرَةٍ | قُرْبَ accusative adverbial | noun and adjective genitive",
+  "This is why a whole phrase cannot be described as “genitive”. Different words inside it have different roles.",
+  "## Attached pronouns as complements",
+  "Pronoun endings can replace a genitive noun even though no kasra appears on the pronoun.",
+  "TABLE: Full noun phrase | Pronoun form | Meaning // فِي الْبَيْتِ | فِيهِ | in it // إِلَى الطَّالِبَةِ | إِلَيْهَا | to her // كِتَابُ الطَّالِبِ | كِتَابُهُ | his book // مَعَ الطَّالِبَاتِ | مَعَهُنَّ | with them (f.)",
+  "[callout] Stretch terminology: the attached pronoun is described as being in a genitive position ( فِي مَحَلِّ جَرٍّ ). For functional IGCSE use, concentrate first on selecting and attaching the correct pronoun.",
+  "## Misconception clinic",
+  "Repair the trigger, iḍāfa architecture and adjective scope.",
+  "TABLE: Draft | Improved version | Reason // فِي الْمَدْرَسَةُ | فِي الْمَدْرَسَةِ | Noun after a preposition is genitive. // مَعَ صَدِيقٍ قَدِيمٌ | مَعَ صَدِيقٍ قَدِيمٍ | The adjective follows the noun in case. // الْبَابُ الْمَدْرَسَةِ | بَابُ الْمَدْرَسَةِ | The first noun of iḍāfa has no article. // بَابٌ الْمَدْرَسَةِ | بَابُ الْمَدْرَسَةِ | The muḍāf has no tanwīn. // إِلَى الطَّالِبَانِ | إِلَى الطَّالِبَيْنِ | Dual genitive uses ـَيْنِ. // فِي السَّيَّارَاتِ الْجَدِيدَةَ | فِي السَّيَّارَاتِ الْجَدِيدَةِ | The feminine singular adjective must also be genitive.",
+  "## Game: Follow the genitive trigger",
+  "Select the phrase whose trigger, noun form and adjective chain agree.",
+  "## Skills workshop",
+  "Describe a home, school or neighbourhood using prepositions, locators and iḍāfa.",
+  "### Reading map",
+  "يَقَعُ بَيْتُ عَائِلَتِي قُرْبَ مَدْرَسَةٍ كَبِيرَةٍ، وَأَمَامَ الْبَيْتِ حَدِيقَةُ الْحَيِّ الْجَمِيلَةُ.",
+  "- Circle every genitive trigger.",
+  "- Underline the genitive noun and any matching adjective.",
+  "- Decide which noun الْجَمِيلَةُ describes.",
+  "### Speaking route",
+  "Give directions from your home to a familiar place. Include:",
+  "- four true prepositions;",
+  "- three locators;",
+  "- two iḍāfa phrases;",
+  "- one dual or sound plural genitive form.",
+  "### Write a place description",
+  "Write 110–130 Arabic words describing a room, school, route or neighbourhood.",
+  "[callout] Success checklist: Use six prepositional phrases, three locators, three iḍāfa structures, one plural/dual genitive, and accurate adjective scope. Add full endings to target phrases.",
+  "[callout] Paper route: Sketch the place first. Label each relationship in Arabic, then turn the labels into a connected paragraph and check every trigger.",
+  "## Final mastery check",
+  "Show that you can follow prepositions and iḍāfa chains accurately.",
+  "### What you can now do",
+  "- Use nouns and adjectives after common prepositions.",
+  "- Build definite and indefinite iḍāfa structures.",
+  "- Use dual and sound-plural genitive forms.",
+  "- Interpret adjective scope in an iḍāfa.",
+  "- Analyse locator phrases containing both accusative and genitive roles.",
+  "Spaced revisit: take a map or photograph and record ten Arabic location phrases, then turn five into full sentences."
+ ]
+}

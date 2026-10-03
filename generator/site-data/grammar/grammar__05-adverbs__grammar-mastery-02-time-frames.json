@@ -1,0 +1,483 @@
+{
+ "path": "lessons/grammar/05-adverbs/grammar-mastery-02-time-frames.php",
+ "title": "Time Frames with Adverbs",
+ "arabic": "الظُّرُوفُ وَالْأُطُرُ الزَّمَنِيَّةُ",
+ "lede": "Use time adverbs and phrases to establish clear past, present, habitual and future meaning in functional communication.",
+ "nav": [
+  [
+   "GM-ADV-01",
+   "Common Adverbs of Time, Place and Manner"
+  ]
+ ],
+ "quizzes": [
+  {
+   "title": "🔎 Entry Check",
+   "items": [
+    {
+     "prompt": "Choose the sentence with a clear past time frame.",
+     "options": [
+      "سَافَرْتُ أَمْسِ.",
+      "أُسَافِرُ الآنَ.",
+      "سَأُسَافِرُ غَدًا."
+     ],
+     "answer": 0,
+     "feedback": "Past verb + أمسِ creates a clear past frame."
+    },
+    {
+     "prompt": "Choose the sentence with a clear future time frame.",
+     "options": [
+      "زُرْتُهَا غَدًا.",
+      "سَأَزُورُهَا غَدًا.",
+      "أَزُورُهَا أَمْسِ."
+     ],
+     "answer": 1,
+     "feedback": "سـ + present form plus غدًا gives explicit future meaning."
+    },
+    {
+     "prompt": "Which expression means “at the moment / currently”?",
+     "options": [
+      "فِي الْوَقْتِ الْحَالِيِّ",
+      "فِي الْمُسْتَقْبَلِ",
+      "الأُسْبُوعَ الْمَاضِيَ"
+     ],
+     "answer": 0,
+     "feedback": "The phrase locates the action in the present period."
+    },
+    {
+     "prompt": "Which sentence contains a tense-time mismatch?",
+     "options": [
+      "دَرَسْتُ أَمْسِ.",
+      "أَدْرُسُ الآنَ.",
+      "سَأَدْرُسُ أَمْسِ."
+     ],
+     "answer": 2,
+     "feedback": "Future سـ conflicts with أمسِ unless a very unusual reported context is supplied."
+    },
+    {
+     "prompt": "What does a time adverb do?",
+     "options": [
+      "It replaces the verb.",
+      "It locates the action in time.",
+      "It always changes the subject."
+     ],
+     "answer": 1,
+     "feedback": "The verb carries tense/person; the adverb gives temporal context."
+    },
+    {
+     "prompt": "Which is the clearest IGCSE answer for “I will travel tomorrow”?",
+     "options": [
+      "أُسَافِرُ غَدًا.",
+      "سَأُسَافِرُ غَدًا.",
+      "سَافَرْتُ غَدًا."
+     ],
+     "answer": 1,
+     "feedback": "A bare present can indicate an arranged future in context, but سـ makes the future explicit and unambiguous."
+    }
+   ]
+  },
+  {
+   "title": "↩️ Past Check",
+   "items": [
+    {
+     "prompt": "Complete: ___ ذَهَبْتُ إِلَى الطَّبِيبِ.",
+     "options": [
+      "أَمْسِ",
+      "غَدًا",
+      "قَرِيبًا"
+     ],
+     "answer": 0,
+     "feedback": "أمسِ provides past context."
+    },
+    {
+     "prompt": "Choose “last week”.",
+     "options": [
+      "الأُسْبُوعُ الْقَادِمُ",
+      "فِي الأُسْبُوعِ الْمَاضِي",
+      "فِي الْوَقْتِ الْحَالِيِّ"
+     ],
+     "answer": 1,
+     "feedback": "في الأسبوع الماضي is a reliable set phrase."
+    },
+    {
+     "prompt": "Choose “I used to / usually studied in the evening” at a simple practical level.",
+     "options": [
+      "كُنْتُ أَدْرُسُ فِي الْمَسَاءِ.",
+      "سَأَدْرُسُ أَمْسِ.",
+      "أَدْرُسُ غَدًا فقط."
+     ],
+     "answer": 0,
+     "feedback": "كان + present form can express a past habitual action; this is Develop content."
+    },
+    {
+     "prompt": "Which phrase means “the day before yesterday”?",
+     "options": [
+      "أَوَّلَ أَمْسِ",
+      "بَعْدَ غَدٍ",
+      "حَتَّى الآنَ"
+     ],
+     "answer": 0,
+     "feedback": "أوّل أمسِ means the day before yesterday."
+    },
+    {
+     "prompt": "Repair: زُرْتُهُ غَدًا.",
+     "options": [
+      "زُرْتُهُ أَمْسِ.",
+      "سَأَزُورُهُ غَدًا.",
+      "Both can repair it, depending on intended time."
+     ],
+     "answer": 2,
+     "feedback": "Either change the time word to past or change the verb to future."
+    }
+   ]
+  },
+  {
+   "title": "⏺️ Present Check",
+   "items": [
+    {
+     "prompt": "Choose “I am writing now.”",
+     "options": [
+      "كَتَبْتُ الآنَ.",
+      "أَكْتُبُ الآنَ.",
+      "سَأَكْتُبُ أَمْسِ."
+     ],
+     "answer": 1,
+     "feedback": "Present form + الآنَ gives current action."
+    },
+    {
+     "prompt": "Choose a habitual present sentence.",
+     "options": [
+      "أَذْهَبُ إِلَى الْمَدْرَسَةِ كُلَّ يَوْمٍ.",
+      "ذَهَبْتُ إِلَى الْمَدْرَسَةِ غَدًا.",
+      "سَأَذْهَبُ الآنَ أَمْسِ."
+     ],
+     "answer": 0,
+     "feedback": "كل يوم indicates repeated present routine."
+    },
+    {
+     "prompt": "Which word often signals frequency rather than one point in time?",
+     "options": [
+      "أَحْيَانًا",
+      "أَمْسِ",
+      "غَدًا"
+     ],
+     "answer": 0,
+     "feedback": "أحيانًا describes how often."
+    },
+    {
+     "prompt": "Choose “currently, I live in London.”",
+     "options": [
+      "فِي الْوَقْتِ الْحَالِيِّ أَسْكُنُ فِي لَنْدَنَ.",
+      "فِي الْمُسْتَقْبَلِ سَكَنْتُ فِي لَنْدَنَ.",
+      "أَمْسِ سَأَسْكُنُ فِي لَنْدَنَ."
+     ],
+     "answer": 0,
+     "feedback": "The current-time phrase matches the present verb."
+    },
+    {
+     "prompt": "Which answer is most developed for a speaking question about routine?",
+     "options": [
+      "أَدْرُسُ.",
+      "أَدْرُسُ كُلَّ يَوْمٍ فِي الْمَسَاءِ.",
+      "دِرَاسَةٌ."
+     ],
+     "answer": 1,
+     "feedback": "The time phrase makes the answer clearer and more informative."
+    }
+   ]
+  },
+  {
+   "title": "⏩ Future Check",
+   "items": [
+    {
+     "prompt": "Choose “I will start soon.”",
+     "options": [
+      "سَأَبْدَأُ قَرِيبًا.",
+      "بَدَأْتُ غَدًا.",
+      "أَبْدَأُ أَمْسِ."
+     ],
+     "answer": 0,
+     "feedback": "سـ + present form plus قريبًا creates a clear future."
+    },
+    {
+     "prompt": "Choose a formal/emphatic future marker.",
+     "options": [
+      "سَوْفَ",
+      "قَدْ",
+      "لَمْ"
+     ],
+     "answer": 0,
+     "feedback": "سوف + present form expresses future."
+    },
+    {
+     "prompt": "Choose “I will not be late tomorrow.”",
+     "options": [
+      "لَنْ أَتَأَخَّرَ غَدًا.",
+      "لَمْ أَتَأَخَّرُ غَدًا.",
+      "مَا أَتَأَخَّرُ أَمْسِ."
+     ],
+     "answer": 0,
+     "feedback": "لن + subjunctive negates future; أتأخرَ ends with fatḥa in the supported model."
+    },
+    {
+     "prompt": "Which phrase means “next week”?",
+     "options": [
+      "الأُسْبُوعُ الْمَاضِي",
+      "الأُسْبُوعُ الْقَادِمُ",
+      "حَتَّى الآنَ"
+     ],
+     "answer": 1,
+     "feedback": "الأسبوع القادم / المقبل means next week."
+    },
+    {
+     "prompt": "Which statement is most accurate?",
+     "options": [
+      "A future time word always makes any past verb future.",
+      "The verb and time expression should work together.",
+      "سوف is used only with past verbs."
+     ],
+     "answer": 1,
+     "feedback": "Time frame is built by the combination of verb form, marker and context."
+    }
+   ]
+  },
+  {
+   "title": "⭐ Three-Time-Frame Mastery",
+   "items": [
+    {
+     "prompt": "Past: choose the best sentence.",
+     "options": [
+      "شَاهَدْتُ الْفِيلْمَ أَمْسِ.",
+      "أُشَاهِدُ الْفِيلْمَ غَدًا أَمْسِ.",
+      "سَأُشَاهِدُ الْفِيلْمَ أَمْسِ."
+     ],
+     "answer": 0,
+     "feedback": "Past verb agrees with أمسِ."
+    },
+    {
+     "prompt": "Present now: choose the best sentence.",
+     "options": [
+      "أَتَحَدَّثُ مَعَكَ الآنَ.",
+      "تَحَدَّثْتُ مَعَكَ غَدًا.",
+      "سَأَتَحَدَّثُ أَمْسِ."
+     ],
+     "answer": 0,
+     "feedback": "Present form + الآنَ."
+    },
+    {
+     "prompt": "Habit: choose the best sentence.",
+     "options": [
+      "أَقْرَأُ قَبْلَ النَّوْمِ كُلَّ لَيْلَةٍ.",
+      "قَرَأْتُ غَدًا كُلَّ لَيْلَةٍ.",
+      "سَأَقْرَأُ أَمْسِ."
+     ],
+     "answer": 0,
+     "feedback": "The phrase signals repeated routine."
+    },
+    {
+     "prompt": "Future: choose the best sentence.",
+     "options": [
+      "سَنَزُورُ الْمَتْحَفَ غَدًا.",
+      "زُرْنَا الْمَتْحَفَ غَدًا.",
+      "نَزُورُ الْمَتْحَفَ أَمْسِ."
+     ],
+     "answer": 0,
+     "feedback": "Future marker and future adverb match."
+    },
+    {
+     "prompt": "Future negative: choose the best sentence.",
+     "options": [
+      "لَنْ أَنْسَى الْمَوْعِدَ غَدًا.",
+      "لَمْ أَنْسَى غَدًا.",
+      "لَنْ نَسِيتُ غَدًا."
+     ],
+     "answer": 0,
+     "feedback": "لن + present/subjunctive form."
+    },
+    {
+     "prompt": "Which expression means “until now”?",
+     "options": [
+      "حَتَّى الآنَ",
+      "بَعْدَ غَدٍ",
+      "فِي الأُسْبُوعِ الْمَاضِي"
+     ],
+     "answer": 0,
+     "feedback": "حتى الآن extends from earlier time to the present."
+    },
+    {
+     "prompt": "Choose the arranged-future statement that is possible but less explicit.",
+     "options": [
+      "أُسَافِرُ غَدًا.",
+      "سَافَرْتُ غَدًا.",
+      "سَوْفَ سَافَرْتُ غَدًا."
+     ],
+     "answer": 0,
+     "feedback": "Bare present + future time can express an arrangement; سأسافر is clearer for learners."
+    },
+    {
+     "prompt": "Repair: سَأَكْتُبُ الرِّسَالَةَ أَمْسِ.",
+     "options": [
+      "كَتَبْتُ الرِّسَالَةَ أَمْسِ.",
+      "سَأَكْتُبُ الرِّسَالَةَ غَدًا.",
+      "Either A or B, depending on intended meaning."
+     ],
+     "answer": 2,
+     "feedback": "Repair either the verb or the time expression."
+    },
+    {
+     "prompt": "Which trio clearly moves through three time frames?",
+     "options": [
+      "أَمْسِ / الآنَ / غَدًا",
+      "هُنَا / هُنَاكَ / فَوْقَ",
+      "جَيِّدًا / سَرِيعًا / مَعًا"
+     ],
+     "answer": 0,
+     "feedback": "Past, present and future sequence."
+    },
+    {
+     "prompt": "Best speaking strategy for a developed answer?",
+     "options": [
+      "Use only one tense even when the question changes.",
+      "Add an accurate time marker and match the verb form.",
+      "Memorise a time word without a verb."
+     ],
+     "answer": 1,
+     "feedback": "Accurate time framing makes communication clear."
+    }
+   ]
+  }
+ ],
+ "games": [
+  [
+   {
+    "p": "Past: travel yesterday",
+    "a": "سَافَرْتُ أَمْسِ.",
+    "choices": [
+     "سَافَرْتُ أَمْسِ.",
+     "أُسَافِرُ الآنَ.",
+     "سَأُسَافِرُ غَدًا."
+    ],
+    "e": "Past verb + أمسِ."
+   },
+   {
+    "p": "Present now: study",
+    "a": "أَدْرُسُ الآنَ.",
+    "choices": [
+     "دَرَسْتُ أَمْسِ.",
+     "أَدْرُسُ الآنَ.",
+     "سَأَدْرُسُ غَدًا."
+    ],
+    "e": "Present form + الآنَ."
+   },
+   {
+    "p": "Habit: exercise weekly",
+    "a": "أَتَدَرَّبُ كُلَّ أُسْبُوعٍ.",
+    "choices": [
+     "تَدَرَّبْتُ غَدًا.",
+     "أَتَدَرَّبُ كُلَّ أُسْبُوعٍ.",
+     "سَأَتَدَرَّبُ أَمْسِ."
+    ],
+    "e": "Present + frequency phrase."
+   },
+   {
+    "p": "Future: visit tomorrow",
+    "a": "سَأَزُورُهَا غَدًا.",
+    "choices": [
+     "زُرْتُهَا غَدًا.",
+     "أَزُورُهَا أَمْسِ.",
+     "سَأَزُورُهَا غَدًا."
+    ],
+    "e": "Future marker + future time."
+   },
+   {
+    "p": "Future negative: not be late",
+    "a": "لَنْ أَتَأَخَّرَ غَدًا.",
+    "choices": [
+     "لَنْ أَتَأَخَّرَ غَدًا.",
+     "لَمْ أَتَأَخَّرُ غَدًا.",
+     "مَا تَأَخَّرْتُ قَرِيبًا."
+    ],
+    "e": "لن negates future."
+   },
+   {
+    "p": "Past period: last week",
+    "a": "ذَهَبْنَا فِي الأُسْبُوعِ الْمَاضِي.",
+    "choices": [
+     "ذَهَبْنَا فِي الأُسْبُوعِ الْمَاضِي.",
+     "سَنَذْهَبُ أَمْسِ.",
+     "نَذْهَبُ غَدًا أَمْسِ."
+    ],
+    "e": "The past period matches a past verb."
+   },
+   {
+    "p": "Current period: live here",
+    "a": "فِي الْوَقْتِ الْحَالِيِّ أَسْكُنُ هُنَا.",
+    "choices": [
+     "فِي الْوَقْتِ الْحَالِيِّ أَسْكُنُ هُنَا.",
+     "فِي الْمُسْتَقْبَلِ سَكَنْتُ هُنَا.",
+     "أَمْسِ سَأَسْكُنُ هُنَا."
+    ],
+    "e": "Current phrase + present verb."
+   },
+   {
+    "p": "Future period: next year",
+    "a": "سَأَدْرُسُ فِي الْخَارِجِ فِي السَّنَةِ الْقَادِمَةِ.",
+    "choices": [
+     "دَرَسْتُ غَدًا.",
+     "سَأَدْرُسُ فِي الْخَارِجِ فِي السَّنَةِ الْقَادِمَةِ.",
+     "أَدْرُسُ أَمْسِ."
+    ],
+    "e": "Future marker and next-year phrase agree."
+   }
+  ]
+ ],
+ "blocks": [
+  "## Why time frames matter",
+  "Cambridge speaking and writing require learners to move beyond one-word answers. A precise time expression helps the listener understand whether an event happened, is happening, happens regularly or will happen.",
+  "### Core",
+  "Match common past, present and future expressions to suitable verbs.",
+  "### Develop",
+  "Move confidently between three time frames in one answer.",
+  "### Stretch",
+  "Use past habit, arranged future and future negation with accurate forms.",
+  "[callout] The key principle: the time expression does not replace the tense. The verb form, future marker and context must work together.",
+  "## Diagnostic timeline",
+  "## Past time frame الزَّمَنُ الْمَاضِي",
+  "Past time expressions confirm that an event is completed or locate it in an earlier period.",
+  "TABLE: Expression | Meaning | Model // أَمْسِ | yesterday | لَعِبْتُ كُرَةَ الْقَدَمِ أَمْسِ. // أَوَّلَ أَمْسِ | the day before yesterday | وَصَلَتِ الرِّسَالَةُ أَوَّلَ أَمْسِ. // فِي الأُسْبُوعِ الْمَاضِي | last week | زُرْنَا الْمَتْحَفَ فِي الأُسْبُوعِ الْمَاضِي. // مُنْذُ سَنَةٍ | for/since a year ago, depending on structure | بَدَأْتُ دِرَاسَةَ الْعَرَبِيَّةِ مُنْذُ سَنَةٍ.",
+  "[callout] Develop: كُنْتُ أَدْرُسُ فِي الْمَسَاءِ can describe a past habit: “I used to study in the evening.”",
+  "## Present and habitual time الْحَاضِرُ وَالْعَادَةُ",
+  "The Arabic present form can describe what is happening now or what happens regularly. The adverbial context makes the intended meaning clear.",
+  "### Happening now",
+  "أَكْتُبُ الآنَ. فِي الْوَقْتِ الْحَالِيِّ أَعْمَلُ مِنَ الْمَنْزِلِ.",
+  "### Regular or repeated",
+  "أَذْهَبُ إِلَى الْمَدْرَسَةِ كُلَّ يَوْمٍ. أَتَدَرَّبُ مَرَّتَيْنِ فِي الأُسْبُوعِ. أَقْرَأُ غَالِبًا قَبْلَ النَّوْمِ.",
+  "[callout] Notice: the same present verb form can mean “I study” or “I am studying.” Words such as الآنَ and كُلَّ يَوْمٍ clarify the frame.",
+  "## Future time frame زَمَنُ الْمُسْتَقْبَلِ",
+  "For clear learner communication, combine a future marker with the present verb form and an appropriate future expression.",
+  "TABLE: Pattern | Use | Example // سَـ + الْمُضَارِعُ | common, close or neutral future | سَأُسَافِرُ غَدًا. // سَوْفَ + الْمُضَارِعُ | more separate/formal or emphatic future marker | سَوْفَ نَبْدَأُ قَرِيبًا. // لَنْ + الْمُضَارِعُ الْمَنْصُوبُ | future negative | لَنْ أَتَأَخَّرَ غَدًا. // الْمُضَارِعُ + وَقْتٌ مُسْتَقْبَلِيٌّ | possible for an arrangement in context | أُسَافِرُ غَدًا.",
+  "[callout/warning] IGCSE clarity: أُسَافِرُ غَدًا can be natural for an arranged plan, but سَأُسَافِرُ غَدًا is clearer and safer when demonstrating future control.",
+  "## Three-time-frame communication",
+  "### 📖 Reading timeline",
+  "أَمْسِ دَرَسْتُ فِي الْمَكْتَبَةِ. الْيَوْمَ أُرَاجِعُ فِي الْبَيْتِ، وَغَدًا سَأَكْتُبُ الْمَشْرُوعَ.",
+  "Build a three-column timeline and copy each verb with its time expression.",
+  "### 🎧 Listening switch",
+  "A partner reads six sentences. Hold up PAST, PRESENT or FUTURE, then quote the word that gave you the clue.",
+  "### 🗣️ Topic conversation",
+  "Answer: What did you do last weekend? What do you usually do now? What will you do next weekend? Give two developed sentences for each.",
+  "### 🛠️ Tense-time repair",
+  "Write four mismatched sentences deliberately. Exchange, repair the verb or time phrase, and explain the intended frame.",
+  "### ✍️ Past–present–future paragraph",
+  "Write 100–120 words about your learning, leisure or travel. Include a completed past event, a present routine/current situation and at least two future plans.",
+  "[callout] Model: أَمْسِ أَكْمَلْتُ وَاجِبِي. الْيَوْمَ أُرَاجِعُ دُرُوسِي، وَغَدًا سَأَسْتَعِدُّ لِلِاخْتِبَارِ. لَنْ أَتَأَخَّرَ عَنْ مَوْعِدِي.",
+  "[callout] Success checklist: Use at least three past, three present/habitual and three future time expressions; use سـ or سوف clearly; include one future negative with لن as Stretch.",
+  "Save and mark complete Clear",
+  "Plan a timeline, place map or sentence flowchart, then label it in Arabic with the target adverbs.",
+  "Complete the same task on paper. Circle each adverb or adverbial phrase and draw an arrow to the verb or sentence it modifies.",
+  "## Final mastery check",
+  "### Today you can",
+  "- match verbs and time expressions accurately;",
+  "- distinguish current action from repeated habit;",
+  "- express clear future plans with سـ, سوف and لن;",
+  "- develop speaking and writing across three time frames."
+ ]
+}

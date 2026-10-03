@@ -1,0 +1,511 @@
+{
+ "path": "lessons/grammar/14-interrogatives/grammar-mastery-01-yes-no-questions.php",
+ "title": "Yes/No Questions",
+ "arabic": "أَسْئِلَةُ نَعَمْ وَلَا بِـ«هَلْ» وَهَمْزَةِ الِاسْتِفْهَامِ",
+ "lede": "Turn a clear statement into a practical question without copying English inversion, then answer positively, negatively or by choosing between alternatives.",
+ "nav": [],
+ "quizzes": [
+  {
+   "title": "🔎 Yes/No Starter",
+   "items": [
+    {
+     "prompt": "Which particle can turn a complete statement into a neutral yes/no question?",
+     "options": [
+      "هَلْ",
+      "مَنْ",
+      "مَتَى"
+     ],
+     "answer": 0,
+     "feedback": "هَلْ is placed before the sentence and asks for confirmation."
+    },
+    {
+     "prompt": "Choose the correctly written hamza question.",
+     "options": [
+      "أَتُحِبُّ الرِّيَاضَةَ؟",
+      "أَ تُحِبُّ الرِّيَاضَةَ؟",
+      "ا تُحِبُّ الرِّيَاضَةَ؟"
+     ],
+     "answer": 0,
+     "feedback": "The interrogative hamza is written on alif and attaches directly to the following word."
+    },
+    {
+     "prompt": "Which question keeps Arabic word order?",
+     "options": [
+      "هَلْ ذَهَبَتْ مَرْيَمُ؟",
+      "هَلْ مَرْيَمُ ذَهَبَتْ do؟",
+      "ذَهَبَ هَلْ مَرْيَمُ؟"
+     ],
+     "answer": 0,
+     "feedback": "Arabic does not require English-style inversion or an added “do”."
+    },
+    {
+     "prompt": "Choose the question “Is this your bag?” to one female.",
+     "options": [
+      "هَلْ هَذِهِ حَقِيبَتُكِ؟",
+      "هَلْ هَذَا حَقِيبَتُكَ؟",
+      "مَاذَا حَقِيبَتُكِ؟"
+     ],
+     "answer": 0,
+     "feedback": "هَذِهِ and ـكِ both match the intended feminine reference/listener."
+    },
+    {
+     "prompt": "Which word normally answers an affirmative yes/no question positively?",
+     "options": [
+      "نَعَمْ",
+      "لَا",
+      "مَاذَا"
+     ],
+     "answer": 0,
+     "feedback": "نَعَمْ confirms the proposition in an ordinary affirmative question."
+    },
+    {
+     "prompt": "Which structure asks a genuine either/or question?",
+     "options": [
+      "أَ...أَمْ",
+      "هَلْ...لِأَنَّ",
+      "مَنْ...ثُمَّ"
+     ],
+     "answer": 0,
+     "feedback": "The interrogative hamza can be paired with أَمْ to present alternatives."
+    }
+   ]
+  },
+  {
+   "title": "✅ Mini-check: add هَلْ",
+   "items": [
+    {
+     "prompt": "Turn أَنْتِ مُتْعَبَةٌ into a question.",
+     "options": [
+      "هَلْ أَنْتِ مُتْعَبَةٌ؟",
+      "هَلْ أَنْتَ مُتْعَبٌ؟",
+      "أَيْنَ أَنْتِ مُتْعَبَةٌ؟"
+     ],
+     "answer": 0,
+     "feedback": "Add هَلْ and preserve feminine agreement."
+    },
+    {
+     "prompt": "Turn وَصَلَتِ الْحَافِلَةُ into a question.",
+     "options": [
+      "هَلْ وَصَلَتِ الْحَافِلَةُ؟",
+      "هَلْ وَصَلَ الْحَافِلَةَ؟",
+      "وَصَلَتْ هَلْ الْحَافِلَةُ؟"
+     ],
+     "answer": 0,
+     "feedback": "The original past-tense agreement and word order remain."
+    },
+    {
+     "prompt": "Choose the future question.",
+     "options": [
+      "هَلْ سَتَكْتُبِينَ الرِّسَالَةَ؟",
+      "هَلْ كَتَبْتِ الرِّسَالَةَ؟",
+      "هَلْ تَكْتُبِينَ الرِّسَالَةَ أَمْسِ؟"
+     ],
+     "answer": 0,
+     "feedback": "سَـ + present verb clearly marks future meaning."
+    },
+    {
+     "prompt": "Which sentence wrongly copies English question structure?",
+     "options": [
+      "هَلْ أَنْتَ تَسْكُنُ هُنَا؟",
+      "هَلْ تَسْكُنُ هُنَا؟",
+      "هَلْ تَفْعَلُ أَنْتَ تَسْكُنُ هُنَا؟"
+     ],
+     "answer": 2,
+     "feedback": "Do not add an Arabic equivalent of English “do”."
+    }
+   ]
+  },
+  {
+   "title": "✅ Mini-check: hamza or هَلْ",
+   "items": [
+    {
+     "prompt": "Choose the correctly spaced question.",
+     "options": [
+      "أَتَذْهَبِينَ مَعَنَا؟",
+      "أَ تَذْهَبِينَ مَعَنَا؟",
+      "اَتَذْهَبِينَ مَعَنَا؟"
+     ],
+     "answer": 0,
+     "feedback": "The hamza is prefixed directly to the verb."
+    },
+    {
+     "prompt": "Choose the best alternative question.",
+     "options": [
+      "أَتَسْكُنُ فِي لَنْدَنَ أَمْ بَرْمِنْغَامَ؟",
+      "هَلْ تَسْكُنُ فِي لَنْدَنَ لِأَنَّ بَرْمِنْغَامَ؟",
+      "مَتَى لَنْدَنَ أَمْ بَرْمِنْغَامَ؟"
+     ],
+     "answer": 0,
+     "feedback": "أَ...أَمْ presents two genuine alternatives."
+    },
+    {
+     "prompt": "Which marker is especially useful with أَمْ?",
+     "options": [
+      "أَ",
+      "مَنْ",
+      "لِمَاذَا"
+     ],
+     "answer": 0,
+     "feedback": "The interrogative hamza naturally introduces alternative questions."
+    },
+    {
+     "prompt": "Choose “Is this your teacher?” to one male.",
+     "options": [
+      "أَهَذَا مُعَلِّمُكَ؟",
+      "أَهَذِهِ مُعَلِّمَتُكِ؟",
+      "أَيْنَ مُعَلِّمُكَ؟"
+     ],
+     "answer": 0,
+     "feedback": "هَذَا and ـكَ match the intended masculine reference/listener."
+    }
+   ]
+  },
+  {
+   "title": "🛠 Repair lab",
+   "items": [
+    {
+     "prompt": "Repair هَلْ أَتَدْرُسُ الْعَرَبِيَّةَ؟",
+     "options": [
+      "هَلْ تَدْرُسُ الْعَرَبِيَّةَ؟",
+      "أَ هَلْ تَدْرُسُ الْعَرَبِيَّةَ؟",
+      "مَاذَا تَدْرُسُ الْعَرَبِيَّةَ؟"
+     ],
+     "answer": 0,
+     "feedback": "Keep one question marker."
+    },
+    {
+     "prompt": "Repair أَ تَسْكُنِينَ هُنَا؟",
+     "options": [
+      "أَتَسْكُنِينَ هُنَا؟",
+      "ا تَسْكُنِينَ هُنَا؟",
+      "هَلْ أَتَسْكُنِينَ هُنَا؟"
+     ],
+     "answer": 0,
+     "feedback": "Attach the interrogative hamza directly to the verb."
+    },
+    {
+     "prompt": "Best full answer to هَلْ قَرَأْتَ الْكِتَابَ؟",
+     "options": [
+      "نَعَمْ، قَرَأْتُهُ أَمْسِ.",
+      "نَعَمْ only",
+      "مَتَى قَرَأْتُهُ."
+     ],
+     "answer": 0,
+     "feedback": "A complete answer supplies clear evidence and a useful time frame."
+    },
+    {
+     "prompt": "Best answer contradicting أَلَمْ تَذْهَبِي؟",
+     "options": [
+      "بَلَى، ذَهَبْتُ.",
+      "نَعَمْ، لَمْ أَذْهَبْ.",
+      "لَا، ذَهَبْتُ."
+     ],
+     "answer": 0,
+     "feedback": "بَلَى cancels the negative assumption: yes, I did go."
+    }
+   ]
+  },
+  {
+   "title": "🏁 Yes/No Mastery",
+   "items": [
+    {
+     "prompt": "Which statement about هَلْ is correct?",
+     "options": [
+      "It precedes a complete sentence without forcing English inversion.",
+      "It changes every verb to the past tense.",
+      "It must be followed by مَاذَا."
+     ],
+     "answer": 0,
+     "feedback": "هَلْ asks for confirmation while the sentence keeps its Arabic structure."
+    },
+    {
+     "prompt": "Choose the correctly written hamza question.",
+     "options": [
+      "أَتَعْمَلِينَ هُنَا؟",
+      "أَ تَعْمَلِينَ هُنَا؟",
+      "اَتَعْمَلِينَ هُنَا؟"
+     ],
+     "answer": 0,
+     "feedback": "The interrogative hamza attaches directly to the verb."
+    },
+    {
+     "prompt": "Choose the correct nominal question.",
+     "options": [
+      "هَلْ هَذَا مَكْتَبُكَ؟",
+      "هَلْ يَكُونُ هَذَا مَكْتَبُكَ do؟",
+      "مَاذَا هَذَا مَكْتَبُكَ؟"
+     ],
+     "answer": 0,
+     "feedback": "No present copula or English “do” is needed."
+    },
+    {
+     "prompt": "Choose the past question to a feminine singular listener.",
+     "options": [
+      "هَلْ زُرْتِ الْمَدِينَةَ؟",
+      "هَلْ زُرْتَ الْمَدِينَةَ؟",
+      "هَلْ تَزُورِينَ الْمَدِينَةَ أَمْسِ؟"
+     ],
+     "answer": 0,
+     "feedback": "زُرْتِ matches one female listener in the past."
+    },
+    {
+     "prompt": "Choose the future plural question.",
+     "options": [
+      "هَلْ سَتَسَافِرُونَ غَدًا؟",
+      "هَلْ سَافَرْتُمْ غَدًا؟",
+      "هَلْ تَسَافَرَ غَدًا؟"
+     ],
+     "answer": 0,
+     "feedback": "سَتَسَافِرُونَ is future and masculine/mixed plural."
+    },
+    {
+     "prompt": "Which structure asks “tea or coffee?”",
+     "options": [
+      "أَ...أَمْ",
+      "هَلْ...لِذَلِكَ",
+      "مَنْ...مَتَى"
+     ],
+     "answer": 0,
+     "feedback": "The interrogative hamza plus أَمْ presents alternatives."
+    },
+    {
+     "prompt": "Best positive answer to هَلْ تَقْرَأُ كُلَّ يَوْمٍ؟",
+     "options": [
+      "نَعَمْ، أَقْرَأُ كُلَّ مَسَاءٍ.",
+      "نَعَمْ only",
+      "لَا، أَقْرَأُ كُلَّ مَسَاءٍ."
+     ],
+     "answer": 0,
+     "feedback": "A complete answer confirms the information and extends it."
+    },
+    {
+     "prompt": "Best negative answer to هَلْ ذَهَبْتَ؟",
+     "options": [
+      "لَا، لَمْ أَذْهَبْ.",
+      "لَا، لَنْ أَذْهَبَ أَمْسِ.",
+      "نَعَمْ، مَا أَذْهَبُ."
+     ],
+     "answer": 0,
+     "feedback": "لَمْ + jussive present gives a clear past negative."
+    },
+    {
+     "prompt": "Which answer contradicts a negative question?",
+     "options": [
+      "بَلَى، فَعَلْتُ.",
+      "نَعَمْ، لَمْ أَفْعَلْ.",
+      "لَا، فَعَلْتُ."
+     ],
+     "answer": 0,
+     "feedback": "بَلَى cancels the negative proposition."
+    },
+    {
+     "prompt": "Best final check?",
+     "options": [
+      "Remove the marker and verify that the remaining statement is accurate.",
+      "Translate each word into English order.",
+      "Add both هَلْ and أَ to every question."
+     ],
+     "answer": 0,
+     "feedback": "The underlying statement should preserve correct Arabic structure, tense and agreement."
+    }
+   ]
+  }
+ ],
+ "games": [
+  [
+   {
+    "p": "Turn أَنْتِ مُعَلِّمَةٌ into a question.",
+    "a": "هَلْ أَنْتِ مُعَلِّمَةٌ؟",
+    "choices": [
+     "هَلْ أَنْتِ مُعَلِّمَةٌ؟",
+     "هَلْ أَنْتَ مُعَلِّمٌ؟",
+     "مَنْ أَنْتِ مُعَلِّمَةٌ؟"
+    ],
+    "e": "Add هَلْ and retain the original agreement."
+   },
+   {
+    "p": "Choose the correctly attached hamza.",
+    "a": "أَتَذْهَبُ الْيَوْمَ؟",
+    "choices": [
+     "أَتَذْهَبُ الْيَوْمَ؟",
+     "أَ تَذْهَبُ الْيَوْمَ؟",
+     "اَ تَذْهَبُ الْيَوْمَ؟"
+    ],
+    "e": "The interrogative hamza is prefixed."
+   },
+   {
+    "p": "Ask “Did they arrive?”",
+    "a": "هَلْ وَصَلُوا؟",
+    "choices": [
+     "هَلْ وَصَلُوا؟",
+     "هَلْ وَصَلَتْ؟",
+     "هَلْ يَصِلُونَ أَمْسِ؟"
+    ],
+    "e": "The past plural form is وَصَلُوا."
+   },
+   {
+    "p": "Ask “Will she travel tomorrow?”",
+    "a": "هَلْ سَتُسَافِرُ غَدًا؟",
+    "choices": [
+     "هَلْ سَتُسَافِرُ غَدًا؟",
+     "هَلْ سَافَرَتْ غَدًا؟",
+     "مَتَى سَتُسَافِرُ هَلْ؟"
+    ],
+    "e": "Future meaning uses سَـ + present verb."
+   },
+   {
+    "p": "Ask tea or coffee.",
+    "a": "أَتُفَضِّلُ الشَّايَ أَمِ الْقَهْوَةَ؟",
+    "choices": [
+     "أَتُفَضِّلُ الشَّايَ أَمِ الْقَهْوَةَ؟",
+     "هَلْ الشَّايَ لِأَنَّ الْقَهْوَةَ؟",
+     "مَاذَا الشَّايُ أَمِ الْقَهْوَةُ؟"
+    ],
+    "e": "أَ...أَمْ gives a direct alternative."
+   },
+   {
+    "p": "Answer positively with evidence.",
+    "a": "نَعَمْ، أَذْهَبُ كُلَّ يَوْمٍ.",
+    "choices": [
+     "نَعَمْ، أَذْهَبُ كُلَّ يَوْمٍ.",
+     "نَعَمْ فقط",
+     "لَا، أَذْهَبُ كُلَّ يَوْمٍ."
+    ],
+    "e": "The complete answer confirms the action and adds frequency."
+   },
+   {
+    "p": "Answer هَلْ زُرْتِ الْمَتْحَفَ؟ negatively.",
+    "a": "لَا، لَمْ أَزُرْهُ.",
+    "choices": [
+     "لَا، لَمْ أَزُرْهُ.",
+     "نَعَمْ، لَنْ أَزُرْهُ.",
+     "لَا، زُرْتُهُ."
+    ],
+    "e": "Use لَا plus a past-negative sentence."
+   },
+   {
+    "p": "Contradict أَلَيْسَ الدَّرْسُ سَهْلًا؟",
+    "a": "بَلَى، هُوَ سَهْلٌ.",
+    "choices": [
+     "بَلَى، هُوَ سَهْلٌ.",
+     "نَعَمْ، هُوَ لَيْسَ سَهْلًا.",
+     "لَا، هُوَ سَهْلٌ."
+    ],
+    "e": "بَلَى rejects the negative assumption."
+   },
+   {
+    "p": "Choose the question without English “do”.",
+    "a": "هَلْ تَعْمَلُ هُنَا؟",
+    "choices": [
+     "هَلْ تَعْمَلُ هُنَا؟",
+     "هَلْ تَفْعَلُ تَعْمَلُ هُنَا؟",
+     "تَعْمَلُ هَلْ هُنَا؟"
+    ],
+    "e": "The Arabic present verb already carries person information."
+   },
+   {
+    "p": "Choose the punctuation.",
+    "a": "هَلْ أَنْتُمْ مُسْتَعِدُّونَ؟",
+    "choices": [
+     "هَلْ أَنْتُمْ مُسْتَعِدُّونَ؟",
+     "هَلْ أَنْتُمْ مُسْتَعِدُّونَ.",
+     "هَلْ؟ أَنْتُمْ مُسْتَعِدُّونَ"
+    ],
+    "e": "Place the Arabic/standard question mark at the end of the whole question."
+   }
+  ]
+ ],
+ "blocks": [
+  "## Questions open every conversation",
+  "Yes/no questions let students check information, request confirmation and sustain practical speaking across every Cambridge topic.",
+  "[ar] هَلْ تَدْرُسِينَ الْعَرَبِيَّةَ؟",
+  "[ar] أَتَسْكُنُ قَرِيبًا مِنَ الْمَدْرَسَةِ؟",
+  "[ar] هَلْ هَذَا كِتَابُكَ؟",
+  "[ar] أَذَهَبْتَ إِلَى الطَّبِيبِ أَمْ بَقِيتَ فِي الْبَيْتِ؟",
+  "[callout] Cambridge relevance: these questions are essential in role plays, topic conversations, messages and short reading texts. Accuracy comes from preserving Arabic structure, tense and agreement.",
+  "## Choose your route",
+  "Secure the two question markers first, then add answer logic and negative questions.",
+  "### Core",
+  "- Place هَلْ before a nominal or verbal sentence.",
+  "- Attach أَ directly to the following word.",
+  "- Answer with نَعَمْ or لَا in a complete sentence.",
+  "### Develop",
+  "- Ask questions across past, present and future time frames.",
+  "- Use أَ...أَمْ for alternatives.",
+  "- Keep person, gender and number agreement accurate.",
+  "### Stretch",
+  "- Answer negative questions precisely with نَعَمْ or بَلَى.",
+  "- Use question intonation and follow-up questions naturally.",
+  "- Edit dialogue for particle choice, spelling and punctuation.",
+  "## Starter diagnostic",
+  "Decide whether each item is already a question and identify what must change.",
+  "## هَلْ: the reliable neutral question marker",
+  "Place هَلْ before a complete nominal or verbal sentence. Do not rebuild the sentence in English order.",
+  "TABLE: Statement | Question | What stayed the same? // أَنْتَ مُسْتَعِدٌ. | هَلْ أَنْتَ مُسْتَعِدٌ؟ | Nominal sentence order and agreement // تَذْهَبُ إِلَى الْمَدْرَسَةِ. | هَلْ تَذْهَبُ إِلَى الْمَدْرَسَةِ؟ | Present verb and encoded subject // زَارَتْ سَلْمَى جَدَّتَهَا. | هَلْ زَارَتْ سَلْمَى جَدَّتَهَا؟ | Past tense and feminine agreement // سَتُسَافِرُونَ غَدًا. | هَلْ سَتُسَافِرُونَ غَدًا؟ | Future marker and plural agreement",
+  "[callout] Pronunciation note: in careful connected speech a helping vowel may be heard before the definite article, but the written particle remains هَلْ . Focus on standard spelling and a clear rising question intonation.",
+  "## The interrogative hamza أَ",
+  "The hamza is shorter and more compact than هَلْ. It attaches to the next word and can introduce alternatives.",
+  "### Direct confirmation",
+  "أَتَعْمَلُ فِي الْمُسْتَشْفَى؟",
+  "Do you work in the hospital?",
+  "أَهَذِهِ سَيَّارَتُكِ؟",
+  "Is this your car?",
+  "### Choice with أَمْ",
+  "أَتُفَضِّلُ الشَّايَ أَمِ الْقَهْوَةَ؟",
+  "Do you prefer tea or coffee?",
+  "أَسَتَذْهَبُ الْيَوْمَ أَمْ غَدًا؟",
+  "Will you go today or tomorrow?",
+  "[callout/warning] Spelling: write أَتَذْهَبُ , not أَ تَذْهَبُ . The question hamza is a prefix.",
+  "[callout] House rule for learners: use هَلْ as the dependable neutral form. Use أَ confidently when the model is familiar, especially with أَمْ alternatives.",
+  "## Word order, tense and agreement",
+  "The particle asks the question; the verb still carries person, gender, number and time.",
+  "TABLE: Time frame | Question | Evidence // Past | هَلْ زُرْتُمْ الْمَتْحَفَ أَمْسِ؟ | زُرْتُمْ + أَمْسِ // Present/habit | هَلْ تَقْرَأِينَ كُلَّ يَوْمٍ؟ | تَقْرَأِينَ + كُلَّ يَوْمٍ // Future | هَلْ سَيَصِلُ الْقِطَارُ قَرِيبًا؟ | سَـ + مُضَارِع // Nominal state | هَلْ أَنْتُنَّ مُسْتَعِدَّاتٌ؟ | Feminine plural subject and predicate",
+  "[callout] Editing routine: remove the question marker mentally. If the remaining statement is grammatically accurate, the question is probably structurally sound.",
+  "## Answer the meaning—not only the particle",
+  "A useful response repeats enough language to confirm the information clearly.",
+  "### Positive answer",
+  "هَلْ تَلْعَبُ كُرَةَ الْقَدَمِ؟",
+  "نَعَمْ، أَلْعَبُهَا كُلَّ أُسْبُوعٍ.",
+  "Yes, I play it every week.",
+  "### Negative answer",
+  "هَلْ ذَهَبْتِ إِلَى السُّوقِ؟",
+  "لَا، لَمْ أَذْهَبْ إِلَيْهِ.",
+  "No, I did not go there.",
+  "### Answer an alternative",
+  "أَتُفَضِّلُ الْقِرَاءَةَ أَمِ السِّبَاحَةَ؟",
+  "أُفَضِّلُ الْقِرَاءَةَ لِأَنَّهَا هَادِئَةٌ.",
+  "### Extend naturally",
+  "Give the answer, then add a reason, time phrase or contrast. This turns a one-word reply into speaking evidence.",
+  "## Negative questions and بَلَى",
+  "Negative questions require careful logic because English “yes” can be ambiguous.",
+  "TABLE: Question | Response | Meaning // أَلَيْسَ الْجَوُّ جَمِيلًا؟ | بَلَى، هُوَ جَمِيلٌ. | On the contrary, yes—it is beautiful. // أَلَمْ تَزُرِ الْمَتْحَفَ؟ | بَلَى، زُرْتُهُ. | Yes, I did visit it. // أَلَيْسَ الطَّرِيقُ طَوِيلًا؟ | نَعَمْ، لَيْسَ قَصِيرًا. | Yes, it is not short / the negative statement is confirmed.",
+  "[callout/warning] Stretch distinction: بَلَى cancels the negative idea. نَعَمْ can confirm it. In ordinary IGCSE communication, avoid ambiguity by repeating a complete affirmative or negative sentence.",
+  "## Misconception clinic",
+  "Repair English transfer, duplicated markers and incomplete answers.",
+  "## Question builder game",
+  "Choose the accurate question or response before the next round appears.",
+  "## Four-skills application",
+  "Use yes/no questions to obtain, confirm and report real information.",
+  "### Listening discrimination",
+  "Ask a partner to read six statements and questions without showing the text. Identify which are questions from the particle and intonation, then write the marker you heard.",
+  "### Reading: message check",
+  "هَلْ وَصَلْتِ إِلَى الْمَحَطَّةِ؟ أَعِنْدَكِ التَّذْكِرَةُ؟ هَلْ سَيَصِلُ الْقِطَارُ فِي الْمَوْعِدِ؟",
+  "Identify the three pieces of information the sender wants confirmed.",
+  "### Speaking survey",
+  "Ask a partner six questions across school, hobbies, travel and future plans. Use هَلْ at least four times and one أَ...أَمْ alternative.",
+  "### Reporting back",
+  "Turn the answers into third-person statements, checking tense and agreement.",
+  "### Create a practical mini-interview",
+  "Write a ten-question Arabic interview for a new student, visitor or classmate, then add model answers.",
+  "[callout] Success checklist: Use six هَلْ questions, two hamza questions, one أَ...أَمْ alternative, past/present/future time frames, accurate agreement and extended answers with reasons.",
+  "## Final mastery check",
+  "Show that you can form, interpret and answer yes/no questions accurately.",
+  "### You can now",
+  "- Use هَلْ before nominal and verbal sentences.",
+  "- Attach the interrogative hamza correctly.",
+  "- Ask questions across time frames without English inversion.",
+  "- Use أَ...أَمْ for alternatives.",
+  "- Answer positively, negatively and after negative questions.",
+  "Spaced revisit: convert five statements from an earlier lesson into questions and write complete answers."
+ ]
+}

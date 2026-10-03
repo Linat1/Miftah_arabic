@@ -1,0 +1,608 @@
+{
+ "path": "lessons/grammar/06-pronouns/grammar-mastery-01-subject-pronouns.php",
+ "title": "Subject Pronouns",
+ "arabic": "",
+ "lede": "",
+ "nav": [],
+ "quizzes": [
+  {
+   "title": "🔎 Entry Check Score: 0 /6",
+   "items": [
+    {
+     "prompt": "Which pronoun means “she”?",
+     "options": [
+      "هُوَ",
+      "هِيَ",
+      "هُمْ"
+     ],
+     "answer": 1,
+     "feedback": "✔️ هِيَ means “she”. هُوَ means “he”."
+    },
+    {
+     "prompt": "You are speaking to one female student. Choose “you”.",
+     "options": [
+      "أَنْتَ",
+      "أَنْتِ",
+      "أَنْتُمْ"
+     ],
+     "answer": 1,
+     "feedback": "✔️ One female addressee = أَنْتِ . The kasra sound at the end helps distinguish it from أَنْتَ ."
+    },
+    {
+     "prompt": "Which form addresses two people of any gender?",
+     "options": [
+      "أَنْتُمَا",
+      "هُمَا",
+      "أَنْتُنَّ"
+     ],
+     "answer": 0,
+     "feedback": "✔️ أَنْتُمَا = you two. It works for two males, two females or a mixed pair."
+    },
+    {
+     "prompt": "Which pronoun refers to an all-female group?",
+     "options": [
+      "هُمْ",
+      "هُنَّ",
+      "هُمَا"
+     ],
+     "answer": 1,
+     "feedback": "✔️ هُنَّ refers to three or more females. A mixed group normally uses هُمْ ."
+    },
+    {
+     "prompt": "Complete: هِيَ ________ الْعَرَبِيَّةَ.",
+     "options": [
+      "يَدْرُسُ",
+      "تَدْرُسُ",
+      "أَدْرُسُ"
+     ],
+     "answer": 1,
+     "feedback": "✔️ “She studies” = هِيَ تَدْرُسُ . The verb begins with تـ ."
+    },
+    {
+     "prompt": "In a simple present description, which is correct?",
+     "options": [
+      "أَنَا طَالِبَةٌ.",
+      "أَنَا أَكُونُ طَالِبَةٌ.",
+      "أَنَا هُوَ طَالِبَةٌ."
+     ],
+     "answer": 0,
+     "feedback": "✔️ Arabic normally uses no separate present-tense word for “am/is/are” in a simple nominal sentence: أَنَا طَالِبَةٌ ."
+    }
+   ]
+  },
+  {
+   "title": "🧠 Mini-check — build from the clues Score: 0 /5",
+   "items": [
+    {
+     "prompt": "First person + plural",
+     "options": [
+      "أَنَا",
+      "نَحْنُ",
+      "هُمْ"
+     ],
+     "answer": 1,
+     "feedback": "✔️ The speakers include themselves: نَحْنُ = we."
+    },
+    {
+     "prompt": "Second person + singular + masculine",
+     "options": [
+      "أَنْتَ",
+      "أَنْتِ",
+      "هُوَ"
+     ],
+     "answer": 0,
+     "feedback": "✔️ You are speaking directly to one male: أَنْتَ ."
+    },
+    {
+     "prompt": "Third person + singular + feminine",
+     "options": [
+      "أَنْتِ",
+      "هُوَ",
+      "هِيَ"
+     ],
+     "answer": 2,
+     "feedback": "✔️ One female spoken about = هِيَ ."
+    },
+    {
+     "prompt": "Why are أَنَا and نَحْنُ not labelled masculine or feminine?",
+     "options": [
+      "First-person pronouns are shared by all genders",
+      "Arabic has no gender",
+      "They are always masculine"
+     ],
+     "answer": 0,
+     "feedback": "✔️ A male or female speaker says أَنَا ; any group says نَحْنُ ."
+    },
+    {
+     "prompt": "How many distinct written independent subject pronouns are there?",
+     "options": [
+      "6",
+      "12",
+      "14 different spellings"
+     ],
+     "answer": 1,
+     "feedback": "✔️ There are 12 distinct written forms arranged across 14 grammatical slots."
+    }
+   ]
+  },
+  {
+   "title": "🏠 Mini-check — build the description Score: 0 /5",
+   "items": [
+    {
+     "prompt": "She is a teacher.",
+     "options": [
+      "هُوَ مُعَلِّمٌ.",
+      "هِيَ مُعَلِّمَةٌ.",
+      "هِيَ مُعَلِّمٌ."
+     ],
+     "answer": 1,
+     "feedback": "✔️ Both pronoun and profession are feminine: هِيَ مُعَلِّمَةٌ ."
+    },
+    {
+     "prompt": "You two are friends (two females).",
+     "options": [
+      "أَنْتُمَا صَدِيقَتَانِ.",
+      "أَنْتُنَّ صَدِيقَاتٌ.",
+      "هُمَا صَدِيقَتَانِ."
+     ],
+     "answer": 0,
+     "feedback": "✔️ You are addressing exactly two people: أَنْتُمَا . Feminine dual predicate: صَدِيقَتَانِ ."
+    },
+    {
+     "prompt": "They are in the library (all-female group).",
+     "options": [
+      "هُمْ فِي الْمَكْتَبَةِ.",
+      "هُنَّ فِي الْمَكْتَبَةِ.",
+      "أَنْتُنَّ فِي الْمَكْتَبَةِ."
+     ],
+     "answer": 1,
+     "feedback": "✔️ An all-female group spoken about = هُنَّ ."
+    },
+    {
+     "prompt": "Which sentence correctly means “I am a student” for a female speaker?",
+     "options": [
+      "أَنَا طَالِبَةٌ.",
+      "أَنَا هِيَ طَالِبَةٌ.",
+      "أَنَا يَكُونُ طَالِبَةٌ."
+     ],
+     "answer": 0,
+     "feedback": "✔️ أَنَا is shared by male and female speakers; the predicate shows the speaker’s gender."
+    },
+    {
+     "prompt": "Ali, Sara and Mona are students. Which pronoun refers to the mixed group?",
+     "options": [
+      "هُمْ",
+      "هُنَّ",
+      "هُمَا"
+     ],
+     "answer": 0,
+     "feedback": "✔️ Three people form a plural group, and a mixed group normally uses هُمْ ."
+    }
+   ]
+  },
+  {
+   "title": "⚡ Mini-check — agreement detective Score: 0 /6",
+   "items": [
+    {
+     "prompt": "أَنْتِ ________ رِسَالَةً.",
+     "options": [
+      "تَكْتُبُ",
+      "تَكْتُبِينَ",
+      "يَكْتُبُونَ"
+     ],
+     "answer": 1,
+     "feedback": "✔️ One female addressed: أَنْتِ تَكْتُبِينَ ."
+    },
+    {
+     "prompt": "هُمْ ________ إِلَى الْمَدْرَسَةِ.",
+     "options": [
+      "يَذْهَبُونَ",
+      "تَذْهَبْنَ",
+      "يَذْهَبَانِ"
+     ],
+     "answer": 0,
+     "feedback": "✔️ Masculine/mixed plural third person: هُمْ يَذْهَبُونَ ."
+    },
+    {
+     "prompt": "Two sisters are studying. Complete: هُمَا ________.",
+     "options": [
+      "يَدْرُسَانِ",
+      "تَدْرُسَانِ",
+      "يَدْرُسْنَ"
+     ],
+     "answer": 1,
+     "feedback": "✔️ Two females: هُمَا تَدْرُسَانِ ."
+    },
+    {
+     "prompt": "Which sentence is accurate?",
+     "options": [
+      "هِيَ يَذْهَبُ.",
+      "هِيَ تَذْهَبُ.",
+      "هِيَ تَذْهَبِينَ."
+     ],
+     "answer": 1,
+     "feedback": "✔️ “She goes” = هِيَ تَذْهَبُ ."
+    },
+    {
+     "prompt": "Which sentence means “You all write” to an all-female group?",
+     "options": [
+      "أَنْتُنَّ تَكْتُبْنَ.",
+      "أَنْتُمْ تَكْتُبُونَ.",
+      "هُنَّ يَكْتُبْنَ."
+     ],
+     "answer": 0,
+     "feedback": "✔️ Addressed female plural: أَنْتُنَّ تَكْتُبْنَ ."
+    },
+    {
+     "prompt": "Why can أَدْرُسُ الْعَرَبِيَّةَ stand without أَنَا ?",
+     "options": [
+      "The verb prefix already identifies “I”",
+      "Arabic never uses subject pronouns",
+      "The sentence has no subject"
+     ],
+     "answer": 0,
+     "feedback": "✔️ The subject is built into the verb form. The explicit pronoun remains useful for contrast, emphasis or clarity."
+    }
+   ]
+  },
+  {
+   "title": "📖 Reading detective Score: 0 /5",
+   "items": [
+    {
+     "prompt": "Who does the first هُوَ refer to?",
+     "options": [
+      "Layla’s father",
+      "Layla’s mother",
+      "Layla"
+     ],
+     "answer": 0,
+     "feedback": "✔️ The text says هُوَ أَبِي — he is my father."
+    },
+    {
+     "prompt": "هُمَا طَالِبَانِ refers to:",
+     "options": [
+      "the two brothers",
+      "the two sisters",
+      "the parents"
+     ],
+     "answer": 0,
+     "feedback": "✔️ Masculine dual طَالِبَانِ follows أَخَوَانِ ."
+    },
+    {
+     "prompt": "Why is the later verb تَقْرَآنِ rather than يَقْرَآنِ ?",
+     "options": [
+      "It refers to two females",
+      "It refers to one male",
+      "All dual verbs begin with ت"
+     ],
+     "answer": 0,
+     "feedback": "✔️ The subject is the two sisters, so feminine dual uses تَـ...ـَانِ ."
+    },
+    {
+     "prompt": "Who is included in نَحْنُ نَذْهَبُ ?",
+     "options": [
+      "Only the brothers",
+      "Layla and her family",
+      "Only the parents"
+     ],
+     "answer": 1,
+     "feedback": "✔️ نَحْنُ includes the speaker, Layla, and the family group in context."
+    },
+    {
+     "prompt": "Which pronoun occurs with both masculine and feminine dual descriptions?",
+     "options": [
+      "هُمَا",
+      "هُمْ",
+      "هُنَّ"
+     ],
+     "answer": 0,
+     "feedback": "✔️ هُمَا is shared by both genders; the following words show the distinction."
+    }
+   ]
+  },
+  {
+   "title": "👂 Listening check Score: 0 /5",
+   "items": [
+    {
+     "prompt": "Who says أَنَا ?",
+     "options": [
+      "Yusuf",
+      "Omar",
+      "Maryam"
+     ],
+     "answer": 0,
+     "feedback": "✔️ The speaker introduces himself: أَنَا يُوسُفُ ."
+    },
+    {
+     "prompt": "Who does هُوَ describe?",
+     "options": [
+      "Yusuf",
+      "Omar",
+      "Maryam"
+     ],
+     "answer": 1,
+     "feedback": "✔️ هٰذَا صَدِيقِي عُمَرُ، وَهُوَ..."
+    },
+    {
+     "prompt": "هِيَ تَدْرُسُ الْعَرَبِيَّةَ refers to:",
+     "options": [
+      "Maryam",
+      "Omar",
+      "the two new students"
+     ],
+     "answer": 0,
+     "feedback": "✔️ Maryam is Yusuf’s sister and studies Arabic."
+    },
+    {
+     "prompt": "The three new students are referred to as:",
+     "options": [
+      "هُمْ",
+      "هُنَّ",
+      "هُمَا"
+     ],
+     "answer": 0,
+     "feedback": "✔️ A plural student group described with the masculine/mixed form uses هُمْ ."
+    },
+    {
+     "prompt": "What shows that the final هُمَا refers to two females?",
+     "options": [
+      "مُجْتَهِدَتَانِ / تَتَكَلَّمَانِ",
+      "طُلَّابٍ / هُمْ",
+      "هُوَ / يُحِبُّ"
+     ],
+     "answer": 0,
+     "feedback": "✔️ The feminine dual adjective and the verb beginning with تـ reveal the referents’ gender."
+    }
+   ]
+  },
+  {
+   "title": "",
+   "items": []
+  },
+  {
+   "title": "🏆 Final Mastery Challenge Score: 0 /10",
+   "items": [
+    {
+     "prompt": "“You two” =",
+     "options": [
+      "هُمَا",
+      "أَنْتُمَا",
+      "أَنْتُمْ"
+     ],
+     "answer": 1,
+     "feedback": "✔️ Second-person dual: أَنْتُمَا ."
+    },
+    {
+     "prompt": "An all-female group says “we”. Which pronoun?",
+     "options": [
+      "نَحْنُ",
+      "هُنَّ",
+      "أَنْتُنَّ"
+     ],
+     "answer": 0,
+     "feedback": "✔️ First-person plural has no gender distinction: نَحْنُ ."
+    },
+    {
+     "prompt": "Choose: “They two are doctors” for two women.",
+     "options": [
+      "هُمَا طَبِيبَتَانِ.",
+      "هُنَّ طَبِيبَتَانِ.",
+      "هُمَا طَبِيبَانِ."
+     ],
+     "answer": 0,
+     "feedback": "✔️ Pronoun هُمَا ; feminine dual predicate طَبِيبَتَانِ ."
+    },
+    {
+     "prompt": "Complete: أَنْتُمْ ________ الْعَرَبِيَّةَ.",
+     "options": [
+      "تَدْرُسُونَ",
+      "يَدْرُسُونَ",
+      "تَدْرُسْنَ"
+     ],
+     "answer": 0,
+     "feedback": "✔️ Addressed masculine/mixed plural: أَنْتُمْ تَدْرُسُونَ ."
+    },
+    {
+     "prompt": "Two girls write. Choose the full sentence.",
+     "options": [
+      "هُمَا تَكْتُبَانِ.",
+      "هُمَا يَكْتُبَانِ.",
+      "هُنَّ تَكْتُبَانِ."
+     ],
+     "answer": 0,
+     "feedback": "✔️ Feminine dual third person: هُمَا تَكْتُبَانِ ."
+    },
+    {
+     "prompt": "Which sentence is a correct simple nominal sentence?",
+     "options": [
+      "نَحْنُ فِي الْمَدْرَسَةِ.",
+      "نَحْنُ يَكُونُ فِي الْمَدْرَسَةِ.",
+      "نَحْنُ هُمْ فِي الْمَدْرَسَةِ."
+     ],
+     "answer": 0,
+     "feedback": "✔️ No separate present copula is required."
+    },
+    {
+     "prompt": "Which pronoun normally refers to Ali, Sara and Fatima together?",
+     "options": [
+      "هُمْ",
+      "هُنَّ",
+      "هُمَا"
+     ],
+     "answer": 0,
+     "feedback": "✔️ A mixed plural human group normally takes هُمْ ."
+    },
+    {
+     "prompt": "Which statement is most accurate?",
+     "options": [
+      "Arabic verbs can identify the subject, so a separate pronoun may be omitted",
+      "Arabic never uses subject pronouns with verbs",
+      "Every Arabic verb must begin with a pronoun"
+     ],
+     "answer": 0,
+     "feedback": "✔️ Explicit pronouns are used when helpful, but the verb form often carries subject information."
+    },
+    {
+     "prompt": "What does أَنْتُنَّ تَذْهَبْنَ mean?",
+     "options": [
+      "They go, all female",
+      "You all go, all female",
+      "You two go"
+     ],
+     "answer": 1,
+     "feedback": "✔️ أَنْتُنَّ is addressed feminine plural."
+    },
+    {
+     "prompt": "Why are there 14 grammatical slots but only 12 different written forms?",
+     "options": [
+      "The two dual pronouns serve both genders",
+      "Two pronouns are optional",
+      "Arabic has two spellings for every pronoun"
+     ],
+     "answer": 0,
+     "feedback": "✔️ أَنْتُمَا and هُمَا each occupy masculine and feminine dual slots."
+    }
+   ]
+  }
+ ],
+ "games": [],
+ "blocks": [
+  "## Pronouns tell us who is speaking and who is being described",
+  "English often hides gender and number inside one word such as you . Arabic makes those distinctions visible. A correct pronoun helps you understand a text, follow a listening passage, choose the right verb form and write with precision.",
+  "### 👂 Track speakers",
+  "In listening and reading, pronouns help you work out whether the speaker means one person, two people or a whole group.",
+  "### 🧩 Control agreement",
+  "The pronoun controls verb prefixes and endings, and it affects nouns and adjectives used to describe the subject.",
+  "### 💬 Communicate naturally",
+  "Use أَنَا، نَحْنُ، هُوَ، هِيَ، هُمْ and the other forms to introduce, compare, explain and refer back to people.",
+  "[callout] The big English–Arabic difference English has one general word “you”. Arabic has five: أَنْتَ، أَنْتِ، أَنْتُمَا، أَنْتُمْ، أَنْتُنَّ . You must decide gender and number before choosing.",
+  "## Use the chapter at the depth you need",
+  "You do not have to complete every section at once. Revise the Core route first, then deepen or stretch when you are ready.",
+  "### Recognise and choose",
+  "- Identify the 12 written forms.",
+  "- Choose by person, gender and number.",
+  "- Build simple present descriptions.",
+  "### Apply and agree",
+  "- Use pronouns with present-tense verbs.",
+  "- Track references in short texts.",
+  "- Use dual and plural forms accurately.",
+  "### Explain and refine",
+  "- Know when an explicit pronoun may be omitted.",
+  "- Handle feminine dual verb agreement.",
+  "- Recognise non-human plural agreement.",
+  "## What do you already know?",
+  "Answer without looking ahead. The explanations will tell you what to revisit.",
+  "## Every pronoun answers three questions",
+  "Do not memorise the list as twelve unrelated words. Build each form from person + number + gender .",
+  "### 1️⃣ Person",
+  "First person: the speaker — I / we. Second person: the person addressed — you. Third person: someone spoken about — he / she / they.",
+  "### 2️⃣ Number",
+  "Singular: one. Dual: exactly two. Plural: three or more.",
+  "### 3️⃣ Gender",
+  "Arabic distinguishes masculine and feminine in many second- and third-person forms. First-person pronouns do not change for gender.",
+  "[callout] 14 slots but 12 written forms Traditional grammar often displays fourteen person–gender–number slots. Two forms are written twice because they serve both masculine and feminine dual: أَنْتُمَا and هُمَا . Therefore, you learn 12 distinct written forms .",
+  "### Core six Start with the forms used most often in early communication",
+  "### First person",
+  "### Second person",
+  "### Third person",
+  "Related game practice",
+  "## Singular, dual and plural forms",
+  "Learn the full system as a grid. The dual forms are especially important because English usually uses the same word for one person, two people and a group.",
+  "TABLE: Person | Number / gender | Arabic | Meaning | Useful note // 1st | singular | أَنَا | I | No gender distinction // 1st | plural | نَحْنُ | we | No gender distinction; includes the speaker // 2nd | singular masculine | أَنْتَ | you | Addressing one male // 2nd | singular feminine | أَنْتِ | you | Addressing one female // 2nd | dual, both genders | أَنْتُمَا | you two | Two males, two females or a mixed pair // 2nd | masculine / mixed plural | أَنْتُمْ | you all | All-male or mixed group // 2nd | feminine plural | أَنْتُنَّ | you all | All-female group // 3rd | singular masculine | هُوَ | he | One male spoken about // 3rd | singular feminine | هِيَ | she | One female spoken about // 3rd | dual, both genders | هُمَا | they two | The following verb/adjective may reveal gender // 3rd | masculine / mixed plural | هُمْ | they | All-male or mixed group // 3rd | feminine plural | هُنَّ | they | All-female group",
+  "### 👥 Mixed groups",
+  "When a group contains males and females, standard Arabic normally uses the masculine plural form:",
+  "[example] عَلِيٌّ وَمَرْيَمُ وَسَلْمَىٰ؟ هُمْ طُلَّابٌ. Ali, Maryam and Salma? They are students.",
+  "### 2️⃣ The dual",
+  "هُمَا and أَنْتُمَا do not themselves show gender. Later agreement may show it:",
+  "[example] هُمَا مُجْتَهِدَانِ. They two are hardworking (masculine/mixed).",
+  "[example] هُمَا مُجْتَهِدَتَانِ. They two are hardworking (feminine).",
+  "## Arabic normally needs no separate “am, is or are” in a simple present description",
+  "A pronoun can be the topic of a present-time nominal sentence. Put the information directly after it.",
+  "[ar] هِيَ",
+  "[ar] طَالِبَةٌ مُجْتَهِدَةٌ",
+  "### Pronoun + noun",
+  "[example] هُوَ مُهَنْدِسٌ. He is an engineer.",
+  "[example] هُنَّ طَالِبَاتٌ. They are students (all female).",
+  "### Pronoun + adjective",
+  "[example] أَنْتَ مُجْتَهِدٌ. You are hardworking (one male).",
+  "[example] أَنْتِ مُجْتَهِدَةٌ. You are hardworking (one female).",
+  "### Pronoun + place phrase",
+  "[example] نَحْنُ فِي الْفَصْلِ. We are in the classroom.",
+  "[example] هُمْ مِنْ لَنْدَنَ. They are from London.",
+  "[callout] Accurate, not absolute This rule applies to a simple present-time nominal sentence . Arabic can express “was” with كَانَ and present negation with لَيْسَ , but those belong to later grammar study. Do not translate English “am/is/are” word for word here.",
+  "### 🧱 Interactive Sentence Builder",
+  "Select a pronoun and a description. The builder will show an accurate model and explain the agreement.",
+  "Related game practice",
+  "## The pronoun controls the present-tense verb form",
+  "The beginning and ending of the verb reveal person, number and often gender. This is why the subject pronoun may sometimes be left unstated when the verb already makes the subject clear.",
+  "[callout] Important usage note أَدْرُسُ الْعَرَبِيَّةَ. already means “I study Arabic.” Adding أَنَا is correct when you want clarity, contrast or emphasis: أَنَا أَدْرُسُ الْعَرَبِيَّةَ، وَهُوَ يَدْرُسُ الْفَرَنْسِيَّةَ.",
+  "TABLE: Pronoun | Meaning | Verb form: دَرَسَ / يَدْرُسُ | Pattern to notice // أَنَا | I | أَدْرُسُ | أَـ // نَحْنُ | we | نَدْرُسُ | نَـ // أَنْتَ | you m. sg. | تَدْرُسُ | تَـ // أَنْتِ | you f. sg. | تَدْرُسِينَ | تَـ...ـِينَ // أَنْتُمَا | you two | تَدْرُسَانِ | تَـ...ـَانِ // أَنْتُمْ | you m./mixed pl. | تَدْرُسُونَ | تَـ...ـُونَ // أَنْتُنَّ | you f. pl. | تَدْرُسْنَ | تَـ...ـْنَ // هُوَ | he | يَدْرُسُ | يَـ // هِيَ | she | تَدْرُسُ | تَـ // هُمَا | they two, m./mixed | يَدْرُسَانِ | يَـ...ـَانِ // هُمَا | they two, f. | تَدْرُسَانِ | تَـ...ـَانِ // هُمْ | they m./mixed pl. | يَدْرُسُونَ | يَـ...ـُونَ // هُنَّ | they f. pl. | يَدْرُسْنَ | يَـ...ـْنَ",
+  "### Same-looking verb forms",
+  "أَنْتَ تَدْرُسُ and هِيَ تَدْرُسُ share the same verb form. Context or the explicit pronoun tells you whether it means “you study” or “she studies”.",
+  "### The feminine dual detail",
+  "The pronoun stays هُمَا , but two females take تَدْرُسَانِ ; two males or a mixed pair take يَدْرُسَانِ .",
+  "### ⚙️ Interactive Verb Agreement Lab",
+  "Choose a pronoun, gender detail where needed, and a verb. Notice the prefix and ending.",
+  "Related game practice",
+  "## Use pronouns to understand and communicate",
+  "Grammar becomes memorable when it carries meaning. Work through the reading, listening, speaking and writing tasks at your own pace.",
+  "### Reading workshop Who does each pronoun refer to?",
+  "[example] أَنَا لَيْلَىٰ، وَأَنَا طَالِبَةٌ فِي مَدْرَسَةٍ فِي لَنْدَنَ. أَعِيشُ مَعَ أُسْرَتِي. هُوَ أَبِي، وَهُوَ مُهَنْدِسٌ. هِيَ أُمِّي، وَهِيَ مُعَلِّمَةٌ. لِي أَخَوَانِ. هُمَا طَالِبَانِ، وَهُمَا يُحِبَّانِ الرِّيَاضَةَ. لِي أُخْتَانِ أَيْضًا. هُمَا مُجْتَهِدَتَانِ، وَهُمَا تَقْرَآنِ كُلَّ يَوْمٍ. فِي نِهَايَةِ الْأُسْبُوعِ نَحْنُ نَذْهَبُ إِلَى الْحَدِيقَةِ.",
+  "Later-stage reading may contain fewer vowel marks in an examination. This supported version keeps the target grammar visible.",
+  "### Listening studio Track the people",
+  "Listen twice without looking. Then answer the questions and use the script to check and repair your answers.",
+  "### Speaking studio Introduce your circle",
+  "Prepare a short spoken introduction about yourself and people around you. Use at least six different pronouns.",
+  "[callout] Required Arabic evidence أَنَا... / نَحْنُ... / هُوَ... / هِيَ... / هُمَا... / هُمْ أَوْ هُنَّ...",
+  "- Include one nominal sentence.",
+  "- Include one present-tense verb sentence.",
+  "- Include a dual or plural form.",
+  "- Answer one audience question: مَنْ هُوَ؟ مَنْ هِيَ؟ مَنْ هُمْ؟",
+  "### Writing workshop My family or class",
+  "Write 7–10 connected sentences. Avoid repeating names by using pronouns carefully.",
+  "### Listening",
+  "Track who each pronoun refers to as speakers mention family, friends, classmates and groups.",
+  "### Reading",
+  "Use pronouns and agreement clues to follow references across a text.",
+  "### Speaking",
+  "Move naturally between أَنَا , نَحْنُ , and third-person forms when extending answers.",
+  "### Writing",
+  "Reduce repetition, connect ideas and maintain accurate subject–verb agreement.",
+  "Related game practice",
+  "## Learn by playing with real Arabic",
+  "These activities use familiar language to strengthen the grammar. Move from recognition to construction, explanation and mastery.",
+  "Each preserved game now appears beside the language point it practises.",
+  "## Repair the mistakes students make most often",
+  "### ❌ Confusing أَنْتَ and أَنْتِ",
+  "Choose by the person you are addressing, not by the speaker.",
+  "[example] يَا مَرْيَمُ، أَنْتِ مُجْتَهِدَةٌ.",
+  "### ❌ Using هُنَّ for a mixed group",
+  "هُنَّ is for an all-female human group. A mixed group normally uses هُمْ .",
+  "### ❌ Mismatching the verb",
+  "Do not write هِيَ يَدْرُسُ . Use هِيَ تَدْرُسُ .",
+  "### ❌ Translating “is” literally",
+  "For a simple present description, write هُوَ طَالِبٌ , not a word-for-word English structure.",
+  "### ❌ Treating dual as plural",
+  "Exactly two people need أَنْتُمَا / هُمَا , not أَنْتُمْ / هُمْ .",
+  "### ❌ Overusing explicit pronouns",
+  "Explicit pronouns are correct, but a verb may already contain the subject. Use the pronoun when it adds clarity, contrast or emphasis.",
+  "[callout] Stretch: non-human plurals Plural nouns for non-human things often take feminine singular agreement: الْكُتُبُ جَدِيدَةٌ. هِيَ مُفِيدَةٌ. This is an important later pattern. Do not use هُنَّ merely because there are several books.",
+  "## 🎮 Who Is It? — اِخْتَرِ الضَّمِيرَ!",
+  "A scene appears: some people, and your relationship to them — are you speaking , speaking to them, or speaking about them? Run the three questions and pick the pronoun. Eight rounds. 👥 Breakout teams — the dual rounds separate the champions!",
+  "## Your complete revision summary",
+  "### Choose the pronoun",
+  "Person → number → gender. Decide in that order.",
+  "### Build a description",
+  "Pronoun + noun, adjective or place phrase. No separate present “am/is/are”.",
+  "### Agree the verb",
+  "Check the present-tense prefix and ending, especially dual and feminine plural.",
+  "### ➡️ Bridge to Lesson 2",
+  "Independent pronouns can become a map for attached possessive endings:",
+  "[example] أَنَا ← كِتَابِي I → my book",
+  "[example] هُوَ ← كِتَابُهُ he → his book",
+  "### ✅ Exit reflection",
+  "Complete aloud or in writing:",
+  "[example] أَسْتَطِيعُ أَنْ أَسْتَعْمِلَ الضَّمَائِرَ لِـ... I can use pronouns to...",
+  "Choose one next step: revise the table, repeat a game, repair verb agreement, or complete the speaking task."
+ ]
+}

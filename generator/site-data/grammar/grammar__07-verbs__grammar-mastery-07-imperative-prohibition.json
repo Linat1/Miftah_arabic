@@ -1,0 +1,531 @@
+{
+ "path": "lessons/grammar/07-verbs/grammar-mastery-07-imperative-prohibition.php",
+ "title": "Imperatives and Negative Commands",
+ "arabic": "فِعْلُ الْأَمْرِ وَالنَّهْيُ",
+ "lede": "Derive and use commands for singular, dual and plural addressees, and form accurate prohibitions with لا الناهية and the jussive.",
+ "nav": [
+  [
+   "GM-V-06",
+   "Future Tense and Future Negation"
+  ]
+ ],
+ "quizzes": [
+  {
+   "title": "🔎 Entry Check",
+   "items": [
+    {
+     "prompt": "Choose the command “Write!” to one male.",
+     "options": [
+      "اُكْتُبْ",
+      "تَكْتُبُ",
+      "كَتَبَ"
+     ],
+     "answer": 0,
+     "feedback": "The masculine singular imperative is اُكْتُبْ."
+    },
+    {
+     "prompt": "Choose “Write!” to one female.",
+     "options": [
+      "اُكْتُبِي",
+      "اُكْتُبْ",
+      "تَكْتُبِينَ"
+     ],
+     "answer": 0,
+     "feedback": "The feminine singular command takes ـي."
+    },
+    {
+     "prompt": "Choose “Write!” to a masculine/mixed group.",
+     "options": [
+      "اُكْتُبُوا",
+      "اُكْتُبْنَ",
+      "تَكْتُبُونَ"
+     ],
+     "answer": 0,
+     "feedback": "The group imperative takes ـوا."
+    },
+    {
+     "prompt": "Choose “Do not write!” to one male.",
+     "options": [
+      "لَا تَكْتُبْ",
+      "لَا تَكْتُبُ",
+      "لَنْ تَكْتُبَ"
+     ],
+     "answer": 0,
+     "feedback": "Prohibition uses لا الناهية + jussive."
+    },
+    {
+     "prompt": "Choose “Do not write!” to one female.",
+     "options": [
+      "لَا تَكْتُبِي",
+      "لَا تَكْتُبِينَ",
+      "لَنْ تَكْتُبِي"
+     ],
+     "answer": 0,
+     "feedback": "The nūn drops in the jussive five-verb form."
+    },
+    {
+     "prompt": "A polite instruction can use…",
+     "options": [
+      "مِنْ فَضْلِكَ + imperative",
+      "a random past form",
+      "لن + imperative"
+     ],
+     "answer": 0,
+     "feedback": "Politeness can be added without changing the core command grammar."
+    }
+   ]
+  },
+  {
+   "title": "🛠️ Build the Imperative",
+   "items": [
+    {
+     "prompt": "Imperative of يَفْتَحُ",
+     "options": [
+      "اِفْتَحْ",
+      "اُفْتُحْ",
+      "فَتَحَ"
+     ],
+     "answer": 0,
+     "feedback": "Common command: اِفْتَحْ."
+    },
+    {
+     "prompt": "Imperative of يَقْرَأُ",
+     "options": [
+      "اِقْرَأْ",
+      "اُقْرُؤْ",
+      "قَرَأَ"
+     ],
+     "answer": 0,
+     "feedback": "Common command: اِقْرَأْ."
+    },
+    {
+     "prompt": "Imperative of يَخْرُجُ",
+     "options": [
+      "اُخْرُجْ",
+      "اِخْرَجْ",
+      "خَرَجَ"
+     ],
+     "answer": 0,
+     "feedback": "Common command: اُخْرُجْ."
+    },
+    {
+     "prompt": "Best study method",
+     "options": [
+      "learn present + imperative pair",
+      "guess the opening vowel every time",
+      "use past instead"
+     ],
+     "answer": 0,
+     "feedback": "The lexical pair protects accuracy."
+    }
+   ]
+  },
+  {
+   "title": "👥 Command Audience Check",
+   "items": [
+    {
+     "prompt": "“Go!” to one female",
+     "options": [
+      "اِذْهَبِي",
+      "اِذْهَبْ",
+      "تَذْهَبِينَ"
+     ],
+     "answer": 0,
+     "feedback": "Feminine singular command."
+    },
+    {
+     "prompt": "“Read!” to two people",
+     "options": [
+      "اِقْرَآ",
+      "اِقْرَأُوا",
+      "اِقْرَئِي"
+     ],
+     "answer": 0,
+     "feedback": "Dual imperative; the hamza spelling contracts with alif."
+    },
+    {
+     "prompt": "“Write!” to a feminine group",
+     "options": [
+      "اُكْتُبْنَ",
+      "اُكْتُبُوا",
+      "اُكْتُبِي"
+     ],
+     "answer": 0,
+     "feedback": "Feminine plural ending ـنَ."
+    },
+    {
+     "prompt": "“Open!” to a group",
+     "options": [
+      "اِفْتَحُوا",
+      "اِفْتَحْنَ only",
+      "تَفْتَحُونَ"
+     ],
+     "answer": 0,
+     "feedback": "Masculine/mixed plural imperative."
+    }
+   ]
+  },
+  {
+   "title": "⛔ Prohibition Check",
+   "items": [
+    {
+     "prompt": "“Do not be late!” m.s.",
+     "options": [
+      "لَا تَتَأَخَّرْ",
+      "لَا تَتَأَخَّرُ",
+      "لَنْ تَتَأَخَّرَ"
+     ],
+     "answer": 0,
+     "feedback": "Prohibitive لا + jussive."
+    },
+    {
+     "prompt": "“Do not be late!” f.s.",
+     "options": [
+      "لَا تَتَأَخَّرِي",
+      "لَا تَتَأَخَّرِينَ",
+      "لَنْ تَتَأَخَّرِي"
+     ],
+     "answer": 0,
+     "feedback": "Nūn drops."
+    },
+    {
+     "prompt": "“Do not leave!” group",
+     "options": [
+      "لَا تَخْرُجُوا",
+      "لَا تَخْرُجُونَ",
+      "لَنْ تَخْرُجُوا"
+     ],
+     "answer": 0,
+     "feedback": "Jussive five-verb form."
+    },
+    {
+     "prompt": "Which is future negation, not prohibition?",
+     "options": [
+      "لَنْ تَكْتُبَ",
+      "لَا تَكْتُبْ",
+      "اُكْتُبْ"
+     ],
+     "answer": 0,
+     "feedback": "لن refers to future non-occurrence."
+    }
+   ]
+  },
+  {
+   "title": "🧭 Functional Command Check",
+   "items": [
+    {
+     "prompt": "Best polite request to one female",
+     "options": [
+      "مِنْ فَضْلِكِ، اِفْتَحِي النَّافِذَةَ.",
+      "اِفْتَحْ النَّافِذَةَ.",
+      "لَنْ تَفْتَحِي النَّافِذَةَ."
+     ],
+     "answer": 0,
+     "feedback": "Correct feminine form and politeness."
+    },
+    {
+     "prompt": "Best road prohibition to a group",
+     "options": [
+      "لَا تَقِفُوا هُنَا.",
+      "لَا تَقِفُونَ هُنَا.",
+      "قِفُوا هُنَا."
+     ],
+     "answer": 0,
+     "feedback": "Do not stand/park here."
+    },
+    {
+     "prompt": "Best direction to one male",
+     "options": [
+      "اِذْهَبْ مُسْتَقِيمًا.",
+      "تَذْهَبُ مُسْتَقِيمًا.",
+      "ذَهَبَ مُسْتَقِيمًا."
+     ],
+     "answer": 0,
+     "feedback": "Direct command."
+    },
+    {
+     "prompt": "Best formal notice",
+     "options": [
+      "يُرْجَى عَدَمُ التَّدْخِينِ.",
+      "اُدْخُنْ.",
+      "لَنْ تُدَخِّنَ غَدًا."
+     ],
+     "answer": 0,
+     "feedback": "Impersonal formal prohibition/request."
+    }
+   ]
+  },
+  {
+   "title": "⭐ Imperative Mastery",
+   "items": [
+    {
+     "prompt": "Write! m.s.",
+     "options": [
+      "اُكْتُبْ",
+      "تَكْتُبُ",
+      "كَتَبَ"
+     ],
+     "answer": 0,
+     "feedback": "Imperative."
+    },
+    {
+     "prompt": "Write! f.s.",
+     "options": [
+      "اُكْتُبِي",
+      "اُكْتُبْ",
+      "تَكْتُبِينَ"
+     ],
+     "answer": 0,
+     "feedback": "Feminine ending."
+    },
+    {
+     "prompt": "Write! dual",
+     "options": [
+      "اُكْتُبَا",
+      "اُكْتُبُوا",
+      "تَكْتُبَانِ"
+     ],
+     "answer": 0,
+     "feedback": "Dual."
+    },
+    {
+     "prompt": "Write! group",
+     "options": [
+      "اُكْتُبُوا",
+      "اُكْتُبْنَ",
+      "يَكْتُبُونَ"
+     ],
+     "answer": 0,
+     "feedback": "m./mixed plural."
+    },
+    {
+     "prompt": "Write! f. group",
+     "options": [
+      "اُكْتُبْنَ",
+      "اُكْتُبُوا",
+      "تَكْتُبْنَ"
+     ],
+     "answer": 0,
+     "feedback": "feminine plural imperative."
+    },
+    {
+     "prompt": "Do not write! m.s.",
+     "options": [
+      "لَا تَكْتُبْ",
+      "لَا تَكْتُبُ",
+      "لَنْ تَكْتُبَ"
+     ],
+     "answer": 0,
+     "feedback": "Jussive prohibition."
+    },
+    {
+     "prompt": "Do not write! f.s.",
+     "options": [
+      "لَا تَكْتُبِي",
+      "لَا تَكْتُبِينَ",
+      "لَنْ تَكْتُبِي"
+     ],
+     "answer": 0,
+     "feedback": "Nūn drops."
+    },
+    {
+     "prompt": "Do not write! group",
+     "options": [
+      "لَا تَكْتُبُوا",
+      "لَا تَكْتُبُونَ",
+      "لَنْ تَكْتُبُوا"
+     ],
+     "answer": 0,
+     "feedback": "Prohibition."
+    },
+    {
+     "prompt": "Take! m.s.",
+     "options": [
+      "خُذْ",
+      "اِأْخُذْ",
+      "أَخَذَ"
+     ],
+     "answer": 0,
+     "feedback": "Irregular command."
+    },
+    {
+     "prompt": "Polite request",
+     "options": [
+      "مِنْ فَضْلِكِ، اِجْلِسِي.",
+      "جَلَسْتِ!",
+      "لَنْ تَجْلِسِي."
+     ],
+     "answer": 0,
+     "feedback": "Feminine polite command."
+    }
+   ]
+  }
+ ],
+ "games": [
+  [
+   {
+    "p": "Write! (m.s.)",
+    "a": "اُكْتُبْ",
+    "choices": [
+     "اُكْتُبْ",
+     "تَكْتُبُ",
+     "كَتَبَ"
+    ],
+    "e": "Masculine singular command."
+   },
+   {
+    "p": "Write! (f.s.)",
+    "a": "اُكْتُبِي",
+    "choices": [
+     "اُكْتُبِي",
+     "اُكْتُبْ",
+     "تَكْتُبِينَ"
+    ],
+    "e": "Feminine command."
+   },
+   {
+    "p": "Read! (group)",
+    "a": "اِقْرَؤُوا",
+    "choices": [
+     "اِقْرَؤُوا",
+     "اِقْرَأْنَ",
+     "يَقْرَؤُونَ"
+    ],
+    "e": "Masculine/mixed group."
+   },
+   {
+    "p": "Do not write! (m.s.)",
+    "a": "لَا تَكْتُبْ",
+    "choices": [
+     "لَا تَكْتُبْ",
+     "لَا تَكْتُبُ",
+     "لَنْ تَكْتُبَ"
+    ],
+    "e": "Prohibition."
+   },
+   {
+    "p": "Do not write! (f.s.)",
+    "a": "لَا تَكْتُبِي",
+    "choices": [
+     "لَا تَكْتُبِي",
+     "لَا تَكْتُبِينَ",
+     "لَنْ تَكْتُبِي"
+    ],
+    "e": "Jussive nūn deletion."
+   },
+   {
+    "p": "Do not leave! (group)",
+    "a": "لَا تَخْرُجُوا",
+    "choices": [
+     "لَا تَخْرُجُوا",
+     "لَا تَخْرُجُونَ",
+     "لَنْ تَخْرُجُوا"
+    ],
+    "e": "Negative command."
+   },
+   {
+    "p": "Go! (dual)",
+    "a": "اِذْهَبَا",
+    "choices": [
+     "اِذْهَبَا",
+     "اِذْهَبُوا",
+     "تَذْهَبَانِ"
+    ],
+    "e": "Dual command."
+   },
+   {
+    "p": "Take! (m.s.)",
+    "a": "خُذْ",
+    "choices": [
+     "خُذْ",
+     "اِأْخُذْ",
+     "أَخَذَ"
+    ],
+    "e": "Irregular imperative."
+   }
+  ]
+ ],
+ "blocks": [
+  "## Why this matters لِمَاذَا نَحْتَاجُ إِلَى الْأَمْرِ وَالنَّهْيِ؟",
+  "Commands and prohibitions appear in role plays, signs, directions, recipes, instructions and everyday requests.",
+  "### Core",
+  "Use core masculine and feminine singular commands.",
+  "### Develop",
+  "Control dual, masculine/mixed plural and feminine plural commands and prohibitions.",
+  "### Stretch",
+  "Explain derivation from the jussive and choose a suitable tone or formal alternative.",
+  "[callout] Communication target: Give clear, polite instructions that another person can follow successfully.",
+  "## Diagnostic start",
+  "Test positive and negative instructions.",
+  "## How the imperative is built",
+  "The imperative is based on second-person present/jussive forms, not on the English command.",
+  "[callout] Derivation route: Start from the second-person jussive present, remove the prefix تـ , then add a helping vowel if the word would begin with a difficult consonant cluster.",
+  "TABLE: Step | كَتَبَ / يَكْتُبُ | دَرَسَ / يَدْرُسُ | جَلَسَ / يَجْلِسُ // 2nd person present | تَكْتُبُ | تَدْرُسُ | تَجْلِسُ // jussive base | تَكْتُبْ | تَدْرُسْ | تَجْلِسْ // remove تـ | كْتُبْ | دْرُسْ | جْلِسْ // imperative | اُكْتُبْ | اُدْرُسْ | اِجْلِسْ",
+  "[callout/warning] Helping vowel: The initial vowel is not always the same. Learn common imperatives with their present pair: يَكْتُبُ / اُكْتُبْ، يَدْرُسُ / اُدْرُسْ، يَجْلِسُ / اِجْلِسْ .",
+  "## Imperative endings for different addressees",
+  "The command stem combines with a small, reusable ending family.",
+  "TABLE: Addressee | كَتَبَ | ذَهَبَ | قَرَأَ // أَنْتَ | اُكْتُبْ | اِذْهَبْ | اِقْرَأْ // أَنْتِ | اُكْتُبِي | اِذْهَبِي | اِقْرَئِي // أَنْتُمَا | اُكْتُبَا | اِذْهَبَا | اِقْرَآ // أَنْتُمْ | اُكْتُبُوا | اِذْهَبُوا | اِقْرَؤُوا // أَنْتُنَّ | اُكْتُبْنَ | اِذْهَبْنَ | اِقْرَأْنَ",
+  "[callout] Commands have an audience. Choose the ending according to one male, one female, two people, a masculine/mixed group or a feminine group.",
+  "## Negative commands with لَا النَّاهِيَةُ",
+  "A prohibition tells the addressee not to perform an action.",
+  "TABLE: Positive command | Negative prohibition | Meaning // اُكْتُبْ | لَا تَكْتُبْ | write / do not write (m.s.) // اُكْتُبِي | لَا تَكْتُبِي | write / do not write (f.s.) // اُكْتُبَا | لَا تَكْتُبَا | write / do not write (dual) // اُكْتُبُوا | لَا تَكْتُبُوا | write / do not write (m./mixed pl.) // اُكْتُبْنَ | لَا تَكْتُبْنَ | write / do not write (f. pl.)",
+  "[callout] Different structures: Positive commands use the imperative. Negative commands use لَا النَّاهِيَةُ followed by a jussive second-person present form.",
+  "## Commands in real contexts",
+  "Instructions, directions, recipes, notices and role plays require both accurate form and appropriate tone.",
+  "### Classroom request",
+  "مِنْ فَضْلِكِ، اِقْرَئِي النَّصَّ بِصَوْتٍ وَاضِحٍ.",
+  "### Directions",
+  "اِذْهَبْ مُسْتَقِيمًا، ثُمَّ اِنْعَطِفْ يَمِينًا.",
+  "### Safety rule",
+  "لَا تَعْبُرُوا الطَّرِيقَ هُنَا.",
+  "### Formal impersonal instruction",
+  "يُرْجَى إِغْلَاقُ الْهَاتِفِ.",
+  "Useful alternative when no direct addressee is foregrounded.",
+  "[callout] Tone matters: Add مِنْ فَضْلِكَ / مِنْ فَضْلِكِ , a greeting or a reason when a direct command could sound abrupt.",
+  "## Imperative misconception clinic",
+  "A useful correction explains the form, not only the answer.",
+  "### Past versus command",
+  "✗ ذَهَبْ!",
+  "✓ اِذْهَبْ!",
+  "The command is derived from the present/jussive, not the past base.",
+  "### Feminine command",
+  "✗ أَنْتِ اُكْتُبْ",
+  "✓ أَنْتِ اُكْتُبِي",
+  "Add the feminine singular ending.",
+  "### Prohibition mood",
+  "✗ لَا تَكْتُبُ عَلَى الْجِدَارِ",
+  "✓ لَا تَكْتُبْ عَلَى الْجِدَارِ",
+  "Prohibitive لا requires the jussive.",
+  "### Future versus prohibition",
+  "✗ لَنْ تَذْهَبْ!",
+  "✓ لَا تَذْهَبْ!",
+  "لن states future negation; لا الناهية gives a negative command.",
+  "## Replayable command game",
+  "Match purpose, addressee and form.",
+  "## Apply the grammar across skills",
+  "Grammar becomes useful when it helps you understand and communicate.",
+  "### 📖 Reading workshop",
+  "Read signs, recipes and digital instructions. Classify each as positive command, prohibition or impersonal formal request.",
+  "### 🎧 Listening workshop",
+  "Follow a partner’s route or drawing instructions, then identify whether each command addressed one person or a group.",
+  "### 🗣️ Speaking workshop",
+  "Perform a role play giving directions or explaining a process. Add polite openings and clarification questions.",
+  "### 🛠️ Editing workshop",
+  "Repair instructions with past forms used as commands, wrong addressee endings and retained nūn after prohibitive لا.",
+  "### ✍️ Integrated production task",
+  "Create a 12-step Arabic guide for a school activity, recipe, journey or digital task. Include at least three negative instructions and vary the addressee in a short second section.",
+  "[callout] Model: أَوَّلًا، اِفْتَحْ الْمِلَفَّ. بَعْدَ ذَلِكَ اُكْتُبْ عُنْوَانَكَ. لَا تَنْسَ أَنْ تَحْفَظَ الْعَمَلَ، وَلَا تُغْلِقِ الْمُتَصَفِّحَ قَبْلَ الْحِفْظِ.",
+  "[callout] Success checklist: Use accurate opening vowels, at least one feminine command, one group command, three prohibitions and polite language where appropriate.",
+  "Save and mark complete Clear",
+  "Plan the verb changes as a timeline, root map or sentence flowchart. Label each form in Arabic.",
+  "Write the instructions as numbered steps. Underline positive imperatives once and negative prohibitions twice.",
+  "## Final mastery check",
+  "Choose the correct command and prohibition forms.",
+  "### Lesson mastery summary",
+  "- derive and recognise common imperatives;",
+  "- select endings for singular, dual and plural addressees;",
+  "- form prohibitions with لا الناهية and the jussive;",
+  "- use direct and polite instructions in practical contexts.",
+  "Return in 3–7 days and repeat the final check without reviewing first. Retrieval, not recognition alone, builds secure verb control."
+ ]
+}

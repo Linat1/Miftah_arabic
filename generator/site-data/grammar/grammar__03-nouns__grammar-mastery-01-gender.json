@@ -1,0 +1,263 @@
+{
+ "path": "lessons/grammar/03-nouns/grammar-mastery-01-gender.php",
+ "title": "Noun Gender",
+ "arabic": "جِنْسُ الِاسْمِ: الْمُذَكَّرُ وَالْمُؤَنَّثُ",
+ "lede": "Master noun gender, feminine markers, important exceptions, tāʾ marbūṭa and agreement in meaningful sentences.",
+ "nav": [],
+ "quizzes": [
+  {
+   "title": "🔎 Entry Check",
+   "items": [
+    {
+     "prompt": "Which noun is typically feminine?",
+     "options": [
+      "كِتَابٌ",
+      "مَدْرَسَةٌ",
+      "قَلَمٌ"
+     ],
+     "answer": 1,
+     "feedback": "The tāʾ marbūṭa is a common feminine marker."
+    },
+    {
+     "prompt": "Which is feminine despite having no ة?",
+     "options": [
+      "شَمْسٌ",
+      "بَابٌ",
+      "كُرْسِيٌّ"
+     ],
+     "answer": 0,
+     "feedback": "Some high-frequency nouns have lexical gender that must be learned."
+    },
+    {
+     "prompt": "Choose “a female teacher”.",
+     "options": [
+      "مُعَلِّمٌ",
+      "مُعَلِّمَةٌ",
+      "مُعَلِّمُونَ"
+     ],
+     "answer": 1,
+     "feedback": "The profession changes to the feminine form."
+    },
+    {
+     "prompt": "Which adjective agrees with السَّيَّارَةُ?",
+     "options": [
+      "جَدِيدٌ",
+      "جَدِيدَةٌ",
+      "جَدِيدُونَ"
+     ],
+     "answer": 1,
+     "feedback": "The adjective follows the feminine noun."
+    },
+    {
+     "prompt": "Which statement is safest?",
+     "options": [
+      "Every noun ending ة is feminine with no exceptions.",
+      "Gender must be learned from form, meaning and usage.",
+      "All objects are masculine."
+     ],
+     "answer": 1,
+     "feedback": "Markers help, but lexical exceptions exist."
+    },
+    {
+     "prompt": "What happens to ة before a suffix in مَدْرَسَتِي?",
+     "options": [
+      "It disappears completely.",
+      "It is heard/written as ت before the suffix.",
+      "It becomes ه."
+     ],
+     "answer": 1,
+     "feedback": "Tāʾ marbūṭa opens to tāʾ in connected morphology."
+    }
+   ]
+  },
+  {
+   "title": "🧭 Gender check",
+   "items": [
+    {
+     "prompt": "Choose the feminine noun.",
+     "options": [
+      "مَكْتَبٌ",
+      "حَدِيقَةٌ",
+      "شَارِعٌ"
+     ],
+     "answer": 1,
+     "feedback": "The ة is a strong clue."
+    },
+    {
+     "prompt": "Choose the lexical feminine noun.",
+     "options": [
+      "شَمْسٌ",
+      "قَمَرٌ",
+      "بَحْرٌ"
+     ],
+     "answer": 0,
+     "feedback": "Learn شمس with feminine agreement."
+    },
+    {
+     "prompt": "Choose the masculine name.",
+     "options": [
+      "فَاطِمَةُ",
+      "حَمْزَةُ",
+      "مَرْيَمُ"
+     ],
+     "answer": 1,
+     "feedback": "The final ة does not make this male name feminine."
+    },
+    {
+     "prompt": "Which phrase is correct?",
+     "options": [
+      "سَيَّارَةٌ سَرِيعٌ",
+      "سَيَّارَةٌ سَرِيعَةٌ",
+      "سَيَّارَةٌ سَرِيعُونَ"
+     ],
+     "answer": 1,
+     "feedback": "Adjective agrees in gender."
+    },
+    {
+     "prompt": "What is the connected form of مَدْرَسَة + ي?",
+     "options": [
+      "مَدْرَسَةِي",
+      "مَدْرَسَتِي",
+      "مَدْرَسَهِي"
+     ],
+     "answer": 1,
+     "feedback": "The tāʾ marbūṭa becomes ت before a suffix."
+    }
+   ]
+  },
+  {
+   "title": "⭐ Mastery Check",
+   "items": [
+    {
+     "prompt": "Which noun is feminine without ة?",
+     "options": [
+      "شَمْسٌ",
+      "كِتَابٌ",
+      "جَبَلٌ"
+     ],
+     "answer": 0,
+     "feedback": "Lexical feminine."
+    },
+    {
+     "prompt": "Which is a masculine name?",
+     "options": [
+      "خَدِيجَةُ",
+      "حَمْزَةُ",
+      "سَلْمَى"
+     ],
+     "answer": 1,
+     "feedback": "Name exception."
+    },
+    {
+     "prompt": "Choose “this school”.",
+     "options": [
+      "هَذَا الْمَدْرَسَةُ",
+      "هَذِهِ الْمَدْرَسَةُ",
+      "هَؤُلَاءِ الْمَدْرَسَةُ"
+     ],
+     "answer": 1,
+     "feedback": "Feminine singular."
+    },
+    {
+     "prompt": "Complete: السَّيَّارَةُ ...",
+     "options": [
+      "سَرِيعٌ",
+      "سَرِيعَةٌ",
+      "سَرِيعُونَ"
+     ],
+     "answer": 1,
+     "feedback": "Agreement."
+    },
+    {
+     "prompt": "Choose “my room”.",
+     "options": [
+      "غُرْفَةِي",
+      "غُرْفَتِي",
+      "الْغُرْفَتِي"
+     ],
+     "answer": 1,
+     "feedback": "ة → ت before suffix."
+    },
+    {
+     "prompt": "Choose pronoun for الأَرْضُ.",
+     "options": [
+      "هُوَ",
+      "هِيَ",
+      "هُمْ"
+     ],
+     "answer": 1,
+     "feedback": "أرض is feminine."
+    },
+    {
+     "prompt": "Which pair shows natural gender?",
+     "options": [
+      "بَيْتٌ / مَدْرَسَةٌ",
+      "مُعَلِّمٌ / مُعَلِّمَةٌ",
+      "شَمْسٌ / قَمَرٌ"
+     ],
+     "answer": 1,
+     "feedback": "Male/female profession."
+    },
+    {
+     "prompt": "Best strategy?",
+     "options": [
+      "Guess from English.",
+      "Identify noun gender, then check all agreeing words.",
+      "Add ة to every adjective."
+     ],
+     "answer": 1,
+     "feedback": "Systematic agreement check."
+    }
+   ]
+  }
+ ],
+ "games": [],
+ "blocks": [
+  "## Why this matters لِمَاذَا هَذَا مُهِمٌّ؟",
+  "Gender controls pronouns, adjectives, demonstratives, verbs and number expressions. A noun can look simple but determine the shape of the whole sentence.",
+  "### Core",
+  "Recognise common masculine and feminine markers.",
+  "### Develop",
+  "Apply agreement in descriptions and professions.",
+  "### Stretch",
+  "Handle lexical exceptions and tāʾ marbūṭa in connected forms.",
+  "## Diagnostic start اِخْتِبَارُ الْبِدَايَةِ",
+  "Answer first; then use the explanations to repair uncertainty.",
+  "## Recognising gender",
+  "Arabic nouns are grammatically masculine or feminine. Biological sex explains some nouns, but grammatical gender also applies to objects, places and ideas.",
+  "### Common masculine pattern",
+  "Many nouns without a feminine marker are masculine: كِتَابٌ، بَيْتٌ، قَلَمٌ، مَطْعَمٌ .",
+  "This is a useful starting clue, not an infallible rule.",
+  "### Common feminine markers",
+  "- ة : مَدْرَسَةٌ، سَيَّارَةٌ",
+  "- اء in many words: صَحْرَاءُ، حَمْرَاءُ",
+  "- ى in some nouns/adjectives: ذِكْرَى، كُبْرَى",
+  "[callout/warning] Do not classify by shape alone. حَمْزَةُ is a masculine personal name ending in ة, while شَمْسٌ، أَرْضٌ، نَفْسٌ، حَرْبٌ are feminine without ة.",
+  "TABLE: Type | Examples | How to learn // Natural gender | أَبٌ / أُمٌّ، مُعَلِّمٌ / مُعَلِّمَةٌ | Meaning and form // Marked feminine | غُرْفَةٌ، جَامِعَةٌ | Notice the ending // Lexical feminine | شَمْسٌ، دَارٌ، رِيحٌ | Memorise with agreement // Lexical masculine exception | حَمْزَةُ، أُسَامَةُ | Recognise names",
+  "## Gender agreement across the sentence",
+  "Once the noun’s gender is known, dependent words must follow it.",
+  "### Adjective",
+  "بَيْتٌ كَبِيرٌ مَدْرَسَةٌ كَبِيرَةٌ",
+  "### Demonstrative",
+  "هَذَا الْبَيْتُ هَذِهِ الْمَدْرَسَةُ",
+  "### Pronoun / verb",
+  "الْمَدْرَسَةُ جَدِيدَةٌ. هِيَ قَرِيبَةٌ. وَصَلَتِ الْحَافِلَةُ.",
+  "[callout] Meaning-first strategy: identify the head noun, determine its gender, then check every word that refers back to it.",
+  "## Apply gender in communication",
+  "### 📖 Reading",
+  "هَذِهِ مَدْرَسَتِي. هِيَ كَبِيرَةٌ وَجَمِيلَةٌ. فِيهَا مُعَلِّمٌ جَدِيدٌ وَمُعَلِّمَةٌ خَبِيرَةٌ.",
+  "Underline every word that signals gender and draw arrows to the noun it describes.",
+  "### 🗣️ Speaking",
+  "Describe one masculine and one feminine person/place. Use a demonstrative, pronoun and two adjectives for each.",
+  "### ✍️ Writing workshop",
+  "Write 8–10 sentences describing your home, school or family. Include at least four masculine nouns and four feminine nouns.",
+  "[callout] Model: هَذَا بَيْتِي. هُوَ كَبِيرٌ، وَهَذِهِ غُرْفَتِي. هِيَ صَغِيرَةٌ وَلَكِنَّهَا مُرَتَّبَةٌ.",
+  "Save and mark complete Clear",
+  "Plan visually, label your examples in Arabic, then check each target form.",
+  "Complete the same task on paper. Underline the target noun forms and annotate the rule used.",
+  "## Final mastery check اِخْتِبَارُ الْإِتْقَانِ",
+  "Apply the rules without relying on the explanation panels.",
+  "### Consolidate and revisit",
+  "Below 70%: repeat the mini-check linked to your errors. 70–89%: replay the repair game. 90–100%: continue, then revisit this lesson in 3–7 days."
+ ]
+}

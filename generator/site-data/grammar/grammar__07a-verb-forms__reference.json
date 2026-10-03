@@ -1,0 +1,88 @@
+{
+ "path": "lessons/grammar/07a-verb-forms/reference.php",
+ "title": "Optional Morphology Reference",
+ "arabic": "مَرْجِعٌ صَرْفِيٌّ اِخْتِيَارِيٌّ",
+ "lede": "A compact reference to the regular patterns, verbal nouns, participles and important exceptions. Use after the individual lessons.",
+ "nav": [
+  [
+   "GM-VF-10",
+   "Form X: Seeking, Using and Considering"
+  ]
+ ],
+ "quizzes": [
+  {
+   "title": "Morphology reference · Self-check",
+   "items": [
+    {
+     "prompt": "Which family normally has the pattern تَفَعَّلَ?",
+     "options": [
+      "Form II",
+      "Form V",
+      "Form VI"
+     ],
+     "answer": 1,
+     "feedback": "Form V adds ت and doubles the middle radical."
+    },
+    {
+     "prompt": "Which family commonly uses the verbal noun pattern اِسْتِفْعَالٌ?",
+     "options": [
+      "Form VII",
+      "Form X",
+      "Form III"
+     ],
+     "answer": 1,
+     "feedback": "This is a common Form X verbal-noun pattern."
+    },
+    {
+     "prompt": "Which statement is correct?",
+     "options": [
+      "Form I verbal nouns are completely predictable.",
+      "Form VII is not the ordinary grammatical passive.",
+      "All forms have equally common passive participles."
+     ],
+     "answer": 1,
+     "feedback": "Morphology helps recognition, but lexical usage and verb transitivity matter."
+    }
+   ]
+  }
+ ],
+ "games": [],
+ "blocks": [
+  "## How to use this reference",
+  "A reference for comparing patterns, not a list to memorise in one sitting.",
+  "Use this page after studying individual forms. It brings together regular sound-root models, common verbal-noun patterns and participles. The tables are a guide to recognition and analysis; actual verb meanings and irregular forms must still be learned from reliable vocabulary entries.",
+  "[callout] Scope: These are the ten commonly taught numbered families of triliteral verbs. Arabic also has quadriliteral verbs, weak-root changes and other patterns. A root need not occur in every family, and a theoretically possible form is not necessarily a word in normal use.",
+  "## The ten patterns",
+  "Read each past/present pair alongside a real example.",
+  "TABLE: Form | Past pattern | Present pattern | Example pair // I | فَعَلَ | يَفْعُلُ | كَتَبَ / يَكْتُبُ // II | فَعَّلَ | يُفَعِّلُ | عَلَّمَ / يُعَلِّمُ // III | فَاعَلَ | يُفَاعِلُ | شَارَكَ / يُشَارِكُ // IV | أَفْعَلَ | يُفْعِلُ | أَرْسَلَ / يُرْسِلُ // V | تَفَعَّلَ | يَتَفَعَّلُ | تَعَلَّمَ / يَتَعَلَّمُ // VI | تَفَاعَلَ | يَتَفَاعَلُ | تَعَاوَنَ / يَتَعَاوَنُ // VII | اِنْفَعَلَ | يَنْفَعِلُ | اِنْكَسَرَ / يَنْكَسِرُ // VIII | اِفْتَعَلَ | يَفْتَعِلُ | اِكْتَسَبَ / يَكْتَسِبُ // IX | اِفْعَلَّ | يَفْعَلُّ | اِحْمَرَّ / يَحْمَرُّ // X | اِسْتَفْعَلَ | يَسْتَفْعِلُ | اِسْتَعْمَلَ / يَسْتَعْمِلُ",
+  "[callout] Form I: The displayed يَفْعُلُ is one common present pattern. Other families include يَفْعِلُ and يَفْعَلُ. Learn each verb’s past–present pair; do not infer it from the past spelling alone.",
+  "## Verbal nouns and participles",
+  "See how a verb can be related to an action noun, a doer or an affected thing.",
+  "A verbal noun (maṣdar) names an action or process. An active participle can identify a doer or describe a state. A passive participle can describe something affected by an action. These are morphological categories, not guaranteed English translations.",
+  "TABLE: Form | Common verbal noun pattern | Active participle pattern | Passive participle pattern // I | Varies; learn individually | فَاعِلٌ | مَفْعُولٌ // II | تَفْعِيلٌ | مُفَعِّلٌ | مُفَعَّلٌ // III | مُفَاعَلَةٌ / فِعَالٌ | مُفَاعِلٌ | مُفَاعَلٌ // IV | إِفْعَالٌ | مُفْعِلٌ | مُفْعَلٌ // V | تَفَعُّلٌ | مُتَفَعِّلٌ | مُتَفَعَّلٌ // VI | تَفَاعُلٌ | مُتَفَاعِلٌ | Not normally used with intransitive models // VII | اِنْفِعَالٌ | مُنْفَعِلٌ | Not normally used with intransitive models // VIII | اِفْتِعَالٌ | مُفْتَعِلٌ | مُفْتَعَلٌ // IX | اِفْعِلَالٌ | مُفْعَلٌّ | Not normally used // X | اِسْتِفْعَالٌ | مُسْتَفْعِلٌ | مُسْتَفْعَلٌ",
+  "[callout] Use, not just shape: Passive participles are not equally natural or common for every verb. Intransitive verbs often have no ordinary passive participle. Some apparent active/passive forms coincide after weak-root changes. Always check the actual lexical entry before using a derived noun.",
+  "TABLE: Verb | Verbal noun | Active participle | Passive participle // كَتَبَ | كِتَابَةٌ | كَاتِبٌ | مَكْتُوبٌ // عَلَّمَ | تَعْلِيمٌ | مُعَلِّمٌ | مُعَلَّمٌ // شَارَكَ | مُشَارَكَةٌ | مُشَارِكٌ | — // أَرْسَلَ | إِرْسَالٌ | مُرْسِلٌ | مُرْسَلٌ // تَعَلَّمَ | تَعَلُّمٌ | مُتَعَلِّمٌ | — // تَعَاوَنَ | تَعَاوُنٌ | مُتَعَاوِنٌ | — // اِنْكَسَرَ | اِنْكِسَارٌ | مُنْكَسِرٌ | — // اِكْتَسَبَ | اِكْتِسَابٌ | مُكْتَسِبٌ | مُكْتَسَبٌ // اِحْمَرَّ | اِحْمِرَارٌ | مُحْمَرٌّ | — // اِسْتَعْمَلَ | اِسْتِعْمَالٌ | مُسْتَعْمِلٌ | مُسْتَعْمَلٌ",
+  "A dash means that an ordinary passive participle is not supplied for this model; it does not assert that no related form can exist in any context.",
+  "## Important exceptions and distinctions",
+  "Regular patterns are a starting point, not a substitute for lexical knowledge.",
+  "### Form I vowels",
+  "Learn كَتَبَ / يَكْتُبُ، فَهِمَ / يَفْهَمُ، جَلَسَ / يَجْلِسُ as complete pairs. Form I maṣdars are often lexical.",
+  "### Weak and hamzated roots",
+  "Hollow, final-weak and hamzated verbs may contract or change spelling. Compare قَالَ / يَقُولُ، اِخْتَارَ / يَخْتَارُ .",
+  "### Form VIII assimilation",
+  "The inserted ت can assimilate or change near certain root consonants. The root and lexical pair explain surface forms such as اِتَّصَلَ / يَتَّصِلُ .",
+  "### Form VII and passive",
+  "اِنْكَسَرَ الْكَأْسُ. is Form VII. كُسِرَ الْكَأْسُ. is the grammatical passive of Form I. They are not the same construction.",
+  "[callout] Imperatives: The imperative is derived from the appropriate present stem, with root-specific changes. Examples include اُكْتُبْ، عَلِّمْ، شَارِكْ، أَرْسِلْ، تَعَلَّمْ، تَعَاوَنْ، اِنْصَرِفْ، اِكْتَسِبْ، اِسْتَعْمِلْ . Form IX imperatives are not part of the ordinary core reference.",
+  "For full tense, person, passive-voice and participle teaching, return to the existing Verbs collection . This reference does not replace those lessons.",
+  "## Reference self-check",
+  "Use the tables to repair any uncertainties, then retry.",
+  "## Your next step",
+  "### Use the reference selectively",
+  "- recognise the characteristic past and present patterns;",
+  "- distinguish verbal nouns, active participles and passive participles;",
+  "- allow for weak roots, assimilation and lexical exceptions;",
+  "- return to an individual form whenever a pattern needs more practice.",
+  "Return to all ten forms"
+ ]
+}

@@ -1,0 +1,114 @@
+{
+ "path": "lessons/grammar/07a-verb-forms/form-05.php",
+ "title": "Form V: Learning and Developing",
+ "arabic": "الْوَزْنُ الْخَامِسُ",
+ "lede": "Form V often describes an action directed towards the subject, a development or a process. It is especially useful for learning, remembering and personal change.",
+ "nav": [
+  [
+   "GM-VF-04",
+   "Form IV: Causing and Bringing About"
+  ]
+ ],
+ "quizzes": [
+  {
+   "title": "Quick pattern check",
+   "items": [
+    {
+     "prompt": "Which verb means “to learn”?",
+     "options": [
+      "عَلَّمَ",
+      "عَلِمَ",
+      "تَعَلَّمَ"
+     ],
+     "answer": 2,
+     "feedback": "Form V تَعَلَّمَ means to learn."
+    }
+   ]
+  },
+  {
+   "title": "Form V · Self-check",
+   "items": [
+    {
+     "prompt": "Which verb means “to learn”?",
+     "options": [
+      "عَلِمَ",
+      "عَلَّمَ",
+      "تَعَلَّمَ"
+     ],
+     "answer": 2,
+     "feedback": "Form V تَعَلَّمَ means to learn."
+    },
+    {
+     "prompt": "Choose the correct present of تَحَسَّنَ.",
+     "options": [
+      "يَحْسُنُ",
+      "يُحَسِّنُ",
+      "يَتَحَسَّنُ"
+     ],
+     "answer": 2,
+     "feedback": "Form V retains the stem ت and doubled middle radical."
+    },
+    {
+     "prompt": "Which description is most accurate?",
+     "options": [
+      "Every Form V is an English reflexive verb.",
+      "The initial ت always identifies a feminine subject.",
+      "Form V often expresses a process or reflexive/developmental meaning."
+     ],
+     "answer": 2,
+     "feedback": "The pattern can suggest meaning, but lexical usage decides the interpretation."
+    }
+   ]
+  }
+ ],
+ "games": [],
+ "blocks": [
+  "## Why this matters",
+  "Learn the meaning before memorising the pattern.",
+  "### Core",
+  "Recognise the pattern and understand the model verb in a sentence.",
+  "### Develop",
+  "Use two or three verbs from this family in accurate past and present sentences.",
+  "[callout] Your goal: Form V often describes an action directed towards the subject, a development or a process. It is especially useful for learning, remembering and personal change.",
+  "## Discover the pattern",
+  "Notice what changes and what stays connected to the root.",
+  "### Root and pattern",
+  "Form V combines an initial ت with a doubled middle root consonant. Its present pattern is يَتَفَعَّلُ. Unlike Form II, its present begins with يَـ rather than يُـ in the third-person masculine singular.",
+  "TABLE: Past | Present | Meaning // تَعَلَّمَ | يَتَعَلَّمُ | to learn",
+  "[callout] Notice the relationship: عَلَّمَ means to teach; تَعَلَّمَ means to learn. This is a useful Form II–V relationship, but not every Form V is reflexive in the English sense.",
+  "## Learn the family",
+  "Read each pair aloud, then use the verbs in meaningful sentences.",
+  "TABLE: Past | Present | Meaning // تَذَكَّرَ | يَتَذَكَّرُ | to remember // تَحَسَّنَ | يَتَحَسَّنُ | to improve // تَطَوَّرَ | يَتَطَوَّرُ | to develop",
+  "أَتَعَلَّمُ الْعَرَبِيَّةَ لِأَنَّنِي أُحِبُّ اللُّغَاتِ.",
+  "I am learning Arabic because I love languages.",
+  "تَحَسَّنَ مُسْتَوَايَ بَعْدَ الْمُمَارَسَةِ.",
+  "My level improved after practice.",
+  "يَتَذَكَّرُ الطَّالِبُ الْكَلِمَاتِ الْجَدِيدَةَ.",
+  "The student remembers the new words.",
+  "[callout] Look closely: تَعَلَّمَ → يَتَعَلَّمُ → أَتَعَلَّمُ. The initial ت belongs to the stem; the أ or ي before it identifies the person.",
+  "## Practise and apply",
+  "Move from recognising the pattern to using the language yourself.",
+  "### Misconception clinic",
+  "Do not treat every initial ت as the feminine or second-person present prefix. In تَعَلَّمَ, it is part of the derived stem.",
+  "Keep the stem تَعَلَّمَ while changing the person prefix.",
+  "### Apply the form",
+  "Write a short learning journal entry explaining what you are learning, how you have improved and which words you remember.",
+  "[callout] Success checklist: Use the correct verb form and person; check the past/present vowels; use a natural sentence and reread your Arabic.",
+  "Complete your own response first. This is one possible answer, not the only correct response.",
+  "أَتَعَلَّمُ الْعَرَبِيَّةَ كُلَّ يَوْمٍ. تَحَسَّنَ مُسْتَوَايَ بِسَبَبِ الْمُمَارَسَةِ، وَأَتَذَكَّرُ كَلِمَاتٍ جَدِيدَةً. أُرِيدُ أَنْ أَتَطَوَّرَ أَكْثَرَ.",
+  "I learn Arabic every day. My level improved because of practice, and I remember new words. I want to develop further.",
+  "Compare عَلِمَ, عَلَّمَ and تَعَلَّمَ. Which one describes knowing, teaching and learning?",
+  "Use the optional morphology reference if you need a pattern reminder.",
+  "## Final self-check",
+  "Try the questions without looking back. Your feedback explains the key feature.",
+  "## What you can now do",
+  "Review the essentials before moving to the next form.",
+  "### Lesson mastery summary",
+  "- recognise Form V and its characteristic pattern;",
+  "- understand and use the model verb in context;",
+  "- distinguish this family from a related form;",
+  "- check the accuracy of your own Arabic sentences.",
+  "Return in a few days and repeat the self-check. Learn the next form only when you are ready.",
+  "Back to all ten forms · Optional morphology reference"
+ ]
+}

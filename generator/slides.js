@@ -94,8 +94,8 @@ function mcqCard(s, q, n, x, y, w, h, reveal, k) {
 }
 
 function mixedLine(s, t, x, y, w, h, o = {}) {
-  if (isArabic(t)) return txt(s, t, x, y, w, h, { fit: true, size: (o.size || 11) + 3, min: 9, color: o.color, bold: false });
-  return txt(s, t, x, y, w, h, { fit: true, size: o.size || 11, min: o.min || 8, italic: o.italic, color: o.color, bold: o.bold, arabic: false });
+  if (isArabic(t)) return txt(s, t, x, y, w, h, { fit: true, size: (o.size || 11) + 3, min: 9, color: o.color, bold: false, align: o.align, valign: o.valign });
+  return txt(s, t, x, y, w, h, { fit: true, size: o.size || 11, min: o.min || 8, italic: o.italic, color: o.color, bold: o.bold, arabic: false, align: o.align, valign: o.valign });
 }
 
 function sideCard(s, side, x, y, w, h) {
@@ -939,3 +939,35 @@ async function picMatch(D, sp) {
   }
 }
 module.exports.picMatch = picMatch;
+
+// ------------------------------------------------------------------ explain: numbered rule steps (left) + worked examples (right) + callout
+function explain(D, sp) {
+  const s = frame(D, sp);
+  const hasCall = !!sp.callout; const bodyH = hasCall ? 3.78 : 4.92;
+  const lw = sp.leftW || 6.75; const rw = 12.33 - lw - 0.2;
+  box(s, 0.5, 1.98, lw, bodyH, { fill: C.blueBox, line: C.blueLine });
+  txt(s, sp.pointsHead || 'THE RULE, STEP BY STEP', 0.72, 2.06, lw - 0.4, 0.3, { size: 10, bold: true, color: C.navy, cs: 2, arabic: false });
+  const n = sp.points.length; const ph = (bodyH - 0.5) / n;
+  sp.points.forEach((p, i) => {
+    const y = 2.42 + i * ph;
+    circle(s, 0.72, y + Math.min(0.08, ph / 2 - 0.17), 0.34, C.navy, i + 1, { size: 11, color: C.gold });
+    mixedLine(s, p, 1.18, y - 0.04, lw - 0.85, ph - 0.04, { size: 13, color: C.ink, valign: 'top' });
+  });
+  const x = 0.5 + lw + 0.2;
+  box(s, x, 1.98, rw, bodyH);
+  txt(s, sp.exHead || 'WORKED EXAMPLES', x + 0.2, 2.06, rw - 0.4, 0.3, { size: 10, bold: true, color: C.goldDark, cs: 2, arabic: false });
+  const m = sp.examples.length; const eh = (bodyH - 0.46) / m;
+  sp.examples.forEach((e, i) => {
+    const y = 2.4 + i * eh;
+    if (i) s.addShape('line', { x: x + 0.2, y: y - 0.02, w: rw - 0.4, h: 0, line: { color: 'E4DCCB', width: 0.75, dashType: 'dash' } });
+    txt(s, e.ar, x + 0.15, y, rw - 0.3, eh * 0.56, { fit: true, size: 28, min: 13, bold: true, color: C.navy, align: 'center' });
+    mixedLine(s, e.en + (e.note ? `  ·  ${e.note}` : ''), x + 0.15, y + eh * 0.56, rw - 0.3, eh * 0.4, { size: 11, italic: true, color: C.slate, align: 'center' });
+  });
+  if (hasCall) {
+    const warn = sp.callout.kind === 'warn';
+    box(s, 0.5, 5.9, 12.33, 1.0, { fill: warn ? C.stretchPale : C.amberPale, line: warn ? 'E3B4AE' : 'E8D49A' });
+    txt(s, sp.callout.head || (warn ? 'WATCH OUT' : 'REMEMBER'), 0.72, 5.98, 2.1, 0.84, { size: 11, bold: true, color: warn ? C.stretch : C.goldDark, cs: 1, arabic: false });
+    mixedLine(s, sp.callout.text, 2.85, 5.96, 9.8, 0.88, { size: 12.5, color: C.ink });
+  }
+}
+module.exports.explain = explain;

@@ -1,0 +1,552 @@
+{
+ "path": "lessons/grammar/13-possessives/grammar-mastery-03-inda-li.php",
+ "title": "Possession with عِنْدَ and لِـ",
+ "arabic": "التَّعْبِيرُ عَنِ الْمِلْكِيَّةِ بِـ«عِنْدَ» وَ«لِـ»",
+ "lede": "Say who has something, who it belongs to and who physically has it with them—without forcing one English “have” structure onto every Arabic meaning.",
+ "nav": [
+  [
+   "GM-POS-02",
+   "Possessive Iḍāfa Construction"
+  ]
+ ],
+ "quizzes": [
+  {
+   "title": "🔎 Possession Marker Starter",
+   "items": [
+    {
+     "prompt": "Choose “I have a pen.”",
+     "options": [
+      "عِنْدِي قَلَمٌ.",
+      "أَنَا قَلَمٌ.",
+      "لِي قَلَمَ."
+     ],
+     "answer": 0,
+     "feedback": "عِنْدِي is the common possession pattern “with me / I have”."
+    },
+    {
+     "prompt": "Choose “This book is mine.”",
+     "options": [
+      "هَذَا الْكِتَابُ لِي.",
+      "هَذَا الْكِتَابُ عِنْدِي.",
+      "هَذَا الْكِتَابُ مَعِيَّةٌ."
+     ],
+     "answer": 0,
+     "feedback": "لِي marks belonging or allocation: the book is mine."
+    },
+    {
+     "prompt": "Which form means “you have” to one female?",
+     "options": [
+      "عِنْدَكِ",
+      "عِنْدَكَ",
+      "عِنْدَكُمْ"
+     ],
+     "answer": 0,
+     "feedback": "The attached pronoun matches the person addressed."
+    },
+    {
+     "prompt": "Which question asks “Whose is this?”",
+     "options": [
+      "لِمَنْ هَذَا؟",
+      "مَاذَا عِنْدَكَ؟",
+      "أَيْنَ هَذَا؟"
+     ],
+     "answer": 0,
+     "feedback": "لِمَنْ asks ownership or allocation."
+    },
+    {
+     "prompt": "Which phrase means “with me/on my person”?",
+     "options": [
+      "مَعِي",
+      "عِنْدِي",
+      "لِي"
+     ],
+     "answer": 0,
+     "feedback": "مَعِي often means the item is physically with the speaker, not simply owned."
+    },
+    {
+     "prompt": "In عِنْدِي كِتَابٌ, what case is the item normally in a fully marked model?",
+     "options": [
+      "Nominative",
+      "Accusative",
+      "Genitive"
+     ],
+     "answer": 0,
+     "feedback": "The delayed noun/topic is normally nominative: كِتَابٌ."
+    }
+   ]
+  },
+  {
+   "title": "✅ Mini-check: عِنْدَ family",
+   "items": [
+    {
+     "prompt": "Choose “we have”.",
+     "options": [
+      "عِنْدَنَا",
+      "عِنْدَكُمَا",
+      "عِنْدَهُمْ"
+     ],
+     "answer": 0,
+     "feedback": "ـنَا gives “with us / we have”."
+    },
+    {
+     "prompt": "Choose “they have” for two people.",
+     "options": [
+      "عِنْدَهُمَا",
+      "عِنْدَهُمْ",
+      "عِنْدَهُنَّ"
+     ],
+     "answer": 0,
+     "feedback": "The dual pronoun ending is ـهُمَا."
+    },
+    {
+     "prompt": "Choose “you have” for a feminine plural group.",
+     "options": [
+      "عِنْدَكُنَّ",
+      "عِنْدَكُمْ",
+      "عِنْدَهُنَّ"
+     ],
+     "answer": 0,
+     "feedback": "ـكُنَّ addresses a feminine plural group."
+    },
+    {
+     "prompt": "Choose “she has a new idea.”",
+     "options": [
+      "عِنْدَهَا فِكْرَةٌ جَدِيدَةٌ.",
+      "عِنْدَهُ فِكْرَةٌ جَدِيدَةٌ.",
+      "لَهَا فِكْرَةً جَدِيدَةً."
+     ],
+     "answer": 0,
+     "feedback": "عِنْدَهَا marks a feminine possessor; the item is nominative with its adjective."
+    }
+   ]
+  },
+  {
+   "title": "✅ Mini-check: لِـ family",
+   "items": [
+    {
+     "prompt": "Choose “This seat is for you” to one male.",
+     "options": [
+      "هَذَا الْمَقْعَدُ لَكَ.",
+      "هَذَا الْمَقْعَدُ لَكِ.",
+      "هَذَا الْمَقْعَدُ عِنْدَكَ."
+     ],
+     "answer": 0,
+     "feedback": "لَكَ marks allocation or belonging to one male."
+    },
+    {
+     "prompt": "Choose “The decision is theirs” for a masculine/mixed group.",
+     "options": [
+      "الْقَرَارُ لَهُمْ.",
+      "الْقَرَارُ عِنْدَهُمْ.",
+      "الْقَرَارُ لَهُنَّ."
+     ],
+     "answer": 0,
+     "feedback": "لَهُمْ means “for/belonging to them”."
+    },
+    {
+     "prompt": "Choose “This is ours.”",
+     "options": [
+      "هَذَا لَنَا.",
+      "هَذَا عِنْدَنَا.",
+      "هَذَا مَعَنَا."
+     ],
+     "answer": 0,
+     "feedback": "لَنَا marks ownership or allocation."
+    },
+    {
+     "prompt": "What happens in لِـ + ـِي?",
+     "options": [
+      "It is written لِي",
+      "It is written لِإِي",
+      "The suffix disappears"
+     ],
+     "answer": 0,
+     "feedback": "The standard combined form is لِي."
+    }
+   ]
+  },
+  {
+   "title": "✅ Mini-check: choose the relationship",
+   "items": [
+    {
+     "prompt": "Choose “I have time.”",
+     "options": [
+      "عِنْدِي وَقْتٌ.",
+      "هَذَا الْوَقْتُ لِي.",
+      "الْوَقْتُ مَعِي."
+     ],
+     "answer": 0,
+     "feedback": "عِنْدِي naturally expresses availability or possession."
+    },
+    {
+     "prompt": "Choose “This time slot is mine.”",
+     "options": [
+      "هَذَا الْوَقْتُ لِي.",
+      "عِنْدِي وَقْتٌ.",
+      "هَذَا الْوَقْتُ عِنْدِي قَلَمٌ."
+     ],
+     "answer": 0,
+     "feedback": "لِي focuses on assignment or belonging."
+    },
+    {
+     "prompt": "Choose “I have the keys with me.”",
+     "options": [
+      "الْمَفَاتِيحُ مَعِي.",
+      "عِنْدِي مَفَاتِيحُهَا.",
+      "الْمَفَاتِيحُ لِي."
+     ],
+     "answer": 0,
+     "feedback": "مَعِي says the keys are physically with the speaker."
+    },
+    {
+     "prompt": "Which sentence can mean “I own a car” in neutral everyday Arabic?",
+     "options": [
+      "عِنْدِي سَيَّارَةٌ.",
+      "السَّيَّارَةُ مَعِي only",
+      "أَنَا سَيَّارَةٌ."
+     ],
+     "answer": 0,
+     "feedback": "عِنْدِي is the ordinary possession pattern; context can show ownership or availability."
+    }
+   ]
+  },
+  {
+   "title": "✅ Mini-check: ask and negate",
+   "items": [
+    {
+     "prompt": "Choose “I do not have a pen.”",
+     "options": [
+      "لَيْسَ عِنْدِي قَلَمٌ.",
+      "لَيْسَ لِي قَلَمًا only",
+      "لَا عِنْدِي قَلَمٌ."
+     ],
+     "answer": 0,
+     "feedback": "لَيْسَ عِنْدِي is a clear standard MSA negation of possession."
+    },
+    {
+     "prompt": "Choose “Do you have a question?” to one female.",
+     "options": [
+      "هَلْ عِنْدَكِ سُؤَالٌ؟",
+      "هَلْ عِنْدَكَ سُؤَالٌ؟",
+      "لِمَنْ سُؤَالُكِ؟"
+     ],
+     "answer": 0,
+     "feedback": "Use هَلْ + عِنْدَكِ for one female listener."
+    },
+    {
+     "prompt": "Choose “Whose bag is this?”",
+     "options": [
+      "لِمَنْ هَذِهِ الْحَقِيبَةُ؟",
+      "مَاذَا عِنْدَ هَذِهِ الْحَقِيبَةِ؟",
+      "هَلْ عِنْدَكِ حَقِيبَةٌ؟"
+     ],
+     "answer": 0,
+     "feedback": "لِمَنْ directly asks ownership."
+    },
+    {
+     "prompt": "Choose the answer “It is hers.”",
+     "options": [
+      "هِيَ لَهَا.",
+      "عِنْدَهَا حَقِيبَةٌ.",
+      "هِيَ مَعَهَا."
+     ],
+     "answer": 0,
+     "feedback": "لَهَا answers ownership; pronoun reference makes the owned item understood."
+    }
+   ]
+  },
+  {
+   "title": "🏁 عِنْدَ and لِـ Mastery",
+   "items": [
+    {
+     "prompt": "Choose “They have two children” for a dual owner.",
+     "options": [
+      "عِنْدَهُمَا طِفْلَانِ.",
+      "عِنْدَهُمْ طِفْلَيْنِ.",
+      "لَهُمَا طِفْلَيْنِ."
+     ],
+     "answer": 0,
+     "feedback": "عِنْدَهُمَا marks two owners; the possessed item is nominative dual."
+    },
+    {
+     "prompt": "Choose “We have several questions.”",
+     "options": [
+      "عِنْدَنَا أَسْئِلَةٌ عِدَّةٌ.",
+      "لَنَا أَسْئِلَةً عِدَّةً.",
+      "مَعَنَا أَسْئِلَةٍ عِدَّةٍ."
+     ],
+     "answer": 0,
+     "feedback": "عِنْدَنَا expresses possession/availability; the item and adjective are nominative."
+    },
+    {
+     "prompt": "Choose “This office is for the manager.”",
+     "options": [
+      "هَذَا الْمَكْتَبُ لِلْمُدِيرِ.",
+      "هَذَا الْمَكْتَبُ عِنْدَ الْمُدِيرِ.",
+      "هَذَا الْمَكْتَبُ مَعَ الْمُدِيرِ."
+     ],
+     "answer": 0,
+     "feedback": "لِـ marks allocation or belonging; it contracts with الـ to لِلـ."
+    },
+    {
+     "prompt": "Choose “The documents are with me.”",
+     "options": [
+      "الْوَثَائِقُ مَعِي.",
+      "عِنْدِي الْوَثَائِقُ لِي.",
+      "الْوَثَائِقُ لِي always"
+     ],
+     "answer": 0,
+     "feedback": "مَعِي focuses on present physical accompaniment."
+    },
+    {
+     "prompt": "Choose “I have no time today.”",
+     "options": [
+      "لَيْسَ عِنْدِي وَقْتٌ الْيَوْمَ.",
+      "لَيْسَ لِي وَقْتًا الْيَوْمَ only",
+      "مَا لِي وَقْتٌ is the only standard form"
+     ],
+     "answer": 0,
+     "feedback": "لَيْسَ عِنْدِي is a clear functional standard form."
+    },
+    {
+     "prompt": "Choose “Whose books are these?”",
+     "options": [
+      "لِمَنْ هَذِهِ الْكُتُبُ؟",
+      "عِنْدَ مَنْ هَذِهِ الْكُتُبُ؟",
+      "مَعَ مَنْ يَقْرَأُ؟"
+     ],
+     "answer": 0,
+     "feedback": "لِمَنْ asks who owns or is assigned the books."
+    },
+    {
+     "prompt": "Choose “These books are theirs” for a feminine plural group.",
+     "options": [
+      "هَذِهِ الْكُتُبُ لَهُنَّ.",
+      "هَذِهِ الْكُتُبُ لَهُمْ.",
+      "عِنْدَهُنَّ كُتُبٌ."
+     ],
+     "answer": 0,
+     "feedback": "لَهُنَّ marks feminine plural ownership."
+    },
+    {
+     "prompt": "Which sentence means “She has her passport with her”?",
+     "options": [
+      "جَوَازُ سَفَرِهَا مَعَهَا.",
+      "عِنْدَهَا جَوَازُ سَفَرِهَا only",
+      "جَوَازُ سَفَرِهَا لَهَا only"
+     ],
+     "answer": 0,
+     "feedback": "مَعَهَا focuses on physical possession at that moment."
+    },
+    {
+     "prompt": "Which statement is accurate?",
+     "options": [
+      "عِنْدَ, لِـ and مَعَ express related but different relationships",
+      "They are always interchangeable",
+      "Only أَمْلِكُ can mean “have”"
+     ],
+     "answer": 0,
+     "feedback": "Choose according to possession/availability, belonging/allocation or physical accompaniment."
+    },
+    {
+     "prompt": "Choose the accurate integrated answer.",
+     "options": [
+      "عِنْدِي حَاسُوبٌ، وَلَكِنَّ هَذَا الْهَاتِفَ لِأَخِي، وَمَفَاتِيحُهُ مَعِي.",
+      "عِنْدِي حَاسُوبًا، وَلَكِنَّ هَذَا الْهَاتِفُ عِنْدَ أَخِي لِي.",
+      "لِي حَاسُوبٌ مَعَ أَخِي عِنْدِي."
+     ],
+     "answer": 0,
+     "feedback": "The sentence uses each possession marker for its natural relationship and keeps case accurate."
+    }
+   ]
+  }
+ ],
+ "games": [
+  [
+   {
+    "prompt": "I have a question",
+    "choices": [
+     "عِنْدِي سُؤَالٌ",
+     "هَذَا السُّؤَالُ لِي",
+     "السُّؤَالُ مَعِي"
+    ],
+    "answer": 0,
+    "feedback": "عِنْدِي expresses possession/availability."
+   },
+   {
+    "prompt": "This pen is mine",
+    "choices": [
+     "هَذَا الْقَلَمُ لِي",
+     "عِنْدِي قَلَمٌ",
+     "هَذَا الْقَلَمُ مَعِي"
+    ],
+    "answer": 0,
+    "feedback": "لِي marks ownership."
+   },
+   {
+    "prompt": "The pen is with me",
+    "choices": [
+     "الْقَلَمُ مَعِي",
+     "هَذَا الْقَلَمُ لِي",
+     "عِنْدِي قَلَمٌ"
+    ],
+    "answer": 0,
+    "feedback": "مَعِي focuses on physical accompaniment."
+   },
+   {
+    "prompt": "She has a car",
+    "choices": [
+     "عِنْدَهَا سَيَّارَةٌ",
+     "السَّيَّارَةُ لَهَا",
+     "السَّيَّارَةُ مَعَهَا"
+    ],
+    "answer": 0,
+    "feedback": "عِنْدَهَا is the neutral possession pattern."
+   },
+   {
+    "prompt": "The car is hers",
+    "choices": [
+     "السَّيَّارَةُ لَهَا",
+     "عِنْدَهَا سَيَّارَةٌ",
+     "السَّيَّارَةُ مَعَهَا"
+    ],
+    "answer": 0,
+    "feedback": "لَهَا marks belonging."
+   },
+   {
+    "prompt": "The keys are with her",
+    "choices": [
+     "الْمَفَاتِيحُ مَعَهَا",
+     "عِنْدَهَا مَفَاتِيحُ",
+     "الْمَفَاتِيحُ لَهَا"
+    ],
+    "answer": 0,
+    "feedback": "مَعَهَا says she has them on her person/with her now."
+   },
+   {
+    "prompt": "Do you have time? — one female",
+    "choices": [
+     "هَلْ عِنْدَكِ وَقْتٌ؟",
+     "لِمَنْ وَقْتُكِ؟",
+     "هَلْ لَكِ وَقْتًا؟"
+    ],
+    "answer": 0,
+    "feedback": "Use هَلْ عِنْدَكِ for ordinary availability."
+   },
+   {
+    "prompt": "Whose is this?",
+    "choices": [
+     "لِمَنْ هَذَا؟",
+     "مَاذَا عِنْدَكَ؟",
+     "أَيْنَ هَذَا؟"
+    ],
+    "answer": 0,
+    "feedback": "لِمَنْ asks ownership."
+   },
+   {
+    "prompt": "We do not have a lesson today",
+    "choices": [
+     "لَيْسَ عِنْدَنَا دَرْسٌ الْيَوْمَ",
+     "لَيْسَ لَنَا دَرْسًا الْيَوْمَ only",
+     "لَا عِنْدَنَا دَرْسٌ"
+    ],
+    "answer": 0,
+    "feedback": "لَيْسَ عِنْدَنَا is a clear standard negative possession pattern."
+   },
+   {
+    "prompt": "This room is for the students",
+    "choices": [
+     "هَذِهِ الْغُرْفَةُ لِلطُّلَّابِ",
+     "هَذِهِ الْغُرْفَةُ عِنْدَ الطُّلَّابِ",
+     "هَذِهِ الْغُرْفَةُ مَعَ الطُّلَّابِ"
+    ],
+    "answer": 0,
+    "feedback": "لِـ marks allocation or intended use."
+   }
+  ]
+ ],
+ "blocks": [
+  "## Arabic expresses “have” through relationships",
+  "Instead of relying on one verb equivalent to English “have”, Arabic often locates an item with someone or marks it as belonging to someone.",
+  "[ar] عِنْدِي قَلَمٌ.",
+  "[ar] هَذَا الْقَلَمُ لِي.",
+  "[ar] الْقَلَمُ مَعِي.",
+  "[ar] عِنْدَهَا فِكْرَةٌ جَيِّدَةٌ.",
+  "[callout] Communication first: choose the structure that matches the relationship—availability, ownership, allocation or physical accompaniment.",
+  "## Choose your route",
+  "Build عِنْدَ and لِـ forms, then learn when each one is natural.",
+  "### Core",
+  "- Use عِنْدِي, عِنْدَكَ and عِنْدَهُ in short possession statements.",
+  "- Use لِي, لَكَ and لَهُ for belonging.",
+  "- Ask and answer simple possession questions.",
+  "### Develop",
+  "- Control the complete pronoun families.",
+  "- Negate possession and use dual/plural items.",
+  "- Distinguish عِنْدَ, لِـ and مَعَ.",
+  "### Stretch",
+  "- Analyse case in delayed possessed nouns.",
+  "- Use allocation and abstract possession precisely.",
+  "- Edit extended answers for natural choice and reference.",
+  "## Readiness check",
+  "Choose the marker that matches “have”, “belongs to” or “is with”.",
+  "## عِنْدَ + pronoun: possession and availability",
+  "The locator عِنْدَ combines with pronoun endings to mean “at/with someone” and commonly “someone has”.",
+  "TABLE: Person | Form | Model // I | عِنْدِي | عِنْدِي سُؤَالٌ. // we | عِنْدَنَا | عِنْدَنَا وَقْتٌ. // you m. sg. | عِنْدَكَ | هَلْ عِنْدَكَ قَلَمٌ؟ // you f. sg. | عِنْدَكِ | هَلْ عِنْدَكِ فِكْرَةٌ؟ // you dual | عِنْدَكُمَا | عِنْدَكُمَا كِتَابَانِ. // you m./mixed pl. | عِنْدَكُمْ | عِنْدَكُمْ أَسْئِلَةٌ. // you f. pl. | عِنْدَكُنَّ | عِنْدَكُنَّ مَوْعِدٌ. // he | عِنْدَهُ | عِنْدَهُ سَيَّارَةٌ. // she | عِنْدَهَا | عِنْدَهَا أُخْتَانِ. // they dual | عِنْدَهُمَا | عِنْدَهُمَا طِفْلَانِ. // they m./mixed pl. | عِنْدَهُمْ | عِنْدَهُمْ مَشْرُوعٌ. // they f. pl. | عِنْدَهُنَّ | عِنْدَهُنَّ حِصَّةٌ.",
+  "[callout] Case pattern: in a fully marked model, the possessed item is normally nominative as the delayed topic: عِنْدِي كِتَابٌ , عِنْدِي سَيَّارَتَانِ , عِنْدِي كُتُبٌ . The pronoun after عِنْدَ is the relational complement.",
+  "## لِـ + noun or pronoun: belonging and allocation",
+  "The preposition لِـ marks who something belongs to, is intended for, or is allocated to.",
+  "TABLE: Person | Combined form | Model // me | لِي | هَذَا لِي. // us | لَنَا | هَذَا الْمَشْرُوعُ لَنَا. // you m. sg. | لَكَ | هَذَا الْمَقْعَدُ لَكَ. // you f. sg. | لَكِ | هَذِهِ الرِّسَالَةُ لَكِ. // you dual | لَكُمَا | هَذَانِ الْكِتَابَانِ لَكُمَا. // you m./mixed pl. | لَكُمْ | هَذَا الْوَقْتُ لَكُمْ. // you f. pl. | لَكُنَّ | هَذِهِ الْغُرْفَةُ لَكُنَّ. // him | لَهُ | الْقَلَمُ لَهُ. // her | لَهَا | السَّيَّارَةُ لَهَا. // them dual | لَهُمَا | الْبَيْتُ لَهُمَا. // them m./mixed pl. | لَهُمْ | الْقَرَارُ لَهُمْ. // them f. pl. | لَهُنَّ | الْكُتُبُ لَهُنَّ.",
+  "Before a definite noun, لِـ joins the article and the alif is omitted in spelling: لِلْمُعَلِّمِ , لِلطُّلَّابِ . With the first-person suffix, the standard form is لِي .",
+  "## Choose by meaning: عِنْدَ, لِـ or مَعَ",
+  "The three structures overlap in English translation but focus on different relationships.",
+  "TABLE: Intended meaning | Best core structure | Example // someone has / something is available to them | عِنْدَ | عِنْدِي وَقْتٌ. // something belongs to / is allocated to someone | لِـ | هَذَا الْمَكْتَبُ لِي. // something is physically with someone now | مَعَ | جَوَازُ السَّفَرِ مَعِي.",
+  "[ar] عِنْدِي سَيَّارَةٌ.",
+  "[ar] السَّيَّارَةُ لِي.",
+  "[ar] السَّيَّارَةُ مَعِي الْيَوْمَ.",
+  "[ar] عِنْدِي فِكْرَةٌ، وَلَكِنَّ الْقَرَارَ لِلْمُدِيرِ.",
+  "## Questions and negation",
+  "Possession becomes useful when learners can ask, deny, clarify and correct.",
+  "TABLE: Purpose | Pattern | Example // Ask whether someone has something | هَلْ عِنْدَ + pronoun + item | هَلْ عِنْدَكِ سُؤَالٌ؟ // Ask what someone has | مَاذَا عِنْدَ + pronoun | مَاذَا عِنْدَكُمْ؟ // Ask ownership | لِمَنْ + item | لِمَنْ هَذِهِ الْحَقِيبَةُ؟ // Answer ownership | item + لِـ + pronoun | هِيَ لَهَا. // Negate possession | لَيْسَ عِنْدَ + pronoun + item | لَيْسَ عِنْدِي وَقْتٌ. // Negate ownership | item + لَيْسَ لِـ + pronoun / لَيْسَ item لِـ | هَذَا الْكِتَابُ لَيْسَ لِي.",
+  "[callout/warning] Do not use bare لَا before عِنْدَ as the default formal pattern. For clear MSA, use لَيْسَ عِنْدِي... or a suitable verbal alternative such as لَا أَمْلِكُ... when literal ownership is intended.",
+  "## Number and agreement of the possessed item",
+  "The owner marker stays fixed while the item changes for gender and number.",
+  "TABLE: Item type | Model | What to notice // Masculine singular | عِنْدَهَا قَلَمٌ جَدِيدٌ. | item and adjective nominative masculine // Feminine singular | عِنْدَهُ سَيَّارَةٌ جَدِيدَةٌ. | item and adjective nominative feminine // Dual | عِنْدَهُمَا طِفْلَانِ. | nominative dual // Human masculine plural | عِنْدَنَا مُعَلِّمُونَ مُخْلِصُونَ. | full human plural agreement // Non-human plural | عِنْدِي كُتُبٌ مُفِيدَةٌ. | feminine singular adjective",
+  "The pronoun inside عِنْدَهَا identifies the owner. It does not force the possessed noun to be feminine; the item keeps its own gender and number.",
+  "## Combine all three possession systems",
+  "Strong answers switch naturally among suffixes, iḍāfa, عِنْدَ and لِـ.",
+  "عِنْدِي حَاسُوبٌ مَحْمُولٌ أَسْتَخْدِمُهُ لِلدِّرَاسَةِ، وَلَكِنَّ هَذَا الْهَاتِفَ لِأَخِي. جَوَازُ سَفَرِهِ مَعِي الْيَوْمَ لِأَنَّنَا سَنَذْهَبُ إِلَى الْمَطَارِ. عِنْدَ أُخْتِي تَذْكِرَتَانِ، وَحَقِيبَتَاهَا فِي السَّيَّارَةِ.",
+  "- Find one possessive suffix.",
+  "- Find one iḍāfa.",
+  "- Find عِنْدَ for possession.",
+  "- Find لِـ for ownership/purpose.",
+  "- Find مَعَ for physical accompaniment.",
+  "[callout] Range with purpose: variety is valuable when each structure carries a different relationship. Do not replace a natural simple form merely to sound complex.",
+  "## Proofreading clinic",
+  "Choose the possession structure before checking pronouns, case and agreement.",
+  "TABLE: Draft | Improved version | Reason // أَنَا عِنْدِي قَلَمٌ. | عِنْدِي قَلَمٌ. | The independent pronoun is usually unnecessary unless contrast is intended. // عِنْدِي قَلَمًا. | عِنْدِي قَلَمٌ. | The possessed item is normally nominative in the basic pattern. // هَذَا الْكِتَابُ عِنْدِي. (meaning: it belongs to me) | هَذَا الْكِتَابُ لِي. | Use لِي for explicit ownership. // عِنْدِي الْمَفَاتِيحُ مَعِي. | الْمَفَاتِيحُ مَعِي. / عِنْدِي الْمَفَاتِيحُ. | Choose the intended focus; avoid redundant stacking. // لِإِي هَذَا الْمَقْعَدُ. | هَذَا الْمَقْعَدُ لِي. | The combined first-person form is لِي and the normal order starts with the item. // لَا عِنْدِي وَقْتٌ. | لَيْسَ عِنْدِي وَقْتٌ. | Use a clear standard negative pattern. // عِنْدَهَا كِتَابٌ جَدِيدَةٌ. | عِنْدَهَا كِتَابٌ جَدِيدٌ. | The adjective matches the item, not the owner.",
+  "## Game: Whose, who has, or who carries?",
+  "Choose عِنْدَ, لِـ or مَعَ according to the intended relationship.",
+  "## Skills workshop",
+  "Ask about belongings, explain ownership and keep reference clear.",
+  "### Role-play: lost property",
+  "Ask who has an item, whose it is and whether it is physically with the person now. Use at least four forms from:",
+  "هَلْ عِنْدَكَ...؟ لِمَنْ هَذَا؟ هَلْ هُوَ لَكَ؟ هَلْ هُوَ مَعَكَ الآنَ؟",
+  "### Reading: allocation notice",
+  "الْغُرْفَةُ الْأُولَى لِلطُّلَّابِ، وَالثَّانِيَةُ لِلطَّالِبَاتِ. عِنْدَ كُلِّ مَجْمُوعَةٍ مِفْتَاحٌ، وَالْبِطَاقَاتُ مَعَ الْمُشْرِفَةِ.",
+  "Explain the different relationship expressed by each possession marker.",
+  "### Ownership, availability and responsibility",
+  "Write 110–130 Arabic words about belongings and responsibilities in a home, class, journey, event or workplace.",
+  "[callout] Success checklist: Use four عِنْدَ forms, four لِـ forms, two مَعَ forms, two questions, one negative, one dual/plural item, two possessive suffixes and two iḍāfa phrases.",
+  "[callout] Paper route: Create three columns headed “has/available”, “belongs/allocated” and “physically with”. Sort your ideas before writing.",
+  "## Final mastery check",
+  "Show that you can distinguish possession, belonging and accompaniment.",
+  "### You can now",
+  "- Use the complete عِنْدَ and لِـ pronoun families.",
+  "- Ask and answer ownership questions.",
+  "- Negate possession clearly.",
+  "- Distinguish عِنْدَ, لِـ and مَعَ.",
+  "- Keep the possessed item’s number and agreement accurate.",
+  "- Combine possession markers with suffixes and iḍāfa in connected language.",
+  "Spaced revisit: rewrite a previous home, school or travel paragraph and replace repeated ownership language with the most precise possession structure."
+ ]
+}

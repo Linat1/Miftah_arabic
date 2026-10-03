@@ -1,0 +1,436 @@
+{
+ "path": "lessons/grammar/12-case-endings/grammar-mastery-02-accusative.php",
+ "title": "The Accusative Case",
+ "arabic": "حَالَةُ النَّصْبِ",
+ "lede": "Mark the receiver of an action, build useful time and place expressions, and control the forms after إِنَّ and كَانَ.",
+ "nav": [
+  [
+   "GM-CASE-01",
+   "The Nominative Case"
+  ]
+ ],
+ "quizzes": [
+  {
+   "title": "🔎 Readiness Check",
+   "items": [
+    {
+     "prompt": "Which word is the direct object in كَتَبَ الطَّالِبُ الرِّسَالَةَ؟",
+     "options": [
+      "الرِّسَالَةَ",
+      "الطَّالِبُ",
+      "كَتَبَ"
+     ],
+     "answer": 0,
+     "feedback": "The message receives the action, so it is the accusative direct object."
+    },
+    {
+     "prompt": "Which ending normally marks a definite singular accusative noun?",
+     "options": [
+      "ـَ",
+      "ـُ",
+      "ـِ"
+     ],
+     "answer": 0,
+     "feedback": "A single fatḥa is the usual marker for a regular definite singular noun in the accusative."
+    },
+    {
+     "prompt": "Choose the correct indefinite accusative form of كِتَاب.",
+     "options": [
+      "كِتَابًا",
+      "كِتَابٌ",
+      "كِتَابٍ"
+     ],
+     "answer": 0,
+     "feedback": "Fatḥatan normally appears with a supporting alif on this regular noun."
+    },
+    {
+     "prompt": "Which sentence has the correct direct object?",
+     "options": [
+      "زُرْتُ الْمُتْحَفَ.",
+      "زُرْتُ الْمُتْحَفُ.",
+      "زُرْتُ الْمُتْحَفِ."
+     ],
+     "answer": 0,
+     "feedback": "The museum receives the action of visiting."
+    },
+    {
+     "prompt": "Which explanation is correct?",
+     "options": [
+      "صَبَاحًا is an accusative adverbial, while فِي الصَّبَاحِ is a prepositional phrase.",
+      "Both phrases are genitive.",
+      "Both phrases are direct objects."
+     ],
+     "answer": 0,
+     "feedback": "Arabic can express the same time idea through an accusative adverb or a preposition plus a genitive noun."
+    },
+    {
+     "prompt": "Choose the accusative dual form.",
+     "options": [
+      "طَالِبَيْنِ",
+      "طَالِبَانِ",
+      "طَالِبُونَ"
+     ],
+     "answer": 0,
+     "feedback": "Dual accusative and genitive use ـَيْنِ."
+    }
+   ]
+  },
+  {
+   "title": "✅ Mini-check: direct objects",
+   "items": [
+    {
+     "prompt": "Choose the correct definite object.",
+     "options": [
+      "قَرَأْتُ الْكِتَابَ الْجَدِيدَ.",
+      "قَرَأْتُ الْكِتَابُ الْجَدِيدُ.",
+      "قَرَأْتُ الْكِتَابَ الْجَدِيدُ."
+     ],
+     "answer": 0,
+     "feedback": "The object and its adjective are accusative."
+    },
+    {
+     "prompt": "Choose the correct indefinite object.",
+     "options": [
+      "اِشْتَرَيْتُ قَلَمًا جَدِيدًا.",
+      "اِشْتَرَيْتُ قَلَمٌ جَدِيدٌ.",
+      "اِشْتَرَيْتُ قَلَمًا جَدِيدٌ."
+     ],
+     "answer": 0,
+     "feedback": "Both noun and adjective take fatḥatan."
+    },
+    {
+     "prompt": "Choose the correct dual object.",
+     "options": [
+      "قَابَلْتُ طَالِبَيْنِ جَدِيدَيْنِ.",
+      "قَابَلْتُ طَالِبَانِ جَدِيدَانِ.",
+      "قَابَلْتُ طَالِبَيْنِ جَدِيدَانِ."
+     ],
+     "answer": 0,
+     "feedback": "Dual object and adjective take ـَيْنِ."
+    },
+    {
+     "prompt": "Choose the correct sound masculine plural object.",
+     "options": [
+      "سَاعَدْتُ الْمُعَلِّمِينَ.",
+      "سَاعَدْتُ الْمُعَلِّمُونَ.",
+      "سَاعَدْتُ الْمُعَلِّمَاتُ."
+     ],
+     "answer": 0,
+     "feedback": "Sound masculine plural accusative uses ـِينَ."
+    }
+   ]
+  },
+  {
+   "title": "✅ Mini-check: adverbials",
+   "items": [
+    {
+     "prompt": "Choose the time expression meaning “I studied for an hour.”",
+     "options": [
+      "دَرَسْتُ سَاعَةً.",
+      "دَرَسْتُ سَاعَةٌ.",
+      "دَرَسْتُ فِي سَاعَةَ."
+     ],
+     "answer": 0,
+     "feedback": "A measured duration can appear as an accusative adverbial."
+    },
+    {
+     "prompt": "Choose the accurate locator structure.",
+     "options": [
+      "اِنْتَظَرْتُ أَمَامَ الْمَدْرَسَةِ.",
+      "اِنْتَظَرْتُ أَمَامُ الْمَدْرَسَةُ.",
+      "اِنْتَظَرْتُ أَمَامِ الْمَدْرَسَةَ."
+     ],
+     "answer": 0,
+     "feedback": "أَمَامَ is an accusative locator; the following noun is genitive in an iḍāfa relationship."
+    },
+    {
+     "prompt": "Choose the correct phrase after كُلَّ.",
+     "options": [
+      "أَتَدَرَّبُ كُلَّ يَوْمٍ.",
+      "أَتَدَرَّبُ كُلُّ يَوْمٌ.",
+      "أَتَدَرَّبُ كُلِّ يَوْمٍ."
+     ],
+     "answer": 0,
+     "feedback": "كُلَّ is accusative here; يَوْمٍ is its genitive complement."
+    },
+    {
+     "prompt": "Choose the correct sound feminine plural object.",
+     "options": [
+      "شَاهَدْتُ السَّيَّارَاتِ الْجَدِيدَةَ.",
+      "شَاهَدْتُ السَّيَّارَاتَ الْجَدِيدَاتَ.",
+      "شَاهَدْتُ السَّيَّارَاتُ الْجَدِيدَةُ."
+     ],
+     "answer": 0,
+     "feedback": "Sound feminine plural accusative uses kasra; the non-human plural adjective is feminine singular accusative."
+    }
+   ]
+  },
+  {
+   "title": "🏁 Final Mastery",
+   "items": [
+    {
+     "prompt": "What is the core role of the accusative in a verbal sentence?",
+     "options": [
+      "Marking the direct object/receiver",
+      "Marking the subject/doer",
+      "Marking every noun after a preposition"
+     ],
+     "answer": 0,
+     "feedback": "The direct object is the most important accusative role for functional sentence building."
+    },
+    {
+     "prompt": "Choose the correct sentence.",
+     "options": [
+      "أَكَلَ الْوَلَدُ التُّفَّاحَةَ.",
+      "أَكَلَ الْوَلَدَ التُّفَّاحَةُ.",
+      "أَكَلَ الْوَلَدِ التُّفَّاحَةِ."
+     ],
+     "answer": 0,
+     "feedback": "Subject nominative; object accusative."
+    },
+    {
+     "prompt": "Choose the correct indefinite object.",
+     "options": [
+      "رَأَيْتُ طَائِرًا جَمِيلًا.",
+      "رَأَيْتُ طَائِرٌ جَمِيلٌ.",
+      "رَأَيْتُ طَائِرًا جَمِيلٌ."
+     ],
+     "answer": 0,
+     "feedback": "Noun and adjective both take fatḥatan."
+    },
+    {
+     "prompt": "Which word normally does not take a supporting accusative alif?",
+     "options": [
+      "مَدْرَسَةً",
+      "كِتَابًا",
+      "قَلَمًا"
+     ],
+     "answer": 0,
+     "feedback": "A word ending in tāʾ marbūṭa takes fatḥatan without an extra alif."
+    },
+    {
+     "prompt": "Choose the dual object.",
+     "options": [
+      "قَابَلْتُ الْمُدِيرَيْنِ.",
+      "قَابَلْتُ الْمُدِيرَانِ.",
+      "قَابَلْتُ الْمُدِيرُونَ."
+     ],
+     "answer": 0,
+     "feedback": "Dual accusative uses ـَيْنِ."
+    },
+    {
+     "prompt": "Choose the sound masculine plural object.",
+     "options": [
+      "شَكَرْتُ الْمُعَلِّمِينَ.",
+      "شَكَرْتُ الْمُعَلِّمُونَ.",
+      "شَكَرْتُ الْمُعَلِّمَاتُ."
+     ],
+     "answer": 0,
+     "feedback": "Sound masculine plural accusative uses ـِينَ."
+    },
+    {
+     "prompt": "Choose the sound feminine plural object.",
+     "options": [
+      "قَابَلْتُ الطَّالِبَاتِ.",
+      "قَابَلْتُ الطَّالِبَاتُ.",
+      "قَابَلْتُ الطَّالِبَاتَ."
+     ],
+     "answer": 0,
+     "feedback": "The sound feminine plural uses kasra in both accusative and genitive."
+    },
+    {
+     "prompt": "Which is an accusative time adverbial?",
+     "options": [
+      "سَأَذْهَبُ غَدًا.",
+      "سَأَذْهَبُ فِي الْمَدْرَسَةِ.",
+      "سَأَذْهَبُ مِنَ الْبَيْتِ."
+     ],
+     "answer": 0,
+     "feedback": "غَدًا is a high-frequency accusative time adverb."
+    },
+    {
+     "prompt": "After إِنَّ, what happens to its noun?",
+     "options": [
+      "It becomes accusative.",
+      "It remains nominative.",
+      "It becomes genitive."
+     ],
+     "answer": 0,
+     "feedback": "إِنَّ places its noun in the accusative while its predicate remains nominative."
+    },
+    {
+     "prompt": "Best correction process?",
+     "options": [
+      "Identify the receiver or adverbial role, then match the adjective and number ending.",
+      "Add fatḥa to every noun after a verb.",
+      "Use fatḥatan only when the word is indefinite, regardless of role."
+     ],
+     "answer": 0,
+     "feedback": "Accusative is a grammatical function, not simply “a noun after a verb”."
+    }
+   ]
+  }
+ ],
+ "games": [
+  [
+   {
+    "p": "I read the new book.",
+    "a": "قَرَأْتُ الْكِتَابَ الْجَدِيدَ.",
+    "choices": [
+     "قَرَأْتُ الْكِتَابَ الْجَدِيدَ.",
+     "قَرَأْتُ الْكِتَابُ الْجَدِيدُ.",
+     "قَرَأْتُ الْكِتَابَ الْجَدِيدُ."
+    ],
+    "e": "Object and adjective are accusative."
+   },
+   {
+    "p": "I bought a new pen.",
+    "a": "اِشْتَرَيْتُ قَلَمًا جَدِيدًا.",
+    "choices": [
+     "اِشْتَرَيْتُ قَلَمًا جَدِيدًا.",
+     "اِشْتَرَيْتُ قَلَمٌ جَدِيدٌ.",
+     "اِشْتَرَيْتُ قَلَمًا جَدِيدٌ."
+    ],
+    "e": "Indefinite object and adjective take fatḥatan."
+   },
+   {
+    "p": "I met two new pupils.",
+    "a": "قَابَلْتُ طَالِبَيْنِ جَدِيدَيْنِ.",
+    "choices": [
+     "قَابَلْتُ طَالِبَيْنِ جَدِيدَيْنِ.",
+     "قَابَلْتُ طَالِبَانِ جَدِيدَانِ.",
+     "قَابَلْتُ طَالِبَيْنِ جَدِيدَانِ."
+    ],
+    "e": "Dual accusative uses ـَيْنِ."
+   },
+   {
+    "p": "I thanked the teachers.",
+    "a": "شَكَرْتُ الْمُعَلِّمِينَ.",
+    "choices": [
+     "شَكَرْتُ الْمُعَلِّمِينَ.",
+     "شَكَرْتُ الْمُعَلِّمُونَ.",
+     "شَكَرْتُ الْمُعَلِّمَاتُ."
+    ],
+    "e": "Sound masculine plural object uses ـِينَ."
+   },
+   {
+    "p": "I saw the new cars.",
+    "a": "شَاهَدْتُ السَّيَّارَاتِ الْجَدِيدَةَ.",
+    "choices": [
+     "شَاهَدْتُ السَّيَّارَاتِ الْجَدِيدَةَ.",
+     "شَاهَدْتُ السَّيَّارَاتُ الْجَدِيدَةُ.",
+     "شَاهَدْتُ السَّيَّارَاتِ الْجَدِيدَاتِ."
+    ],
+    "e": "Sound feminine plural object takes kasra; non-human adjective is feminine singular accusative."
+   },
+   {
+    "p": "I travelled in the morning.",
+    "a": "سَافَرْتُ صَبَاحًا.",
+    "choices": [
+     "سَافَرْتُ صَبَاحًا.",
+     "سَافَرْتُ صَبَاحٌ.",
+     "سَافَرْتُ صَبَاحٍ."
+    ],
+    "e": "An indefinite time adverbial takes fatḥatan."
+   },
+   {
+    "p": "I waited in front of the school.",
+    "a": "اِنْتَظَرْتُ أَمَامَ الْمَدْرَسَةِ.",
+    "choices": [
+     "اِنْتَظَرْتُ أَمَامَ الْمَدْرَسَةِ.",
+     "اِنْتَظَرْتُ أَمَامُ الْمَدْرَسَةُ.",
+     "اِنْتَظَرْتُ أَمَامِ الْمَدْرَسَةَ."
+    ],
+    "e": "Locator accusative + genitive complement."
+   },
+   {
+    "p": "Indeed, the lesson is useful.",
+    "a": "إِنَّ الدَّرْسَ مُفِيدٌ.",
+    "choices": [
+     "إِنَّ الدَّرْسَ مُفِيدٌ.",
+     "إِنَّ الدَّرْسُ مُفِيدًا.",
+     "إِنَّ الدَّرْسِ مُفِيدٍ."
+    ],
+    "e": "The noun of إِنَّ is accusative; the predicate is nominative."
+   }
+  ]
+ ],
+ "blocks": [
+  "## Why the accusative matters",
+  "It tells the reader who or what receives an action and helps organise time, place and key particle structures.",
+  "[ar] قَرَأَتْ مَرْيَمُ الْمَقَالَةَ.",
+  "[ar] سَافَرْنَا صَبَاحًا.",
+  "[ar] إِنَّ الْمَقَالَةَ مُفِيدَةٌ.",
+  "[callout] Meaning test: ask “what did the subject act upon?” before choosing the direct-object ending.",
+  "## Choose your route",
+  "Secure the direct object first, then extend to adverbials and particle-controlled structures.",
+  "### Core",
+  "- Identify the direct object.",
+  "- Use ـَ and ـً in regular singular nouns.",
+  "- Make an adjective match an accusative noun.",
+  "### Develop",
+  "- Use dual and sound-plural accusative markers.",
+  "- Build common time and place adverbials.",
+  "- Apply the rule after إِنَّ and in the predicate of كَانَ.",
+  "### Stretch",
+  "- Explain supporting-alif spelling.",
+  "- Distinguish sound feminine plural accusative from regular singular patterns.",
+  "- Edit connected sentences containing several different cases.",
+  "## Starter diagnostic",
+  "Check whether you can separate the doer from the receiver.",
+  "## The direct object",
+  "The object receives the action and is the core accusative role.",
+  "[ar] فَتَحَ الْحَارِسُ الْبَابَ.",
+  "[ar] اِشْتَرَتْ لَيْلَى حَقِيبَةً جَدِيدَةً.",
+  "[ar] قَابَلْتُ طَالِبَيْنِ مُجْتَهِدَيْنِ.",
+  "TABLE: Noun type | Accusative form | Marker // Definite singular | الْكِتَابَ | ـَ // Indefinite singular | كِتَابًا | ـً + supporting alif // Tāʾ marbūṭa indefinite | مَدْرَسَةً | ـً without extra alif // Dual | طَالِبَيْنِ | ـَيْنِ // Sound masculine plural | مُعَلِّمِينَ | ـِينَ // Sound feminine plural | طَالِبَاتِ / طَالِبَاتٍ | kasra / kasratan",
+  "## Fatḥatan and the supporting alif",
+  "The written alif belongs to the spelling pattern, not to the meaning of “object”.",
+  "TABLE: Indefinite accusative | Spelling decision | Example in context // Regular consonant ending | add supporting alif | قَرَأْتُ كِتَابًا. // Tāʾ marbūṭa | no extra alif | زُرْتُ مَدْرَسَةً. // Word ending in alif/hamza pattern | follow standard spelling; do not invent an extra alif | شَرِبْتُ مَاءً.",
+  "[callout/warning] Do not write two alifs by rule. Learn the whole written form and check whether the word already ends in a form that blocks the extra support alif.",
+  "## Time, duration and place adverbials",
+  "Some nouns function adverbially and take the accusative.",
+  "[ar] سَأَزُورُهُ غَدًا.",
+  "[ar] دَرَسْتُ سَاعَةً كَامِلَةً.",
+  "[ar] جَلَسْنَا أَمَامَ الْبَيْتِ.",
+  "[ar] أَتَدَرَّبُ كُلَّ يَوْمٍ.",
+  "[callout] Two valid routes: سَافَرْتُ صَبَاحًا uses an accusative adverb; سَافَرْتُ فِي الصَّبَاحِ uses a preposition plus a genitive noun. Choose the natural phrase, not simply the case you want to demonstrate.",
+  "## High-value cross-links: إِنَّ and كَانَ",
+  "These particle families make case relationships visible.",
+  "TABLE: Base sentence | Changed structure | Case decision // الدَّرْسُ مُفِيدٌ. | إِنَّ الدَّرْسَ مُفِيدٌ. | noun of إِنَّ accusative // الدَّرْسُ مُفِيدٌ. | كَانَ الدَّرْسُ مُفِيدًا. | predicate of كَانَ accusative // الطَّالِبَاتُ مُسْتَعِدَّاتٌ. | إِنَّ الطَّالِبَاتِ مُسْتَعِدَّاتٌ. | sound feminine plural noun uses kasra in the accusative // الطُّلَّابُ مُسْتَعِدُّونَ. | كَانَ الطُّلَّابُ مُسْتَعِدِّينَ. | sound masculine plural predicate uses ـِينَ",
+  "[callout] One sentence, two cases: Do not try to make every prominent noun match the same ending. The particle assigns different jobs.",
+  "## Accusative adjective agreement",
+  "The adjective follows the noun’s case—even when the visible marker changes by number type.",
+  "TABLE: Pattern | Accurate phrase | What to notice // singular definite | الْكِتَابَ الْجَدِيدَ | both take fatḥa // singular indefinite | كِتَابًا جَدِيدًا | both take fatḥatan // dual | طَالِبَيْنِ جَدِيدَيْنِ | both take ـَيْنِ // sound masculine plural | مُعَلِّمِينَ جُدُدًا | noun plural marker; adjective may be broken plural accusative // non-human sound feminine plural | السَّيَّارَاتِ الْجَدِيدَةَ | noun kasra; adjective feminine singular fatḥa",
+  "The final example shows why agreement is not “copy the same visible symbol”. The adjective agrees grammatically, but its own word type determines how that case appears.",
+  "## Misconception clinic",
+  "Check the receiver, spelling and the complete adjective unit.",
+  "TABLE: Draft | Improved version | Reason // قَرَأْتُ الْكِتَابُ. | قَرَأْتُ الْكِتَابَ. | Direct object accusative. // اِشْتَرَيْتُ قَلَمًا جَدِيدٌ. | اِشْتَرَيْتُ قَلَمًا جَدِيدًا. | The adjective follows the object in case. // زُرْتُ مَدْرَسَةًا. | زُرْتُ مَدْرَسَةً. | No supporting alif after tāʾ marbūṭa. // قَابَلْتُ الطَّالِبَانِ. | قَابَلْتُ الطَّالِبَيْنِ. | Dual accusative uses ـَيْنِ. // شَاهَدْتُ السَّيَّارَاتَ الْجَدِيدَاتَ. | شَاهَدْتُ السَّيَّارَاتِ الْجَدِيدَةَ. | Sound feminine plural accusative uses kasra; non-human adjective feminine singular.",
+  "## Game: Mark the receiver or adverbial",
+  "Select the form that makes the sentence relationship accurate.",
+  "## Skills workshop",
+  "Read, speak and write with direct objects and practical adverbials.",
+  "### Reading and coding",
+  "زَارَتْ سَلْمَى الْمَعْرِضَ صَبَاحًا، وَشَاهَدَتْ صُوَرًا جَمِيلَةً. ثُمَّ قَابَلَتْ مُصَوِّرَيْنِ مَشْهُورَيْنِ.",
+  "Underline direct objects once and accusative adverbials twice. Explain the dual ending.",
+  "### Speaking challenge",
+  "Describe a visit or shopping trip using:",
+  "- three direct objects;",
+  "- one indefinite object with an adjective;",
+  "- one time adverbial;",
+  "- one dual or sound plural object.",
+  "### Write a visit or activity account",
+  "Write 100–120 Arabic words about a visit, journey, hobby session or shopping experience.",
+  "[callout] Success checklist: Use at least six direct objects, two accusative adverbials, one dual or sound plural, and accurate adjective agreement. Add full endings only to the target grammar.",
+  "[callout] Paper route: Create two columns: action/doer and receiver. Draft the paragraph, then circle every accusative noun and check its adjective.",
+  "## Final mastery check",
+  "Show that you can build direct objects, adverbials and particle-controlled accusatives.",
+  "### What you can now do",
+  "- Identify and mark direct objects.",
+  "- Use singular, dual and sound-plural accusative forms.",
+  "- Spell common fatḥatan forms accurately.",
+  "- Build time, duration and place adverbials.",
+  "- Apply accusative agreement after إِنَّ and كَانَ structures.",
+  "Spaced revisit: rewrite five earlier sentences by adding a new object or adverbial and checking the complete agreement chain."
+ ]
+}

@@ -1,0 +1,472 @@
+{
+ "path": "lessons/grammar/08-conjunctions-prepositions/grammar-mastery-01-common-prepositions.php",
+ "title": "Common Prepositions and the Genitive",
+ "arabic": "حُرُوفُ الْجَرِّ وَالْمَجْرُورُ",
+ "lede": "Learn what each high-frequency preposition means, how attached prepositions are written, and how the following noun changes without turning the lesson into abstract case analysis.",
+ "nav": [],
+ "quizzes": [
+  {
+   "title": "🔎 Entry Check",
+   "items": [
+    {
+     "prompt": "Choose “in the house”.",
+     "options": [
+      "فِي الْبَيْتِ",
+      "إِلَى الْبَيْتِ",
+      "مِنَ الْبَيْتِ"
+     ],
+     "answer": 0,
+     "feedback": "فِي locates something inside or within a place."
+    },
+    {
+     "prompt": "Choose “to the school”.",
+     "options": [
+      "إِلَى الْمَدْرَسَةِ",
+      "عَنِ الْمَدْرَسَةِ",
+      "بِالْمَدْرَسَةِ"
+     ],
+     "answer": 0,
+     "feedback": "إِلَى marks movement or direction towards a destination."
+    },
+    {
+     "prompt": "Which preposition means “about”?",
+     "options": [
+      "عَنْ",
+      "عَلَى",
+      "مَعَ"
+     ],
+     "answer": 0,
+     "feedback": "عَنْ commonly introduces a topic or movement away from something."
+    },
+    {
+     "prompt": "Which is written correctly?",
+     "options": [
+      "بِالْحَافِلَةِ",
+      "بِ الْحَافِلَةِ",
+      "ب ال حافلة"
+     ],
+     "answer": 0,
+     "feedback": "The one-letter preposition بِـ attaches directly to the next word."
+    },
+    {
+     "prompt": "After فِي, the noun is usually…",
+     "options": [
+      "genitive / مجرور",
+      "always nominative",
+      "always a verb"
+     ],
+     "answer": 0,
+     "feedback": "A noun governed by a true preposition is genitive."
+    },
+    {
+     "prompt": "Choose “for the student”.",
+     "options": [
+      "لِلطَّالِبِ",
+      "لِ الطَّالِبُ",
+      "إِلَى الطَّالِبَ"
+     ],
+     "answer": 0,
+     "feedback": "لِـ attaches to the article: لِلـ, and the noun is genitive."
+    }
+   ]
+  },
+  {
+   "title": "Meaning Check",
+   "items": [
+    {
+     "prompt": "I travelled ___ my parents.",
+     "options": [
+      "مَعَ وَالِدَيَّ",
+      "بِوَالِدَيَّ",
+      "عَنْ وَالِدَيَّ"
+     ],
+     "answer": 0,
+     "feedback": "Company is expressed with مَعَ."
+    },
+    {
+     "prompt": "I travelled ___ train.",
+     "options": [
+      "بِالْقِطَارِ",
+      "مَعَ الْقِطَارِ",
+      "عَنِ الْقِطَارِ"
+     ],
+     "answer": 0,
+     "feedback": "A means of transport commonly follows بِـ."
+    },
+    {
+     "prompt": "We spoke ___ technology.",
+     "options": [
+      "عَنِ التِّقْنِيَّةِ",
+      "إِلَى التِّقْنِيَّةِ",
+      "مِنَ التِّقْنِيَّةِ"
+     ],
+     "answer": 0,
+     "feedback": "The topic of speaking follows عَنْ."
+    },
+    {
+     "prompt": "The phone is ___ the desk.",
+     "options": [
+      "عَلَى الْمَكْتَبِ",
+      "إِلَى الْمَكْتَبِ",
+      "مِنَ الْمَكْتَبِ"
+     ],
+     "answer": 0,
+     "feedback": "A surface relationship uses عَلَى."
+    }
+   ]
+  },
+  {
+   "title": "Genitive Form Check",
+   "items": [
+    {
+     "prompt": "Choose the fully supported form: in a school.",
+     "options": [
+      "فِي مَدْرَسَةٍ",
+      "فِي مَدْرَسَةٌ",
+      "فِي مَدْرَسَةً"
+     ],
+     "answer": 0,
+     "feedback": "An indefinite noun after فِي takes tanwīn kasr in full marking."
+    },
+    {
+     "prompt": "Choose: with the teachers.",
+     "options": [
+      "مَعَ الْمُعَلِّمِينَ",
+      "مَعَ الْمُعَلِّمُونَ",
+      "مَعَ الْمُعَلِّمَانِ"
+     ],
+     "answer": 0,
+     "feedback": "The sound masculine plural uses ـِينَ in genitive contexts."
+    },
+    {
+     "prompt": "Choose: to two libraries.",
+     "options": [
+      "إِلَى مَكْتَبَتَيْنِ",
+      "إِلَى مَكْتَبَتَانِ",
+      "إِلَى مَكْتَبَتَيْنَ"
+     ],
+     "answer": 0,
+     "feedback": "The dual uses ـَيْنِ after a preposition."
+    },
+    {
+     "prompt": "Which statement is accurate?",
+     "options": [
+      "The preposition governs the noun after it.",
+      "Every Arabic word after a preposition is a verb.",
+      "The preposition disappears in writing."
+     ],
+     "answer": 0,
+     "feedback": "The governed noun or pronoun forms a prepositional phrase."
+    }
+   ]
+  },
+  {
+   "title": "Attached Form Check",
+   "items": [
+    {
+     "prompt": "Which spelling is correct?",
+     "options": [
+      "بِالسَّيَّارَةِ",
+      "بِ السَّيَّارَةِ",
+      "بِاَلسَّيَّارَةُ"
+     ],
+     "answer": 0,
+     "feedback": "بِـ attaches directly to the article and noun."
+    },
+    {
+     "prompt": "Which means “for the school”?",
+     "options": [
+      "لِلْمَدْرَسَةِ",
+      "لِ الْمَدْرَسَةُ",
+      "بِالْمَدْرَسَةِ"
+     ],
+     "answer": 0,
+     "feedback": "لِـ + الـ is written لِلـ."
+    },
+    {
+     "prompt": "Choose “for him”.",
+     "options": [
+      "لَهُ",
+      "لِهُ",
+      "بِهِ"
+     ],
+     "answer": 0,
+     "feedback": "The established form is لَهُ."
+    },
+    {
+     "prompt": "Choose “with it / by it”.",
+     "options": [
+      "بِهِ",
+      "بِهُ",
+      "لَهُ"
+     ],
+     "answer": 0,
+     "feedback": "The established form is بِهِ."
+    }
+   ]
+  },
+  {
+   "title": "🏁 Final Mastery",
+   "items": [
+    {
+     "prompt": "Choose “from the library”.",
+     "options": [
+      "مِنَ الْمَكْتَبَةِ",
+      "إِلَى الْمَكْتَبَةِ",
+      "عَلَى الْمَكْتَبَةِ"
+     ],
+     "answer": 0,
+     "feedback": "Source uses مِنْ."
+    },
+    {
+     "prompt": "Choose “about the exam”.",
+     "options": [
+      "عَنِ الِامْتِحَانِ",
+      "فِي الِامْتِحَانِ",
+      "مَعَ الِامْتِحَانِ"
+     ],
+     "answer": 0,
+     "feedback": "Topic uses عَنْ."
+    },
+    {
+     "prompt": "Correct spelling: by car.",
+     "options": [
+      "بِالسَّيَّارَةِ",
+      "بِ السَّيَّارَةِ",
+      "بِالسَّيَّارَةُ"
+     ],
+     "answer": 0,
+     "feedback": "Attached بِـ and genitive noun."
+    },
+    {
+     "prompt": "Correct spelling: for the teacher.",
+     "options": [
+      "لِلْمُعَلِّمِ",
+      "لِ الْمُعَلِّمُ",
+      "لِالْمُعَلِّمِ"
+     ],
+     "answer": 0,
+     "feedback": "لِلـ plus genitive noun."
+    },
+    {
+     "prompt": "Complete: اِسْتَمَعْتُ ___ الْخَبَرِ.",
+     "options": [
+      "إِلَى",
+      "عَنْ",
+      "مَعَ"
+     ],
+     "answer": 0,
+     "feedback": "The collocation is استمع إلى."
+    },
+    {
+     "prompt": "Complete: بَحَثْتُ ___ الْكِتَابِ.",
+     "options": [
+      "عَنِ",
+      "عَلَى",
+      "فِي"
+     ],
+     "answer": 0,
+     "feedback": "The collocation is بحث عن."
+    },
+    {
+     "prompt": "Choose: in two rooms.",
+     "options": [
+      "فِي غُرْفَتَيْنِ",
+      "فِي غُرْفَتَانِ",
+      "فِي غُرْفَتَيْنَ"
+     ],
+     "answer": 0,
+     "feedback": "Dual genitive uses ـَيْنِ."
+    },
+    {
+     "prompt": "Choose: with the engineers.",
+     "options": [
+      "مَعَ الْمُهَنْدِسِينَ",
+      "مَعَ الْمُهَنْدِسُونَ",
+      "مَعَ الْمُهَنْدِسَانِ"
+     ],
+     "answer": 0,
+     "feedback": "Sound masculine plural genitive uses ـِينَ."
+    },
+    {
+     "prompt": "Which means “with my friend” (company)?",
+     "options": [
+      "مَعَ صَدِيقِي",
+      "بِصَدِيقِي",
+      "عَنْ صَدِيقِي"
+     ],
+     "answer": 0,
+     "feedback": "Company uses مَعَ."
+    },
+    {
+     "prompt": "Best principle?",
+     "options": [
+      "Learn meaning and collocation together.",
+      "Translate every English preposition literally.",
+      "Ignore the governed noun."
+     ],
+     "answer": 0,
+     "feedback": "Functional accuracy depends on the whole phrase."
+    }
+   ]
+  }
+ ],
+ "games": [
+  [
+   {
+    "p": "Complete: أَدْرُسُ ___ الْمَدْرَسَةِ.",
+    "a": "فِي",
+    "choices": [
+     "فِي",
+     "إِلَى",
+     "عَنْ"
+    ],
+    "e": "Location inside/at a place uses فِي."
+   },
+   {
+    "p": "Complete: أَذْهَبُ ___ الْمَكْتَبَةِ.",
+    "a": "إِلَى",
+    "choices": [
+     "إِلَى",
+     "مِنْ",
+     "عَلَى"
+    ],
+    "e": "Direction towards a destination uses إِلَى."
+   },
+   {
+    "p": "Complete: عُدْتُ ___ السُّوقِ.",
+    "a": "مِنَ",
+    "choices": [
+     "مِنَ",
+     "عَنْ",
+     "مَعَ"
+    ],
+    "e": "Source or origin uses مِنْ."
+   },
+   {
+    "p": "Complete: تَحَدَّثْنَا ___ الرِّحْلَةِ.",
+    "a": "عَنِ",
+    "choices": [
+     "عَنِ",
+     "عَلَى",
+     "إِلَى"
+    ],
+    "e": "A topic follows عَنْ."
+   },
+   {
+    "p": "Complete: ذَهَبْتُ ___ صَدِيقِي.",
+    "a": "مَعَ",
+    "choices": [
+     "مَعَ",
+     "بِـ",
+     "فِي"
+    ],
+    "e": "Company uses مَعَ."
+   },
+   {
+    "p": "Complete: سَافَرْنَا ___ الْقِطَارِ.",
+    "a": "بِالْقِطَارِ",
+    "choices": [
+     "بِالْقِطَارِ",
+     "مَعَ الْقِطَارِ",
+     "عَنِ الْقِطَارِ"
+    ],
+    "e": "Means of travel uses بِـ."
+   },
+   {
+    "p": "Choose the correct spelling.",
+    "a": "لِلْمَدْرَسَةِ",
+    "choices": [
+     "لِلْمَدْرَسَةِ",
+     "لِ الْمَدْرَسَةُ",
+     "لِالْمَدْرَسَةِ"
+    ],
+    "e": "لِـ attaches to الـ as لِلـ."
+   },
+   {
+    "p": "Choose: in a house.",
+    "a": "فِي بَيْتٍ",
+    "choices": [
+     "فِي بَيْتٍ",
+     "فِي بَيْتٌ",
+     "فِي بَيْتًا"
+    ],
+    "e": "Indefinite genitive uses tanwīn kasr."
+   },
+   {
+    "p": "Choose: with the teachers.",
+    "a": "مَعَ الْمُعَلِّمِينَ",
+    "choices": [
+     "مَعَ الْمُعَلِّمِينَ",
+     "مَعَ الْمُعَلِّمُونَ",
+     "مَعَ الْمُعَلِّمَانِ"
+    ],
+    "e": "Sound masculine plural genitive uses ـِينَ."
+   },
+   {
+    "p": "Complete: أَهْتَمُّ ___ الْبِيئَةِ.",
+    "a": "بِالْبِيئَةِ",
+    "choices": [
+     "بِالْبِيئَةِ",
+     "إِلَى الْبِيئَةِ",
+     "مِنَ الْبِيئَةِ"
+    ],
+    "e": "The collocation is اِهْتَمَّ بِـ."
+   }
+  ]
+ ],
+ "blocks": [
+  "## Why this matters لِمَاذَا نَحْتَاجُ إِلَى حُرُوفِ الْجَرِّ؟",
+  "Prepositions make relationships clear: location, direction, source, topic, means, purpose and company.",
+  "### Core",
+  "Use فِي، إِلَى، مِنْ، عَلَى، عَنْ and مَعَ in short sentences.",
+  "### Develop",
+  "Control بِـ and لِـ, including بِالـ and لِلـ.",
+  "### Stretch",
+  "Recognise genitive forms with duals and sound masculine plurals.",
+  "[callout] Communication target: describe where you are, where you are going, where you came from, what you are talking about and how you travel.",
+  "## Diagnostic start",
+  "This is a low-stakes check. Use the feedback to decide which table you need most.",
+  "## Meaning first: the common prepositions",
+  "Do not choose a preposition because its English translation looks familiar. Choose it because the Arabic relationship is correct.",
+  "TABLE: Preposition | Core function | Worked example | Meaning // فِي | inside / in / during | أَدْرُسُ فِي الْمَدْرَسَةِ. | I study at school. // إِلَى | towards / to | أَذْهَبُ إِلَى الْمَكْتَبَةِ. | I go to the library. // مِنْ | from / out of / since a point | عُدْتُ مِنَ السُّوقِ. | I returned from the market. // عَلَى | on / upon / responsibility | الْكِتَابُ عَلَى الطَّاوِلَةِ. | The book is on the table. // عَنْ | about / away from | تَحَدَّثْنَا عَنِ الرِّحْلَةِ. | We spoke about the trip. // مَعَ | with / in the company of | ذَهَبْتُ مَعَ أُسْرَتِي. | I went with my family. // بِـ | by / with / using | ذَهَبْتُ بِالْحَافِلَةِ. | I went by bus. // لِـ | for / belonging to / intended for | هَذِهِ هَدِيَّةٌ لِصَدِيقَتِي. | This is a gift for my friend.",
+  "[callout] Meaning boundary: مَعَ means accompanying someone; بِـ often identifies an instrument, means or method. Compare ذَهَبْتُ مَعَ أَخِي and ذَهَبْتُ بِالْقِطَارِ .",
+  "## What happens after a preposition? الِاسْمُ الْمَجْرُورُ",
+  "A true preposition governs the noun after it. In fully supported Arabic, this is commonly visible as kasra or tanwīn kasr.",
+  "[ar] فِي الْبَيْتِ",
+  "[ar] فِي بَيْتٍ",
+  "[ar] إِلَى مَدْرَسَتَيْنِ",
+  "[ar] مَعَ الْمُعَلِّمِينَ",
+  "[callout/warning] Do not overgeneralise: a pronoun attached to a preposition does not show a final kasra in the same way. You learn forms such as فِيهِ، عَلَيْهَا، مِنْهُمْ as complete units.",
+  "[callout] Case-ending boundary: This lesson shows the forms that improve reading and accurate modelling. The later Case Endings package will explain the wider system, including nouns that do not take an ordinary kasra.",
+  "## Attached prepositions: بِـ and لِـ",
+  "These one-letter prepositions join directly to the following word.",
+  "TABLE: Build | Correct form | Meaning | Notice // بِـ + حَافِلَةٍ | بِحَافِلَةٍ | by a bus | no space // بِـ + الْحَافِلَةِ | بِالْحَافِلَةِ | by the bus | بِـ joins الـ // لِـ + طَالِبٍ | لِطَالِبٍ | for a student | no space // لِـ + الْطَّالِبِ | لِلطَّالِبِ | for the student | one lām is written in لِلـ // لِـ + هُ | لَهُ | for him / he has | special high-frequency form // بِـ + هِ | بِهِ | with it / by it | pronoun form learned as a unit",
+  "[callout/warning] Common spelling errors: Do not write بِ الْبَيْتِ or لِ الْمَدْرَسَةِ with a space. Write بِالْبَيْتِ and لِلْمَدْرَسَةِ .",
+  "## Choose the preposition the verb needs",
+  "Many Arabic verbs come with a preferred preposition. Store the verb and its preposition together.",
+  "TABLE: Expression | Meaning | Model // ذَهَبَ إِلَى | went to | ذَهَبْتُ إِلَى الْمَدْرَسَةِ. // عَادَ مِنْ | returned from | عُدْنَا مِنَ الرِّحْلَةِ. // تَحَدَّثَ عَنْ | spoke about | تَحَدَّثَتْ عَنِ الْعَمَلِ. // اِسْتَمَعَ إِلَى | listened to | اِسْتَمَعْتُ إِلَى الْمُوسِيقَى. // اِهْتَمَّ بِـ | was interested in / cared about | أَهْتَمُّ بِالْبِيئَةِ. // بَحَثَ عَنْ | looked for / researched | بَحَثْتُ عَنِ الْمَعْلُومَاتِ.",
+  "[callout] Memory method: learn اِسْتَمَعَ إِلَى , not only اِسْتَمَعَ . The collocation is the usable language unit.",
+  "## Misconception and proofreading clinic",
+  "Repair meaning, attachment and the governed noun form.",
+  "TABLE: Incorrect | Correct | Why // أَذْهَبُ فِي الْمَدْرَسَةِ. | أَذْهَبُ إِلَى الْمَدْرَسَةِ. | movement towards a destination // تَحَدَّثْتُ عَلَى الْفِلْمِ. | تَحَدَّثْتُ عَنِ الْفِلْمِ. | the topic follows عَنْ // ذَهَبْتُ مَعَ الْحَافِلَةِ. | ذَهَبْتُ بِالْحَافِلَةِ. | means of transport uses بِـ // هَدِيَّةٌ لِ الطَّالِبُ | هَدِيَّةٌ لِلطَّالِبِ | attach لِـ and use genitive",
+  "## Grammar game",
+  "Retrieve the preposition that completes each meaning and sentence.",
+  "## Skills workshop التَّطْبِيقُ الْعَمَلِيُّ",
+  "Apply prepositions in a short message, reading task and spoken description.",
+  "[ar] أَنَا فِي مَدْرَسَتِي الآنَ، وَسَأَذْهَبُ إِلَى الْمَكْتَبَةِ بَعْدَ الدَّرْسِ.",
+  "[ar] ذَهَبْتُ مَعَ صَدِيقَتِي بِالْحَافِلَةِ، وَتَحَدَّثْنَا عَنِ الْعُطْلَةِ.",
+  "### Write a practical message",
+  "Write 60–80 Arabic words telling a friend where you are, where you are going, who is with you, how you will travel and what you will talk about.",
+  "[callout] Success checklist: Use at least six different prepositions; attach بِـ and لِـ correctly; check the noun after each preposition; include one verb–preposition collocation.",
+  "[callout] Paper route: Write the message, circle every preposition and draw an arrow to the noun or pronoun it governs.",
+  "## Final mastery check",
+  "Check meaning, spelling and the noun form after the preposition.",
+  "### What you can now do",
+  "- Choose a common preposition by meaning rather than translating mechanically.",
+  "- Show the genitive after a preposition in supported Arabic.",
+  "- Write بِـ and لِـ attached to the following word.",
+  "- Use prepositional phrases naturally in everyday communication.",
+  "Spaced revisit: Return in two or three days and complete the final check again without looking at the tables."
+ ]
+}

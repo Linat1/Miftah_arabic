@@ -1,0 +1,114 @@
+{
+ "path": "lessons/grammar/07a-verb-forms/form-06.php",
+ "title": "Form VI: Cooperation and Mutual Action",
+ "arabic": "الْوَزْنُ السَّادِسُ",
+ "lede": "Form VI often expresses reciprocal or collective action. It helps describe cooperation, communication, shared activities and relationships.",
+ "nav": [
+  [
+   "GM-VF-05",
+   "Form V: Learning and Developing"
+  ]
+ ],
+ "quizzes": [
+  {
+   "title": "Quick pattern check",
+   "items": [
+    {
+     "prompt": "Which verb means “to cooperate”?",
+     "options": [
+      "أَعَانَ",
+      "تَعَاوَنَ",
+      "عَاوَنَ"
+     ],
+     "answer": 1,
+     "feedback": "تَعَاوَنَ is Form VI and commonly means to cooperate."
+    }
+   ]
+  },
+  {
+   "title": "Form VI · Self-check",
+   "items": [
+    {
+     "prompt": "Which verb means “to cooperate”?",
+     "options": [
+      "عَاوَنَ",
+      "تَعَاوَنَ",
+      "أَعَانَ"
+     ],
+     "answer": 1,
+     "feedback": "تَعَاوَنَ is Form VI and commonly means to cooperate."
+    },
+    {
+     "prompt": "Choose the correct present of تَبَادَلَ.",
+     "options": [
+      "يَتَبَدَّلُ",
+      "يُبَادِلُ",
+      "يَتَبَادَلُ"
+     ],
+     "answer": 2,
+     "feedback": "Form VI commonly follows يَتَفَاعَلُ."
+    },
+    {
+     "prompt": "Can a singular subject use Form VI?",
+     "options": [
+      "Yes, for example أَتَعَاوَنُ مَعَ صَدِيقِي.",
+      "No, Form VI always requires a plural subject.",
+      "Only in the passive voice."
+     ],
+     "answer": 0,
+     "feedback": "A person can cooperate with another person while the grammatical subject remains singular."
+    }
+   ]
+  }
+ ],
+ "games": [],
+ "blocks": [
+  "## Why this matters",
+  "Learn the meaning before memorising the pattern.",
+  "### Core",
+  "Recognise the pattern and understand the model verb in a sentence.",
+  "### Develop",
+  "Use two or three verbs from this family in accurate past and present sentences.",
+  "[callout] Your goal: Form VI often expresses reciprocal or collective action. It helps describe cooperation, communication, shared activities and relationships.",
+  "## Discover the pattern",
+  "Notice what changes and what stays connected to the root.",
+  "### Root and pattern",
+  "Form VI adds ت before the root and a long ā after the first root consonant. The present commonly follows يَتَفَاعَلُ.",
+  "TABLE: Past | Present | Meaning // تَعَاوَنَ | يَتَعَاوَنُ | to cooperate",
+  "[callout] Notice the relationship: سَاعَدَ means to help; تَسَاعَدَ can mean to help one another. This illustrates a possible Form III–VI relationship, but meanings are not always predictable.",
+  "## Learn the family",
+  "Read each pair aloud, then use the verbs in meaningful sentences.",
+  "TABLE: Past | Present | Meaning // تَشَارَكَ | يَتَشَارَكُ | to share or participate together // تَبَادَلَ | يَتَبَادَلُ | to exchange // تَفَاهَمَ | يَتَفَاهَمُ | to understand one another",
+  "يَتَعَاوَنُ الطُّلَّابُ فِي الْمَشْرُوعِ.",
+  "The students cooperate on the project.",
+  "تَبَادَلْنَا الْأَفْكَارَ فِي الِاجْتِمَاعِ.",
+  "We exchanged ideas at the meeting.",
+  "أَتَفَاهَمُ مَعَ صَدِيقَتِي بِسُهُولَةٍ.",
+  "I get along with my friend easily.",
+  "[callout] Look closely: Compare شَارَكَ with تَشَارَكَ and سَاعَدَ with تَسَاعَدَ. The added ت can be associated with shared action when the lexical meaning permits it.",
+  "## Practise and apply",
+  "Move from recognising the pattern to using the language yourself.",
+  "### Misconception clinic",
+  "The verb تَعَاوَنَ is already a Form VI verb. Do not add another ت to make it reciprocal, and do not assume that all Form VI verbs require a plural subject.",
+  "I cooperate with my friend. A singular subject can participate in a reciprocal action.",
+  "### Apply the form",
+  "Write four sentences about a group project. Include cooperation, exchanging ideas and one past-tense action.",
+  "[callout] Success checklist: Use the correct verb form and person; check the past/present vowels; use a natural sentence and reread your Arabic.",
+  "Complete your own response first. This is one possible answer, not the only correct response.",
+  "نَتَعَاوَنُ فِي مَشْرُوعِ الْمَدْرَسَةِ. أَمْسِ تَبَادَلْنَا الْأَفْكَارَ، ثُمَّ تَشَارَكْنَا فِي كِتَابَةِ التَّقْرِيرِ. أَتَفَاهَمُ مَعَ زُمَلَائِي بِسُهُولَةٍ.",
+  "We cooperate on the school project. Yesterday we exchanged ideas, then shared in writing the report. I get along with my classmates easily.",
+  "Compare مُشَارَكَةٌ and تَشَارُكٌ. Explain why the two verbal nouns are related but not interchangeable in every context.",
+  "Use the optional morphology reference if you need a pattern reminder.",
+  "## Final self-check",
+  "Try the questions without looking back. Your feedback explains the key feature.",
+  "## What you can now do",
+  "Review the essentials before moving to the next form.",
+  "### Lesson mastery summary",
+  "- recognise Form VI and its characteristic pattern;",
+  "- understand and use the model verb in context;",
+  "- distinguish this family from a related form;",
+  "- check the accuracy of your own Arabic sentences.",
+  "Return in a few days and repeat the self-check. Learn the next form only when you are ready.",
+  "Back to all ten forms · Optional morphology reference"
+ ]
+}

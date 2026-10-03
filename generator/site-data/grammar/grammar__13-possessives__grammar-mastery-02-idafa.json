@@ -1,0 +1,550 @@
+{
+ "path": "lessons/grammar/13-possessives/grammar-mastery-02-idafa.php",
+ "title": "Possessive Iḍāfa Construction",
+ "arabic": "تَرْكِيبُ الْإِضَافَةِ لِلْمِلْكِيَّةِ وَالِارْتِبَاطِ",
+ "lede": "Link nouns without an English apostrophe, let the final possessor control definiteness, and keep every case relationship visible.",
+ "nav": [
+  [
+   "GM-POS-01",
+   "Possessive Endings"
+  ]
+ ],
+ "quizzes": [
+  {
+   "title": "🔎 Iḍāfa Starter",
+   "items": [
+    {
+     "prompt": "Which phrase means “the school door”?",
+     "options": [
+      "بَابُ الْمَدْرَسَةِ",
+      "الْبَابُ الْمَدْرَسَةِ",
+      "بَابٌ الْمَدْرَسَةِ"
+     ],
+     "answer": 0,
+     "feedback": "The first noun is bare and the second definite and genitive."
+    },
+    {
+     "prompt": "What is always true of the second noun in an iḍāfa?",
+     "options": [
+      "It is genitive",
+      "It must take الـ",
+      "It is accusative"
+     ],
+     "answer": 0,
+     "feedback": "The muḍāf ilayh is always genitive; it may be definite or indefinite."
+    },
+    {
+     "prompt": "Can the first noun take tanwīn?",
+     "options": [
+      "No",
+      "Yes, always",
+      "Only when the second noun is definite"
+     ],
+     "answer": 0,
+     "feedback": "The muḍāf does not take tanwīn."
+    },
+    {
+     "prompt": "Which phrase is indefinite?",
+     "options": [
+      "بَابُ مَدْرَسَةٍ",
+      "بَابُ الْمَدْرَسَةِ",
+      "بَابُ مَدْرَسَتِنَا"
+     ],
+     "answer": 0,
+     "feedback": "An indefinite final possessor makes the whole iḍāfa indefinite."
+    },
+    {
+     "prompt": "Choose “Layla’s book”.",
+     "options": [
+      "كِتَابُ لَيْلَى",
+      "الْكِتَابُ لَيْلَى",
+      "كِتَابٌ لَيْلَى"
+     ],
+     "answer": 0,
+     "feedback": "A proper name can be the definite genitive possessor; the first noun remains bare."
+    },
+    {
+     "prompt": "Which noun controls the definiteness of the whole chain?",
+     "options": [
+      "The final possessor",
+      "Always the first noun",
+      "The verb"
+     ],
+     "answer": 0,
+     "feedback": "The end of the iḍāfa chain determines whether the whole construction is definite."
+    }
+   ]
+  },
+  {
+   "title": "✅ Mini-check: definiteness",
+   "items": [
+    {
+     "prompt": "Choose “a student’s book”.",
+     "options": [
+      "كِتَابُ طَالِبٍ",
+      "كِتَابُ الطَّالِبِ",
+      "الْكِتَابُ طَالِبٍ"
+     ],
+     "answer": 0,
+     "feedback": "The indefinite possessor طَالِبٍ makes the whole phrase indefinite."
+    },
+    {
+     "prompt": "Choose “the student’s book”.",
+     "options": [
+      "كِتَابُ الطَّالِبِ",
+      "الْكِتَابُ الطَّالِبِ",
+      "كِتَابٌ الطَّالِبِ"
+     ],
+     "answer": 0,
+     "feedback": "The final definite possessor makes the full phrase definite."
+    },
+    {
+     "prompt": "Choose “our school’s library”.",
+     "options": [
+      "مَكْتَبَةُ مَدْرَسَتِنَا",
+      "الْمَكْتَبَةُ مَدْرَسَتِنَا",
+      "مَكْتَبَةٌ مَدْرَسَتِنَا"
+     ],
+     "answer": 0,
+     "feedback": "The suffix on the final possessor makes the chain definite."
+    },
+    {
+     "prompt": "Which statement is accurate?",
+     "options": [
+      "The first noun is in construct state, not automatically indefinite in meaning",
+      "The first noun is always semantically indefinite",
+      "Both nouns must take الـ"
+     ],
+     "answer": 0,
+     "feedback": "The muḍāf is morphologically bare, while definiteness comes from the final possessor."
+    }
+   ]
+  },
+  {
+   "title": "✅ Mini-check: case across the chain",
+   "items": [
+    {
+     "prompt": "Choose the subject form “The school door is open.”",
+     "options": [
+      "بَابُ الْمَدْرَسَةِ مَفْتُوحٌ.",
+      "بَابَ الْمَدْرَسَةِ مَفْتُوحٌ.",
+      "بَابِ الْمَدْرَسَةِ مَفْتُوحٌ."
+     ],
+     "answer": 0,
+     "feedback": "The first noun is the nominative topic; the second remains genitive."
+    },
+    {
+     "prompt": "Choose “I opened the school door.”",
+     "options": [
+      "فَتَحْتُ بَابَ الْمَدْرَسَةِ.",
+      "فَتَحْتُ بَابُ الْمَدْرَسَةِ.",
+      "فَتَحْتُ بَابِ الْمَدْرَسَةِ."
+     ],
+     "answer": 0,
+     "feedback": "The first noun is accusative as the object; the possessor is still genitive."
+    },
+    {
+     "prompt": "Choose “I stood by the school door.”",
+     "options": [
+      "وَقَفْتُ عِنْدَ بَابِ الْمَدْرَسَةِ.",
+      "وَقَفْتُ عِنْدَ بَابُ الْمَدْرَسَةِ.",
+      "وَقَفْتُ عِنْدَ بَابَ الْمَدْرَسَةِ."
+     ],
+     "answer": 0,
+     "feedback": "After عِنْدَ, the first noun is genitive; the second is also genitive as possessor."
+    },
+    {
+     "prompt": "What controls the case of the first noun?",
+     "options": [
+      "Its role in the wider sentence",
+      "The second noun always makes it genitive",
+      "Definiteness"
+     ],
+     "answer": 0,
+     "feedback": "The first noun can be nominative, accusative or genitive according to sentence role."
+    }
+   ]
+  },
+  {
+   "title": "✅ Mini-check: construct number forms",
+   "items": [
+    {
+     "prompt": "Choose “the school’s two students” as a nominative phrase.",
+     "options": [
+      "طَالِبَا الْمَدْرَسَةِ",
+      "طَالِبَانِ الْمَدْرَسَةِ",
+      "طَالِبَيْ الْمَدْرَسَةِ"
+     ],
+     "answer": 0,
+     "feedback": "Nominative dual muḍāf drops nūn: طَالِبَا."
+    },
+    {
+     "prompt": "Choose “I met the school’s two students.”",
+     "options": [
+      "قَابَلْتُ طَالِبَيِ الْمَدْرَسَةِ.",
+      "قَابَلْتُ طَالِبَانِ الْمَدْرَسَةِ.",
+      "قَابَلْتُ طَالِبَيْنِ الْمَدْرَسَةِ."
+     ],
+     "answer": 0,
+     "feedback": "Accusative dual construct drops nūn; the following definite article produces طَالِبَيِ الْمَدْرَسَةِ in fully connected marking."
+    },
+    {
+     "prompt": "Choose “the school’s teachers” as a nominative phrase.",
+     "options": [
+      "مُعَلِّمُو الْمَدْرَسَةِ",
+      "مُعَلِّمُونَ الْمَدْرَسَةِ",
+      "مُعَلِّمِي الْمَدْرَسَةِ"
+     ],
+     "answer": 0,
+     "feedback": "Nominative sound masculine plural muḍāf drops nūn: مُعَلِّمُو."
+    },
+    {
+     "prompt": "Choose “I spoke with the school’s teachers.”",
+     "options": [
+      "تَحَدَّثْتُ مَعَ مُعَلِّمِي الْمَدْرَسَةِ.",
+      "تَحَدَّثْتُ مَعَ مُعَلِّمُونَ الْمَدْرَسَةِ.",
+      "تَحَدَّثْتُ مَعَ مُعَلِّمِينَ الْمَدْرَسَةِ."
+     ],
+     "answer": 0,
+     "feedback": "Genitive sound masculine plural construct drops nūn: مُعَلِّمِي."
+    }
+   ]
+  },
+  {
+   "title": "✅ Mini-check: adjective scope",
+   "items": [
+    {
+     "prompt": "Choose “the school’s large door”.",
+     "options": [
+      "بَابُ الْمَدْرَسَةِ الْكَبِيرُ",
+      "بَابُ الْمَدْرَسَةِ الْكَبِيرَةِ",
+      "بَابُ الْمَدْرَسَةِ كَبِيرٌ"
+     ],
+     "answer": 0,
+     "feedback": "The masculine nominative adjective describes بَابُ."
+    },
+    {
+     "prompt": "Choose “the door of the large school”.",
+     "options": [
+      "بَابُ الْمَدْرَسَةِ الْكَبِيرَةِ",
+      "بَابُ الْمَدْرَسَةِ الْكَبِيرُ",
+      "بَابُ الْمَدْرَسَةِ كَبِيرَةٌ"
+     ],
+     "answer": 0,
+     "feedback": "The feminine genitive adjective describes الْمَدْرَسَةِ."
+    },
+    {
+     "prompt": "Choose “the school door is large”.",
+     "options": [
+      "بَابُ الْمَدْرَسَةِ كَبِيرٌ",
+      "بَابُ الْمَدْرَسَةِ الْكَبِيرُ",
+      "بَابُ الْمَدْرَسَةِ كَبِيرَةٌ"
+     ],
+     "answer": 0,
+     "feedback": "An indefinite nominative adjective after a definite iḍāfa functions as the predicate."
+    },
+    {
+     "prompt": "What helps identify adjective scope?",
+     "options": [
+      "Gender, number, definiteness and case",
+      "Word length only",
+      "The adjective always describes the nearest noun"
+     ],
+     "answer": 0,
+     "feedback": "Agreement evidence shows which noun the adjective describes."
+    }
+   ]
+  },
+  {
+   "title": "🏁 Iḍāfa Mastery",
+   "items": [
+    {
+     "prompt": "Choose “the teacher’s office”.",
+     "options": [
+      "مَكْتَبُ الْمُعَلِّمِ",
+      "الْمَكْتَبُ الْمُعَلِّمِ",
+      "مَكْتَبٌ الْمُعَلِّمِ"
+     ],
+     "answer": 0,
+     "feedback": "The muḍāf is bare; the definite possessor is genitive."
+    },
+    {
+     "prompt": "Choose “a teacher’s office”.",
+     "options": [
+      "مَكْتَبُ مُعَلِّمٍ",
+      "مَكْتَبُ الْمُعَلِّمِ",
+      "الْمَكْتَبُ مُعَلِّمٍ"
+     ],
+     "answer": 0,
+     "feedback": "The indefinite possessor makes the chain indefinite."
+    },
+    {
+     "prompt": "Choose “Mariam’s school”.",
+     "options": [
+      "مَدْرَسَةُ مَرْيَمَ",
+      "الْمَدْرَسَةُ مَرْيَمَ",
+      "مَدْرَسَةٌ مَرْيَمُ"
+     ],
+     "answer": 0,
+     "feedback": "The proper name is the genitive possessor; مَرْيَمَ is diptote and shows fatḥa in the genitive."
+    },
+    {
+     "prompt": "Choose “our school library”.",
+     "options": [
+      "مَكْتَبَةُ مَدْرَسَتِنَا",
+      "الْمَكْتَبَةُ مَدْرَسَتِنَا",
+      "مَكْتَبَةٌ مَدْرَسَتِنَا"
+     ],
+     "answer": 0,
+     "feedback": "The final suffix makes the full chain definite."
+    },
+    {
+     "prompt": "Choose “I visited our school library.”",
+     "options": [
+      "زُرْتُ مَكْتَبَةَ مَدْرَسَتِنَا.",
+      "زُرْتُ مَكْتَبَةُ مَدْرَسَتِنَا.",
+      "زُرْتُ مَكْتَبَةِ مَدْرَسَتِنَا."
+     ],
+     "answer": 0,
+     "feedback": "The first noun is accusative as the object; the final possessor is genitive."
+    },
+    {
+     "prompt": "Choose “the two classroom doors” as a nominative phrase.",
+     "options": [
+      "بَابَا الْفَصْلِ",
+      "بَابَانِ الْفَصْلِ",
+      "بَابَيْ الْفَصْلِ"
+     ],
+     "answer": 0,
+     "feedback": "Nominative dual muḍāf drops nūn."
+    },
+    {
+     "prompt": "Choose “the workers of the company” as a nominative phrase.",
+     "options": [
+      "عَامِلُو الشَّرِكَةِ",
+      "عَامِلُونَ الشَّرِكَةِ",
+      "عَامِلِي الشَّرِكَةِ"
+     ],
+     "answer": 0,
+     "feedback": "Nominative sound masculine plural construct drops nūn."
+    },
+    {
+     "prompt": "Which phrase means “the new student’s book”?",
+     "options": [
+      "كِتَابُ الطَّالِبِ الْجَدِيدِ",
+      "كِتَابُ الطَّالِبِ الْجَدِيدُ",
+      "كِتَابُ الطَّالِبِ جَدِيدٌ"
+     ],
+     "answer": 0,
+     "feedback": "The genitive adjective describes the student."
+    },
+    {
+     "prompt": "Which phrase means “the student’s new book”?",
+     "options": [
+      "كِتَابُ الطَّالِبِ الْجَدِيدُ",
+      "كِتَابُ الطَّالِبِ الْجَدِيدِ",
+      "كِتَابُ الطَّالِبِ جَدِيدٌ"
+     ],
+     "answer": 0,
+     "feedback": "The nominative masculine adjective describes كِتَابُ."
+    },
+    {
+     "prompt": "Which statement is correct?",
+     "options": [
+      "Only the final possessor controls definiteness of the chain",
+      "The first noun must always take الـ",
+      "Every noun in the chain takes tanwīn"
+     ],
+     "answer": 0,
+     "feedback": "Middle and first terms remain bare; the final term determines definiteness."
+    }
+   ]
+  }
+ ],
+ "games": [
+  [
+   {
+    "prompt": "the house door",
+    "choices": [
+     "بَابُ الْبَيْتِ",
+     "الْبَابُ الْبَيْتِ",
+     "بَابٌ الْبَيْتِ"
+    ],
+    "answer": 0,
+    "feedback": "First noun bare; second definite genitive."
+   },
+   {
+    "prompt": "a house door",
+    "choices": [
+     "بَابُ بَيْتٍ",
+     "بَابُ الْبَيْتِ",
+     "الْبَابُ بَيْتٍ"
+    ],
+    "answer": 0,
+    "feedback": "Indefinite final possessor makes the chain indefinite."
+   },
+   {
+    "prompt": "Layla’s bag",
+    "choices": [
+     "حَقِيبَةُ لَيْلَى",
+     "الْحَقِيبَةُ لَيْلَى",
+     "حَقِيبَةٌ لَيْلَى"
+    ],
+    "answer": 0,
+    "feedback": "A proper name can make the chain definite."
+   },
+   {
+    "prompt": "our classroom door",
+    "choices": [
+     "بَابُ فَصْلِنَا",
+     "الْبَابُ فَصْلِنَا",
+     "بَابٌ فَصْلِنَا"
+    ],
+    "answer": 0,
+    "feedback": "The suffix on the final possessor makes the chain definite."
+   },
+   {
+    "prompt": "I opened the classroom door",
+    "choices": [
+     "فَتَحْتُ بَابَ الْفَصْلِ",
+     "فَتَحْتُ بَابُ الْفَصْلِ",
+     "فَتَحْتُ بَابِ الْفَصْلِ"
+    ],
+    "answer": 0,
+    "feedback": "The first noun is accusative as the object."
+   },
+   {
+    "prompt": "at the classroom door",
+    "choices": [
+     "عِنْدَ بَابِ الْفَصْلِ",
+     "عِنْدَ بَابُ الْفَصْلِ",
+     "عِنْدَ بَابَ الْفَصْلِ"
+    ],
+    "answer": 0,
+    "feedback": "The first noun is genitive after the locator."
+   },
+   {
+    "prompt": "the school’s two buses — nominative",
+    "choices": [
+     "حَافِلَتَا الْمَدْرَسَةِ",
+     "حَافِلَتَانِ الْمَدْرَسَةِ",
+     "حَافِلَتَيْ الْمَدْرَسَةِ"
+    ],
+    "answer": 0,
+    "feedback": "The dual muḍāf drops nūn."
+   },
+   {
+    "prompt": "the school’s teachers — nominative",
+    "choices": [
+     "مُعَلِّمُو الْمَدْرَسَةِ",
+     "مُعَلِّمُونَ الْمَدْرَسَةِ",
+     "مُعَلِّمِي الْمَدْرَسَةِ"
+    ],
+    "answer": 0,
+    "feedback": "The sound masculine plural muḍāf drops nūn."
+   },
+   {
+    "prompt": "the school’s large door",
+    "choices": [
+     "بَابُ الْمَدْرَسَةِ الْكَبِيرُ",
+     "بَابُ الْمَدْرَسَةِ الْكَبِيرَةِ",
+     "بَابُ الْمَدْرَسَةِ كَبِيرٌ"
+    ],
+    "answer": 0,
+    "feedback": "The adjective describes the masculine nominative first noun."
+   },
+   {
+    "prompt": "the door of the large school",
+    "choices": [
+     "بَابُ الْمَدْرَسَةِ الْكَبِيرَةِ",
+     "بَابُ الْمَدْرَسَةِ الْكَبِيرُ",
+     "بَابُ الْمَدْرَسَةِ كَبِيرٌ"
+    ],
+    "answer": 0,
+    "feedback": "The adjective describes the feminine genitive possessor."
+   }
+  ]
+ ],
+ "blocks": [
+  "## Iḍāfa builds precise noun relationships",
+  "Arabic links nouns directly to express ownership, type, part–whole relationships, institutions and many fixed names.",
+  "[ar] بَابُ الْمَدْرَسَةِ",
+  "[ar] مُدِيرُ الشَّرِكَةِ",
+  "[ar] غُرْفَةُ النَّوْمِ",
+  "[ar] مَكْتَبَةُ مَدْرَسَتِنَا",
+  "[callout] Cambridge relevance: Iḍāfa appears constantly in signs, places, family relationships, school language, travel, work and extended descriptions.",
+  "## Choose your route",
+  "Secure the two-noun architecture before building chains and adjective scope.",
+  "### Core",
+  "- Build a two-noun iḍāfa.",
+  "- Remove الـ and tanwīn from the first noun.",
+  "- Place the second noun in the genitive.",
+  "### Develop",
+  "- Control definite and indefinite iḍāfa.",
+  "- Change the first noun’s case with sentence role.",
+  "- Build three-noun chains.",
+  "### Stretch",
+  "- Use dual and sound masculine plural construct forms.",
+  "- Resolve adjective scope accurately.",
+  "- Edit complex chains with names and suffixes.",
+  "## Readiness check",
+  "Retrieve the bare first noun, genitive possessor and definiteness rule.",
+  "## The two-part architecture",
+  "The first noun is the possessed or related item; the second noun identifies the possessor or relationship.",
+  "TABLE: Part | Arabic term | Core rule | Example // First noun | الْمُضَافُ | no الـ; no tanwīn; case comes from sentence role | بَابُ // Second noun | الْمُضَافُ إِلَيْهِ | always genitive; may be definite or indefinite | الْمَدْرَسَةِ",
+  "[callout/warning] Precision correction: the first noun is not automatically “indefinite”. It is in the construct state : morphologically bare, while the whole phrase may be definite or indefinite according to the final possessor.",
+  "[ar] بَابُ مَدْرَسَةٍ",
+  "[ar] بَابُ الْمَدْرَسَةِ",
+  "[ar] بَابُ مَدْرَسَتِنَا",
+  "[ar] بَابُ مَدْرَسَةِ لَيْلَى",
+  "## The first noun changes case; the possessor stays genitive",
+  "Treat the iḍāfa as one unit inside the wider sentence.",
+  "TABLE: Sentence role | Model | Case pattern // Topic/subject | بَابُ الْمَدْرَسَةِ مَفْتُوحٌ. | first nominative + second genitive // Direct object | فَتَحْتُ بَابَ الْمَدْرَسَةِ. | first accusative + second genitive // After a preposition/locator | وَقَفْتُ عِنْدَ بَابِ الْمَدْرَسَةِ. | first genitive + second genitive",
+  "The genitive of the second noun belongs to the iḍāfa relationship. The case of the first noun belongs to the sentence around it.",
+  "## Longer iḍāfa chains",
+  "Every term except the final possessor remains bare; the final term controls definiteness.",
+  "[ar] بَابُ فَصْلِ الْمَدْرَسَةِ",
+  "[ar] مُدِيرُ مَكْتَبِ الشَّرِكَةِ",
+  "[ar] مَفَاتِيحُ سَيَّارَةِ أَبِي",
+  "[ar] بَرْنَامَجُ تَدْرِيبِ الْمُعَلِّمِينَ",
+  "[callout] Build from the end: decide the final possessor first, place it in the genitive, then add each preceding construct noun without الـ or tanwīn.",
+  "## Dual and sound masculine plural in iḍāfa",
+  "The same nūn-deletion rule used with attached possessive suffixes applies before a noun possessor.",
+  "TABLE: Independent form | Construct form | Example // طَالِبَانِ | طَالِبَا | طَالِبَا الْمَدْرَسَةِ // طَالِبَيْنِ | طَالِبَيِ | قَابَلْتُ طَالِبَيِ الْمَدْرَسَةِ // مُعَلِّمُونَ | مُعَلِّمُو | مُعَلِّمُو الْمَدْرَسَةِ // مُعَلِّمِينَ | مُعَلِّمِي | تَحَدَّثْتُ مَعَ مُعَلِّمِي الْمَدْرَسَةِ",
+  "Sound feminine plurals do not have a final nūn to delete: طَالِبَاتُ الْمَدْرَسَةِ remains structurally intact.",
+  "## Adjective scope: which noun is described?",
+  "The adjective normally follows the complete iḍāfa, so agreement evidence must identify its target.",
+  "TABLE: Meaning | Arabic | Agreement evidence // the school’s large door | بَابُ الْمَدْرَسَةِ الْكَبِيرُ | masculine nominative adjective describes بَابُ // the door of the large school | بَابُ الْمَدْرَسَةِ الْكَبِيرَةِ | feminine genitive adjective describes الْمَدْرَسَةِ // the school door is large | بَابُ الْمَدْرَسَةِ كَبِيرٌ | indefinite nominative predicate",
+  "[callout/warning] Nearest noun is not enough. Use gender, number, definiteness and case together. The adjective’s form tells you which noun it can describe.",
+  "## Names, suffixes and established expressions",
+  "The final possessor can take several forms.",
+  "TABLE: Final possessor type | Example | Meaning // Definite common noun | كِتَابُ الطَّالِبِ | the student’s book // Indefinite common noun | كِتَابُ طَالِبٍ | a student’s book // Proper name | كِتَابُ لَيْلَى | Layla’s book // Possessive suffix | كِتَابُ صَدِيقِي | my friend’s book // Longer chain | كِتَابُ صَدِيقِ أَخِي | my brother’s friend’s book",
+  "[callout] Case-aware name note: some proper names are diptotes and show fatḥa in the genitive, such as مَدْرَسَةُ مَرْيَمَ . This is Stretch recognition; the core skill is recognising the proper name as the final possessor.",
+  "## Proofreading clinic",
+  "Check the first noun, final possessor, chain definiteness and adjective target.",
+  "TABLE: Draft | Improved version | Reason // الْبَابُ الْمَدْرَسَةِ | بَابُ الْمَدْرَسَةِ | The first noun cannot take الـ. // بَابٌ الْمَدْرَسَةِ | بَابُ الْمَدْرَسَةِ | The first noun cannot take tanwīn. // بَابُ الْمَدْرَسَةُ | بَابُ الْمَدْرَسَةِ | The possessor is genitive. // بَابُ مَدْرَسَةٍ الْكَبِيرُ | بَابُ مَدْرَسَةٍ كَبِيرٌ / بَابُ الْمَدْرَسَةِ الْكَبِيرُ | Definiteness and intended meaning must be made clear. // طَالِبَانِ الْمَدْرَسَةِ | طَالِبَا الْمَدْرَسَةِ | Dual construct drops nūn. // مُعَلِّمُونَ الْمَدْرَسَةِ | مُعَلِّمُو الْمَدْرَسَةِ | Sound masculine plural construct drops nūn. // بَابُ الْمَدْرَسَةِ الْكَبِيرَةُ | بَابُ الْمَدْرَسَةِ الْكَبِيرَةِ | An adjective describing the genitive school is also genitive.",
+  "## Game: Build the noun chain",
+  "Choose the iḍāfa that carries the intended meaning and case.",
+  "## Skills workshop",
+  "Decode and produce iḍāfa in descriptions, signs and connected writing.",
+  "### Reading: unpack the chains",
+  "زُرْنَا مَعْرِضَ فُنُونِ الْمَدِينَةِ، ثُمَّ دَخَلْنَا قَاعَةَ أَعْمَالِ الطُّلَّابِ. أَعْجَبَتْنِي لَوْحَةُ طَالِبِ مَدْرَسَتِنَا الْمَوْهُوبِ.",
+  "Bracket each iḍāfa chain. Explain why الْمَوْهُوبِ describes the male student rather than the feminine school, using agreement evidence.",
+  "### Speaking: describe a place",
+  "Give a 60-second tour of a school, house, town or workplace using eight iḍāfa expressions, including one chain of three nouns.",
+  "### A place and its relationships",
+  "Write 110–130 Arabic words describing a school, home, workplace, town or fictional venue.",
+  "[callout] Success checklist: Use at least ten iḍāfa constructions: two indefinite, four definite, two with proper names or suffixes, one dual/SMP construct and one adjective-scope contrast.",
+  "[callout] Paper route: Draw a chain diagram for each long iḍāfa. Mark the first noun’s sentence case and underline every genitive possessor.",
+  "## Final mastery check",
+  "Show that you can control architecture, definiteness, case, number and adjective scope.",
+  "### You can now",
+  "- Build definite and indefinite iḍāfa accurately.",
+  "- Explain why the first noun is bare rather than automatically indefinite.",
+  "- Change the first noun’s case while keeping the possessor genitive.",
+  "- Build longer chains.",
+  "- Delete dual and sound masculine plural nūn.",
+  "- Resolve adjective scope through agreement.",
+  "Spaced revisit: collect ten iḍāfa expressions from previous lessons and classify their final possessor."
+ ]
+}

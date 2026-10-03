@@ -1,0 +1,520 @@
+{
+ "path": "lessons/grammar/10-verbal-sentences/grammar-mastery-01-word-order-roles.php",
+ "title": "Word Order and Sentence Roles",
+ "arabic": "تَرْتِيبُ الْجُمْلَةِ الْفِعْلِيَّةِ وَأَرْكَانُهَا",
+ "lede": "See who performs the action, what receives it and why Arabic may place either the verb or the topic first. Word order becomes meaningful rather than mechanical.",
+ "nav": [],
+ "quizzes": [
+  {
+   "title": "🔎 Entry Check",
+   "items": [
+    {
+     "prompt": "In كَتَبَ الطَّالِبُ الرِّسَالَةَ, which word is the verb?",
+     "options": [
+      "كَتَبَ",
+      "الطَّالِبُ",
+      "الرِّسَالَةَ"
+     ],
+     "answer": 0,
+     "feedback": "كَتَبَ expresses the completed action."
+    },
+    {
+     "prompt": "Who performs the action in شَرِبَتْ مَرْيَمُ الْمَاءَ?",
+     "options": [
+      "مَرْيَمُ",
+      "الْمَاءَ",
+      "شَرِبَتْ"
+     ],
+     "answer": 0,
+     "feedback": "Maryam is the explicit subject and performs the action."
+    },
+    {
+     "prompt": "What receives the action in قَرَأَ أَحْمَدُ الْكِتَابَ?",
+     "options": [
+      "الْكِتَابَ",
+      "أَحْمَدُ",
+      "قَرَأَ"
+     ],
+     "answer": 0,
+     "feedback": "The book is the direct object—the item read."
+    },
+    {
+     "prompt": "Which sentence begins with the verb?",
+     "options": [
+      "كَتَبَ الطَّالِبُ الْوَاجِبَ.",
+      "الطَّالِبُ كَتَبَ الْوَاجِبَ.",
+      "الْوَاجِبُ طَوِيلٌ."
+     ],
+     "answer": 0,
+     "feedback": "Verb-first order is VSO."
+    },
+    {
+     "prompt": "Which form already tells us “I wrote”?",
+     "options": [
+      "كَتَبْتُ",
+      "كَتَبَ الطَّالِبُ",
+      "الطَّالِبُ"
+     ],
+     "answer": 0,
+     "feedback": "The suffix ـتُ encodes the subject “I”."
+    },
+    {
+     "prompt": "Best first question when analysing a sentence?",
+     "options": [
+      "What action happens and who performs it?",
+      "How many English words are there?",
+      "Does every sentence need an object?"
+     ],
+     "answer": 0,
+     "feedback": "Meaning and roles reveal the structure. Not every verb is transitive."
+    }
+   ]
+  },
+  {
+   "title": "Role Check",
+   "items": [
+    {
+     "prompt": "Identify the subject: زَارَتْ لَيْلَى الْمَتْحَفَ.",
+     "options": [
+      "لَيْلَى",
+      "الْمَتْحَفَ",
+      "زَارَتْ"
+     ],
+     "answer": 0,
+     "feedback": "Layla performs the visit."
+    },
+    {
+     "prompt": "Identify the object: أَكَلَ الْوَلَدُ التُّفَّاحَةَ.",
+     "options": [
+      "التُّفَّاحَةَ",
+      "الْوَلَدُ",
+      "أَكَلَ"
+     ],
+     "answer": 0,
+     "feedback": "The apple receives the action of eating."
+    },
+    {
+     "prompt": "Which sentence has no direct object?",
+     "options": [
+      "جَلَسَتِ الْأُسْرَةُ.",
+      "قَرَأَتِ الْأُسْرَةُ الْخَبَرَ.",
+      "شَاهَدَتِ الْأُسْرَةُ الْفِلْمَ."
+     ],
+     "answer": 0,
+     "feedback": "جَلَسَ is complete here with the subject only."
+    },
+    {
+     "prompt": "In كَتَبْتُهَا, where is the subject?",
+     "options": [
+      "Inside ـتُ",
+      "Inside ـهَا",
+      "There is no subject information"
+     ],
+     "answer": 0,
+     "feedback": "ـتُ means “I”; ـها is the object “it/her”."
+    }
+   ]
+  },
+  {
+   "title": "VSO Builder",
+   "items": [
+    {
+     "prompt": "Build: “The teacher explained the lesson.”",
+     "options": [
+      "شَرَحَ الْمُعَلِّمُ الدَّرْسَ.",
+      "الْمُعَلِّمُ الدَّرْسَ شَرَحَ.",
+      "الدَّرْسُ شَرَحَ الْمُعَلِّمَ."
+     ],
+     "answer": 0,
+     "feedback": "Formal VSO: verb, subject, object."
+    },
+    {
+     "prompt": "Build: “The girl opens the door.”",
+     "options": [
+      "تَفْتَحُ الْبِنْتُ الْبَابَ.",
+      "يَفْتَحُ الْبِنْتُ الْبَابَ.",
+      "الْبَابُ تَفْتَحُ الْبِنْتَ."
+     ],
+     "answer": 0,
+     "feedback": "The singular feminine subject requires تَفْتَحُ."
+    },
+    {
+     "prompt": "Which sentence answers “What happened yesterday?” most directly?",
+     "options": [
+      "وَصَلَ الْقِطَارُ مُبَكِّرًا.",
+      "الْقِطَارُ وَصَلَ مُبَكِّرًا.",
+      "الْقِطَارُ سَرِيعٌ."
+     ],
+     "answer": 0,
+     "feedback": "Verb-first order foregrounds the event of arriving."
+    },
+    {
+     "prompt": "Which order is VSO?",
+     "options": [
+      "شَاهَدَتْ مَرْيَمُ الْفِلْمَ.",
+      "مَرْيَمُ شَاهَدَتِ الْفِلْمَ.",
+      "الْفِلْمُ جَدِيدٌ."
+     ],
+     "answer": 0,
+     "feedback": "The verb appears before the explicit subject."
+    }
+   ]
+  },
+  {
+   "title": "Focus Check",
+   "items": [
+    {
+     "prompt": "You are contrasting Ali with his brother. Best opening?",
+     "options": [
+      "عَلِيٌّ دَرَسَ، وَلَكِنَّ أَخَاهُ لَمْ يَدْرُسْ.",
+      "دَرَسَ عَلِيٌّ، وَلَكِنَّ أَخَاهُ لَمْ يَدْرُسْ.",
+      "دَرَسَ الدَّرْسُ عَلِيًّا."
+     ],
+     "answer": 0,
+     "feedback": "Subject-first order makes Ali the topic of the contrast."
+    },
+    {
+     "prompt": "A news-style answer to “What happened?”",
+     "options": [
+      "اِفْتَتَحَ الْمُدِيرُ الْمَعْرِضَ.",
+      "الْمُدِيرُ اِفْتَتَحَ الْمَعْرِضَ.",
+      "الْمَعْرِضُ جَمِيلٌ."
+     ],
+     "answer": 0,
+     "feedback": "Event-first VSO is a strong neutral reporting pattern."
+    },
+    {
+     "prompt": "Which analysis is most accurate?",
+     "options": [
+      "SVO is acceptable, but the subject-first structure has nominal-sentence analysis.",
+      "SVO is always ungrammatical.",
+      "VSO and SVO always require identical agreement."
+     ],
+     "answer": 0,
+     "feedback": "Both orders communicate; their grammatical organisation and agreement differ."
+    }
+   ]
+  },
+  {
+   "title": "Expansion Check",
+   "items": [
+    {
+     "prompt": "Which sentence keeps the core roles clear?",
+     "options": [
+      "فِي الصَّبَاحِ قَرَأَتْ سَارَةُ الرِّسَالَةَ بِهُدُوءٍ.",
+      "فِي الصَّبَاحِ الرِّسَالَةُ سَارَةَ قَرَأَتْ.",
+      "قَرَأَتِ الرِّسَالَةُ سَارَةَ."
+     ],
+     "answer": 0,
+     "feedback": "Time + verb + subject + object + manner is clear and natural."
+    },
+    {
+     "prompt": "What does بِسُرْعَةٍ add?",
+     "options": [
+      "Manner",
+      "Subject",
+      "Direct object"
+     ],
+     "answer": 0,
+     "feedback": "It answers “how?”"
+    },
+    {
+     "prompt": "What does فِي الْمَدْرَسَةِ add?",
+     "options": [
+      "Place",
+      "Person",
+      "Tense ending"
+     ],
+     "answer": 0,
+     "feedback": "It answers “where?”"
+    },
+    {
+     "prompt": "Which phrase can be placed first to set the time frame?",
+     "options": [
+      "غَدًا",
+      "الطَّالِبَ",
+      "كَتَبَ only"
+     ],
+     "answer": 0,
+     "feedback": "غَدًا can introduce the future time frame."
+    }
+   ]
+  },
+  {
+   "title": "🏁 Final Mastery",
+   "items": [
+    {
+     "prompt": "Identify the subject: أَغْلَقَ الْحَارِسُ الْبَابَ.",
+     "options": [
+      "الْحَارِسُ",
+      "الْبَابَ",
+      "أَغْلَقَ"
+     ],
+     "answer": 0,
+     "feedback": "The guard performs the action."
+    },
+    {
+     "prompt": "Identify the object: كَتَبَتْ هِنْدٌ الْمَقَالَةَ.",
+     "options": [
+      "الْمَقَالَةَ",
+      "هِنْدٌ",
+      "كَتَبَتْ"
+     ],
+     "answer": 0,
+     "feedback": "The article receives the action of writing."
+    },
+    {
+     "prompt": "Which is standard VSO?",
+     "options": [
+      "شَرَحَتِ الْمُعَلِّمَةُ الْقَاعِدَةَ.",
+      "الْمُعَلِّمَةُ شَرَحَتِ الْقَاعِدَةَ.",
+      "الْقَاعِدَةُ شَرَحَتِ الْمُعَلِّمَةَ."
+     ],
+     "answer": 0,
+     "feedback": "Verb first, then subject, then object."
+    },
+    {
+     "prompt": "Which foregrounds the student?",
+     "options": [
+      "الطَّالِبُ أَجَابَ عَنِ السُّؤَالِ.",
+      "أَجَابَ الطَّالِبُ عَنِ السُّؤَالِ.",
+      "السُّؤَالُ أَجَابَ الطَّالِبَ."
+     ],
+     "answer": 0,
+     "feedback": "Subject-first order presents the student as topic."
+    },
+    {
+     "prompt": "Which form includes an encoded subject?",
+     "options": [
+      "كَتَبْنَا",
+      "الطَّالِبُ",
+      "الرِّسَالَةَ"
+     ],
+     "answer": 0,
+     "feedback": "ـنا encodes “we”."
+    },
+    {
+     "prompt": "Which sentence does not require a direct object?",
+     "options": [
+      "خَرَجَ الْوَلَدُ.",
+      "فَتَحَ الْوَلَدُ الْبَابَ.",
+      "حَمَلَ الْوَلَدُ الْحَقِيبَةَ."
+     ],
+     "answer": 0,
+     "feedback": "خَرَجَ is complete here with subject only."
+    },
+    {
+     "prompt": "Choose the clear expanded sentence.",
+     "options": [
+      "أَمْسِ زَارَتْ سَارَةُ جَدَّتَهَا فِي الْمُسْتَشْفَى.",
+      "أَمْسِ جَدَّتَهَا سَارَةُ فِي زَارَتْ.",
+      "زَارَتِ الْمُسْتَشْفَى سَارَةَ جَدَّتُهَا."
+     ],
+     "answer": 0,
+     "feedback": "The time and place expand a clear VSO core."
+    },
+    {
+     "prompt": "What does SVO mean at surface level?",
+     "options": [
+      "Subject–Verb–Object",
+      "Sentence–Vowel–Object",
+      "Subject–Verb–Order only"
+     ],
+     "answer": 0,
+     "feedback": "The noun/topic appears before the verbal predicate."
+    },
+    {
+     "prompt": "Which sentence means “I helped her”?",
+     "options": [
+      "سَاعَدْتُهَا.",
+      "سَاعَدَتْنِي.",
+      "سَاعَدْنَاهَا."
+     ],
+     "answer": 0,
+     "feedback": "ـتُ = I and ـها = her."
+    },
+    {
+     "prompt": "Best analysis strategy?",
+     "options": [
+      "Find the action, then ask who performed it and what received it.",
+      "Assume the first noun is always the subject.",
+      "Assume every verb needs an object."
+     ],
+     "answer": 0,
+     "feedback": "Role analysis begins with meaning and the verb."
+    }
+   ]
+  }
+ ],
+ "games": [
+  [
+   {
+    "p": "Choose the verb in: فَتَحَ عَلِيٌّ الْبَابَ.",
+    "a": "فَتَحَ",
+    "choices": [
+     "فَتَحَ",
+     "عَلِيٌّ",
+     "الْبَابَ"
+    ],
+    "e": "The verb expresses the action."
+   },
+   {
+    "p": "Choose the subject in: قَرَأَتْ مَرْيَمُ الْخَبَرَ.",
+    "a": "مَرْيَمُ",
+    "choices": [
+     "مَرْيَمُ",
+     "الْخَبَرَ",
+     "قَرَأَتْ"
+    ],
+    "e": "Maryam performs the action."
+   },
+   {
+    "p": "Choose the object in: شَاهَدَ الطِّفْلُ الْفِلْمَ.",
+    "a": "الْفِلْمَ",
+    "choices": [
+     "الْفِلْمَ",
+     "الطِّفْلُ",
+     "شَاهَدَ"
+    ],
+    "e": "The film receives the action."
+   },
+   {
+    "p": "Build a neutral VSO sentence.",
+    "a": "كَتَبَ أَحْمَدُ الرِّسَالَةَ.",
+    "choices": [
+     "كَتَبَ أَحْمَدُ الرِّسَالَةَ.",
+     "أَحْمَدَ الرِّسَالَةُ كَتَبَ.",
+     "الرِّسَالَةُ كَتَبَ أَحْمَدَ."
+    ],
+    "e": "Verb + subject + object."
+   },
+   {
+    "p": "Which sentence foregrounds Maryam?",
+    "a": "مَرْيَمُ قَرَأَتِ الْكِتَابَ.",
+    "choices": [
+     "مَرْيَمُ قَرَأَتِ الْكِتَابَ.",
+     "قَرَأَتْ مَرْيَمُ الْكِتَابَ.",
+     "الْكِتَابُ قَرَأَ مَرْيَمَ."
+    ],
+    "e": "Subject-first order makes Maryam the topic."
+   },
+   {
+    "p": "Which form contains the subject “we”?",
+    "a": "سَافَرْنَا",
+    "choices": [
+     "سَافَرْنَا",
+     "سَافَرَ",
+     "سَافَرَتْ"
+    ],
+    "e": "ـنا marks “we” in the past."
+   },
+   {
+    "p": "Choose a sentence with no direct object.",
+    "a": "نَامَ الطِّفْلُ.",
+    "choices": [
+     "نَامَ الطِّفْلُ.",
+     "قَرَأَ الطِّفْلُ الْكِتَابَ.",
+     "فَتَحَ الطِّفْلُ الْبَابَ."
+    ],
+    "e": "The verb نام is complete here without an object."
+   },
+   {
+    "p": "Add a place expression.",
+    "a": "كَتَبَتْ لَيْلَى الرِّسَالَةَ فِي الْمَكْتَبَةِ.",
+    "choices": [
+     "كَتَبَتْ لَيْلَى الرِّسَالَةَ فِي الْمَكْتَبَةِ.",
+     "كَتَبَتِ الْمَكْتَبَةُ لَيْلَى الرِّسَالَةَ.",
+     "فِي لَيْلَى كَتَبَتْ الْمَكْتَبَةَ."
+    ],
+    "e": "The place phrase expands the complete core."
+   },
+   {
+    "p": "Which sentence means “I wrote it”?",
+    "a": "كَتَبْتُهُ.",
+    "choices": [
+     "كَتَبْتُهُ.",
+     "كَتَبَهُ.",
+     "كَتَبْنَاهُ."
+    ],
+    "e": "ـتُ = I and ـه = it/him."
+   },
+   {
+    "p": "Best order for “What happened?”",
+    "a": "وَصَلَ الْقِطَارُ.",
+    "choices": [
+     "وَصَلَ الْقِطَارُ.",
+     "الْقِطَارُ وَصَلَ.",
+     "الْقِطَارُ سَرِيعٌ."
+    ],
+    "e": "Verb-first order presents the event first."
+   }
+  ]
+ ],
+ "blocks": [
+  "## Why this matters لِمَاذَا يَهُمُّ التَّرْتِيبُ؟",
+  "Correct word order helps the reader identify the event, the doer and the receiver without ambiguity.",
+  "### Core",
+  "Recognise verb, subject and object in short sentences.",
+  "### Develop",
+  "Transform between VSO and SVO while preserving meaning.",
+  "### Stretch",
+  "Explain how focus, hidden subjects and fronted adverbials affect the sentence.",
+  "[callout] Communication target: describe an action clearly, then change the order to place emphasis on either the event or the person.",
+  "## Diagnostic start",
+  "Attempt the six questions before opening the teaching tables.",
+  "## The three core roles",
+  "A verbal sentence begins from an action. It may then name the doer and the receiver of that action.",
+  "TABLE: Role | Arabic term | Question to ask | Model // Verb | الْفِعْلُ | What happened / happens? | كَتَبَ // Subject | الْفَاعِلُ | Who performed it? | الطَّالِبُ // Direct object | الْمَفْعُولُ بِهِ | Who or what received it? | الْوَاجِبَ",
+  "[callout] Complete model: كَتَبَ الطَّالِبُ الْوَاجِبَ. The verb opens the event, the subject performs it and the object receives it.",
+  "[ar] فَتَحَتْ سَلْمَى النَّافِذَةَ.",
+  "[ar] نَامَ الطِّفْلُ.",
+  "[ar] سَافَرْنَا أَمْسِ.",
+  "[ar] أَعْطَى الْمُعَلِّمُ الطَّالِبَ كِتَابًا.",
+  "## Verb first: the formal VSO pattern",
+  "Verb–Subject–Object is a standard, economical pattern in formal Modern Standard Arabic.",
+  "TABLE: Time frame | Pattern | Example | Meaning // Past | V + S + O | كَتَبَ الطَّالِبُ الرِّسَالَةَ. | The student wrote the letter. // Present | V + S + O | يَكْتُبُ الطَّالِبُ الرِّسَالَةَ. | The student writes / is writing the letter. // Future | V + S + O | سَيَكْتُبُ الطَّالِبُ الرِّسَالَةَ. | The student will write the letter. // Negative past | Particle + V + S + O | لَمْ يَكْتُبِ الطَّالِبُ الرِّسَالَةَ. | The student did not write the letter.",
+  "[callout] Focus: Verb-first order presents the event first. It is especially natural in narration, reports and answers to “What happened?”",
+  "## Subject first: SVO and topic focus",
+  "When the noun comes first, traditional analysis treats it as a nominal sentence whose predicate is a complete verbal clause. For practical communication, learners can recognise the surface order as SVO.",
+  "[ar] الطَّالِبُ كَتَبَ الرِّسَالَةَ.",
+  "[ar] مَرْيَمُ تَقْرَأُ الْكِتَابَ الآنَ.",
+  "[ar] أَخِي سَيَزُورُ جَدَّتِي غَدًا.",
+  "[ar] الطُّلَّابُ كَتَبُوا الْإِجَابَاتِ.",
+  "[callout] Not a free swap: Moving the subject changes the agreement pattern when the subject is dual or plural. Lessons 2–3 teach that contrast in depth.",
+  "TABLE: Question / context | Natural focus | Possible answer // What did the student do? | Student first | الطَّالِبُ كَتَبَ الرِّسَالَةَ. // What happened? | Verb first | كَتَبَ الطَّالِبُ الرِّسَالَةَ. // And Maryam? | Maryam first | مَرْيَمُ قَرَأَتِ الرِّسَالَةَ. // What occurred at school? | Event first | بَدَأَ الِاجْتِمَاعُ فِي الْمَدْرَسَةِ.",
+  "## The subject may be inside the verb",
+  "Arabic verb endings often make a separate subject pronoun unnecessary.",
+  "TABLE: Verb | Encoded subject | Complete meaning // كَتَبْتُ | أَنَا | I wrote // كَتَبْنَا | نَحْنُ | we wrote // كَتَبْتِ | أَنْتِ | you (f.) wrote // كَتَبُوا | هُمْ | they (m./mixed) wrote // كَتَبْنَ | هُنَّ | they (f.) wrote",
+  "[ar] كَتَبْتُ الرِّسَالَةَ.",
+  "[ar] أَنَا كَتَبْتُ الرِّسَالَةَ.",
+  "[ar] كَتَبْتُهَا.",
+  "[ar] هُمْ كَتَبُوا الرِّسَالَةَ.",
+  "[callout/warning] Avoid unnecessary repetition: Do not add an independent pronoun before every verb merely because English requires an explicit subject.",
+  "## Expanding the sentence without losing the core",
+  "Time, place, manner and reason can move, but the verb–subject–object relationship must remain clear.",
+  "TABLE: Expansion | Model | What it adds // Time after core | كَتَبَ الطَّالِبُ الرِّسَالَةَ أَمْسِ. | when // Time first | أَمْسِ كَتَبَ الطَّالِبُ الرِّسَالَةَ. | time frame before event // Place | كَتَبَ الطَّالِبُ الرِّسَالَةَ فِي الْمَكْتَبَةِ. | where // Manner | كَتَبَ الطَّالِبُ الرِّسَالَةَ بِعِنَايَةٍ. | how // Reason | كَتَبَ الطَّالِبُ الرِّسَالَةَ لِأَنَّهُ أَرَادَ الِاعْتِذَارَ. | why",
+  "[callout] Sentence ladder: Start with كَتَبَ الطَّالِبُ الرِّسَالَةَ . Add one accurate detail at a time instead of creating a long sentence before the core is secure.",
+  "## Misconception and proofreading clinic",
+  "Repair the role or order without memorising the wrong form.",
+  "TABLE: Problem | Repair | Reason // كَتَبَ الْوَاجِبُ الطَّالِبَ. | كَتَبَ الطَّالِبُ الْوَاجِبَ. | The student performs the action; the homework receives it. // الطَّالِبُ كَتَبَتْ الرِّسَالَةَ. | الطَّالِبُ كَتَبَ الرِّسَالَةَ. | Masculine singular subject requires masculine singular past verb. // أَنَا كَتَبَ الرِّسَالَةَ. | أَنَا كَتَبْتُ الرِّسَالَةَ. | Subject-first pronoun requires first-person agreement. // كَتَبْتُ أَنَا الرِّسَالَةَ in a neutral answer | كَتَبْتُ الرِّسَالَةَ. | The verb already identifies “I”; keep the pronoun only for emphasis.",
+  "## Grammar game",
+  "Build and analyse verbal sentences by choosing the missing role or the most accurate order.",
+  "## Skills workshop التَّطْبِيقُ الْعَمَلِيُّ",
+  "Read, say and write connected verbal sentences in everyday contexts.",
+  "[ar] وَصَلَتْ سَلْمَى إِلَى الْمَدْرَسَةِ مُبَكِّرًا، ثُمَّ قَابَلَتْ صَدِيقَتَهَا.",
+  "[ar] أَنَا أُفَضِّلُ الْقِرَاءَةَ، وَلَكِنَّ أَخِي يَلْعَبُ كُرَةَ الْقَدَمِ.",
+  "### Describe a short event",
+  "Write 70–90 Arabic words about something that happened at home, school or during a journey. Use both verb-first and subject-first sentences deliberately.",
+  "[callout] Model: وَصَلْتُ إِلَى الْمَدْرَسَةِ مُبَكِّرًا. بَدَأَ الدَّرْسُ فِي السَّاعَةِ الثَّامِنَةِ، وَالطُّلَّابُ اسْتَمَعُوا بِعِنَايَةٍ.",
+  "[callout] Success checklist: Include at least four VSO sentences, two SVO sentences, three clear objects, and time/place/manner details. Underline the verb once and circle the subject in three sentences.",
+  "[callout] Paper route: Write the paragraph, then use V, S and O labels above three sentences. Explain aloud why you chose the order in one of them.",
+  "## Final mastery check",
+  "Check sentence roles, VSO/SVO order and flexible expansion.",
+  "### What you can now do",
+  "- Identify the verb, subject and object in a practical sentence.",
+  "- Build the formal VSO pattern accurately.",
+  "- Recognise SVO as a subject-first nominal sentence with a verbal predicate.",
+  "- Move time and place expressions without losing the core sentence roles.",
+  "Spaced revisit: Return in two or three days and complete the final check again without looking at the tables."
+ ]
+}

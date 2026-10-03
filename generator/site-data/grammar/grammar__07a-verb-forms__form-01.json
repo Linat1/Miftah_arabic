@@ -1,0 +1,115 @@
+{
+ "path": "lessons/grammar/07a-verb-forms/form-01.php",
+ "title": "Form I: The Basic Verb",
+ "arabic": "الفِعْلُ الثُّلَاثِيُّ الْمُجَرَّدُ",
+ "lede": "The basic three-consonant verb provides the starting point for recognising Arabic roots and related words.",
+ "nav": [
+  [
+   "GM-VF-00",
+   "What Are Arabic Verb Forms?"
+  ]
+ ],
+ "quizzes": [
+  {
+   "title": "Quick pattern check",
+   "items": [
+    {
+     "prompt": "Which pair correctly means “to understand”?",
+     "options": [
+      "فَهَّمَ / يُفَهِّمُ",
+      "فَهِمَ / يَفْهَمُ",
+      "فَهِمَ / يَفْهُمُ"
+     ],
+     "answer": 1,
+     "feedback": "Form I vowels must be learned with each verb; فَهِمَ pairs with يَفْهَمُ."
+    }
+   ]
+  },
+  {
+   "title": "Form I · Self-check",
+   "items": [
+    {
+     "prompt": "Which pair correctly means “to understand”?",
+     "options": [
+      "فَهَّمَ / يُفَهِّمُ",
+      "فَهِمَ / يَفْهَمُ",
+      "فَهِمَ / يَفْهُمُ"
+     ],
+     "answer": 1,
+     "feedback": "Form I vowels must be learned with each verb; فَهِمَ pairs with يَفْهَمُ."
+    },
+    {
+     "prompt": "Which form means “I write”?",
+     "options": [
+      "كَتَبْتُ",
+      "يَكْتُبُ",
+      "أَكْتُبُ"
+     ],
+     "answer": 2,
+     "feedback": "أَكْتُبُ is first-person singular present."
+    },
+    {
+     "prompt": "Which statement is accurate?",
+     "options": [
+      "Form I has several vowel patterns.",
+      "Form I always means a physical action.",
+      "Every Form I verb has the same present vowel."
+     ],
+     "answer": 0,
+     "feedback": "The root and the lexical past–present pair are the reliable starting points."
+    }
+   ]
+  }
+ ],
+ "games": [],
+ "blocks": [
+  "## Why this matters",
+  "Learn the meaning before memorising the pattern.",
+  "### Core",
+  "Recognise the pattern and understand the model verb in a sentence.",
+  "### Develop",
+  "Use two or three verbs from this family in accurate past and present sentences.",
+  "[callout] Your goal: The basic three-consonant verb provides the starting point for recognising Arabic roots and related words.",
+  "## Discover the pattern",
+  "Notice what changes and what stays connected to the root.",
+  "### Root and pattern",
+  "Form I has no added derivational letters. Its internal vowels vary: كَتَبَ / يَكْتُبُ, فَهِمَ / يَفْهَمُ and كَبُرَ / يَكْبُرُ illustrate different families. Learn the past and present together.",
+  "[callout] Important: Form I has several past/present vowel patterns. The displayed pattern is one common model, not a rule for every verb.",
+  "TABLE: Past | Present | Meaning // كَتَبَ | يَكْتُبُ | to write",
+  "[callout] Notice the relationship: A root suggests a shared area of meaning, but individual verbs must be learned as vocabulary. A basic verb does not necessarily mean a simple action.",
+  "## Learn the family",
+  "Read each pair aloud, then use the verbs in meaningful sentences.",
+  "TABLE: Past | Present | Meaning // دَرَسَ | يَدْرُسُ | to study // فَهِمَ | يَفْهَمُ | to understand // جَلَسَ | يَجْلِسُ | to sit",
+  "أَكْتُبُ رِسَالَةً إِلَى صَدِيقِي.",
+  "I am writing a message to my friend.",
+  "دَرَسْتُ الْعَرَبِيَّةَ أَمْسِ.",
+  "I studied Arabic yesterday.",
+  "يَفْهَمُ الطَّالِبُ السُّؤَالَ.",
+  "The student understands the question.",
+  "[callout] Look closely: Compare كَتَبَ with يَكْتُبُ. The present prefix and the internal vowel belong to the conjugation; they do not create a new numbered form.",
+  "## Practise and apply",
+  "Move from recognising the pattern to using the language yourself.",
+  "### Misconception clinic",
+  "Do not assume that every Form I present verb has the vowel u. Compare يَكْتُبُ, يَفْهَمُ and يَجْلِسُ.",
+  "Learn the actual past–present pair rather than guessing.",
+  "### Apply the form",
+  "Write three sentences about what you do at school. Use one present verb, one past verb and a different subject in the third sentence.",
+  "[callout] Success checklist: Use the correct verb form and person; check the past/present vowels; use a natural sentence and reread your Arabic.",
+  "Complete your own response first. This is one possible answer, not the only correct response.",
+  "أَدْرُسُ الْعَرَبِيَّةَ كُلَّ يَوْمٍ. وَكَتَبْتُ رِسَالَةً أَمْسِ. وَيَفْهَمُ صَدِيقِي الدَّرْسَ.",
+  "I study Arabic every day. I wrote a message yesterday. My friend understands the lesson.",
+  "Find the root of قَرَأَ, then compare قَارِئٌ and قِرَاءَةٌ. Why is it useful to learn these words together?",
+  "Use the optional morphology reference if you need a pattern reminder.",
+  "## Final self-check",
+  "Try the questions without looking back. Your feedback explains the key feature.",
+  "## What you can now do",
+  "Review the essentials before moving to the next form.",
+  "### Lesson mastery summary",
+  "- recognise Form I and its characteristic pattern;",
+  "- understand and use the model verb in context;",
+  "- distinguish this family from a related form;",
+  "- check the accuracy of your own Arabic sentences.",
+  "Return in a few days and repeat the self-check. Learn the next form only when you are ready.",
+  "Back to all ten forms · Optional morphology reference"
+ ]
+}

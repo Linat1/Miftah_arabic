@@ -1,0 +1,114 @@
+{
+ "path": "lessons/grammar/07a-verb-forms/form-07.php",
+ "title": "Form VII: Change of State",
+ "arabic": "الْوَزْنُ السَّابِعُ",
+ "lede": "Form VII commonly describes an action or change happening to the subject. It is useful for events, movement and changes of state.",
+ "nav": [
+  [
+   "GM-VF-06",
+   "Form VI: Cooperation and Mutual Action"
+  ]
+ ],
+ "quizzes": [
+  {
+   "title": "Quick pattern check",
+   "items": [
+    {
+     "prompt": "Which verb is Form VII?",
+     "options": [
+      "كَسَّرَ",
+      "اِنْكَسَرَ",
+      "كَسَرَ"
+     ],
+     "answer": 1,
+     "feedback": "The prefix اِنْـ identifies the common Form VII pattern."
+    }
+   ]
+  },
+  {
+   "title": "Form VII · Self-check",
+   "items": [
+    {
+     "prompt": "Which verb is Form VII?",
+     "options": [
+      "كَسَرَ",
+      "اِنْكَسَرَ",
+      "كَسَّرَ"
+     ],
+     "answer": 1,
+     "feedback": "The prefix اِنْـ identifies the common Form VII pattern."
+    },
+    {
+     "prompt": "Which sentence means “The glass broke”?",
+     "options": [
+      "كَسَّرَ الْكَأْسُ.",
+      "اِنْكَسَرَ الْكَأْسُ.",
+      "كَسَرَ الْكَأْسَ."
+     ],
+     "answer": 1,
+     "feedback": "Form VII focuses on the change happening to the subject."
+    },
+    {
+     "prompt": "Which statement is accurate?",
+     "options": [
+      "Form VII is always the passive tense.",
+      "Every Form VII verb takes a direct object.",
+      "Form VII and the grammatical passive are different constructions."
+     ],
+     "answer": 2,
+     "feedback": "Form VII is commonly intransitive and must be distinguished from passive conjugation."
+    }
+   ]
+  }
+ ],
+ "games": [],
+ "blocks": [
+  "## Why this matters",
+  "Learn the meaning before memorising the pattern.",
+  "### Core",
+  "Recognise the pattern and understand the model verb in a sentence.",
+  "### Develop",
+  "Use two or three verbs from this family in accurate past and present sentences.",
+  "[callout] Your goal: Form VII commonly describes an action or change happening to the subject. It is useful for events, movement and changes of state.",
+  "## Discover the pattern",
+  "Notice what changes and what stays connected to the root.",
+  "### Root and pattern",
+  "The past contains the prefix اِنْـ and the present commonly follows يَنْفَعِلُ. The initial alif is hamzat al-waṣl, not a written hamza above or below the alif.",
+  "TABLE: Past | Present | Meaning // اِنْكَسَرَ | يَنْكَسِرُ | to break, become broken",
+  "[callout] Notice the relationship: كَسَرَ means to break something; اِنْكَسَرَ means to break or become broken. This resembles a passive or inchoative relationship, but Form VII is not the ordinary passive conjugation.",
+  "## Learn the family",
+  "Read each pair aloud, then use the verbs in meaningful sentences.",
+  "TABLE: Past | Present | Meaning // اِنْفَتَحَ | يَنْفَتِحُ | to open, become open // اِنْقَطَعَ | يَنْقَطِعُ | to be interrupted or cut off // اِنْصَرَفَ | يَنْصَرِفُ | to leave or depart",
+  "اِنْكَسَرَ الْكَأْسُ أَمْسِ.",
+  "The glass broke yesterday.",
+  "يَنْفَتِحُ الْبَابُ فِي السَّاعَةِ الثَّامِنَةِ.",
+  "The door opens at eight o’clock.",
+  "اِنْقَطَعَ الِاتِّصَالُ أَثْنَاءَ الدَّرْسِ.",
+  "The connection was interrupted during the lesson.",
+  "[callout] Look closely: Compare كَسَرَ الْوَلَدُ الْكَأْسَ with اِنْكَسَرَ الْكَأْسُ. The first describes someone breaking an object; the second focuses on what happened to the glass.",
+  "## Practise and apply",
+  "Move from recognising the pattern to using the language yourself.",
+  "### Misconception clinic",
+  "Do not equate Form VII with the grammatical passive. كُسِرَ and اِنْكَسَرَ are different forms, even when English uses similar translations.",
+  "The first is Form VII; the second is the passive of Form I. Both may be translated “the glass was broken” in an appropriate context.",
+  "### Apply the form",
+  "Write a short account of a minor problem at school or home. Include a broken item, an interrupted connection and a sentence explaining what happened next.",
+  "[callout] Success checklist: Use the correct verb form and person; check the past/present vowels; use a natural sentence and reread your Arabic.",
+  "Complete your own response first. This is one possible answer, not the only correct response.",
+  "اِنْكَسَرَ الْكَأْسُ أَمْسِ، ثُمَّ اِنْقَطَعَ الِاتِّصَالُ أَثْنَاءَ الدَّرْسِ. بَعْدَ ذَلِكَ أَصْلَحْنَا الْمُشْكِلَةَ وَعُدْنَا إِلَى الْعَمَلِ.",
+  "The glass broke yesterday, then the connection was interrupted during the lesson. After that, we fixed the problem and returned to work.",
+  "Compare فَتَحَ, اِنْفَتَحَ and فُتِحَ. Identify the active Form I, Form VII and grammatical passive.",
+  "Use the optional morphology reference if you need a pattern reminder.",
+  "## Final self-check",
+  "Try the questions without looking back. Your feedback explains the key feature.",
+  "## What you can now do",
+  "Review the essentials before moving to the next form.",
+  "### Lesson mastery summary",
+  "- recognise Form VII and its characteristic pattern;",
+  "- understand and use the model verb in context;",
+  "- distinguish this family from a related form;",
+  "- check the accuracy of your own Arabic sentences.",
+  "Return in a few days and repeat the self-check. Learn the next form only when you are ready.",
+  "Back to all ten forms · Optional morphology reference"
+ ]
+}

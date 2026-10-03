@@ -1,0 +1,111 @@
+{
+ "path": "lessons/grammar/07a-verb-forms/introduction.php",
+ "title": "What Are Arabic Verb Forms?",
+ "arabic": "مَا الْأَوْزَانُ الصَّرْفِيَّةُ؟",
+ "lede": "Understand how roots and patterns work, why Forms I–X are numbered, and how to learn one family at a time.",
+ "nav": [],
+ "quizzes": [
+  {
+   "title": "Quick understanding check",
+   "items": [
+    {
+     "prompt": "Which pair is the same numbered form in different tenses?",
+     "options": [
+      "عَلَّمَ / تَعَلَّمَ",
+      "عَلِمَ / عَلَّمَ",
+      "عَلَّمَ / يُعَلِّمُ"
+     ],
+     "answer": 2,
+     "feedback": "عَلَّمَ and يُعَلِّمُ are the past and present of Form II."
+    }
+   ]
+  },
+  {
+   "title": "Roots and patterns · Self-check",
+   "items": [
+    {
+     "prompt": "What is a root?",
+     "options": [
+      "A set of consonants associated with a family of meanings.",
+      "The tense prefix of a verb.",
+      "The English translation of a word."
+     ],
+     "answer": 0,
+     "feedback": "Arabic roots commonly contain three consonants, although other root types exist."
+    },
+    {
+     "prompt": "Which verb means “to teach”?",
+     "options": [
+      "عَلِمَ",
+      "عَلَّمَ",
+      "تَعَلَّمَ"
+     ],
+     "answer": 1,
+     "feedback": "The doubled middle radical distinguishes Form II عَلَّمَ."
+    },
+    {
+     "prompt": "Which claim is accurate?",
+     "options": [
+      "All ten forms have one predictable English meaning.",
+      "Every root occurs in all ten forms.",
+      "Patterns offer clues, but individual meanings must be learned."
+     ],
+     "answer": 2,
+     "feedback": "A numbered form identifies a morphological pattern, not a guaranteed translation."
+    }
+   ]
+  }
+ ],
+ "games": [],
+ "blocks": [
+  "## Why this matters",
+  "Discover the system behind the words you already know.",
+  "### Core",
+  "Explain the difference between a root and a verb pattern.",
+  "### Develop",
+  "Recognise related verbs and use their meanings in short sentences.",
+  "[callout] Your goal: Recognising a verb pattern helps you connect familiar words, understand unfamiliar vocabulary and choose the right verb for a sentence.",
+  "## One root, related meanings",
+  "Arabic words are often organised into families built around root consonants.",
+  "Many Arabic verbs have three root consonants. The root is associated with a broad area of meaning. A pattern adds a structure of vowels and sometimes extra consonants. The result is a real word with its own meaning and usage.",
+  "### Discover the family",
+  "to know",
+  "to teach",
+  "to learn",
+  "Notice the shared consonants ع، ل، م. The pattern changes the word, and the meaning changes with it.",
+  "عَلِمَ الطَّالِبُ الْجَوَابَ.",
+  "The student knew the answer.",
+  "عَلَّمَتِ الْمُعَلِّمَةُ الطَّالِبَ.",
+  "The teacher taught the student.",
+  "تَعَلَّمَ الطَّالِبُ الْعَرَبِيَّةَ.",
+  "The student learned Arabic.",
+  "[callout] Important: A root is not an English translation. It provides a useful connection between words. Not every root occurs in all ten forms, and a form does not guarantee one fixed meaning.",
+  "## What do the numbers mean?",
+  "The Roman numerals name morphological families; they do not indicate tense or difficulty.",
+  "Forms I–X are the ten commonly taught numbered families of the triliteral Arabic verb. Form I is the basic family; the other forms have characteristic additions or changes to the root. These numbers are a learning convention, not a claim that Arabic has only ten possible verb patterns.",
+  "TABLE: Form | Example | A meaning // I | كَتَبَ | to write // II | عَلَّمَ | to teach // III | شَارَكَ | to participate // IV | أَرْسَلَ | to send // V | تَعَلَّمَ | to learn // VI | تَعَاوَنَ | to cooperate // VII | اِنْكَسَرَ | to break, become broken // VIII | اِكْتَسَبَ | to acquire // IX | اِحْمَرَّ | to become red // X | اِسْتَعْمَلَ | to use",
+  "A verb form is different from a tense. For example, Form II has the past عَلَّمَ and the present يُعَلِّمُ . Both belong to the same numbered form.",
+  "## How to study the collection",
+  "Learn one manageable family at a time rather than memorising ten tables at once.",
+  "### Begin with meaning",
+  "Read the model sentence and connect it to something you can say in real life.",
+  "### Notice the pattern",
+  "Compare the past and present, including prefixes, long vowels and shadda.",
+  "### Practise and apply",
+  "Complete the short checks, then write or say your own sentences.",
+  "### Revisit and extend",
+  "Return to difficult forms. Use the optional morphology reference only when you want a deeper comparison.",
+  "Before you begin, check that you can recognise a three-consonant root and distinguish a past verb from a present verb. If those foundations are new, revisit Verb Foundations and the Present Tense lesson.",
+  "[callout] Recommended route: Start with Form I, then progress through the collection at a suitable pace. Forms IX and the detailed morphology reference are especially useful as optional extension. The collection supports broader grammar mastery; it is not a requirement to memorise every possible derived verb.",
+  "Begin with Form I →",
+  "## Introduction self-check",
+  "Check the central ideas before moving to the individual forms.",
+  "## What you can now do",
+  "### Introduction summary",
+  "- explain how roots and patterns relate to one another;",
+  "- distinguish a numbered form from a tense or person ending;",
+  "- recognise the relationship between knowing, teaching and learning;",
+  "- choose a manageable route through Forms I–X.",
+  "View the complete collection"
+ ]
+}

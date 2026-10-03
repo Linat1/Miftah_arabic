@@ -1,0 +1,477 @@
+{
+ "path": "lessons/grammar/08-conjunctions-prepositions/grammar-mastery-02-spatial-locators.php",
+ "title": "Spatial and Temporal Locators",
+ "arabic": "ظُرُوفُ الْمَكَانِ وَالزَّمَانِ",
+ "lede": "Move beyond simple “in” and “to”. Describe where objects and landmarks are in relation to one another, and place events before, after or during another time.",
+ "nav": [
+  [
+   "GM-CP-01",
+   "Common Prepositions and the Genitive"
+  ]
+ ],
+ "quizzes": [
+  {
+   "title": "🔎 Entry Check",
+   "items": [
+    {
+     "prompt": "The school is in front of the mosque.",
+     "options": [
+      "الْمَدْرَسَةُ أَمَامَ الْمَسْجِدِ.",
+      "الْمَدْرَسَةُ فِي الْمَسْجِدِ.",
+      "الْمَدْرَسَةُ مِنَ الْمَسْجِدِ."
+     ],
+     "answer": 0,
+     "feedback": "أَمَامَ creates a relation between two places."
+    },
+    {
+     "prompt": "Choose “under the bed”.",
+     "options": [
+      "تَحْتَ السَّرِيرِ",
+      "فَوْقَ السَّرِيرِ",
+      "خَلْفَ السَّرِيرِ"
+     ],
+     "answer": 0,
+     "feedback": "تَحْتَ means below or under."
+    },
+    {
+     "prompt": "Choose “between the bank and the shop”.",
+     "options": [
+      "بَيْنَ الْبَنْكِ وَالْمَتْجَرِ",
+      "بَيْنُ الْبَنْكُ وَالْمَتْجَرُ",
+      "مَعَ الْبَنْكِ وَالْمَتْجَرِ"
+     ],
+     "answer": 0,
+     "feedback": "Both coordinated nouns belong to the locator phrase."
+    },
+    {
+     "prompt": "Which is best for “during the lesson”?",
+     "options": [
+      "أَثْنَاءَ الدَّرْسِ",
+      "إِلَى الدَّرْسِ",
+      "خَلْفَ الدَّرْسِ"
+     ],
+     "answer": 0,
+     "feedback": "أَثْنَاءَ places an action within an event."
+    },
+    {
+     "prompt": "Many words such as أَمَامَ and خَلْفَ are technically…",
+     "options": [
+      "locative nouns/adverbs used in an iḍāfa-like phrase",
+      "always true particle prepositions",
+      "verbs"
+     ],
+     "answer": 0,
+     "feedback": "Cambridge groups them functionally with prepositions, but the following noun is a genitive complement."
+    },
+    {
+     "prompt": "Choose “beside the window”.",
+     "options": [
+      "بِجَانِبِ النَّافِذَةِ",
+      "عَنِ النَّافِذَةِ",
+      "إِلَى النَّافِذَةِ"
+     ],
+     "answer": 0,
+     "feedback": "بِجَانِبِ means beside or next to."
+    }
+   ]
+  },
+  {
+   "title": "Spatial Locator Check",
+   "items": [
+    {
+     "prompt": "The picture is above the sofa.",
+     "options": [
+      "الصُّورَةُ فَوْقَ الْأَرِيكَةِ.",
+      "الصُّورَةُ تَحْتَ الْأَرِيكَةِ.",
+      "الصُّورَةُ عَنِ الْأَرِيكَةِ."
+     ],
+     "answer": 0,
+     "feedback": "فَوْقَ expresses the higher position."
+    },
+    {
+     "prompt": "The garden is behind the house.",
+     "options": [
+      "الْحَدِيقَةُ خَلْفَ الْبَيْتِ.",
+      "الْحَدِيقَةُ أَمَامَ الْبَيْتِ.",
+      "الْحَدِيقَةُ إِلَى الْبَيْتِ."
+     ],
+     "answer": 0,
+     "feedback": "خَلْفَ expresses behind."
+    },
+    {
+     "prompt": "The pharmacy is opposite the hospital.",
+     "options": [
+      "الصَّيْدَلِيَّةُ مُقَابِلَ الْمُسْتَشْفَى.",
+      "الصَّيْدَلِيَّةُ دَاخِلَ الْمُسْتَشْفَى.",
+      "الصَّيْدَلِيَّةُ مِنَ الْمُسْتَشْفَى."
+     ],
+     "answer": 0,
+     "feedback": "مُقَابِلَ expresses facing/opposite."
+    },
+    {
+     "prompt": "Which phrase means “near the station”?",
+     "options": [
+      "بِالْقُرْبِ مِنَ الْمَحَطَّةِ",
+      "بَعِيدًا عَنِ الْمَحَطَّةِ",
+      "وَرَاءَ الْمَحَطَّةِ"
+     ],
+     "answer": 0,
+     "feedback": "بالقرب من means near."
+    }
+   ]
+  },
+  {
+   "title": "Two-Part Relation Check",
+   "items": [
+    {
+     "prompt": "Choose the accurate phrase.",
+     "options": [
+      "بَيْنَ الْبَيْتِ وَالْمَدْرَسَةِ",
+      "بَيْنَ الْبَيْتُ وَالْمَدْرَسَةُ",
+      "بَيْنُ الْبَيْتِ وَالْمَدْرَسَةِ"
+     ],
+     "answer": 0,
+     "feedback": "Both coordinated nouns are in the locator phrase."
+    },
+    {
+     "prompt": "Choose “with two friends”.",
+     "options": [
+      "مَعَ صَدِيقَيْنِ",
+      "مَعَ صَدِيقَانِ",
+      "مَعَ صَدِيقَيْنَ"
+     ],
+     "answer": 0,
+     "feedback": "The dual complement uses ـَيْنِ."
+    },
+    {
+     "prompt": "عِنْدَ can mean…",
+     "options": [
+      "at / by / with, according to context",
+      "only above",
+      "only from"
+     ],
+     "answer": 0,
+     "feedback": "عند is a flexible high-frequency locator."
+    },
+    {
+     "prompt": "Which is “at the door”?",
+     "options": [
+      "عِنْدَ الْبَابِ",
+      "عَنِ الْبَابِ",
+      "إِلَى الْبَابِ"
+     ],
+     "answer": 0,
+     "feedback": "عند locates something at/by a point."
+    }
+   ]
+  },
+  {
+   "title": "Time Locator Check",
+   "items": [
+    {
+     "prompt": "I revise after dinner.",
+     "options": [
+      "أُرَاجِعُ بَعْدَ الْعَشَاءِ.",
+      "أُرَاجِعُ خَلْفَ الْعَشَاءِ.",
+      "أُرَاجِعُ إِلَى الْعَشَاءِ."
+     ],
+     "answer": 0,
+     "feedback": "After in time is بَعْدَ."
+    },
+    {
+     "prompt": "Do not talk during the exam.",
+     "options": [
+      "لَا تَتَكَلَّمْ أَثْنَاءَ الِامْتِحَانِ.",
+      "لَا تَتَكَلَّمْ فَوْقَ الِامْتِحَانِ.",
+      "لَا تَتَكَلَّمْ مِنَ الِامْتِحَانِ."
+     ],
+     "answer": 0,
+     "feedback": "أثناء locates an action within an event."
+    },
+    {
+     "prompt": "I have lived here for two years / since two years ago.",
+     "options": [
+      "أَسْكُنُ هُنَا مُنْذُ سَنَتَيْنِ.",
+      "أَسْكُنُ هُنَا إِلَى سَنَتَيْنِ.",
+      "أَسْكُنُ هُنَا خَلْفَ سَنَتَيْنِ."
+     ],
+     "answer": 0,
+     "feedback": "منذ marks the starting point or elapsed period."
+    },
+    {
+     "prompt": "Choose “before eight o’clock”.",
+     "options": [
+      "قَبْلَ السَّاعَةِ الثَّامِنَةِ",
+      "بَعْدَ السَّاعَةُ الثَّامِنَةُ",
+      "أَثْنَاءَ السَّاعَةَ الثَّامِنَةَ"
+     ],
+     "answer": 0,
+     "feedback": "قبل + genitive time phrase."
+    }
+   ]
+  },
+  {
+   "title": "🏁 Final Mastery",
+   "items": [
+    {
+     "prompt": "Choose “in front of the station”.",
+     "options": [
+      "أَمَامَ الْمَحَطَّةِ",
+      "خَلْفَ الْمَحَطَّةِ",
+      "مِنَ الْمَحَطَّةِ"
+     ],
+     "answer": 0,
+     "feedback": "أمام = in front of."
+    },
+    {
+     "prompt": "Choose “opposite the school”.",
+     "options": [
+      "مُقَابِلَ الْمَدْرَسَةِ",
+      "دَاخِلَ الْمَدْرَسَةِ",
+      "إِلَى الْمَدْرَسَةِ"
+     ],
+     "answer": 0,
+     "feedback": "مقابل = opposite."
+    },
+    {
+     "prompt": "Choose “between the two shops”.",
+     "options": [
+      "بَيْنَ الْمَتْجَرَيْنِ",
+      "بَيْنَ الْمَتْجَرَانِ",
+      "بَيْنُ الْمَتْجَرَيْنَ"
+     ],
+     "answer": 0,
+     "feedback": "Dual genitive complement uses ـَيْنِ."
+    },
+    {
+     "prompt": "Choose “beside my house”.",
+     "options": [
+      "بِجَانِبِ بَيْتِي",
+      "بِجَانِبُ بَيْتِي",
+      "عَنْ بَيْتِي"
+     ],
+     "answer": 0,
+     "feedback": "Beside = بجانب + genitive/possessive noun."
+    },
+    {
+     "prompt": "Choose “during the holiday”.",
+     "options": [
+      "خِلَالَ الْعُطْلَةِ",
+      "فَوْقَ الْعُطْلَةِ",
+      "إِلَى الْعُطْلَةِ"
+     ],
+     "answer": 0,
+     "feedback": "خلال expresses during/throughout."
+    },
+    {
+     "prompt": "Choose “after the lesson”.",
+     "options": [
+      "بَعْدَ الدَّرْسِ",
+      "خَلْفَ الدَّرْسِ",
+      "عَنِ الدَّرْسِ"
+     ],
+     "answer": 0,
+     "feedback": "بعد is temporal."
+    },
+    {
+     "prompt": "Correct: near the park.",
+     "options": [
+      "بِالْقُرْبِ مِنَ الْحَدِيقَةِ",
+      "بِالْقُرْبِ عَنِ الْحَدِيقَةِ",
+      "بِقُرْبُ الْحَدِيقَةُ"
+     ],
+     "answer": 0,
+     "feedback": "The fixed phrase is بالقرب من."
+    },
+    {
+     "prompt": "Both nouns after بَيْنَ…وَ should…",
+     "options": [
+      "belong to the same coordinated relationship",
+      "become verbs",
+      "always take nominative endings"
+     ],
+     "answer": 0,
+     "feedback": "The whole phrase identifies the two endpoints."
+    },
+    {
+     "prompt": "Cambridge groups these functionally as…",
+     "options": [
+      "prepositions and locators",
+      "only verbs",
+      "only adjectives"
+     ],
+     "answer": 0,
+     "feedback": "Functional use is the examination priority."
+    },
+    {
+     "prompt": "Best description practice?",
+     "options": [
+      "Use a real map and make the listener locate each landmark.",
+      "Memorise a list without sentences.",
+      "Translate every English phrase literally."
+     ],
+     "answer": 0,
+     "feedback": "Communication tests whether the spatial relationship is clear."
+    }
+   ]
+  }
+ ],
+ "games": [
+  [
+   {
+    "p": "The bag is ___ the chair. (under)",
+    "a": "تَحْتَ",
+    "choices": [
+     "تَحْتَ",
+     "فَوْقَ",
+     "أَمَامَ"
+    ],
+    "e": "Under = تَحْتَ."
+   },
+   {
+    "p": "The garden is ___ the house. (behind)",
+    "a": "خَلْفَ",
+    "choices": [
+     "خَلْفَ",
+     "أَمَامَ",
+     "بَيْنَ"
+    ],
+    "e": "Behind = خَلْفَ."
+   },
+   {
+    "p": "The pharmacy is ___ the hospital. (opposite)",
+    "a": "مُقَابِلَ",
+    "choices": [
+     "مُقَابِلَ",
+     "دَاخِلَ",
+     "مِنْ"
+    ],
+    "e": "Opposite = مُقَابِلَ."
+   },
+   {
+    "p": "The school is ___ the mosque. (beside)",
+    "a": "بِجَانِبِ",
+    "choices": [
+     "بِجَانِبِ",
+     "عَنْ",
+     "إِلَى"
+    ],
+    "e": "Beside = بِجَانِبِ."
+   },
+   {
+    "p": "Complete: بَيْنَ الْبَنْكِ ___ الْمَتْجَرِ",
+    "a": "وَ",
+    "choices": [
+     "وَ",
+     "مِنْ",
+     "فِي"
+    ],
+    "e": "و coordinates the two endpoints."
+   },
+   {
+    "p": "Choose: during the lesson.",
+    "a": "أَثْنَاءَ الدَّرْسِ",
+    "choices": [
+     "أَثْنَاءَ الدَّرْسِ",
+     "خَلْفَ الدَّرْسِ",
+     "إِلَى الدَّرْسِ"
+    ],
+    "e": "During an event = أثناء."
+   },
+   {
+    "p": "Choose: after lunch.",
+    "a": "بَعْدَ الْغَدَاءِ",
+    "choices": [
+     "بَعْدَ الْغَدَاءِ",
+     "تَحْتَ الْغَدَاءِ",
+     "عَنِ الْغَدَاءِ"
+    ],
+    "e": "After in time = بعد."
+   },
+   {
+    "p": "Choose: near the station.",
+    "a": "بِالْقُرْبِ مِنَ الْمَحَطَّةِ",
+    "choices": [
+     "بِالْقُرْبِ مِنَ الْمَحَطَّةِ",
+     "بَعِيدًا عَنِ الْمَحَطَّةِ",
+     "خَارِجَ الْمَحَطَّةِ"
+    ],
+    "e": "Near = بالقرب من."
+   },
+   {
+    "p": "Choose: between two houses.",
+    "a": "بَيْنَ بَيْتَيْنِ",
+    "choices": [
+     "بَيْنَ بَيْتَيْنِ",
+     "بَيْنَ بَيْتَانِ",
+     "بَيْنُ بَيْتَيْنَ"
+    ],
+    "e": "Dual complement uses ـَيْنِ."
+   },
+   {
+    "p": "Choose the correct phrase.",
+    "a": "عِنْدَ نِهَايَةِ الشَّارِعِ",
+    "choices": [
+     "عِنْدَ نِهَايَةِ الشَّارِعِ",
+     "عَنْ نِهَايَةُ الشَّارِعُ",
+     "إِلَى نِهَايَةِ الشَّارِعُ"
+    ],
+    "e": "At the end of the street = عند نهاية الشارع."
+   }
+  ]
+ ],
+ "blocks": [
+  "## Why this matters",
+  "Precise locator phrases turn a vague description into usable directions and a clear picture of a room, town or journey.",
+  "### Core",
+  "Use front, behind, above, below and beside.",
+  "### Develop",
+  "Describe maps using between, opposite, near and far.",
+  "### Stretch",
+  "Distinguish technical locator nouns from true particle prepositions.",
+  "[callout] Communication target: Give a stranger enough information to locate a building without seeing your map.",
+  "## Diagnostic start",
+  "Identify the relationship before concentrating on endings.",
+  "## The spatial locator system",
+  "Most spatial locators come before a noun that completes their meaning.",
+  "TABLE: Locator | Meaning | Model // أَمَامَ | in front of | السَّيَّارَةُ أَمَامَ الْبَيْتِ. // وَرَاءَ | behind / beyond | الْحَدِيقَةُ وَرَاءَ الْمَدْرَسَةِ. // خَلْفَ | behind | الْمَوْقِفُ خَلْفَ الْمَتْجَرِ. // فَوْقَ | above / over | الصُّورَةُ فَوْقَ السَّرِيرِ. // تَحْتَ | under / below | الْحَقِيبَةُ تَحْتَ الْكُرْسِيِّ. // بِجَانِبِ | beside / next to | الْمَكْتَبَةُ بِجَانِبِ الْمَسْجِدِ. // مُقَابِلَ | opposite / facing | الْمَطْعَمُ مُقَابِلَ الْفُنْدُقِ. // قُرْبَ / بِالْقُرْبِ مِنْ | near | أَسْكُنُ بِالْقُرْبِ مِنَ الْمَدْرَسَةِ. // بَعِيدًا عَنْ | far from | الْمَطَارُ بَعِيدٌ عَنِ الْمَدِينَةِ. // حَوْلَ | around | تُوجَدُ أَشْجَارٌ حَوْلَ الْبَيْتِ. // دَاخِلَ | inside | الطُّلَّابُ دَاخِلَ الْفَصْلِ. // خَارِجَ | outside | الْحَافِلَةُ خَارِجَ الْمَحَطَّةِ.",
+  "[callout] Technical accuracy without overload: Words such as أَمَامَ، خَلْفَ، فَوْقَ are often analysed as locative nouns/adverbs rather than particle prepositions. Functionally, learn the complete pattern: locator + genitive noun.",
+  "## Between, with and two-part relations",
+  "Some locators require attention to more than one noun.",
+  "[ar] الْمَكْتَبَةُ بَيْنَ الْمَدْرَسَةِ وَالْمَسْجِدِ.",
+  "[ar] جَلَسْتُ بَيْنَ صَدِيقَيْنِ.",
+  "[ar] ذَهَبْتُ مَعَ أَخِي وَأُخْتِي.",
+  "[ar] الْمَتْجَرُ عِنْدَ نِهَايَةِ الشَّارِعِ.",
+  "[callout/warning] Between two places: In بَيْنَ الْبَنْكِ وَالْمَتْجَرِ , both nouns belong to the coordinated relationship. Do not change the second noun back to nominative merely because of وَ .",
+  "## Locators of time",
+  "The same architecture can locate an action in relation to another time or event.",
+  "TABLE: Time locator | Meaning | Model // قَبْلَ | before | أَسْتَيْقِظُ قَبْلَ السَّابِعَةِ. // بَعْدَ | after | أَدْرُسُ بَعْدَ الْغَدَاءِ. // أَثْنَاءَ | during | لَا أَسْتَعْمِلُ هَاتِفِي أَثْنَاءَ الدَّرْسِ. // خِلَالَ | during / throughout | تَعَلَّمْتُ كَثِيرًا خِلَالَ الْعُطْلَةِ. // مُنْذُ | since / for from a starting point | أَسْكُنُ هُنَا مُنْذُ سَنَتَيْنِ. // حَتَّى | until | أَدْرُسُ حَتَّى السَّاعَةِ الثَّامِنَةِ.",
+  "[callout] Boundary for later lessons: قَبْلَ أَنْ , بَعْدَ أَنْ and مُنْذُ أَنْ link clauses and appear again in Lesson 5.",
+  "## From map to connected description",
+  "A good description combines a reference point, a precise relation and a route.",
+  "[ar] يَقَعُ الْبَنْكُ مُقَابِلَ الْمَكْتَبَةِ، وَالْمَقْهَى بِجَانِبِهِ.",
+  "[ar] سِرْ إِلَى نِهَايَةِ الشَّارِعِ، ثُمَّ اِنْعَطِفْ يَمِينًا عِنْدَ الْمَسْجِدِ.",
+  "[callout] Reading strategy: Draw a quick sketch while reading directions. Spatial words often carry more information than unfamiliar descriptive vocabulary.",
+  "## Misconception and proofreading clinic",
+  "Correct the relationship, not only the ending.",
+  "TABLE: Incorrect | Correct | Repair // الْمَطْعَمُ أَمَامُ الْفُنْدُقُ. | الْمَطْعَمُ أَمَامَ الْفُنْدُقِ. | locator form + genitive complement // الْبَنْكُ بَيْنَ الْمَدْرَسَةِ وَالْمَتْجَرُ. | الْبَنْكُ بَيْنَ الْمَدْرَسَةِ وَالْمَتْجَرِ. | second coordinated noun remains in the relation // أَدْرُسُ خَلْفَ الْغَدَاءِ. | أَدْرُسُ بَعْدَ الْغَدَاءِ. | use a temporal, not spatial, locator // الْمَطَارُ بِالْقُرْبِ عَنِ الْمَدِينَةِ. | الْمَطَارُ بِالْقُرْبِ مِنَ الْمَدِينَةِ. | fixed phrase بالقرب من",
+  "## Grammar game",
+  "Read each clue and select the locator that represents the relationship.",
+  "## Skills workshop التَّطْبِيقُ الْعَمَلِيُّ",
+  "Use a plan, map and timetable to communicate location and sequence.",
+  "[ar] فِي غُرْفَتِي سَرِيرٌ بِجَانِبِ النَّافِذَةِ، وَمَكْتَبٌ مُقَابِلَ الْبَابِ.",
+  "[ar] الْمَدْرَسَةُ بَيْنَ الْمَسْجِدِ وَالْمَكْتَبَةِ، وَمَوْقِفُ الْحَافِلَاتِ أَمَامَهَا.",
+  "### Describe a room or local map",
+  "Write 70–90 Arabic words describing the position of at least six objects or landmarks and explaining one short route.",
+  "[callout] Success checklist: Use six spatial locators; include one بَيْنَ phrase with two nouns; include one time locator; use a connector to sequence the route.",
+  "[callout] Paper route: Draw the room or map first. Label it in Arabic, then write a connected description beneath it.",
+  "## Final mastery check",
+  "Check spatial meaning, genitive forms and time relationships.",
+  "### What you can now do",
+  "- Build locator + genitive noun phrases.",
+  "- Describe objects and landmarks with precise spatial relationships.",
+  "- Use بَيْنَ with two coordinated genitive nouns.",
+  "- Place actions in time with قَبْلَ، بَعْدَ، أَثْنَاءَ and خِلَالَ.",
+  "Spaced revisit: Return in two or three days and complete the final check again without looking at the tables."
+ ]
+}
