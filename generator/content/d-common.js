@@ -122,7 +122,7 @@ function devLesson(code, x) {
   slides.push({ type: 'ido', stage: 'ido', min: 3, eyebrow: 'I do · watch, then copy', title: x.ido.title, ar: 'شَاهِدْ ثُمَّ اُكْتُبْ', ...x.ido });
   slides.push({
     type: 'models', stage: 'ido', min: 1, eyebrow: x.patterns ? 'I do · model sentences (teacher-written on the website rules)' : 'I do · model sentences from the website', title: 'Sentences to borrow', ar: 'جُمَلٌ نَمُوذَجِيَّةٌ',
-    rows: (x.patterns || s.patterns).slice(0, 4).map((p) => ({ ar: p.ar, en: p.en, tip: p.tip })),
+    rows: (x.patterns || s.patterns.map((p, i) => ({ ...p, en: p.en || (x.patternEn || [])[i] || '' }))).slice(0, 4).map((p) => ({ ar: p.ar, en: p.en, tip: p.tip })),
     notes: `MODEL SENTENCES (1 min) — website patterns. Students copy TWO that are useful for them.\n${x.modelsNotes || '• Core: copy one and change one word. • Develop: copy two and change the subject. • Stretch: combine two into one longer sentence with a connector.'}`,
   });
   if (game && game.items && x.game) slides.push(C.gameSlide({ ...game, items: (x.game.pick || [0, 1, 2]).map((i) => game.items[i]) }, x.game));
