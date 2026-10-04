@@ -268,7 +268,7 @@ const slides = G.gmLesson({
     questionEn: 'Kitābuhu = his book. How would you say “Aḥmad’s book” with two nouns side by side?',
     questionAr: 'كِتَابُهُ = كِتَابُ ______ .',
     homework: {
-      core: 'Write my / her / our forms for six nouns (three with ة).',
+      core: 'Write my / her / our forms for six nouns (three with tāʾ marbūṭa).',
       develop: 'Write four sentences: subject, object, after a preposition, with an adjective.',
       stretch: 'Website belongings profile (100–120 words).',
     },
