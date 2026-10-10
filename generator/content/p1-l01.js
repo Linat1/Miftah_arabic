@@ -198,8 +198,8 @@ Check aloud: “Why غَنِيَّةٌ and not غَنِيٌّ?” — the meal (
     ],
     stems: [
       { route: 'core', ar: 'تَحْتَوِي الوَجْبَةُ عَلَى ______ وَ ______ .' },
-      { route: 'develop', ar: 'هِيَ غَنِيَّةٌ بِـ ______ ، وَلٰكِنَّهَا تَفْتَقِرُ إِلَى ______ .' },
-      { route: 'stretch', ar: 'يُوصَى بِـ ______ ، لِأَنَّ ذٰلِكَ يُقَلِّلُ مِنْ ______ .' },
+      { route: 'develop', ar: 'هِيَ غَنِيَّةٌ بِالأَلْيَافِ، وَلٰكِنَّهَا تَفْتَقِرُ إِلَى ______ .' },
+      { route: 'stretch', ar: 'يُوصَى بِإِضَافَةِ ______ ، لِأَنَّ ذٰلِكَ يُقَلِّلُ مِنْ ______ .' },
     ],
     modelEn: ['Describe a meal you ate. What does it contain?', 'It contains protein and carbohydrates, and it is rich in fibre.', 'And what does it lack?', 'It lacks vegetables, so it is recommended to add a salad to improve the balance.'],
     notes: 'Website prompts and model. Students may describe any meal they know (a school lunch, a family dish). Listen for the three prepositions and for غَنِيَّةٌ (the meal is feminine). To a girl: صِفِي · تَنَاوَلْتِهَا · تُوصِينَ.',
@@ -212,7 +212,7 @@ Check aloud: “Why غَنِيَّةٌ and not غَنِيٌّ?” — the meal (
   frames: {
     core: [
       { en: 'This meal contains …', ar: 'تَحْتَوِي هٰذِهِ الوَجْبَةُ عَلَى ______ .' },
-      { en: 'Vegetables are rich in …', ar: 'الخُضَرُ غَنِيَّةٌ بِـ ______ .' },
+      { en: 'Vegetables are rich in vitamins and …', ar: 'الخُضَرُ غَنِيَّةٌ بِالفِيتَامِينَاتِ وَ ______ .' },
       { en: 'Processed foods contain saturated fats.', ar: 'تَحْتَوِي الأَطْعِمَةُ المُعَالَجَةُ عَلَى ______ مُشْبَعَةٍ.' },
       { en: '… is an energy source.', ar: '______ مَصْدَرُ طَاقَةٍ.' },
     ],

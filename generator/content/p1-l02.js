@@ -189,7 +189,7 @@ Translations: شَرِيطَةَ أَنْ يَكُونَ مُنْتَظِمًا 
     ],
     stems: [
       { route: 'core', ar: 'أُمَارِسُ ______ ______ مَرَّاتٍ فِي الأُسْبُوعِ.' },
-      { route: 'develop', ar: 'كُنْتُ ______ ، أَمَّا الآنَ فَـ ______ .' },
+      { route: 'develop', ar: 'كُنْتُ ______ ، أَمَّا الآنَ فَأُمَارِسُ ______ .' },
       { route: 'stretch', ar: 'يُقَوِّي ______ ، وَيُقَلِّلُ مِنْ ______ .' },
     ],
     modelEn: ['Which physical activity do you do?', 'I do brisk walking three times a week.', 'And what was your activity like in the past?', 'I used to exercise only once, and now I feel the difference: walking strengthens my muscles and reduces stress.'],
@@ -209,7 +209,7 @@ Translations: شَرِيطَةَ أَنْ يَكُونَ مُنْتَظِمًا 
     ],
     develop: [
       { en: 'In the past I used to …', ar: 'فِي المَاضِي كُنْتُ ______ .' },
-      { en: 'Now, however, I …', ar: 'أَمَّا الآنَ فَـ ______ .' },
+      { en: 'Now, however, I do …', ar: 'أَمَّا الآنَ فَأُمَارِسُ ______ .' },
       { en: 'Warming up helps to avoid injury.', ar: 'يُسَاعِدُ الإِحْمَاءُ عَلَى ______ الإِصَابَةِ.' },
       { en: 'Next month I intend to add …', ar: 'فِي الشَّهْرِ القَادِمِ أَنْوِي أَنْ أُضِيفَ ______ .' },
     ],
