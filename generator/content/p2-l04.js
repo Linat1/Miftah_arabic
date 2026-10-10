@@ -10,7 +10,7 @@ const { q } = D;
 const meta = D.meta('P2')({
   n: 4, fileTitle: 'Study_Skills_and_Academic_Success', chip: 'Vocabulary',
   title: 'Study Skills and Academic Success', arabic: 'مَهَارَاتُ الدِّرَاسَةِ وَالنَّجَاحُ الأَكَادِيمِيُّ',
-  focus: 'Describe how to study well: climb Bloom’s ladder (يَتَذَكَّرُ → يَفْهَمُ → يُطَبِّقُ → يُحَلِّلُ → يُقَيِّمُ → يُبْدِعُ), use the study verbs with their objects (يُلَخِّصُ المَادَّةَ · يَحْتَفِظُ بِالمَعْلُومَاتِ) and link each habit to its outcome with إِذَا.',
+  focus: 'Describe how to study well: climb Bloom’s ladder from remembering (yatadhakkar) to creating (yubdiʿ), use the study verbs with their objects (yulakhkhiṣ al-mādda · yaḥtafiẓ bi-l-maʿlūmāt) and link each habit to its outcome with idhā.',
   icon: 'FaBrain', iconSet: 'fa6',
 });
 
