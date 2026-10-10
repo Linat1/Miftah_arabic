@@ -2,8 +2,8 @@
 /* P2-L04 · Study Skills and Academic Success — website: Pathways › Progression › P2 › P2-L04 (Bloom’s taxonomy verbs يَتَذَكَّرُ → يُبْدِعُ, Form II / IV
  * study verbs with a direct object يُحَلِّلُ النَّصَّ, يَحْتَفِظُ بِـ, the study-outcome conditional إِذَا رَاجَعْتَ … سَتَحْتَفِظُ …, أَنْ + subjunctive chains).
  * Website vocabulary, rules, quiz, sorter, mistakes, listening, reading, speaking and writing used as published, with small spelling fixes: waṣl alif
- * without a kasra (الانْتِهَاءِ · الاسْتِيعَابُ) and the helping kasra in بَلِ التَّعَلُّمَ. The website visual game is about future plans (it belongs to
- * P2-L05), so it is not used here. English added to the patterns. */
+ * without a kasra (الانْتِهَاءِ · الاسْتِيعَابُ) and the helping kasra in بَلِ التَّعَلُّمَ. The website visual game for this lesson is about future plans (it belongs to
+ * P2-L05); this deck uses the study-strategies game the website files under P2-L05 (gameKey). English added to the patterns. */
 const D = require('./d-common');
 const { q } = D;
 
@@ -147,6 +147,16 @@ Stretch: rewrite each row as a verbal noun — بِتَنْظِيمِ · بِت�
     notes: 'I DO (3 min) — from the website writing model. Think aloud: “Hook with hal taʿlamu anna (P1-L07). Recommend: tūṣī bi-an + subjunctive — every verb in the chain takes -a. Then habit → outcome with idhā. Finally contrast two methods with baynamā (P2-L01).”',
   },
   patternEn: ['the student analyses the text, then evaluates his understanding', 'if you revise the material weekly, you will retain the information better', 'while memorising leads to quick forgetting, understanding leads to long retention'],
+  gameKey: 'P2-L05',
+  game: {
+    title: 'Which strategy? Match the picture',
+    pick: [0, 3, 4],
+    en: ['I organise my time with a study timetable.', 'I study in short sessions with a break.', 'I write questions to test myself.'],
+    icons: [[['fa6', 'FaCalendarCheck', '1E6B52'], ['fa6', 'FaListCheck', '1D5FBF']], [['fa6', 'FaStopwatch', 'C0386B'], ['fa6', 'FaBook', 'C77700'], ['fa6', 'FaMugHot', '6B4C9A']], [['fa6', 'FaCircleQuestion', '1D5FBF'], ['fa6', 'FaPenToSquare', '1E6B52']]],
+    labels: ['a study timetable', 'short sessions with breaks', 'self-testing'],
+    order: [1, 2, 0],
+    notes: 'Website visual game (3 of 6; the website files this study-skills set under P2-L05 and the careers set under P2-L04, so the two are swapped here). Then link each habit to its outcome: إِذَا نَظَّمْتُ وَقْتِي، سَيَقِلُّ التَّشْتِيتُ · إِذَا اخْتَبَرْتُ نَفْسِي، سَأَحْتَفِظُ بِالمَعْلُومَاتِ أَطْوَلَ.',
+  },
   wedoSlides: [
     {
       type: 'formsTable', stage: 'wedo', min: 3, eyebrow: 'We do · plan a Bloom’s study ladder (website rules and table)', title: 'One topic, six levels', ar: 'سُلَّمُ بْلُومَ لِمَوْضُوعٍ وَاحِدٍ',
@@ -168,7 +178,7 @@ Core: rows 1–3 for their own ladder. Develop: all six levels. Stretch: add a c
   sorterTitle: 'Remember / understand, apply / analyse / evaluate — or create?',
   sorterNotes: 'Then put each verb in a sentence about studying Arabic: أَتَذَكَّرُ … · أَسْتَوْعِبُ … · أُطَبِّقُ … · أُحَلِّلُ … · أُقَيِّمُ … · أُبْدِعُ / أَبْتَكِرُ / أُؤَلِّفُ …',
   patch: { vocab: site.vocab, grammar: { ...site.grammar, rules }, listening: site.listening, reading: site.reading, writing: site.writing, speaking: site.speaking, mistakes: site.mistakes, patterns: site.patterns.map((x) => ({ ...x, tip: x.tip.replace('يَحْتَفِظُ بِـ', 'yaḥtafiẓ bi-') })), final: site.final, sorter: site.sorter, mission: site.mission },
-  patchNote: 'small website spelling fixes (waṣl alif without a kasra: الانْتِهَاءِ · الاسْتِيعَابُ; the helping kasra in بَلِ التَّعَلُّمَ); rule headings shown in English and transliteration; the Bloom’s ladder is teacher-built from the website table; the website visual game (future plans) belongs to P2-L05 and is not used here. All other website items are used as published.',
+  patchNote: 'small website spelling fixes (waṣl alif without a kasra: الانْتِهَاءِ · الاسْتِيعَابُ; the helping kasra in بَلِ التَّعَلُّمَ); rule headings shown in English and transliteration; the Bloom’s ladder is teacher-built from the website table; the website visual games for P2-L04 and P2-L05 are swapped (study strategies here, future plans in P2-L05). All other website items are used as published.',
   hints: ['yuḥallil + fī?', 'yaḥtafiẓ + which preposition?', 'After idhā: past or present?'],
   coreTip: 'Listen twice. Core: questions 1, 2 and 3.\nListen for: idhā … sa- and the study verbs.',
   listenRoutes: 'Core: questions 1, 2 and 3. Develop / Stretch: all 5 — and write down one conditional and one reported-speech verb you hear.',

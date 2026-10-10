@@ -98,7 +98,7 @@ function devLesson(code, x) {
   s.reading = { ...s.reading, text: clock(s.reading.text), questions: fixQ(s.reading.questions) };
   s.listening = { ...s.listening, script: clock(s.listening.script), questions: fixQ(s.listening.questions) };
   const G = s.grammar; const unit = code.slice(0, 2);
-  const game = games[code.toLowerCase()];
+  const game = games[(x.gameKey || code).toLowerCase()];
   const slides = [];
   slides.push(C.titleSlide({
     n: Number(code.slice(-2)),
