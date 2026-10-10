@@ -256,9 +256,9 @@ Use it as oral rehearsal for the website writing task.`,
   ],
   exit: [0, 1, 2],
   prep: {
-    words: [['عَلَاوَةً عَلَى ذٰلِكَ', 'moreover', '—'], ['شَرِيطَةَ أَنْ', 'provided that', '—'], ['بِنَاءً عَلَى مَا سَبَقَ', 'based on the above', '—'], ['مِنْ جِهَةٍ أُخْرَى', 'on the other hand', '—'], ['نَتِيجَةً لِذٰلِكَ', 'as a result', '—']],
+    words: [['عِلَاوَةً عَلَى ذٰلِكَ', 'moreover', '—'], ['شَرِيطَةَ أَنْ', 'provided that', '—'], ['بِنَاءً عَلَى مَا سَبَقَ', 'based on the above', '—'], ['مِنْ جِهَةٍ أُخْرَى', 'on the other hand', '—'], ['نَتِيجَةً لِذٰلِكَ', 'as a result', '—']],
     questionEn: 'Plan an essay: does education guarantee a better future?',
-    questionAr: 'أَوَّلًا ______ ، وَعَلَاوَةً عَلَى ذٰلِكَ ______ ، وَبِنَاءً عَلَى مَا سَبَقَ ______ .',
+    questionAr: 'أَوَّلًا ______ ، وَعِلَاوَةً عَلَى ذٰلِكَ ______ ، وَبِنَاءً عَلَى مَا سَبَقَ ______ .',
     homework: {
       core: 'Classify six reporting verbs (certain · doubtful · neutral) with one example each.',
       develop: 'Find two conditionals in a news text and say if each is real or hypothetical.',
