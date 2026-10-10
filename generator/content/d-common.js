@@ -46,6 +46,14 @@ const site = (code) => {
   return l;
 };
 const { q, fromSite, splitPrompt } = C;
+// website hamzat-waṣl slip: a kasra written on the alif inside a phrase (الاِمْتِحَانِ · مَادَّةٌ اِخْتِيَارِيَّةٌ · وَالاِخْتِيَارِيَّةِ).
+// Inside connected text the waṣl alif carries no vowel; at the very start of a string the kasra is kept.
+const waslFix = (o) => {
+  if (typeof o === 'string') return o.replace(/(ال|وَا|فَا|بِا|لِ)اِ/g, '$1ا').replace(/الاِ/g, 'الا').replace(/([^\s«(])?(\s)اِ/g, (m, pre, sp) => (pre === undefined ? m : `${pre}${sp}ا`));
+  if (Array.isArray(o)) return o.map(waslFix);
+  if (o && typeof o === 'object') return Object.fromEntries(Object.entries(o).map(([k, v]) => [k, waslFix(v)]));
+  return o;
+};
 
 // vocabulary groups → vocab slides (6 cards each). x.core = array of Arabic items marked CORE (default: first 6).
 function vocabSlides(s, x) {
@@ -172,4 +180,4 @@ function devLesson(code, x) {
   return slides;
 }
 
-module.exports = { ...C, meta, site, devLesson, translit, games };
+module.exports = { ...C, meta, site, devLesson, translit, games, waslFix };
