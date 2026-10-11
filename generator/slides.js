@@ -804,8 +804,9 @@ function challenge(D, sp) {
 function stretchTask(D, sp) {
   const s = frame(D, sp);
   const RT = sp.route ? ROUTES[sp.route] : null;
-  box(s, 0.5, 1.98, 6.1, 4.92, { fill: RT ? RT.pale : C.stretchPale, line: RT ? RT.color : C.stretch });
-  pill(s, 0.7, 2.12, 1.3, 0.32, RT ? RT.color : C.stretch, RT ? RT.label : 'STRETCH', { size: 9.5 });
+  const CH = !RT && sp.chip;
+  box(s, 0.5, 1.98, 6.1, 4.92, { fill: RT ? RT.pale : CH ? C.blueBox : C.stretchPale, line: RT ? RT.color : CH ? C.blueLine : C.stretch });
+  pill(s, 0.7, 2.12, CH ? Math.max(1.3, 0.3 + sp.chip.length * 0.085) : 1.3, 0.32, RT ? RT.color : CH ? C.navy : C.stretch, RT ? RT.label : CH ? sp.chip : 'STRETCH', { size: 9.5 });
   mixedLine(s, sp.task, 0.7, 2.55, 5.7, 1.0, { size: 13.5, bold: true, color: C.ink });
   const n = sp.checklist.length; const rh = Math.min(0.58, 3.1 / n);
   sp.checklist.forEach((c, i) => mixedLine(s, '☐  ' + c, 0.75, 3.62 + i * rh, 5.7, rh, { size: 12, color: C.ink }));
