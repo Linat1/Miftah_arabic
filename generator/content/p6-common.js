@@ -94,7 +94,7 @@ const markScheme = (b, o = {}) => ({
 const writing = (b, o) => {
   const out = [{
     type: 'stretchTask', stage: o.stage || 'youdo', min: o.min, eyebrow: o.eyebrow || `You do · ${b.title}`, title: o.title || b.title.replace(/ \(\d+ marks\)$/, ''), ar: o.ar || 'الكِتَابَةُ',
-    task: o.task || flat(b.prompt), checklist: o.checklist || b.checklist.map(flat), phrases: o.phrases, bankHead: o.bankHead || 'USEFUL LANGUAGE — FROM THE WEBSITE MODEL',
+    route: o.route, task: o.task || flat(b.prompt), checklist: o.checklist || b.checklist.map(flat), phrases: o.phrases, bankHead: o.bankHead || 'USEFUL LANGUAGE — FROM THE WEBSITE MODEL',
     notes: `${o.notes || ''}\nWebsite task: ${flat(b.prompt)}\nWebsite checklist: ${b.checklist.map(flat).join(' · ')}`,
   }];
   if (b.model && !o.noModel) out.push({
