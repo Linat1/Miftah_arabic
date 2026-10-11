@@ -28,6 +28,7 @@ async function build(key, outDir) {
   fs.mkdirSync(outDir, { recursive: true });
   const file = path.join(outDir, `${lesson.meta.file}.pptx`);
   await pres.writeFile({ fileName: file });
+  await require('./fonts').embed(file); // Arabic charset fix + embedded Amiri (Teams / PowerPoint for the web)
   console.log(`${file}  (${total} slides)`);
   return file;
 }
