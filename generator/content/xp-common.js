@@ -117,7 +117,7 @@ function lint(obj, path = '') { // warn about split prefixes (tatweel) in slide 
 
 function speakingDeck(d) {
   lint(d, 'speak');
-  const meta = module.exports.meta('A', d.n, 'Speaking', { fileTitle: d.fileTitle, title: `Speaking Workshop — ${d.title}`, arabic: `وَرْشَةُ التَّحَدُّثِ — ${d.ar}`, focus: d.focus, icon: d.icon || 'FaComments' });
+  const meta = module.exports.meta('A', d.n, 'Speaking', { fileTitle: d.fileTitle, title: `Speaking Workshop — ${d.short || d.title}`, arabic: `وَرْشَةُ التَّحَدُّثِ — ${d.arShort || d.ar}`, focus: d.focus, icon: d.icon || 'FaComments' });
   const code = `AT-A-L${String(d.n).padStart(2, '0')}`;
   const slides = [
     title({ notes: `WORKSHOP AT A GLANCE — 60 minutes on Teams, mostly in breakout rooms of three.
@@ -193,7 +193,7 @@ BREAKOUT ROOMS: set up rooms of three before the lesson. Share the deck (or a PD
 
 function writingDeck(d) {
   lint(d, 'write');
-  const meta = module.exports.meta('A', d.n, 'Writing', { fileTitle: d.fileTitle, title: `Writing Workshop — ${d.title}`, arabic: `وَرْشَةُ الكِتَابَةِ — ${d.ar}`, focus: d.focus, icon: d.icon || 'FaPenToSquare' });
+  const meta = module.exports.meta('A', d.n, 'Writing', { fileTitle: d.fileTitle, title: `Writing Workshop — ${d.short || d.title}`, arabic: `وَرْشَةُ الكِتَابَةِ — ${d.arShort || d.ar}`, focus: d.focus, icon: d.icon || 'FaPenToSquare' });
   const code = `AT-A-L${String(d.n).padStart(2, '0')}`;
   const nextCode = d.n < 12 ? `AT-A-L${String(d.n + 1).padStart(2, '0')}` : null;
   const check = (label, text, lo, hi) => { const n = words(text); if (n < lo || n > hi) console.warn(`  ⚠ ${code} ${label}: ${n} words (target ${lo}–${hi})`); return n; };

@@ -3,7 +3,7 @@
 const X = require('./xp-common');
 const w = X.word;
 
-const base = { n: 3, fileTitle: 'Frequency_Sequencing_and_Communication', title: 'Frequency, Sequencing and Communication', ar: 'التَّكْرَارُ وَالتَّرْتِيبُ وَالتَّوَاصُلُ', icon: 'FaListOl', grammar: 'frequency adverbs, connectors, قَبْلَ / بَعْدَ (أَنْ), عِنْدَمَا' };
+const base = { n: 3, short: 'Frequency and Communication', arShort: 'التَّكْرَارُ وَالتَّوَاصُلُ', fileTitle: 'Frequency_Sequencing_and_Communication', title: 'Frequency, Sequencing and Communication', ar: 'التَّكْرَارُ وَالتَّرْتِيبُ وَالتَّوَاصُلُ', icon: 'FaListOl', grammar: 'frequency adverbs, connectors, قَبْلَ / بَعْدَ (أَنْ), عِنْدَمَا' };
 
 const speak = {
   ...base,

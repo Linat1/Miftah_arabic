@@ -3,7 +3,7 @@
 const X = require('./xp-common');
 const w = X.word;
 
-const base = { n: 2, fileTitle: 'Calendar_Dates_and_the_School_Week', title: 'Calendar, Dates and the School Week', ar: 'التَّقْوِيمُ وَالتَّوَارِيخُ وَالأُسْبُوعُ الدِّرَاسِيُّ', icon: 'FaCalendarDays', grammar: 'ordinal numbers, clock expressions, prepositions of time' };
+const base = { n: 2, short: 'Calendar and the School Week', arShort: 'التَّقْوِيمُ وَالأُسْبُوعُ الدِّرَاسِيُّ', fileTitle: 'Calendar_Dates_and_the_School_Week', title: 'Calendar, Dates and the School Week', ar: 'التَّقْوِيمُ وَالتَّوَارِيخُ وَالأُسْبُوعُ الدِّرَاسِيُّ', icon: 'FaCalendarDays', grammar: 'ordinal numbers, clock expressions, prepositions of time' };
 
 const speak = {
   ...base,
