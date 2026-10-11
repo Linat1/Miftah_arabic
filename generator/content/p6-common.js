@@ -110,7 +110,7 @@ const speakTask = (b, o) => ({
   cols: [{ label: 'Prompt (website)', w: o.pw || 4.3, size: o.size || 16 }, { label: 'Meaning', w: o.mw || 3.2 }, { label: 'Start like this', w: 12.33 - (o.pw || 4.3) - (o.mw || 3.2), size: o.ssize || 15 }],
   rows: b.prompts.map((p, i) => ({ core: (o.core || []).includes(i), cells: [p.ar, o.meanings ? o.meanings[i] : p.en, o.starts[i]] })),
   foot: o.foot || `Marks (website): ${b.mark_entries.map((m) => `${m.label} ${m.max}`).join(' · ')}.`,
-  notes: `${o.notes || ''}\nWEBSITE MODEL: ${b.model.map(([w, a, e]) => `${w}: ${a} (${e})`).join(' · ')}\nWebsite feedback prompt: ${b.feedback_label}`,
+  notes: `${o.notes || ''}${b.model ? `\nWEBSITE MODEL: ${b.model.map(([w, a, e]) => `${w}: ${a} (${e})`).join(' · ')}` : ''}${b.feedback_label ? `\nWebsite feedback prompt: ${b.feedback_label}` : ''}`,
 });
 // checklist → tick table
 const checklist = (b, o = {}) => ({
@@ -143,7 +143,7 @@ function bridgeLesson(code, x) {
   const vb = s.blocks.find((b) => b.type === 'vocab');
   if (vb && x.vocab) {
     slides.push(D.keywordsSlide({
-      text: x.vocab.text || `${vb.groups.reduce((a, g) => a + g.items.length, 0)} exam words from the website in ${vb.groups.length} groups. ${flat(vb.intro || '')}`,
+      text: x.vocab.text || `${vb.groups.reduce((a, g) => a + g.items.length, 0)} exam words from the website ${vb.groups.length > 1 ? `in ${vb.groups.length} groups` : `in one group`}. ${flat(vb.intro || '')}`,
       groups: vb.groups.map((g, i) => ({ head: `GROUP ${i + 1}`, name: `${g.label} · ${g.items.length}` })),
       bridge: x.vocab.bridge, notes: x.vocab.bridgeNotes,
     }));
