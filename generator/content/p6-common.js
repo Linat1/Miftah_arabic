@@ -69,7 +69,7 @@ const quiz = (b, o = {}) => {
   }
   parts.forEach((p, k) => {
     const sl = {
-      type: 'mcq', stage: o.stage || (listen ? 'ido' : 'wedo'), min: o.min || 3, eyebrow: `${o.label || (listen ? 'Listening' : 'Reading')} · ${b.title}${parts.length > 1 ? ` · part ${k + 1}` : ''}`, title: o.qTitle || (b.activity ? b.activity.title : b.title), ar: listen ? 'الاسْتِمَاعُ' : 'أَسْئِلَةُ القِرَاءَةِ',
+      type: 'mcq', stage: o.stage || 'wedo', min: o.min || 3, eyebrow: `${o.label || (listen ? 'Listening' : 'Reading')} · ${b.title}${parts.length > 1 ? ` · part ${k + 1}` : ''}`, title: o.qTitle || (b.activity ? b.activity.title : b.title), ar: listen ? 'الاسْتِمَاعُ' : 'أَسْئِلَةُ القِرَاءَةِ',
       seed: (o.seed || 30) + k, questions: p.map((x, i) => ({ ...x, n: k * parts[0].length + i + 1 })),
       side: p.length === 5 || p.length === 3 ? (o.side || { kind: 'info', head: listen ? 'BEFORE YOU LISTEN' : 'READ LIKE AN EXAMINER', fill: 'E9F5EE', line: '9CCFB0', color: '1E6B52', text: o.tip || (listen ? '1. Read every question.\n2. Label it: name? number? opinion? conditional?\n3. Listen 1: gist. Listen 2: verify.' : '1. Read the question first.\n2. Find the key word in the text.\n3. Read that sentence again, then choose.') }) : undefined,
       answerSlide: { min: 0, eyebrow: `${o.label || (listen ? 'Listening' : 'Reading')} · answers${o.mock ? ' · show after the whole paper' : ''}`, title: `${(b.activity ? b.activity.kicker : b.title)}: answers`, ar: 'الإِجَابَاتُ' },
