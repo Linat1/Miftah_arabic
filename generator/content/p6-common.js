@@ -109,7 +109,7 @@ const writing = (b, o) => {
 // speaking task → prompt table (Arabic prompt · meaning · how to start)
 const speakTask = (b, o) => ({
   type: 'formsTable', stage: o.stage || 'youdo', min: o.min || 3, eyebrow: o.eyebrow || `You do · speaking · ${b.title}`, title: o.title || b.title.replace(/ \(\d+ marks\)$/, ''), ar: o.ar || 'التَّحَدُّثُ', ltr: true,
-  cols: [{ label: 'Prompt (website)', w: o.pw || 4.3, size: o.size || 16 }, { label: 'Meaning', w: o.mw || 3.2 }, { label: 'Start like this', w: 12.33 - (o.pw || 4.3) - (o.mw || 3.2), size: o.ssize || 15 }],
+  cols: [{ label: 'Prompt (website)', w: o.pw || 4.3, size: o.size || 16 }, { label: 'Meaning', w: o.mw || 3.2 }, { label: o.sHead || 'Start like this', w: 12.33 - (o.pw || 4.3) - (o.mw || 3.2), size: o.ssize || 15 }],
   rows: b.prompts.map((p, i) => ({ core: (o.core || []).includes(i), cells: [p.ar, o.meanings ? o.meanings[i] : p.en, o.starts[i]] })),
   foot: o.foot || `Marks (website): ${b.mark_entries.map((m) => `${m.label} ${m.max}`).join(' · ')}.`,
   notes: `${o.notes || ''}${b.model ? `\nWEBSITE MODEL: ${b.model.map(([w, a, e]) => `${w}: ${a} (${e})`).join(' · ')}` : ''}${b.feedback_label ? `\nWebsite feedback prompt: ${b.feedback_label}` : ''}`,
