@@ -7,10 +7,12 @@
  * slides point to the next Topic lesson, and the website application challenge is added before the speaking task.
  */
 const C = require('./common');
-const T = require('../site-data/advanced-topics-ab.json');
+const T = { ...require('../site-data/advanced-topics-ab.json'), ...require('../site-data/advanced-topics-de.json') };
 
 const INFO = {
   A: { key: 'a', code: 'AT-A', level: 'Topic A · A1+ → B1', words: [[/\bDevelopment D1\b/g, 'Topic A'], [/\bD1\b/g, 'Topic A'], [/\bD2\b/g, 'Topic B']] },
+  D: { key: 'd', code: 'TD', level: 'Topic D · A2 → B1', words: [[/\bDevelopment D3\b/g, 'Topic D'], [/\bProgression P2\b/g, 'Topic D'], [/\bFoundation F4\b/g, 'Topic D'], [/\bD3\b/g, 'Topic D'], [/\bP2\b/g, 'Topic D'], [/\bF4\b/g, 'Topic D'], [/\bD2\b/g, 'earlier work'], [/\bF3\b/g, 'earlier work'], [/\bP1\b/g, 'earlier work'], [/\bD4\b/g, 'later work']] },
+  E: { key: 'e', code: 'TE', level: 'Topic E · A2 → B1+', words: [[/\bDevelopment D6\b/g, 'Topic E'], [/\bD6\b/g, 'Topic E'], [/\bP3\b/g, 'Topic E'], [/\bP5\b/g, 'Topic E'], [/\bD5\b/g, 'earlier work'], [/\bP4\b/g, 'earlier work'], [/\bP1\b/g, 'the next unit']] },
   B: { key: 'b', code: 'TB', level: 'Topic B · A1+ → B1', words: [[/\bDevelopment D2\b/g, 'Topic B'], [/\bD2\b/g, 'Topic B'], [/\bD1\b/g, 'earlier work'], [/\bD3\b/g, 'Topic C'], [/\bF2\b/g, 'Topic B'], [/\bF3\b/g, 'Topic B']] },
 };
 const topic = (t) => T[INFO[t].key];
@@ -26,7 +28,7 @@ function meta(t, n, o) {
 }
 function codeMap(t) {
   const m = {};
-  topic(t).sources.forEach((s, i) => { m[s.toUpperCase()] = tcode(t, i + 1); });
+  topic(t).sources.forEach((s, i) => { if (!m[s.toUpperCase()]) m[s.toUpperCase()] = tcode(t, i + 1); });
   return m;
 }
 function retargetString(s, t) {
@@ -34,7 +36,7 @@ function retargetString(s, t) {
   const keep = [];
   let out = s.replace(/\b([FDP]\d)-L(\d{2})\b/g, (x) => { keep.push(m[x] || `${x} (website)`); return `\u0000${keep.length - 1}\u0000`; });
   INFO[t].words.forEach(([re, w]) => { out = out.replace(re, w); });
-  return out.replace(/\u0000(\d+)\u0000/g, (_, i) => keep[Number(i)]);
+  return out.replace(/\u0000(\d+)\u0000/g, (_, i) => keep[Number(i)]).replace(/\(([^()]*?) \(website\)\)/g, '($1, website)');
 }
 function retarget(v, t) {
   if (typeof v === 'string') return retargetString(v, t);

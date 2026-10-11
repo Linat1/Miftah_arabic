@@ -1,0 +1,407 @@
+{
+    "d": {
+        "area": "D",
+        "code": "TD",
+        "title": "The World of Work",
+        "arabic": "عَالَمُ العَمَلِ",
+        "icon": "🧭",
+        "colour": "gold",
+        "route_note": "Flexible topic-based teaching unit",
+        "summary": "Education, training, the classroom and learning tools, subjects and studying, jobs, careers, skills and the workplace.",
+        "subtopics": [
+            "Education: institutions, training, classroom, learning tools, subjects and studying",
+            "Work: jobs and careers, skills and qualifications, applications and the workplace"
+        ],
+        "grammar": [
+            "Present and future time frames for study and career planning",
+            "Masdar patterns and expressions of ability, obligation and preference",
+            "Conditional sentences for choices and consequences",
+            "Relative clauses, active\/passive participles and job descriptions",
+            "كان and إنّ families in formal connected language",
+            "Formal question forms and accurate interview responses"
+        ],
+        "skills": {
+            "Listening": "School information, course guidance, interviews and workplace conversations",
+            "Reading": "Timetables, course descriptions, job adverts, profiles and application information",
+            "Speaking": "Discuss education, compare routes, explain ambitions and respond in an interview",
+            "Writing": "School accounts, applications, career plans, opinions and connected future-focused texts"
+        },
+        "lessons": [
+            {
+                "code": "TD-L01",
+                "title": "Learning Institutions and Stages of Education",
+                "arabic": "المُؤَسَّسَاتُ التَّعْلِيمِيَّةُ وَمَرَاحِلُ التَّعْلِيمِ",
+                "focus": "Describe and compare educational settings and routes.",
+                "grammar": "Nisba adjectives; comparatives; prepositions",
+                "skills": "Reading · Speaking"
+            },
+            {
+                "code": "TD-L02",
+                "title": "The Classroom and Learning Tools",
+                "arabic": "الفَصْلُ الدِّرَاسِيُّ وَأَدَوَاتُ التَّعَلُّمِ",
+                "focus": "Explain classroom routines, resources and effective learning environments.",
+                "grammar": "يوجد\/توجد; demonstratives; relative clauses",
+                "skills": "Listening · Speaking"
+            },
+            {
+                "code": "TD-L03",
+                "title": "Subjects, Timetables and Preferences",
+                "arabic": "المَوَادُّ وَالجَدَاوِلُ وَالتَّفْضِيلَاتُ",
+                "focus": "Interpret timetables and justify subject preferences precisely.",
+                "grammar": "Time; comparatives; reasons and contrast",
+                "skills": "Listening · Reading"
+            },
+            {
+                "code": "TD-L04",
+                "title": "Studying, Exams and Learning Strategies",
+                "arabic": "الدِّرَاسَةُ وَالِامْتِحَانَاتُ وَاسْتِرَاتِيجِيَّاتُ التَّعَلُّمِ",
+                "focus": "Discuss preparation, difficulties, progress and advice for successful study.",
+                "grammar": "Verbal nouns; advice; إنّ and كان",
+                "skills": "Reading · Writing"
+            },
+            {
+                "code": "TD-L05",
+                "title": "Training, Qualifications and Skills",
+                "arabic": "التَّدْرِيبُ وَالمُؤَهِّلَاتُ وَالمَهَارَاتُ",
+                "focus": "Describe learning pathways, qualifications and transferable skills.",
+                "grammar": "Masdar; possession; relative pronouns",
+                "skills": "Listening · Writing"
+            },
+            {
+                "code": "TD-L06",
+                "title": "Jobs and Professions",
+                "arabic": "الوَظَائِفُ وَالمِهَنُ",
+                "focus": "Identify, describe and compare a broad range of roles and responsibilities.",
+                "grammar": "Nisba nouns; active participles; agreement",
+                "skills": "Reading · Speaking"
+            },
+            {
+                "code": "TD-L07",
+                "title": "The Workplace and Working Conditions",
+                "arabic": "مَكَانُ العَمَلِ وَظُرُوفُهُ",
+                "focus": "Discuss workplaces, schedules, pay, conditions, advantages and challenges.",
+                "grammar": "Comparatives; time expressions; كان",
+                "skills": "Listening · Reading"
+            },
+            {
+                "code": "TD-L08",
+                "title": "Personal Qualities and Professional Skills",
+                "arabic": "الصِّفَاتُ الشَّخْصِيَّةُ وَالمَهَارَاتُ المِهْنِيَّةُ",
+                "focus": "Match strengths and qualities to roles and support judgements with evidence.",
+                "grammar": "Adjective agreement; relative clauses; لأنّ",
+                "skills": "Speaking · Writing"
+            },
+            {
+                "code": "TD-L09",
+                "title": "Applications and Interviews",
+                "arabic": "طَلَبَاتُ التَّوْظِيفِ وَالمُقَابَلَاتُ",
+                "focus": "Interpret adverts, prepare an application and respond appropriately in an interview.",
+                "grammar": "Formal questions; past experience; object pronouns",
+                "skills": "Reading · Speaking · Writing"
+            },
+            {
+                "code": "TD-L10",
+                "title": "Career Plans, Ambitions and Choices",
+                "arabic": "الخُطَطُ المِهْنِيَّةُ وَالطُّمُوحَاتُ وَالخِيَارَاتُ",
+                "focus": "Explain ambitions and evaluate how choices may shape the future.",
+                "grammar": "Future; hopes; conditional sentences",
+                "skills": "Speaking · Writing"
+            },
+            {
+                "code": "TD-L11",
+                "title": "Topic D Integrated Communication Workshop",
+                "arabic": "وَرْشَةُ التَّوَاصُلِ المُتَكَامِلِ لِلْمِحْوَرِ د",
+                "focus": "Connect education, qualifications, employment and future plans across four skills.",
+                "grammar": "Mixed tenses; register; cohesion",
+                "skills": "All four skills"
+            },
+            {
+                "code": "TD-L12",
+                "title": "Topic D Review and Four-Skills Assessment",
+                "arabic": "مُرَاجَعَةُ المِحْوَرِ د وَتَقْيِيمُ المَهَارَاتِ الأَرْبَعِ",
+                "focus": "Demonstrate secure education and work language in varied assessment contexts.",
+                "grammar": "Cumulative Topic D grammar",
+                "skills": "All four skills"
+            }
+        ],
+        "sources": [
+            "p2-l01",
+            "f4-l03",
+            "f4-l01",
+            "p2-l05",
+            "d3-l05",
+            "d3-l01",
+            "d3-l02",
+            "d3-l03",
+            "d3-l06",
+            "d3-l04",
+            "d3-l11",
+            "d3-l12"
+        ],
+        "practice": [
+            {
+                "icon": "🏫",
+                "title": "Education-system comparison",
+                "text": "Sort institutions and stages into a learner journey, then compare two education systems or school types using facilities, rules and opportunities."
+            },
+            {
+                "icon": "🎒",
+                "title": "Classroom bag detective",
+                "text": "Describe learning tools without naming them. Partners identify each object, say where it is used and add one classroom instruction involving it."
+            },
+            {
+                "icon": "🗓️",
+                "title": "Timetable puzzle",
+                "text": "Reconstruct a school timetable from clues, then discuss favourite and difficult subjects with reasons and one comparison."
+            },
+            {
+                "icon": "📝",
+                "title": "Revision-strategy ranking",
+                "text": "Rank revision methods from most to least useful, justify the order and give targeted advice to a student preparing for an exam."
+            },
+            {
+                "icon": "🪜",
+                "title": "Qualification route map",
+                "text": "Match courses, training and qualifications to future roles, then explain one complete route from school to further study or employment."
+            },
+            {
+                "icon": "👷",
+                "title": "Jobs taboo",
+                "text": "Describe a profession through duties, workplace and skills without saying its name. Partners identify it and state one advantage or disadvantage."
+            },
+            {
+                "icon": "🏢",
+                "title": "Workplace comparison",
+                "text": "Compare two workplaces by hours, environment, responsibilities and conditions, then decide which suits a given worker profile best."
+            },
+            {
+                "icon": "⭐",
+                "title": "Candidate skills match",
+                "text": "Match personal qualities and professional skills to different jobs. Every match must be justified with evidence from a short candidate profile."
+            },
+            {
+                "icon": "📄",
+                "title": "CV-to-interview challenge",
+                "text": "Match a vacancy to a candidate profile, select the strongest evidence for an application and role-play two interview questions and answers."
+            },
+            {
+                "icon": "🚀",
+                "title": "Career pathway pitch",
+                "text": "Present a future study\/work plan with ambitions, qualifications and reasons, then answer a partner question about an alternative route."
+            },
+            {
+                "icon": "🧠",
+                "title": "Vacancy case study",
+                "text": "Combine a job advert, applicant profile, timetable and interview note. Decide whether the candidate should be shortlisted and defend the decision."
+            },
+            {
+                "icon": "🏁",
+                "title": "Topic D four-skills relay",
+                "text": "Rotate through education, study, jobs and careers. Use evidence in listening\/reading and produce one spoken and one written response before self-assessing."
+            }
+        ]
+    },
+    "e": {
+        "area": "E",
+        "code": "TE",
+        "title": "The International World",
+        "arabic": "العَالَمُ الدُّوَلِيُّ",
+        "icon": "🌐",
+        "colour": "coral",
+        "route_note": "Flexible topic-based teaching unit",
+        "summary": "Countries, nationalities and languages, culture, customs, faiths and celebrations — explored through respectful comparison, identity and international communication.",
+        "subtopics": [
+            "Countries, nationalities and languages in international and multilingual contexts",
+            "Culture and customs: identity, hospitality, etiquette and traditions",
+            "Faiths and celebrations: beliefs, places of worship, festivals and special occasions"
+        ],
+        "grammar": [
+            "Nisba adjectives and accurate country\/nationality\/language agreement",
+            "Relative pronouns and cohesive description of customs and beliefs",
+            "Past, present and future time frames for traditions and celebrations",
+            "Comparison, contrast and respectful expressions of viewpoint",
+            "Passive voice and verbal nouns in formal cultural texts",
+            "Question development and spontaneous interaction across familiar topics"
+        ],
+        "skills": {
+            "Listening": "Travel interviews, cultural accounts, festival reports and multilingual conversations",
+            "Reading": "Profiles, cultural articles, invitations, reports and descriptions of traditions",
+            "Speaking": "Discuss language identity, compare customs and sustain respectful topic conversations",
+            "Writing": "Cultural descriptions, comparisons, experiences, invitations and extended reflections"
+        },
+        "lessons": [
+            {
+                "code": "TE-L01",
+                "title": "Countries, Nationalities and Languages",
+                "arabic": "الدُّوَلُ وَالجِنْسِيَّاتُ وَاللُّغَاتُ",
+                "focus": "Locate countries and describe nationality, residence and language accurately.",
+                "grammar": "Nisba adjectives; gender; prepositions",
+                "skills": "Listening · Speaking"
+            },
+            {
+                "code": "TE-L02",
+                "title": "Multilingual Life and Communication",
+                "arabic": "الحَيَاةُ مُتَعَدِّدَةُ اللُّغَاتِ وَالتَّوَاصُلُ",
+                "focus": "Discuss language learning, use, identity and communication across communities.",
+                "grammar": "Present tense; verbal nouns; relative clauses",
+                "skills": "Reading · Writing"
+            },
+            {
+                "code": "TE-L03",
+                "title": "Culture and Personal Identity",
+                "arabic": "الثَّقَافَةُ وَالهُوِيَّةُ الشَّخْصِيَّةُ",
+                "focus": "Explain how language, family, place and experience contribute to identity.",
+                "grammar": "Possessives; إنّ; reasons and examples",
+                "skills": "Speaking · Writing"
+            },
+            {
+                "code": "TE-L04",
+                "title": "Customs, Etiquette and Hospitality",
+                "arabic": "العَادَاتُ وَآدَابُ السُّلُوكِ وَالضِّيَافَةُ",
+                "focus": "Understand and compare courteous behaviour and hospitality traditions.",
+                "grammar": "Imperatives; advice; comparison and contrast",
+                "skills": "Listening · Reading"
+            },
+            {
+                "code": "TE-L05",
+                "title": "Faiths, Beliefs and Places of Worship",
+                "arabic": "الأَدْيَانُ وَالمُعْتَقَدَاتُ وَدُورُ العِبَادَةِ",
+                "focus": "Use respectful factual language to understand and describe familiar faith contexts.",
+                "grammar": "Relative clauses; nominal sentences; prepositions",
+                "skills": "Reading · Speaking"
+            },
+            {
+                "code": "TE-L06",
+                "title": "Faith Celebrations and Special Occasions",
+                "arabic": "الِاحْتِفَالَاتُ الدِّينِيَّةُ وَالمُنَاسَبَاتُ الخَاصَّةُ",
+                "focus": "Describe the purpose, practices and personal meaning of celebrations.",
+                "grammar": "Past and present; sequencing; object pronouns",
+                "skills": "Listening · Writing"
+            },
+            {
+                "code": "TE-L07",
+                "title": "National Festivals and Traditions",
+                "arabic": "الأَعْيَادُ الوَطَنِيَّةُ وَالتَّقَالِيدُ",
+                "focus": "Interpret reports and compare how communities mark important events.",
+                "grammar": "Passive voice; time frames; comparatives",
+                "skills": "Listening · Reading"
+            },
+            {
+                "code": "TE-L08",
+                "title": "Travel, Cultural Exchange and Understanding",
+                "arabic": "السَّفَرُ وَالتَّبَادُلُ الثَّقَافِيُّ وَالتَّفَاهُمُ",
+                "focus": "Explain how travel and exchange can broaden knowledge and challenge assumptions.",
+                "grammar": "Past experience; future; cause and result",
+                "skills": "Speaking · Writing"
+            },
+            {
+                "code": "TE-L09",
+                "title": "Comparing Cultures with Respect",
+                "arabic": "مُقَارَنَةُ الثَّقَافَاتِ بِاحْتِرَامٍ",
+                "focus": "Compare similarities and differences without stereotypes or overgeneralisation.",
+                "grammar": "Comparative structures; بينما; أمّا...فـ",
+                "skills": "Reading · Speaking"
+            },
+            {
+                "code": "TE-L10",
+                "title": "International Life and Global Connections",
+                "arabic": "الحَيَاةُ الدُّوَلِيَّةُ وَالرَّوَابِطُ العَالَمِيَّةُ",
+                "focus": "Connect language, culture, education, work, travel and global responsibility.",
+                "grammar": "Conditionals; passive; balanced opinion",
+                "skills": "Reading · Writing"
+            },
+            {
+                "code": "TE-L11",
+                "title": "Topic E Integrated Communication Workshop",
+                "arabic": "وَرْشَةُ التَّوَاصُلِ المُتَكَامِلِ لِلْمِحْوَرِ هـ",
+                "focus": "Sustain spontaneous and connected communication across international contexts.",
+                "grammar": "Mixed tenses; register; cohesion and accuracy",
+                "skills": "All four skills"
+            },
+            {
+                "code": "TE-L12",
+                "title": "Topic E Review and Bridge to Final Revision",
+                "arabic": "مُرَاجَعَةُ المِحْوَرِ هـ وَالِانْتِقَالُ إِلَى المُرَاجَعَةِ النِّهَائِيَّةِ",
+                "focus": "Complete the topic assessment, diagnose gaps and move into Exam Skills Extension.",
+                "grammar": "Cumulative Topic E grammar",
+                "skills": "All four skills"
+            }
+        ],
+        "sources": [
+            "d6-l01",
+            "d6-l06",
+            "d6-l09",
+            "d6-l02",
+            "d6-l03",
+            "d6-l03",
+            "d6-l04",
+            "p3-l07",
+            "d6-l05",
+            "p5-l05",
+            "d6-l11",
+            "d6-l12"
+        ],
+        "practice": [
+            {
+                "icon": "🌍",
+                "title": "Country–language map match",
+                "text": "Match countries, nationalities and languages on a map, then give location and identity clues for a partner to solve."
+            },
+            {
+                "icon": "🗣️",
+                "title": "Multilingual mingle",
+                "text": "Interview classmates about languages spoken, studied or used in different situations, then report similarities, differences and one communication challenge."
+            },
+            {
+                "icon": "🧭",
+                "title": "Culture and identity layers",
+                "text": "Sort identity statements into personal, family, local, national or international influences, then explain how two influences can coexist."
+            },
+            {
+                "icon": "🤝",
+                "title": "Customs and etiquette sort",
+                "text": "Classify greetings, hospitality and social behaviours by situation, then advise a respectful visitor what to do, avoid or ask about."
+            },
+            {
+                "icon": "🕊️",
+                "title": "Belief and place vocabulary match",
+                "text": "Match neutral vocabulary for faith, belief, community and places of worship to short factual descriptions, then compare two statements respectfully without making value judgements."
+            },
+            {
+                "icon": "🎊",
+                "title": "Celebration planner",
+                "text": "Plan a special occasion using date, activities, food, clothing and greetings. A partner asks follow-up questions and checks the sequence of events."
+            },
+            {
+                "icon": "🎉",
+                "title": "Festival comparison",
+                "text": "Compare two national or cultural festivals by purpose, customs and activities, then identify one similarity and one difference using respectful language."
+            },
+            {
+                "icon": "🧳",
+                "title": "Respectful visitor role-play",
+                "text": "Solve a cultural-exchange scenario involving greeting, invitation or local custom. Ask rather than assume, then explain the most respectful response."
+            },
+            {
+                "icon": "🔄",
+                "title": "Culture comparison Venn",
+                "text": "Organise shared and different practices in a Venn diagram, then turn the notes into a balanced comparison with similarity and contrast connectors."
+            },
+            {
+                "icon": "📰",
+                "title": "Global headline classification",
+                "text": "Sort international headlines by theme, identify the likely issue or viewpoint and connect one story to culture, society, environment or technology."
+            },
+            {
+                "icon": "🌐",
+                "title": "International fair information gap",
+                "text": "Combine country, language, custom, festival and travel clues to prepare a short information stand, then answer questions from another group."
+            },
+            {
+                "icon": "🏁",
+                "title": "Topic E four-skills relay",
+                "text": "Complete country\/language, customs, celebration and international-issue stations, then identify the language needed for final revision."
+            }
+        ]
+    }
+}
