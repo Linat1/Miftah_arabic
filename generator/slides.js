@@ -151,6 +151,7 @@ function mcqSlide(D, sp, reveal) {
   return s;
 }
 async function mcq(D, sp) {
+  if (sp.answersOnly) { mcqSlide(D, sp, true); return; }
   mcqSlide(D, sp, false);
   if (sp.between) await module.exports[sp.between.type](D, sp.between);
   if (sp.answers !== false) mcqSlide(D, sp, true);

@@ -83,6 +83,8 @@ const quiz = (b, o = {}) => {
   });
   return out;
 };
+// mock papers: question slides without answers now; the answer slides together after the whole paper
+const mockAnswers = (qSlides, o = {}) => qSlides.filter((x) => x.type === 'mcq').map((x) => ({ ...x, answersOnly: true, between: undefined, stage: 'feedback', min: o.min || 2, notes: undefined }));
 // mark_scheme → formsTable
 const markScheme = (b, o = {}) => ({
   type: 'formsTable', stage: o.stage || 'teach', min: o.min || 2, eyebrow: o.eyebrow || `Teach · ${b.kicker || 'know how you are marked'}`, title: o.title || b.title, ar: o.ar || 'مَعَايِيرُ التَّقْيِيمِ', ltr: true,
@@ -156,4 +158,4 @@ function bridgeLesson(code, x) {
   return slides;
 }
 
-module.exports = { ...D, flat, fix, site, widths, chunk, panel, table, audit, fields, cards, quiz, markScheme, writing, speakTask, checklist, reflect, bridgeLesson };
+module.exports = { ...D, flat, fix, site, widths, chunk, panel, table, audit, fields, cards, quiz, markScheme, writing, speakTask, checklist, reflect, bridgeLesson, mockAnswers };
