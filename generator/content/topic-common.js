@@ -34,6 +34,7 @@ function codeMap(t) {
 function retargetString(s, t) {
   const m = codeMap(t);
   const keep = [];
+  s = s.replace(/\b([FDP]\d)-L(\d{2})((?:\s*·\s*L\d{2}\b)+)/g, (x, u, n, rest) => `${u}-L${n}${rest.replace(/L(\d{2})/g, `${u}-L$1`)}`); // “D6-L07 · L10” → both full codes
   let out = s.replace(/\b([FDP]\d)-L(\d{2})\b/g, (x) => { keep.push(m[x] || `${x} (website)`); return `\u0000${keep.length - 1}\u0000`; });
   INFO[t].words.forEach(([re, w]) => { out = out.replace(re, w); });
   return out.replace(/\u0000(\d+)\u0000/g, (_, i) => keep[Number(i)]).replace(/\(([^()]*?) \(website\)\)/g, '($1, website)');
