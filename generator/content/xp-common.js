@@ -14,12 +14,15 @@ const TOPICS = {
   C: { code: 'TC', name: 'Advanced Topic C · The World Around Us', folder: 'Topic_C', level: 'Topic C · A1+ → B1', next: 'D' },
   D: { code: 'TD', name: 'Advanced Topic D · The World of Work', folder: 'Topic_D', level: 'Topic D · A2 → B1+', next: 'E' },
   E: { code: 'TE', name: 'Advanced Topic E · The International World', folder: 'Topic_E', level: 'Topic E · A2 → B1+', next: 'Final revision', nextTitle: 'Exam skills and final revision', nextAr: 'المُرَاجَعَةُ النِّهَائِيَّةُ' },
+  R: { code: 'FR', name: 'Final Revision · Advanced Topics A–E', folder: 'Final_Revision', level: 'Topics A–E · exam ready', label: 'Final Revision', long: 'the Final Revision series (Topics A–E)', kicker: 'FINAL REVISION · EXAM PRACTICE', site: 'Advanced Topics › Final Revision', lessons: 6, next: 'The exam', nextTitle: 'You are ready — good luck in the exam!', nextAr: 'بِالتَّوْفِيقِ فِي الامْتِحَانِ' },
 };
+const lab = (t) => TOPICS[t].label || `Topic ${t}`;
+const longLab = (t) => TOPICS[t].long || `Advanced Topic ${t}`;
 const lessonCode = (t, n) => `${TOPICS[t].code}-L${String(n).padStart(2, '0')}`;
 
 function meta(t, n, kind, o) {
   const T = TOPICS[t];
-  const m = C.unitMeta({ code: T.code, kicker: `ADVANCED TOPIC ${t} · EXAM PRACTICE`, name: `${T.name} · exam practice`, level: T.level, site: `Advanced Topics › Topic ${t}`, footer: `Topic ${t} · ${kind} workshop` })({
+  const m = C.unitMeta({ code: T.code, kicker: T.kicker || `ADVANCED TOPIC ${t} · EXAM PRACTICE`, name: `${T.name} · exam practice`, level: T.level, site: T.site || `Advanced Topics › Topic ${t}`, footer: `${lab(t)} · ${kind} workshop` })({
     n, fileTitle: `${kind}_Workshop_${o.fileTitle}`, chip: `${kind} workshop`, title: o.title, arabic: o.arabic, focus: o.focus, icon: o.icon, iconSet: 'fa6',
   });
   return { ...m, outDir: `${T.folder}/Exam_Practice` };
@@ -128,7 +131,7 @@ function speakingDeck(d) {
   const slides = [
     title({ notes: `WORKSHOP AT A GLANCE — 60 minutes on Teams, mostly in breakout rooms of three.
 0–2 Welcome · 2–6 How Paper 3 works · 6–10 Language bank · 10–13 Breakout routine · 13–33 Role plays A–D in rooms (rotate roles) · 33–37 Role-play models (main room) · 37–50 Topic conversation in rooms · 50–55 Conversation models · 55–58 Feedback + self-check · 58–60 Close.
-Content: teacher-made exam scenarios for Advanced Topic ${t}, Lesson ${d.n} (${d.title}, ${code}), using that lesson’s language${d.grammar ? ` (${d.grammar})` : ''}. Every task has Core · Develop · Stretch support and a model answer.
+Content: teacher-made exam scenarios for ${longLab(t)}, Lesson ${d.n} (${d.title}, ${code}), using that lesson’s language${d.grammar ? ` (${d.grammar})` : ''}. Every task has Core · Develop · Stretch support and a model answer.
 EXAM FORMAT: Paper 3 Speaking = a role play and a topic conversation, as in the Cambridge IGCSE Arabic 0544 speaking test. Check timings and marks against the current syllabus and the past paper you use.
 BREAKOUT ROOMS: set up rooms of three before the lesson. Share the deck (or a PDF) so every room can see the cards.${d.planNote ? `\n${d.planNote}` : ''}` }),
     C.welcomeSlide(),
@@ -202,14 +205,14 @@ function writingDeck(d) {
   const t = d.topic || 'A';
   const meta = module.exports.meta(t, d.n, 'Writing', { fileTitle: d.fileTitle, title: `Writing Workshop — ${d.short || d.title}`, arabic: `وَرْشَةُ الكِتَابَةِ — ${d.arShort || d.ar}`, focus: d.focus, icon: d.icon || 'FaPenToSquare' });
   const code = lessonCode(t, d.n);
-  const nextCode = d.n < 12 ? lessonCode(t, d.n + 1) : null;
+  const nextCode = d.n < (TOPICS[t].lessons || 12) ? lessonCode(t, d.n + 1) : null;
   const check = (label, text, lo, hi) => { const n = words(text); if (n < lo || n > hi) console.warn(`  ⚠ ${code} ${label}: ${n} words (target ${lo}–${hi})`); return n; };
   check('Q2 core', d.Q2.core.text, 55, 90); check('Q2 full', d.Q2.full.text, 80, 95);
   d.Q3.models.forEach((m) => check(`Q3 ${m.which} ${m.level}`, m.text, m.level === 'Core' ? 110 : 130, 155));
   const slides = [
     title({ notes: `WORKSHOP AT A GLANCE — 60 minutes on Teams; individual writing with live feedback (shared document or paper + photo).
 0–2 Welcome · 2–6 How Paper 4 works · 6–14 Q1 form filling + model · 14–17 Q2 the task, in English and Arabic · 17–19 Q2 frames (Core) · 19–31 Q2 writing · 31–35 Q2 models · 35–38 Q3 choose a title + plan · 38–54 Q3 writing (Stretch) / Q2 redraft (Core) · 54–58 Q3 models + self-check · 58–60 Close.
-Content: teacher-made exam questions for Advanced Topic ${t}, Lesson ${d.n} (${d.title}, ${code}). Every question has Core · Develop · Stretch support; models are given at two levels (a secure Core answer and a full-mark answer).
+Content: teacher-made exam questions for ${longLab(t)}, Lesson ${d.n} (${d.title}, ${code}). Every question has Core · Develop · Stretch support; models are given at two levels (a secure Core answer and a full-mark answer).
 EXAM FORMAT: Paper 4 Writing — Q1 form filling, Q2 directed writing (about 80–90 words), Q3 extended writing (one title from two, about 130–150 words), following the Cambridge IGCSE Arabic 0544 format. Check word counts and marks against the current syllabus and the past paper you use.
 Q3 in one lesson: Stretch students write Q3 in class; Core students redraft Q2 and plan Q3, then write Q3 for homework.` }),
     C.welcomeSlide(),
@@ -279,8 +282,8 @@ Q3 in one lesson: Stretch students write Q3 in class; Core students redraft Q2 a
     })),
     C.selfCheckSlide(d.selfCheck),
     closeX(C.closeSlide(nextCode
-      ? { nextCode: `${nextCode} · Exam practice`, nextTitle: `Speaking and writing workshops — the next Topic ${t} lesson`, nextAr: 'وَرْشَةُ التَّدْرِيبِ', remember: d.remember || 'Remember: cover every bullet point, check your verb endings, and use three time frames in Question 3.' }
-      : { nextCode: TOPICS[t].nextTitle ? TOPICS[t].next : `Topic ${TOPICS[t].next}`, nextTitle: TOPICS[t].nextTitle || 'Exam practice continues with the next topic', nextAr: TOPICS[t].nextAr || 'المِحْوَرُ التَّالِي', remember: d.remember || `Topic ${t} exam practice complete — well done!` }), 'Well done — great writing practice today!'),
+      ? { nextCode: `${nextCode} · Exam practice`, nextTitle: `Speaking and writing workshops — the next ${lab(t)} lesson`, nextAr: 'وَرْشَةُ التَّدْرِيبِ', remember: d.remember || 'Remember: cover every bullet point, check your verb endings, and use three time frames in Question 3.' }
+      : { nextCode: TOPICS[t].nextTitle ? TOPICS[t].next : `Topic ${TOPICS[t].next}`, nextTitle: TOPICS[t].nextTitle || 'Exam practice continues with the next topic', nextAr: TOPICS[t].nextAr || 'المِحْوَرُ التَّالِي', remember: d.remember || `${lab(t)} exam practice complete — well done!` }), 'Well done — great writing practice today!'),
   ];
   return { meta, slides };
 }
