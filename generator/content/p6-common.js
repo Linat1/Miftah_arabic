@@ -118,7 +118,7 @@ const speakTask = (b, o) => ({
 const checklist = (b, o = {}) => ({
   type: 'formsTable', stage: o.stage || 'feedback', min: o.min || 2, eyebrow: o.eyebrow || `Feedback · ${b.kicker || 'checklist'}`, title: o.title || b.title, ar: o.ar || 'قَائِمَةُ التَّحَقُّقِ', ltr: true,
   cols: [{ label: 'Secure?', w: 1.3 }, { label: 'I can …', w: 6.6 }, { label: 'Model', w: 4.43, size: 15 }],
-  rows: b.items.map((it) => ({ cells: ['☐', flat(it.filter ? it.filter((x) => typeof x === 'string') : it).trim(), it.filter ? it.filter((x) => typeof x !== 'string').map((x) => x.ar).join(' ') : ''] })),
+  rows: b.items.map((it, i) => ({ cells: ['☐', (o.texts && o.texts[i]) || flat(it.filter ? it.filter((x) => typeof x === 'string') : it).trim(), (o.models && o.models[i] !== undefined) ? o.models[i] : (it.filter ? it.filter((x) => typeof x !== 'string').map((x) => x.ar).join(' ') : '')] })),
   foot: o.foot || 'Anything unticked is your final revision list.', notes: `${o.notes || ''}\nWebsite: ${b.intro || ''}`,
 });
 // exit → reflection frames
