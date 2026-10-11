@@ -888,8 +888,8 @@ function close(D, sp) {
   s.addImage({ data: L.templateIcon('image-44-1.png'), x: 10.62, y: 3.22, w: 1.16, h: 1.16 });
   txt(s, `${m.code} COMPLETE`, 0.5, 1.4, 6, 0.3, { size: 11, bold: true, color: C.gold, cs: 3, arabic: false });
   txt(s, 'أَحْسَنْتُمْ! إِلَى اللِّقَاءِ', 0.5, 1.85, 8, 1.0, { size: 40, bold: true, color: C.white, align: 'left' });
-  txt(s, 'Well done — see you next lesson.', 0.5, 2.85, 8, 0.45, { size: 16, italic: true, color: 'C6D2E6', arabic: false });
-  txt(s, 'NEXT LESSON', 0.5, 3.9, 6, 0.3, { size: 11, bold: true, color: C.gold, cs: 3, arabic: false });
+  txt(s, sp.byeEn || 'Well done — see you next lesson.', 0.5, 2.85, 8, 0.45, { size: 16, italic: true, color: 'C6D2E6', arabic: false });
+  txt(s, sp.nextLabel || 'NEXT LESSON', 0.5, 3.9, 6, 0.3, { size: 11, bold: true, color: C.gold, cs: 3, arabic: false });
   txt(s, sp.next, 0.5, 4.25, 8, 0.6, { font: 'Cambria', fit: true, size: 28, min: 16, bold: true, color: C.white, arabic: false });
   txt(s, sp.nextAr, 0.5, 4.85, 8, 0.6, { fit: true, size: 24, min: 14, bold: true, color: C.gold, align: 'left' });
   txt(s, sp.remember, 0.5, 5.8, 8, 0.4, { size: 13, bold: true, color: C.white, arabic: false });
