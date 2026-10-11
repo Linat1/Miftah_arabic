@@ -12,6 +12,8 @@ const TOPICS = {
   A: { code: 'AT-A', name: 'Advanced Topic A · Everyday Activities', folder: 'Topic_A', level: 'Topic A · A1+ → B1', next: 'B' },
   B: { code: 'TB', name: 'Advanced Topic B · Personal and Social Life', folder: 'Topic_B', level: 'Topic B · A1+ → B1', next: 'C' },
   C: { code: 'TC', name: 'Advanced Topic C · The World Around Us', folder: 'Topic_C', level: 'Topic C · A1+ → B1', next: 'D' },
+  D: { code: 'TD', name: 'Advanced Topic D · The World of Work', folder: 'Topic_D', level: 'Topic D · A2 → B1+', next: 'E' },
+  E: { code: 'TE', name: 'Advanced Topic E · The International World', folder: 'Topic_E', level: 'Topic E · A2 → B1+', next: 'Final revision', nextTitle: 'Exam skills and final revision', nextAr: 'المُرَاجَعَةُ النِّهَائِيَّةُ' },
 };
 const lessonCode = (t, n) => `${TOPICS[t].code}-L${String(n).padStart(2, '0')}`;
 
@@ -278,7 +280,7 @@ Q3 in one lesson: Stretch students write Q3 in class; Core students redraft Q2 a
     C.selfCheckSlide(d.selfCheck),
     closeX(C.closeSlide(nextCode
       ? { nextCode: `${nextCode} · Exam practice`, nextTitle: `Speaking and writing workshops — the next Topic ${t} lesson`, nextAr: 'وَرْشَةُ التَّدْرِيبِ', remember: d.remember || 'Remember: cover every bullet point, check your verb endings, and use three time frames in Question 3.' }
-      : { nextCode: `Topic ${TOPICS[t].next}`, nextTitle: 'Exam practice continues with the next topic', nextAr: 'المِحْوَرُ التَّالِي', remember: d.remember || `Topic ${t} exam practice complete — well done!` }), 'Well done — great writing practice today!'),
+      : { nextCode: TOPICS[t].nextTitle ? TOPICS[t].next : `Topic ${TOPICS[t].next}`, nextTitle: TOPICS[t].nextTitle || 'Exam practice continues with the next topic', nextAr: TOPICS[t].nextAr || 'المِحْوَرُ التَّالِي', remember: d.remember || `Topic ${t} exam practice complete — well done!` }), 'Well done — great writing practice today!'),
   ];
   return { meta, slides };
 }
