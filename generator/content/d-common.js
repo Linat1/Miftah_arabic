@@ -180,4 +180,4 @@ function devLesson(code, x) {
   return slides;
 }
 
-module.exports = { ...C, meta, site, devLesson, translit, games, waslFix };
+module.exports = { ...C, meta, site, devLesson, translit, games, waslFix, vocabSlides };
