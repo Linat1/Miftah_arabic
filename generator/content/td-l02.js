@@ -16,7 +16,7 @@ const slides = T.reuse('D', 2, require('./f4-l03'), {
       develop: 'Three clues with yūjad / tūjad and a demonstrative (hādhā / hādhihi).',
       stretch: 'Three clues with a relative clause (alladhī / allatī nastaʿmiluhu …) and an imperative instruction.',
     },
-    phrases: [["هُوَ / هِيَ … فِي الحَقِيبَةِ", "it (m. / f.) is … in the bag"], ["نَسْتَعْمِلُهُ فِي دَرْسِ …", "we use it in the … lesson"], ["الَّذِي / الَّتِي …", "which (m. / f.) …"], ["اِفْتَحْ كِتَابَكَ!", "open your book!"]],
+    phrases: [["هُوَ / هِيَ … فِي الحَقِيبَةِ", "it (m. / f.) is … in the bag"], ["نَسْتَعْمِلُهُ فِي دَرْسِ …", "we use it in the … lesson"], ["الَّذِي / الَّتِي …", "which (m. / f.) …"], ["افْتَحْ كِتَابَكَ!", "open your book!"]],
     notes: 'Website Topic D challenge “Classroom bag detective”: describe learning tools without naming them; partners identify each object, say where it is used and add one classroom instruction involving it. Gender check: كِتَابٌ / قَلَمٌ = huwa; مِسْطَرَةٌ / حَقِيبَةٌ = hiya.',
   },
   close: { remember: 'Remember: learn the 5 words for TD-L03.' },

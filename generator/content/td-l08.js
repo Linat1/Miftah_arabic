@@ -16,7 +16,7 @@ const slides = T.reuse('D', 8, require('./d3-l03'), {
       develop: 'Three matches, each with evidence and adjective agreement.',
       stretch: 'Matches with a relative clause and a counter-point (lākinnahu yaḥtāju ilā …).',
     },
-    phrases: [["هُوَ / هِيَ مُنَاسِبٌ / مُنَاسِبَةٌ لِـ…", "he / she is suitable for …"], ["لِأَنَّهُ / لِأَنَّهَا …", "because he / she …"], ["الدَّلِيلُ عَلَى ذٰلِكَ أَنَّ …", "the evidence is that …"], ["يَحْتَاجُ إِلَى تَطْوِيرِ …", "he needs to develop …"]],
+    phrases: [["هِيَ مُنَاسِبَةٌ لِلْوَظِيفَةِ", "she is suitable for the job"], ["لِأَنَّهُ / لِأَنَّهَا …", "because he / she …"], ["الدَّلِيلُ عَلَى ذٰلِكَ أَنَّ …", "the evidence is that …"], ["يَحْتَاجُ إِلَى تَطْوِيرِ …", "he needs to develop …"]],
     notes: 'Website Topic D challenge “Candidate skills match”. Candidates: سَارَةُ: صَبُورَةٌ وَتُحِبُّ الأَطْفَالَ · يُوسُفُ: يُجِيدُ الحَاسُوبَ وَدَقِيقٌ · مَرْيَمُ: اجْتِمَاعِيَّةٌ وَتَتَكَلَّمُ ثَلَاثَ لُغَاتٍ. Jobs: مُعَلِّمَةٌ · مُبَرْمِجٌ · مُوَظَّفَةُ اسْتِقْبَالٍ فِي فُنْدُقٍ.',
   },
   close: { remember: 'Remember: learn the 5 words for TD-L09.' },
