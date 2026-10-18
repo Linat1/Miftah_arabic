@@ -100,6 +100,7 @@ function devUnit(key) {
       bank: bankFromVocab(c.vocab), roleplays: s.roleplays, conversation: s.conversation,
     });
   });
+  if (!lessons.length) return null;
   // L12 — unit review: a mock built from the whole unit
   const code = `${key.toUpperCase()}-L12`;
   const pick = (arr, n) => arr.filter((_, i) => i % Math.ceil(arr.length / n) === 0).slice(0, n);
