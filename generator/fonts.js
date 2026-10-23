@@ -78,10 +78,51 @@ function fixRuns(xml) {
     .replace(/<a:cs typeface="[^"]*"[^>]*\/>/g, '<a:cs typeface="Amiri" pitchFamily="2" charset="-78"/>'); // any Arabic, even inside an English run, uses Amiri
 }
 
+/*
+ * 3. Editing safety (clicking into a text box in Teams / PowerPoint for the web). In edit mode the viewer may not use the
+ *    embedded font and falls back by the run's language and the theme. Runs tagged en-US with no East-Asian slot fell back
+ *    to the theme's Chinese / Japanese script fonts. So every run that contains Arabic is tagged ar-SA and names Amiri
+ *    with the Arabic charset in all three slots (latin is left alone when it is an English font), and the theme's
+ *    East-Asian / complex-script fallbacks become Amiri, with the CJK script fonts removed.
+ */
+const AR = /[؀-ۿݐ-ݿﭐ-﷿ﹰ-﻿]/;
+const AMIRI = 'pitchFamily="2" charset="-78"';
+function arabicRuns(xml) {
+  return xml.replace(/<a:r>(<a:rPr\b[^>]*?(?:\/>|>[\s\S]*?<\/a:rPr>))?(<a:t>[^<]*<\/a:t>)<\/a:r>/g, (all, rPr, t) => {
+    if (!AR.test(t)) return all;
+    let pr = rPr || '<a:rPr/>';
+    if (pr.endsWith('/>')) pr = pr.slice(0, -2) + '></a:rPr>';
+    let open = pr.match(/^<a:rPr\b[^>]*>/)[0]; let body = pr.slice(open.length, -'</a:rPr>'.length);
+    open = /\blang="/.test(open) ? open.replace(/\blang="[^"]*"/, 'lang="ar-SA"') : open.replace('<a:rPr', '<a:rPr lang="ar-SA"');
+    body = body.replace(/<a:ea\b[^>]*\/>/g, '').replace(/<a:cs\b[^>]*\/>/g, '');
+    const slots = `<a:ea typeface="Amiri" ${AMIRI}/><a:cs typeface="Amiri" ${AMIRI}/>`;
+    if (/<a:latin\b[^>]*\/>/.test(body)) body = body.replace(/(<a:latin\b[^>]*\/>)/, `$1${slots}`);
+    else {
+      const m = body.search(/<a:(sym|hlinkClick|hlinkMouseOver|rtl|extLst)\b/);
+      const latin = `<a:latin typeface="Amiri" ${AMIRI}/>`;
+      body = m < 0 ? body + latin + slots : body.slice(0, m) + latin + slots + body.slice(m);
+    }
+    return `<a:r>${open}${body}</a:rPr>${t}</a:r>`;
+  });
+}
+function fixTheme(xml) {
+  return xml
+    .replace(/<a:font script="(Jpan|Hang|Hans|Hant)" typeface="[^"]*"\/>/g, '')
+    .replace(/(<a:(?:major|minor)Font>[\s\S]*?)<a:ea typeface="[^"]*"[^>]*\/>/g, `$1<a:ea typeface="Amiri" ${AMIRI}/>`)
+    .replace(/(<a:(?:major|minor)Font>[\s\S]*?)<a:cs typeface="[^"]*"[^>]*\/>/g, `$1<a:cs typeface="Amiri" ${AMIRI}/>`)
+    .replace(/<a:font script="Arab" typeface="[^"]*"\/>/g, '<a:font script="Arab" typeface="Amiri"/>');
+}
+
+// Font safety only (runs + themes) — used by embed() and to repair decks that are already built.
+async function patchZip(zip) {
+  const xmlFiles = Object.keys(zip.files).filter((p) => /^ppt\/(slides|slideLayouts|slideMasters|notesSlides|notesMasters)\/[^/]+\.xml$/.test(p));
+  for (const p of xmlFiles) zip.file(p, arabicRuns(fixRuns(await zip.file(p).async('string'))));
+  for (const p of Object.keys(zip.files).filter((q) => /^ppt\/theme\/[^/]+\.xml$/.test(q))) zip.file(p, fixTheme(await zip.file(p).async('string')));
+}
+
 async function embed(file) {
   const zip = await JSZip.loadAsync(fs.readFileSync(file));
-  const xmlFiles = Object.keys(zip.files).filter((p) => /^ppt\/(slides|slideLayouts|slideMasters|notesSlides|notesMasters)\/[^/]+\.xml$/.test(p));
-  for (const p of xmlFiles) zip.file(p, fixRuns(await zip.file(p).async('string')));
+  await patchZip(zip);
   const fd = fontData();
   const rels = await zip.file('ppt/_rels/presentation.xml.rels').async('string');
   let relXml = rels; const ids = [];
@@ -101,4 +142,4 @@ async function embed(file) {
   fs.writeFileSync(file, await zip.generateAsync({ type: 'nodebuffer', compression: 'DEFLATE' }));
 }
 
-module.exports = { embed, fixRuns, eot };
+module.exports = { embed, fixRuns, arabicRuns, fixTheme, patchZip, eot };
