@@ -50,7 +50,7 @@ function room(d) {
   const extra = (d.addWords || []).map(([ar, en, tag]) => ({ ar, en, tr: translit(ar), tag: tag || '', core: true }));
   const words = (d.words || [...lessonWords(lesson, d.pick), ...extra]).slice(0, 12).map((w, i) => ({ ...w, n: i + 1 }));
   if (words.length < 12) console.warn(`  ⚠ ${code}: only ${words.length} words in the bank`);
-  const wc = X.words(d.task.model.text); const [lo, hi] = d.task.range || (isF ? [35, 75] : [55, 95]);
+  const wc = X.words(d.task.model.text); const [lo, hi] = d.task.range || (isF ? [30, 75] : [55, 95]);
   if (wc < lo || wc > hi) console.warn(`  ⚠ ${code} writing model: ${wc} words (target ${lo}–${hi})`);
   const fade = d.planFade !== undefined ? d.planFade : !isF;
   const card = d.card;
