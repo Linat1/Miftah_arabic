@@ -54,9 +54,9 @@ module.exports = require('./pr-common').room({
     { en: 'I get on with my cousin more than my brother.', cols: [['أَتَفَاهَمُ مَعَ ابْنِ عَمِّي', 'أَتَفَاهَمُ ابْنَ عَمِّي'], ['أَكْثَرَ', 'أَكْثَرُ'], ['مِنْ أَخِي.', 'مِنْ أَخِيَ.']], key: [0, 0, 0], why: 'مَعَ is needed; أَكْثَرَ as an adverb (-a).' },
   ],
   errors: [
-    { wrong: 'صَدِيقِي صَادِقٌ. (stop)', hint: 'Too short for the exam.', right: 'صَدِيقِي صَادِقٌ، لِأَنَّهُ يَقُولُ الحَقِيقَةَ دَائِمًا؛ مَثَلًا …', why: 'Build: reason + example.' },
+    { wrong: 'صَدِيقِي صَادِقٌ.', hint: 'Too short for the exam.', right: 'صَدِيقِي صَادِقٌ، لِأَنَّهُ يَقُولُ الحَقِيقَةَ دَائِمًا؛ مَثَلًا …', why: 'Build: reason + example.' },
     { wrong: 'أَمْسِ نَتَصَالَحُ.', hint: 'Time word.', right: 'أَمْسِ تَصَالَحْنَا.', why: 'أَمْسِ → past.' },
-    { wrong: 'لَا أَفْهَمُ. (silence)', hint: 'Repair politely.', right: 'عَفْوًا، أَعِدِ السُّؤَالَ مِنْ فَضْلِكَ.', why: 'Ask for repetition in Arabic, then answer.' },
+    { wrong: 'لَا أَفْهَمُ…', hint: 'Repair politely.', right: 'عَفْوًا، أَعِدِ السُّؤَالَ مِنْ فَضْلِكَ.', why: 'Ask for repetition in Arabic, then answer.' },
   ],
   task: {
     title: 'The script of my best conversation', ar: 'نَصُّ أَفْضَلِ مُحَادَثَةٍ', 

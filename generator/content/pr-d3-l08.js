@@ -54,7 +54,7 @@ module.exports = require('./pr-common').room({
   errors: [
     { wrong: '«يُفَضَّلُ» يَعْنِي ضَرُورِيٌّ.', hint: 'Preferred or required?', right: '«يُفَضَّلُ» يَعْنِي مُفِيدٌ وَلٰكِنَّهُ لَيْسَ ضَرُورِيًّا.', why: 'Only يُشْتَرَطُ means essential.' },
     { wrong: 'الوَظِيفَةُ الَّذِي فِي الإِعْلَانِ …', hint: 'وَظِيفَةٌ is …', right: 'الوَظِيفَةُ الَّتِي فِي الإِعْلَانِ …', why: 'Feminine → الَّتِي.' },
-    { wrong: 'العَمَلُ لَيْلِيٌّ. (no evidence)', hint: 'Prove your inference.', right: 'يَبْدُو أَنَّ العَمَلَ لَيْلِيٌّ؛ الدَّلِيلُ أَنَّ السَّاعَاتِ حَتَّى مُنْتَصَفِ اللَّيْلِ.', why: 'Inference + quote from the text.' },
+    { wrong: 'العَمَلُ لَيْلِيٌّ.', hint: 'Prove your inference.', right: 'يَبْدُو أَنَّ العَمَلَ لَيْلِيٌّ؛ الدَّلِيلُ أَنَّ السَّاعَاتِ حَتَّى مُنْتَصَفِ اللَّيْلِ.', why: 'Inference + quote from the text.' },
   ],
   task: {
     title: 'Write a job advert — then check a partner', ar: 'أَكْتُبُ إِعْلَانَ وَظِيفَةٍ',

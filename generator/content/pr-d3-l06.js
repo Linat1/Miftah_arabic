@@ -54,7 +54,7 @@ module.exports = require('./pr-common').room({
   errors: [
     { wrong: 'يَسُرُّنِي أَنْ أَتَقَدَّمُ لِلْوَظِيفَةِ.', hint: 'After أَنْ …', right: 'يَسُرُّنِي أَنْ أَتَقَدَّمَ لِلْوَظِيفَةِ.', why: 'أَنْ + -a.' },
     { wrong: 'لَدَيَّ خِبْرَةٌ مَعَ الحَاسُوبِ.', hint: 'Experience IN …', right: 'لَدَيَّ خِبْرَةٌ فِي الحَاسُوبِ.', why: 'خِبْرَةٌ فِي …' },
-    { wrong: 'أَنَا مُنَظَّمٌ. (no evidence)', hint: 'Prove it.', right: 'أَنَا مُنَظَّمٌ؛ مَثَلًا، أُخَطِّطُ أُسْبُوعِي كُلَّ أَحَدٍ.', why: 'Every strength needs evidence.' },
+    { wrong: 'أَنَا مُنَظَّمٌ.', hint: 'Prove it.', right: 'أَنَا مُنَظَّمٌ؛ مَثَلًا، أُخَطِّطُ أُسْبُوعِي كُلَّ أَحَدٍ.', why: 'Every strength needs evidence.' },
   ],
   task: {
     title: 'A formal cover letter', ar: 'رِسَالَةُ تَغْطِيَةٍ رَسْمِيَّةٌ',

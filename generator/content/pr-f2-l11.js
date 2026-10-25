@@ -57,7 +57,7 @@ module.exports = require('./pr-common').room({
   errors: [
     { wrong: 'العُمْرُ: عُمْرِي ثَلَاثَ عَشْرَةَ سَنَةً وَأَنَا أُحِبُّ الرِّيَاضَةَ.', hint: 'A form box needs a SHORT answer.', right: 'العُمْرُ: ثَلَاثَ عَشْرَةَ سَنَةً.', why: 'Forms: short answers only; full sentences belong in the text.' },
     { wrong: 'أَتَعَلَّمُ العَرَبِيَّةَ لِأَنَّ أُحِبُّهَا.', hint: 'لِأَنَّ + “I” …', right: 'أَتَعَلَّمُ العَرَبِيَّةَ لِأَنِّي أُحِبُّهَا.', why: 'Because I → لِأَنِّي.' },
-    { wrong: 'أَنَا بِرِيطَانِيٌّ. (Salma writing)', hint: 'Salma is a girl.', right: 'أَنَا بِرِيطَانِيَّةٌ.', why: 'A girl → -iyyatun.' },
+    { wrong: 'أَنَا بِرِيطَانِيٌّ.', hint: 'Salma writing — Salma is a girl.', right: 'أَنَا بِرِيطَانِيَّةٌ.', why: 'A girl → -iyyatun.' },
   ],
   task: {
     title: 'Form + introduction', ar: 'الاسْتِمَارَةُ وَالتَّعْرِيفُ',

@@ -54,7 +54,7 @@ module.exports = require('./pr-common').room({
   ],
   errors: [
     { wrong: 'شُكْرًا! — شُكْرًا!', hint: 'How do you reply to a thank-you?', right: 'شُكْرًا! — عَفْوًا!', why: 'The reply to شُكْرًا is عَفْوًا.' },
-    { wrong: 'أَنَا آسِفٌ. (Maryam speaking)', hint: 'Maryam is a girl.', right: 'أَنَا آسِفَةٌ.', why: 'A girl says آسِفَةٌ (with ة).' },
+    { wrong: 'أَنَا آسِفٌ.', hint: 'Maryam speaking — Maryam is a girl.', right: 'أَنَا آسِفَةٌ.', why: 'A girl says آسِفَةٌ (with ة).' },
     { wrong: 'تَفَضَّلْ يَا زَيْنَبُ.', hint: 'Zaynab is a girl.', right: 'تَفَضَّلِي يَا زَيْنَبُ.', why: 'To a girl: تَفَضَّلِي (-ī).' },
   ],
   task: {

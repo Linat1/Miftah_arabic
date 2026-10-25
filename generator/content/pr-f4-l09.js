@@ -53,7 +53,7 @@ module.exports = require('./pr-common').room({
     { en: 'In my opinion this rule is important.', cols: [['فِي رَأْيِي', 'فِي رَأْيُ'], ['هٰذِهِ القَاعِدَةُ', 'هٰذَا القَاعِدَةُ'], ['مُهِمَّةٌ.', 'مُهِمٌّ.']], key: [0, 0, 0], why: 'قَاعِدَةٌ (f.) → هٰذِهِ … مُهِمَّةٌ.' },
   ],
   errors: [
-    { wrong: 'مَرْحَبًا! أَدْرُسُ فِي مَدْرَسَةِ … (no closing at the end)', hint: 'An email needs …', right: '… مَعَ السَّلَامَةِ، سَلْمَى.', why: 'An email needs a greeting AND a closing + signature.' },
+    { wrong: 'مَرْحَبًا! أَدْرُسُ فِي مَدْرَسَةِ …', hint: 'No closing at the end — An email needs …', right: '… مَعَ السَّلَامَةِ، سَلْمَى.', why: 'An email needs a greeting AND a closing + signature.' },
     { wrong: 'أُحِبُّ مَدْرَسَتِي لِأَنَّهُ كَبِيرٌ.', hint: 'مَدْرَسَةٌ is feminine.', right: 'أُحِبُّ مَدْرَسَتِي لِأَنَّهَا كَبِيرَةٌ.', why: 'Feminine → لِأَنَّهَا كَبِيرَةٌ.' },
     { wrong: 'يَجِبُ أَنْ نَلْبَسُ اللِّبَاسَ المَدْرَسِيَّ.', hint: 'After أَنْ …', right: 'يَجِبُ أَنْ نَلْبَسَ اللِّبَاسَ المَدْرَسِيَّ.', why: 'أَنْ + verb ending in -a.' },
   ],

@@ -63,7 +63,7 @@ module.exports = require('./pr-common').room({
   errors: [
     { wrong: 'سَلْمَى: «أَسْكُنُ فِي بِرْمِنْغْهَامَ.» ← هِيَ أَسْكُنُ فِي بِرْمِنْغْهَامَ.', hint: 'Retell it for her.', right: 'هِيَ تَسْكُنُ فِي بِرْمِنْغْهَامَ.', why: 'She → ta-: تَسْكُنُ.' },
     { wrong: 'خَالِدٌ: «عُمْرِي ١٤ سَنَةً.» ← عُمْرِي أَرْبَعَ عَشْرَةَ سَنَةً.', hint: 'Whose age?', right: 'عُمْرُهُ أَرْبَعَ عَشْرَةَ سَنَةً.', why: 'His age → عُمْرُهُ.' },
-    { wrong: 'هِوَايَتُهُ السِّبَاحَةُ. (about Laila)', hint: 'Laila is a girl.', right: 'هِوَايَتُهَا السِّبَاحَةُ.', why: 'Her → -hā.' },
+    { wrong: 'هِوَايَتُهُ السِّبَاحَةُ.', hint: 'About Laila — Laila is a girl.', right: 'هِوَايَتُهَا السِّبَاحَةُ.', why: 'Her → -hā.' },
   ],
   task: {
     title: 'Report: what I heard', ar: 'تَقْرِيرٌ: مَاذَا سَمِعْتُ',

@@ -60,7 +60,7 @@ module.exports = require('./pr-common').room({
   ],
   errors: [
     { wrong: 'يُوجَدُ صَيْدَلِيَّةٌ بِجَانِبِ البَنْكِ.', hint: 'صَيْدَلِيَّةٌ …', right: 'تُوجَدُ صَيْدَلِيَّةٌ بِجَانِبِ البَنْكِ.', why: 'Feminine → تُوجَدُ.' },
-    { wrong: 'كَمْ ثَمَنُهُ؟ (about a ticket — تَذْكِرَةٌ)', hint: 'تَذْكِرَةٌ is feminine.', right: 'كَمْ ثَمَنُهَا؟', why: 'Feminine item → ثَمَنُهَا.' },
+    { wrong: 'كَمْ ثَمَنُهُ؟', hint: 'About a ticket: تَذْكِرَةٌ is feminine.', right: 'كَمْ ثَمَنُهَا؟', why: 'Feminine item → ثَمَنُهَا.' },
     { wrong: 'المَدِينَةُ مُكْتَظٌّ وَصَاخِبٌ.', hint: 'مَدِينَةٌ …', right: 'المَدِينَةُ مُكْتَظَّةٌ وَصَاخِبَةٌ.', why: 'Feminine → ة on both adjectives.' },
   ],
   task: {

@@ -52,9 +52,9 @@ module.exports = require('./pr-common').room({
     { en: 'In conclusion, we must act now.', cols: [['فِي الخِتَامِ،', 'فِي البِدَايَةِ،'], ['يَجِبُ أَنْ', 'يَجِبُ'], ['نَتَحَرَّكَ الآنَ.', 'نَتَحَرَّكُ الآنَ.']], key: [0, 0, 0], why: 'أَنْ + -a.' },
   ],
   errors: [
-    { wrong: 'أَعْتَقِدُ أَنَّ التِّكْنُولُوجِيَا مُفِيدَةٌ. (and nothing else)', hint: 'A thesis needs reasons.', right: 'أَعْتَقِدُ أَنَّ التِّكْنُولُوجِيَا مُفِيدَةٌ لِلْبِيئَةِ لِسَبَبَيْنِ: الطَّاقَةُ وَالنَّقْلُ.', why: 'Thesis + preview of reasons.' },
+    { wrong: 'أَعْتَقِدُ أَنَّ التِّكْنُولُوجِيَا مُفِيدَةٌ.', hint: 'A thesis needs reasons.', right: 'أَعْتَقِدُ أَنَّ التِّكْنُولُوجِيَا مُفِيدَةٌ لِلْبِيئَةِ لِسَبَبَيْنِ: الطَّاقَةُ وَالنَّقْلُ.', why: 'Thesis + preview of reasons.' },
     { wrong: 'عِلَاوَةً عَلَى ذٰلِكَ … عِلَاوَةً عَلَى ذٰلِكَ … عِلَاوَةً عَلَى ذٰلِكَ …', hint: 'Too much!', right: 'أَوَّلًا … ، كَمَا أَنَّ … ، وَأَخِيرًا …', why: 'Vary connectors; use them only when they add meaning.' },
-    { wrong: 'فِي الخِتَامِ، السَّيَّارَاتُ كَثِيرَةٌ. (new point)', hint: 'A conclusion doesn’t add new points.', right: 'فِي الخِتَامِ، مَنْعُ السَّيَّارَاتِ مُفِيدٌ إِذَا تَحَسَّنَ النَّقْلُ العَامُّ.', why: 'Synthesise both sides.' },
+    { wrong: 'فِي الخِتَامِ، السَّيَّارَاتُ كَثِيرَةٌ.', hint: 'A conclusion doesn’t add new points.', right: 'فِي الخِتَامِ، مَنْعُ السَّيَّارَاتِ مُفِيدٌ إِذَا تَحَسَّنَ النَّقْلُ العَامُّ.', why: 'Synthesise both sides.' },
   ],
   task: {
     title: 'An opinion article in four paragraphs', ar: 'مَقَالُ رَأْيٍ فِي أَرْبَعِ فِقْرَاتٍ',

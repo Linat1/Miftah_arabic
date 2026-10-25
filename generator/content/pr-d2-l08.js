@@ -55,7 +55,7 @@ module.exports = require('./pr-common').room({
   errors: [
     { wrong: 'يَرَى الكَاتِبُ أَنَّ الأَصْدِقَاءُ مُهِمُّونَ.', hint: 'After أَنَّ …', right: 'يَرَى الكَاتِبُ أَنَّ الأَصْدِقَاءَ مُهِمُّونَ.', why: 'أَنَّ + noun in -a.' },
     { wrong: 'يَخْلُصُ أَنَّ الأَخْلَاقَ أَهَمُّ.', hint: 'Missing word?', right: 'يَخْلُصُ إِلَى أَنَّ الأَخْلَاقَ أَهَمُّ.', why: 'يَخْلُصُ إِلَى أَنَّ …' },
-    { wrong: 'أُوَافِقُ لِأَنَّ … (no reason)', hint: 'Agreement needs evidence.', right: 'أُوَافِقُ، لِأَنَّ أُخْتِي تَدْعَمُنِي دَائِمًا.', why: 'Give a real reason or example.' },
+    { wrong: 'أُوَافِقُ.', hint: 'Agreement needs evidence.', right: 'أُوَافِقُ، لِأَنَّ أُخْتِي تَدْعَمُنِي دَائِمًا.', why: 'Give a real reason or example.' },
   ],
   task: {
     title: 'A reply to an opinion article', ar: 'رَدٌّ عَلَى مَقَالَةِ رَأْيٍ',

@@ -69,7 +69,7 @@ module.exports = require('./pr-common').room({
       { ar: 'إِذَا نَجَحْتُ، فَسَوْفَ ______ .', en: 'If I succeed, I will …' },
       { ar: 'وَإِذَا لَمْ أَنْجَحْ، ______ .', en: 'And if I don’t succeed, …' },
     ],
-    bank: ['سَأَدْرُسُ', 'سَوْفَ أَتَدَرَّبُ', 'أُرِيدُ أَنْ أُصْبِحَ', 'أَطْمَحُ إِلَى أَنْ', 'أَنْوِي أَنْ', 'بَعْدَ التَّخَرُّجِ', 'لِكَيْ · حَتَّى', 'لَنْ + -a'],
+    bank: ['سَأَدْرُسُ', 'سَوْفَ أَتَدَرَّبُ', 'أُرِيدُ أَنْ أُصْبِحَ', 'أَطْمَحُ إِلَى أَنْ', 'أَنْوِي أَنْ', 'بَعْدَ التَّخَرُّجِ', 'لِكَيْ · حَتَّى', 'لَنْ أَعْمَلَ'],
     model: {
       text: 'أَطْمَحُ إِلَى أَنْ أُصْبِحَ مُبَرْمِجَةً فِي شَرِكَةٍ كَبِيرَةٍ. فِي السَّنَتَيْنِ القَادِمَتَيْنِ سَأَدْرُسُ الرِّيَاضِيَّاتِ وَعُلُومَ الحَاسُوبِ، لِكَيْ أَدْخُلَ كُلِّيَّةً جَيِّدَةً. بَعْدَ التَّخَرُّجِ سَوْفَ أَتَدَرَّبُ فِي شَرِكَةٍ مُدَّةَ سَنَةٍ، حَتَّى أَكْسِبَ خِبْرَةً عَمَلِيَّةً. أَنْوِي أَنْ أُصَمِّمَ تَطْبِيقَاتٍ تُسَاعِدُ الطُّلَّابَ. لَنْ أَعْمَلَ فِي وَظِيفَةٍ مُمِلَّةٍ، لِأَنَّنِي أُحِبُّ الإِبْدَاعَ. إِذَا نَجَحْتُ، فَسَوْفَ أَفْتَحُ شَرِكَتِي الخَاصَّةَ يَوْمًا مَا. وَإِذَا لَمْ أَنْجَحْ، سَأُحَاوِلُ مَرَّةً أُخْرَى!',
       en: '“I aspire to become a programmer in a big company. In the next two years I will study maths and computer science, so that I get into a good college. After graduating I will train in a company for a year, so that I gain practical experience. I intend to design apps that help students. I won’t work in a boring job, because I love creativity. If I succeed, I will open my own company one day. And if I don’t succeed, I will try again!”',

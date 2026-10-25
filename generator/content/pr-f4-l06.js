@@ -53,7 +53,7 @@ module.exports = require('./pr-common').room({
   ],
   errors: [
     { wrong: 'يَجِبُ أَنْ نَلْبَسُ اللِّبَاسَ المَدْرَسِيَّ.', hint: 'The verb after أَنْ.', right: 'يَجِبُ أَنْ نَلْبَسَ اللِّبَاسَ المَدْرَسِيَّ.', why: 'أَنْ + verb ending in -a.' },
-    { wrong: 'لَا يَجِبُ أَنْ تَأْكُلَ فِي الصَّفِّ. (must not)', hint: 'Which phrase means “must not”?', right: 'لَا يَجُوزُ أَنْ تَأْكُلَ فِي الصَّفِّ.', why: 'Must not = لَا يَجُوزُ أَنْ.' },
+    { wrong: 'لَا يَجِبُ أَنْ تَأْكُلَ فِي الصَّفِّ.', hint: 'Must not — Which phrase means “must not”?', right: 'لَا يَجُوزُ أَنْ تَأْكُلَ فِي الصَّفِّ.', why: 'Must not = لَا يَجُوزُ أَنْ.' },
     { wrong: 'افْتَحْ كِتَابَكِ يَا هُدَى.', hint: 'Huda is a girl.', right: 'افْتَحِي كِتَابَكِ يَا هُدَى.', why: 'Imperative to a girl → -ī: افْتَحِي.' },
   ],
   task: {

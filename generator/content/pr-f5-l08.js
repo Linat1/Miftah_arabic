@@ -52,7 +52,7 @@ module.exports = require('./pr-common').room({
   ],
   errors: [
     { wrong: 'أَنَا عِنْدِي صُدَاعٌ مِنْ أَمْسِ.', hint: '“since” in Arabic …', right: 'أَنَا عِنْدِي صُدَاعٌ مُنْذُ أَمْسِ.', why: 'Since / for = مُنْذُ.' },
-    { wrong: 'عِنْدِي أَلَمٌ فِي رَأْسِي وَ أُذُنِي. (Sara: أَنَا مَرِيضٌ)', hint: 'Sara is a girl.', right: 'أَنَا مَرِيضَةٌ.', why: 'A girl → مَرِيضَةٌ.' },
+    { wrong: 'عِنْدِي أَلَمٌ فِي رَأْسِي وَأُذُنِي. أَنَا مَرِيضٌ.', hint: 'Sara is speaking — she is a girl.', right: 'عِنْدِي أَلَمٌ فِي رَأْسِي وَأُذُنِي. أَنَا مَرِيضَةٌ.', why: 'A girl → مَرِيضَةٌ.' },
     { wrong: 'أَشْعُرُ التَّعَبَ.', hint: 'This verb needs a small word.', right: 'أَشْعُرُ بِالتَّعَبِ.', why: 'أَشْعُرُ + bi-.' },
   ],
   task: {

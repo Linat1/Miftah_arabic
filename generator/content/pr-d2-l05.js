@@ -69,7 +69,7 @@ module.exports = require('./pr-common').room({
       { ar: 'كِلَاهُمَا ______ بِنَفْسِ الدَّرَجَةِ.', en: 'Both are … to the same degree.' },
       { ar: '______ أَكْثَرُ شَخْصٍ ______ فِي ______ .', en: '… is the most … person in …' },
     ],
-    bank: ['أَطْوَلُ · أَقْصَرُ', 'أَكْبَرُ · أَصْغَرُ', 'أَرْخَصُ · أَغْلَى', 'أَجْمَلُ · أَفْضَلُ', 'أَكْثَرُ + noun', 'أَقَلُّ + noun', 'مِثْلُ · بِنَفْسِ الدَّرَجَةِ', 'أُفَضِّلُ … عَلَى …'],
+    bank: ['أَطْوَلُ · أَقْصَرُ', 'أَكْبَرُ · أَصْغَرُ', 'أَرْخَصُ · أَغْلَى', 'أَجْمَلُ · أَفْضَلُ', 'أَكْثَرُ ثِقَةً', 'أَقَلُّ صَبْرًا', 'مِثْلُ · بِنَفْسِ الدَّرَجَةِ', 'أُفَضِّلُ … عَلَى …'],
     model: {
       text: 'سَأُقَارِنُ بَيْنَ خَالِي وَعَمَّتِي. خَالِي أَطْوَلُ مِنْ عَمَّتِي، وَهُوَ أَصْغَرُ مِنْهَا بِخَمْسِ سَنَوَاتٍ. عَمَّتِي أَكْثَرُ صَبْرًا مِنْهُ، أَمَّا خَالِي فَهُوَ أَكْثَرُ مَرَحًا. كِلَاهُمَا كَرِيمٌ بِنَفْسِ الدَّرَجَةِ. خَالِي يَلْبَسُ مَلَابِسَ عَصْرِيَّةً وَمُلَوَّنَةً، بَيْنَمَا تَلْبَسُ عَمَّتِي مَلَابِسَ تَقْلِيدِيَّةً أَنِيقَةً. مَلَابِسُ خَالِي أَرْخَصُ، وَلٰكِنَّ مَلَابِسَ عَمَّتِي أَكْثَرُ جَوْدَةً. فِي رَأْيِي عَمَّتِي أَكْثَرُ شَخْصٍ أَنِيقٍ فِي عَائِلَتِنَا. أُفَضِّلُ أُسْلُوبَهَا عَلَى أُسْلُوبِ خَالِي، لِأَنَّهُ بَسِيطٌ وَمُحْتَشِمٌ.',
       en: '“I will compare my uncle and my aunt. My uncle is taller than my aunt, and he is five years younger than her. My aunt is more patient than him; as for my uncle, he is more fun. Both are generous to the same degree. My uncle wears modern, colourful clothes, whereas my aunt wears elegant traditional clothes. My uncle’s clothes are cheaper, but my aunt’s are better quality. In my opinion my aunt is the most elegant person in our family. I prefer her style to my uncle’s, because it is simple and modest.”',

@@ -60,8 +60,8 @@ module.exports = require('./pr-common').room({
   ],
   errors: [
     { wrong: 'أَيْنَ تَقِفُ الحَافِلَةُ؟ — فِي السَّاعَةِ الثَّانِيَةِ.', hint: 'أَيْنَ asks for …', right: 'تَقِفُ خَلْفَ المَكْتَبَةِ.', why: 'أَيْنَ → a place.' },
-    { wrong: 'كَمْ ثَمَنُ التَّذْكِرَةِ المُفْرَدَةِ؟ — عِشْرُونَ. (from announcement 4)', hint: 'Listen after بَيْنَمَا!', right: 'ثَمَنُهَا اثْنَا عَشَرَ جُنَيْهًا.', why: 'The first number is a distractor; the answer comes after بَيْنَمَا.' },
-    { wrong: 'القِطَارُ يُغَادِرُ مِنَ الرَّصِيفِ رَقْمِ وَاحِدٍ. (heard: لَيْسَ … بَلْ أَرْبَعَةٍ)', hint: 'لَيْسَ … بَلْ …', right: 'القِطَارُ يُغَادِرُ مِنَ الرَّصِيفِ رَقْمِ أَرْبَعَةٍ.', why: 'Keep listening after لَيْسَ … بَلْ.' },
+    { wrong: 'كَمْ ثَمَنُ التَّذْكِرَةِ المُفْرَدَةِ؟ — عِشْرُونَ.', hint: 'From announcement 4 — Listen after بَيْنَمَا!', right: 'ثَمَنُهَا اثْنَا عَشَرَ جُنَيْهًا.', why: 'The first number is a distractor; the answer comes after بَيْنَمَا.' },
+    { wrong: 'القِطَارُ يُغَادِرُ مِنَ الرَّصِيفِ رَقْمِ وَاحِدٍ.', hint: 'Heard: لَيْسَ … بَلْ أَرْبَعَةٍ — لَيْسَ … بَلْ …', right: 'القِطَارُ يُغَادِرُ مِنَ الرَّصِيفِ رَقْمِ أَرْبَعَةٍ.', why: 'Keep listening after لَيْسَ … بَلْ.' },
   ],
   task: {
     title: 'Write a station announcement', ar: 'أَكْتُبُ إِعْلَانًا',

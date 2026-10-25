@@ -53,7 +53,7 @@ module.exports = require('./pr-common').room({
   errors: [
     { wrong: 'يَجِبُ أَنْ يَكُونَ مُنَظَّمٌ.', hint: 'After يَكُونَ …', right: 'يَجِبُ أَنْ يَكُونَ مُنَظَّمًا.', why: 'كَانَ / يَكُونَ → adjective in -an.' },
     { wrong: 'يَحْتَاجُ الطَّيَّارُ الدِّقَّةَ.', hint: 'Missing preposition.', right: 'يَحْتَاجُ الطَّيَّارُ إِلَى الدِّقَّةِ.', why: 'يَحْتَاجُ إِلَى …' },
-    { wrong: 'أَنَا مَسْؤُولٌ. (no proof)', hint: 'Prove it!', right: 'أَنَا مَسْؤُولٌ؛ مَثَلًا، أَعْتَنِي بِأَخِي كُلَّ يَوْمٍ.', why: 'Every quality needs a behaviour as evidence.' },
+    { wrong: 'أَنَا مَسْؤُولٌ.', hint: 'Prove it!', right: 'أَنَا مَسْؤُولٌ؛ مَثَلًا، أَعْتَنِي بِأَخِي كُلَّ يَوْمٍ.', why: 'Every quality needs a behaviour as evidence.' },
   ],
   task: {
     title: 'My skills profile', ar: 'مَلَفُّ مَهَارَاتِي',
@@ -69,7 +69,7 @@ module.exports = require('./pr-common').room({
       { ar: 'يَجِبُ أَنْ يَكُونَ المُوَظَّفُ ______ ، لِأَنَّ ______ .', en: 'The employee must be …, because …' },
       { ar: 'نُقْطَةُ ضَعْفِي ______ ، وَلٰكِنَّنِي سَأُحَاوِلُ أَنْ ______ .', en: 'My weakness is …, but I will try to …' },
     ],
-    bank: ['مَهَارَةُ التَّوَاصُلِ', 'حَلُّ المُشْكِلَاتِ', 'العَمَلُ الجَمَاعِيُّ', 'إِدَارَةُ الوَقْتِ', 'مَسْؤُولٌ · مَسْؤُولَةٌ', 'مُنَظَّمٌ · مُنَظَّمَةٌ', 'يَحْتَاجُ إِلَى', 'يَجِبُ أَنْ يَكُونَ + -an'],
+    bank: ['مَهَارَةُ التَّوَاصُلِ', 'حَلُّ المُشْكِلَاتِ', 'العَمَلُ الجَمَاعِيُّ', 'إِدَارَةُ الوَقْتِ', 'مَسْؤُولٌ · مَسْؤُولَةٌ', 'مُنَظَّمٌ · مُنَظَّمَةٌ', 'يَحْتَاجُ إِلَى', 'يَجِبُ أَنْ يَكُونَ صَبُورًا'],
     model: {
       text: 'أَهْتَمُّ بِعَمَلِ الصَّيْدَلِيِّ. يَحْتَاجُ هٰذَا العَمَلُ إِلَى الدِّقَّةِ وَمَهَارَةِ التَّوَاصُلِ، وَيَجِبُ أَنْ يَكُونَ الصَّيْدَلِيُّ أَمِينًا وَمَسْؤُولًا، لِأَنَّ الأَدْوِيَةَ خَطِيرَةٌ. أَنَا دَقِيقٌ جِدًّا؛ مَثَلًا، أُرَاجِعُ وَاجِبَاتِي مَرَّتَيْنِ قَبْلَ أَنْ أُسَلِّمَهَا. أَسْتَطِيعُ أَنْ أَتَوَاصَلَ مَعَ النَّاسِ بِسُهُولَةٍ، لِأَنَّنِي أَعْمَلُ فِي دُكَّانِ عَمِّي يَوْمَ السَّبْتِ. كَمَا أَنَّنِي أُحِبُّ العَمَلَ الجَمَاعِيَّ. نُقْطَةُ ضَعْفِي أَنَّنِي بَطِيءٌ أَحْيَانًا، وَلٰكِنَّنِي سَأُحَاوِلُ أَنْ أُدِيرَ وَقْتِي أَفْضَلَ.',
       en: '“I am interested in the pharmacist’s job. This job needs accuracy and communication skills, and the pharmacist must be honest and responsible, because medicines are dangerous. I am very accurate; for example, I check my homework twice before I hand it in. I can communicate with people easily, because I work in my uncle’s shop on Saturdays. I also love teamwork. My weakness is that I am sometimes slow, but I will try to manage my time better.”',

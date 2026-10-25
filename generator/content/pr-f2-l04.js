@@ -53,7 +53,7 @@ module.exports = require('./pr-common').room({
   ],
   errors: [
     { wrong: 'أُمِّي بَاكِسْتَانِيٌّ.', hint: 'My mother is a woman.', right: 'أُمِّي بَاكِسْتَانِيَّةٌ.', why: 'A woman → -iyyatun: بَاكِسْتَانِيَّةٌ.' },
-    { wrong: 'أَنَا فِي الأُرْدُنِّ. (I am from Jordan.)', hint: 'from or in?', right: 'أَنَا مِنَ الأُرْدُنِّ.', why: 'From = مِنْ; in = فِي.' },
+    { wrong: 'أَنَا فِي الأُرْدُنِّ.', hint: 'I am from Jordan. — from or in?', right: 'أَنَا مِنَ الأُرْدُنِّ.', why: 'From = مِنْ; in = فِي.' },
     { wrong: 'أَنَا أَتَكَلَّمُ عَرَبِيٌّ.', hint: 'The language, not the person.', right: 'أَنَا أَتَكَلَّمُ العَرَبِيَّةَ.', why: 'The language = العَرَبِيَّةُ; عَرَبِيٌّ = an Arab (person).' },
   ],
   task: {

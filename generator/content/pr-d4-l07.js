@@ -52,7 +52,7 @@ module.exports = require('./pr-common').room({
   ],
   errors: [
     { wrong: 'إِذَا لَا نُرَشِّدُ المَاءَ …', hint: 'Negative condition.', right: 'إِذَا لَمْ نُرَشِّدِ المَاءَ …', why: 'إِذَا لَمْ + jussive.' },
-    { wrong: 'إِذَا اسْتَمَرَّ التَّلَوُّثُ، سَيَنْضَبُ … (no fa-)', hint: 'Join the result.', right: 'إِذَا اسْتَمَرَّ التَّلَوُّثُ، فَسَوْفَ يَنْضَبُ …', why: 'Result with سَوْفَ takes fa-.' },
+    { wrong: 'إِذَا اسْتَمَرَّ التَّلَوُّثُ، سَيَنْضَبُ المَاءُ النَّظِيفُ.', hint: 'Join the result.', right: 'إِذَا اسْتَمَرَّ التَّلَوُّثُ، فَسَوْفَ يَنْضَبُ المَاءُ النَّظِيفُ.', why: 'Result with سَوْفَ takes fa-.' },
     { wrong: 'يَنْضَبُ المِيَاهُ الجَوْفِيَّةُ.', hint: 'مِيَاهٌ is plural.', right: 'تَنْضَبُ المِيَاهُ الجَوْفِيَّةُ.', why: 'Non-human plural → feminine verb.' },
   ],
   task: {
@@ -69,7 +69,7 @@ module.exports = require('./pr-common').room({
       { ar: 'إِذَا لَمْ ______ ، فَسَوْفَ يَشِحُّ / يَنْضَبُ ______ .', en: 'If we don’t …, … will become scarce / run out.' },
       { ar: 'يَجِبُ أَنْ نَنْتَقِلَ إِلَى ______ بَدَلًا مِنْ ______ .', en: 'We must move to … instead of …' },
     ],
-    bank: ['المَوَارِدُ', 'الاسْتِدَامَةُ', 'شُحُّ المِيَاهِ', 'الوَقُودُ الأُحْفُورِيُّ', 'المِيَاهُ الجَوْفِيَّةُ', 'الاسْتِهْلَاكُ', 'يَنْضَبُ · يَشِحُّ', 'إِذَا لَمْ + jussive'],
+    bank: ['المَوَارِدُ', 'الاسْتِدَامَةُ', 'شُحُّ المِيَاهِ', 'الوَقُودُ الأُحْفُورِيُّ', 'المِيَاهُ الجَوْفِيَّةُ', 'الاسْتِهْلَاكُ', 'يَنْضَبُ · يَشِحُّ', 'إِذَا لَمْ نُرَشِّدْ'],
     model: {
       text: 'المِيَاهُ العَذْبَةُ فِي خَطَرٍ بِسَبَبِ الاسْتِهْلَاكِ الكَبِيرِ وَالاحْتِبَاسِ الحَرَارِيِّ. إِذَا اسْتَمَرَّ هٰذَا الاسْتِهْلَاكُ، فَسَوْفَ تَنْضَبُ المِيَاهُ الجَوْفِيَّةُ فِي بِلَادٍ كَثِيرَةٍ. وَإِذَا لَمْ نُرَشِّدِ المِيَاهَ فِي بُيُوتِنَا، فَسَوْفَ يَشِحُّ المَاءُ حَتَّى فِي المُدُنِ الكَبِيرَةِ، مِمَّا يُؤَدِّي إِلَى مُشْكِلَاتٍ صِحِّيَّةٍ. لِذٰلِكَ يَجِبُ أَنْ نُصْلِحَ الأَنَابِيبَ المَكْسُورَةَ، وَيَجِبُ أَنْ نَنْتَقِلَ إِلَى الرَّيِّ الذَّكِيِّ فِي الزِّرَاعَةِ بَدَلًا مِنَ الطُّرُقِ القَدِيمَةِ. رِسَالَتِي: كُلُّ قَطْرَةٍ مُهِمَّةٌ!',
       en: '“Fresh water is at risk because of heavy consumption and global warming. If this consumption continues, groundwater will run out in many countries. And if we don’t conserve water at home, water will become scarce even in big cities, which leads to health problems. So we must repair broken pipes, and we must move to smart irrigation in farming instead of old methods. My message: every drop counts!”',

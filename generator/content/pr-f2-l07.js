@@ -55,7 +55,7 @@ module.exports = require('./pr-common').room({
   errors: [
     { wrong: 'اسْمِي سَلْمَى عُمْرِي ثَلَاثَ عَشْرَةَ سَنَةً.', hint: 'Two facts need a joining word.', right: 'اسْمِي سَلْمَى، وَعُمْرِي ثَلَاثَ عَشْرَةَ سَنَةً.', why: 'Join two facts with وَ.' },
     { wrong: 'أَيْضًا أَتَكَلَّمُ الفَرَنْسِيَّةَ.', hint: 'Where does أَيْضًا usually go?', right: 'أَتَكَلَّمُ الفَرَنْسِيَّةَ أَيْضًا.', why: 'أَيْضًا usually comes at the end.' },
-    { wrong: 'أَنَا سَعِيدٌ بِلِقَائِكُمْ. (Sara speaking)', hint: 'Sara is a girl.', right: 'أَنَا سَعِيدَةٌ بِلِقَائِكُمْ.', why: 'A girl → سَعِيدَةٌ.' },
+    { wrong: 'أَنَا سَعِيدٌ بِلِقَائِكُمْ.', hint: 'Sara speaking — Sara is a girl.', right: 'أَنَا سَعِيدَةٌ بِلِقَائِكُمْ.', why: 'A girl → سَعِيدَةٌ.' },
   ],
   task: {
     title: 'My full introduction', ar: 'تَعْرِيفِي الكَامِلُ',

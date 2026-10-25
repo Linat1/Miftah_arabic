@@ -51,7 +51,7 @@ module.exports = require('./pr-common').room({
     { en: 'I want to buy new trainers.', cols: [['أُرِيدُ', 'أُرِيدُ أَنَا أَنْ'], ['أَنْ أَشْتَرِيَ', 'أَنْ أَشْتَرِي'], ['حِذَاءً رِيَاضِيًّا جَدِيدًا.', 'حِذَاءٌ رِيَاضِيٌّ جَدِيدٌ.']], key: [0, 0, 0], why: 'أُرِيدُ أَنْ + verb in -a (أَشْتَرِيَ); object → -an.' },
   ],
   errors: [
-    { wrong: 'كَمْ ثَمَنُهُ؟ (about a bag)', hint: 'حَقِيبَةٌ is feminine.', right: 'كَمْ ثَمَنُهَا؟', why: 'Feminine item → ثَمَنُهَا.' },
+    { wrong: 'كَمْ ثَمَنُهُ؟', hint: 'About a bag — حَقِيبَةٌ is feminine.', right: 'كَمْ ثَمَنُهَا؟', why: 'Feminine item → ثَمَنُهَا.' },
     { wrong: 'الحَقِيبَةُ أَغْلَى عَنِ القَمِيصِ.', hint: 'more expensive THAN …', right: 'الحَقِيبَةُ أَغْلَى مِنَ القَمِيصِ.', why: 'Comparative + مِنْ.' },
     { wrong: 'ثَمَنُهُ ثَلَاثُونَ جُنَيْهَاتٍ.', hint: '11–99 + …', right: 'ثَمَنُهُ ثَلَاثُونَ جُنَيْهًا.', why: '11–99 → singular accusative جُنَيْهًا.' },
   ],

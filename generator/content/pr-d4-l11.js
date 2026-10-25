@@ -54,7 +54,7 @@ module.exports = require('./pr-common').room({
   errors: [
     { wrong: 'الغَابَاتُ تُقْطَعُ وَهُمْ مُهِمُّونَ.', hint: 'Forests are not people.', right: 'الغَابَاتُ تُقْطَعُ، وَهِيَ مُهِمَّةٌ.', why: 'Non-human plural → هِيَ + f. sg.' },
     { wrong: 'يَجِبُ عَلَى النَّاسِ أَنْ يَسْتَخْدِمُونَ الحَافِلَاتِ.', hint: 'After أَنْ …', right: 'يَجِبُ عَلَى النَّاسِ أَنْ يَسْتَخْدِمُوا الحَافِلَاتِ.', why: '-ūna → -ū after أَنْ.' },
-    { wrong: '(silence after a mistake)', hint: 'Recover!', right: 'لِأُصَحِّحْ ذٰلِكَ: …', why: 'Self-correction shows control — examiners reward it.' },
+    { wrong: 'أَكْبَرُ مُشْكِلَةٍ هِيَ الثُّلُوجُ… لَا… آسِفٌ…', hint: 'Stuck after a mistake? Recover!', right: 'أَكْبَرُ مُشْكِلَةٍ هِيَ الثُّلُوجُ… لِأُصَحِّحْ ذٰلِكَ: الفَيَضَانَاتُ.', why: 'Self-correction shows control — examiners reward it.' },
   ],
   task: {
     title: 'A developed exam answer', ar: 'إِجَابَةٌ مُطَوَّرَةٌ',
@@ -71,7 +71,7 @@ module.exports = require('./pr-common').room({
       { ar: 'بِعِبَارَةٍ أُخْرَى، ______ .', en: 'In other words, …' },
       { ar: 'سَتَنْجَحُ هٰذِهِ الحُلُولُ إِلَى حَدٍّ مَا، بِشَرْطِ أَنْ ______ .', en: 'These solutions will work to some extent, on condition that …' },
     ],
-    bank: ['يَسُودُ · يَتَمَيَّزُ بِ…', 'بِسَبَبِ · يُؤَدِّي إِلَى', 'مِمَّا يُسَبِّبُ', 'تُقْطَعُ · يُلَوَّثُ', 'يَجِبُ عَلَى … أَنْ', 'إِذَا لَمْ + jussive', 'أَقْصِدُ أَنَّ', 'بِعِبَارَةٍ أُخْرَى'],
+    bank: ['يَسُودُ · يَتَمَيَّزُ بِ…', 'بِسَبَبِ · يُؤَدِّي إِلَى', 'مِمَّا يُسَبِّبُ', 'تُقْطَعُ · يُلَوَّثُ', 'يَجِبُ عَلَى … أَنْ', 'إِذَا لَمْ نُرَشِّدْ', 'أَقْصِدُ أَنَّ', 'بِعِبَارَةٍ أُخْرَى'],
     model: {
       text: 'فِي رَأْيِي أَكْبَرُ تَحَدٍّ هُوَ الاحْتِبَاسُ الحَرَارِيُّ. يَحْدُثُ بِسَبَبِ حَرْقِ الوَقُودِ الأُحْفُورِيِّ، وَلِأَنَّ الغَابَاتِ تُقْطَعُ بِسُرْعَةٍ، مِمَّا يُؤَدِّي إِلَى ذَوَبَانِ الجَلِيدِ وَارْتِفَاعِ مُسْتَوَى البَحْرِ. يَجِبُ عَلَى الحُكُومَاتِ أَنْ تَنْتَقِلَ إِلَى الطَّاقَةِ المُتَجَدِّدَةِ، وَيَجِبُ عَلَى المُوَاطِنِينَ أَنْ يُقَلِّلُوا الاسْتِهْلَاكَ. بِعِبَارَةٍ أُخْرَى، كُلُّنَا مَسْؤُولُونَ. إِذَا لَمْ نَتَحَرَّكِ الآنَ، فَسَوْفَ تَغْرَقُ مُدُنٌ سَاحِلِيَّةٌ كَثِيرَةٌ. سَتَنْجَحُ هٰذِهِ الحُلُولُ إِلَى حَدٍّ مَا، بِشَرْطِ أَنْ تَتَعَاوَنَ الدُّوَلُ مَعًا.',
       en: '“In my opinion the biggest challenge is global warming. It happens because fossil fuels are burned and forests are cut down quickly, which leads to melting ice and rising sea levels. Governments must move to renewable energy, and citizens must reduce consumption. In other words, we are all responsible. If we don’t act now, many coastal cities will flood. These solutions will work to some extent, on condition that countries cooperate.”',
