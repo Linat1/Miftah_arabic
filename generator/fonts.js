@@ -96,6 +96,8 @@ function arabicRuns(xml) {
     open = /\blang="/.test(open) ? open.replace(/\blang="[^"]*"/, 'lang="ar-SA"') : open.replace('<a:rPr', '<a:rPr lang="ar-SA"');
     body = body.replace(/<a:ea\b[^>]*\/>/g, '').replace(/<a:cs\b[^>]*\/>/g, '');
     const slots = `<a:ea typeface="Amiri" ${AMIRI}/><a:cs typeface="Amiri" ${AMIRI}/>`;
+    // a run that is only Arabic (no Latin letters) also gets Amiri in the latin slot: some editors shape it with that slot
+    if (!/[A-Za-z]/.test(t.slice(5, -6))) body = body.replace(/<a:latin\b[^>]*\/>/, `<a:latin typeface="Amiri" ${AMIRI}/>`);
     if (/<a:latin\b[^>]*\/>/.test(body)) body = body.replace(/(<a:latin\b[^>]*\/>)/, `$1${slots}`);
     else {
       const m = body.search(/<a:(sym|hlinkClick|hlinkMouseOver|rtl|extLst)\b/);

@@ -21,6 +21,22 @@ function meta(t, n, kind, o) {
   return { ...m, outDir: `${T.folder}/Guided_Practice` };
 }
 const close = (sp, bye) => ({ ...sp, byeEn: bye, nextLabel: 'NEXT' });
+const DEF_SPEAK_CHECK = [
+  { route: 'core', text: 'I answered every role-play task in a full sentence.' },
+  { route: 'core', text: 'I planned my first words from the question word.' },
+  { route: 'develop', text: 'I climbed to level 3: answer + reason + detail.' },
+  { route: 'develop', text: 'I used today’s key structure correctly when I spoke.' },
+  { route: 'stretch', text: 'I used all four A-R-E-T links and spoke for 90 seconds.' },
+];
+const DEF_WRITE_CHECK = [
+  { route: 'core', text: 'I decoded every bullet: question word and tense.' },
+  { route: 'core', text: 'My Q2 answers all four bullets, with a greeting and a closing.' },
+  { route: 'develop', text: 'I upgraded my sentences: detail + reason in every bullet.' },
+  { route: 'develop', text: 'My buddy checked my work and I fixed one mistake.' },
+  { route: 'stretch', text: 'My Q3 paragraph has T, D, R and F, with past and future.' },
+];
+const DEF_TALK = [['سَأَتَكَلَّمُ عَنْ …', 'I am going to talk about …'], ['أَوَّلًا … ثُمَّ …', 'first … then …'], ['بِالإِضَافَةِ إِلَى ذٰلِكَ …', 'in addition …'], ['فِي الخِتَامِ …', 'to finish …']];
+const DEF_Q2_CHECK = ['All four bullet points, in order.', 'A greeting and a closing.', 'The right tense for each bullet.', 'At least one reason with لِأَنَّ.', 'About 80–90 words.'];
 const ROOM_PHRASES = [['دَوْرُكَ!', 'your turn!'], ['أَعِدْ مِنْ فَضْلِكَ / أَعِيدِي', 'repeat please (m. / f.)'], ['أَحْسَنْتَ! / أَحْسَنْتِ!', 'well done! (m. / f.)'], ['تَكَلَّمْ أَكْثَرَ / تَكَلَّمِي أَكْثَرَ', 'say more (m. / f.)']];
 
 // ===================================================================================================== SPEAKING ROOM
@@ -94,8 +110,8 @@ SET-UP: rooms of three (same-level rooms keep the routes simple). Share this dec
       phrases: ROOM_PHRASES,
       notes: 'STEP 1 (5 min in rooms). The vocab slides that follow are the reference. Teacher: visit the first room straight away to model the pace.',
     },
-    X.vocab({ eyebrow: 'Step 1 · word bank (1)', title: d.words1.title, ar: d.words1.ar, items: d.words.slice(0, 6), notes: 'Step 1 reference — the Leader picks the English, the Speaker gives the Arabic.' }),
-    X.vocab({ eyebrow: 'Step 1 · word bank (2)', title: d.words2.title, ar: d.words2.ar, items: d.words.slice(6, 12), notes: 'Step 1 reference.' }),
+    X.vocab({ eyebrow: 'Step 1 · word bank (1)', title: (d.words1 || {}).title || 'Today’s key words (1)', ar: (d.words1 || {}).ar || 'كَلِمَاتُ الدَّرْسِ', items: d.words.slice(0, 6), notes: 'Step 1 reference — the Leader picks the English, the Speaker gives the Arabic.' }),
+    X.vocab({ eyebrow: 'Step 1 · word bank (2)', title: (d.words2 || {}).title || 'Today’s key words (2)', ar: (d.words2 || {}).ar || 'كَلِمَاتُ الدَّرْسِ', items: d.words.slice(6, 12), notes: 'Step 1 reference.' }),
     {
       type: 'models', stage: 'teach', min: 2, eyebrow: 'Step 2 · the answer ladder · how a short answer becomes a strong one', title: `Climb the ladder: “${d.ladder.qEn}”`, ar: d.ladder.q,
       rows: d.ladder.rungs.map((r, i) => ({ ar: r.ar, en: `Level ${i + 1} · ${['Answer in a full sentence', '+ a reason', '+ a detail (time, frequency, example)', '+ another time frame or an opinion'][i]}`, tip: r.en })),
@@ -156,7 +172,7 @@ SET-UP: rooms of three (same-level rooms keep the routes simple). Share this dec
       chip: 'STEP 5 · IN YOUR ROOM', icon: '⏱', head: 'Talk for one minute — no stopping', text: d.talk.text,
       steps: ['30 seconds: jot 4 key words (one per bullet) — no sentences.', 'Speaker talks; the Leader times it (record it on your phone or in Teams if you can).', 'Coach: tick the checklist on the next slide, then WWW + EBI.', 'Swap. Listen back to your recording at home and fix one sentence.'],
       routes: d.talk.routes,
-      phrases: d.talk.phrases,
+      phrases: d.talk.phrases || DEF_TALK,
       notes: `STEP 5 (5 min). A monologue builds fluency for the conversation. ${d.talk.notes || ''}`,
     },
     {
@@ -182,7 +198,7 @@ SET-UP: rooms of three (same-level rooms keep the routes simple). Share this dec
       foot: 'Find the A, R, E and T in each answer. Which link do you usually forget?',
       notes: 'CHECK YOURSELF (2 min, main room). Read one aloud together; students say which A-R-E-T link they will add next time.',
     },
-    C.selfCheckSlide(d.selfCheck),
+    C.selfCheckSlide(d.selfCheck || DEF_SPEAK_CHECK),
     close(C.closeSlide({ nextCode: `${code} · Writing practice room`, nextTitle: 'Decode, plan, write and check — step by step', nextAr: 'غُرْفَةُ الكِتَابَةِ', remember: d.remember || 'Remember: answer + reason + detail + another time frame — every time you speak.' }), 'Well done — you ran your own speaking practice!'),
   ];
   return { meta: M, slides };
@@ -259,7 +275,7 @@ WHERE TO WRITE: a page in the class notebook / a shared document (each student t
     },
     {
       type: 'stretchTask', stage: 'wedo', min: 2, eyebrow: 'Step 2 · today’s Question 2 · about 80–90 words', title: d.Q2.title, ar: d.Q2.ar, chip: 'Q2 · DIRECTED WRITING',
-      task: d.Q2.task, checklist: d.Q2.checklist, phrases: d.Q2.phrases, bankHead: 'USEFUL LANGUAGE',
+      task: d.Q2.task, checklist: d.Q2.checklist || DEF_Q2_CHECK, phrases: d.Q2.phrases, bankHead: 'USEFUL LANGUAGE',
       notes: 'STEP 2 — read the task. Then decode it on the next slide.',
     },
     {
@@ -339,7 +355,7 @@ WHERE TO WRITE: a page in the class notebook / a shared document (each student t
     },
     X.model({ eyebrow: 'Check yourself · Question 2 · a strong answer', title: 'Q2: compare with a strong answer', ar: 'قَارِنْ إِجَابَتَكَ', ...d.Q2.model, notes: 'CHECK YOURSELF (3 min, main room or rooms). Find the four bullets. Then each student copies ONE phrase from the model into their own answer.' }),
     X.model({ eyebrow: 'Check yourself · Question 3 · one paragraph', title: 'Q3 paragraph: T · D · R · F in a model', ar: 'نَمُوذَجُ الفِقْرَةِ', ...d.Q3.model, notes: 'CHECK YOURSELF (2 min). Students label T, D, R and F in the model, then in their own paragraph.' }),
-    C.selfCheckSlide(d.selfCheck),
+    C.selfCheckSlide(d.selfCheck || DEF_WRITE_CHECK),
     close(C.closeSlide(nextCode
       ? { nextCode: `${nextCode}`, nextTitle: 'The next lesson in the topic', nextAr: 'الدَّرْسُ التَّالِي', remember: d.remember || 'Remember: decode → plan → write → check. Every bullet, every time.' }
       : { nextCode: `Topic ${X.TOPICS[t].next}`, nextTitle: 'The next topic', nextAr: 'المِحْوَرُ التَّالِي', remember: d.remember || 'Remember: decode → plan → write → check.' }), 'Well done — you wrote it yourself!'),
