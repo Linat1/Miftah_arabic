@@ -238,7 +238,7 @@ function journey(D, sp) {
     if (st.ar) txt(s, st.ar, x + 0.1, 4.95, w - 0.2, 0.48, { fit: true, size: 15, min: 10, color: c, align: 'center' });
   });
   box(s, 0.5, 5.78, 12.33, 1.12, { fill: C.corePale, line: '9CCFB0' });
-  txt(s, 'IF ARABIC FEELS HARD TODAY', 0.75, 5.86, 5, 0.3, { size: 10, bold: true, color: C.coreDark, cs: 2 });
+  txt(s, sp.supportHead || 'IF ARABIC FEELS HARD TODAY', 0.75, 5.86, 5, 0.3, { size: 10, bold: true, color: C.coreDark, cs: 2 });
   txt(s, sp.support, 0.75, 6.16, 11.9, 0.68, { fit: true, size: 12.5, min: 9.5, color: C.ink, valign: 'top', arabic: false });
 }
 
