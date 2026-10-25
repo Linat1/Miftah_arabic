@@ -13,6 +13,7 @@
  */
 const C = require('./common');
 const X = require('./xp-common');
+const { translit } = require('../translit');
 
 const pad = (n) => String(n).padStart(2, '0');
 const FOLDER = { F: 'Foundation', D: 'Development' };
@@ -46,7 +47,8 @@ function room(d) {
     focus: d.focus, kicker: L.kicker.replace(code, `${code} · PRACTICE ROOM`),
     footer: `${L.footer} · practice room`, outDir: `${FOLDER[unit[0]]}_${unit}/Guided_Practice`,
   };
-  const words = d.words || lessonWords(lesson, d.pick);
+  const extra = (d.addWords || []).map(([ar, en, tag]) => ({ ar, en, tr: translit(ar), tag: tag || '', core: true }));
+  const words = (d.words || [...lessonWords(lesson, d.pick), ...extra]).slice(0, 12).map((w, i) => ({ ...w, n: i + 1 }));
   if (words.length < 12) console.warn(`  ⚠ ${code}: only ${words.length} words in the bank`);
   const wc = X.words(d.task.model.text); const [lo, hi] = d.task.range || (isF ? [35, 75] : [55, 95]);
   if (wc < lo || wc > hi) console.warn(`  ⚠ ${code} writing model: ${wc} words (target ${lo}–${hi})`);
