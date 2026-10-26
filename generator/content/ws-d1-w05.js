@@ -45,8 +45,8 @@ module.exports = require('./ws-common').workshop({
   },
   task: {
     title: 'An updated schedule for the new student', ar: 'الجَدْوَلُ الجَدِيدُ',
-    text: 'Write an email (about 70–90 words) to a new student with the UPDATED activities-week schedule. Include: • four activities with day, start time and finish time • two durations • one change you heard in the voicemail (use لٰكِنْ or لَيْسَ … بَلْ …) • one 24-hour time written in words • which activity you recommend and why.',
-    range: [60, 110],
+    text: 'Write an email (about 60–80 words) to a new student with the UPDATED activities-week schedule. Include: • four activities with day, start time and finish time • two durations • one change you heard in the voicemail (use لٰكِنْ or لَيْسَ … بَلْ …) • one 24-hour time written in words • which activity you recommend and why.',
+    range: [50, 100],
     phrases: [['حَسَبَ الجَدْوَلِ الجَدِيدِ …', 'according to the new schedule …'], ['يَبْدَأُ فِي … وَيَنْتَهِي فِي …', 'it starts at … and ends at …'], ['لَيْسَ يَوْمَ … بَلْ يَوْمَ …', 'not on … but on …'], ['أَنْصَحُكَ بِنَادِي … لِأَنَّ …', 'I recommend the … club because …']],
     coreFrames: [
       { ar: 'حَسَبَ الجَدْوَلِ الجَدِيدِ، ______ يَوْمَ ______ .', en: 'According to the new schedule, … is on …' },

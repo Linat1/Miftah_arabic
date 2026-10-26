@@ -44,8 +44,8 @@ module.exports = require('./ws-common').workshop({
   },
   task: {
     title: 'Exam-style email: my daily life', ar: 'رِسَالَةٌ عَنْ حَيَاتِي اليَوْمِيَّةِ',
-    text: 'You have a new pen-friend in Jordan. Write an email (about 70–90 words). Answer ALL four bullets: • your school-day routine, with times • what you do in the evening and why • how your weekend is different • what you did last weekend, and one change you will make. Include at least one full PREC chain.',
-    range: [60, 110],
+    text: 'You have a new pen-friend in Jordan. Write an email (about 60–80 words). Answer ALL four bullets: • your school-day routine, with times • what you do in the evening and why • how your weekend is different • what you did last weekend, and one change you will make. Include at least one full PREC chain.',
+    range: [50, 100],
     phrases: [['أَسْتَيْقِظُ فِي … وَقَبْلَ أَنْ …', 'I wake up at … and before I …'], ['أُرَاجِعُ لِمُدَّةِ … لِكَيْ …', 'I revise for … so that …'], ['أَمَّا فِي نِهَايَةِ الأُسْبُوعِ فَ…', 'but at the weekend …'], ['فِي نِهَايَةِ الأُسْبُوعِ المَاضِيَةِ … · سَأُحَاوِلُ أَنْ …', 'last weekend … · I will try to …']],
     coreFrames: [
       { ar: 'أَسْتَيْقِظُ فِي ______ ، وَقَبْلَ أَنْ أَخْرُجَ ______ .', en: '• I wake up at …, and before I go out I …' },

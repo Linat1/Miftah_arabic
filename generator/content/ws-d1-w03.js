@@ -39,8 +39,8 @@ module.exports = require('./ws-common').workshop({
   },
   task: {
     title: 'Two evenings: an article for the family magazine', ar: 'مَسَاءَانِ',
-    text: 'Write an article (about 70–90 words) comparing your evening with a family member’s. Include: • your afternoon and evening in three phases, with times • two durations (لِمُدَّةِ …) and one purpose (لِكَيْ …) • two object pronouns • three verbs for him or her, and -hu / -hā on two nouns • a comparison with بَيْنَمَا • your opinion: whose evening is more balanced, and why?',
-    range: [60, 110],
+    text: 'Write an article (about 60–80 words) comparing your evening with a family member’s. Include: • your afternoon and evening in three phases, with times • two durations (لِمُدَّةِ …) and one purpose (لِكَيْ …) • two object pronouns • three verbs for him or her, and -hu / -hā on two nouns • a comparison with بَيْنَمَا • your opinion: whose evening is more balanced, and why?',
+    range: [50, 100],
     phrases: [['أَسْتَرِيحُ لِمُدَّةِ …', 'I rest for …'], ['أُرَاجِعُ لِكَيْ … · حَتَّى لَا …', 'I revise so that … · so that … not'], ['أُسَاعِدُهَا · أُرَتِّبُهَا', 'I help her · I tidy it'], ['يَرْجِعُ / تَرْجِعُ … بَيْنَمَا أَنَا …', 'he / she returns … whereas I …']],
     coreFrames: [
       { ar: 'بَعْدَ المَدْرَسَةِ أَسْتَرِيحُ لِمُدَّةِ ______ .', en: 'After school I rest for …' },

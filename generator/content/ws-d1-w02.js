@@ -39,8 +39,8 @@ module.exports = require('./ws-common').workshop({
   },
   task: {
     title: 'Our wellbeing survey report', ar: 'تَقْرِيرُ الاسْتِبْيَانِ',
-    text: 'Write a report (about 70–90 words) for the wellbeing week about your own habits and a partner’s. Include: • five frequency expressions • two qabla / baʿda + noun and two qabla an / baʿda an + verb • one thing you never do • a comparison with بَيْنَمَا or أَمَّا … فَ… • a judgement: what will you change and why?',
-    range: [60, 110],
+    text: 'Write a report (about 60–80 words) for the wellbeing week about your own habits and a partner’s. Include: • five frequency expressions • two qabla / baʿda + noun and two qabla an / baʿda an + verb • one thing you never do • a comparison with بَيْنَمَا or أَمَّا … فَ… • a judgement: what will you change and why?',
+    range: [50, 100],
     phrases: [['ثَلَاثَ مَرَّاتٍ فِي الأُسْبُوعِ · يَوْمِيًّا', 'three times a week · daily'], ['قَبْلَ النَّوْمِ · بَعْدَ الغَدَاءِ', 'before sleep · after lunch'], ['قَبْلَ أَنْ أَنَامَ · بَعْدَ أَنْ أَرْجِعَ', 'before I sleep · after I return'], ['بَيْنَمَا · أَمَّا … فَ…', 'whereas · as for … (then)']],
     coreFrames: [
       { ar: 'أُمَارِسُ الرِّيَاضَةَ ______ مَرَّاتٍ فِي الأُسْبُوعِ.', en: 'I do sport … times a week.' },

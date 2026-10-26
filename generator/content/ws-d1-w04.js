@@ -39,8 +39,8 @@ module.exports = require('./ws-common').workshop({
   },
   task: {
     title: 'Interview write-up for the school website', ar: 'المُقَابَلَةُ عَلَى مَوْقِعِ المَدْرَسَةِ',
-    text: 'Write up your interview (about 70–90 words): five questions with different question words, each with a full answer about the weekend — using the correct form for a boy or a girl. Then add a short summary in the third person (هُوَ … / هِيَ …) with one أَمَّا … فَ… and one إِذَا sentence.',
-    range: [60, 110],
+    text: 'Write up your interview (about 60–80 words): five questions with different question words, each with a full answer about the weekend — using the correct form for a boy or a girl. Then add a short summary in the third person (هُوَ … / هِيَ …) with one أَمَّا … فَ… and one إِذَا sentence.',
+    range: [50, 100],
     phrases: [['مَاذَا تَفْعَلُ / تَفْعَلِينَ …؟', 'what do you do …? (boy / girl)'], ['مَعَ مَنْ … ؟ · لِمَاذَا … ؟', 'with whom …? · why …?'], ['أَمَّا فِي نِهَايَةِ الأُسْبُوعِ فَ…', 'but at the weekend …'], ['إِذَا كَانَ الجَوُّ … ، …', 'if the weather is …, …']],
     coreFrames: [
       { ar: 'س: مَتَى تَسْتَيْقِظِينَ يَوْمَ السَّبْتِ؟ ج: ______ .', en: 'Q: When do you wake up on Saturday? A: …' },

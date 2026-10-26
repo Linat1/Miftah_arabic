@@ -57,7 +57,7 @@ function workshop(d) {
   const card = d.card; const task = d.task;
   const talkTime = isF1 ? '30 seconds' : isF ? '30–45 seconds' : 'one minute';
 
-  const wc = X.words(task.model.text); const [lo, hi] = task.range || (isF ? [40, 90] : [60, 110]);
+  const wc = X.words(task.model.text); const [lo, hi] = task.range || (isF ? [40, 90] : [50, 100]);
   if (wc < lo || wc > hi) console.warn(`  ⚠ ${code} writing model: ${wc} words (target ${lo}–${hi})`);
 
   const objectives = d.objectives || [

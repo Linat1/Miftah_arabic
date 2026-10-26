@@ -39,8 +39,8 @@ module.exports = require('./ws-common').workshop({
   },
   task: {
     title: 'A morning plan for our guest', ar: 'خُطَّةُ الصَّبَاحِ لِضَيْفِنَا',
-    text: 'Write a message (about 70–90 words) for your pen-friend, explaining the plan for a school morning during the visit. Include: • when you wake up and what you do first • breakfast: when, what and how long it lasts • when and how you leave for school, with a reason • when the first lesson starts and ends • at least five exact times (with fractions) • your opinion of mornings and one tip for the guest.',
-    range: [60, 110],
+    text: 'Write a message (about 60–80 words) for your pen-friend, explaining the plan for a school morning during the visit. Include: • when you wake up and what you do first • breakfast: when, what and how long it lasts • when and how you leave for school, with a reason • when the first lesson starts and ends • at least five exact times (with fractions) • your opinion of mornings and one tip for the guest.',
+    range: [50, 100],
     phrases: [['أَسْتَيْقِظُ فِي … ، وَأَوَّلًا …', 'I wake up at … and first …'], ['فِي السَّابِعَةِ إِلَّا الرُّبْعَ · وَالثُّلُثِ', 'at a quarter to seven · twenty past'], ['يَسْتَمِرُّ الفُطُورُ … دَقِيقَةً', 'breakfast lasts … minutes'], ['نَخْرُجُ فِي … لِأَنَّ …', 'we leave at … because …']],
     coreFrames: [
       { ar: 'أَسْتَيْقِظُ فِي ______ ، وَأَوَّلًا ______ .', en: 'I wake up at … and first I …' },
