@@ -55,7 +55,7 @@ function workshop(d) {
   const errors = d.errors || [A.errors[0], B.errors[0], A.errors[1]].filter(Boolean);
   const fade = !isF;
   const card = d.card; const task = d.task;
-  const talkTime = isF ? '30–45 seconds' : 'one minute';
+  const talkTime = isF1 ? '30 seconds' : isF ? '30–45 seconds' : 'one minute';
 
   const wc = X.words(task.model.text); const [lo, hi] = task.range || (isF ? [40, 90] : [70, 120]);
   if (wc < lo || wc > hi) console.warn(`  ⚠ ${code} writing model: ${wc} words (target ${lo}–${hi})`);
@@ -130,7 +130,7 @@ ${LB.code} language: ${B.grammar || LB.focus}`,
       type: 'formsTable', stage: 'wedo', min: 5, eyebrow: `Part 2 · Step 3 · ${lab.dialogue.toLowerCase()} · both lessons in one conversation`, title: d.dialogue.title, ar: d.dialogue.ar, ltr: true,
       cols: [{ label: 'Who', w: 1.0 }, { label: 'Say it in Arabic', w: 6.9, size: 19 }, { label: 'Meaning', w: 4.43 }],
       rows: d.dialogue.lines.map(([who, ar, en]) => ({ cells: [who, ar, en] })),
-      foot: d.dialogue.foot || 'Round 1: read it in pairs (A and B). Round 2: swap letters. Round 3: cover the Arabic and say it from the English. Then change TWO details — one from each lesson — and say it again.',
+      foot: d.dialogue.foot || (isF1 ? 'Round 1: read it in pairs. Round 2: swap letters. Round 3: A points to a NEW letter or word from either lesson; B reads it and explains one thing about it (dots, a mark, a position).' : null) || 'Round 1: read it in pairs (A and B). Round 2: swap letters. Round 3: cover the Arabic and say it from the English. Then change TWO details — one from each lesson — and say it again.',
       notes: `STEP 3 (5 min). A NEW dialogue that joins ${LA.code} and ${LB.code}. Teacher reads it once with a confident student; then pairs. Ask: “Which lines are from ${LA.code}? Which from ${LB.code}?” ${d.dialogue.notes || ''}`,
     },
     {
@@ -144,15 +144,15 @@ ${LB.code} language: ${B.grammar || LB.focus}`,
       type: 'formsTable', stage: 'youdo', min: 7, eyebrow: `Step 5 · ${lab.card.toLowerCase()} · ${fade ? 'plans for tasks 1–2 are given — plan 3–5 yourself' : 'use the plan, then hide it and speak'}`, title: card.title, ar: card.ar, ltr: true,
       cols: A.cardCols || [{ label: '#', w: 0.55 }, { label: 'Partner A reads', w: 4.3, size: 17 }, { label: 'Speaker’s task', w: 3.6 }, { label: 'Plan: first words', w: 3.88, size: 16 }],
       rows: card.tasks.map((k, i) => ({ core: !fade || i < 2, cells: [k.unexpected ? `${i + 1} !` : String(i + 1), k.ex, k.task, (!fade || i < 2) ? k.plan : '______________'] })),
-      foot: card.foot || `Speaker = ${card.you} · Partner A = ${card.them}. ${fade ? 'Write the plan for tasks 3–5 in your book first. Task ! is a surprise — Partner A reads it without warning.' : 'Read the plan for 1 minute, then hide it and speak. Task ! is a surprise.'} Then swap roles.`,
+      foot: card.foot || (isF1 ? `Speaker = ${card.you} · Partner A = ${card.them}. Read from RIGHT to left. Task ! is a surprise — Partner A asks it without warning. Then swap roles.` : null) || `Speaker = ${card.you} · Partner A = ${card.them}. ${fade ? 'Write the plan for tasks 3–5 in your book first. Task ! is a surprise — Partner A reads it without warning.' : 'Read the plan for 1 minute, then hide it and speak. Task ! is a surprise.'} Then swap roles.`,
       notes: `STEP 5 (7 min). One NEW situation that needs both lessons: ${card.mix || `tasks use ${LA.code} and ${LB.code} language`}. ${fade ? 'FADED SUPPORT: tasks 1–2 show the plan; students write their own plan for 3–5.' : 'SUPPORTED: the plan column gives the first words, not the full answer.'} To a girl Partner A says: ${card.girl || 'the feminine forms (-ki / -īna)'}. ${card.notes || ''}`,
     },
     {
       type: 'challenge', stage: 'youdo', min: 4, eyebrow: `Step 6 · ${lab.talk.toLowerCase()} · ${talkTime}`, title: d.talk.title, ar: d.talk.ar,
-      chip: 'STEP 6 · PAIRS', icon: '⏱', head: d.talk.head || (isF ? 'Talk for 30–45 seconds — use both lessons' : 'Talk for one minute — use both lessons'), text: d.talk.text,
-      steps: d.talk.steps || ['Think for 30 seconds: 2 key words from EACH lesson, no sentences.', 'Speaker talks; the partner times it.', 'Partner: one thing that went well + one thing to improve.', 'Swap — then the teacher invites two volunteers.'],
+      chip: 'STEP 6 · PAIRS', icon: '⏱', head: d.talk.head || (isF1 ? A.talk.head : isF ? 'Talk for 30–45 seconds — use both lessons' : 'Talk for one minute — use both lessons'), text: d.talk.text,
+      steps: d.talk.steps || (isF1 && A.talk.steps) || ['Think for 30 seconds: 2 key words from EACH lesson, no sentences.', 'Speaker talks; the partner times it.', 'Partner: one thing that went well + one thing to improve.', 'Swap — then the teacher invites two volunteers.'],
       routes: d.talk.routes,
-      phrases: d.talk.phrases || (isF ? [['أَنَا … وَ…', 'I am … and …'], ['عِنْدِي …', 'I have …'], ['أُحِبُّ … لِأَنَّ …', 'I like … because …'], ['وَأَيْضًا …', 'and also …']] : [['أَوَّلًا … ثُمَّ …', 'first … then …'], ['لِأَنَّ … · لِذٰلِكَ …', 'because … · so …'], ['فِي رَأْيِي …', 'in my opinion …'], ['فِي الخِتَامِ …', 'to finish …']]),
+      phrases: d.talk.phrases || (isF1 && A.talk.phrases) || (isF ? [['أَنَا … وَ…', 'I am … and …'], ['عِنْدِي …', 'I have …'], ['أُحِبُّ … لِأَنَّ …', 'I like … because …'], ['وَأَيْضًا …', 'and also …']] : [['أَوَّلًا … ثُمَّ …', 'first … then …'], ['لِأَنَّ … · لِذٰلِكَ …', 'because … · so …'], ['فِي رَأْيِي …', 'in my opinion …'], ['فِي الخِتَامِ …', 'to finish …']]),
       notes: `STEP 6 (4 min). Fluency: one talk that uses BOTH lessons. Two volunteers speak to the whole class at the end (open mic). ${d.talk.notes || ''}`,
     },
     // ------------------------------------------------------------------------------------------- PART 3 · WRITE
@@ -174,8 +174,8 @@ ${LB.code} language: ${B.grammar || LB.focus}`,
       notes: task.framesNotes || 'STEP 9 support. Core: use the Core frames for every bullet. Develop: use the Develop frames only if stuck. Stretch: no frames — add reasons, a time phrase and an extra detail.',
     },
     {
-      type: 'stretchTask', stage: 'youdo', min: 10, eyebrow: `Step 9 · ${lab.write.toLowerCase()} · ${task.size || (task.text.match(/about \d+–\d+ words/) || ['one connected text'])[0]}`, title: task.title, ar: task.ar, chip: task.chip || (isF ? 'WRITING · BOTH LESSONS' : 'WRITING · DIRECTED TASK'),
-      task: task.text, checklist: task.checklist || (isF
+      type: 'stretchTask', stage: 'youdo', min: 10, eyebrow: `Step 9 · ${lab.write.toLowerCase()} · ${task.size || (task.text.match(/about \d+–\d+ words/) || ['one connected text'])[0]}`, title: task.title, ar: task.ar, chip: task.chip || (isF1 ? 'WRITING · SCRIPT' : isF ? 'WRITING · BOTH LESSONS' : 'WRITING · DIRECTED TASK'),
+      task: task.text, checklist: task.checklist || (isF1 ? A.task.checklist : isF
         ? ['Every bullet point has at least one sentence.', `Language from ${LA.code} AND ${LB.code}.`, 'Full sentences with the right ending (I · my · he · she).', 'At least one وَ and one لِأَنَّ (Develop).', 'Buddy check, then fix one thing.']
         : ['All the bullet points, in order.', `Language from ${LA.code} AND ${LB.code}.`, 'Linking words: وَ · ثُمَّ · لِأَنَّ · لٰكِنَّ.', 'One opinion with a reason.', 'Buddy check, then fix one thing.']),
       phrases: task.phrases, bankHead: 'USEFUL LANGUAGE',
