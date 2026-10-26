@@ -31,7 +31,7 @@ module.exports = require('./ws-common').workshop({
       { ex: '«أُخْتِي تَرْسُمُ كُلَّ يَوْمٍ، أَمَّا أَنَا فَأَعْزِفُ عَلَى البِيَانُو.» — مَنْ يَرْسُمُ؟', task: 'Who does what?', plan: '______________', model: 'أُخْتُهُ تَرْسُمُ، وَهُوَ يَعْزِفُ عَلَى البِيَانُو.', modelEn: 'His sister draws, and he plays the piano.' },
       { unexpected: true, ex: 'وَأَنْتَ: مَا هِوَايَتُكَ فِي الطُّفُولَةِ، وَالآنَ، وَفِي المُسْتَقْبَلِ؟', task: 'Three tenses in three sentences.', plan: '______________', model: 'كُنْتُ أَرْسُمُ كَثِيرًا، أَمَّا الآنَ فَأَلْعَبُ الشِّطْرَنْجَ، وَسَأَتَعَلَّمُ البَرْمَجَةَ.', modelEn: 'I used to draw a lot, but now I play chess, and I will learn programming.' },
     ],
-    foot: 'Partner A reads each clip twice. Say the tense and the clue (an ending, a prefix, سَـ, كُنْتُ, a time marker), then the answer. Task ! is your then–now–next. Then swap.',
+    foot: 'Partner A reads each clip twice. Say the tense and the clue (an ending, a prefix, سَوْفَ, كُنْتُ, a time marker), then the answer. Task ! is your then–now–next. Then swap.',
     girl: 'وَأَنْتِ: مَا هِوَايَتُكِ …؟',
   },
   talk: {
