@@ -196,7 +196,8 @@ SET-UP: rooms of two or three (same-level rooms keep the routes simple). Share t
       ? { nextCode: next.code, nextTitle: next.title, nextAr: next.arabic, remember: d.remember || 'Remember: say it, then write it — full sentences, every time.' }
       : { nextCode: `${unit} review`, nextTitle: 'Well done — the unit is complete', nextAr: 'أَحْسَنْتُمْ', remember: d.remember || 'Remember: say it, then write it — full sentences, every time.' }), byeEn: 'Well done — you practised it yourselves!', nextLabel: 'NEXT' },
   ];
-  return { meta: M, slides };
+  // data: the room's own content, reused by the Apply workshops (ws-common.js)
+  return { meta: M, slides, data: { ...d, words, lab, code, title: L.title, arabic: L.arabic, isF } };
 }
 
 module.exports = { room, lessonWords };
