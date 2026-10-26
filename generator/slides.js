@@ -93,7 +93,12 @@ function mcqCard(s, q, n, x, y, w, h, reveal, k) {
   if (reveal && q.why) mixedLine(s, q.why, x + 0.14, y + h - 0.44, w - 0.28, 0.4, { size: 10.5, italic: true, color: C.goldDark });
 }
 
+// In an English line, wrap each Arabic phrase in right-to-left marks (U+200F) so that neutral characters inside or
+// at the end of the phrase (… / · ،) stay with the Arabic instead of drifting to the wrong side.
+const AR_SEG = /[\u0600-\u06FF](?:[\u0600-\u06FF\s…·\/،]*[\u0600-\u06FF…])?/g;
+const bidi = (t) => (typeof t === 'string' && /[\u0600-\u06FF]/.test(t) ? t.replace(AR_SEG, '\u200F$&\u200F') : t);
 function mixedLine(s, t, x, y, w, h, o = {}) {
+  if (!isArabic(t)) t = bidi(t);
   if (isArabic(t)) return txt(s, t, x, y, w, h, { fit: true, size: (o.size || 11) + 3, min: 9, color: o.color, bold: false, align: o.align, valign: o.valign });
   return txt(s, t, x, y, w, h, { fit: true, size: o.size || 11, min: o.min || 8, italic: o.italic, color: o.color, bold: o.bold, arabic: false, align: o.align, valign: o.valign });
 }
@@ -772,7 +777,7 @@ function challenge(D, sp) {
   box(s, 0.5, 1.98, 6.25, 4.92, { fill: C.cream, line: 'E8D49A' });
   pill(s, 0.7, 2.1, 3.4, 0.32, C.goldDark, sp.chip || 'APPLICATION CHALLENGE · WEBSITE', { size: 9 });
   txt(s, `${sp.icon || ''}  ${sp.head}`, 0.7, 2.5, 5.85, 0.55, { fit: true, size: 22, min: 14, bold: true, color: C.navy, arabic: false });
-  txt(s, sp.text, 0.7, 3.08, 5.85, 1.3, { fit: true, size: 13.5, min: 10, color: C.ink, valign: 'top', arabic: false });
+  txt(s, bidi(sp.text), 0.7, 3.08, 5.85, 1.3, { fit: true, size: 13.5, min: 10, color: C.ink, valign: 'top', arabic: false });
   txt(s, 'HOW WE RUN IT ONLINE', 0.7, 4.42, 5.8, 0.28, { size: 9.5, bold: true, color: C.goldDark, cs: 2, arabic: false });
   const n = sp.steps.length; const rh = Math.min(0.5, 2.05 / n);
   sp.steps.forEach((st, i) => {
