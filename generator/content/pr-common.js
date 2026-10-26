@@ -9,7 +9,8 @@
  *   Check yourself — role-play model answers · writing model · self-check.
  * Title, codes and the word bank come from the taught lesson (its meta and its vocab slides), so the room always uses
  * the lesson's own words. Decks are written to <Unit folder>/Guided_Practice. Foundation: every role-play plan is given;
- * Development: the plan fades (tasks 1–2 given, 3–4 blank). F1 (script and sounds) relabels the steps via d.labels.
+ * Development: the plan fades (tasks 1–2 given, 3–4 blank). F1 (script and sounds) relabels the steps via d.labels and
+ * swaps the sentence-level defaults (roles, question columns, task size, buddy check) through the optional d.* overrides.
  */
 const C = require('./common');
 const X = require('./xp-common');
@@ -42,7 +43,7 @@ function room(d) {
   const lab = { words: 'Word warm-up', dialogue: 'Say the model dialogue', questions: 'Question cards', card: 'Role-play card', talk: 'Short talk', builder: 'Sentence builder', fix: 'Spot and fix', write: 'Write your text', ...(d.labels || {}) };
 
   const M = {
-    ...L, file: `${code}_Practice_Room_${fileTitle}`, chip: 'Speaking + writing practice room',
+    ...L, file: `${code}_Practice_Room_${fileTitle}`, chip: d.chip || 'Speaking + writing practice room',
     title: `Practice Room — ${L.title}`, arabic: `غُرْفَةُ التَّدَرُّبِ — ${d.arShort || L.arabic}`,
     focus: d.focus, kicker: L.kicker.replace(code, `${code} · PRACTICE ROOM`),
     footer: `${L.footer} · practice room`, outDir: `${FOLDER[unit[0]]}_${unit}/Guided_Practice`,
@@ -77,7 +78,7 @@ SET-UP: rooms of two or three (same-level rooms keep the routes simple). Share t
     {
       type: 'explain', stage: 'teach', min: 3, eyebrow: 'Before the rooms · how your room works', title: 'Three roles — then write alone, check together', ar: 'كَيْفَ نَعْمَلُ فِي الغُرْفَةِ',
       pointsHead: 'ROLES (SWAP AFTER EVERY TASK)',
-      points: [
+      points: d.roles || [
         'LEADER — opens the next step, keeps the time and reads the questions.',
         'SPEAKER — answers in Arabic, in a full sentence. Think for a few seconds, then speak.',
         'COACH — listens, checks with the slide, then says one thing that went well and one thing to improve. (In a pair, the Leader is also the Coach.)',
@@ -105,8 +106,8 @@ SET-UP: rooms of two or three (same-level rooms keep the routes simple). Share t
       phrases: ROOM_PHRASES,
       notes: `STEP 1 (5 min in rooms). The two word slides that follow come from the ${code} lesson. Teacher: visit the first room straight away to model the pace.`,
     },
-    X.vocab({ eyebrow: 'Step 1 · word bank (1) · from the lesson', title: d.words1 || 'Today’s key words (1)', ar: 'كَلِمَاتُ الدَّرْسِ', items: words.slice(0, 6), notes: 'Step 1 reference — the Leader picks the English, the Speaker gives the Arabic.' }),
-    X.vocab({ eyebrow: 'Step 1 · word bank (2) · from the lesson', title: d.words2 || 'Today’s key words (2)', ar: 'كَلِمَاتُ الدَّرْسِ', items: words.slice(6, 12), notes: 'Step 1 reference.' }),
+    { ...X.vocab({ eyebrow: 'Step 1 · word bank (1) · from the lesson', title: d.words1 || 'Today’s key words (1)', ar: d.wordsAr || 'كَلِمَاتُ الدَّرْسِ', items: words.slice(0, 6), notes: 'Step 1 reference — the Leader picks the English, the Speaker gives the Arabic.' }), bigAr: !!d.bigAr },
+    { ...X.vocab({ eyebrow: 'Step 1 · word bank (2) · from the lesson', title: d.words2 || 'Today’s key words (2)', ar: d.wordsAr || 'كَلِمَاتُ الدَّرْسِ', items: words.slice(6, 12), notes: 'Step 1 reference.' }), bigAr: !!d.bigAr },
     {
       type: 'formsTable', stage: 'wedo', min: 5, eyebrow: `Step 2 · ${lab.dialogue.toLowerCase()} · read it, then say it without looking`, title: d.dialogue.title, ar: d.dialogue.ar, ltr: true,
       cols: [{ label: 'Who', w: 1.0 }, { label: 'Say it in Arabic', w: 6.9, size: 20 }, { label: 'Meaning', w: 4.43 }],
@@ -116,10 +117,10 @@ SET-UP: rooms of two or three (same-level rooms keep the routes simple). Share t
     },
     {
       type: 'formsTable', stage: 'youdo', min: 7, eyebrow: `Step 3 · ${lab.questions.toLowerCase()} · the Leader asks, the Speaker answers`, title: d.qTitle || 'Answer in a full sentence — then add more', ar: 'أَسْئِلَةٌ وَأَجْوِبَةٌ', ltr: true,
-      cols: [{ label: '#', w: 0.55 }, { label: 'Leader asks', w: 3.9, size: 17 }, { label: 'Meaning', w: 2.6 }, { label: 'Start your answer (Core)', w: 3.0, size: 16 }, { label: 'Add more (Develop · Stretch)', w: 2.28, size: 15 }],
+      cols: d.qCols || [{ label: '#', w: 0.55 }, { label: 'Leader asks', w: 3.9, size: 17 }, { label: 'Meaning', w: 2.6 }, { label: 'Start your answer (Core)', w: 3.0, size: 16 }, { label: 'Add more (Develop · Stretch)', w: 2.28, size: 15 }],
       rows: d.questions.map((x, i) => ({ core: i < 3, cells: [String(i + 1), x.q, x.en, x.start, x.more] })),
-      foot: 'Each Speaker answers every question. Core: a full sentence from the starter. Develop: add the “more” part. Stretch: add a reason with لِأَنَّ or a second detail. Swap after each question.',
-      notes: 'STEP 3 (7 min). The starter column is support, not the answer: students finish it with their OWN information. Coach listens for the key structure of the lesson.',
+      foot: d.qFoot || 'Each Speaker answers every question. Core: a full sentence from the starter. Develop: add the “more” part. Stretch: add a reason with لِأَنَّ or a second detail. Swap after each question.',
+      notes: d.qNotes || 'STEP 3 (7 min). The starter column is support, not the answer: students finish it with their OWN information. Coach listens for the key structure of the lesson.',
     },
     {
       type: 'formsTable', stage: 'youdo', min: 7, eyebrow: `Step 4 · ${lab.card.toLowerCase()} · ${fade ? 'plans for tasks 1–2 are given — plan 3–4 yourself' : 'use the plan, then hide it and speak'}`, title: card.title, ar: card.ar, ltr: true,
@@ -138,10 +139,10 @@ SET-UP: rooms of two or three (same-level rooms keep the routes simple). Share t
     },
     // ------------------------------------------------------------------------------------------- PART B · WRITING
     {
-      type: 'builder', stage: 'wedo', min: 4, eyebrow: `Part B · Step 6 · ${lab.builder.toLowerCase()} · choose A or B in each column`, title: d.builderTitle || 'Build three correct sentences', ar: 'ابْنِ الجُمْلَةَ',
+      type: 'builder', stage: 'wedo', min: 4, eyebrow: `Part B · Step 6 · ${lab.builder.toLowerCase()} · choose A or B in each column`, title: d.builderTitle || 'Build three correct sentences', ar: d.builderAr || 'ابْنِ الجُمْلَةَ',
       rows: d.builder,
-      answerSlide: { stage: 'feedback', min: 1, eyebrow: 'Step 6 · check your sentences', title: 'Sentence builder: answers' },
-      notes: 'STEP 6 (4 min). Read the English, then choose the correct part from each column (start on the RIGHT, column 1). Buddies agree before checking the answer slide. Students copy the three correct sentences into their book — they are useful for Step 8.',
+      answerSlide: { stage: 'feedback', min: 1, eyebrow: d.builderAnswer ? 'Step 6 · check your words' : 'Step 6 · check your sentences', title: d.builderAnswer || 'Sentence builder: answers' },
+      notes: d.builderNotes || 'STEP 6 (4 min). Read the English, then choose the correct part from each column (start on the RIGHT, column 1). Buddies agree before checking the answer slide. Students copy the three correct sentences into their book — they are useful for Step 8.',
     },
     {
       type: 'repair', stage: 'wedo', min: 3, eyebrow: `Step 7 · ${lab.fix.toLowerCase()} · mistakes students often make`, title: 'Find the mistake, fix it', ar: 'اكْتَشِفِ الخَطَأَ',
@@ -152,20 +153,20 @@ SET-UP: rooms of two or three (same-level rooms keep the routes simple). Share t
     {
       type: 'frames', stage: 'youdo', min: 2, eyebrow: `Step 8 · ${lab.write.toLowerCase()} · frames if you need them`, title: 'Your writing frames', ar: 'قَوَالِبُ الكِتَابَةِ',
       core: d.task.coreFrames, develop: d.task.developFrames, bank: d.task.bank,
-      notes: 'STEP 8 support. Core: use the Core frames for every sentence. Develop: use the Develop frames only if stuck. Stretch: no frames — add a reason, a time phrase and one extra detail.',
+      notes: d.task.framesNotes || 'STEP 8 support. Core: use the Core frames for every sentence. Develop: use the Develop frames only if stuck. Stretch: no frames — add a reason, a time phrase and one extra detail.',
     },
     {
-      type: 'stretchTask', stage: 'youdo', min: 10, eyebrow: `Step 8 · ${lab.write.toLowerCase()} · ${isF ? 'about 40–60 words' : 'about 60–80 words'}`, title: d.task.title, ar: d.task.ar, chip: d.task.chip || (isF ? 'WRITING · SHORT TEXT' : 'WRITING · DIRECTED TASK'),
+      type: 'stretchTask', stage: 'youdo', min: 10, eyebrow: `Step 8 · ${lab.write.toLowerCase()} · ${d.task.size || (isF ? 'about 40–60 words' : 'about 60–80 words')}`, title: d.task.title, ar: d.task.ar, chip: d.task.chip || (isF ? 'WRITING · SHORT TEXT' : 'WRITING · DIRECTED TASK'),
       task: d.task.text, checklist: d.task.checklist || (isF
         ? ['Every bullet point has at least one sentence.', 'Full sentences with the right ending (I · my · he · she).', 'Words from today’s word bank.', 'At least one و and one لِأَنَّ (Develop).', 'Buddy check, then fix one thing.']
         : ['All the bullet points, in order.', 'The right tense for each bullet.', 'Linking words: وَ · ثُمَّ · لِأَنَّ · لٰكِنَّ.', 'One opinion with a reason.', 'Buddy check, then fix one thing.']),
       phrases: d.task.phrases, bankHead: 'USEFUL LANGUAGE',
-      notes: `STEP 8 (10 min writing). Core: frames for every bullet (${isF ? '25–35' : '40–50'} words). Develop: ${isF ? '40–60' : '60–80'} words, frames only if stuck. Stretch: no frames, add reasons and another time frame. Teacher visits rooms and reads ONE sentence per student. ${d.task.notes || ''}`,
+      notes: d.task.notesFull || `STEP 8 (10 min writing). Core: frames for every bullet (${isF ? '25–35' : '40–50'} words). Develop: ${isF ? '40–60' : '60–80'} words, frames only if stuck. Stretch: no frames, add reasons and another time frame. Teacher visits rooms and reads ONE sentence per student. ${d.task.notes || ''}`,
     },
     {
       type: 'formsTable', stage: 'youdo', min: 3, eyebrow: 'Step 8 · buddy check · swap and read your buddy’s text', title: 'Buddy check: five points', ar: 'رَاجِعْ مَعَ زَمِيلِكَ', ltr: true,
       cols: [{ label: 'Did the writer …', w: 6.6, size: 14 }, { label: 'Route', w: 1.4 }, { label: '✓ / ✗', w: 1.0 }, { label: 'Line / example', w: 3.33 }],
-      rows: [
+      rows: d.buddyRows ? d.buddyRows.map(([text, route]) => ({ core: route === 'Core', cells: [text, route, '', ''] })) : [
         { core: true, cells: ['answer EVERY bullet point?', 'Core', '', ''] },
         { core: true, cells: [d.checkCore || 'write full sentences with the right ending (I · my · he · she)?', 'Core', '', ''] },
         { cells: [d.checkDevelop || 'use today’s key structure correctly?', 'Develop', '', ''] },
@@ -180,7 +181,7 @@ SET-UP: rooms of two or three (same-level rooms keep the routes simple). Share t
       type: 'formsTable', stage: 'feedback', min: 2, eyebrow: `Check yourself · ${lab.card.toLowerCase()}`, title: `${lab.card}: compare with a strong answer`, ar: 'قَارِنْ إِجَابَتَكَ', ltr: true,
       cols: [{ label: '#', w: 0.55 }, { label: 'Leader reads', w: 4.1, size: 16 }, { label: 'A strong answer (with English)', w: 7.68, size: 18 }],
       rows: card.tasks.map((k, i) => ({ cells: [String(i + 1), k.ex, { ar: k.model, sub: k.modelEn }] })),
-      foot: 'Did you answer every task in a full sentence? Choose one phrase you did not use and say it aloud.',
+      foot: card.checkFoot || 'Did you answer every task in a full sentence? Choose one phrase you did not use and say it aloud.',
       notes: 'CHECK YOURSELF (2 min, main room). Each student finds one task they answered less fully and says it again using the model.',
     },
     X.model({ eyebrow: `Check yourself · ${lab.write.toLowerCase()} · a strong answer`, title: 'Writing: compare with a strong answer', ar: 'قَارِنْ إِجَابَتَكَ', ...d.task.model, notes: 'CHECK YOURSELF (2 min). Find each bullet point in the model. Then each student copies ONE phrase from the model into their own text.' }),
