@@ -120,7 +120,7 @@ ${LB.code} language: ${B.grammar || LB.focus}`,
     { ...X.vocab({ eyebrow: `Step 1 · words from ${LA.code}`, title: `${LA.code} · ${LA.title}`, ar: A.wordsAr || 'كَلِمَاتُ الدَّرْسِ الأَوَّلِ', items: wa, notes: `Step 1 reference — six words from ${LA.code}.` }), bigAr: !!A.bigAr },
     { ...X.vocab({ eyebrow: `Step 1 · words from ${LB.code}`, title: `${LB.code} · ${LB.title}`, ar: B.wordsAr || 'كَلِمَاتُ الدَّرْسِ الثَّانِي', items: wb, notes: `Step 1 reference — six words from ${LB.code}.` }), bigAr: !!B.bigAr },
     {
-      type: 'sorter', stage: 'wedo', min: 4, eyebrow: 'Part 1 · Step 2 · which lesson? · read each card, then sort it', title: d.sortTitle || 'Which lesson does it come from?', ar: 'مِنْ أَيِّ دَرْسٍ؟',
+      type: 'sorter', stage: 'wedo', min: 4, eyebrow: `Part 1 · Step 2 · ${d.sortCats ? 'sort it' : 'which lesson?'} · read each card, then sort it`, title: d.sortTitle || 'Which lesson does it come from?', ar: d.sortCats ? 'صَنِّفِ البِطَاقَاتِ' : 'مِنْ أَيِّ دَرْسٍ؟',
       categories: d.sortCats || [`${LA.code} · ${LA.title}`, `${LB.code} · ${LB.title}`], items: sortItems,
       answerSlide: { stage: 'feedback', min: 1, eyebrow: 'Step 2 · answers', title: d.sortCats ? 'Sort: answers' : 'Which lesson? Answers' },
       notes: `STEP 2 (4 min). Students read each card ALOUD (by invitation), then type its number in the chat with 1 or 2 (for example “card 3 → 2”). Then check the answer slide. Ask: “Which card could you use in BOTH lessons?” — this links the two lessons before Part 2.`,
